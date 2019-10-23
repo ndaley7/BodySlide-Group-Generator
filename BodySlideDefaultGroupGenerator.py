@@ -24,57 +24,95 @@ must not be misrepresented as being the original software.
 3. This notice may not be removed or altered from any source
 distribution.
 """
-
+#Import of Modules used
+import os
+import glob
 import csv 
-import requests 
+import requests
+ 
 import xml.etree.ElementTree as ET
 
-def loadRSS(): 
-  
-    # url of rss feed 
-    url = 'http://www.hindustantimes.com/rss/topnews/rssfeed.xml'
-  
-    # creating HTTP response object from given url 
-    resp = requests.get(url) 
-  
-    # saving the xml file 
-    with open('topnewsfeed.xml', 'wb') as f: 
-        f.write(resp.content) 
-          
-  
-def parseXML(xmlfile): 
-  
+#Global Variables
+
+g_bodyslideGroupedOutfitsOnly=set() #Non Repeating Set (Python) of all grouped outfits
+g_bodyslideGroupedOutfitsWGroup=set()#Set (Python) of Tuples (Python) Containing all Groups and Member outfits
+
+
+def LoadConfigXML(configFile): 
+    # Variables
+    bsPaths = []
     # create element tree object 
-    tree = ET.parse(xmlfile) 
+    tree = ET.parse(configFile) 
   
     # get root element 
     root = tree.getroot() 
-  
-    # create empty list for news items 
-    newsitems = [] 
-  
-    # iterate news items 
-    for item in root.findall('./channel/item'): 
-  
-        # empty news dictionary 
-        news = {} 
-  
-        # iterate child elements of item 
-        for child in item: 
-  
-            # special checking for namespace object content:media 
-            if child.tag == '{http://search.yahoo.com/mrss/}content': 
-                news['media'] = child.attrib['url'] 
-            else: 
-                news[child.tag] = child.text.encode('utf8') 
-  
-        # append news dictionary to news items list 
-        newsitems.append(news) 
-      
+   
+    #Append the two paths to the output array
+    
+    bsPaths.append(root[0].text)
+    bsPaths.append(root[1].text)  
+    # Test for path Existance and write out if good:
+
     # return news items list 
-    return newsitems 
-  
-  
+    return bsPaths
+
+def ParseGroupXML(fileWithPath):
+    #This fxn will accept a SliderGroups .xml file and add the contents to a running outfit list and a Master Grouping XML file
+    #Variables
+    fileListing=[]
+
+    #Load in XML Tree 
+    tree = ET.parse(fileWithPath) 
+    root = tree.getroot()
+
+    #Parse through every <Group> tag
+    for group in root.findall('Group'):
+        #g_bodyslideGroupedOutfitsOnly.add(group.name)
+        #Parse every <Member> tag
+        groupName=group.get('name')
+
+        for member in group.findall('Member'):
+            #Add Group and Member to a Tuple (Python) containing both values
+            memberName=member.get('name')
+            outfitGroupMember=(groupName,memberName)
+            g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
+
+            #Check if Member Outfit is already in the MasterList
+            if member.get('name') in g_bodyslideGroupedOutfitsOnly:
+                print("Already Added to Master List: "+member.get('name'))
+            else:
+                g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
+        
+
+    
+   
+    #Return the File List (With Full Path)   
+    return fileListing
+
+def GetFileList(filePath,fileExtension):
+    #Variables
+    fileListing=[]
+
+    #Get list of all files in the group folder (.xml)
+    os.chdir(filePath)
+    for file in glob.glob(fileExtension):
+        fileListing.append(filePath+file)
+        print(file)
+   
+    #Return the File List (With Full Path)   
+    return fileListing
+
+def CatalogGroupedOutfits(sliderGroupPath): 
+    #Variables
+    fileListing=[]
+    #Get list of all files in the group folder (.xml)
+    fileListing=GetFileList(sliderGroupPath,"*.xml")
+    #Parse through each file Adding Groups and Outfits to overall collection
+    for groupXML in fileListing: 
+      ParseGroupXML(groupXML)  
+    return True
+
+     
 def savetoCSV(newsitems, filename): 
   
     # specifying the fields for csv file 
@@ -93,14 +131,19 @@ def savetoCSV(newsitems, filename):
         writer.writerows(newsitems) 
   
       
-def main(): 
-    # Load Config File
-    configXML=parseXML('Config.xml')
-    
+def main():
+    #Initialize Variables
+    bodyslidePaths=[]
+      
+    #Load Config File
+    bodyslidePaths=LoadConfigXML('Config.xml')
+
     #Store SliderGroups and SliderSet Paths
-  
-    #Generate list of Already Grouped Outfits
+    sliderGroupPath=bodyslidePaths[0]
+    sliderSetPath=bodyslidePaths[1]
     
+    #Generate list of Already Grouped Outfits
+    CatalogGroupedOutfits(sliderGroupPath)
     #Generate new SliderGroup files for thos in the Unassigned BS Category
 
     #Writeout Status to console (Orignial Group # Final Group # Full Group List)
