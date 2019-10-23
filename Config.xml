@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SliderGroupGeneratorConfig>
+<!-- Game install path.  Normally this is harvested from the windows registry, but if that's not working
+	or you want to work with a different game, uncomment/change the below line.  Notice the important trailing slash. -->
+<!-- <GameDataPath>D:\steam\steamapps\common\skyrim\Data\</GameDataPath> 
+-->
+ <!-- Texture output path.  Normally this is the same as GameDataPath, but if you wish to specify an alternate
+	location where to save textures after blending, uncomment this and set the path accordingly. -->
+<!-- <TexOutputPath>C:\steam\steamapps\common\skyrim\Data\</TexOutputPath> 
+-->
+<!-- use installed texture files as the source textures by default.  convenience setting.  set to 1 to 
+	have TexBlend look in its local repository for source textures, set to 0 to get them from the game data folder -->
+	<SliderGroupsPath>F:\BodySlide\SliderGroups\</SliderGroupsPath>
+	
+<!-- Alpha matte for previewing modification textures with transparency.  The transparent parts will be set 
+	to this color when the image is displayed on the preview.  Possible values: white or black -->
+	<SliderSetPath>F:\BodySlide\SliderSets\</SliderSetPath>
+	
+<!-- PSD files save a white matte color with image data in areas of transparency.  This causes the actual color
+     for partially transparent pixels to be shifted toward white.  By default, TexBlend strips this premultiplied
+	 alpha from the image data.  However, it does not verify that the file does indeed have premult alpha, 
+	 so this ends up adversely impacting images where the premult alpha has already been removed. (In photoshop,
+		Layers->Matte->Strip White Matte can be used to save an image without premultiplied alpha)
+	  Normally, this value should be left at 0 (to remove this extra color data) but if you have files that
+	  have the matte removed, set this to 1 to preserve color quality.  Additionally, if this is already set at
+	  1 and you're seeing white halos around transparent blends, set this back to 0 to correct. -->
+	<NoStripPremultAlpha>0</NoStripPremultAlpha>
+	
+<!-- Enable Automatic head/neck seam fixing using CBBE v3 texture files.  Convenience function built
+	for CBBE version 3.  (very hard coded at this point to use specific files -->
+	<AutoHeadFix>false</AutoHeadFix>
+</SliderGroupGeneratorConfig>

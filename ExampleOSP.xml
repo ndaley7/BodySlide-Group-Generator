@@ -1,0 +1,10 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova Long Gloves [White]">
+        <DataFolder>Nova Long Gloves [White]</DataFolder>
+        <SourceFile>nova_arm02a_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_arm02a_ca</OutputFile>
+        <Shape target="Bracers1">Bracers1</Shape>
+        <Shape target="Gloves">Gloves</Shape>
+    </SliderSet>
+</SliderSetInfo>
