@@ -83,6 +83,9 @@ def ParseSliderGroupXML(fileWithPath):
             else:
                 g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
 
+#This function accepts a full Path .xml SliderSet File.  It checks against the Master Outfit Grouping list.
+#If the Outfits within the file are not grouped, they will be added to the master list and assigned a group named:
+#"XML FILENAME" + "SLIDERSET NAME"
 def ParseSliderSetXML(fileWithPath):
     #This fxn will accept a SliderSet .xml file and compare the contents to the outfit Masterlist
     #Variables
@@ -116,6 +119,9 @@ def ParseSliderSetXML(fileWithPath):
     #Return the File List (With Full Path)   
     return fileListing
 
+#This function accepts a full Path .osp SliderSet File.  It checks against the Master Outfit Grouping list.
+#If the Outfits within the file are not grouped, they will be added to the master list and assigned a group named:
+#"OSP FILENAME" + "SLIDERSET NAME"
 def ParseSliderSetOSP(fileWithPath):
     #This fxn will accept a SliderSet .osp file and compare the contents to the outfit Masterlist
     #Variables
@@ -197,6 +203,8 @@ def CheckSliderSetXML(sliderSetPath):
 def main():
     #Initialize Variables
     bodyslidePaths=[]
+    sliderSetXMLPaths=[]
+    sliderSetOSPPaths=[]
       
     #Load Config File
     bodyslidePaths=LoadConfigXML('Config.xml')
@@ -207,10 +215,20 @@ def main():
     
     #Generate list of Already Grouped Outfits
     CatalogGroupedOutfits(sliderGroupPath)
-    #Generate new SliderGroup files for thos in the Unassigned BS Category
+
+    #Generate lists of paths to .xml and .osp files in the SliderSet Folder
+    sliderSetXMLPaths=GetFileList(sliderSetPath,'*.xml')
+    sliderSetOSPPaths=GetFileList(sliderSetPath,'*.osp')
+
+    #Loop through lists of OSP and XML files and process them.
     #SliderSet XML Reader
+    for setXML in sliderSetXMLPaths: 
+      ParseSliderSetXML(setXML)
 
     #SliderSet OSP Reader
+    for setOSP in sliderSetOSPPaths: 
+      ParseSliderSetOSP(setOSP)
+
 
     #Writeout Status to console (Orignial Group # Final Group # Full Group List)
       
@@ -219,3 +237,9 @@ if __name__ == "__main__":
   
     # calling main function 
     main() 
+
+    #Errors to Try and Catch:
+    #Wrong Set folder location (Check for detection of Set format xml/osp files)
+    #Wrong Group folder location (Check for detection of Set format xml files)
+    #Check for Presence of the above paths in config.xml, if not present, ask for them
+    #Check for Presence of Masterlist
