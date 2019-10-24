@@ -1,0 +1,329 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Apron Damaged">
+        <DataFolder>Apron Damaged</DataFolder>
+        <SourceFile>Apron Damaged.nif</SourceFile>
+        <OutputPath>meshes\tsuzuki\Apron</OutputPath>
+        <OutputFile GenWeights="false">B_2</OutputFile>
+        <Shape target="Apron">Apron</Shape>
+        <Shape target="Body">Body</Shape>
+        <Shape target="Ornament">Ornament</Shape>
+        <Shape target="Skirt">Skirt</Shape>
+        <Shape target="WhiteLiquid">WhiteLiquid</Shape>
+        <Slider name="Breasts" invert="true" default="100">
+            <Data name="ApronBreasts" target="Apron" local="true">Apron Damaged.osd\ApronBreasts</Data>
+            <Data name="WhiteLiquidBreasts" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreasts</Data>
+            <Data name="BodyBreasts" target="Body" local="true">Apron Damaged.osd\BodyBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" default="100">
+            <Data name="SkirtBreastsSmall" target="Skirt" local="true">Apron Damaged.osd\SkirtBreastsSmall</Data>
+            <Data name="ApronBreastsSmall" target="Apron" local="true">Apron Damaged.osd\ApronBreastsSmall</Data>
+            <Data name="WhiteLiquidBreastsSmall" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastsSmall</Data>
+            <Data name="BodyBreastsSmall" target="Body" local="true">Apron Damaged.osd\BodyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" default="0">
+            <Data name="ApronBreastsSH" target="Apron" local="true">Apron Damaged.osd\ApronBreastsSH</Data>
+            <Data name="WhiteLiquidBreastsSH" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastsSH</Data>
+            <Data name="BodyBreastsSH" target="Body" local="true">Apron Damaged.osd\BodyBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" default="0">
+            <Data name="ApronBreastsSSH" target="Apron" local="true">Apron Damaged.osd\ApronBreastsSSH</Data>
+            <Data name="WhiteLiquidBreastsSSH" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastsSSH</Data>
+            <Data name="BodyBreastsSSH" target="Body" local="true">Apron Damaged.osd\BodyBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" default="0">
+            <Data name="ApronBreastsFantasy" target="Apron" local="true">Apron Damaged.osd\ApronBreastsFantasy</Data>
+            <Data name="WhiteLiquidBreastsFantasy" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastsFantasy</Data>
+            <Data name="BodyBreastsFantasy" target="Body" local="true">Apron Damaged.osd\BodyBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" default="0">
+            <Data name="ApronDoubleMelon" target="Apron" local="true">Apron Damaged.osd\ApronDoubleMelon</Data>
+            <Data name="WhiteLiquidDoubleMelon" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidDoubleMelon</Data>
+            <Data name="BodyDoubleMelon" target="Body" local="true">Apron Damaged.osd\BodyDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" default="0">
+            <Data name="ApronBreastCleavage" target="Apron" local="true">Apron Damaged.osd\ApronBreastCleavage</Data>
+            <Data name="WhiteLiquidBreastCleavage" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastCleavage</Data>
+            <Data name="BodyBreastCleavage" target="Body" local="true">Apron Damaged.osd\BodyBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" default="0">
+            <Data name="ApronBreastFlatness" target="Apron" local="true">Apron Damaged.osd\ApronBreastFlatness</Data>
+            <Data name="WhiteLiquidBreastFlatness" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastFlatness</Data>
+            <Data name="BodyBreastFlatness" target="Body" local="true">Apron Damaged.osd\BodyBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" default="0">
+            <Data name="ApronBreastGravity" target="Apron" local="true">Apron Damaged.osd\ApronBreastGravity</Data>
+            <Data name="WhiteLiquidBreastGravity" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastGravity</Data>
+            <Data name="BodyBreastGravity" target="Body" local="true">Apron Damaged.osd\BodyBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" default="0">
+            <Data name="ApronPushUp" target="Apron" local="true">Apron Damaged.osd\ApronPushUp</Data>
+            <Data name="WhiteLiquidPushUp" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidPushUp</Data>
+            <Data name="BodyPushUp" target="Body" local="true">Apron Damaged.osd\BodyPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" default="0">
+            <Data name="OrnamentBreastHeight" target="Ornament" local="true">Apron Damaged.osd\OrnamentBreastHeight</Data>
+            <Data name="SkirtBreastHeight" target="Skirt" local="true">Apron Damaged.osd\SkirtBreastHeight</Data>
+            <Data name="ApronBreastHeight" target="Apron" local="true">Apron Damaged.osd\ApronBreastHeight</Data>
+            <Data name="WhiteLiquidBreastHeight" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastHeight</Data>
+            <Data name="BodyBreastHeight" target="Body" local="true">Apron Damaged.osd\BodyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" default="0">
+            <Data name="ApronBreastPerkiness" target="Apron" local="true">Apron Damaged.osd\ApronBreastPerkiness</Data>
+            <Data name="WhiteLiquidBreastPerkiness" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastPerkiness</Data>
+            <Data name="BodyBreastPerkiness" target="Body" local="true">Apron Damaged.osd\BodyBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" default="0">
+            <Data name="ApronBreastWidth" target="Apron" local="true">Apron Damaged.osd\ApronBreastWidth</Data>
+            <Data name="WhiteLiquidBreastWidth" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBreastWidth</Data>
+            <Data name="BodyBreastWidth" target="Body" local="true">Apron Damaged.osd\BodyBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" default="100">
+            <Data name="ApronNippleDistance" target="Apron" local="true">Apron Damaged.osd\ApronNippleDistance</Data>
+            <Data name="WhiteLiquidNippleDistance" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNippleDistance</Data>
+            <Data name="BodyNippleDistance" target="Body" local="true">Apron Damaged.osd\BodyNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" default="0">
+            <Data name="ApronNipplePerkiness" target="Apron" local="true">Apron Damaged.osd\ApronNipplePerkiness</Data>
+            <Data name="WhiteLiquidNipplePerkiness" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNipplePerkiness</Data>
+            <Data name="BodyNipplePerkiness" target="Body" local="true">Apron Damaged.osd\BodyNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" default="0">
+            <Data name="ApronNippleLength" target="Apron" local="true">Apron Damaged.osd\ApronNippleLength</Data>
+            <Data name="WhiteLiquidNippleLength" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNippleLength</Data>
+            <Data name="BodyNippleLength" target="Body" local="true">Apron Damaged.osd\BodyNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" default="100">
+            <Data name="ApronNippleSize" target="Apron" local="true">Apron Damaged.osd\ApronNippleSize</Data>
+            <Data name="WhiteLiquidNippleSize" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNippleSize</Data>
+            <Data name="BodyNippleSize" target="Body" local="true">Apron Damaged.osd\BodyNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" default="0">
+            <Data name="ApronNippleAreola" target="Apron" local="true">Apron Damaged.osd\ApronNippleAreola</Data>
+            <Data name="WhiteLiquidNippleAreola" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNippleAreola</Data>
+            <Data name="BodyNippleAreola" target="Body" local="true">Apron Damaged.osd\BodyNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" default="0">
+            <Data name="ApronNippleUp" target="Apron" local="true">Apron Damaged.osd\ApronNippleUp</Data>
+            <Data name="WhiteLiquidNippleUp" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNippleUp</Data>
+            <Data name="BodyNippleUp" target="Body" local="true">Apron Damaged.osd\BodyNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" default="0">
+            <Data name="ApronNippleDown" target="Apron" local="true">Apron Damaged.osd\ApronNippleDown</Data>
+            <Data name="WhiteLiquidNippleDown" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNippleDown</Data>
+            <Data name="BodyNippleDown" target="Body" local="true">Apron Damaged.osd\BodyNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" default="0">
+            <Data name="ApronNippleTip" target="Apron" local="true">Apron Damaged.osd\ApronNippleTip</Data>
+            <Data name="WhiteLiquidNippleTip" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidNippleTip</Data>
+            <Data name="BodyNippleTip" target="Body" local="true">Apron Damaged.osd\BodyNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" default="100">
+            <Data name="ApronArms" target="Apron" local="true">Apron Damaged.osd\ApronArms</Data>
+            <Data name="WhiteLiquidArms" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidArms</Data>
+            <Data name="BodyArms" target="Body" local="true">Apron Damaged.osd\BodyArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" default="0">
+            <Data name="ApronChubbyArms" target="Apron" local="true">Apron Damaged.osd\ApronChubbyArms</Data>
+            <Data name="WhiteLiquidChubbyArms" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidChubbyArms</Data>
+            <Data name="BodyChubbyArms" target="Body" local="true">Apron Damaged.osd\BodyChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" default="0">
+            <Data name="ApronShoulderSmooth" target="Apron" local="true">Apron Damaged.osd\ApronShoulderSmooth</Data>
+            <Data name="WhiteLiquidShoulderSmooth" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidShoulderSmooth</Data>
+            <Data name="BodyShoulderSmooth" target="Body" local="true">Apron Damaged.osd\BodyShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" default="100">
+            <Data name="ApronShoulderWidth" target="Apron" local="true">Apron Damaged.osd\ApronShoulderWidth</Data>
+            <Data name="WhiteLiquidShoulderWidth" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidShoulderWidth</Data>
+            <Data name="BodyShoulderWidth" target="Body" local="true">Apron Damaged.osd\BodyShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" default="0">
+            <Data name="OrnamentBigTorso" target="Ornament" local="true">Apron Damaged.osd\OrnamentBigTorso</Data>
+            <Data name="SkirtBigTorso" target="Skirt" local="true">Apron Damaged.osd\SkirtBigTorso</Data>
+            <Data name="ApronBigTorso" target="Apron" local="true">Apron Damaged.osd\ApronBigTorso</Data>
+            <Data name="WhiteLiquidBigTorso" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBigTorso</Data>
+            <Data name="BodyBigTorso" target="Body" local="true">Apron Damaged.osd\BodyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" default="100">
+            <Data name="OrnamentWaist" target="Ornament" local="true">Apron Damaged.osd\OrnamentWaist</Data>
+            <Data name="SkirtWaist" target="Skirt" local="true">Apron Damaged.osd\SkirtWaist</Data>
+            <Data name="ApronWaist" target="Apron" local="true">Apron Damaged.osd\ApronWaist</Data>
+            <Data name="WhiteLiquidWaist" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidWaist</Data>
+            <Data name="BodyWaist" target="Body" local="true">Apron Damaged.osd\BodyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" default="0">
+            <Data name="OrnamentWideWaistLine" target="Ornament" local="true">Apron Damaged.osd\OrnamentWideWaistLine</Data>
+            <Data name="SkirtWideWaistLine" target="Skirt" local="true">Apron Damaged.osd\SkirtWideWaistLine</Data>
+            <Data name="ApronWideWaistLine" target="Apron" local="true">Apron Damaged.osd\ApronWideWaistLine</Data>
+            <Data name="WhiteLiquidWideWaistLine" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidWideWaistLine</Data>
+            <Data name="BodyWideWaistLine" target="Body" local="true">Apron Damaged.osd\BodyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" default="0">
+            <Data name="OrnamentChubbyWaist" target="Ornament" local="true">Apron Damaged.osd\OrnamentChubbyWaist</Data>
+            <Data name="SkirtChubbyWaist" target="Skirt" local="true">Apron Damaged.osd\SkirtChubbyWaist</Data>
+            <Data name="ApronChubbyWaist" target="Apron" local="true">Apron Damaged.osd\ApronChubbyWaist</Data>
+            <Data name="WhiteLiquidChubbyWaist" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidChubbyWaist</Data>
+            <Data name="BodyChubbyWaist" target="Body" local="true">Apron Damaged.osd\BodyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" default="0">
+            <Data name="SkirtBelly" target="Skirt" local="true">Apron Damaged.osd\SkirtBelly</Data>
+            <Data name="ApronBelly" target="Apron" local="true">Apron Damaged.osd\ApronBelly</Data>
+            <Data name="WhiteLiquidBelly" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBelly</Data>
+            <Data name="BodyBelly" target="Body" local="true">Apron Damaged.osd\BodyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" default="0">
+            <Data name="SkirtBigBelly" target="Skirt" local="true">Apron Damaged.osd\SkirtBigBelly</Data>
+            <Data name="ApronBigBelly" target="Apron" local="true">Apron Damaged.osd\ApronBigBelly</Data>
+            <Data name="WhiteLiquidBigBelly" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBigBelly</Data>
+            <Data name="BodyBigBelly" target="Body" local="true">Apron Damaged.osd\BodyBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" default="0">
+            <Data name="OrnamentPregnancyBelly" target="Ornament" local="true">Apron Damaged.osd\OrnamentPregnancyBelly</Data>
+            <Data name="SkirtPregnancyBelly" target="Skirt" local="true">Apron Damaged.osd\SkirtPregnancyBelly</Data>
+            <Data name="ApronPregnancyBelly" target="Apron" local="true">Apron Damaged.osd\ApronPregnancyBelly</Data>
+            <Data name="WhiteLiquidPregnancyBelly" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidPregnancyBelly</Data>
+            <Data name="BodyPregnancyBelly" target="Body" local="true">Apron Damaged.osd\BodyPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" default="0">
+            <Data name="SkirtTummyTuck" target="Skirt" local="true">Apron Damaged.osd\SkirtTummyTuck</Data>
+            <Data name="ApronTummyTuck" target="Apron" local="true">Apron Damaged.osd\ApronTummyTuck</Data>
+            <Data name="WhiteLiquidTummyTuck" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidTummyTuck</Data>
+            <Data name="BodyTummyTuck" target="Body" local="true">Apron Damaged.osd\BodyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" default="0">
+            <Data name="OrnamentBack" target="Ornament" local="true">Apron Damaged.osd\OrnamentBack</Data>
+            <Data name="SkirtBack" target="Skirt" local="true">Apron Damaged.osd\SkirtBack</Data>
+            <Data name="ApronBack" target="Apron" local="true">Apron Damaged.osd\ApronBack</Data>
+            <Data name="WhiteLiquidBack" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBack</Data>
+            <Data name="BodyBack" target="Body" local="true">Apron Damaged.osd\BodyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" default="0">
+            <Data name="OrnamentHipbone" target="Ornament" local="true">Apron Damaged.osd\OrnamentHipbone</Data>
+            <Data name="SkirtHipbone" target="Skirt" local="true">Apron Damaged.osd\SkirtHipbone</Data>
+            <Data name="ApronHipbone" target="Apron" local="true">Apron Damaged.osd\ApronHipbone</Data>
+            <Data name="WhiteLiquidHipbone" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidHipbone</Data>
+            <Data name="BodyHipbone" target="Body" local="true">Apron Damaged.osd\BodyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" default="0">
+            <Data name="OrnamentHips" target="Ornament" local="true">Apron Damaged.osd\OrnamentHips</Data>
+            <Data name="SkirtHips" target="Skirt" local="true">Apron Damaged.osd\SkirtHips</Data>
+            <Data name="ApronHips" target="Apron" local="true">Apron Damaged.osd\ApronHips</Data>
+            <Data name="WhiteLiquidHips" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidHips</Data>
+            <Data name="BodyHips" target="Body" local="true">Apron Damaged.osd\BodyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" default="100">
+            <Data name="OrnamentButtCrack" target="Ornament" local="true">Apron Damaged.osd\OrnamentButtCrack</Data>
+            <Data name="ApronButtCrack" target="Apron" local="true">Apron Damaged.osd\ApronButtCrack</Data>
+            <Data name="WhiteLiquidButtCrack" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidButtCrack</Data>
+            <Data name="BodyButtCrack" target="Body" local="true">Apron Damaged.osd\BodyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" default="100">
+            <Data name="OrnamentButt" target="Ornament" local="true">Apron Damaged.osd\OrnamentButt</Data>
+            <Data name="SkirtButt" target="Skirt" local="true">Apron Damaged.osd\SkirtButt</Data>
+            <Data name="ApronButt" target="Apron" local="true">Apron Damaged.osd\ApronButt</Data>
+            <Data name="WhiteLiquidButt" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidButt</Data>
+            <Data name="BodyButt" target="Body" local="true">Apron Damaged.osd\BodyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" default="100">
+            <Data name="OrnamentButtSmall" target="Ornament" local="true">Apron Damaged.osd\OrnamentButtSmall</Data>
+            <Data name="SkirtButtSmall" target="Skirt" local="true">Apron Damaged.osd\SkirtButtSmall</Data>
+            <Data name="ApronButtSmall" target="Apron" local="true">Apron Damaged.osd\ApronButtSmall</Data>
+            <Data name="WhiteLiquidButtSmall" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidButtSmall</Data>
+            <Data name="BodyButtSmall" target="Body" local="true">Apron Damaged.osd\BodyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" default="0">
+            <Data name="OrnamentButtShape2" target="Ornament" local="true">Apron Damaged.osd\OrnamentButtShape2</Data>
+            <Data name="SkirtButtShape2" target="Skirt" local="true">Apron Damaged.osd\SkirtButtShape2</Data>
+            <Data name="ApronButtShape2" target="Apron" local="true">Apron Damaged.osd\ApronButtShape2</Data>
+            <Data name="WhiteLiquidButtShape2" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidButtShape2</Data>
+            <Data name="BodyButtShape2" target="Body" local="true">Apron Damaged.osd\BodyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" default="0">
+            <Data name="OrnamentBigButt" target="Ornament" local="true">Apron Damaged.osd\OrnamentBigButt</Data>
+            <Data name="SkirtBigButt" target="Skirt" local="true">Apron Damaged.osd\SkirtBigButt</Data>
+            <Data name="ApronBigButt" target="Apron" local="true">Apron Damaged.osd\ApronBigButt</Data>
+            <Data name="WhiteLiquidBigButt" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidBigButt</Data>
+            <Data name="BodyBigButt" target="Body" local="true">Apron Damaged.osd\BodyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" default="0">
+            <Data name="OrnamentChubbyButt" target="Ornament" local="true">Apron Damaged.osd\OrnamentChubbyButt</Data>
+            <Data name="SkirtChubbyButt" target="Skirt" local="true">Apron Damaged.osd\SkirtChubbyButt</Data>
+            <Data name="ApronChubbyButt" target="Apron" local="true">Apron Damaged.osd\ApronChubbyButt</Data>
+            <Data name="WhiteLiquidChubbyButt" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidChubbyButt</Data>
+            <Data name="BodyChubbyButt" target="Body" local="true">Apron Damaged.osd\BodyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" default="0">
+            <Data name="OrnamentAppleCheeks" target="Ornament" local="true">Apron Damaged.osd\OrnamentAppleCheeks</Data>
+            <Data name="SkirtAppleCheeks" target="Skirt" local="true">Apron Damaged.osd\SkirtAppleCheeks</Data>
+            <Data name="ApronAppleCheeks" target="Apron" local="true">Apron Damaged.osd\ApronAppleCheeks</Data>
+            <Data name="WhiteLiquidAppleCheeks" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidAppleCheeks</Data>
+            <Data name="BodyAppleCheeks" target="Body" local="true">Apron Damaged.osd\BodyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" default="0">
+            <Data name="OrnamentRoundAss" target="Ornament" local="true">Apron Damaged.osd\OrnamentRoundAss</Data>
+            <Data name="ApronRoundAss" target="Apron" local="true">Apron Damaged.osd\ApronRoundAss</Data>
+            <Data name="WhiteLiquidRoundAss" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidRoundAss</Data>
+            <Data name="BodyRoundAss" target="Body" local="true">Apron Damaged.osd\BodyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" default="0">
+            <Data name="SkirtGroin" target="Skirt" local="true">Apron Damaged.osd\SkirtGroin</Data>
+            <Data name="WhiteLiquidGroin" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidGroin</Data>
+            <Data name="BodyGroin" target="Body" local="true">Apron Damaged.osd\BodyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" default="0">
+            <Data name="OrnamentSlimThighs" target="Ornament" local="true">Apron Damaged.osd\OrnamentSlimThighs</Data>
+            <Data name="SkirtSlimThighs" target="Skirt" local="true">Apron Damaged.osd\SkirtSlimThighs</Data>
+            <Data name="ApronSlimThighs" target="Apron" local="true">Apron Damaged.osd\ApronSlimThighs</Data>
+            <Data name="WhiteLiquidSlimThighs" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidSlimThighs</Data>
+            <Data name="BodySlimThighs" target="Body" local="true">Apron Damaged.osd\BodySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" default="0">
+            <Data name="OrnamentThighs" target="Ornament" local="true">Apron Damaged.osd\OrnamentThighs</Data>
+            <Data name="SkirtThighs" target="Skirt" local="true">Apron Damaged.osd\SkirtThighs</Data>
+            <Data name="ApronThighs" target="Apron" local="true">Apron Damaged.osd\ApronThighs</Data>
+            <Data name="WhiteLiquidThighs" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidThighs</Data>
+            <Data name="BodyThighs" target="Body" local="true">Apron Damaged.osd\BodyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" default="0">
+            <Data name="OrnamentChubbyLegs" target="Ornament" local="true">Apron Damaged.osd\OrnamentChubbyLegs</Data>
+            <Data name="SkirtChubbyLegs" target="Skirt" local="true">Apron Damaged.osd\SkirtChubbyLegs</Data>
+            <Data name="ApronChubbyLegs" target="Apron" local="true">Apron Damaged.osd\ApronChubbyLegs</Data>
+            <Data name="WhiteLiquidChubbyLegs" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidChubbyLegs</Data>
+            <Data name="BodyChubbyLegs" target="Body" local="true">Apron Damaged.osd\BodyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" default="100">
+            <Data name="OrnamentLegs" target="Ornament" local="true">Apron Damaged.osd\OrnamentLegs</Data>
+            <Data name="SkirtLegs" target="Skirt" local="true">Apron Damaged.osd\SkirtLegs</Data>
+            <Data name="ApronLegs" target="Apron" local="true">Apron Damaged.osd\ApronLegs</Data>
+            <Data name="WhiteLiquidLegs" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidLegs</Data>
+            <Data name="BodyLegs" target="Body" local="true">Apron Damaged.osd\BodyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" default="0">
+            <Data name="SkirtKneeHeight" target="Skirt" local="true">Apron Damaged.osd\SkirtKneeHeight</Data>
+            <Data name="WhiteLiquidKneeHeight" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidKneeHeight</Data>
+            <Data name="BodyKneeHeight" target="Body" local="true">Apron Damaged.osd\BodyKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" default="0">
+            <Data name="WhiteLiquidCalfSize" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidCalfSize</Data>
+            <Data name="BodyCalfSize" target="Body" local="true">Apron Damaged.osd\BodyCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" default="0">
+            <Data name="WhiteLiquidCalfSmooth" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidCalfSmooth</Data>
+            <Data name="BodyCalfSmooth" target="Body" local="true">Apron Damaged.osd\BodyCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" default="100">
+            <Data name="WhiteLiquidAnkles" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidAnkles</Data>
+            <Data name="BodyAnkles" target="Body" local="true">Apron Damaged.osd\BodyAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" default="0" hidden="true">
+            <Data name="ApronSmallSeam" target="Apron" local="true">Apron Damaged.osd\ApronSmallSeam</Data>
+            <Data name="WhiteLiquidSmallSeam" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidSmallSeam</Data>
+            <Data name="BodySmallSeam" target="Body" local="true">Apron Damaged.osd\BodySmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" default="100" hidden="true">
+            <Data name="ApronShoulderTweak" target="Apron" local="true">Apron Damaged.osd\ApronShoulderTweak</Data>
+            <Data name="WhiteLiquidShoulderTweak" target="WhiteLiquid" local="true">Apron Damaged.osd\WhiteLiquidShoulderTweak</Data>
+            <Data name="BodyShoulderTweak" target="Body" local="true">Apron Damaged.osd\BodyShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

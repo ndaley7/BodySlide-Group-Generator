@@ -1,0 +1,49 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Angel Vixen Gloves">
+        <DataFolder>Angel Vixen Gloves</DataFolder>
+        <SourceFile>angvixhandtb.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">angvixhandtb</OutputFile>
+        <Shape target="Bracers">Bracers</Shape>
+        <Shape target="BracersAddon">BracersAddon</Shape>
+        <Shape target="FemaleHands" DataFolder="Angel Vixen Gloves">FemaleHands</Shape>
+        <Shape target="Gloves">Gloves</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BracersArms" target="Bracers" local="true">angvixhandtb.osd\BracersArms</Data>
+            <Data name="BracersAddonArms" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BracersChubbyArms" target="Bracers" local="true">angvixhandtb.osd\BracersChubbyArms</Data>
+            <Data name="BracersAddonChubbyArms" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BracersShoulderWidth" target="Bracers" local="true">angvixhandtb.osd\BracersShoulderWidth</Data>
+            <Data name="BracersAddonShoulderWidth" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BracersBigTorso" target="Bracers" local="true">angvixhandtb.osd\BracersBigTorso</Data>
+            <Data name="BracersAddonBigTorso" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonBigTorso</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="FemaleHandsTummyTuck" target="FemaleHands" local="true">angvixhandtb.osd\FemaleHandsTummyTuck</Data>
+            <Data name="BracersTummyTuck" target="Bracers" local="true">angvixhandtb.osd\BracersTummyTuck</Data>
+            <Data name="BracersAddonTummyTuck" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonTummyTuck</Data>
+            <Data name="GlovesTummyTuck" target="Gloves" local="true">angvixhandtb.osd\GlovesTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BracersAddonBack" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonBack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="FemaleHandsButt" target="FemaleHands" local="true">angvixhandtb.osd\FemaleHandsButt</Data>
+            <Data name="BracersButt" target="Bracers" local="true">angvixhandtb.osd\BracersButt</Data>
+            <Data name="BracersAddonButt" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonButt</Data>
+            <Data name="GlovesButt" target="Gloves" local="true">angvixhandtb.osd\GlovesButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FemaleHandsSmallSeam" target="FemaleHands" local="true">angvixhandtb.osd\FemaleHandsSmallSeam</Data>
+            <Data name="BracersSmallSeam" target="Bracers" local="true">angvixhandtb.osd\BracersSmallSeam</Data>
+            <Data name="BracersAddonSmallSeam" target="BracersAddon" local="true">angvixhandtb.osd\BracersAddonSmallSeam</Data>
+            <Data name="GlovesSmallSeam" target="Gloves" local="true">angvixhandtb.osd\GlovesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

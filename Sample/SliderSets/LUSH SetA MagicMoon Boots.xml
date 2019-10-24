@@ -1,0 +1,106 @@
+<SliderSetInfo>
+    <SliderSet name="LUSH SetA MagicMoon Boots">
+        <SetFolder>\LUSH\SetA\LUSH MagicMoon Boots</SetFolder>
+        <SourceFile>Boots.nif</SourceFile>
+        <OutputPath>meshes\LUSH\magicmoon\</OutputPath>
+        <OutputFile>boots</OutputFile>
+        <BaseShapeName target="boots base">boots base</BaseShapeName>
+        <BaseShapeName target="boots base001">boots base001</BaseShapeName>
+        <BaseShapeName target="femalefeet">femalefeet</BaseShapeName>
+        <BaseShapeName target="femalefeet001">femalefeet001</BaseShapeName>
+        <BaseShapeName target="xxx.002">xxx.002</BaseShapeName>
+        <BaseShapeName target="xxx.003">xxx.003</BaseShapeName>
+        <BaseShapeName target="xxx001">xxx001</BaseShapeName>
+        <BaseShapeName target="xxx004">xxx004</BaseShapeName>
+        <BaseShapeName target="xxx007">xxx007</BaseShapeName>
+        <BaseShapeName target="xxx008">xxx008</BaseShapeName>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="xxx008PregnancyBelly" target="xxx008" local="true">xxx008PregnancyBelly.bsd</datafile>
+            <datafile name="xxx007PregnancyBelly" target="xxx007" local="true">xxx007PregnancyBelly.bsd</datafile>
+            <datafile name="xxx004PregnancyBelly" target="xxx004" local="true">xxx004PregnancyBelly.bsd</datafile>
+            <datafile name="xxx.003PregnancyBelly" target="xxx.003" local="true">xxx.003PregnancyBelly.bsd</datafile>
+            <datafile name="boots base001PregnancyBelly" target="boots base001" local="true">boots base001PregnancyBelly.bsd</datafile>
+            <datafile name="xxx001PregnancyBelly" target="xxx001" local="true">xxx001PregnancyBelly.bsd</datafile>
+            <datafile name="boots basePregnancyBelly" target="boots base" local="true">boots basePregnancyBelly.bsd</datafile>
+            <datafile name="xxx.002PregnancyBelly" target="xxx.002" local="true">xxx.002PregnancyBelly.bsd</datafile>
+            <datafile name="femalefeetPregnancyBelly" target="femalefeet" local="true">femalefeetPregnancyBelly.bsd</datafile>
+            <datafile name="femalefeet001PregnancyBelly" target="femalefeet001" local="true">femalefeet001PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="xxx008ChubbyLegs" target="xxx008" local="true">xxx008ChubbyLegs.bsd</datafile>
+            <datafile name="xxx007ChubbyLegs" target="xxx007" local="true">xxx007ChubbyLegs.bsd</datafile>
+            <datafile name="xxx004ChubbyLegs" target="xxx004" local="true">xxx004ChubbyLegs.bsd</datafile>
+            <datafile name="boots base001ChubbyLegs" target="boots base001" local="true">boots base001ChubbyLegs.bsd</datafile>
+            <datafile name="xxx001ChubbyLegs" target="xxx001" local="true">xxx001ChubbyLegs.bsd</datafile>
+            <datafile name="boots baseChubbyLegs" target="boots base" local="true">boots baseChubbyLegs.bsd</datafile>
+            <datafile name="femalefeetChubbyLegs" target="femalefeet" local="true">femalefeetChubbyLegs.bsd</datafile>
+            <datafile name="femalefeet001ChubbyLegs" target="femalefeet001" local="true">femalefeet001ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="xxx008Legs" target="xxx008" local="true">xxx008Legs.bsd</datafile>
+            <datafile name="xxx007Legs" target="xxx007" local="true">xxx007Legs.bsd</datafile>
+            <datafile name="xxx004Legs" target="xxx004" local="true">xxx004Legs.bsd</datafile>
+            <datafile name="xxx.003Legs" target="xxx.003" local="true">xxx.003Legs.bsd</datafile>
+            <datafile name="boots base001Legs" target="boots base001" local="true">boots base001Legs.bsd</datafile>
+            <datafile name="xxx001Legs" target="xxx001" local="true">xxx001Legs.bsd</datafile>
+            <datafile name="boots baseLegs" target="boots base" local="true">boots baseLegs.bsd</datafile>
+            <datafile name="xxx.002Legs" target="xxx.002" local="true">xxx.002Legs.bsd</datafile>
+            <datafile name="femalefeetLegs" target="femalefeet" local="true">femalefeetLegs.bsd</datafile>
+            <datafile name="femalefeet001Legs" target="femalefeet001" local="true">femalefeet001Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="xxx008KneeHeight" target="xxx008" local="true">xxx008KneeHeight.bsd</datafile>
+            <datafile name="xxx007KneeHeight" target="xxx007" local="true">xxx007KneeHeight.bsd</datafile>
+            <datafile name="xxx004KneeHeight" target="xxx004" local="true">xxx004KneeHeight.bsd</datafile>
+            <datafile name="boots base001KneeHeight" target="boots base001" local="true">boots base001KneeHeight.bsd</datafile>
+            <datafile name="xxx001KneeHeight" target="xxx001" local="true">xxx001KneeHeight.bsd</datafile>
+            <datafile name="boots baseKneeHeight" target="boots base" local="true">boots baseKneeHeight.bsd</datafile>
+            <datafile name="femalefeetKneeHeight" target="femalefeet" local="true">femalefeetKneeHeight.bsd</datafile>
+            <datafile name="femalefeet001KneeHeight" target="femalefeet001" local="true">femalefeet001KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="xxx008CalfSize" target="xxx008" local="true">xxx008CalfSize.bsd</datafile>
+            <datafile name="xxx007CalfSize" target="xxx007" local="true">xxx007CalfSize.bsd</datafile>
+            <datafile name="xxx004CalfSize" target="xxx004" local="true">xxx004CalfSize.bsd</datafile>
+            <datafile name="boots base001CalfSize" target="boots base001" local="true">boots base001CalfSize.bsd</datafile>
+            <datafile name="xxx001CalfSize" target="xxx001" local="true">xxx001CalfSize.bsd</datafile>
+            <datafile name="boots baseCalfSize" target="boots base" local="true">boots baseCalfSize.bsd</datafile>
+            <datafile name="femalefeetCalfSize" target="femalefeet" local="true">femalefeetCalfSize.bsd</datafile>
+            <datafile name="femalefeet001CalfSize" target="femalefeet001" local="true">femalefeet001CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="xxx008CalfSmooth" target="xxx008" local="true">xxx008CalfSmooth.bsd</datafile>
+            <datafile name="xxx007CalfSmooth" target="xxx007" local="true">xxx007CalfSmooth.bsd</datafile>
+            <datafile name="xxx004CalfSmooth" target="xxx004" local="true">xxx004CalfSmooth.bsd</datafile>
+            <datafile name="boots base001CalfSmooth" target="boots base001" local="true">boots base001CalfSmooth.bsd</datafile>
+            <datafile name="xxx001CalfSmooth" target="xxx001" local="true">xxx001CalfSmooth.bsd</datafile>
+            <datafile name="boots baseCalfSmooth" target="boots base" local="true">boots baseCalfSmooth.bsd</datafile>
+            <datafile name="femalefeetCalfSmooth" target="femalefeet" local="true">femalefeetCalfSmooth.bsd</datafile>
+            <datafile name="femalefeet001CalfSmooth" target="femalefeet001" local="true">femalefeet001CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="xxx008Ankles" target="xxx008" local="true">xxx008Ankles.bsd</datafile>
+            <datafile name="xxx007Ankles" target="xxx007" local="true">xxx007Ankles.bsd</datafile>
+            <datafile name="xxx004Ankles" target="xxx004" local="true">xxx004Ankles.bsd</datafile>
+            <datafile name="xxx.003Ankles" target="xxx.003" local="true">xxx.003Ankles.bsd</datafile>
+            <datafile name="boots base001Ankles" target="boots base001" local="true">boots base001Ankles.bsd</datafile>
+            <datafile name="xxx001Ankles" target="xxx001" local="true">xxx001Ankles.bsd</datafile>
+            <datafile name="boots baseAnkles" target="boots base" local="true">boots baseAnkles.bsd</datafile>
+            <datafile name="xxx.002Ankles" target="xxx.002" local="true">xxx.002Ankles.bsd</datafile>
+            <datafile name="femalefeetAnkles" target="femalefeet" local="true">femalefeetAnkles.bsd</datafile>
+            <datafile name="femalefeet001Ankles" target="femalefeet001" local="true">femalefeet001Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="xxx008SmallSeam" target="xxx008" local="true">xxx008SmallSeam.bsd</datafile>
+            <datafile name="xxx007SmallSeam" target="xxx007" local="true">xxx007SmallSeam.bsd</datafile>
+            <datafile name="xxx004SmallSeam" target="xxx004" local="true">xxx004SmallSeam.bsd</datafile>
+            <datafile name="xxx.003SmallSeam" target="xxx.003" local="true">xxx.003SmallSeam.bsd</datafile>
+            <datafile name="boots base001SmallSeam" target="boots base001" local="true">boots base001SmallSeam.bsd</datafile>
+            <datafile name="xxx001SmallSeam" target="xxx001" local="true">xxx001SmallSeam.bsd</datafile>
+            <datafile name="boots baseSmallSeam" target="boots base" local="true">boots baseSmallSeam.bsd</datafile>
+            <datafile name="xxx.002SmallSeam" target="xxx.002" local="true">xxx.002SmallSeam.bsd</datafile>
+            <datafile name="femalefeetSmallSeam" target="femalefeet" local="true">femalefeetSmallSeam.bsd</datafile>
+            <datafile name="femalefeet001SmallSeam" target="femalefeet001" local="true">femalefeet001SmallSeam.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

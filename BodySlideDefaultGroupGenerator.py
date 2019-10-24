@@ -56,7 +56,7 @@ def LoadConfigXML(configFile):
     # return news items list 
     return bsPaths
 
-def ParseGroupXML(fileWithPath):
+def ParseSliderGroupXML(fileWithPath):
     #This fxn will accept a SliderGroups .xml file and add the contents to a running outfit list and a Master Grouping XML file
     #Variables
     fileListing=[]
@@ -79,7 +79,34 @@ def ParseGroupXML(fileWithPath):
 
             #Check if Member Outfit is already in the MasterList
             if member.get('name') in g_bodyslideGroupedOutfitsOnly:
-                print("Already Added to Master List: "+member.get('name'))
+                print("Already Added to Master: "+member.get('name'))
+            else:
+                g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
+
+def ParseSliderSetXML(fileWithPath):
+    #This fxn will accept a SliderSet .xml file and compare the contents to the outfit Masterlist
+    #Variables
+    fileListing=[]
+
+    #Load in XML Tree 
+    tree = ET.parse(fileWithPath) 
+    root = tree.getroot()
+
+    #Parse through every <Group> tag
+    for group in root.findall('Group'):
+        #g_bodyslideGroupedOutfitsOnly.add(group.name)
+        #Parse every <Member> tag
+        groupName=group.get('name')
+
+        for member in group.findall('Member'):
+            #Add Group and Member to a Tuple (Python) containing both values
+            memberName=member.get('name')
+            outfitGroupMember=(groupName,memberName)
+            g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
+
+            #Check if Member Outfit is already in the MasterList
+            if member.get('name') in g_bodyslideGroupedOutfitsOnly:
+                print("Already Added to Master: "+member.get('name'))
             else:
                 g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
         
@@ -89,11 +116,41 @@ def ParseGroupXML(fileWithPath):
     #Return the File List (With Full Path)   
     return fileListing
 
+def ParseSliderSetOSP(fileWithPath):
+    #This fxn will accept a SliderSet .osp file and compare the contents to the outfit Masterlist
+    #Variables
+    fileListing=[]
+
+    #Load in XML Tree 
+    tree = ET.parse(fileWithPath) 
+    root = tree.getroot()
+
+    #Parse through every <Group> tag
+    for group in root.findall('Group'):
+        #g_bodyslideGroupedOutfitsOnly.add(group.name)
+        #Parse every <Member> tag
+        groupName=group.get('name')
+
+        for member in group.findall('Member'):
+            #Add Group and Member to a Tuple (Python) containing both values
+            memberName=member.get('name')
+            outfitGroupMember=(groupName,memberName)
+            g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
+
+            #Check if Member Outfit is already in the MasterList
+            if member.get('name') in g_bodyslideGroupedOutfitsOnly:
+                print("Already Added to Master: "+member.get('name'))
+            else:
+                g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
+
+    #Return the File List (With Full Path)   
+    return fileListing
+
 def GetFileList(filePath,fileExtension):
     #Variables
     fileListing=[]
 
-    #Get list of all files in the group folder (.xml)
+    #Get list of all files in the group folder (.fileExtension)
     os.chdir(filePath)
     for file in glob.glob(fileExtension):
         fileListing.append(filePath+file)
@@ -102,33 +159,39 @@ def GetFileList(filePath,fileExtension):
     #Return the File List (With Full Path)   
     return fileListing
 
-def CatalogGroupedOutfits(sliderGroupPath): 
+def CatalogGroupedOutfits(sliderGroupPath):
+    #This function generates the list of XML files in the SliderGroup Folder and passes them to be Parsed
     #Variables
     fileListing=[]
     #Get list of all files in the group folder (.xml)
     fileListing=GetFileList(sliderGroupPath,"*.xml")
     #Parse through each file Adding Groups and Outfits to overall collection
     for groupXML in fileListing: 
-      ParseGroupXML(groupXML)  
+      ParseSliderGroupXML(groupXML)  
+    return True
+
+def CheckSliderSetOSP(sliderSetPath): 
+    #Variables
+    fileListing=[]
+    #Get list of all files in the group folder (.osp)
+    fileListing=GetFileList(sliderSetPath,"*.osp")
+    #Parse through each file Adding Groups and Outfits to overall collection
+    for groupXML in fileListing: 
+      ParseSliderSetOSP(groupXML)  
+    return True
+
+def CheckSliderSetXML(sliderSetPath): 
+    #Variables
+    fileListing=[]
+    #Get list of all files in the group folder (.xml)
+    fileListing=GetFileList(sliderSetPath,"*.xml")
+    #Parse through each file Adding Groups and Outfits to overall collection
+    for groupXML in fileListing: 
+      ParseSliderSetXML(groupXML)  
     return True
 
      
-def savetoCSV(newsitems, filename): 
-  
-    # specifying the fields for csv file 
-    fields = ['guid', 'title', 'pubDate', 'description', 'link', 'media'] 
-  
-    # writing to csv file 
-    with open(filename, 'w') as csvfile: 
-  
-        # creating a csv dict writer object 
-        writer = csv.DictWriter(csvfile, fieldnames = fields) 
-  
-        # writing headers (field names) 
-        writer.writeheader() 
-  
-        # writing data rows 
-        writer.writerows(newsitems) 
+
   
       
 def main():
@@ -145,6 +208,9 @@ def main():
     #Generate list of Already Grouped Outfits
     CatalogGroupedOutfits(sliderGroupPath)
     #Generate new SliderGroup files for thos in the Unassigned BS Category
+    #SliderSet XML Reader
+
+    #SliderSet OSP Reader
 
     #Writeout Status to console (Orignial Group # Final Group # Full Group List)
       
