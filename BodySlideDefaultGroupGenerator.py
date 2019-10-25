@@ -26,6 +26,7 @@ distribution.
 """
 #Import of Modules used
 import os
+import ntpath
 import glob
 import csv 
 import requests
@@ -131,23 +132,19 @@ def ParseSliderSetOSP(fileWithPath):
     tree = ET.parse(fileWithPath) 
     root = tree.getroot()
 
-    #Parse through every <Group> tag
-    for group in root.findall('Group'):
-        #g_bodyslideGroupedOutfitsOnly.add(group.name)
-        #Parse every <Member> tag
-        groupName=group.get('name')
-
-        for member in group.findall('Member'):
-            #Add Group and Member to a Tuple (Python) containing both values
-            memberName=member.get('name')
+    #Assign Potential Group Name
+    
+    #Parse through every <SliderSet> tag
+    for sliderSet in root.findall('SliderSet'):
+        
+        #Check if SliderSet Outfit is already in the MasterList
+        if sliderSet.get('name') in g_bodyslideGroupedOutfitsOnly:
+            print("SliderSet Present in Master: "+member.get('name'))
+        else:
             outfitGroupMember=(groupName,memberName)
             g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
-
-            #Check if Member Outfit is already in the MasterList
-            if member.get('name') in g_bodyslideGroupedOutfitsOnly:
-                print("Already Added to Master: "+member.get('name'))
-            else:
-                g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
+            g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
+           
 
     #Return the File List (With Full Path)   
     return fileListing
@@ -182,8 +179,8 @@ def CheckSliderSetOSP(sliderSetPath):
     #Get list of all files in the group folder (.osp)
     fileListing=GetFileList(sliderSetPath,"*.osp")
     #Parse through each file Adding Groups and Outfits to overall collection
-    for groupXML in fileListing: 
-      ParseSliderSetOSP(groupXML)  
+    for setOSP in fileListing: 
+      ParseSliderSetOSP(setOSP)  
     return True
 
 def CheckSliderSetXML(sliderSetPath): 
@@ -192,8 +189,8 @@ def CheckSliderSetXML(sliderSetPath):
     #Get list of all files in the group folder (.xml)
     fileListing=GetFileList(sliderSetPath,"*.xml")
     #Parse through each file Adding Groups and Outfits to overall collection
-    for groupXML in fileListing: 
-      ParseSliderSetXML(groupXML)  
+    for setXML in fileListing: 
+      ParseSliderSetXML(setXML)  
     return True
 
      
