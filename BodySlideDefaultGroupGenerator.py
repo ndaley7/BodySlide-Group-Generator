@@ -30,20 +30,57 @@ import ntpath
 import glob
 import csv 
 import requests
+#import lxml
  
-import xml.etree.ElementTree as ET
+import lxml.etree as ET
+#parser = ET.XMLParser(encoding="utf-8")
+#tree = ET.fromstring(xmlstring, parser=parser)
 
 #Global Variables
 
 g_bodyslideGroupedOutfitsOnly=set() #Non Repeating Set (Python) of all grouped outfits
 g_bodyslideGroupedOutfitsWGroup=set()#Set (Python) of Tuples (Python) Containing all Groups and Member outfits
 
+g_xmlEncodingString="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+#Accepts an XML format file with full path and checks for the presence of the XML encoding at the beginning of the document.
+#Assuming encoding: for windows 10
+def XMLEncodingConfirm(checkFile):
+
+    f = open(checkFile, 'r')
+    line = f.readline()
+
+    if g_xmlEncodingString in line:
+        f.close()
+    else:
+        f.close()
+        with open(checkFile, 'r') as original: data = original.read()
+        with open(checkFile, 'w') as modified: modified.write(g_xmlEncodingString+"\n" + data)
+
+    #Check for the presence of double hyphens "--" in the comments:
+
+    f = open(checkFile,'r')
+    filedata = f.read()
+    f.close()
+
+    newdata1 = filedata.replace("<!--","<!xx")
+    newdata1a = newdata1.replace("-->","xx>")
+    newdata2 = newdata1a.replace("--","  ")
+    newdata3 = newdata2.replace("xx>","-->")
+    newdata3a = newdata3.replace("<!xx","<!--")
+    newdata3b = newdata3a.replace("--->","-->")
+
+    f = open(checkFile,'w')
+    f.write(newdata3b)
+    f.close()
+
 
 def LoadConfigXML(configFile): 
     # Variables
     bsPaths = []
-    # create element tree object 
-    tree = ET.parse(configFile) 
+    # create element tree object
+    parser = ET.XMLParser(remove_comments=True)
+    tree = ET.parse(configFile,parser=parser) 
+    
   
     # get root element 
     root = tree.getroot() 
@@ -63,7 +100,11 @@ def ParseSliderGroupXML(fileWithPath):
     fileListing=[]
 
     #Load in XML Tree 
-    tree = ET.parse(fileWithPath) 
+    #with open(fileWithPath, 'r') as xml_file:
+        #tree = ET.fromstring(xml_file.read())
+    #XMLEncodingConfirm(fileWithPath)
+    parser = ET.XMLParser(remove_comments=True)
+    tree = ET.parse(fileWithPath,parser=parser) 
     root = tree.getroot()
 
     #Parse through every <Group> tag
@@ -87,8 +128,8 @@ def ParseSliderGroupXML(fileWithPath):
 #This function accepts a full Path .xml SliderSet File.  It checks against the Master Outfit Grouping list.
 #If the Outfits within the file are not grouped, they will be added to the master list and assigned a group named:
 #"XML FILENAME" + "SLIDERSET NAME"
-def ParseSliderSetXML(fileWithPath):
-    #This fxn will accept a SliderSet .xml file and compare the contents to the outfit Masterlist
+def ParseSliderSet(fileWithPath,fileName):
+     #This fxn will accept a SliderSet .xml file and compare the contents to the outfit Masterlist
     #Variables
     fileListing=[]
 
@@ -96,34 +137,29 @@ def ParseSliderSetXML(fileWithPath):
     tree = ET.parse(fileWithPath) 
     root = tree.getroot()
 
-    #Parse through every <Group> tag
-    for group in root.findall('Group'):
-        #g_bodyslideGroupedOutfitsOnly.add(group.name)
-        #Parse every <Member> tag
-        groupName=group.get('name')
-
-        for member in group.findall('Member'):
-            #Add Group and Member to a Tuple (Python) containing both values
-            memberName=member.get('name')
+    #Assign Potential Group Name
+    #Extract the name of the current file it is in for the group
+    groupName=fileName;
+    #Parse through every <SliderSet> tag
+    for sliderSet in root.findall('SliderSet'):
+        
+        #Check if SliderSet Outfit is already in the MasterList
+        if sliderSet.get('name') in g_bodyslideGroupedOutfitsOnly:
+            print("SliderSet Present in Master: "+sliderSet.get('name'))
+        else:
+            memberName=sliderSet.get('name')
             outfitGroupMember=(groupName,memberName)
             g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
+            g_bodyslideGroupedOutfitsOnly.add(memberName)
+           
 
-            #Check if Member Outfit is already in the MasterList
-            if member.get('name') in g_bodyslideGroupedOutfitsOnly:
-                print("Already Added to Master: "+member.get('name'))
-            else:
-                g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
-        
-
-    
-   
     #Return the File List (With Full Path)   
-    return fileListing
+    #return fileListing
 
 #This function accepts a full Path .osp SliderSet File.  It checks against the Master Outfit Grouping list.
 #If the Outfits within the file are not grouped, they will be added to the master list and assigned a group named:
 #"OSP FILENAME" + "SLIDERSET NAME"
-def ParseSliderSetOSP(fileWithPath):
+def ParseSliderSetOSP(fileWithPath,fileName):
     #This fxn will accept a SliderSet .osp file and compare the contents to the outfit Masterlist
     #Variables
     fileListing=[]
@@ -133,21 +169,23 @@ def ParseSliderSetOSP(fileWithPath):
     root = tree.getroot()
 
     #Assign Potential Group Name
-    
+    #Extract the name of the current file it is in for the group
+    groupName=fileName;
     #Parse through every <SliderSet> tag
     for sliderSet in root.findall('SliderSet'):
         
         #Check if SliderSet Outfit is already in the MasterList
         if sliderSet.get('name') in g_bodyslideGroupedOutfitsOnly:
-            print("SliderSet Present in Master: "+member.get('name'))
+            print("SliderSet Present in Master: "+sliderSet.get('name'))
         else:
+            memberName=sliderSet.get('name')
             outfitGroupMember=(groupName,memberName)
             g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
-            g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
+            g_bodyslideGroupedOutfitsOnly.add(memberName)
            
 
     #Return the File List (With Full Path)   
-    return fileListing
+    #return fileListing
 
 def GetFileList(filePath,fileExtension):
     #Variables
@@ -169,8 +207,9 @@ def CatalogGroupedOutfits(sliderGroupPath):
     #Get list of all files in the group folder (.xml)
     fileListing=GetFileList(sliderGroupPath,"*.xml")
     #Parse through each file Adding Groups and Outfits to overall collection
-    for groupXML in fileListing: 
-      ParseSliderGroupXML(groupXML)  
+    for groupXML in fileListing:
+        XMLEncodingConfirm(groupXML) 
+        ParseSliderGroupXML(groupXML)  
     return True
 
 def CheckSliderSetOSP(sliderSetPath): 
@@ -219,12 +258,16 @@ def main():
 
     #Loop through lists of OSP and XML files and process them.
     #SliderSet XML Reader
-    for setXML in sliderSetXMLPaths: 
-      ParseSliderSetXML(setXML)
+    for setXML in sliderSetXMLPaths:
+      fileWithExtension=os.path.basename(setXML)
+      fileWithoutExtension=os.path.splitext(fileWithExtension)[0] 
+      ParseSliderSet(setXML,fileWithoutExtension)
 
     #SliderSet OSP Reader
-    for setOSP in sliderSetOSPPaths: 
-      ParseSliderSetOSP(setOSP)
+    for setOSP in sliderSetOSPPaths:
+      fileWithExtension=os.path.basename(setOSP)
+      fileWithoutExtension=os.path.splitext(fileWithExtension)[0]  
+      ParseSliderSetOSP(setOSP,fileWithoutExtension)
 
 
     #Writeout Status to console (Orignial Group # Final Group # Full Group List)

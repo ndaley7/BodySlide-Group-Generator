@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <SliderGroups>
 	
 	<Group name="CT77 Armor">
@@ -355,7 +356,7 @@
 		<Member name="CT77 Stalhrim Light Thigh Boots" />
 	</Group>
 
-	<!-------------------- CBAdvanced supergroup (for Presets) ----------------------->
+	<!--                   CBAdvanced supergroup (for Presets)                     -->
 
 	<Group name="CBAdvanced">
 	
