@@ -39,8 +39,8 @@ import lxml.etree as ET
 #Global Variables
 
 g_bodyslideGroupedOutfitsOnly=set() #Non Repeating Set (Python) of all grouped outfits
-g_bodyslideGroupedOutfitsWGroup=set()#Set (Python) of Tuples (Python) Containing all Groups and Member outfits
-
+g_bodyslideGroupedOutfitsWGroup=[] #List (Python) of Tuples (Python) Containing all Groups and Member outfits
+g_bodyslideNewGroupedOutfitsWGroup=[]
 g_xmlEncodingString="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 #Accepts an XML format file with full path and checks for the presence of the XML encoding at the beginning of the document.
 #Assuming encoding: for windows 10
@@ -117,7 +117,7 @@ def ParseSliderGroupXML(fileWithPath):
             #Add Group and Member to a Tuple (Python) containing both values
             memberName=member.get('name')
             outfitGroupMember=(groupName,memberName)
-            g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
+            g_bodyslideGroupedOutfitsWGroup.append(outfitGroupMember)
 
             #Check if Member Outfit is already in the MasterList
             if member.get('name') in g_bodyslideGroupedOutfitsOnly:
@@ -125,11 +125,11 @@ def ParseSliderGroupXML(fileWithPath):
             else:
                 g_bodyslideGroupedOutfitsOnly.add(member.get('name'))
 
-#This function accepts a full Path .xml SliderSet File.  It checks against the Master Outfit Grouping list.
+#This function accepts a full Path .xml/osp SliderSet File.  It checks against the Master Outfit Grouping list.
 #If the Outfits within the file are not grouped, they will be added to the master list and assigned a group named:
-#"XML FILENAME" + "SLIDERSET NAME"
+#"SLIDERSET FILENAME" + "SLIDERSET NAME"
 def ParseSliderSet(fileWithPath,fileName):
-     #This fxn will accept a SliderSet .xml file and compare the contents to the outfit Masterlist
+     #This fxn will accept a SliderSet .xml/osp file and compare the contents to the outfit Masterlist
     #Variables
     fileListing=[]
 
@@ -139,7 +139,7 @@ def ParseSliderSet(fileWithPath,fileName):
 
     #Assign Potential Group Name
     #Extract the name of the current file it is in for the group
-    groupName=fileName;
+    groupName=fileName
     #Parse through every <SliderSet> tag
     for sliderSet in root.findall('SliderSet'):
         
@@ -147,45 +147,18 @@ def ParseSliderSet(fileWithPath,fileName):
         if sliderSet.get('name') in g_bodyslideGroupedOutfitsOnly:
             print("SliderSet Present in Master: "+sliderSet.get('name'))
         else:
+            #If not present in the Master list, add along with Group
+
             memberName=sliderSet.get('name')
+            print("Group "+groupName+" <- "+memberName)
             outfitGroupMember=(groupName,memberName)
-            g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
+            g_bodyslideNewGroupedOutfitsWGroup.append(outfitGroupMember)
             g_bodyslideGroupedOutfitsOnly.add(memberName)
            
 
     #Return the File List (With Full Path)   
     #return fileListing
 
-#This function accepts a full Path .osp SliderSet File.  It checks against the Master Outfit Grouping list.
-#If the Outfits within the file are not grouped, they will be added to the master list and assigned a group named:
-#"OSP FILENAME" + "SLIDERSET NAME"
-def ParseSliderSetOSP(fileWithPath,fileName):
-    #This fxn will accept a SliderSet .osp file and compare the contents to the outfit Masterlist
-    #Variables
-    fileListing=[]
-
-    #Load in XML Tree 
-    tree = ET.parse(fileWithPath) 
-    root = tree.getroot()
-
-    #Assign Potential Group Name
-    #Extract the name of the current file it is in for the group
-    groupName=fileName;
-    #Parse through every <SliderSet> tag
-    for sliderSet in root.findall('SliderSet'):
-        
-        #Check if SliderSet Outfit is already in the MasterList
-        if sliderSet.get('name') in g_bodyslideGroupedOutfitsOnly:
-            print("SliderSet Present in Master: "+sliderSet.get('name'))
-        else:
-            memberName=sliderSet.get('name')
-            outfitGroupMember=(groupName,memberName)
-            g_bodyslideGroupedOutfitsWGroup.add(outfitGroupMember)
-            g_bodyslideGroupedOutfitsOnly.add(memberName)
-           
-
-    #Return the File List (With Full Path)   
-    #return fileListing
 
 def GetFileList(filePath,fileExtension):
     #Variables
@@ -212,30 +185,22 @@ def CatalogGroupedOutfits(sliderGroupPath):
         ParseSliderGroupXML(groupXML)  
     return True
 
-def CheckSliderSetOSP(sliderSetPath): 
-    #Variables
-    fileListing=[]
-    #Get list of all files in the group folder (.osp)
-    fileListing=GetFileList(sliderSetPath,"*.osp")
-    #Parse through each file Adding Groups and Outfits to overall collection
-    for setOSP in fileListing: 
-      ParseSliderSetOSP(setOSP)  
-    return True
+def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
+    #Initiate Root of MasterList.xml
+    rootMasterXML=ET.Element('SliderGroups')
 
-def CheckSliderSetXML(sliderSetPath): 
-    #Variables
-    fileListing=[]
-    #Get list of all files in the group folder (.xml)
-    fileListing=GetFileList(sliderSetPath,"*.xml")
-    #Parse through each file Adding Groups and Outfits to overall collection
-    for setXML in fileListing: 
-      ParseSliderSetXML(setXML)  
-    return True
+    #Iterate through new outfit list
 
-     
+    for groupOutfitTuple in tupleListIn:
+        groupName=groupOutfitTuple[0]
+        outfitName=groupOutfitTuple[1]
 
-  
-      
+    rootMasterXML.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
+
+
+
+
+
 def main():
     #Initialize Variables
     bodyslidePaths=[]
@@ -259,20 +224,27 @@ def main():
     #Loop through lists of OSP and XML files and process them.
     #SliderSet XML Reader
     for setXML in sliderSetXMLPaths:
-      fileWithExtension=os.path.basename(setXML)
-      fileWithoutExtension=os.path.splitext(fileWithExtension)[0] 
-      ParseSliderSet(setXML,fileWithoutExtension)
+        XMLEncodingConfirm(setXML)
+        fileWithExtension=os.path.basename(setXML)
+        fileWithoutExtension=os.path.splitext(fileWithExtension)[0] 
+        ParseSliderSet(setXML,fileWithoutExtension)
 
     #SliderSet OSP Reader
     for setOSP in sliderSetOSPPaths:
-      fileWithExtension=os.path.basename(setOSP)
-      fileWithoutExtension=os.path.splitext(fileWithExtension)[0]  
-      ParseSliderSetOSP(setOSP,fileWithoutExtension)
+        XMLEncodingConfirm(setOSP)
+        fileWithExtension=os.path.basename(setOSP)
+        fileWithoutExtension=os.path.splitext(fileWithExtension)[0]  
+        ParseSliderSet(setOSP,fileWithoutExtension)
 
-
+    #Sort List
+    g_bodyslideNewGroupedOutfitsWGroup.sort()
+    print("simple sort")
+    print(g_bodyslideNewGroupedOutfitsWGroup)
     #Writeout Status to console (Orignial Group # Final Group # Full Group List)
       
-      
+    #Ask if user wants to generate a master list with all existing groups
+
+    #Check if a masterlist already exists
 if __name__ == "__main__": 
   
     # calling main function 
