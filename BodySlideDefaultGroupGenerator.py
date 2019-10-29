@@ -192,10 +192,22 @@ def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
     #Iterate through new outfit list
 
     for groupOutfitTuple in tupleListIn:
+        #Assign Group and Outfit names to Local Variables
         groupName=groupOutfitTuple[0]
         outfitName=groupOutfitTuple[1]
 
-    rootMasterXML.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
+        groupNameMatch=rootMasterXML.findall(".//Group[@name='"+groupName+"']")
+        if not groupNameMatch:
+                ET.SubElement(rootMasterXML,'Group',{'name': groupName})        
+                
+        else:
+            currGroup=rootMasterXML.find(".//Group[@name='"+groupName+"']")
+            ET.SubElement(currGroup,'Member',{'name': outfitName})
+
+    
+    with open(sliderGroupPath+'MasterList.xml','w') as f: ## Write document to file
+        f.write(ET.tostring(rootMasterXML,encoding='utf-8', xml_declaration=True,pretty_print=True))
+        #ET.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
 
 
 
@@ -245,6 +257,10 @@ def main():
     #Ask if user wants to generate a master list with all existing groups
 
     #Check if a masterlist already exists
+
+    #Writeout Masterlist
+
+    TupleList2SliderGroupXML(g_bodyslideNewGroupedOutfitsWGroup,sliderGroupPath)
 if __name__ == "__main__": 
   
     # calling main function 
