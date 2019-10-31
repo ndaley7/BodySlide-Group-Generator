@@ -196,17 +196,23 @@ def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
         groupName=groupOutfitTuple[0]
         outfitName=groupOutfitTuple[1]
 
+        #Check to see if current Group has been added to SliderGroups
         groupNameMatch=rootMasterXML.findall(".//Group[@name='"+groupName+"']")
         if not groupNameMatch:
-                ET.SubElement(rootMasterXML,'Group',{'name': groupName})        
+            currGroup=ET.SubElement(rootMasterXML,'Group',{'name': groupName})
+            print("Group Added:"+groupName)
+            ET.SubElement(currGroup,'Member',{'name': outfitName})
+            print("<-Outfit: "+outfitName)        
                 
         else:
             currGroup=rootMasterXML.find(".//Group[@name='"+groupName+"']")
             ET.SubElement(currGroup,'Member',{'name': outfitName})
+            print("<-Outfit: "+outfitName)
 
-    
-    with open(sliderGroupPath+'MasterList.xml','w') as f: ## Write document to file
-        f.write(ET.tostring(rootMasterXML,encoding='utf-8', xml_declaration=True,pretty_print=True))
+    my_tree = ET.ElementTree(rootMasterXML)
+    with open(sliderGroupPath+'MasterList.xml','wb') as f: ## Write document to file
+        f.write(ET.tostring(my_tree,pretty_print=True))
+        #f.write(ET.tostring(rootMasterXML,encoding='utf-8', xml_declaration=True,pretty_print=True))
         #ET.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
 
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="CBAdvanced">
+        <Member name="CBBE Body"/>
+        <Member name="CBBE Body BBP"/>
+        <Member name="CBBE Body HDT"/>
+        <Member name="CBBE Body TBBP"/>
+        <Member name="CBBE CalUndies"/>
+        <Member name="CBBE CalUndies 2"/>
+        <Member name="CBBE CalUndies 2 HDT"/>
+        <Member name="CBBE CalUndies HDT"/>
+        <Member name="CBBE Feet"/>
+        <Member name="CBBE NeverNude"/>
+        <Member name="CBBE NeverNude HDT"/>
+        <Member name="Lingerie Set [Bra]"/>
+        <Member name="Lingerie Set [Garter Belt]"/>
+        <Member name="Lingerie Set [Half Stocking]"/>
+        <Member name="Lingerie Set [Heels]"/>
+        <Member name="Lingerie Set [Pantie]"/>
+    </Group>
+    <Group name="Lingerie Set [HDT]">
+        <Member name="Lingerie Set [Bra]"/>
+        <Member name="Lingerie Set [Garter Belt]"/>
+        <Member name="Lingerie Set [Half Stocking]"/>
+        <Member name="Lingerie Set [Heels]"/>
+        <Member name="Lingerie Set [Pantie]"/>
+    </Group>
+</SliderGroups>
