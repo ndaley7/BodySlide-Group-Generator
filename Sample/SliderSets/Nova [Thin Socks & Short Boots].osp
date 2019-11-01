@@ -1,0 +1,80 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova [Thin Socks &amp; Short Boots]">
+        <DataFolder>Nova [Thin Socks &amp; Short Boots]</DataFolder>
+        <SourceFile>nova_feet04a_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_feet04a_ca</OutputFile>
+        <Shape target="BootStrap1">BootStrap1</Shape>
+        <Shape target="BootsThighs">BootsThighs</Shape>
+        <Shape target="BootsTop2">BootsTop2</Shape>
+        <Shape target="HeelHigh">HeelHigh</Shape>
+        <Shape target="HeelTop">HeelTop</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="HeelHighPregnancyBelly" target="HeelHigh" local="true">nova_feet04a_ca.osd\HeelHighPregnancyBelly</Data>
+            <Data name="HeelTopPregnancyBelly" target="HeelTop" local="true">nova_feet04a_ca.osd\HeelTopPregnancyBelly</Data>
+            <Data name="BootStrap1PregnancyBelly" target="BootStrap1" local="true">nova_feet04a_ca.osd\BootStrap1PregnancyBelly</Data>
+            <Data name="BootsTop2PregnancyBelly" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2PregnancyBelly</Data>
+            <Data name="BootsThighsPregnancyBelly" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BootsThighsHips" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BootsThighsButt" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BootsThighsButtSmall" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BootsThighsButtShape2" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BootsThighsBigButt" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BootsThighsChubbyButt" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BootsThighsSlimThighs" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BootsThighsThighs" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BootsTop2ChubbyLegs" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2ChubbyLegs</Data>
+            <Data name="BootsThighsChubbyLegs" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="HeelTopLegs" target="HeelTop" local="true">nova_feet04a_ca.osd\HeelTopLegs</Data>
+            <Data name="BootStrap1Legs" target="BootStrap1" local="true">nova_feet04a_ca.osd\BootStrap1Legs</Data>
+            <Data name="BootsTop2Legs" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2Legs</Data>
+            <Data name="BootsThighsLegs" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BootsTop2KneeHeight" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2KneeHeight</Data>
+            <Data name="BootsThighsKneeHeight" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BootsTop2CalfSize" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2CalfSize</Data>
+            <Data name="BootsThighsCalfSize" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BootsTop2CalfSmooth" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2CalfSmooth</Data>
+            <Data name="BootsThighsCalfSmooth" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="HeelHighAnkles" target="HeelHigh" local="true">nova_feet04a_ca.osd\HeelHighAnkles</Data>
+            <Data name="HeelTopAnkles" target="HeelTop" local="true">nova_feet04a_ca.osd\HeelTopAnkles</Data>
+            <Data name="BootStrap1Ankles" target="BootStrap1" local="true">nova_feet04a_ca.osd\BootStrap1Ankles</Data>
+            <Data name="BootsTop2Ankles" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2Ankles</Data>
+            <Data name="BootsThighsAnkles" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="HeelHighSmallSeam" target="HeelHigh" local="true">nova_feet04a_ca.osd\HeelHighSmallSeam</Data>
+            <Data name="HeelTopSmallSeam" target="HeelTop" local="true">nova_feet04a_ca.osd\HeelTopSmallSeam</Data>
+            <Data name="BootStrap1SmallSeam" target="BootStrap1" local="true">nova_feet04a_ca.osd\BootStrap1SmallSeam</Data>
+            <Data name="BootsTop2SmallSeam" target="BootsTop2" local="true">nova_feet04a_ca.osd\BootsTop2SmallSeam</Data>
+            <Data name="BootsThighsSmallSeam" target="BootsThighs" local="true">nova_feet04a_ca.osd\BootsThighsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

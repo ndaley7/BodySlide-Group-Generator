@@ -1,0 +1,93 @@
+<SliderSetInfo>
+    <SliderSet name="LUSH SnowFlake Skirt">
+        <SetFolder>\LUSH\SetA\LUSH SetA SnowFlake Skirt</SetFolder>
+        <SourceFile>Skirt.nif</SourceFile>
+        <OutputPath>meshes\LUSH\SnowFlake</OutputPath>
+        <OutputFile>Skirt</OutputFile>
+        <BaseShapeName target="skirt">skirt</BaseShapeName>
+        <Slider name="Skirt" invert="false" small="0" big="0" zap="true">
+            <datafile name="skirtSkirt" target="skirt" local="true">skirtSkirt.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="skirtBreastsSmall" target="skirt" local="true">skirtBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="skirtBreastHeight" target="skirt" local="true">skirtBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="skirtBigTorso" target="skirt" local="true">skirtBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="skirtWaist" target="skirt" local="true">skirtWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="skirtWideWaistLine" target="skirt" local="true">skirtWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="skirtChubbyWaist" target="skirt" local="true">skirtChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="skirtBelly" target="skirt" local="true">skirtBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="skirtBigBelly" target="skirt" local="true">skirtBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="skirtPregnancyBelly" target="skirt" local="true">skirtPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="skirtTummyTuck" target="skirt" local="true">skirtTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="skirtBack" target="skirt" local="true">skirtBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="skirtHipbone" target="skirt" local="true">skirtHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="skirtHips" target="skirt" local="true">skirtHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="skirtButtCrack" target="skirt" local="true">skirtButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="skirtButt" target="skirt" local="true">skirtButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="skirtButtSmall" target="skirt" local="true">skirtButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="skirtButtShape2" target="skirt" local="true">skirtButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="skirtBigButt" target="skirt" local="true">skirtBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="skirtChubbyButt" target="skirt" local="true">skirtChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="skirtAppleCheeks" target="skirt" local="true">skirtAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="skirtRoundAss" target="skirt" local="true">skirtRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="skirtGroin" target="skirt" local="true">skirtGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="skirtSlimThighs" target="skirt" local="true">skirtSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="skirtThighs" target="skirt" local="true">skirtThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="skirtChubbyLegs" target="skirt" local="true">skirtChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="skirtLegs" target="skirt" local="true">skirtLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="skirtKneeHeight" target="skirt" local="true">skirtKneeHeight.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

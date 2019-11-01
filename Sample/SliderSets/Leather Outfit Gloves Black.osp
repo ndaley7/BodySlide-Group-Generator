@@ -1,0 +1,65 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Leather Outfit Gloves Black">
+        <DataFolder>Leather Outfit Gloves Black</DataFolder>
+        <SourceFile>Leather Outfit Gloves Black.nif</SourceFile>
+        <OutputPath>meshes\tm_7Base\Leather Outfit</OutputPath>
+        <OutputFile GenWeights="true">GlovesBlack</OutputFile>
+        <Shape target="Gloves">Gloves</Shape>
+        <Shape target="HandFemale1stPerson" DataFolder="Leather Outfit Gloves Black II">HandFemale1stPerson</Shape>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="GlovesBreastsFantasy" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="GlovesBreastFlatness" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="GlovesBreastGravity" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="GlovesPushUp" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="GlovesBreastHeight" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="GlovesBreastPerkiness" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="GlovesBreastWidth" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="HandFemale1stPersonArms" target="HandFemale1stPerson" local="true">Leather Outfit Gloves Black.osd\HandFemale1stPersonArms</Data>
+            <Data name="GlovesArms" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="HandFemale1stPersonChubbyArms" target="HandFemale1stPerson" local="true">Leather Outfit Gloves Black.osd\HandFemale1stPersonChubbyArms</Data>
+            <Data name="GlovesChubbyArms" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="HandFemale1stPersonShoulderWidth" target="HandFemale1stPerson" local="true">Leather Outfit Gloves Black.osd\HandFemale1stPersonShoulderWidth</Data>
+            <Data name="GlovesShoulderWidth" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="HandFemale1stPersonBigTorso" target="HandFemale1stPerson" local="true">Leather Outfit Gloves Black.osd\HandFemale1stPersonBigTorso</Data>
+            <Data name="GlovesBigTorso" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="GlovesWaist" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesWaist</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="HandFemale1stPersonTummyTuck" target="HandFemale1stPerson" local="true">Leather Outfit Gloves Black.osd\HandFemale1stPersonTummyTuck</Data>
+            <Data name="GlovesTummyTuck" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="GlovesBack" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesBack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="HandFemale1stPersonButt" target="HandFemale1stPerson" local="true">Leather Outfit Gloves Black.osd\HandFemale1stPersonButt</Data>
+            <Data name="GlovesButt" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="HandFemale1stPersonSmallSeam" target="HandFemale1stPerson" local="true">Leather Outfit Gloves Black.osd\HandFemale1stPersonSmallSeam</Data>
+            <Data name="GlovesSmallSeam" target="Gloves" local="true">Leather Outfit Gloves Black.osd\GlovesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

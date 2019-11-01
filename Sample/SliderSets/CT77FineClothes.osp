@@ -1,0 +1,1181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Fine Clothes 1">
+        <DataFolder>CT77FineClothes</DataFolder>
+        <SourceFile>CT77FineClothes1.nif</SourceFile>
+        <OutputPath>meshes\clothes\fineclothes01</OutputPath>
+        <OutputFile GenWeights="true">outfitf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Fine1Chest">Fine1Chest</Shape>
+        <Shape target="Fine1Leggings">Fine1Leggings</Shape>
+        <Shape target="Fine1Shawl">Fine1Shawl</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Fine1ChestBreasts" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreasts</Data>
+            <Data name="Fine1ShawlBreasts" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="Fine1ChestBreastsSmall" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsSmall</Data>
+            <Data name="Fine1ShawlBreastsSmall" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Fine1ChestBreastsSH" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsSH</Data>
+            <Data name="Fine1ShawlBreastsSH" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Fine1ChestBreastsSSH" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsSSH</Data>
+            <Data name="Fine1ShawlBreastsSSH" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Fine1ChestBreastsFantasy" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsFantasy</Data>
+            <Data name="Fine1ShawlBreastsFantasy" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Fine1ChestDoubleMelon" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestDoubleMelon</Data>
+            <Data name="Fine1ShawlDoubleMelon" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Fine1ChestBreastCleavage" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastCleavage</Data>
+            <Data name="Fine1ShawlBreastCleavage" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Fine1ChestBreastFlatness" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastFlatness</Data>
+            <Data name="Fine1ShawlBreastFlatness" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Fine1ChestBreastGravity" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastGravity</Data>
+            <Data name="Fine1ShawlBreastGravity" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Fine1ChestPushUp" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestPushUp</Data>
+            <Data name="Fine1ShawlPushUp" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="Fine1ChestBreastHeight" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastHeight</Data>
+            <Data name="Fine1ShawlBreastHeight" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Fine1ChestBreastPerkiness" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastPerkiness</Data>
+            <Data name="Fine1ShawlBreastPerkiness" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Fine1ChestBreastWidth" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastWidth</Data>
+            <Data name="Fine1ShawlBreastWidth" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Fine1ChestNippleDistance" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleDistance</Data>
+            <Data name="Fine1ShawlNippleDistance" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Fine1ChestNipplePerkiness" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Fine1ChestNippleLength" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleLength</Data>
+            <Data name="Fine1ShawlNippleLength" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Fine1ChestNippleSize" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Fine1ChestNippleAreola" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleAreola</Data>
+            <Data name="Fine1ShawlNippleAreola" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Fine1ChestNippleUp" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleUp</Data>
+            <Data name="Fine1ShawlNippleUp" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Fine1ChestNippleDown" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleDown</Data>
+            <Data name="Fine1ShawlNippleDown" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Fine1ChestNippleTip" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Fine1ChestArms" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestArms</Data>
+            <Data name="Fine1ShawlArms" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Fine1ChestChubbyArms" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyArms</Data>
+            <Data name="Fine1ShawlChubbyArms" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Fine1ShawlShoulderSmooth" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Fine1ChestShoulderWidth" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestShoulderWidth</Data>
+            <Data name="Fine1ShawlShoulderWidth" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="Fine1ChestBigTorso" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBigTorso</Data>
+            <Data name="Fine1ShawlBigTorso" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="Fine1ChestWaist" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestWaist</Data>
+            <Data name="Fine1ShawlWaist" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="Fine1ChestWideWaistLine" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestWideWaistLine</Data>
+            <Data name="Fine1ShawlWideWaistLine" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="Fine1ChestChubbyWaist" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyWaist</Data>
+            <Data name="Fine1ShawlChubbyWaist" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="Fine1ChestBelly" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="Fine1ChestBigBelly" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="Fine1ChestTummyTuck" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="Fine1ChestBack" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBack</Data>
+            <Data name="Fine1ShawlBack" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="Fine1ChestHipbone" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestHipbone</Data>
+            <Data name="Fine1ShawlHipbone" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="Fine1ChestHips" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestHips</Data>
+            <Data name="Fine1LeggingsHips" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsHips</Data>
+            <Data name="Fine1ShawlHips" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="Fine1ChestButt" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestButt</Data>
+            <Data name="Fine1LeggingsButt" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsButt</Data>
+            <Data name="Fine1ShawlButt" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="Fine1ChestButtSmall" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestButtSmall</Data>
+            <Data name="Fine1LeggingsButtSmall" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsButtSmall</Data>
+            <Data name="Fine1ShawlButtSmall" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="Fine1ChestButtShape2" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestButtShape2</Data>
+            <Data name="Fine1LeggingsButtShape2" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsButtShape2</Data>
+            <Data name="Fine1ShawlButtShape2" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="Fine1ChestBigButt" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBigButt</Data>
+            <Data name="Fine1LeggingsBigButt" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsBigButt</Data>
+            <Data name="Fine1ShawlBigButt" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="Fine1ChestChubbyButt" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyButt</Data>
+            <Data name="Fine1LeggingsChubbyButt" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsChubbyButt</Data>
+            <Data name="Fine1ShawlChubbyButt" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="Fine1ChestAppleCheeks" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestAppleCheeks</Data>
+            <Data name="Fine1ShawlAppleCheeks" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="Fine1ChestRoundAss" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestRoundAss</Data>
+            <Data name="Fine1ShawlRoundAss" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="Fine1ChestSlimThighs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestSlimThighs</Data>
+            <Data name="Fine1LeggingsSlimThighs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsSlimThighs</Data>
+            <Data name="Fine1ShawlSlimThighs" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Fine1ChestThighs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestThighs</Data>
+            <Data name="Fine1LeggingsThighs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Fine1ChestChubbyLegs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyLegs</Data>
+            <Data name="Fine1LeggingsChubbyLegs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Fine1ChestLegs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestLegs</Data>
+            <Data name="Fine1LeggingsLegs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="Fine1ChestKneeHeight" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestKneeHeight</Data>
+            <Data name="Fine1LeggingsKneeHeight" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="Fine1LeggingsCalfSize" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="Fine1LeggingsCalfSmooth" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="Fine1LeggingsAnkles" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Fine1LeggingsSmallSeam" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsSmallSeam</Data>
+            <Data name="Fine1ShawlSmallSeam" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Fine1ShawlShoulderTweak" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapShawl" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine1ShawlZapShawl" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlZapShawl</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine1ChestZapChest" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine1LeggingsZapLeggings" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Fine Clothes 1 Var">
+        <DataFolder>CT77FineClothes</DataFolder>
+        <SourceFile>CT77FineClothes1Var.nif</SourceFile>
+        <OutputPath>meshes\clothes\fineclothes01</OutputPath>
+        <OutputFile GenWeights="true">outfitvarf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Fine1Chest">Fine1Chest</Shape>
+        <Shape target="Fine1Leggings">Fine1Leggings</Shape>
+        <Shape target="Fine1Shawl">Fine1Shawl</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Fine1ChestBreasts" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreasts</Data>
+            <Data name="Fine1ShawlBreasts" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="Fine1ChestBreastsSmall" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsSmall</Data>
+            <Data name="Fine1ShawlBreastsSmall" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Fine1ChestBreastsSH" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsSH</Data>
+            <Data name="Fine1ShawlBreastsSH" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Fine1ChestBreastsSSH" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsSSH</Data>
+            <Data name="Fine1ShawlBreastsSSH" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Fine1ChestBreastsFantasy" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastsFantasy</Data>
+            <Data name="Fine1ShawlBreastsFantasy" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Fine1ChestDoubleMelon" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestDoubleMelon</Data>
+            <Data name="Fine1ShawlDoubleMelon" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Fine1ChestBreastCleavage" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastCleavage</Data>
+            <Data name="Fine1ShawlBreastCleavage" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Fine1ChestBreastFlatness" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastFlatness</Data>
+            <Data name="Fine1ShawlBreastFlatness" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Fine1ChestBreastGravity" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastGravity</Data>
+            <Data name="Fine1ShawlBreastGravity" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Fine1ChestPushUp" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestPushUp</Data>
+            <Data name="Fine1ShawlPushUp" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="Fine1ChestBreastHeight" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastHeight</Data>
+            <Data name="Fine1ShawlBreastHeight" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Fine1ChestBreastPerkiness" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastPerkiness</Data>
+            <Data name="Fine1ShawlBreastPerkiness" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Fine1ChestBreastWidth" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBreastWidth</Data>
+            <Data name="Fine1ShawlBreastWidth" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Fine1ChestNippleDistance" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleDistance</Data>
+            <Data name="Fine1ShawlNippleDistance" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Fine1ChestNipplePerkiness" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Fine1ChestNippleLength" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleLength</Data>
+            <Data name="Fine1ShawlNippleLength" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Fine1ChestNippleSize" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Fine1ChestNippleAreola" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleAreola</Data>
+            <Data name="Fine1ShawlNippleAreola" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Fine1ChestNippleUp" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleUp</Data>
+            <Data name="Fine1ShawlNippleUp" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Fine1ChestNippleDown" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleDown</Data>
+            <Data name="Fine1ShawlNippleDown" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Fine1ChestNippleTip" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Fine1ChestArms" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestArms</Data>
+            <Data name="Fine1ShawlArms" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Fine1ChestChubbyArms" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyArms</Data>
+            <Data name="Fine1ShawlChubbyArms" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Fine1ShawlShoulderSmooth" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Fine1ChestShoulderWidth" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestShoulderWidth</Data>
+            <Data name="Fine1ShawlShoulderWidth" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="Fine1ChestBigTorso" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBigTorso</Data>
+            <Data name="Fine1ShawlBigTorso" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="Fine1ChestWaist" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestWaist</Data>
+            <Data name="Fine1ShawlWaist" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="Fine1ChestWideWaistLine" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestWideWaistLine</Data>
+            <Data name="Fine1ShawlWideWaistLine" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="Fine1ChestChubbyWaist" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyWaist</Data>
+            <Data name="Fine1ShawlChubbyWaist" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="Fine1ChestBelly" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="Fine1ChestBigBelly" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="Fine1ChestTummyTuck" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="Fine1ChestBack" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBack</Data>
+            <Data name="Fine1ShawlBack" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="Fine1ChestHipbone" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestHipbone</Data>
+            <Data name="Fine1ShawlHipbone" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="Fine1ChestHips" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestHips</Data>
+            <Data name="Fine1LeggingsHips" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsHips</Data>
+            <Data name="Fine1ShawlHips" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="Fine1ChestButt" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestButt</Data>
+            <Data name="Fine1LeggingsButt" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsButt</Data>
+            <Data name="Fine1ShawlButt" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="Fine1ChestButtSmall" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestButtSmall</Data>
+            <Data name="Fine1LeggingsButtSmall" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsButtSmall</Data>
+            <Data name="Fine1ShawlButtSmall" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="Fine1ChestButtShape2" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestButtShape2</Data>
+            <Data name="Fine1LeggingsButtShape2" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsButtShape2</Data>
+            <Data name="Fine1ShawlButtShape2" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="Fine1ChestBigButt" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestBigButt</Data>
+            <Data name="Fine1LeggingsBigButt" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsBigButt</Data>
+            <Data name="Fine1ShawlBigButt" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="Fine1ChestChubbyButt" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyButt</Data>
+            <Data name="Fine1LeggingsChubbyButt" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsChubbyButt</Data>
+            <Data name="Fine1ShawlChubbyButt" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="Fine1ChestAppleCheeks" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestAppleCheeks</Data>
+            <Data name="Fine1ShawlAppleCheeks" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="Fine1ChestRoundAss" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestRoundAss</Data>
+            <Data name="Fine1ShawlRoundAss" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="Fine1ChestSlimThighs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestSlimThighs</Data>
+            <Data name="Fine1LeggingsSlimThighs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsSlimThighs</Data>
+            <Data name="Fine1ShawlSlimThighs" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Fine1ChestThighs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestThighs</Data>
+            <Data name="Fine1LeggingsThighs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsThighs</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Fine1ChestChubbyLegs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestChubbyLegs</Data>
+            <Data name="Fine1LeggingsChubbyLegs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Fine1ChestLegs" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestLegs</Data>
+            <Data name="Fine1LeggingsLegs" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsLegs</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="Fine1ChestKneeHeight" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestKneeHeight</Data>
+            <Data name="Fine1LeggingsKneeHeight" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="Fine1LeggingsCalfSize" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="Fine1LeggingsCalfSmooth" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="Fine1LeggingsAnkles" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Fine1LeggingsSmallSeam" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsSmallSeam</Data>
+            <Data name="Fine1ShawlSmallSeam" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Fine1ShawlShoulderTweak" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapShawl" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine1ShawlZapShawl" target="Fine1Shawl" local="true">CT77FineClothes1.osd\Fine1ShawlZapShawl</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine1ChestZapChest" target="Fine1Chest" local="true">CT77FineClothes1.osd\Fine1ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine1LeggingsZapLeggings" target="Fine1Leggings" local="true">CT77FineClothes1.osd\Fine1LeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Fine Clothes 2">
+        <DataFolder>CT77FineClothes</DataFolder>
+        <SourceFile>CT77FineClothes2.nif</SourceFile>
+        <OutputPath>meshes\clothes\fineclothes02</OutputPath>
+        <OutputFile GenWeights="true">outfitf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Fine2Chest">Fine2Chest</Shape>
+        <Shape target="Fine2Leggings">Fine2Leggings</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Fine2ChestBreasts" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="Fine2ChestBreastsSmall" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Fine2ChestBreastsSH" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Fine2ChestBreastsSSH" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Fine2ChestBreastsFantasy" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Fine2ChestDoubleMelon" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Fine2ChestBreastCleavage" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Fine2ChestBreastFlatness" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Fine2ChestBreastGravity" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Fine2ChestPushUp" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="Fine2ChestBreastHeight" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Fine2ChestBreastPerkiness" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Fine2ChestBreastWidth" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Fine2ChestNippleDistance" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Fine2ChestNipplePerkiness" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Fine2ChestNippleLength" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Fine2ChestNippleSize" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Fine2ChestNippleAreola" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Fine2ChestNippleUp" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Fine2ChestNippleDown" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Fine2ChestNippleTip" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Fine2ChestArms" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Fine2ChestChubbyArms" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Fine2ChestShoulderSmooth" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Fine2ChestShoulderWidth" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="Fine2ChestBigTorso" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="Fine2ChestWaist" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="Fine2ChestWideWaistLine" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="Fine2ChestChubbyWaist" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="Fine2ChestBelly" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="Fine2ChestBigBelly" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="Fine2ChestTummyTuck" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="Fine2ChestBack" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="Fine2ChestHipbone" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="Fine2ChestHips" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="Fine2ChestButt" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestButt</Data>
+            <Data name="Fine2LeggingsButt" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="Fine2ChestButtSmall" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestButtSmall</Data>
+            <Data name="Fine2LeggingsButtSmall" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="Fine2ChestButtShape2" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="Fine2ChestBigButt" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBigButt</Data>
+            <Data name="Fine2LeggingsBigButt" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="Fine2ChestChubbyButt" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyButt</Data>
+            <Data name="Fine2LeggingsChubbyButt" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="Fine2ChestAppleCheeks" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="Fine2ChestRoundAss" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="Fine2ChestSlimThighs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestSlimThighs</Data>
+            <Data name="Fine2LeggingsSlimThighs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Fine2ChestThighs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestThighs</Data>
+            <Data name="Fine2LeggingsThighs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Fine2ChestChubbyLegs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyLegs</Data>
+            <Data name="Fine2LeggingsChubbyLegs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Fine2ChestLegs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestLegs</Data>
+            <Data name="Fine2LeggingsLegs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="Fine2ChestKneeHeight" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestKneeHeight</Data>
+            <Data name="Fine2LeggingsKneeHeight" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="Fine2LeggingsCalfSize" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="Fine2LeggingsCalfSmooth" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="Fine2LeggingsAnkles" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Fine2ChestSmallSeam" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestSmallSeam</Data>
+            <Data name="Fine2LeggingsSmallSeam" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Fine2ChestShoulderTweak" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine2ChestZapChest" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine2LeggingsZapLeggings" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Fine Clothes 2 Var">
+        <DataFolder>CT77FineClothes</DataFolder>
+        <SourceFile>CT77FineClothes2Var.nif</SourceFile>
+        <OutputPath>meshes\clothes\fineclothes02</OutputPath>
+        <OutputFile GenWeights="true">outfitvarf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Fine2Chest">Fine2Chest</Shape>
+        <Shape target="Fine2Leggings">Fine2Leggings</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Fine2ChestBreasts" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="Fine2ChestBreastsSmall" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Fine2ChestBreastsSH" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Fine2ChestBreastsSSH" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Fine2ChestBreastsFantasy" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Fine2ChestDoubleMelon" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Fine2ChestBreastCleavage" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Fine2ChestBreastFlatness" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Fine2ChestBreastGravity" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Fine2ChestPushUp" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="Fine2ChestBreastHeight" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Fine2ChestBreastPerkiness" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Fine2ChestBreastWidth" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Fine2ChestNippleDistance" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Fine2ChestNipplePerkiness" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Fine2ChestNippleLength" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Fine2ChestNippleSize" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Fine2ChestNippleAreola" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Fine2ChestNippleUp" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Fine2ChestNippleDown" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Fine2ChestNippleTip" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Fine2ChestArms" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Fine2ChestChubbyArms" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Fine2ChestShoulderSmooth" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Fine2ChestShoulderWidth" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="Fine2ChestBigTorso" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="Fine2ChestWaist" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="Fine2ChestWideWaistLine" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="Fine2ChestChubbyWaist" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="Fine2ChestBelly" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="Fine2ChestBigBelly" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="Fine2ChestTummyTuck" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="Fine2ChestBack" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="Fine2ChestHipbone" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="Fine2ChestHips" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="Fine2ChestButt" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestButt</Data>
+            <Data name="Fine2LeggingsButt" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="Fine2ChestButtSmall" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestButtSmall</Data>
+            <Data name="Fine2LeggingsButtSmall" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="Fine2ChestButtShape2" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="Fine2ChestBigButt" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestBigButt</Data>
+            <Data name="Fine2LeggingsBigButt" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="Fine2ChestChubbyButt" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyButt</Data>
+            <Data name="Fine2LeggingsChubbyButt" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="Fine2ChestAppleCheeks" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="Fine2ChestRoundAss" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="Fine2ChestSlimThighs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestSlimThighs</Data>
+            <Data name="Fine2LeggingsSlimThighs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Fine2ChestThighs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestThighs</Data>
+            <Data name="Fine2LeggingsThighs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsThighs</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Fine2ChestChubbyLegs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestChubbyLegs</Data>
+            <Data name="Fine2LeggingsChubbyLegs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Fine2ChestLegs" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestLegs</Data>
+            <Data name="Fine2LeggingsLegs" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsLegs</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="Fine2ChestKneeHeight" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestKneeHeight</Data>
+            <Data name="Fine2LeggingsKneeHeight" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="Fine2LeggingsCalfSize" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="Fine2LeggingsCalfSmooth" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="Fine2LeggingsAnkles" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Fine2ChestSmallSeam" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestSmallSeam</Data>
+            <Data name="Fine2LeggingsSmallSeam" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Fine2ChestShoulderTweak" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine2ChestZapChest" target="Fine2Chest" local="true">CT77FineClothes2.osd\Fine2ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="Fine2LeggingsZapLeggings" target="Fine2Leggings" local="true">CT77FineClothes2.osd\Fine2LeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Fine Boots">
+        <DataFolder>CT77FineClothes</DataFolder>
+        <SourceFile>CT77FineBoots.nif</SourceFile>
+        <OutputPath>meshes\clothes\fineclothes01</OutputPath>
+        <OutputFile GenWeights="true">bootsf</OutputFile>
+        <Shape target="FCBoots">FCBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="FCBootsChubbyLegs" target="FCBoots" local="true">CT77FineBoots.osd\FCBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="FCBootsLegs" target="FCBoots" local="true">CT77FineBoots.osd\FCBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="FCBootsKneeHeight" target="FCBoots" local="true">CT77FineBoots.osd\FCBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="FCBootsCalfSize" target="FCBoots" local="true">CT77FineBoots.osd\FCBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="FCBootsCalfSmooth" target="FCBoots" local="true">CT77FineBoots.osd\FCBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FCBootsAnkles" target="FCBoots" local="true">CT77FineBoots.osd\FCBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FCBootsSmallSeam" target="FCBoots" local="true">CT77FineBoots.osd\FCBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

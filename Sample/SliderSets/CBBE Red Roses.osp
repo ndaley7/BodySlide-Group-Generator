@@ -1,0 +1,636 @@
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE Red Roses Top">
+        <DataFolder>CBBE Red Roses</DataFolder>
+        <SourceFile>Red Roses Top.nif</SourceFile>
+        <OutputPath>Meshes\00_ArsDazConv\Pretty3D\RedRoses</OutputPath>
+        <OutputFile GenWeights="true">Top</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="chest:1">chest:1</Shape>
+        <Shape target="chest:2">chest:2</Shape>
+        <Shape target="chest:3">chest:3</Shape>
+        <Shape target="chest:4">chest:4</Shape>
+        <Shape target="chest:5">chest:5</Shape>
+        <Shape target="chest:6">chest:6</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="chest:6Breasts" target="chest:6" local="true">Red Roses Top.osd\chest:6Breasts</Data>
+            <Data name="chest:5Breasts" target="chest:5" local="true">Red Roses Top.osd\chest:5Breasts</Data>
+            <Data name="chest:4Breasts" target="chest:4" local="true">Red Roses Top.osd\chest:4Breasts</Data>
+            <Data name="chest:3Breasts" target="chest:3" local="true">Red Roses Top.osd\chest:3Breasts</Data>
+            <Data name="chest:2Breasts" target="chest:2" local="true">Red Roses Top.osd\chest:2Breasts</Data>
+            <Data name="chest:1Breasts" target="chest:1" local="true">Red Roses Top.osd\chest:1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="chest:6BreastsSmall" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastsSmall</Data>
+            <Data name="chest:5BreastsSmall" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastsSmall</Data>
+            <Data name="chest:4BreastsSmall" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastsSmall</Data>
+            <Data name="chest:3BreastsSmall" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastsSmall</Data>
+            <Data name="chest:2BreastsSmall" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastsSmall</Data>
+            <Data name="chest:1BreastsSmall" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="chest:6BreastsSH" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastsSH</Data>
+            <Data name="chest:5BreastsSH" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastsSH</Data>
+            <Data name="chest:4BreastsSH" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastsSH</Data>
+            <Data name="chest:3BreastsSH" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastsSH</Data>
+            <Data name="chest:2BreastsSH" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastsSH</Data>
+            <Data name="chest:1BreastsSH" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="chest:6BreastsSSH" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastsSSH</Data>
+            <Data name="chest:5BreastsSSH" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastsSSH</Data>
+            <Data name="chest:4BreastsSSH" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastsSSH</Data>
+            <Data name="chest:3BreastsSSH" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastsSSH</Data>
+            <Data name="chest:2BreastsSSH" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastsSSH</Data>
+            <Data name="chest:1BreastsSSH" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="chest:6BreastsFantasy" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastsFantasy</Data>
+            <Data name="chest:5BreastsFantasy" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastsFantasy</Data>
+            <Data name="chest:4BreastsFantasy" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastsFantasy</Data>
+            <Data name="chest:3BreastsFantasy" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastsFantasy</Data>
+            <Data name="chest:2BreastsFantasy" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastsFantasy</Data>
+            <Data name="chest:1BreastsFantasy" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="chest:6DoubleMelon" target="chest:6" local="true">Red Roses Top.osd\chest:6DoubleMelon</Data>
+            <Data name="chest:5DoubleMelon" target="chest:5" local="true">Red Roses Top.osd\chest:5DoubleMelon</Data>
+            <Data name="chest:4DoubleMelon" target="chest:4" local="true">Red Roses Top.osd\chest:4DoubleMelon</Data>
+            <Data name="chest:3DoubleMelon" target="chest:3" local="true">Red Roses Top.osd\chest:3DoubleMelon</Data>
+            <Data name="chest:2DoubleMelon" target="chest:2" local="true">Red Roses Top.osd\chest:2DoubleMelon</Data>
+            <Data name="chest:1DoubleMelon" target="chest:1" local="true">Red Roses Top.osd\chest:1DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="chest:6BreastCleavage" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastCleavage</Data>
+            <Data name="chest:5BreastCleavage" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastCleavage</Data>
+            <Data name="chest:4BreastCleavage" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastCleavage</Data>
+            <Data name="chest:3BreastCleavage" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastCleavage</Data>
+            <Data name="chest:2BreastCleavage" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastCleavage</Data>
+            <Data name="chest:1BreastCleavage" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="chest:6BreastFlatness" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastFlatness</Data>
+            <Data name="chest:5BreastFlatness" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastFlatness</Data>
+            <Data name="chest:4BreastFlatness" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastFlatness</Data>
+            <Data name="chest:3BreastFlatness" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastFlatness</Data>
+            <Data name="chest:2BreastFlatness" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastFlatness</Data>
+            <Data name="chest:1BreastFlatness" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="chest:6BreastGravity" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastGravity</Data>
+            <Data name="chest:5BreastGravity" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastGravity</Data>
+            <Data name="chest:4BreastGravity" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastGravity</Data>
+            <Data name="chest:3BreastGravity" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastGravity</Data>
+            <Data name="chest:2BreastGravity" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastGravity</Data>
+            <Data name="chest:1BreastGravity" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="chest:6PushUp" target="chest:6" local="true">Red Roses Top.osd\chest:6PushUp</Data>
+            <Data name="chest:5PushUp" target="chest:5" local="true">Red Roses Top.osd\chest:5PushUp</Data>
+            <Data name="chest:4PushUp" target="chest:4" local="true">Red Roses Top.osd\chest:4PushUp</Data>
+            <Data name="chest:3PushUp" target="chest:3" local="true">Red Roses Top.osd\chest:3PushUp</Data>
+            <Data name="chest:2PushUp" target="chest:2" local="true">Red Roses Top.osd\chest:2PushUp</Data>
+            <Data name="chest:1PushUp" target="chest:1" local="true">Red Roses Top.osd\chest:1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="chest:6BreastHeight" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastHeight</Data>
+            <Data name="chest:5BreastHeight" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastHeight</Data>
+            <Data name="chest:4BreastHeight" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastHeight</Data>
+            <Data name="chest:3BreastHeight" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastHeight</Data>
+            <Data name="chest:2BreastHeight" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastHeight</Data>
+            <Data name="chest:1BreastHeight" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="chest:6BreastPerkiness" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastPerkiness</Data>
+            <Data name="chest:5BreastPerkiness" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastPerkiness</Data>
+            <Data name="chest:4BreastPerkiness" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastPerkiness</Data>
+            <Data name="chest:3BreastPerkiness" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastPerkiness</Data>
+            <Data name="chest:2BreastPerkiness" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastPerkiness</Data>
+            <Data name="chest:1BreastPerkiness" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="chest:6BreastWidth" target="chest:6" local="true">Red Roses Top.osd\chest:6BreastWidth</Data>
+            <Data name="chest:5BreastWidth" target="chest:5" local="true">Red Roses Top.osd\chest:5BreastWidth</Data>
+            <Data name="chest:4BreastWidth" target="chest:4" local="true">Red Roses Top.osd\chest:4BreastWidth</Data>
+            <Data name="chest:3BreastWidth" target="chest:3" local="true">Red Roses Top.osd\chest:3BreastWidth</Data>
+            <Data name="chest:2BreastWidth" target="chest:2" local="true">Red Roses Top.osd\chest:2BreastWidth</Data>
+            <Data name="chest:1BreastWidth" target="chest:1" local="true">Red Roses Top.osd\chest:1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="chest:6NippleDistance" target="chest:6" local="true">Red Roses Top.osd\chest:6NippleDistance</Data>
+            <Data name="chest:5NippleDistance" target="chest:5" local="true">Red Roses Top.osd\chest:5NippleDistance</Data>
+            <Data name="chest:4NippleDistance" target="chest:4" local="true">Red Roses Top.osd\chest:4NippleDistance</Data>
+            <Data name="chest:3NippleDistance" target="chest:3" local="true">Red Roses Top.osd\chest:3NippleDistance</Data>
+            <Data name="chest:2NippleDistance" target="chest:2" local="true">Red Roses Top.osd\chest:2NippleDistance</Data>
+            <Data name="chest:1NippleDistance" target="chest:1" local="true">Red Roses Top.osd\chest:1NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="chest:6NipplePerkiness" target="chest:6" local="true">Red Roses Top.osd\chest:6NipplePerkiness</Data>
+            <Data name="chest:4NipplePerkiness" target="chest:4" local="true">Red Roses Top.osd\chest:4NipplePerkiness</Data>
+            <Data name="chest:3NipplePerkiness" target="chest:3" local="true">Red Roses Top.osd\chest:3NipplePerkiness</Data>
+            <Data name="chest:2NipplePerkiness" target="chest:2" local="true">Red Roses Top.osd\chest:2NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="chest:6NippleLength" target="chest:6" local="true">Red Roses Top.osd\chest:6NippleLength</Data>
+            <Data name="chest:5NippleLength" target="chest:5" local="true">Red Roses Top.osd\chest:5NippleLength</Data>
+            <Data name="chest:4NippleLength" target="chest:4" local="true">Red Roses Top.osd\chest:4NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="chest:6NippleSize" target="chest:6" local="true">Red Roses Top.osd\chest:6NippleSize</Data>
+            <Data name="chest:4NippleSize" target="chest:4" local="true">Red Roses Top.osd\chest:4NippleSize</Data>
+            <Data name="chest:3NippleSize" target="chest:3" local="true">Red Roses Top.osd\chest:3NippleSize</Data>
+            <Data name="chest:2NippleSize" target="chest:2" local="true">Red Roses Top.osd\chest:2NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="chest:6NippleAreola" target="chest:6" local="true">Red Roses Top.osd\chest:6NippleAreola</Data>
+            <Data name="chest:5NippleAreola" target="chest:5" local="true">Red Roses Top.osd\chest:5NippleAreola</Data>
+            <Data name="chest:4NippleAreola" target="chest:4" local="true">Red Roses Top.osd\chest:4NippleAreola</Data>
+            <Data name="chest:3NippleAreola" target="chest:3" local="true">Red Roses Top.osd\chest:3NippleAreola</Data>
+            <Data name="chest:2NippleAreola" target="chest:2" local="true">Red Roses Top.osd\chest:2NippleAreola</Data>
+            <Data name="chest:1NippleAreola" target="chest:1" local="true">Red Roses Top.osd\chest:1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="chest:6NippleUp" target="chest:6" local="true">Red Roses Top.osd\chest:6NippleUp</Data>
+            <Data name="chest:5NippleUp" target="chest:5" local="true">Red Roses Top.osd\chest:5NippleUp</Data>
+            <Data name="chest:4NippleUp" target="chest:4" local="true">Red Roses Top.osd\chest:4NippleUp</Data>
+            <Data name="chest:3NippleUp" target="chest:3" local="true">Red Roses Top.osd\chest:3NippleUp</Data>
+            <Data name="chest:2NippleUp" target="chest:2" local="true">Red Roses Top.osd\chest:2NippleUp</Data>
+            <Data name="chest:1NippleUp" target="chest:1" local="true">Red Roses Top.osd\chest:1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="chest:6NippleDown" target="chest:6" local="true">Red Roses Top.osd\chest:6NippleDown</Data>
+            <Data name="chest:5NippleDown" target="chest:5" local="true">Red Roses Top.osd\chest:5NippleDown</Data>
+            <Data name="chest:4NippleDown" target="chest:4" local="true">Red Roses Top.osd\chest:4NippleDown</Data>
+            <Data name="chest:3NippleDown" target="chest:3" local="true">Red Roses Top.osd\chest:3NippleDown</Data>
+            <Data name="chest:2NippleDown" target="chest:2" local="true">Red Roses Top.osd\chest:2NippleDown</Data>
+            <Data name="chest:1NippleDown" target="chest:1" local="true">Red Roses Top.osd\chest:1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="chest:6NippleTip" target="chest:6" local="true">Red Roses Top.osd\chest:6NippleTip</Data>
+            <Data name="chest:4NippleTip" target="chest:4" local="true">Red Roses Top.osd\chest:4NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="chest:6Arms" target="chest:6" local="true">Red Roses Top.osd\chest:6Arms</Data>
+            <Data name="chest:5Arms" target="chest:5" local="true">Red Roses Top.osd\chest:5Arms</Data>
+            <Data name="chest:4Arms" target="chest:4" local="true">Red Roses Top.osd\chest:4Arms</Data>
+            <Data name="chest:3Arms" target="chest:3" local="true">Red Roses Top.osd\chest:3Arms</Data>
+            <Data name="chest:2Arms" target="chest:2" local="true">Red Roses Top.osd\chest:2Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="chest:6ChubbyArms" target="chest:6" local="true">Red Roses Top.osd\chest:6ChubbyArms</Data>
+            <Data name="chest:5ChubbyArms" target="chest:5" local="true">Red Roses Top.osd\chest:5ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="chest:5ShoulderSmooth" target="chest:5" local="true">Red Roses Top.osd\chest:5ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="chest:6ShoulderWidth" target="chest:6" local="true">Red Roses Top.osd\chest:6ShoulderWidth</Data>
+            <Data name="chest:5ShoulderWidth" target="chest:5" local="true">Red Roses Top.osd\chest:5ShoulderWidth</Data>
+            <Data name="chest:2ShoulderWidth" target="chest:2" local="true">Red Roses Top.osd\chest:2ShoulderWidth</Data>
+            <Data name="chest:1ShoulderWidth" target="chest:1" local="true">Red Roses Top.osd\chest:1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="chest:6BigTorso" target="chest:6" local="true">Red Roses Top.osd\chest:6BigTorso</Data>
+            <Data name="chest:5BigTorso" target="chest:5" local="true">Red Roses Top.osd\chest:5BigTorso</Data>
+            <Data name="chest:4BigTorso" target="chest:4" local="true">Red Roses Top.osd\chest:4BigTorso</Data>
+            <Data name="chest:3BigTorso" target="chest:3" local="true">Red Roses Top.osd\chest:3BigTorso</Data>
+            <Data name="chest:2BigTorso" target="chest:2" local="true">Red Roses Top.osd\chest:2BigTorso</Data>
+            <Data name="chest:1BigTorso" target="chest:1" local="true">Red Roses Top.osd\chest:1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="chest:6Waist" target="chest:6" local="true">Red Roses Top.osd\chest:6Waist</Data>
+            <Data name="chest:5Waist" target="chest:5" local="true">Red Roses Top.osd\chest:5Waist</Data>
+            <Data name="chest:4Waist" target="chest:4" local="true">Red Roses Top.osd\chest:4Waist</Data>
+            <Data name="chest:3Waist" target="chest:3" local="true">Red Roses Top.osd\chest:3Waist</Data>
+            <Data name="chest:2Waist" target="chest:2" local="true">Red Roses Top.osd\chest:2Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="chest:6WideWaistLine" target="chest:6" local="true">Red Roses Top.osd\chest:6WideWaistLine</Data>
+            <Data name="chest:4WideWaistLine" target="chest:4" local="true">Red Roses Top.osd\chest:4WideWaistLine</Data>
+            <Data name="chest:3WideWaistLine" target="chest:3" local="true">Red Roses Top.osd\chest:3WideWaistLine</Data>
+            <Data name="chest:2WideWaistLine" target="chest:2" local="true">Red Roses Top.osd\chest:2WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="chest:6ChubbyWaist" target="chest:6" local="true">Red Roses Top.osd\chest:6ChubbyWaist</Data>
+            <Data name="chest:5ChubbyWaist" target="chest:5" local="true">Red Roses Top.osd\chest:5ChubbyWaist</Data>
+            <Data name="chest:4ChubbyWaist" target="chest:4" local="true">Red Roses Top.osd\chest:4ChubbyWaist</Data>
+            <Data name="chest:3ChubbyWaist" target="chest:3" local="true">Red Roses Top.osd\chest:3ChubbyWaist</Data>
+            <Data name="chest:2ChubbyWaist" target="chest:2" local="true">Red Roses Top.osd\chest:2ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="chest:6Belly" target="chest:6" local="true">Red Roses Top.osd\chest:6Belly</Data>
+            <Data name="chest:4Belly" target="chest:4" local="true">Red Roses Top.osd\chest:4Belly</Data>
+            <Data name="chest:3Belly" target="chest:3" local="true">Red Roses Top.osd\chest:3Belly</Data>
+            <Data name="chest:2Belly" target="chest:2" local="true">Red Roses Top.osd\chest:2Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="chest:6BigBelly" target="chest:6" local="true">Red Roses Top.osd\chest:6BigBelly</Data>
+            <Data name="chest:4BigBelly" target="chest:4" local="true">Red Roses Top.osd\chest:4BigBelly</Data>
+            <Data name="chest:3BigBelly" target="chest:3" local="true">Red Roses Top.osd\chest:3BigBelly</Data>
+            <Data name="chest:2BigBelly" target="chest:2" local="true">Red Roses Top.osd\chest:2BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="chest:6PregnancyBelly" target="chest:6" local="true">Red Roses Top.osd\chest:6PregnancyBelly</Data>
+            <Data name="chest:5PregnancyBelly" target="chest:5" local="true">Red Roses Top.osd\chest:5PregnancyBelly</Data>
+            <Data name="chest:4PregnancyBelly" target="chest:4" local="true">Red Roses Top.osd\chest:4PregnancyBelly</Data>
+            <Data name="chest:3PregnancyBelly" target="chest:3" local="true">Red Roses Top.osd\chest:3PregnancyBelly</Data>
+            <Data name="chest:2PregnancyBelly" target="chest:2" local="true">Red Roses Top.osd\chest:2PregnancyBelly</Data>
+            <Data name="chest:1PregnancyBelly" target="chest:1" local="true">Red Roses Top.osd\chest:1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="chest:6TummyTuck" target="chest:6" local="true">Red Roses Top.osd\chest:6TummyTuck</Data>
+            <Data name="chest:4TummyTuck" target="chest:4" local="true">Red Roses Top.osd\chest:4TummyTuck</Data>
+            <Data name="chest:3TummyTuck" target="chest:3" local="true">Red Roses Top.osd\chest:3TummyTuck</Data>
+            <Data name="chest:2TummyTuck" target="chest:2" local="true">Red Roses Top.osd\chest:2TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="chest:6Back" target="chest:6" local="true">Red Roses Top.osd\chest:6Back</Data>
+            <Data name="chest:5Back" target="chest:5" local="true">Red Roses Top.osd\chest:5Back</Data>
+            <Data name="chest:4Back" target="chest:4" local="true">Red Roses Top.osd\chest:4Back</Data>
+            <Data name="chest:3Back" target="chest:3" local="true">Red Roses Top.osd\chest:3Back</Data>
+            <Data name="chest:2Back" target="chest:2" local="true">Red Roses Top.osd\chest:2Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="chest:6Hips" target="chest:6" local="true">Red Roses Top.osd\chest:6Hips</Data>
+            <Data name="chest:4Hips" target="chest:4" local="true">Red Roses Top.osd\chest:4Hips</Data>
+            <Data name="chest:3Hips" target="chest:3" local="true">Red Roses Top.osd\chest:3Hips</Data>
+            <Data name="chest:2Hips" target="chest:2" local="true">Red Roses Top.osd\chest:2Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="chest:6Butt" target="chest:6" local="true">Red Roses Top.osd\chest:6Butt</Data>
+            <Data name="chest:4Butt" target="chest:4" local="true">Red Roses Top.osd\chest:4Butt</Data>
+            <Data name="chest:3Butt" target="chest:3" local="true">Red Roses Top.osd\chest:3Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="chest:3ButtSmall" target="chest:3" local="true">Red Roses Top.osd\chest:3ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="chest:6ButtShape2" target="chest:6" local="true">Red Roses Top.osd\chest:6ButtShape2</Data>
+            <Data name="chest:4ButtShape2" target="chest:4" local="true">Red Roses Top.osd\chest:4ButtShape2</Data>
+            <Data name="chest:3ButtShape2" target="chest:3" local="true">Red Roses Top.osd\chest:3ButtShape2</Data>
+            <Data name="chest:2ButtShape2" target="chest:2" local="true">Red Roses Top.osd\chest:2ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="chest:6BigButt" target="chest:6" local="true">Red Roses Top.osd\chest:6BigButt</Data>
+            <Data name="chest:3BigButt" target="chest:3" local="true">Red Roses Top.osd\chest:3BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="chest:6ChubbyButt" target="chest:6" local="true">Red Roses Top.osd\chest:6ChubbyButt</Data>
+            <Data name="chest:4ChubbyButt" target="chest:4" local="true">Red Roses Top.osd\chest:4ChubbyButt</Data>
+            <Data name="chest:3ChubbyButt" target="chest:3" local="true">Red Roses Top.osd\chest:3ChubbyButt</Data>
+            <Data name="chest:2ChubbyButt" target="chest:2" local="true">Red Roses Top.osd\chest:2ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="chest:6AppleCheeks" target="chest:6" local="true">Red Roses Top.osd\chest:6AppleCheeks</Data>
+            <Data name="chest:4AppleCheeks" target="chest:4" local="true">Red Roses Top.osd\chest:4AppleCheeks</Data>
+            <Data name="chest:3AppleCheeks" target="chest:3" local="true">Red Roses Top.osd\chest:3AppleCheeks</Data>
+            <Data name="chest:2AppleCheeks" target="chest:2" local="true">Red Roses Top.osd\chest:2AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="chest:6SlimThighs" target="chest:6" local="true">Red Roses Top.osd\chest:6SlimThighs</Data>
+            <Data name="chest:3SlimThighs" target="chest:3" local="true">Red Roses Top.osd\chest:3SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="chest:5SmallSeam" target="chest:5" local="true">Red Roses Top.osd\chest:5SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="chest:5ShoulderTweak" target="chest:5" local="true">Red Roses Top.osd\chest:5ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Red Roses Panty">
+        <DataFolder>CBBE Red Roses</DataFolder>
+        <SourceFile>CBBE Red Roses Panty.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\Pretty3D\RedRoses</OutputPath>
+        <OutputFile GenWeights="true">Panty</OutputFile>
+        <Shape target="hip001">hip001</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="hip001BreastsSmall" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001BreastsSmall</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="hip001BigTorso" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="hip001Waist" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="hip001WideWaistLine" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="hip001ChubbyWaist" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="hip001Belly" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="hip001BigBelly" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="hip001PregnancyBelly" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="hip001TummyTuck" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="hip001Back" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="hip001Hipbone" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="hip001Hips" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="hip001ButtCrack" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="hip001Butt" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="hip001ButtSmall" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="hip001ButtShape2" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="hip001BigButt" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="hip001ChubbyButt" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="hip001AppleCheeks" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="hip001RoundAss" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="hip001Groin" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="hip001SlimThighs" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="hip001Thighs" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="hip001ChubbyLegs" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="hip001Legs" target="hip001" local="true">CBBE Red Roses Panty.osd\hip001Legs</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Red Roses Garter">
+        <DataFolder>CBBE Red Roses</DataFolder>
+        <SourceFile>CBBE Red Roses Garter.nif</SourceFile>
+        <OutputPath>Meshes\00_ArsDazConv\Pretty3D\RedRoses</OutputPath>
+        <OutputFile GenWeights="true">Garter</OutputFile>
+        <Shape target="hip_1">hip_1</Shape>
+        <Shape target="hip_2">hip_2</Shape>
+        <Shape target="hip_3">hip_3</Shape>
+        <Shape target="hip_4">hip_4</Shape>
+        <Shape target="hip_5">hip_5</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="hip_4BreastsSmall" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4BreastsSmall</Data>
+            <Data name="hip_1BreastsSmall" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="hip_5BreastHeight" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5BreastHeight</Data>
+            <Data name="hip_4BreastHeight" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4BreastHeight</Data>
+            <Data name="hip_1BreastHeight" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="hip_5BigTorso" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5BigTorso</Data>
+            <Data name="hip_4BigTorso" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4BigTorso</Data>
+            <Data name="hip_2BigTorso" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2BigTorso</Data>
+            <Data name="hip_1BigTorso" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="hip_5Waist" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Waist</Data>
+            <Data name="hip_4Waist" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Waist</Data>
+            <Data name="hip_2Waist" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Waist</Data>
+            <Data name="hip_1Waist" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="hip_5WideWaistLine" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5WideWaistLine</Data>
+            <Data name="hip_4WideWaistLine" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4WideWaistLine</Data>
+            <Data name="hip_2WideWaistLine" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2WideWaistLine</Data>
+            <Data name="hip_1WideWaistLine" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="hip_5ChubbyWaist" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5ChubbyWaist</Data>
+            <Data name="hip_4ChubbyWaist" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4ChubbyWaist</Data>
+            <Data name="hip_2ChubbyWaist" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2ChubbyWaist</Data>
+            <Data name="hip_1ChubbyWaist" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="hip_5Belly" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Belly</Data>
+            <Data name="hip_4Belly" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Belly</Data>
+            <Data name="hip_2Belly" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Belly</Data>
+            <Data name="hip_1Belly" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="hip_5BigBelly" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5BigBelly</Data>
+            <Data name="hip_4BigBelly" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4BigBelly</Data>
+            <Data name="hip_2BigBelly" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2BigBelly</Data>
+            <Data name="hip_1BigBelly" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="hip_5PregnancyBelly" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5PregnancyBelly</Data>
+            <Data name="hip_4PregnancyBelly" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4PregnancyBelly</Data>
+            <Data name="hip_2PregnancyBelly" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2PregnancyBelly</Data>
+            <Data name="hip_1PregnancyBelly" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="hip_5TummyTuck" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5TummyTuck</Data>
+            <Data name="hip_4TummyTuck" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4TummyTuck</Data>
+            <Data name="hip_2TummyTuck" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2TummyTuck</Data>
+            <Data name="hip_1TummyTuck" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="hip_5Back" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Back</Data>
+            <Data name="hip_4Back" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Back</Data>
+            <Data name="hip_2Back" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Back</Data>
+            <Data name="hip_1Back" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="hip_5Hipbone" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Hipbone</Data>
+            <Data name="hip_4Hipbone" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Hipbone</Data>
+            <Data name="hip_3Hipbone" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3Hipbone</Data>
+            <Data name="hip_2Hipbone" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Hipbone</Data>
+            <Data name="hip_1Hipbone" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="hip_5Hips" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Hips</Data>
+            <Data name="hip_4Hips" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Hips</Data>
+            <Data name="hip_3Hips" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3Hips</Data>
+            <Data name="hip_2Hips" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Hips</Data>
+            <Data name="hip_1Hips" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="hip_5ButtCrack" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5ButtCrack</Data>
+            <Data name="hip_4ButtCrack" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4ButtCrack</Data>
+            <Data name="hip_1ButtCrack" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="hip_5Butt" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Butt</Data>
+            <Data name="hip_4Butt" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Butt</Data>
+            <Data name="hip_3Butt" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3Butt</Data>
+            <Data name="hip_2Butt" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Butt</Data>
+            <Data name="hip_1Butt" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="hip_5ButtSmall" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5ButtSmall</Data>
+            <Data name="hip_4ButtSmall" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4ButtSmall</Data>
+            <Data name="hip_3ButtSmall" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3ButtSmall</Data>
+            <Data name="hip_2ButtSmall" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2ButtSmall</Data>
+            <Data name="hip_1ButtSmall" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="hip_5ButtShape2" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5ButtShape2</Data>
+            <Data name="hip_4ButtShape2" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4ButtShape2</Data>
+            <Data name="hip_3ButtShape2" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3ButtShape2</Data>
+            <Data name="hip_2ButtShape2" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2ButtShape2</Data>
+            <Data name="hip_1ButtShape2" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="hip_5BigButt" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5BigButt</Data>
+            <Data name="hip_4BigButt" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4BigButt</Data>
+            <Data name="hip_3BigButt" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3BigButt</Data>
+            <Data name="hip_2BigButt" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2BigButt</Data>
+            <Data name="hip_1BigButt" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="hip_5ChubbyButt" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5ChubbyButt</Data>
+            <Data name="hip_4ChubbyButt" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4ChubbyButt</Data>
+            <Data name="hip_3ChubbyButt" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3ChubbyButt</Data>
+            <Data name="hip_2ChubbyButt" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2ChubbyButt</Data>
+            <Data name="hip_1ChubbyButt" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="hip_5AppleCheeks" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5AppleCheeks</Data>
+            <Data name="hip_4AppleCheeks" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4AppleCheeks</Data>
+            <Data name="hip_3AppleCheeks" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3AppleCheeks</Data>
+            <Data name="hip_2AppleCheeks" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2AppleCheeks</Data>
+            <Data name="hip_1AppleCheeks" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="hip_5RoundAss" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5RoundAss</Data>
+            <Data name="hip_4RoundAss" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4RoundAss</Data>
+            <Data name="hip_2RoundAss" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2RoundAss</Data>
+            <Data name="hip_1RoundAss" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="hip_4Groin" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Groin</Data>
+            <Data name="hip_1Groin" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="hip_5SlimThighs" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5SlimThighs</Data>
+            <Data name="hip_4SlimThighs" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4SlimThighs</Data>
+            <Data name="hip_3SlimThighs" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3SlimThighs</Data>
+            <Data name="hip_2SlimThighs" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2SlimThighs</Data>
+            <Data name="hip_1SlimThighs" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="hip_5Thighs" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Thighs</Data>
+            <Data name="hip_4Thighs" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Thighs</Data>
+            <Data name="hip_3Thighs" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3Thighs</Data>
+            <Data name="hip_2Thighs" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Thighs</Data>
+            <Data name="hip_1Thighs" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="hip_5ChubbyLegs" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5ChubbyLegs</Data>
+            <Data name="hip_4ChubbyLegs" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4ChubbyLegs</Data>
+            <Data name="hip_3ChubbyLegs" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3ChubbyLegs</Data>
+            <Data name="hip_2ChubbyLegs" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2ChubbyLegs</Data>
+            <Data name="hip_1ChubbyLegs" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="hip_5Legs" target="hip_5" local="true">CBBE Red Roses Garter.osd\hip_5Legs</Data>
+            <Data name="hip_4Legs" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4Legs</Data>
+            <Data name="hip_3Legs" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3Legs</Data>
+            <Data name="hip_2Legs" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2Legs</Data>
+            <Data name="hip_1Legs" target="hip_1" local="true">CBBE Red Roses Garter.osd\hip_1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="hip_4KneeHeight" target="hip_4" local="true">CBBE Red Roses Garter.osd\hip_4KneeHeight</Data>
+            <Data name="hip_3KneeHeight" target="hip_3" local="true">CBBE Red Roses Garter.osd\hip_3KneeHeight</Data>
+            <Data name="hip_2KneeHeight" target="hip_2" local="true">CBBE Red Roses Garter.osd\hip_2KneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

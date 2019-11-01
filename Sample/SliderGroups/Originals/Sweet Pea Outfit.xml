@@ -1,0 +1,20 @@
+<SliderGroups>
+    <Group name="SweetPea">
+        <Member name="SweetPeaBoots"/>
+        <Member name="SweetPeaBoots02"/>
+        <Member name="SweetPeaCoat"/>
+        <Member name="SweetPeaGarterStraps"/>
+        <Member name="SweetPeaGloves"/>
+        <Member name="SweetPeaStockingTop"/>
+        <Member name="SweetPeaSuit"/>
+    </Group>
+    <Group name="SweetPeaHDT">
+        <Member name="SweetPeaBoots"/>
+        <Member name="SweetPeaBoots02"/>
+        <Member name="SweetPeaCoatHDT"/>
+        <Member name="SweetPeaGarterStrapsHDT"/>
+        <Member name="SweetPeaGloves"/>
+        <Member name="SweetPeaStockingTopHDT"/>
+        <Member name="SweetPeaSuitHDT"/>
+    </Group>
+</SliderGroups>

@@ -1,0 +1,310 @@
+<SliderSetInfo>
+    <SliderSet name="Minou Diguojun I">
+        <SetFolder>Minou Diguojun I</SetFolder>
+        <SourceFile>Minou Diguojun I.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Diguojun</OutputPath>
+        <OutputFile>cuirassa</OutputFile>
+        <BaseShapeName target="ArmL">ArmL</BaseShapeName>
+        <BaseShapeName target="CCFF01">CCFF01</BaseShapeName>
+        <BaseShapeName target="CCLp">CCLp</BaseShapeName>
+        <BaseShapeName target="JJJJJJjFFFFFbody">JJJJJJjFFFFFbody</BaseShapeName>
+        <BaseShapeName target="armR">armR</BaseShapeName>
+        <BaseShapeName target="legs">legs</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="ArmLBreasts" target="ArmL" local="true">ArmLBreasts.bsd</datafile>
+            <datafile name="armRBreasts" target="armR" local="true">armRBreasts.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreasts" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreasts.bsd</datafile>
+            <datafile name="CCFF01Breasts" target="CCFF01" local="true">CCFF01Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="CCLpBreastsSmall" target="CCLp" local="true">CCLpBreastsSmall.bsd</datafile>
+            <datafile name="ArmLBreastsSmall" target="ArmL" local="true">ArmLBreastsSmall.bsd</datafile>
+            <datafile name="armRBreastsSmall" target="armR" local="true">armRBreastsSmall.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastsSmall" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastsSmall.bsd</datafile>
+            <datafile name="legsBreastsSmall" target="legs" local="true">legsBreastsSmall.bsd</datafile>
+            <datafile name="CCFF01BreastsSmall" target="CCFF01" local="true">CCFF01BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastsSH" target="ArmL" local="true">ArmLBreastsSH.bsd</datafile>
+            <datafile name="armRBreastsSH" target="armR" local="true">armRBreastsSH.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastsSH" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastsSH.bsd</datafile>
+            <datafile name="CCFF01BreastsSH" target="CCFF01" local="true">CCFF01BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastsSSH" target="ArmL" local="true">ArmLBreastsSSH.bsd</datafile>
+            <datafile name="armRBreastsSSH" target="armR" local="true">armRBreastsSSH.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastsSSH" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastsSSH.bsd</datafile>
+            <datafile name="legsBreastsSSH" target="legs" local="true">legsBreastsSSH.bsd</datafile>
+            <datafile name="CCFF01BreastsSSH" target="CCFF01" local="true">CCFF01BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastsFantasy" target="ArmL" local="true">ArmLBreastsFantasy.bsd</datafile>
+            <datafile name="armRBreastsFantasy" target="armR" local="true">armRBreastsFantasy.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastsFantasy" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastsFantasy.bsd</datafile>
+            <datafile name="legsBreastsFantasy" target="legs" local="true">legsBreastsFantasy.bsd</datafile>
+            <datafile name="CCFF01BreastsFantasy" target="CCFF01" local="true">CCFF01BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="ArmLDoubleMelon" target="ArmL" local="true">ArmLDoubleMelon.bsd</datafile>
+            <datafile name="armRDoubleMelon" target="armR" local="true">armRDoubleMelon.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyDoubleMelon" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyDoubleMelon.bsd</datafile>
+            <datafile name="CCFF01DoubleMelon" target="CCFF01" local="true">CCFF01DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="JJJJJJjFFFFFbodyBreastCleavage" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastCleavage.bsd</datafile>
+            <datafile name="CCFF01BreastCleavage" target="CCFF01" local="true">CCFF01BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastFlatness" target="ArmL" local="true">ArmLBreastFlatness.bsd</datafile>
+            <datafile name="armRBreastFlatness" target="armR" local="true">armRBreastFlatness.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastFlatness" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastFlatness.bsd</datafile>
+            <datafile name="legsBreastFlatness" target="legs" local="true">legsBreastFlatness.bsd</datafile>
+            <datafile name="CCFF01BreastFlatness" target="CCFF01" local="true">CCFF01BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastGravity" target="ArmL" local="true">ArmLBreastGravity.bsd</datafile>
+            <datafile name="armRBreastGravity" target="armR" local="true">armRBreastGravity.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastGravity" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastGravity.bsd</datafile>
+            <datafile name="CCFF01BreastGravity" target="CCFF01" local="true">CCFF01BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="ArmLPushUp" target="ArmL" local="true">ArmLPushUp.bsd</datafile>
+            <datafile name="armRPushUp" target="armR" local="true">armRPushUp.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyPushUp" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyPushUp.bsd</datafile>
+            <datafile name="CCFF01PushUp" target="CCFF01" local="true">CCFF01PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="CCLpBreastHeight" target="CCLp" local="true">CCLpBreastHeight.bsd</datafile>
+            <datafile name="ArmLBreastHeight" target="ArmL" local="true">ArmLBreastHeight.bsd</datafile>
+            <datafile name="armRBreastHeight" target="armR" local="true">armRBreastHeight.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastHeight" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastHeight.bsd</datafile>
+            <datafile name="legsBreastHeight" target="legs" local="true">legsBreastHeight.bsd</datafile>
+            <datafile name="CCFF01BreastHeight" target="CCFF01" local="true">CCFF01BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastPerkiness" target="ArmL" local="true">ArmLBreastPerkiness.bsd</datafile>
+            <datafile name="armRBreastPerkiness" target="armR" local="true">armRBreastPerkiness.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastPerkiness" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastPerkiness.bsd</datafile>
+            <datafile name="legsBreastPerkiness" target="legs" local="true">legsBreastPerkiness.bsd</datafile>
+            <datafile name="CCFF01BreastPerkiness" target="CCFF01" local="true">CCFF01BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastWidth" target="ArmL" local="true">ArmLBreastWidth.bsd</datafile>
+            <datafile name="armRBreastWidth" target="armR" local="true">armRBreastWidth.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBreastWidth" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBreastWidth.bsd</datafile>
+            <datafile name="legsBreastWidth" target="legs" local="true">legsBreastWidth.bsd</datafile>
+            <datafile name="CCFF01BreastWidth" target="CCFF01" local="true">CCFF01BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="JJJJJJjFFFFFbodyNippleDistance" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyNippleDistance.bsd</datafile>
+            <datafile name="CCFF01NippleDistance" target="CCFF01" local="true">CCFF01NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="JJJJJJjFFFFFbodyNipplePerkiness" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyNipplePerkiness.bsd</datafile>
+            <datafile name="CCFF01NipplePerkiness" target="CCFF01" local="true">CCFF01NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="JJJJJJjFFFFFbodyNippleSize" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyNippleSize.bsd</datafile>
+            <datafile name="CCFF01NippleSize" target="CCFF01" local="true">CCFF01NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="ArmLNippleUp" target="ArmL" local="true">ArmLNippleUp.bsd</datafile>
+            <datafile name="armRNippleUp" target="armR" local="true">armRNippleUp.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyNippleUp" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyNippleUp.bsd</datafile>
+            <datafile name="CCFF01NippleUp" target="CCFF01" local="true">CCFF01NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="armRNippleDown" target="armR" local="true">armRNippleDown.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyNippleDown" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyNippleDown.bsd</datafile>
+            <datafile name="CCFF01NippleDown" target="CCFF01" local="true">CCFF01NippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="ArmLArms" target="ArmL" local="true">ArmLArms.bsd</datafile>
+            <datafile name="armRArms" target="armR" local="true">armRArms.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyArms" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyArms.bsd</datafile>
+            <datafile name="CCFF01Arms" target="CCFF01" local="true">CCFF01Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ArmLChubbyArms" target="ArmL" local="true">ArmLChubbyArms.bsd</datafile>
+            <datafile name="armRChubbyArms" target="armR" local="true">armRChubbyArms.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyChubbyArms" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyChubbyArms.bsd</datafile>
+            <datafile name="CCFF01ChubbyArms" target="CCFF01" local="true">CCFF01ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="JJJJJJjFFFFFbodyShoulderSmooth" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyShoulderSmooth.bsd</datafile>
+            <datafile name="CCFF01ShoulderSmooth" target="CCFF01" local="true">CCFF01ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ArmLShoulderWidth" target="ArmL" local="true">ArmLShoulderWidth.bsd</datafile>
+            <datafile name="armRShoulderWidth" target="armR" local="true">armRShoulderWidth.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyShoulderWidth" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyShoulderWidth.bsd</datafile>
+            <datafile name="CCFF01ShoulderWidth" target="CCFF01" local="true">CCFF01ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="CCLpBigTorso" target="CCLp" local="true">CCLpBigTorso.bsd</datafile>
+            <datafile name="ArmLBigTorso" target="ArmL" local="true">ArmLBigTorso.bsd</datafile>
+            <datafile name="armRBigTorso" target="armR" local="true">armRBigTorso.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBigTorso" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBigTorso.bsd</datafile>
+            <datafile name="legsBigTorso" target="legs" local="true">legsBigTorso.bsd</datafile>
+            <datafile name="CCFF01BigTorso" target="CCFF01" local="true">CCFF01BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="CCLpWaist" target="CCLp" local="true">CCLpWaist.bsd</datafile>
+            <datafile name="ArmLWaist" target="ArmL" local="true">ArmLWaist.bsd</datafile>
+            <datafile name="armRWaist" target="armR" local="true">armRWaist.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyWaist" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyWaist.bsd</datafile>
+            <datafile name="legsWaist" target="legs" local="true">legsWaist.bsd</datafile>
+            <datafile name="CCFF01Waist" target="CCFF01" local="true">CCFF01Waist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="CCLpWideWaistLine" target="CCLp" local="true">CCLpWideWaistLine.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyWideWaistLine" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyWideWaistLine.bsd</datafile>
+            <datafile name="legsWideWaistLine" target="legs" local="true">legsWideWaistLine.bsd</datafile>
+            <datafile name="CCFF01WideWaistLine" target="CCFF01" local="true">CCFF01WideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="CCLpChubbyWaist" target="CCLp" local="true">CCLpChubbyWaist.bsd</datafile>
+            <datafile name="ArmLChubbyWaist" target="ArmL" local="true">ArmLChubbyWaist.bsd</datafile>
+            <datafile name="armRChubbyWaist" target="armR" local="true">armRChubbyWaist.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyChubbyWaist" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyChubbyWaist.bsd</datafile>
+            <datafile name="legsChubbyWaist" target="legs" local="true">legsChubbyWaist.bsd</datafile>
+            <datafile name="CCFF01ChubbyWaist" target="CCFF01" local="true">CCFF01ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="CCLpBelly" target="CCLp" local="true">CCLpBelly.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBelly" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBelly.bsd</datafile>
+            <datafile name="legsBelly" target="legs" local="true">legsBelly.bsd</datafile>
+            <datafile name="CCFF01Belly" target="CCFF01" local="true">CCFF01Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="CCLpBigBelly" target="CCLp" local="true">CCLpBigBelly.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBigBelly" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBigBelly.bsd</datafile>
+            <datafile name="legsBigBelly" target="legs" local="true">legsBigBelly.bsd</datafile>
+            <datafile name="CCFF01BigBelly" target="CCFF01" local="true">CCFF01BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="CCLpTummyTuck" target="CCLp" local="true">CCLpTummyTuck.bsd</datafile>
+            <datafile name="ArmLTummyTuck" target="ArmL" local="true">ArmLTummyTuck.bsd</datafile>
+            <datafile name="armRTummyTuck" target="armR" local="true">armRTummyTuck.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyTummyTuck" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyTummyTuck.bsd</datafile>
+            <datafile name="legsTummyTuck" target="legs" local="true">legsTummyTuck.bsd</datafile>
+            <datafile name="CCFF01TummyTuck" target="CCFF01" local="true">CCFF01TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="CCLpBack" target="CCLp" local="true">CCLpBack.bsd</datafile>
+            <datafile name="ArmLBack" target="ArmL" local="true">ArmLBack.bsd</datafile>
+            <datafile name="armRBack" target="armR" local="true">armRBack.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBack" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBack.bsd</datafile>
+            <datafile name="legsBack" target="legs" local="true">legsBack.bsd</datafile>
+            <datafile name="CCFF01Back" target="CCFF01" local="true">CCFF01Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="CCLpHipbone" target="CCLp" local="true">CCLpHipbone.bsd</datafile>
+            <datafile name="legsHipbone" target="legs" local="true">legsHipbone.bsd</datafile>
+            <datafile name="CCFF01Hipbone" target="CCFF01" local="true">CCFF01Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="CCLpHips" target="CCLp" local="true">CCLpHips.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyHips" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyHips.bsd</datafile>
+            <datafile name="legsHips" target="legs" local="true">legsHips.bsd</datafile>
+            <datafile name="CCFF01Hips" target="CCFF01" local="true">CCFF01Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="legsButtCrack" target="legs" local="true">legsButtCrack.bsd</datafile>
+            <datafile name="CCFF01ButtCrack" target="CCFF01" local="true">CCFF01ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="CCLpButt" target="CCLp" local="true">CCLpButt.bsd</datafile>
+            <datafile name="ArmLButt" target="ArmL" local="true">ArmLButt.bsd</datafile>
+            <datafile name="armRButt" target="armR" local="true">armRButt.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyButt" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyButt.bsd</datafile>
+            <datafile name="legsButt" target="legs" local="true">legsButt.bsd</datafile>
+            <datafile name="CCFF01Butt" target="CCFF01" local="true">CCFF01Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="CCLpButtSmall" target="CCLp" local="true">CCLpButtSmall.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyButtSmall" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyButtSmall.bsd</datafile>
+            <datafile name="legsButtSmall" target="legs" local="true">legsButtSmall.bsd</datafile>
+            <datafile name="CCFF01ButtSmall" target="CCFF01" local="true">CCFF01ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="CCLpButtShape2" target="CCLp" local="true">CCLpButtShape2.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyButtShape2" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyButtShape2.bsd</datafile>
+            <datafile name="legsButtShape2" target="legs" local="true">legsButtShape2.bsd</datafile>
+            <datafile name="CCFF01ButtShape2" target="CCFF01" local="true">CCFF01ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="CCLpBigButt" target="CCLp" local="true">CCLpBigButt.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyBigButt" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyBigButt.bsd</datafile>
+            <datafile name="legsBigButt" target="legs" local="true">legsBigButt.bsd</datafile>
+            <datafile name="CCFF01BigButt" target="CCFF01" local="true">CCFF01BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="CCLpChubbyButt" target="CCLp" local="true">CCLpChubbyButt.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyChubbyButt" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyChubbyButt.bsd</datafile>
+            <datafile name="legsChubbyButt" target="legs" local="true">legsChubbyButt.bsd</datafile>
+            <datafile name="CCFF01ChubbyButt" target="CCFF01" local="true">CCFF01ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="CCLpAppleCheeks" target="CCLp" local="true">CCLpAppleCheeks.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodyAppleCheeks" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyAppleCheeks.bsd</datafile>
+            <datafile name="legsAppleCheeks" target="legs" local="true">legsAppleCheeks.bsd</datafile>
+            <datafile name="CCFF01AppleCheeks" target="CCFF01" local="true">CCFF01AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="legsRoundAss" target="legs" local="true">legsRoundAss.bsd</datafile>
+            <datafile name="CCFF01RoundAss" target="CCFF01" local="true">CCFF01RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="CCLpGroin" target="CCLp" local="true">CCLpGroin.bsd</datafile>
+            <datafile name="legsGroin" target="legs" local="true">legsGroin.bsd</datafile>
+            <datafile name="CCFF01Groin" target="CCFF01" local="true">CCFF01Groin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="CCLpSlimThighs" target="CCLp" local="true">CCLpSlimThighs.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodySlimThighs" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodySlimThighs.bsd</datafile>
+            <datafile name="legsSlimThighs" target="legs" local="true">legsSlimThighs.bsd</datafile>
+            <datafile name="CCFF01SlimThighs" target="CCFF01" local="true">CCFF01SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="CCLpThighs" target="CCLp" local="true">CCLpThighs.bsd</datafile>
+            <datafile name="legsThighs" target="legs" local="true">legsThighs.bsd</datafile>
+            <datafile name="CCFF01Thighs" target="CCFF01" local="true">CCFF01Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="CCLpChubbyLegs" target="CCLp" local="true">CCLpChubbyLegs.bsd</datafile>
+            <datafile name="legsChubbyLegs" target="legs" local="true">legsChubbyLegs.bsd</datafile>
+            <datafile name="CCFF01ChubbyLegs" target="CCFF01" local="true">CCFF01ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="CCLpLegs" target="CCLp" local="true">CCLpLegs.bsd</datafile>
+            <datafile name="legsLegs" target="legs" local="true">legsLegs.bsd</datafile>
+            <datafile name="CCFF01Legs" target="CCFF01" local="true">CCFF01Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="CCLpKneeHeight" target="CCLp" local="true">CCLpKneeHeight.bsd</datafile>
+            <datafile name="legsKneeHeight" target="legs" local="true">legsKneeHeight.bsd</datafile>
+            <datafile name="CCFF01KneeHeight" target="CCFF01" local="true">CCFF01KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="legsCalfSize" target="legs" local="true">legsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="legsCalfSmooth" target="legs" local="true">legsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="legsAnkles" target="legs" local="true">legsAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="ArmLSmallSeam" target="ArmL" local="true">ArmLSmallSeam.bsd</datafile>
+            <datafile name="armRSmallSeam" target="armR" local="true">armRSmallSeam.bsd</datafile>
+            <datafile name="JJJJJJjFFFFFbodySmallSeam" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodySmallSeam.bsd</datafile>
+            <datafile name="legsSmallSeam" target="legs" local="true">legsSmallSeam.bsd</datafile>
+            <datafile name="CCFF01SmallSeam" target="CCFF01" local="true">CCFF01SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="JJJJJJjFFFFFbodyShoulderTweak" target="JJJJJJjFFFFFbody" local="true">JJJJJJjFFFFFbodyShoulderTweak.bsd</datafile>
+            <datafile name="CCFF01ShoulderTweak" target="CCFF01" local="true">CCFF01ShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

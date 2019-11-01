@@ -1,0 +1,1073 @@
+<SliderSetInfo version="1">
+    <SliderSet name="MaidTop CBBE">
+        <DataFolder>V4MaidCBBE</DataFolder>
+        <SourceFile>top.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\V4 Maid\</OutputPath>
+        <OutputFile GenWeights="true">top</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="chest_1">chest_1</Shape>
+        <Shape target="chest_2">chest_2</Shape>
+        <Shape target="chest_3">chest_3</Shape>
+        <Shape target="chest_4">chest_4</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="chest_4Breasts" target="chest_4" local="true">top.osd\chest_4Breasts</Data>
+            <Data name="chest_3Breasts" target="chest_3" local="true">top.osd\chest_3Breasts</Data>
+            <Data name="chest_2Breasts" target="chest_2" local="true">top.osd\chest_2Breasts</Data>
+            <Data name="chest_1Breasts" target="chest_1" local="true">top.osd\chest_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="chest_4BreastsSmall" target="chest_4" local="true">top.osd\chest_4BreastsSmall</Data>
+            <Data name="chest_3BreastsSmall" target="chest_3" local="true">top.osd\chest_3BreastsSmall</Data>
+            <Data name="chest_2BreastsSmall" target="chest_2" local="true">top.osd\chest_2BreastsSmall</Data>
+            <Data name="chest_1BreastsSmall" target="chest_1" local="true">top.osd\chest_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="chest_4BreastsSH" target="chest_4" local="true">top.osd\chest_4BreastsSH</Data>
+            <Data name="chest_3BreastsSH" target="chest_3" local="true">top.osd\chest_3BreastsSH</Data>
+            <Data name="chest_2BreastsSH" target="chest_2" local="true">top.osd\chest_2BreastsSH</Data>
+            <Data name="chest_1BreastsSH" target="chest_1" local="true">top.osd\chest_1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="chest_4BreastsSSH" target="chest_4" local="true">top.osd\chest_4BreastsSSH</Data>
+            <Data name="chest_3BreastsSSH" target="chest_3" local="true">top.osd\chest_3BreastsSSH</Data>
+            <Data name="chest_2BreastsSSH" target="chest_2" local="true">top.osd\chest_2BreastsSSH</Data>
+            <Data name="chest_1BreastsSSH" target="chest_1" local="true">top.osd\chest_1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="chest_4BreastsFantasy" target="chest_4" local="true">top.osd\chest_4BreastsFantasy</Data>
+            <Data name="chest_3BreastsFantasy" target="chest_3" local="true">top.osd\chest_3BreastsFantasy</Data>
+            <Data name="chest_2BreastsFantasy" target="chest_2" local="true">top.osd\chest_2BreastsFantasy</Data>
+            <Data name="chest_1BreastsFantasy" target="chest_1" local="true">top.osd\chest_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="chest_4DoubleMelon" target="chest_4" local="true">top.osd\chest_4DoubleMelon</Data>
+            <Data name="chest_3DoubleMelon" target="chest_3" local="true">top.osd\chest_3DoubleMelon</Data>
+            <Data name="chest_2DoubleMelon" target="chest_2" local="true">top.osd\chest_2DoubleMelon</Data>
+            <Data name="chest_1DoubleMelon" target="chest_1" local="true">top.osd\chest_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="chest_4BreastCleavage" target="chest_4" local="true">top.osd\chest_4BreastCleavage</Data>
+            <Data name="chest_3BreastCleavage" target="chest_3" local="true">top.osd\chest_3BreastCleavage</Data>
+            <Data name="chest_2BreastCleavage" target="chest_2" local="true">top.osd\chest_2BreastCleavage</Data>
+            <Data name="chest_1BreastCleavage" target="chest_1" local="true">top.osd\chest_1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="chest_4BreastFlatness" target="chest_4" local="true">top.osd\chest_4BreastFlatness</Data>
+            <Data name="chest_3BreastFlatness" target="chest_3" local="true">top.osd\chest_3BreastFlatness</Data>
+            <Data name="chest_2BreastFlatness" target="chest_2" local="true">top.osd\chest_2BreastFlatness</Data>
+            <Data name="chest_1BreastFlatness" target="chest_1" local="true">top.osd\chest_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="chest_4BreastGravity" target="chest_4" local="true">top.osd\chest_4BreastGravity</Data>
+            <Data name="chest_3BreastGravity" target="chest_3" local="true">top.osd\chest_3BreastGravity</Data>
+            <Data name="chest_2BreastGravity" target="chest_2" local="true">top.osd\chest_2BreastGravity</Data>
+            <Data name="chest_1BreastGravity" target="chest_1" local="true">top.osd\chest_1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="chest_4PushUp" target="chest_4" local="true">top.osd\chest_4PushUp</Data>
+            <Data name="chest_3PushUp" target="chest_3" local="true">top.osd\chest_3PushUp</Data>
+            <Data name="chest_2PushUp" target="chest_2" local="true">top.osd\chest_2PushUp</Data>
+            <Data name="chest_1PushUp" target="chest_1" local="true">top.osd\chest_1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="chest_4BreastHeight" target="chest_4" local="true">top.osd\chest_4BreastHeight</Data>
+            <Data name="chest_3BreastHeight" target="chest_3" local="true">top.osd\chest_3BreastHeight</Data>
+            <Data name="chest_2BreastHeight" target="chest_2" local="true">top.osd\chest_2BreastHeight</Data>
+            <Data name="chest_1BreastHeight" target="chest_1" local="true">top.osd\chest_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="chest_4BreastPerkiness" target="chest_4" local="true">top.osd\chest_4BreastPerkiness</Data>
+            <Data name="chest_3BreastPerkiness" target="chest_3" local="true">top.osd\chest_3BreastPerkiness</Data>
+            <Data name="chest_2BreastPerkiness" target="chest_2" local="true">top.osd\chest_2BreastPerkiness</Data>
+            <Data name="chest_1BreastPerkiness" target="chest_1" local="true">top.osd\chest_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="chest_4BreastWidth" target="chest_4" local="true">top.osd\chest_4BreastWidth</Data>
+            <Data name="chest_3BreastWidth" target="chest_3" local="true">top.osd\chest_3BreastWidth</Data>
+            <Data name="chest_2BreastWidth" target="chest_2" local="true">top.osd\chest_2BreastWidth</Data>
+            <Data name="chest_1BreastWidth" target="chest_1" local="true">top.osd\chest_1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="chest_4NippleDistance" target="chest_4" local="true">top.osd\chest_4NippleDistance</Data>
+            <Data name="chest_3NippleDistance" target="chest_3" local="true">top.osd\chest_3NippleDistance</Data>
+            <Data name="chest_2NippleDistance" target="chest_2" local="true">top.osd\chest_2NippleDistance</Data>
+            <Data name="chest_1NippleDistance" target="chest_1" local="true">top.osd\chest_1NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="chest_3NipplePerkiness" target="chest_3" local="true">top.osd\chest_3NipplePerkiness</Data>
+            <Data name="chest_2NipplePerkiness" target="chest_2" local="true">top.osd\chest_2NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="chest_2NippleLength" target="chest_2" local="true">top.osd\chest_2NippleLength</Data>
+            <Data name="chest_1NippleLength" target="chest_1" local="true">top.osd\chest_1NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="chest_3NippleSize" target="chest_3" local="true">top.osd\chest_3NippleSize</Data>
+            <Data name="chest_2NippleSize" target="chest_2" local="true">top.osd\chest_2NippleSize</Data>
+            <Data name="chest_1NippleSize" target="chest_1" local="true">top.osd\chest_1NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="chest_4NippleAreola" target="chest_4" local="true">top.osd\chest_4NippleAreola</Data>
+            <Data name="chest_3NippleAreola" target="chest_3" local="true">top.osd\chest_3NippleAreola</Data>
+            <Data name="chest_2NippleAreola" target="chest_2" local="true">top.osd\chest_2NippleAreola</Data>
+            <Data name="chest_1NippleAreola" target="chest_1" local="true">top.osd\chest_1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="chest_4NippleUp" target="chest_4" local="true">top.osd\chest_4NippleUp</Data>
+            <Data name="chest_3NippleUp" target="chest_3" local="true">top.osd\chest_3NippleUp</Data>
+            <Data name="chest_2NippleUp" target="chest_2" local="true">top.osd\chest_2NippleUp</Data>
+            <Data name="chest_1NippleUp" target="chest_1" local="true">top.osd\chest_1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="chest_4NippleDown" target="chest_4" local="true">top.osd\chest_4NippleDown</Data>
+            <Data name="chest_3NippleDown" target="chest_3" local="true">top.osd\chest_3NippleDown</Data>
+            <Data name="chest_2NippleDown" target="chest_2" local="true">top.osd\chest_2NippleDown</Data>
+            <Data name="chest_1NippleDown" target="chest_1" local="true">top.osd\chest_1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="chest_2NippleTip" target="chest_2" local="true">top.osd\chest_2NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="chest_1Arms" target="chest_1" local="true">top.osd\chest_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="chest_1ChubbyArms" target="chest_1" local="true">top.osd\chest_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="chest_1ShoulderSmooth" target="chest_1" local="true">top.osd\chest_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="chest_3ShoulderWidth" target="chest_3" local="true">top.osd\chest_3ShoulderWidth</Data>
+            <Data name="chest_1ShoulderWidth" target="chest_1" local="true">top.osd\chest_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="chest_4BigTorso" target="chest_4" local="true">top.osd\chest_4BigTorso</Data>
+            <Data name="chest_3BigTorso" target="chest_3" local="true">top.osd\chest_3BigTorso</Data>
+            <Data name="chest_2BigTorso" target="chest_2" local="true">top.osd\chest_2BigTorso</Data>
+            <Data name="chest_1BigTorso" target="chest_1" local="true">top.osd\chest_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="chest_1Waist" target="chest_1" local="true">top.osd\chest_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="chest_1WideWaistLine" target="chest_1" local="true">top.osd\chest_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="chest_3ChubbyWaist" target="chest_3" local="true">top.osd\chest_3ChubbyWaist</Data>
+            <Data name="chest_2ChubbyWaist" target="chest_2" local="true">top.osd\chest_2ChubbyWaist</Data>
+            <Data name="chest_1ChubbyWaist" target="chest_1" local="true">top.osd\chest_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="chest_4BigBelly" target="chest_4" local="true">top.osd\chest_4BigBelly</Data>
+            <Data name="chest_3BigBelly" target="chest_3" local="true">top.osd\chest_3BigBelly</Data>
+            <Data name="chest_2BigBelly" target="chest_2" local="true">top.osd\chest_2BigBelly</Data>
+            <Data name="chest_1BigBelly" target="chest_1" local="true">top.osd\chest_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="chest_4PregnancyBelly" target="chest_4" local="true">top.osd\chest_4PregnancyBelly</Data>
+            <Data name="chest_3PregnancyBelly" target="chest_3" local="true">top.osd\chest_3PregnancyBelly</Data>
+            <Data name="chest_2PregnancyBelly" target="chest_2" local="true">top.osd\chest_2PregnancyBelly</Data>
+            <Data name="chest_1PregnancyBelly" target="chest_1" local="true">top.osd\chest_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="chest_3Back" target="chest_3" local="true">top.osd\chest_3Back</Data>
+            <Data name="chest_2Back" target="chest_2" local="true">top.osd\chest_2Back</Data>
+            <Data name="chest_1Back" target="chest_1" local="true">top.osd\chest_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="chest_1Butt" target="chest_1" local="true">top.osd\chest_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="chest_1ButtShape2" target="chest_1" local="true">top.osd\chest_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="chest_1ChubbyButt" target="chest_1" local="true">top.osd\chest_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="chest_1AppleCheeks" target="chest_1" local="true">top.osd\chest_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="chest_1SmallSeam" target="chest_1" local="true">top.osd\chest_1SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="chest_1ShoulderTweak" target="chest_1" local="true">top.osd\chest_1ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MaidPanty CBBE">
+        <DataFolder>V4MaidCBBE</DataFolder>
+        <SourceFile>panty.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\V4 Maid\</OutputPath>
+        <OutputFile GenWeights="true">panty</OutputFile>
+        <Shape target="Object002_1">Object002_1</Shape>
+        <Shape target="Object002_2">Object002_2</Shape>
+        <Shape target="Object002_3">Object002_3</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="Object002_3BreastsSmall" target="Object002_3" local="true">panty.osd\Object002_3BreastsSmall</Data>
+            <Data name="Object002_1BreastsSmall" target="Object002_1" local="true">panty.osd\Object002_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Object002_3BreastHeight" target="Object002_3" local="true">panty.osd\Object002_3BreastHeight</Data>
+            <Data name="Object002_1BreastHeight" target="Object002_1" local="true">panty.osd\Object002_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Object002_3BigTorso" target="Object002_3" local="true">panty.osd\Object002_3BigTorso</Data>
+            <Data name="Object002_2BigTorso" target="Object002_2" local="true">panty.osd\Object002_2BigTorso</Data>
+            <Data name="Object002_1BigTorso" target="Object002_1" local="true">panty.osd\Object002_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Object002_3Waist" target="Object002_3" local="true">panty.osd\Object002_3Waist</Data>
+            <Data name="Object002_2Waist" target="Object002_2" local="true">panty.osd\Object002_2Waist</Data>
+            <Data name="Object002_1Waist" target="Object002_1" local="true">panty.osd\Object002_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Object002_1WideWaistLine" target="Object002_1" local="true">panty.osd\Object002_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Object002_3ChubbyWaist" target="Object002_3" local="true">panty.osd\Object002_3ChubbyWaist</Data>
+            <Data name="Object002_2ChubbyWaist" target="Object002_2" local="true">panty.osd\Object002_2ChubbyWaist</Data>
+            <Data name="Object002_1ChubbyWaist" target="Object002_1" local="true">panty.osd\Object002_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Object002_3Belly" target="Object002_3" local="true">panty.osd\Object002_3Belly</Data>
+            <Data name="Object002_1Belly" target="Object002_1" local="true">panty.osd\Object002_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="Object002_3BigBelly" target="Object002_3" local="true">panty.osd\Object002_3BigBelly</Data>
+            <Data name="Object002_1BigBelly" target="Object002_1" local="true">panty.osd\Object002_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Object002_3PregnancyBelly" target="Object002_3" local="true">panty.osd\Object002_3PregnancyBelly</Data>
+            <Data name="Object002_1PregnancyBelly" target="Object002_1" local="true">panty.osd\Object002_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Object002_3TummyTuck" target="Object002_3" local="true">panty.osd\Object002_3TummyTuck</Data>
+            <Data name="Object002_1TummyTuck" target="Object002_1" local="true">panty.osd\Object002_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Object002_3Back" target="Object002_3" local="true">panty.osd\Object002_3Back</Data>
+            <Data name="Object002_2Back" target="Object002_2" local="true">panty.osd\Object002_2Back</Data>
+            <Data name="Object002_1Back" target="Object002_1" local="true">panty.osd\Object002_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Object002_3Hipbone" target="Object002_3" local="true">panty.osd\Object002_3Hipbone</Data>
+            <Data name="Object002_2Hipbone" target="Object002_2" local="true">panty.osd\Object002_2Hipbone</Data>
+            <Data name="Object002_1Hipbone" target="Object002_1" local="true">panty.osd\Object002_1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Object002_3Hips" target="Object002_3" local="true">panty.osd\Object002_3Hips</Data>
+            <Data name="Object002_2Hips" target="Object002_2" local="true">panty.osd\Object002_2Hips</Data>
+            <Data name="Object002_1Hips" target="Object002_1" local="true">panty.osd\Object002_1Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="Object002_2ButtCrack" target="Object002_2" local="true">panty.osd\Object002_2ButtCrack</Data>
+            <Data name="Object002_1ButtCrack" target="Object002_1" local="true">panty.osd\Object002_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Object002_3Butt" target="Object002_3" local="true">panty.osd\Object002_3Butt</Data>
+            <Data name="Object002_2Butt" target="Object002_2" local="true">panty.osd\Object002_2Butt</Data>
+            <Data name="Object002_1Butt" target="Object002_1" local="true">panty.osd\Object002_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Object002_3ButtSmall" target="Object002_3" local="true">panty.osd\Object002_3ButtSmall</Data>
+            <Data name="Object002_2ButtSmall" target="Object002_2" local="true">panty.osd\Object002_2ButtSmall</Data>
+            <Data name="Object002_1ButtSmall" target="Object002_1" local="true">panty.osd\Object002_1ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Object002_3ButtShape2" target="Object002_3" local="true">panty.osd\Object002_3ButtShape2</Data>
+            <Data name="Object002_2ButtShape2" target="Object002_2" local="true">panty.osd\Object002_2ButtShape2</Data>
+            <Data name="Object002_1ButtShape2" target="Object002_1" local="true">panty.osd\Object002_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Object002_3BigButt" target="Object002_3" local="true">panty.osd\Object002_3BigButt</Data>
+            <Data name="Object002_2BigButt" target="Object002_2" local="true">panty.osd\Object002_2BigButt</Data>
+            <Data name="Object002_1BigButt" target="Object002_1" local="true">panty.osd\Object002_1BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Object002_3ChubbyButt" target="Object002_3" local="true">panty.osd\Object002_3ChubbyButt</Data>
+            <Data name="Object002_2ChubbyButt" target="Object002_2" local="true">panty.osd\Object002_2ChubbyButt</Data>
+            <Data name="Object002_1ChubbyButt" target="Object002_1" local="true">panty.osd\Object002_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Object002_2AppleCheeks" target="Object002_2" local="true">panty.osd\Object002_2AppleCheeks</Data>
+            <Data name="Object002_1AppleCheeks" target="Object002_1" local="true">panty.osd\Object002_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Object002_2RoundAss" target="Object002_2" local="true">panty.osd\Object002_2RoundAss</Data>
+            <Data name="Object002_1RoundAss" target="Object002_1" local="true">panty.osd\Object002_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Object002_3Groin" target="Object002_3" local="true">panty.osd\Object002_3Groin</Data>
+            <Data name="Object002_1Groin" target="Object002_1" local="true">panty.osd\Object002_1Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Object002_3SlimThighs" target="Object002_3" local="true">panty.osd\Object002_3SlimThighs</Data>
+            <Data name="Object002_2SlimThighs" target="Object002_2" local="true">panty.osd\Object002_2SlimThighs</Data>
+            <Data name="Object002_1SlimThighs" target="Object002_1" local="true">panty.osd\Object002_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Object002_3Thighs" target="Object002_3" local="true">panty.osd\Object002_3Thighs</Data>
+            <Data name="Object002_1Thighs" target="Object002_1" local="true">panty.osd\Object002_1Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Object002_3ChubbyLegs" target="Object002_3" local="true">panty.osd\Object002_3ChubbyLegs</Data>
+            <Data name="Object002_2ChubbyLegs" target="Object002_2" local="true">panty.osd\Object002_2ChubbyLegs</Data>
+            <Data name="Object002_1ChubbyLegs" target="Object002_1" local="true">panty.osd\Object002_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Object002_3Legs" target="Object002_3" local="true">panty.osd\Object002_3Legs</Data>
+            <Data name="Object002_1Legs" target="Object002_1" local="true">panty.osd\Object002_1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Object002_1KneeHeight" target="Object002_1" local="true">panty.osd\Object002_1KneeHeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MaidApron CBBE">
+        <DataFolder>V4MaidCBBE</DataFolder>
+        <SourceFile>apron.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\V4 Maid\</OutputPath>
+        <OutputFile GenWeights="true">apron</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="hip_1">hip_1</Shape>
+        <Shape target="hip_2">hip_2</Shape>
+        <Shape target="hip_3">hip_3</Shape>
+        <Shape target="hip_4">hip_4</Shape>
+        <Shape target="hip_5">hip_5</Shape>
+        <Shape target="hip_6">hip_6</Shape>
+        <Shape target="hip_7">hip_7</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="hip_2BreastsSmall" target="hip_2" local="true">apron.osd\hip_2BreastsSmall</Data>
+            <Data name="hip_1BreastsSmall" target="hip_1" local="true">apron.osd\hip_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="hip_2BreastHeight" target="hip_2" local="true">apron.osd\hip_2BreastHeight</Data>
+            <Data name="hip_1BreastHeight" target="hip_1" local="true">apron.osd\hip_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="hip_7BigTorso" target="hip_7" local="true">apron.osd\hip_7BigTorso</Data>
+            <Data name="hip_6BigTorso" target="hip_6" local="true">apron.osd\hip_6BigTorso</Data>
+            <Data name="hip_5BigTorso" target="hip_5" local="true">apron.osd\hip_5BigTorso</Data>
+            <Data name="hip_4BigTorso" target="hip_4" local="true">apron.osd\hip_4BigTorso</Data>
+            <Data name="hip_3BigTorso" target="hip_3" local="true">apron.osd\hip_3BigTorso</Data>
+            <Data name="hip_2BigTorso" target="hip_2" local="true">apron.osd\hip_2BigTorso</Data>
+            <Data name="hip_1BigTorso" target="hip_1" local="true">apron.osd\hip_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="hip_7Waist" target="hip_7" local="true">apron.osd\hip_7Waist</Data>
+            <Data name="hip_6Waist" target="hip_6" local="true">apron.osd\hip_6Waist</Data>
+            <Data name="hip_5Waist" target="hip_5" local="true">apron.osd\hip_5Waist</Data>
+            <Data name="hip_4Waist" target="hip_4" local="true">apron.osd\hip_4Waist</Data>
+            <Data name="hip_3Waist" target="hip_3" local="true">apron.osd\hip_3Waist</Data>
+            <Data name="hip_2Waist" target="hip_2" local="true">apron.osd\hip_2Waist</Data>
+            <Data name="hip_1Waist" target="hip_1" local="true">apron.osd\hip_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="hip_1WideWaistLine" target="hip_1" local="true">apron.osd\hip_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="hip_7ChubbyWaist" target="hip_7" local="true">apron.osd\hip_7ChubbyWaist</Data>
+            <Data name="hip_6ChubbyWaist" target="hip_6" local="true">apron.osd\hip_6ChubbyWaist</Data>
+            <Data name="hip_5ChubbyWaist" target="hip_5" local="true">apron.osd\hip_5ChubbyWaist</Data>
+            <Data name="hip_4ChubbyWaist" target="hip_4" local="true">apron.osd\hip_4ChubbyWaist</Data>
+            <Data name="hip_3ChubbyWaist" target="hip_3" local="true">apron.osd\hip_3ChubbyWaist</Data>
+            <Data name="hip_2ChubbyWaist" target="hip_2" local="true">apron.osd\hip_2ChubbyWaist</Data>
+            <Data name="hip_1ChubbyWaist" target="hip_1" local="true">apron.osd\hip_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="hip_4Belly" target="hip_4" local="true">apron.osd\hip_4Belly</Data>
+            <Data name="hip_3Belly" target="hip_3" local="true">apron.osd\hip_3Belly</Data>
+            <Data name="hip_2Belly" target="hip_2" local="true">apron.osd\hip_2Belly</Data>
+            <Data name="hip_1Belly" target="hip_1" local="true">apron.osd\hip_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="hip_4BigBelly" target="hip_4" local="true">apron.osd\hip_4BigBelly</Data>
+            <Data name="hip_3BigBelly" target="hip_3" local="true">apron.osd\hip_3BigBelly</Data>
+            <Data name="hip_2BigBelly" target="hip_2" local="true">apron.osd\hip_2BigBelly</Data>
+            <Data name="hip_1BigBelly" target="hip_1" local="true">apron.osd\hip_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="hip_4PregnancyBelly" target="hip_4" local="true">apron.osd\hip_4PregnancyBelly</Data>
+            <Data name="hip_3PregnancyBelly" target="hip_3" local="true">apron.osd\hip_3PregnancyBelly</Data>
+            <Data name="hip_2PregnancyBelly" target="hip_2" local="true">apron.osd\hip_2PregnancyBelly</Data>
+            <Data name="hip_1PregnancyBelly" target="hip_1" local="true">apron.osd\hip_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="hip_4TummyTuck" target="hip_4" local="true">apron.osd\hip_4TummyTuck</Data>
+            <Data name="hip_3TummyTuck" target="hip_3" local="true">apron.osd\hip_3TummyTuck</Data>
+            <Data name="hip_2TummyTuck" target="hip_2" local="true">apron.osd\hip_2TummyTuck</Data>
+            <Data name="hip_1TummyTuck" target="hip_1" local="true">apron.osd\hip_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="hip_7Back" target="hip_7" local="true">apron.osd\hip_7Back</Data>
+            <Data name="hip_6Back" target="hip_6" local="true">apron.osd\hip_6Back</Data>
+            <Data name="hip_5Back" target="hip_5" local="true">apron.osd\hip_5Back</Data>
+            <Data name="hip_4Back" target="hip_4" local="true">apron.osd\hip_4Back</Data>
+            <Data name="hip_3Back" target="hip_3" local="true">apron.osd\hip_3Back</Data>
+            <Data name="hip_2Back" target="hip_2" local="true">apron.osd\hip_2Back</Data>
+            <Data name="hip_1Back" target="hip_1" local="true">apron.osd\hip_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="hip_6Hipbone" target="hip_6" local="true">apron.osd\hip_6Hipbone</Data>
+            <Data name="hip_4Hipbone" target="hip_4" local="true">apron.osd\hip_4Hipbone</Data>
+            <Data name="hip_3Hipbone" target="hip_3" local="true">apron.osd\hip_3Hipbone</Data>
+            <Data name="hip_2Hipbone" target="hip_2" local="true">apron.osd\hip_2Hipbone</Data>
+            <Data name="hip_1Hipbone" target="hip_1" local="true">apron.osd\hip_1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="hip_7Hips" target="hip_7" local="true">apron.osd\hip_7Hips</Data>
+            <Data name="hip_6Hips" target="hip_6" local="true">apron.osd\hip_6Hips</Data>
+            <Data name="hip_5Hips" target="hip_5" local="true">apron.osd\hip_5Hips</Data>
+            <Data name="hip_4Hips" target="hip_4" local="true">apron.osd\hip_4Hips</Data>
+            <Data name="hip_3Hips" target="hip_3" local="true">apron.osd\hip_3Hips</Data>
+            <Data name="hip_2Hips" target="hip_2" local="true">apron.osd\hip_2Hips</Data>
+            <Data name="hip_1Hips" target="hip_1" local="true">apron.osd\hip_1Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="hip_7ButtCrack" target="hip_7" local="true">apron.osd\hip_7ButtCrack</Data>
+            <Data name="hip_6ButtCrack" target="hip_6" local="true">apron.osd\hip_6ButtCrack</Data>
+            <Data name="hip_5ButtCrack" target="hip_5" local="true">apron.osd\hip_5ButtCrack</Data>
+            <Data name="hip_1ButtCrack" target="hip_1" local="true">apron.osd\hip_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="hip_7Butt" target="hip_7" local="true">apron.osd\hip_7Butt</Data>
+            <Data name="hip_6Butt" target="hip_6" local="true">apron.osd\hip_6Butt</Data>
+            <Data name="hip_5Butt" target="hip_5" local="true">apron.osd\hip_5Butt</Data>
+            <Data name="hip_4Butt" target="hip_4" local="true">apron.osd\hip_4Butt</Data>
+            <Data name="hip_3Butt" target="hip_3" local="true">apron.osd\hip_3Butt</Data>
+            <Data name="hip_2Butt" target="hip_2" local="true">apron.osd\hip_2Butt</Data>
+            <Data name="hip_1Butt" target="hip_1" local="true">apron.osd\hip_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="hip_7ButtSmall" target="hip_7" local="true">apron.osd\hip_7ButtSmall</Data>
+            <Data name="hip_6ButtSmall" target="hip_6" local="true">apron.osd\hip_6ButtSmall</Data>
+            <Data name="hip_5ButtSmall" target="hip_5" local="true">apron.osd\hip_5ButtSmall</Data>
+            <Data name="hip_4ButtSmall" target="hip_4" local="true">apron.osd\hip_4ButtSmall</Data>
+            <Data name="hip_3ButtSmall" target="hip_3" local="true">apron.osd\hip_3ButtSmall</Data>
+            <Data name="hip_2ButtSmall" target="hip_2" local="true">apron.osd\hip_2ButtSmall</Data>
+            <Data name="hip_1ButtSmall" target="hip_1" local="true">apron.osd\hip_1ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="hip_7ButtShape2" target="hip_7" local="true">apron.osd\hip_7ButtShape2</Data>
+            <Data name="hip_6ButtShape2" target="hip_6" local="true">apron.osd\hip_6ButtShape2</Data>
+            <Data name="hip_5ButtShape2" target="hip_5" local="true">apron.osd\hip_5ButtShape2</Data>
+            <Data name="hip_4ButtShape2" target="hip_4" local="true">apron.osd\hip_4ButtShape2</Data>
+            <Data name="hip_3ButtShape2" target="hip_3" local="true">apron.osd\hip_3ButtShape2</Data>
+            <Data name="hip_2ButtShape2" target="hip_2" local="true">apron.osd\hip_2ButtShape2</Data>
+            <Data name="hip_1ButtShape2" target="hip_1" local="true">apron.osd\hip_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="hip_7BigButt" target="hip_7" local="true">apron.osd\hip_7BigButt</Data>
+            <Data name="hip_6BigButt" target="hip_6" local="true">apron.osd\hip_6BigButt</Data>
+            <Data name="hip_5BigButt" target="hip_5" local="true">apron.osd\hip_5BigButt</Data>
+            <Data name="hip_4BigButt" target="hip_4" local="true">apron.osd\hip_4BigButt</Data>
+            <Data name="hip_3BigButt" target="hip_3" local="true">apron.osd\hip_3BigButt</Data>
+            <Data name="hip_2BigButt" target="hip_2" local="true">apron.osd\hip_2BigButt</Data>
+            <Data name="hip_1BigButt" target="hip_1" local="true">apron.osd\hip_1BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="hip_7ChubbyButt" target="hip_7" local="true">apron.osd\hip_7ChubbyButt</Data>
+            <Data name="hip_6ChubbyButt" target="hip_6" local="true">apron.osd\hip_6ChubbyButt</Data>
+            <Data name="hip_5ChubbyButt" target="hip_5" local="true">apron.osd\hip_5ChubbyButt</Data>
+            <Data name="hip_4ChubbyButt" target="hip_4" local="true">apron.osd\hip_4ChubbyButt</Data>
+            <Data name="hip_3ChubbyButt" target="hip_3" local="true">apron.osd\hip_3ChubbyButt</Data>
+            <Data name="hip_2ChubbyButt" target="hip_2" local="true">apron.osd\hip_2ChubbyButt</Data>
+            <Data name="hip_1ChubbyButt" target="hip_1" local="true">apron.osd\hip_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="hip_7AppleCheeks" target="hip_7" local="true">apron.osd\hip_7AppleCheeks</Data>
+            <Data name="hip_6AppleCheeks" target="hip_6" local="true">apron.osd\hip_6AppleCheeks</Data>
+            <Data name="hip_5AppleCheeks" target="hip_5" local="true">apron.osd\hip_5AppleCheeks</Data>
+            <Data name="hip_1AppleCheeks" target="hip_1" local="true">apron.osd\hip_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="hip_7RoundAss" target="hip_7" local="true">apron.osd\hip_7RoundAss</Data>
+            <Data name="hip_6RoundAss" target="hip_6" local="true">apron.osd\hip_6RoundAss</Data>
+            <Data name="hip_5RoundAss" target="hip_5" local="true">apron.osd\hip_5RoundAss</Data>
+            <Data name="hip_1RoundAss" target="hip_1" local="true">apron.osd\hip_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="hip_4Groin" target="hip_4" local="true">apron.osd\hip_4Groin</Data>
+            <Data name="hip_3Groin" target="hip_3" local="true">apron.osd\hip_3Groin</Data>
+            <Data name="hip_2Groin" target="hip_2" local="true">apron.osd\hip_2Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="hip_7SlimThighs" target="hip_7" local="true">apron.osd\hip_7SlimThighs</Data>
+            <Data name="hip_6SlimThighs" target="hip_6" local="true">apron.osd\hip_6SlimThighs</Data>
+            <Data name="hip_5SlimThighs" target="hip_5" local="true">apron.osd\hip_5SlimThighs</Data>
+            <Data name="hip_4SlimThighs" target="hip_4" local="true">apron.osd\hip_4SlimThighs</Data>
+            <Data name="hip_3SlimThighs" target="hip_3" local="true">apron.osd\hip_3SlimThighs</Data>
+            <Data name="hip_2SlimThighs" target="hip_2" local="true">apron.osd\hip_2SlimThighs</Data>
+            <Data name="hip_1SlimThighs" target="hip_1" local="true">apron.osd\hip_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="hip_7Thighs" target="hip_7" local="true">apron.osd\hip_7Thighs</Data>
+            <Data name="hip_4Thighs" target="hip_4" local="true">apron.osd\hip_4Thighs</Data>
+            <Data name="hip_3Thighs" target="hip_3" local="true">apron.osd\hip_3Thighs</Data>
+            <Data name="hip_2Thighs" target="hip_2" local="true">apron.osd\hip_2Thighs</Data>
+            <Data name="hip_1Thighs" target="hip_1" local="true">apron.osd\hip_1Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="hip_7ChubbyLegs" target="hip_7" local="true">apron.osd\hip_7ChubbyLegs</Data>
+            <Data name="hip_6ChubbyLegs" target="hip_6" local="true">apron.osd\hip_6ChubbyLegs</Data>
+            <Data name="hip_4ChubbyLegs" target="hip_4" local="true">apron.osd\hip_4ChubbyLegs</Data>
+            <Data name="hip_3ChubbyLegs" target="hip_3" local="true">apron.osd\hip_3ChubbyLegs</Data>
+            <Data name="hip_2ChubbyLegs" target="hip_2" local="true">apron.osd\hip_2ChubbyLegs</Data>
+            <Data name="hip_1ChubbyLegs" target="hip_1" local="true">apron.osd\hip_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="hip_7Legs" target="hip_7" local="true">apron.osd\hip_7Legs</Data>
+            <Data name="hip_4Legs" target="hip_4" local="true">apron.osd\hip_4Legs</Data>
+            <Data name="hip_3Legs" target="hip_3" local="true">apron.osd\hip_3Legs</Data>
+            <Data name="hip_2Legs" target="hip_2" local="true">apron.osd\hip_2Legs</Data>
+            <Data name="hip_1Legs" target="hip_1" local="true">apron.osd\hip_1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="hip_4KneeHeight" target="hip_4" local="true">apron.osd\hip_4KneeHeight</Data>
+            <Data name="hip_3KneeHeight" target="hip_3" local="true">apron.osd\hip_3KneeHeight</Data>
+            <Data name="hip_2KneeHeight" target="hip_2" local="true">apron.osd\hip_2KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MaidTopAlt CBBE">
+        <DataFolder>V4MaidCBBE</DataFolder>
+        <SourceFile>TopAlt.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\V4 Maid\Alt\</OutputPath>
+        <OutputFile GenWeights="true">top</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="chest_1">chest_1</Shape>
+        <Shape target="chest_3">chest_3</Shape>
+        <Shape target="chest_4">chest_4</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="chest_4Breasts" target="chest_4" local="true">TopAlt.osd\chest_4Breasts</Data>
+            <Data name="chest_3Breasts" target="chest_3" local="true">TopAlt.osd\chest_3Breasts</Data>
+            <Data name="chest_1Breasts" target="chest_1" local="true">TopAlt.osd\chest_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="chest_4BreastsSmall" target="chest_4" local="true">TopAlt.osd\chest_4BreastsSmall</Data>
+            <Data name="chest_3BreastsSmall" target="chest_3" local="true">TopAlt.osd\chest_3BreastsSmall</Data>
+            <Data name="chest_1BreastsSmall" target="chest_1" local="true">TopAlt.osd\chest_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="chest_4BreastsSH" target="chest_4" local="true">TopAlt.osd\chest_4BreastsSH</Data>
+            <Data name="chest_3BreastsSH" target="chest_3" local="true">TopAlt.osd\chest_3BreastsSH</Data>
+            <Data name="chest_1BreastsSH" target="chest_1" local="true">TopAlt.osd\chest_1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="chest_4BreastsSSH" target="chest_4" local="true">TopAlt.osd\chest_4BreastsSSH</Data>
+            <Data name="chest_3BreastsSSH" target="chest_3" local="true">TopAlt.osd\chest_3BreastsSSH</Data>
+            <Data name="chest_1BreastsSSH" target="chest_1" local="true">TopAlt.osd\chest_1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="chest_4BreastsFantasy" target="chest_4" local="true">TopAlt.osd\chest_4BreastsFantasy</Data>
+            <Data name="chest_3BreastsFantasy" target="chest_3" local="true">TopAlt.osd\chest_3BreastsFantasy</Data>
+            <Data name="chest_1BreastsFantasy" target="chest_1" local="true">TopAlt.osd\chest_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="chest_4DoubleMelon" target="chest_4" local="true">TopAlt.osd\chest_4DoubleMelon</Data>
+            <Data name="chest_3DoubleMelon" target="chest_3" local="true">TopAlt.osd\chest_3DoubleMelon</Data>
+            <Data name="chest_1DoubleMelon" target="chest_1" local="true">TopAlt.osd\chest_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="chest_4BreastCleavage" target="chest_4" local="true">TopAlt.osd\chest_4BreastCleavage</Data>
+            <Data name="chest_3BreastCleavage" target="chest_3" local="true">TopAlt.osd\chest_3BreastCleavage</Data>
+            <Data name="chest_1BreastCleavage" target="chest_1" local="true">TopAlt.osd\chest_1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="chest_4BreastFlatness" target="chest_4" local="true">TopAlt.osd\chest_4BreastFlatness</Data>
+            <Data name="chest_3BreastFlatness" target="chest_3" local="true">TopAlt.osd\chest_3BreastFlatness</Data>
+            <Data name="chest_1BreastFlatness" target="chest_1" local="true">TopAlt.osd\chest_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="chest_4BreastGravity" target="chest_4" local="true">TopAlt.osd\chest_4BreastGravity</Data>
+            <Data name="chest_3BreastGravity" target="chest_3" local="true">TopAlt.osd\chest_3BreastGravity</Data>
+            <Data name="chest_1BreastGravity" target="chest_1" local="true">TopAlt.osd\chest_1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="chest_4PushUp" target="chest_4" local="true">TopAlt.osd\chest_4PushUp</Data>
+            <Data name="chest_3PushUp" target="chest_3" local="true">TopAlt.osd\chest_3PushUp</Data>
+            <Data name="chest_1PushUp" target="chest_1" local="true">TopAlt.osd\chest_1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="chest_4BreastHeight" target="chest_4" local="true">TopAlt.osd\chest_4BreastHeight</Data>
+            <Data name="chest_3BreastHeight" target="chest_3" local="true">TopAlt.osd\chest_3BreastHeight</Data>
+            <Data name="chest_1BreastHeight" target="chest_1" local="true">TopAlt.osd\chest_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="chest_4BreastPerkiness" target="chest_4" local="true">TopAlt.osd\chest_4BreastPerkiness</Data>
+            <Data name="chest_3BreastPerkiness" target="chest_3" local="true">TopAlt.osd\chest_3BreastPerkiness</Data>
+            <Data name="chest_1BreastPerkiness" target="chest_1" local="true">TopAlt.osd\chest_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="chest_4BreastWidth" target="chest_4" local="true">TopAlt.osd\chest_4BreastWidth</Data>
+            <Data name="chest_3BreastWidth" target="chest_3" local="true">TopAlt.osd\chest_3BreastWidth</Data>
+            <Data name="chest_1BreastWidth" target="chest_1" local="true">TopAlt.osd\chest_1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="chest_4NippleDistance" target="chest_4" local="true">TopAlt.osd\chest_4NippleDistance</Data>
+            <Data name="chest_3NippleDistance" target="chest_3" local="true">TopAlt.osd\chest_3NippleDistance</Data>
+            <Data name="chest_1NippleDistance" target="chest_1" local="true">TopAlt.osd\chest_1NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="chest_3NipplePerkiness" target="chest_3" local="true">TopAlt.osd\chest_3NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="chest_1NippleLength" target="chest_1" local="true">TopAlt.osd\chest_1NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="chest_3NippleSize" target="chest_3" local="true">TopAlt.osd\chest_3NippleSize</Data>
+            <Data name="chest_1NippleSize" target="chest_1" local="true">TopAlt.osd\chest_1NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="chest_4NippleAreola" target="chest_4" local="true">TopAlt.osd\chest_4NippleAreola</Data>
+            <Data name="chest_3NippleAreola" target="chest_3" local="true">TopAlt.osd\chest_3NippleAreola</Data>
+            <Data name="chest_1NippleAreola" target="chest_1" local="true">TopAlt.osd\chest_1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="chest_4NippleUp" target="chest_4" local="true">TopAlt.osd\chest_4NippleUp</Data>
+            <Data name="chest_3NippleUp" target="chest_3" local="true">TopAlt.osd\chest_3NippleUp</Data>
+            <Data name="chest_1NippleUp" target="chest_1" local="true">TopAlt.osd\chest_1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="chest_4NippleDown" target="chest_4" local="true">TopAlt.osd\chest_4NippleDown</Data>
+            <Data name="chest_3NippleDown" target="chest_3" local="true">TopAlt.osd\chest_3NippleDown</Data>
+            <Data name="chest_1NippleDown" target="chest_1" local="true">TopAlt.osd\chest_1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="chest_1Arms" target="chest_1" local="true">TopAlt.osd\chest_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="chest_1ChubbyArms" target="chest_1" local="true">TopAlt.osd\chest_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="chest_1ShoulderSmooth" target="chest_1" local="true">TopAlt.osd\chest_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="chest_3ShoulderWidth" target="chest_3" local="true">TopAlt.osd\chest_3ShoulderWidth</Data>
+            <Data name="chest_1ShoulderWidth" target="chest_1" local="true">TopAlt.osd\chest_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="chest_4BigTorso" target="chest_4" local="true">TopAlt.osd\chest_4BigTorso</Data>
+            <Data name="chest_3BigTorso" target="chest_3" local="true">TopAlt.osd\chest_3BigTorso</Data>
+            <Data name="chest_1BigTorso" target="chest_1" local="true">TopAlt.osd\chest_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="chest_1Waist" target="chest_1" local="true">TopAlt.osd\chest_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="chest_1WideWaistLine" target="chest_1" local="true">TopAlt.osd\chest_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="chest_3ChubbyWaist" target="chest_3" local="true">TopAlt.osd\chest_3ChubbyWaist</Data>
+            <Data name="chest_1ChubbyWaist" target="chest_1" local="true">TopAlt.osd\chest_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="chest_4BigBelly" target="chest_4" local="true">TopAlt.osd\chest_4BigBelly</Data>
+            <Data name="chest_3BigBelly" target="chest_3" local="true">TopAlt.osd\chest_3BigBelly</Data>
+            <Data name="chest_1BigBelly" target="chest_1" local="true">TopAlt.osd\chest_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="chest_4PregnancyBelly" target="chest_4" local="true">TopAlt.osd\chest_4PregnancyBelly</Data>
+            <Data name="chest_3PregnancyBelly" target="chest_3" local="true">TopAlt.osd\chest_3PregnancyBelly</Data>
+            <Data name="chest_1PregnancyBelly" target="chest_1" local="true">TopAlt.osd\chest_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="chest_3Back" target="chest_3" local="true">TopAlt.osd\chest_3Back</Data>
+            <Data name="chest_1Back" target="chest_1" local="true">TopAlt.osd\chest_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="chest_1Butt" target="chest_1" local="true">TopAlt.osd\chest_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="chest_1ButtShape2" target="chest_1" local="true">TopAlt.osd\chest_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="chest_1ChubbyButt" target="chest_1" local="true">TopAlt.osd\chest_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="chest_1AppleCheeks" target="chest_1" local="true">TopAlt.osd\chest_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="chest_1SmallSeam" target="chest_1" local="true">TopAlt.osd\chest_1SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="chest_1ShoulderTweak" target="chest_1" local="true">TopAlt.osd\chest_1ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MaidPantyAlt CBBE">
+        <DataFolder>V4MaidCBBE</DataFolder>
+        <SourceFile>Pantyalt.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\V4 Maid\Alt\</OutputPath>
+        <OutputFile GenWeights="true">panty</OutputFile>
+        <Shape target="Object002_1">Object002_1</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="Object002_1BreastsSmall" target="Object002_1" local="true">Pantyalt.osd\Object002_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Object002_1BreastHeight" target="Object002_1" local="true">Pantyalt.osd\Object002_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Object002_1BigTorso" target="Object002_1" local="true">Pantyalt.osd\Object002_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Object002_1Waist" target="Object002_1" local="true">Pantyalt.osd\Object002_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Object002_1WideWaistLine" target="Object002_1" local="true">Pantyalt.osd\Object002_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Object002_1ChubbyWaist" target="Object002_1" local="true">Pantyalt.osd\Object002_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Object002_1Belly" target="Object002_1" local="true">Pantyalt.osd\Object002_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="Object002_1BigBelly" target="Object002_1" local="true">Pantyalt.osd\Object002_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Object002_1PregnancyBelly" target="Object002_1" local="true">Pantyalt.osd\Object002_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Object002_1TummyTuck" target="Object002_1" local="true">Pantyalt.osd\Object002_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Object002_1Back" target="Object002_1" local="true">Pantyalt.osd\Object002_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Object002_1Hipbone" target="Object002_1" local="true">Pantyalt.osd\Object002_1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Object002_1Hips" target="Object002_1" local="true">Pantyalt.osd\Object002_1Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="Object002_1ButtCrack" target="Object002_1" local="true">Pantyalt.osd\Object002_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Object002_1Butt" target="Object002_1" local="true">Pantyalt.osd\Object002_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Object002_1ButtSmall" target="Object002_1" local="true">Pantyalt.osd\Object002_1ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Object002_1ButtShape2" target="Object002_1" local="true">Pantyalt.osd\Object002_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Object002_1BigButt" target="Object002_1" local="true">Pantyalt.osd\Object002_1BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Object002_1ChubbyButt" target="Object002_1" local="true">Pantyalt.osd\Object002_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Object002_1AppleCheeks" target="Object002_1" local="true">Pantyalt.osd\Object002_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Object002_1RoundAss" target="Object002_1" local="true">Pantyalt.osd\Object002_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Object002_1Groin" target="Object002_1" local="true">Pantyalt.osd\Object002_1Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Object002_1SlimThighs" target="Object002_1" local="true">Pantyalt.osd\Object002_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Object002_1Thighs" target="Object002_1" local="true">Pantyalt.osd\Object002_1Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Object002_1ChubbyLegs" target="Object002_1" local="true">Pantyalt.osd\Object002_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Object002_1Legs" target="Object002_1" local="true">Pantyalt.osd\Object002_1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Object002_1KneeHeight" target="Object002_1" local="true">Pantyalt.osd\Object002_1KneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

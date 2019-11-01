@@ -1,0 +1,230 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova CatSuit [01] [HDT]">
+        <DataFolder>Nova CatSuit [01] [HDT]</DataFolder>
+        <SourceFile>nova_body01_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_body01_ca</OutputFile>
+        <Shape target="FemaleBody">FemaleBody</Shape>
+        <Shape target="NCat">NCat</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="NCatBreasts" target="NCat" local="true">nova_body01_ca.osd\NCatBreasts</Data>
+            <Data name="FemaleBodyBreasts" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="NCatBreastsSmall" target="NCat" local="true">nova_body01_ca.osd\NCatBreastsSmall</Data>
+            <Data name="FemaleBodyBreastsSmall" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="NCatBreastsSH" target="NCat" local="true">nova_body01_ca.osd\NCatBreastsSH</Data>
+            <Data name="FemaleBodyBreastsSH" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="NCatBreastsSSH" target="NCat" local="true">nova_body01_ca.osd\NCatBreastsSSH</Data>
+            <Data name="FemaleBodyBreastsSSH" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="NCatBreastsFantasy" target="NCat" local="true">nova_body01_ca.osd\NCatBreastsFantasy</Data>
+            <Data name="FemaleBodyBreastsFantasy" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="NCatDoubleMelon" target="NCat" local="true">nova_body01_ca.osd\NCatDoubleMelon</Data>
+            <Data name="FemaleBodyDoubleMelon" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="NCatBreastCleavage" target="NCat" local="true">nova_body01_ca.osd\NCatBreastCleavage</Data>
+            <Data name="FemaleBodyBreastCleavage" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="NCatBreastFlatness" target="NCat" local="true">nova_body01_ca.osd\NCatBreastFlatness</Data>
+            <Data name="FemaleBodyBreastFlatness" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="NCatBreastGravity" target="NCat" local="true">nova_body01_ca.osd\NCatBreastGravity</Data>
+            <Data name="FemaleBodyBreastGravity" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="NCatPushUp" target="NCat" local="true">nova_body01_ca.osd\NCatPushUp</Data>
+            <Data name="FemaleBodyPushUp" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="NCatBreastHeight" target="NCat" local="true">nova_body01_ca.osd\NCatBreastHeight</Data>
+            <Data name="FemaleBodyBreastHeight" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="NCatBreastPerkiness" target="NCat" local="true">nova_body01_ca.osd\NCatBreastPerkiness</Data>
+            <Data name="FemaleBodyBreastPerkiness" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="NCatBreastWidth" target="NCat" local="true">nova_body01_ca.osd\NCatBreastWidth</Data>
+            <Data name="FemaleBodyBreastWidth" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NCatNippleDistance" target="NCat" local="true">nova_body01_ca.osd\NCatNippleDistance</Data>
+            <Data name="FemaleBodyNippleDistance" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NCatNipplePerkiness" target="NCat" local="true">nova_body01_ca.osd\NCatNipplePerkiness</Data>
+            <Data name="FemaleBodyNipplePerkiness" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NCatNippleLength" target="NCat" local="true">nova_body01_ca.osd\NCatNippleLength</Data>
+            <Data name="FemaleBodyNippleLength" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NCatNippleSize" target="NCat" local="true">nova_body01_ca.osd\NCatNippleSize</Data>
+            <Data name="FemaleBodyNippleSize" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NCatNippleAreola" target="NCat" local="true">nova_body01_ca.osd\NCatNippleAreola</Data>
+            <Data name="FemaleBodyNippleAreola" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NCatNippleUp" target="NCat" local="true">nova_body01_ca.osd\NCatNippleUp</Data>
+            <Data name="FemaleBodyNippleUp" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NCatNippleDown" target="NCat" local="true">nova_body01_ca.osd\NCatNippleDown</Data>
+            <Data name="FemaleBodyNippleDown" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NCatNippleTip" target="NCat" local="true">nova_body01_ca.osd\NCatNippleTip</Data>
+            <Data name="FemaleBodyNippleTip" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="NCatArms" target="NCat" local="true">nova_body01_ca.osd\NCatArms</Data>
+            <Data name="FemaleBodyArms" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="NCatChubbyArms" target="NCat" local="true">nova_body01_ca.osd\NCatChubbyArms</Data>
+            <Data name="FemaleBodyChubbyArms" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="NCatShoulderSmooth" target="NCat" local="true">nova_body01_ca.osd\NCatShoulderSmooth</Data>
+            <Data name="FemaleBodyShoulderSmooth" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="NCatShoulderWidth" target="NCat" local="true">nova_body01_ca.osd\NCatShoulderWidth</Data>
+            <Data name="FemaleBodyShoulderWidth" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="NCatBigTorso" target="NCat" local="true">nova_body01_ca.osd\NCatBigTorso</Data>
+            <Data name="FemaleBodyBigTorso" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="NCatWaist" target="NCat" local="true">nova_body01_ca.osd\NCatWaist</Data>
+            <Data name="FemaleBodyWaist" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="NCatWideWaistLine" target="NCat" local="true">nova_body01_ca.osd\NCatWideWaistLine</Data>
+            <Data name="FemaleBodyWideWaistLine" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="NCatChubbyWaist" target="NCat" local="true">nova_body01_ca.osd\NCatChubbyWaist</Data>
+            <Data name="FemaleBodyChubbyWaist" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="NCatBelly" target="NCat" local="true">nova_body01_ca.osd\NCatBelly</Data>
+            <Data name="FemaleBodyBelly" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="NCatBigBelly" target="NCat" local="true">nova_body01_ca.osd\NCatBigBelly</Data>
+            <Data name="FemaleBodyBigBelly" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="NCatPregnancyBelly" target="NCat" local="true">nova_body01_ca.osd\NCatPregnancyBelly</Data>
+            <Data name="FemaleBodyPregnancyBelly" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="NCatTummyTuck" target="NCat" local="true">nova_body01_ca.osd\NCatTummyTuck</Data>
+            <Data name="FemaleBodyTummyTuck" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="NCatBack" target="NCat" local="true">nova_body01_ca.osd\NCatBack</Data>
+            <Data name="FemaleBodyBack" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="NCatHipbone" target="NCat" local="true">nova_body01_ca.osd\NCatHipbone</Data>
+            <Data name="FemaleBodyHipbone" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="NCatHips" target="NCat" local="true">nova_body01_ca.osd\NCatHips</Data>
+            <Data name="FemaleBodyHips" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="NCatButtCrack" target="NCat" local="true">nova_body01_ca.osd\NCatButtCrack</Data>
+            <Data name="FemaleBodyButtCrack" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="NCatButt" target="NCat" local="true">nova_body01_ca.osd\NCatButt</Data>
+            <Data name="FemaleBodyButt" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="NCatButtSmall" target="NCat" local="true">nova_body01_ca.osd\NCatButtSmall</Data>
+            <Data name="FemaleBodyButtSmall" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="NCatButtShape2" target="NCat" local="true">nova_body01_ca.osd\NCatButtShape2</Data>
+            <Data name="FemaleBodyButtShape2" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="NCatBigButt" target="NCat" local="true">nova_body01_ca.osd\NCatBigButt</Data>
+            <Data name="FemaleBodyBigButt" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="NCatChubbyButt" target="NCat" local="true">nova_body01_ca.osd\NCatChubbyButt</Data>
+            <Data name="FemaleBodyChubbyButt" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="NCatAppleCheeks" target="NCat" local="true">nova_body01_ca.osd\NCatAppleCheeks</Data>
+            <Data name="FemaleBodyAppleCheeks" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="NCatRoundAss" target="NCat" local="true">nova_body01_ca.osd\NCatRoundAss</Data>
+            <Data name="FemaleBodyRoundAss" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="NCatGroin" target="NCat" local="true">nova_body01_ca.osd\NCatGroin</Data>
+            <Data name="FemaleBodyGroin" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="NCatSlimThighs" target="NCat" local="true">nova_body01_ca.osd\NCatSlimThighs</Data>
+            <Data name="FemaleBodySlimThighs" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="NCatThighs" target="NCat" local="true">nova_body01_ca.osd\NCatThighs</Data>
+            <Data name="FemaleBodyThighs" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="NCatChubbyLegs" target="NCat" local="true">nova_body01_ca.osd\NCatChubbyLegs</Data>
+            <Data name="FemaleBodyChubbyLegs" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="NCatLegs" target="NCat" local="true">nova_body01_ca.osd\NCatLegs</Data>
+            <Data name="FemaleBodyLegs" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="NCatKneeHeight" target="NCat" local="true">nova_body01_ca.osd\NCatKneeHeight</Data>
+            <Data name="FemaleBodyKneeHeight" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="NCatCalfSize" target="NCat" local="true">nova_body01_ca.osd\NCatCalfSize</Data>
+            <Data name="FemaleBodyCalfSize" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="NCatCalfSmooth" target="NCat" local="true">nova_body01_ca.osd\NCatCalfSmooth</Data>
+            <Data name="FemaleBodyCalfSmooth" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="NCatAnkles" target="NCat" local="true">nova_body01_ca.osd\NCatAnkles</Data>
+            <Data name="FemaleBodyAnkles" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="NCatSmallSeam" target="NCat" local="true">nova_body01_ca.osd\NCatSmallSeam</Data>
+            <Data name="FemaleBodySmallSeam" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodySmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="NCatShoulderTweak" target="NCat" local="true">nova_body01_ca.osd\NCatShoulderTweak</Data>
+            <Data name="FemaleBodyShoulderTweak" target="FemaleBody" local="true">nova_body01_ca.osd\FemaleBodyShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

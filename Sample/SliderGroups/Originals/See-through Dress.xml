@@ -1,0 +1,10 @@
+<SliderGroups>
+    <Group name="CBAdvanced">
+        <Member name="See-through Black"/>
+        <Member name="See-through White"/>
+    </Group>
+    <Group name="See-through Dress">
+        <Member name="See-through Black"/>
+        <Member name="See-through White"/>
+    </Group>
+</SliderGroups>

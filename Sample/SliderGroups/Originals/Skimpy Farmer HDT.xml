@@ -1,0 +1,15 @@
+<SliderGroups>
+    <Group name="Skimpy Farmer HDT">
+        <Member name="Female Farmer Boots" />
+        <Member name="Female Farmer Cowl" />
+        <Member name="Female Farmer Glovers" />
+        <Member name="Skimpy Farmer Clothes HDT" />
+    </Group>
+	
+	<Group name="CBAdvanced">
+        <Member name="Female Farmer Boots" />
+        <Member name="Female Farmer Cowl" />
+        <Member name="Female Farmer Glovers" />
+        <Member name="Skimpy Farmer Clothes HDT" />
+	</Group>
+</SliderGroups>

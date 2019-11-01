@@ -1,0 +1,33 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Halloween Droron Glove">
+        <DataFolder>Cre Halloween Droron Glove</DataFolder>
+        <SourceFile>Cre Halloween Droron Glove.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\HalloWeen\Droron</OutputPath>
+        <OutputFile GenWeights="true">Droron_enbi_Glove</OutputFile>
+        <Shape target="gloves.00">gloves.00</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="gloves.00Arms" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="gloves.00ChubbyArms" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="gloves.00ShoulderWidth" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="gloves.00BigTorso" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00BigTorso</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="gloves.00TummyTuck" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="gloves.00Back" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00Back</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="gloves.00Butt" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00Butt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="gloves.00SmallSeam" target="gloves.00" local="true">Cre Halloween Droron Glove.osd\gloves.00SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

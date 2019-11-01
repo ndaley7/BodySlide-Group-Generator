@@ -1,0 +1,40 @@
+<SliderGroups>
+	<Group name="CBBE Vanilla">
+		<Member name="CBBE Vanilla NeverNude" />
+		<Member name="CBBE Vanilla CalUndies" />
+		<Member name="CBBE Vanilla CalUndies 2" />
+		<Member name="CBBE Vanilla" />
+	</Group>
+
+	<Group name="CBBE Bodies">
+		<Member name="CBBE Body HDT" />
+		<Member name="CBBE Body TBBP" />
+		<Member name="CBBE Body BBP" />
+		<Member name="CBBE Body" />
+		<Member name="CBBE Feet" />
+	</Group>
+
+	<Group name="CBBE Undies">
+		<Member name="CBBE NeverNude HDT" />
+		<Member name="CBBE NeverNude" />
+		<Member name="CBBE CalUndies HDT" />
+		<Member name="CBBE CalUndies" />
+		<Member name="CBBE CalUndies 2 HDT" />
+		<Member name="CBBE CalUndies 2" />
+	</Group>
+
+	<!-- Supergroup (for Presets) -->
+	<Group name="CBAdvanced">
+		<Member name="CBBE NeverNude HDT" />
+		<Member name="CBBE NeverNude" />
+		<Member name="CBBE CalUndies HDT" />
+		<Member name="CBBE CalUndies" />
+		<Member name="CBBE CalUndies 2 HDT" />
+		<Member name="CBBE CalUndies 2" />
+		<Member name="CBBE Body HDT" />
+		<Member name="CBBE Body TBBP" />
+		<Member name="CBBE Body BBP" />
+		<Member name="CBBE Body" />
+		<Member name="CBBE Feet" />
+	</Group>
+</SliderGroups>

@@ -1,0 +1,42 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Warhammer Sorceress Boots">
+        <DataFolder>Warhammer Sorceress Boots</DataFolder>
+        <SourceFile>Warhammer Sorceress Boots.nif</SourceFile>
+        <OutputPath>meshes\Armor\Warhammer</OutputPath>
+        <OutputFile GenWeights="true">rogueboots</OutputFile>
+        <Shape target="BootsLP01">BootsLP01</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BootsLP01PregnancyBelly" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01PregnancyBelly</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BootsLP01ButtSmall" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01ButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BootsLP01SlimThighs" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BootsLP01Thighs" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BootsLP01ChubbyLegs" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BootsLP01Legs" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BootsLP01KneeHeight" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BootsLP01CalfSize" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BootsLP01CalfSmooth" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="BootsLP01Ankles" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BootsLP01SmallSeam" target="BootsLP01" local="true">Warhammer Sorceress Boots.osd\BootsLP01SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,232 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Summer Bikini Braclets">
+        <DataFolder>Summer Bikini Braclets</DataFolder>
+        <SourceFile>Summer Bikini Braclets.nif</SourceFile>
+        <OutputPath>meshes\Summer Bikini</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="Hands" DataFolder="Unified UNP">Hands</Shape>
+        <Shape target="Human_F(1)">Human_F(1)</Shape>
+        <Slider name="7B Low" invert="false" small="0" big="0">
+            <Data name="Hands7B Low" target="Hands">Hands7B Low.bsd</Data>
+        </Slider>
+        <Slider name="7B High" invert="false" small="0" big="0">
+            <Data name="Hands7B High" target="Hands">Hands7B High.bsd</Data>
+        </Slider>
+        <Slider name="7B Bombshell Low" invert="false" small="0" big="0">
+            <Data name="Hands7B Bombshell Low" target="Hands">Hands7B Bombshell Low.bsd</Data>
+        </Slider>
+        <Slider name="7B Bombshell High" invert="false" small="0" big="0">
+            <Data name="Hands7B Bombshell High" target="Hands">Hands7B Bombshell High.bsd</Data>
+        </Slider>
+        <Slider name="7B Natural Low" invert="false" small="0" big="0">
+            <Data name="Hands7B Natural Low" target="Hands">Hands7B Natural Low.bsd</Data>
+        </Slider>
+        <Slider name="7B Natural High" invert="false" small="0" big="0">
+            <Data name="Hands7B Natural High" target="Hands">Hands7B Natural High.bsd</Data>
+        </Slider>
+        <Slider name="7B Cleavage Low" invert="false" small="0" big="0">
+            <Data name="Hands7B Cleavage Low" target="Hands">Hands7B Cleavage Low.bsd</Data>
+        </Slider>
+        <Slider name="7B Cleavage High" invert="false" small="0" big="0">
+            <Data name="Hands7B Cleavage High" target="Hands">Hands7B Cleavage High.bsd</Data>
+        </Slider>
+        <Slider name="7B BCup Low" invert="false" small="0" big="0">
+            <Data name="Hands7B BCup Low" target="Hands">Hands7B BCup Low.bsd</Data>
+        </Slider>
+        <Slider name="7B BCup High" invert="false" small="0" big="0">
+            <Data name="Hands7B BCup High" target="Hands">Hands7B BCup High.bsd</Data>
+        </Slider>
+        <Slider name="7BUNP Low" invert="false" small="0" big="0">
+            <Data name="Hands7BUNP Low" target="Hands">Hands7BUNP Low.bsd</Data>
+        </Slider>
+        <Slider name="7BUNP High" invert="false" small="0" big="0">
+            <Data name="Hands7BUNP High" target="Hands">Hands7BUNP High.bsd</Data>
+        </Slider>
+        <Slider name="7B Oppai Low" invert="false" small="0" big="0">
+            <Data name="Hands7B Oppai Low" target="Hands">Hands7B Oppai Low.bsd</Data>
+        </Slider>
+        <Slider name="7B Oppai High" invert="false" small="0" big="0">
+            <Data name="Hands7B Oppai High" target="Hands">Hands7B Oppai High.bsd</Data>
+        </Slider>
+        <Slider name="7B CH Low" invert="false" small="0" big="0">
+            <Data name="Hands7B CH Low" target="Hands">Hands7B CH Low.bsd</Data>
+        </Slider>
+        <Slider name="7B CH High" invert="false" small="0" big="0">
+            <Data name="Hands7B CH High" target="Hands">Hands7B CH High.bsd</Data>
+        </Slider>
+        <Slider name="UNP Low" invert="false" small="0" big="0">
+            <Data name="HandsUNP Low" target="Hands">HandsUNP Low.bsd</Data>
+        </Slider>
+        <Slider name="UNP High" invert="false" small="0" big="0">
+            <Data name="HandsUNP High" target="Hands">HandsUNP High.bsd</Data>
+        </Slider>
+        <Slider name="UNP Pushup Low" invert="false" small="0" big="0">
+            <Data name="HandsUNP Pushup Low" target="Hands">HandsUNP Pushup Low.bsd</Data>
+        </Slider>
+        <Slider name="UNP Pushup High" invert="false" small="0" big="0">
+            <Data name="HandsUNP Pushup High" target="Hands">HandsUNP Pushup High.bsd</Data>
+        </Slider>
+        <Slider name="UNP Skinny Low" invert="false" small="0" big="0">
+            <Data name="HandsUNP Skinny Low" target="Hands">HandsUNP Skinny Low.bsd</Data>
+        </Slider>
+        <Slider name="UNP Skinny High" invert="false" small="0" big="0">
+            <Data name="HandsUNP Skinny High" target="Hands">HandsUNP Skinny High.bsd</Data>
+        </Slider>
+        <Slider name="UNP Perky Low" invert="false" small="0" big="0">
+            <Data name="HandsUNP Perky Low" target="Hands">HandsUNP Perky Low.bsd</Data>
+        </Slider>
+        <Slider name="UNP Perky High" invert="false" small="0" big="0">
+            <Data name="HandsUNP Perky High" target="Hands">HandsUNP Perky High.bsd</Data>
+        </Slider>
+        <Slider name="UNPB Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPB Low" target="Hands">HandsUNPB Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPB High" invert="false" small="0" big="0">
+            <Data name="HandsUNPB High" target="Hands">HandsUNPB High.bsd</Data>
+        </Slider>
+        <Slider name="UNPB Chapi" invert="false" small="0" big="0">
+            <Data name="HandsUNPB Chapi" target="Hands">HandsUNPB Chapi.bsd</Data>
+        </Slider>
+        <Slider name="UNPetite Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPetite Low" target="Hands">HandsUNPetite Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPetite High" invert="false" small="0" big="0">
+            <Data name="HandsUNPetite High" target="Hands">HandsUNPetite High.bsd</Data>
+        </Slider>
+        <Slider name="UNPB Oppai v1" invert="false" small="0" big="0">
+            <Data name="HandsUNPB Oppai v1" target="Hands">HandsUNPB Oppai v1.bsd</Data>
+        </Slider>
+        <Slider name="UNPB Oppai v3.2 Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPB Oppai v3.2 Low" target="Hands">HandsUNPB Oppai v3.2 Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPB Oppai v3.2 High" invert="false" small="0" big="0">
+            <Data name="HandsUNPB Oppai v3.2 High" target="Hands">HandsUNPB Oppai v3.2 High.bsd</Data>
+        </Slider>
+        <Slider name="UNPC Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPC Low" target="Hands">HandsUNPC Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPC High" invert="false" small="0" big="0">
+            <Data name="HandsUNPC High" target="Hands">HandsUNPC High.bsd</Data>
+        </Slider>
+        <Slider name="UNPCM Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPCM Low" target="Hands">HandsUNPCM Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPCM High" invert="false" small="0" big="0">
+            <Data name="HandsUNPCM High" target="Hands">HandsUNPCM High.bsd</Data>
+        </Slider>
+        <Slider name="UNPSH Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPSH Low" target="Hands">HandsUNPSH Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPSH High" invert="false" small="0" big="0">
+            <Data name="HandsUNPSH High" target="Hands">HandsUNPSH High.bsd</Data>
+        </Slider>
+        <Slider name="UNPK Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPK Low" target="Hands">HandsUNPK Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPK High" invert="false" small="0" big="0">
+            <Data name="HandsUNPK High" target="Hands">HandsUNPK High.bsd</Data>
+        </Slider>
+        <Slider name="UNPK Bonus Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPK Bonus Low" target="Hands">HandsUNPK Bonus Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPK Bonus High" invert="false" small="0" big="0">
+            <Data name="HandsUNPK Bonus High" target="Hands">HandsUNPK Bonus High.bsd</Data>
+        </Slider>
+        <Slider name="UN7B Low" invert="false" small="0" big="0">
+            <Data name="HandsUN7B Low" target="Hands">HandsUN7B Low.bsd</Data>
+        </Slider>
+        <Slider name="UN7B High" invert="false" small="0" big="0">
+            <Data name="HandsUN7B High" target="Hands">HandsUN7B High.bsd</Data>
+        </Slider>
+        <Slider name="UNPBB Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPBB Low" target="Hands">HandsUNPBB Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPBB High" invert="false" small="0" big="0">
+            <Data name="HandsUNPBB High" target="Hands">HandsUNPBB High.bsd</Data>
+        </Slider>
+        <Slider name="Seraphim Low" invert="false" small="0" big="0">
+            <Data name="HandsSeraphim Low" target="Hands">HandsSeraphim Low.bsd</Data>
+        </Slider>
+        <Slider name="Seraphim High" invert="false" small="0" big="0">
+            <Data name="HandsSeraphim High" target="Hands">HandsSeraphim High.bsd</Data>
+        </Slider>
+        <Slider name="Demonfet Low" invert="false" small="0" big="0">
+            <Data name="HandsDemonfet Low" target="Hands">HandsDemonfet Low.bsd</Data>
+        </Slider>
+        <Slider name="Demonfet High" invert="false" small="0" big="0">
+            <Data name="HandsDemonfet High" target="Hands">HandsDemonfet High.bsd</Data>
+        </Slider>
+        <Slider name="Dream Girl Low" invert="false" small="0" big="0">
+            <Data name="HandsDream Girl Low" target="Hands">HandsDream Girl Low.bsd</Data>
+        </Slider>
+        <Slider name="Dream Girl High" invert="false" small="0" big="0">
+            <Data name="HandsDream Girl High" target="Hands">HandsDream Girl High.bsd</Data>
+        </Slider>
+        <Slider name="Top Model Low" invert="false" small="0" big="0">
+            <Data name="HandsTop Model Low" target="Hands">HandsTop Model Low.bsd</Data>
+        </Slider>
+        <Slider name="Top Model High" invert="false" small="0" big="0">
+            <Data name="HandsTop Model High" target="Hands">HandsTop Model High.bsd</Data>
+        </Slider>
+        <Slider name="Leito Low" invert="false" small="0" big="0">
+            <Data name="HandsLeito Low" target="Hands">HandsLeito Low.bsd</Data>
+        </Slider>
+        <Slider name="Leito High" invert="false" small="0" big="0">
+            <Data name="HandsLeito High" target="Hands">HandsLeito High.bsd</Data>
+        </Slider>
+        <Slider name="UNPF Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPF Low" target="Hands">HandsUNPF Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPF High" invert="false" small="0" big="0">
+            <Data name="HandsUNPF High" target="Hands">HandsUNPF High.bsd</Data>
+        </Slider>
+        <Slider name="UNPFx Low" invert="false" small="0" big="0">
+            <Data name="HandsUNPFx Low" target="Hands">HandsUNPFx Low.bsd</Data>
+        </Slider>
+        <Slider name="UNPFx High" invert="false" small="0" big="0">
+            <Data name="HandsUNPFx High" target="Hands">HandsUNPFx High.bsd</Data>
+        </Slider>
+        <Slider name="CNHF Low" invert="false" small="0" big="0">
+            <Data name="HandsCNHF Low" target="Hands">HandsCNHF Low.bsd</Data>
+        </Slider>
+        <Slider name="CNHF High" invert="false" small="0" big="0">
+            <Data name="HandsCNHF High" target="Hands">HandsCNHF High.bsd</Data>
+        </Slider>
+        <Slider name="CNHF Bonus Low" invert="false" small="0" big="0">
+            <Data name="HandsCNHF Bonus Low" target="Hands">HandsCNHF Bonus Low.bsd</Data>
+        </Slider>
+        <Slider name="CNHF Bonus High" invert="false" small="0" big="0">
+            <Data name="HandsCNHF Bonus High" target="Hands">HandsCNHF Bonus High.bsd</Data>
+        </Slider>
+        <Slider name="MCBM Low" invert="false" small="0" big="0">
+            <Data name="HandsMCBM Low" target="Hands">HandsMCBM Low.bsd</Data>
+        </Slider>
+        <Slider name="MCBM High" invert="false" small="0" big="0">
+            <Data name="HandsMCBM High" target="Hands">HandsMCBM High.bsd</Data>
+        </Slider>
+        <Slider name="Venus Low" invert="false" small="0" big="0">
+            <Data name="HandsVenus Low" target="Hands">HandsVenus Low.bsd</Data>
+        </Slider>
+        <Slider name="Venus High" invert="false" small="0" big="0">
+            <Data name="HandsVenus High" target="Hands">HandsVenus High.bsd</Data>
+        </Slider>
+        <Slider name="ZGGB-R2 Low" invert="false" small="0" big="0">
+            <Data name="HandsZGGB-R2 Low" target="Hands">HandsZGGB-R2 Low.bsd</Data>
+        </Slider>
+        <Slider name="ZGGB-R2 High" invert="false" small="0" big="0">
+            <Data name="HandsZGGB-R2 High" target="Hands">HandsZGGB-R2 High.bsd</Data>
+        </Slider>
+        <Slider name="Manga Low" invert="false" small="0" big="0">
+            <Data name="HandsManga Low" target="Hands">HandsManga Low.bsd</Data>
+        </Slider>
+        <Slider name="Manga High" invert="false" small="0" big="0">
+            <Data name="HandsManga High" target="Hands">HandsManga High.bsd</Data>
+        </Slider>
+        <Slider name="CHSBHC Low" invert="false" small="0" big="0">
+            <Data name="HandsCHSBHC Low" target="Hands">HandsCHSBHC Low.bsd</Data>
+        </Slider>
+        <Slider name="CHSBHC High" invert="false" small="0" big="0">
+            <Data name="HandsCHSBHC High" target="Hands">HandsCHSBHC High.bsd</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,18 @@
+<SliderGroups>
+	<Group name="Heretical Resources BB cbbe+">
+		<Member name="BBRopes01 cbbe+" />
+		<Member name="BBIron01 cbbe+" />
+		<Member name="BBPiercing01 cbbe+" />
+		<Member name="BBHarnessBustier01 cbbe+" />
+		
+
+	</Group>
+ 	<Group name="CBAdvanced">
+                <Member name="BBRopes01 cbbe+" />
+		<Member name="BBIron01 cbbe+" />
+		<Member name="BBPiercing01 cbbe+" />
+		<Member name="BBHarnessBustier01 cbbe+" />
+		
+
+	</Group>
+</SliderGroups>

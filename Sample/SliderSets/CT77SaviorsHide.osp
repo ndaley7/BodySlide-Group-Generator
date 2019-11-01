@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Savior's Hide">
+        <DataFolder>CT77SaviorsHide</DataFolder>
+        <SourceFile>CT77SaviorsHide.nif</SourceFile>
+        <OutputPath>meshes\armor\savior'shide</OutputPath>
+        <OutputFile GenWeights="true">bodyf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="SHideChest">SHideChest</Shape>
+        <Shape target="SHideFur">SHideFur</Shape>
+        <Shape target="SHideSkirt">SHideSkirt</Shape>
+        <Shape target="SHideSleeves">SHideSleeves</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="SHideChestBreasts" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreasts</Data>
+            <Data name="SHideFurBreasts" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="SHideChestBreastsSmall" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastsSmall</Data>
+            <Data name="SHideFurBreastsSmall" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastsSmall</Data>
+            <Data name="SHideSleevesBreastsSmall" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="SHideChestBreastsSH" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastsSH</Data>
+            <Data name="SHideFurBreastsSH" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastsSH</Data>
+            <Data name="SHideSleevesBreastsSH" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="SHideChestBreastsSSH" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="SHideChestBreastsFantasy" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastsFantasy</Data>
+            <Data name="SHideFurBreastsFantasy" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastsFantasy</Data>
+            <Data name="SHideSleevesBreastsFantasy" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="SHideChestDoubleMelon" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestDoubleMelon</Data>
+            <Data name="SHideFurDoubleMelon" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurDoubleMelon</Data>
+            <Data name="SHideSleevesDoubleMelon" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="SHideChestBreastCleavage" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastCleavage</Data>
+            <Data name="SHideFurBreastCleavage" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="SHideChestBreastFlatness" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastFlatness</Data>
+            <Data name="SHideFurBreastFlatness" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastFlatness</Data>
+            <Data name="SHideSleevesBreastFlatness" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="SHideChestBreastGravity" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastGravity</Data>
+            <Data name="SHideFurBreastGravity" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastGravity</Data>
+            <Data name="SHideSleevesBreastGravity" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="SHideChestPushUp" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestPushUp</Data>
+            <Data name="SHideFurPushUp" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurPushUp</Data>
+            <Data name="SHideSleevesPushUp" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="SHideChestBreastHeight" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastHeight</Data>
+            <Data name="SHideFurBreastHeight" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastHeight</Data>
+            <Data name="SHideSkirtBreastHeight" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtBreastHeight</Data>
+            <Data name="SHideSleevesBreastHeight" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="SHideChestBreastPerkiness" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastPerkiness</Data>
+            <Data name="SHideFurBreastPerkiness" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastPerkiness</Data>
+            <Data name="SHideSleevesBreastPerkiness" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="SHideChestBreastWidth" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBreastWidth</Data>
+            <Data name="SHideFurBreastWidth" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBreastWidth</Data>
+            <Data name="SHideSleevesBreastWidth" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="SHideChestNippleDistance" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNippleDistance</Data>
+            <Data name="SHideFurNippleDistance" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="SHideChestNipplePerkiness" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="SHideChestNippleLength" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNippleLength</Data>
+            <Data name="SHideFurNippleLength" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurNippleLength</Data>
+            <Data name="SHideSleevesNippleLength" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="SHideChestNippleSize" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="SHideChestNippleAreola" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNippleAreola</Data>
+            <Data name="SHideFurNippleAreola" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="SHideChestNippleUp" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNippleUp</Data>
+            <Data name="SHideFurNippleUp" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurNippleUp</Data>
+            <Data name="SHideSleevesNippleUp" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="SHideChestNippleDown" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNippleDown</Data>
+            <Data name="SHideFurNippleDown" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="SHideChestNippleTip" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="SHideChestArms" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestArms</Data>
+            <Data name="SHideFurArms" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurArms</Data>
+            <Data name="SHideSleevesArms" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="SHideChestChubbyArms" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestChubbyArms</Data>
+            <Data name="SHideFurChubbyArms" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurChubbyArms</Data>
+            <Data name="SHideSleevesChubbyArms" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="SHideChestShoulderSmooth" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestShoulderSmooth</Data>
+            <Data name="SHideFurShoulderSmooth" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="SHideChestShoulderWidth" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestShoulderWidth</Data>
+            <Data name="SHideFurShoulderWidth" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurShoulderWidth</Data>
+            <Data name="SHideSleevesShoulderWidth" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="SHideChestBigTorso" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBigTorso</Data>
+            <Data name="SHideFurBigTorso" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBigTorso</Data>
+            <Data name="SHideSkirtBigTorso" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtBigTorso</Data>
+            <Data name="SHideSleevesBigTorso" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="SHideChestWaist" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestWaist</Data>
+            <Data name="SHideFurWaist" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurWaist</Data>
+            <Data name="SHideSkirtWaist" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtWaist</Data>
+            <Data name="SHideSleevesWaist" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="SHideChestWideWaistLine" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestWideWaistLine</Data>
+            <Data name="SHideSkirtWideWaistLine" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="SHideChestChubbyWaist" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestChubbyWaist</Data>
+            <Data name="SHideFurChubbyWaist" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurChubbyWaist</Data>
+            <Data name="SHideSkirtChubbyWaist" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="SHideChestBelly" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBelly</Data>
+            <Data name="SHideSkirtBelly" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="SHideChestBigBelly" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBigBelly</Data>
+            <Data name="SHideSkirtBigBelly" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="SHideChestTummyTuck" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestTummyTuck</Data>
+            <Data name="SHideSkirtTummyTuck" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="SHideChestBack" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBack</Data>
+            <Data name="SHideFurBack" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurBack</Data>
+            <Data name="SHideSkirtBack" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtBack</Data>
+            <Data name="SHideSleevesBack" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="SHideChestHipbone" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestHipbone</Data>
+            <Data name="SHideSkirtHipbone" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="SHideChestHips" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestHips</Data>
+            <Data name="SHideSkirtHips" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="SHideChestButt" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestButt</Data>
+            <Data name="SHideSkirtButt" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="SHideChestButtSmall" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestButtSmall</Data>
+            <Data name="SHideSkirtButtSmall" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="SHideChestButtShape2" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestButtShape2</Data>
+            <Data name="SHideSkirtButtShape2" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="SHideChestBigButt" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestBigButt</Data>
+            <Data name="SHideSkirtBigButt" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="SHideChestChubbyButt" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestChubbyButt</Data>
+            <Data name="SHideFurChubbyButt" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurChubbyButt</Data>
+            <Data name="SHideSkirtChubbyButt" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="SHideChestAppleCheeks" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestAppleCheeks</Data>
+            <Data name="SHideSkirtAppleCheeks" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="SHideChestRoundAss" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestRoundAss</Data>
+            <Data name="SHideSkirtRoundAss" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="SHideChestSlimThighs" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestSlimThighs</Data>
+            <Data name="SHideSkirtSlimThighs" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="SHideChestThighs" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestThighs</Data>
+            <Data name="SHideSkirtThighs" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="SHideChestChubbyLegs" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestChubbyLegs</Data>
+            <Data name="SHideSkirtChubbyLegs" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="SHideChestLegs" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestLegs</Data>
+            <Data name="SHideSkirtLegs" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="SHideSkirtKneeHeight" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="SHideChestSmallSeam" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestSmallSeam</Data>
+            <Data name="SHideFurSmallSeam" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="SHideChestShoulderTweak" target="SHideChest" local="true">CT77SaviorsHide.osd\SHideChestShoulderTweak</Data>
+            <Data name="SHideFurShoulderTweak" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapShoulders" invert="false" small="0" big="0" zap="true">
+            <Data name="SHideFurZapShoulders" target="SHideFur" local="true">CT77SaviorsHide.osd\SHideFurZapShoulders</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="SHideSkirtZapSkirt" target="SHideSkirt" local="true">CT77SaviorsHide.osd\SHideSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapSleeves" invert="false" small="0" big="0" zap="true">
+            <Data name="SHideSleevesZapSleeves" target="SHideSleeves" local="true">CT77SaviorsHide.osd\SHideSleevesZapSleeves</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

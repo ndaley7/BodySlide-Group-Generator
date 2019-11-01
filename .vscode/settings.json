@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\ndaley\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
 }

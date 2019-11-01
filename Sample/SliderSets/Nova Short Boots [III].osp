@@ -1,0 +1,43 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova Short Boots [III]">
+        <DataFolder>Nova Short Boots [III]</DataFolder>
+        <SourceFile>nova_feet03c_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_feet03c_ca</OutputFile>
+        <Shape target="BootStrap1">BootStrap1</Shape>
+        <Shape target="BootsTop2">BootsTop2</Shape>
+        <Shape target="FlatBoots">FlatBoots</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="FlatBootsPregnancyBelly" target="FlatBoots" local="true">nova_feet03c_ca.osd\FlatBootsPregnancyBelly</Data>
+            <Data name="BootsTop2PregnancyBelly" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2PregnancyBelly</Data>
+            <Data name="BootStrap1PregnancyBelly" target="BootStrap1" local="true">nova_feet03c_ca.osd\BootStrap1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BootsTop2ChubbyLegs" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="FlatBootsLegs" target="FlatBoots" local="true">nova_feet03c_ca.osd\FlatBootsLegs</Data>
+            <Data name="BootsTop2Legs" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2Legs</Data>
+            <Data name="BootStrap1Legs" target="BootStrap1" local="true">nova_feet03c_ca.osd\BootStrap1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BootsTop2KneeHeight" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BootsTop2CalfSize" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BootsTop2CalfSmooth" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FlatBootsAnkles" target="FlatBoots" local="true">nova_feet03c_ca.osd\FlatBootsAnkles</Data>
+            <Data name="BootsTop2Ankles" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2Ankles</Data>
+            <Data name="BootStrap1Ankles" target="BootStrap1" local="true">nova_feet03c_ca.osd\BootStrap1Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FlatBootsSmallSeam" target="FlatBoots" local="true">nova_feet03c_ca.osd\FlatBootsSmallSeam</Data>
+            <Data name="BootsTop2SmallSeam" target="BootsTop2" local="true">nova_feet03c_ca.osd\BootsTop2SmallSeam</Data>
+            <Data name="BootStrap1SmallSeam" target="BootStrap1" local="true">nova_feet03c_ca.osd\BootStrap1SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,1178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Steel">
+        <DataFolder>CT77Steel</DataFolder>
+        <SourceFile>CT77Steel.nif</SourceFile>
+        <OutputPath>meshes\armor\steel\f</OutputPath>
+        <OutputFile GenWeights="true">cuirasslight</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="SteelBelt">SteelBelt</Shape>
+        <Shape target="SteelChest">SteelChest</Shape>
+        <Shape target="SteelCollar">SteelCollar</Shape>
+        <Shape target="SteelLegArmor">SteelLegArmor</Shape>
+        <Shape target="SteelLeggings">SteelLeggings</Shape>
+        <Shape target="SteelOrigChest">SteelOrigChest</Shape>
+        <Shape target="SteelOrigPauldrons">SteelOrigPauldrons</Shape>
+        <Shape target="SteelOrigStraps">SteelOrigStraps</Shape>
+        <Shape target="SteelPauldrons">SteelPauldrons</Shape>
+        <Shape target="SteelPouches">SteelPouches</Shape>
+        <Shape target="SteelSkirt">SteelSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="SteelChestBreasts" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreasts</Data>
+            <Data name="SteelCollarBreasts" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreasts</Data>
+            <Data name="SteelOrigChestBreasts" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreasts</Data>
+            <Data name="SteelOrigPauldronsBreasts" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreasts</Data>
+            <Data name="SteelOrigStrapsBreasts" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreasts</Data>
+            <Data name="SteelPauldronsBreasts" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="SteelBeltBreastsSmall" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBreastsSmall</Data>
+            <Data name="SteelChestBreastsSmall" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsSmall</Data>
+            <Data name="SteelCollarBreastsSmall" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsSmall</Data>
+            <Data name="SteelOrigChestBreastsSmall" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsSmall</Data>
+            <Data name="SteelOrigPauldronsBreastsSmall" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsSmall</Data>
+            <Data name="SteelOrigStrapsBreastsSmall" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsSmall</Data>
+            <Data name="SteelPauldronsBreastsSmall" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsSmall</Data>
+            <Data name="SteelSkirtBreastsSmall" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="SteelChestBreastsSH" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsSH</Data>
+            <Data name="SteelCollarBreastsSH" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsSH</Data>
+            <Data name="SteelOrigChestBreastsSH" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsSH</Data>
+            <Data name="SteelOrigPauldronsBreastsSH" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsSH</Data>
+            <Data name="SteelOrigStrapsBreastsSH" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsSH</Data>
+            <Data name="SteelPauldronsBreastsSH" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="SteelChestBreastsSSH" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsSSH</Data>
+            <Data name="SteelCollarBreastsSSH" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsSSH</Data>
+            <Data name="SteelOrigChestBreastsSSH" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsSSH</Data>
+            <Data name="SteelOrigPauldronsBreastsSSH" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsSSH</Data>
+            <Data name="SteelOrigStrapsBreastsSSH" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsSSH</Data>
+            <Data name="SteelPauldronsBreastsSSH" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="SteelChestBreastsFantasy" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsFantasy</Data>
+            <Data name="SteelCollarBreastsFantasy" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsFantasy</Data>
+            <Data name="SteelOrigChestBreastsFantasy" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsFantasy</Data>
+            <Data name="SteelOrigPauldronsBreastsFantasy" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsFantasy</Data>
+            <Data name="SteelOrigStrapsBreastsFantasy" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsFantasy</Data>
+            <Data name="SteelPauldronsBreastsFantasy" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="SteelChestDoubleMelon" target="SteelChest" local="true">CT77Steel.osd\SteelChestDoubleMelon</Data>
+            <Data name="SteelCollarDoubleMelon" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarDoubleMelon</Data>
+            <Data name="SteelOrigChestDoubleMelon" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestDoubleMelon</Data>
+            <Data name="SteelOrigPauldronsDoubleMelon" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsDoubleMelon</Data>
+            <Data name="SteelOrigStrapsDoubleMelon" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsDoubleMelon</Data>
+            <Data name="SteelPauldronsDoubleMelon" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="SteelChestBreastCleavage" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastCleavage</Data>
+            <Data name="SteelCollarBreastCleavage" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastCleavage</Data>
+            <Data name="SteelOrigChestBreastCleavage" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastCleavage</Data>
+            <Data name="SteelOrigPauldronsBreastCleavage" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastCleavage</Data>
+            <Data name="SteelOrigStrapsBreastCleavage" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastCleavage</Data>
+            <Data name="SteelPauldronsBreastCleavage" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="SteelChestBreastFlatness" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastFlatness</Data>
+            <Data name="SteelCollarBreastFlatness" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastFlatness</Data>
+            <Data name="SteelOrigChestBreastFlatness" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastFlatness</Data>
+            <Data name="SteelOrigPauldronsBreastFlatness" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastFlatness</Data>
+            <Data name="SteelOrigStrapsBreastFlatness" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastFlatness</Data>
+            <Data name="SteelPauldronsBreastFlatness" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="SteelChestBreastGravity" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastGravity</Data>
+            <Data name="SteelCollarBreastGravity" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastGravity</Data>
+            <Data name="SteelOrigChestBreastGravity" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastGravity</Data>
+            <Data name="SteelOrigPauldronsBreastGravity" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastGravity</Data>
+            <Data name="SteelOrigStrapsBreastGravity" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastGravity</Data>
+            <Data name="SteelPauldronsBreastGravity" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="SteelChestPushUp" target="SteelChest" local="true">CT77Steel.osd\SteelChestPushUp</Data>
+            <Data name="SteelCollarPushUp" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarPushUp</Data>
+            <Data name="SteelOrigChestPushUp" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestPushUp</Data>
+            <Data name="SteelOrigPauldronsPushUp" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsPushUp</Data>
+            <Data name="SteelOrigStrapsPushUp" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsPushUp</Data>
+            <Data name="SteelPauldronsPushUp" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="SteelBeltBreastHeight" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBreastHeight</Data>
+            <Data name="SteelChestBreastHeight" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastHeight</Data>
+            <Data name="SteelCollarBreastHeight" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastHeight</Data>
+            <Data name="SteelOrigChestBreastHeight" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastHeight</Data>
+            <Data name="SteelOrigPauldronsBreastHeight" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastHeight</Data>
+            <Data name="SteelOrigStrapsBreastHeight" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastHeight</Data>
+            <Data name="SteelPauldronsBreastHeight" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="SteelChestBreastPerkiness" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastPerkiness</Data>
+            <Data name="SteelCollarBreastPerkiness" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastPerkiness</Data>
+            <Data name="SteelOrigChestBreastPerkiness" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastPerkiness</Data>
+            <Data name="SteelOrigPauldronsBreastPerkiness" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastPerkiness</Data>
+            <Data name="SteelOrigStrapsBreastPerkiness" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastPerkiness</Data>
+            <Data name="SteelPauldronsBreastPerkiness" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="SteelChestBreastWidth" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastWidth</Data>
+            <Data name="SteelCollarBreastWidth" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastWidth</Data>
+            <Data name="SteelOrigChestBreastWidth" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastWidth</Data>
+            <Data name="SteelOrigPauldronsBreastWidth" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastWidth</Data>
+            <Data name="SteelOrigStrapsBreastWidth" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastWidth</Data>
+            <Data name="SteelPauldronsBreastWidth" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="SteelChestNippleDistance" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleDistance</Data>
+            <Data name="SteelOrigChestNippleDistance" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleDistance</Data>
+            <Data name="SteelOrigStrapsNippleDistance" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="SteelChestNipplePerkiness" target="SteelChest" local="true">CT77Steel.osd\SteelChestNipplePerkiness</Data>
+            <Data name="SteelOrigChestNipplePerkiness" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="SteelChestNippleLength" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleLength</Data>
+            <Data name="SteelCollarNippleLength" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarNippleLength</Data>
+            <Data name="SteelOrigChestNippleLength" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleLength</Data>
+            <Data name="SteelOrigPauldronsNippleLength" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsNippleLength</Data>
+            <Data name="SteelPauldronsNippleLength" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="SteelChestNippleSize" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleSize</Data>
+            <Data name="SteelOrigChestNippleSize" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleSize</Data>
+            <Data name="SteelOrigStrapsNippleSize" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="SteelChestNippleAreola" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleAreola</Data>
+            <Data name="SteelOrigChestNippleAreola" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleAreola</Data>
+            <Data name="SteelOrigPauldronsNippleAreola" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsNippleAreola</Data>
+            <Data name="SteelOrigStrapsNippleAreola" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleAreola</Data>
+            <Data name="SteelPauldronsNippleAreola" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="SteelChestNippleUp" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleUp</Data>
+            <Data name="SteelCollarNippleUp" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarNippleUp</Data>
+            <Data name="SteelOrigChestNippleUp" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleUp</Data>
+            <Data name="SteelOrigPauldronsNippleUp" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsNippleUp</Data>
+            <Data name="SteelOrigStrapsNippleUp" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleUp</Data>
+            <Data name="SteelPauldronsNippleUp" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="SteelChestNippleDown" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleDown</Data>
+            <Data name="SteelOrigChestNippleDown" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleDown</Data>
+            <Data name="SteelOrigStrapsNippleDown" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleDown</Data>
+            <Data name="SteelPauldronsNippleDown" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="SteelChestNippleTip" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleTip</Data>
+            <Data name="SteelOrigChestNippleTip" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="SteelChestArms" target="SteelChest" local="true">CT77Steel.osd\SteelChestArms</Data>
+            <Data name="SteelCollarArms" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarArms</Data>
+            <Data name="SteelOrigChestArms" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestArms</Data>
+            <Data name="SteelOrigPauldronsArms" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsArms</Data>
+            <Data name="SteelPauldronsArms" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="SteelChestChubbyArms" target="SteelChest" local="true">CT77Steel.osd\SteelChestChubbyArms</Data>
+            <Data name="SteelOrigChestChubbyArms" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestChubbyArms</Data>
+            <Data name="SteelOrigPauldronsChubbyArms" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsChubbyArms</Data>
+            <Data name="SteelPauldronsChubbyArms" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="SteelChestShoulderSmooth" target="SteelChest" local="true">CT77Steel.osd\SteelChestShoulderSmooth</Data>
+            <Data name="SteelCollarShoulderSmooth" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarShoulderSmooth</Data>
+            <Data name="SteelOrigChestShoulderSmooth" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestShoulderSmooth</Data>
+            <Data name="SteelOrigPauldronsShoulderSmooth" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsShoulderSmooth</Data>
+            <Data name="SteelPauldronsShoulderSmooth" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="SteelChestShoulderWidth" target="SteelChest" local="true">CT77Steel.osd\SteelChestShoulderWidth</Data>
+            <Data name="SteelCollarShoulderWidth" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarShoulderWidth</Data>
+            <Data name="SteelOrigChestShoulderWidth" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestShoulderWidth</Data>
+            <Data name="SteelOrigPauldronsShoulderWidth" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsShoulderWidth</Data>
+            <Data name="SteelPauldronsShoulderWidth" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="SteelBeltBigTorso" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBigTorso</Data>
+            <Data name="SteelChestBigTorso" target="SteelChest" local="true">CT77Steel.osd\SteelChestBigTorso</Data>
+            <Data name="SteelCollarBigTorso" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBigTorso</Data>
+            <Data name="SteelOrigChestBigTorso" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBigTorso</Data>
+            <Data name="SteelOrigPauldronsBigTorso" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBigTorso</Data>
+            <Data name="SteelOrigStrapsBigTorso" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBigTorso</Data>
+            <Data name="SteelPauldronsBigTorso" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBigTorso</Data>
+            <Data name="SteelPouchesBigTorso" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBigTorso</Data>
+            <Data name="SteelSkirtBigTorso" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="SteelBeltWaist" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltWaist</Data>
+            <Data name="SteelChestWaist" target="SteelChest" local="true">CT77Steel.osd\SteelChestWaist</Data>
+            <Data name="SteelOrigChestWaist" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestWaist</Data>
+            <Data name="SteelSkirtWaist" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="SteelBeltWideWaistLine" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltWideWaistLine</Data>
+            <Data name="SteelChestWideWaistLine" target="SteelChest" local="true">CT77Steel.osd\SteelChestWideWaistLine</Data>
+            <Data name="SteelOrigChestWideWaistLine" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestWideWaistLine</Data>
+            <Data name="SteelPouchesWideWaistLine" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="SteelBeltChubbyWaist" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltChubbyWaist</Data>
+            <Data name="SteelChestChubbyWaist" target="SteelChest" local="true">CT77Steel.osd\SteelChestChubbyWaist</Data>
+            <Data name="SteelOrigChestChubbyWaist" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestChubbyWaist</Data>
+            <Data name="SteelPouchesChubbyWaist" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesChubbyWaist</Data>
+            <Data name="SteelSkirtChubbyWaist" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="SteelBeltBelly" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBelly</Data>
+            <Data name="SteelChestBelly" target="SteelChest" local="true">CT77Steel.osd\SteelChestBelly</Data>
+            <Data name="SteelSkirtBelly" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="SteelBeltBigBelly" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBigBelly</Data>
+            <Data name="SteelChestBigBelly" target="SteelChest" local="true">CT77Steel.osd\SteelChestBigBelly</Data>
+            <Data name="SteelPouchesBigBelly" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBigBelly</Data>
+            <Data name="SteelSkirtBigBelly" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="SteelBeltTummyTuck" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltTummyTuck</Data>
+            <Data name="SteelSkirtTummyTuck" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="SteelBeltBack" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBack</Data>
+            <Data name="SteelChestBack" target="SteelChest" local="true">CT77Steel.osd\SteelChestBack</Data>
+            <Data name="SteelCollarBack" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBack</Data>
+            <Data name="SteelOrigChestBack" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBack</Data>
+            <Data name="SteelOrigPauldronsBack" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBack</Data>
+            <Data name="SteelPauldronsBack" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBack</Data>
+            <Data name="SteelPouchesBack" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBack</Data>
+            <Data name="SteelSkirtBack" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="SteelBeltHipbone" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltHipbone</Data>
+            <Data name="SteelLegArmorHipbone" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorHipbone</Data>
+            <Data name="SteelLeggingsHipbone" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsHipbone</Data>
+            <Data name="SteelPouchesHipbone" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesHipbone</Data>
+            <Data name="SteelSkirtHipbone" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="SteelBeltHips" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltHips</Data>
+            <Data name="SteelChestHips" target="SteelChest" local="true">CT77Steel.osd\SteelChestHips</Data>
+            <Data name="SteelLegArmorHips" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorHips</Data>
+            <Data name="SteelLeggingsHips" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsHips</Data>
+            <Data name="SteelOrigChestHips" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestHips</Data>
+            <Data name="SteelPouchesHips" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesHips</Data>
+            <Data name="SteelSkirtHips" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="SteelBeltButt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltButt</Data>
+            <Data name="SteelLegArmorButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButt</Data>
+            <Data name="SteelLeggingsButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButt</Data>
+            <Data name="SteelPouchesButt" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesButt</Data>
+            <Data name="SteelSkirtButt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="SteelBeltButtSmall" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltButtSmall</Data>
+            <Data name="SteelLegArmorButtSmall" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButtSmall</Data>
+            <Data name="SteelLeggingsButtSmall" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButtSmall</Data>
+            <Data name="SteelPouchesButtSmall" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesButtSmall</Data>
+            <Data name="SteelSkirtButtSmall" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="SteelBeltButtShape2" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltButtShape2</Data>
+            <Data name="SteelLegArmorButtShape2" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButtShape2</Data>
+            <Data name="SteelLeggingsButtShape2" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButtShape2</Data>
+            <Data name="SteelPouchesButtShape2" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesButtShape2</Data>
+            <Data name="SteelSkirtButtShape2" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="SteelBeltBigButt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBigButt</Data>
+            <Data name="SteelLegArmorBigButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorBigButt</Data>
+            <Data name="SteelLeggingsBigButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsBigButt</Data>
+            <Data name="SteelPouchesBigButt" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBigButt</Data>
+            <Data name="SteelSkirtBigButt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="SteelBeltChubbyButt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltChubbyButt</Data>
+            <Data name="SteelChestChubbyButt" target="SteelChest" local="true">CT77Steel.osd\SteelChestChubbyButt</Data>
+            <Data name="SteelLegArmorChubbyButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorChubbyButt</Data>
+            <Data name="SteelLeggingsChubbyButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsChubbyButt</Data>
+            <Data name="SteelOrigChestChubbyButt" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestChubbyButt</Data>
+            <Data name="SteelPouchesChubbyButt" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesChubbyButt</Data>
+            <Data name="SteelSkirtChubbyButt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="SteelBeltAppleCheeks" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltAppleCheeks</Data>
+            <Data name="SteelLegArmorAppleCheeks" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorAppleCheeks</Data>
+            <Data name="SteelLeggingsAppleCheeks" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsAppleCheeks</Data>
+            <Data name="SteelPouchesAppleCheeks" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesAppleCheeks</Data>
+            <Data name="SteelSkirtAppleCheeks" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="SteelBeltRoundAss" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltRoundAss</Data>
+            <Data name="SteelPouchesRoundAss" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesRoundAss</Data>
+            <Data name="SteelSkirtRoundAss" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="SteelBeltSlimThighs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltSlimThighs</Data>
+            <Data name="SteelLegArmorSlimThighs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorSlimThighs</Data>
+            <Data name="SteelLeggingsSlimThighs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsSlimThighs</Data>
+            <Data name="SteelPouchesSlimThighs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesSlimThighs</Data>
+            <Data name="SteelSkirtSlimThighs" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="SteelBeltThighs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltThighs</Data>
+            <Data name="SteelLegArmorThighs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorThighs</Data>
+            <Data name="SteelLeggingsThighs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsThighs</Data>
+            <Data name="SteelPouchesThighs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="SteelBeltChubbyLegs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltChubbyLegs</Data>
+            <Data name="SteelLegArmorChubbyLegs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorChubbyLegs</Data>
+            <Data name="SteelLeggingsChubbyLegs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsChubbyLegs</Data>
+            <Data name="SteelPouchesChubbyLegs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesChubbyLegs</Data>
+            <Data name="SteelSkirtChubbyLegs" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="SteelBeltLegs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltLegs</Data>
+            <Data name="SteelLegArmorLegs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorLegs</Data>
+            <Data name="SteelLeggingsLegs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsLegs</Data>
+            <Data name="SteelPouchesLegs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesLegs</Data>
+            <Data name="SteelSkirtLegs" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="SteelLegArmorKneeHeight" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorKneeHeight</Data>
+            <Data name="SteelLeggingsKneeHeight" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsKneeHeight</Data>
+            <Data name="SteelSkirtKneeHeight" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="SteelLeggingsCalfSize" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="SteelLeggingsCalfSmooth" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="SteelLeggingsAnkles" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="SteelChestSmallSeam" target="SteelChest" local="true">CT77Steel.osd\SteelChestSmallSeam</Data>
+            <Data name="SteelCollarSmallSeam" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarSmallSeam</Data>
+            <Data name="SteelLeggingsSmallSeam" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsSmallSeam</Data>
+            <Data name="SteelOrigChestSmallSeam" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="SteelChestShoulderTweak" target="SteelChest" local="true">CT77Steel.osd\SteelChestShoulderTweak</Data>
+            <Data name="SteelCollarShoulderTweak" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarShoulderTweak</Data>
+            <Data name="SteelOrigChestShoulderTweak" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestShoulderTweak</Data>
+            <Data name="SteelOrigPauldronsShoulderTweak" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsShoulderTweak</Data>
+            <Data name="SteelPauldronsShoulderTweak" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapCollar" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelCollarZapCollar" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarZapCollar</Data>
+        </Slider>
+        <Slider name="ToggleOrigChest" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="SteelOrigChestZapOrigChest" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestZapOrigChest</Data>
+            <Data name="SteelOrigPauldronsZapOrigPauldrons" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsZapOrigPauldrons</Data>
+            <Data name="SteelOrigStrapsZapOrigStraps" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsZapOrigStraps</Data>
+        </Slider>
+        <Slider name="ToggleChest" invert="false" small="0" big="0" zap="true" zaptoggles="ToggleOrigChest;">
+            <Data name="SteelChestZapChest" target="SteelChest" local="true">CT77Steel.osd\SteelChestZapChest</Data>
+            <Data name="SteelPauldronsZapPauldrons" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="SteelPauldronsZapPauldrons" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelChestZapChest" target="SteelChest" local="true">CT77Steel.osd\SteelChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapOrigPauldrons" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="SteelOrigPauldronsZapOrigPauldrons" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsZapOrigPauldrons</Data>
+        </Slider>
+        <Slider name="ZapOrigChest" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelOrigChestZapOrigChest" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestZapOrigChest</Data>
+            <Data name="SteelOrigPauldronsZapOrigPauldrons" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsZapOrigPauldrons</Data>
+            <Data name="SteelOrigStrapsZapOrigStraps" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsZapOrigStraps</Data>
+        </Slider>
+        <Slider name="ZapPouches" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelPouchesZapPouches" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesZapPouches</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelSkirtZapSkirt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelBeltZapBelt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltZapBelt</Data>
+            <Data name="SteelPouchesZapPouches" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesZapPouches</Data>
+            <Data name="SteelSkirtZapSkirt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLegArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelLegArmorZapLegArmor" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelLegArmorZapLegArmor" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorZapLegArmor</Data>
+            <Data name="SteelLeggingsZapLeggings" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Steel (Pauldrons)">
+        <DataFolder>CT77Steel</DataFolder>
+        <SourceFile>CT77Steel.nif</SourceFile>
+        <OutputPath>meshes\armor\steel\f</OutputPath>
+        <OutputFile GenWeights="true">cuirass</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="SteelBelt">SteelBelt</Shape>
+        <Shape target="SteelChest">SteelChest</Shape>
+        <Shape target="SteelCollar">SteelCollar</Shape>
+        <Shape target="SteelLegArmor">SteelLegArmor</Shape>
+        <Shape target="SteelLeggings">SteelLeggings</Shape>
+        <Shape target="SteelOrigChest">SteelOrigChest</Shape>
+        <Shape target="SteelOrigPauldrons">SteelOrigPauldrons</Shape>
+        <Shape target="SteelOrigStraps">SteelOrigStraps</Shape>
+        <Shape target="SteelPauldrons">SteelPauldrons</Shape>
+        <Shape target="SteelPouches">SteelPouches</Shape>
+        <Shape target="SteelSkirt">SteelSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="SteelChestBreasts" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreasts</Data>
+            <Data name="SteelCollarBreasts" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreasts</Data>
+            <Data name="SteelOrigChestBreasts" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreasts</Data>
+            <Data name="SteelOrigPauldronsBreasts" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreasts</Data>
+            <Data name="SteelOrigStrapsBreasts" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreasts</Data>
+            <Data name="SteelPauldronsBreasts" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="SteelBeltBreastsSmall" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBreastsSmall</Data>
+            <Data name="SteelChestBreastsSmall" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsSmall</Data>
+            <Data name="SteelCollarBreastsSmall" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsSmall</Data>
+            <Data name="SteelOrigChestBreastsSmall" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsSmall</Data>
+            <Data name="SteelOrigPauldronsBreastsSmall" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsSmall</Data>
+            <Data name="SteelOrigStrapsBreastsSmall" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsSmall</Data>
+            <Data name="SteelPauldronsBreastsSmall" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsSmall</Data>
+            <Data name="SteelSkirtBreastsSmall" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="SteelChestBreastsSH" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsSH</Data>
+            <Data name="SteelCollarBreastsSH" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsSH</Data>
+            <Data name="SteelOrigChestBreastsSH" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsSH</Data>
+            <Data name="SteelOrigPauldronsBreastsSH" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsSH</Data>
+            <Data name="SteelOrigStrapsBreastsSH" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsSH</Data>
+            <Data name="SteelPauldronsBreastsSH" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="SteelChestBreastsSSH" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsSSH</Data>
+            <Data name="SteelCollarBreastsSSH" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsSSH</Data>
+            <Data name="SteelOrigChestBreastsSSH" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsSSH</Data>
+            <Data name="SteelOrigPauldronsBreastsSSH" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsSSH</Data>
+            <Data name="SteelOrigStrapsBreastsSSH" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsSSH</Data>
+            <Data name="SteelPauldronsBreastsSSH" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="SteelChestBreastsFantasy" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastsFantasy</Data>
+            <Data name="SteelCollarBreastsFantasy" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastsFantasy</Data>
+            <Data name="SteelOrigChestBreastsFantasy" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastsFantasy</Data>
+            <Data name="SteelOrigPauldronsBreastsFantasy" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastsFantasy</Data>
+            <Data name="SteelOrigStrapsBreastsFantasy" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastsFantasy</Data>
+            <Data name="SteelPauldronsBreastsFantasy" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="SteelChestDoubleMelon" target="SteelChest" local="true">CT77Steel.osd\SteelChestDoubleMelon</Data>
+            <Data name="SteelCollarDoubleMelon" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarDoubleMelon</Data>
+            <Data name="SteelOrigChestDoubleMelon" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestDoubleMelon</Data>
+            <Data name="SteelOrigPauldronsDoubleMelon" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsDoubleMelon</Data>
+            <Data name="SteelOrigStrapsDoubleMelon" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsDoubleMelon</Data>
+            <Data name="SteelPauldronsDoubleMelon" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="SteelChestBreastCleavage" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastCleavage</Data>
+            <Data name="SteelCollarBreastCleavage" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastCleavage</Data>
+            <Data name="SteelOrigChestBreastCleavage" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastCleavage</Data>
+            <Data name="SteelOrigPauldronsBreastCleavage" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastCleavage</Data>
+            <Data name="SteelOrigStrapsBreastCleavage" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastCleavage</Data>
+            <Data name="SteelPauldronsBreastCleavage" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="SteelChestBreastFlatness" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastFlatness</Data>
+            <Data name="SteelCollarBreastFlatness" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastFlatness</Data>
+            <Data name="SteelOrigChestBreastFlatness" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastFlatness</Data>
+            <Data name="SteelOrigPauldronsBreastFlatness" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastFlatness</Data>
+            <Data name="SteelOrigStrapsBreastFlatness" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastFlatness</Data>
+            <Data name="SteelPauldronsBreastFlatness" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="SteelChestBreastGravity" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastGravity</Data>
+            <Data name="SteelCollarBreastGravity" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastGravity</Data>
+            <Data name="SteelOrigChestBreastGravity" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastGravity</Data>
+            <Data name="SteelOrigPauldronsBreastGravity" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastGravity</Data>
+            <Data name="SteelOrigStrapsBreastGravity" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastGravity</Data>
+            <Data name="SteelPauldronsBreastGravity" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="SteelChestPushUp" target="SteelChest" local="true">CT77Steel.osd\SteelChestPushUp</Data>
+            <Data name="SteelCollarPushUp" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarPushUp</Data>
+            <Data name="SteelOrigChestPushUp" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestPushUp</Data>
+            <Data name="SteelOrigPauldronsPushUp" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsPushUp</Data>
+            <Data name="SteelOrigStrapsPushUp" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsPushUp</Data>
+            <Data name="SteelPauldronsPushUp" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="SteelBeltBreastHeight" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBreastHeight</Data>
+            <Data name="SteelChestBreastHeight" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastHeight</Data>
+            <Data name="SteelCollarBreastHeight" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastHeight</Data>
+            <Data name="SteelOrigChestBreastHeight" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastHeight</Data>
+            <Data name="SteelOrigPauldronsBreastHeight" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastHeight</Data>
+            <Data name="SteelOrigStrapsBreastHeight" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastHeight</Data>
+            <Data name="SteelPauldronsBreastHeight" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="SteelChestBreastPerkiness" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastPerkiness</Data>
+            <Data name="SteelCollarBreastPerkiness" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastPerkiness</Data>
+            <Data name="SteelOrigChestBreastPerkiness" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastPerkiness</Data>
+            <Data name="SteelOrigPauldronsBreastPerkiness" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastPerkiness</Data>
+            <Data name="SteelOrigStrapsBreastPerkiness" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastPerkiness</Data>
+            <Data name="SteelPauldronsBreastPerkiness" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="SteelChestBreastWidth" target="SteelChest" local="true">CT77Steel.osd\SteelChestBreastWidth</Data>
+            <Data name="SteelCollarBreastWidth" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBreastWidth</Data>
+            <Data name="SteelOrigChestBreastWidth" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBreastWidth</Data>
+            <Data name="SteelOrigPauldronsBreastWidth" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBreastWidth</Data>
+            <Data name="SteelOrigStrapsBreastWidth" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBreastWidth</Data>
+            <Data name="SteelPauldronsBreastWidth" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="SteelChestNippleDistance" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleDistance</Data>
+            <Data name="SteelOrigChestNippleDistance" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleDistance</Data>
+            <Data name="SteelOrigStrapsNippleDistance" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="SteelChestNipplePerkiness" target="SteelChest" local="true">CT77Steel.osd\SteelChestNipplePerkiness</Data>
+            <Data name="SteelOrigChestNipplePerkiness" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="SteelChestNippleLength" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleLength</Data>
+            <Data name="SteelCollarNippleLength" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarNippleLength</Data>
+            <Data name="SteelOrigChestNippleLength" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleLength</Data>
+            <Data name="SteelOrigPauldronsNippleLength" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsNippleLength</Data>
+            <Data name="SteelPauldronsNippleLength" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="SteelChestNippleSize" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleSize</Data>
+            <Data name="SteelOrigChestNippleSize" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleSize</Data>
+            <Data name="SteelOrigStrapsNippleSize" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="SteelChestNippleAreola" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleAreola</Data>
+            <Data name="SteelOrigChestNippleAreola" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleAreola</Data>
+            <Data name="SteelOrigPauldronsNippleAreola" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsNippleAreola</Data>
+            <Data name="SteelOrigStrapsNippleAreola" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleAreola</Data>
+            <Data name="SteelPauldronsNippleAreola" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="SteelChestNippleUp" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleUp</Data>
+            <Data name="SteelCollarNippleUp" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarNippleUp</Data>
+            <Data name="SteelOrigChestNippleUp" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleUp</Data>
+            <Data name="SteelOrigPauldronsNippleUp" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsNippleUp</Data>
+            <Data name="SteelOrigStrapsNippleUp" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleUp</Data>
+            <Data name="SteelPauldronsNippleUp" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="SteelChestNippleDown" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleDown</Data>
+            <Data name="SteelOrigChestNippleDown" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleDown</Data>
+            <Data name="SteelOrigStrapsNippleDown" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsNippleDown</Data>
+            <Data name="SteelPauldronsNippleDown" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="SteelChestNippleTip" target="SteelChest" local="true">CT77Steel.osd\SteelChestNippleTip</Data>
+            <Data name="SteelOrigChestNippleTip" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="SteelChestArms" target="SteelChest" local="true">CT77Steel.osd\SteelChestArms</Data>
+            <Data name="SteelCollarArms" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarArms</Data>
+            <Data name="SteelOrigChestArms" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestArms</Data>
+            <Data name="SteelOrigPauldronsArms" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsArms</Data>
+            <Data name="SteelPauldronsArms" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="SteelChestChubbyArms" target="SteelChest" local="true">CT77Steel.osd\SteelChestChubbyArms</Data>
+            <Data name="SteelOrigChestChubbyArms" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestChubbyArms</Data>
+            <Data name="SteelOrigPauldronsChubbyArms" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsChubbyArms</Data>
+            <Data name="SteelPauldronsChubbyArms" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="SteelChestShoulderSmooth" target="SteelChest" local="true">CT77Steel.osd\SteelChestShoulderSmooth</Data>
+            <Data name="SteelCollarShoulderSmooth" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarShoulderSmooth</Data>
+            <Data name="SteelOrigChestShoulderSmooth" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestShoulderSmooth</Data>
+            <Data name="SteelOrigPauldronsShoulderSmooth" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsShoulderSmooth</Data>
+            <Data name="SteelPauldronsShoulderSmooth" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="SteelChestShoulderWidth" target="SteelChest" local="true">CT77Steel.osd\SteelChestShoulderWidth</Data>
+            <Data name="SteelCollarShoulderWidth" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarShoulderWidth</Data>
+            <Data name="SteelOrigChestShoulderWidth" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestShoulderWidth</Data>
+            <Data name="SteelOrigPauldronsShoulderWidth" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsShoulderWidth</Data>
+            <Data name="SteelPauldronsShoulderWidth" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="SteelBeltBigTorso" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBigTorso</Data>
+            <Data name="SteelChestBigTorso" target="SteelChest" local="true">CT77Steel.osd\SteelChestBigTorso</Data>
+            <Data name="SteelCollarBigTorso" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBigTorso</Data>
+            <Data name="SteelOrigChestBigTorso" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBigTorso</Data>
+            <Data name="SteelOrigPauldronsBigTorso" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBigTorso</Data>
+            <Data name="SteelOrigStrapsBigTorso" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsBigTorso</Data>
+            <Data name="SteelPauldronsBigTorso" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBigTorso</Data>
+            <Data name="SteelPouchesBigTorso" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBigTorso</Data>
+            <Data name="SteelSkirtBigTorso" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="SteelBeltWaist" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltWaist</Data>
+            <Data name="SteelChestWaist" target="SteelChest" local="true">CT77Steel.osd\SteelChestWaist</Data>
+            <Data name="SteelOrigChestWaist" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestWaist</Data>
+            <Data name="SteelSkirtWaist" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="SteelBeltWideWaistLine" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltWideWaistLine</Data>
+            <Data name="SteelChestWideWaistLine" target="SteelChest" local="true">CT77Steel.osd\SteelChestWideWaistLine</Data>
+            <Data name="SteelOrigChestWideWaistLine" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestWideWaistLine</Data>
+            <Data name="SteelPouchesWideWaistLine" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="SteelBeltChubbyWaist" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltChubbyWaist</Data>
+            <Data name="SteelChestChubbyWaist" target="SteelChest" local="true">CT77Steel.osd\SteelChestChubbyWaist</Data>
+            <Data name="SteelOrigChestChubbyWaist" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestChubbyWaist</Data>
+            <Data name="SteelPouchesChubbyWaist" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesChubbyWaist</Data>
+            <Data name="SteelSkirtChubbyWaist" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="SteelBeltBelly" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBelly</Data>
+            <Data name="SteelChestBelly" target="SteelChest" local="true">CT77Steel.osd\SteelChestBelly</Data>
+            <Data name="SteelSkirtBelly" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="SteelBeltBigBelly" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBigBelly</Data>
+            <Data name="SteelChestBigBelly" target="SteelChest" local="true">CT77Steel.osd\SteelChestBigBelly</Data>
+            <Data name="SteelPouchesBigBelly" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBigBelly</Data>
+            <Data name="SteelSkirtBigBelly" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="SteelBeltTummyTuck" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltTummyTuck</Data>
+            <Data name="SteelSkirtTummyTuck" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="SteelBeltBack" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBack</Data>
+            <Data name="SteelChestBack" target="SteelChest" local="true">CT77Steel.osd\SteelChestBack</Data>
+            <Data name="SteelCollarBack" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarBack</Data>
+            <Data name="SteelOrigChestBack" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestBack</Data>
+            <Data name="SteelOrigPauldronsBack" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsBack</Data>
+            <Data name="SteelPauldronsBack" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsBack</Data>
+            <Data name="SteelPouchesBack" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBack</Data>
+            <Data name="SteelSkirtBack" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="SteelBeltHipbone" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltHipbone</Data>
+            <Data name="SteelLegArmorHipbone" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorHipbone</Data>
+            <Data name="SteelLeggingsHipbone" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsHipbone</Data>
+            <Data name="SteelPouchesHipbone" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesHipbone</Data>
+            <Data name="SteelSkirtHipbone" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="SteelBeltHips" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltHips</Data>
+            <Data name="SteelChestHips" target="SteelChest" local="true">CT77Steel.osd\SteelChestHips</Data>
+            <Data name="SteelLegArmorHips" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorHips</Data>
+            <Data name="SteelLeggingsHips" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsHips</Data>
+            <Data name="SteelOrigChestHips" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestHips</Data>
+            <Data name="SteelPouchesHips" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesHips</Data>
+            <Data name="SteelSkirtHips" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="SteelBeltButt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltButt</Data>
+            <Data name="SteelLegArmorButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButt</Data>
+            <Data name="SteelLeggingsButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButt</Data>
+            <Data name="SteelPouchesButt" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesButt</Data>
+            <Data name="SteelSkirtButt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="SteelBeltButtSmall" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltButtSmall</Data>
+            <Data name="SteelLegArmorButtSmall" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButtSmall</Data>
+            <Data name="SteelLeggingsButtSmall" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButtSmall</Data>
+            <Data name="SteelPouchesButtSmall" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesButtSmall</Data>
+            <Data name="SteelSkirtButtSmall" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="SteelBeltButtShape2" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltButtShape2</Data>
+            <Data name="SteelLegArmorButtShape2" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButtShape2</Data>
+            <Data name="SteelLeggingsButtShape2" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButtShape2</Data>
+            <Data name="SteelPouchesButtShape2" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesButtShape2</Data>
+            <Data name="SteelSkirtButtShape2" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="SteelBeltBigButt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltBigButt</Data>
+            <Data name="SteelLegArmorBigButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorBigButt</Data>
+            <Data name="SteelLeggingsBigButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsBigButt</Data>
+            <Data name="SteelPouchesBigButt" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesBigButt</Data>
+            <Data name="SteelSkirtBigButt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="SteelBeltChubbyButt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltChubbyButt</Data>
+            <Data name="SteelChestChubbyButt" target="SteelChest" local="true">CT77Steel.osd\SteelChestChubbyButt</Data>
+            <Data name="SteelLegArmorChubbyButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorChubbyButt</Data>
+            <Data name="SteelLeggingsChubbyButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsChubbyButt</Data>
+            <Data name="SteelOrigChestChubbyButt" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestChubbyButt</Data>
+            <Data name="SteelPouchesChubbyButt" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesChubbyButt</Data>
+            <Data name="SteelSkirtChubbyButt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="SteelBeltAppleCheeks" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltAppleCheeks</Data>
+            <Data name="SteelLegArmorAppleCheeks" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorAppleCheeks</Data>
+            <Data name="SteelLeggingsAppleCheeks" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsAppleCheeks</Data>
+            <Data name="SteelPouchesAppleCheeks" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesAppleCheeks</Data>
+            <Data name="SteelSkirtAppleCheeks" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="SteelBeltRoundAss" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltRoundAss</Data>
+            <Data name="SteelPouchesRoundAss" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesRoundAss</Data>
+            <Data name="SteelSkirtRoundAss" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="SteelBeltSlimThighs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltSlimThighs</Data>
+            <Data name="SteelLegArmorSlimThighs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorSlimThighs</Data>
+            <Data name="SteelLeggingsSlimThighs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsSlimThighs</Data>
+            <Data name="SteelPouchesSlimThighs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesSlimThighs</Data>
+            <Data name="SteelSkirtSlimThighs" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+            <Data name="SteelBeltThighs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltThighs</Data>
+            <Data name="SteelLegArmorThighs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorThighs</Data>
+            <Data name="SteelLeggingsThighs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsThighs</Data>
+            <Data name="SteelPouchesThighs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+            <Data name="SteelBeltChubbyLegs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltChubbyLegs</Data>
+            <Data name="SteelLegArmorChubbyLegs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorChubbyLegs</Data>
+            <Data name="SteelLeggingsChubbyLegs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsChubbyLegs</Data>
+            <Data name="SteelPouchesChubbyLegs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesChubbyLegs</Data>
+            <Data name="SteelSkirtChubbyLegs" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+            <Data name="SteelBeltLegs" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltLegs</Data>
+            <Data name="SteelLegArmorLegs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorLegs</Data>
+            <Data name="SteelLeggingsLegs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsLegs</Data>
+            <Data name="SteelPouchesLegs" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesLegs</Data>
+            <Data name="SteelSkirtLegs" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="SteelLegArmorKneeHeight" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorKneeHeight</Data>
+            <Data name="SteelLeggingsKneeHeight" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsKneeHeight</Data>
+            <Data name="SteelSkirtKneeHeight" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="SteelLeggingsCalfSize" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="SteelLeggingsCalfSmooth" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="SteelLeggingsAnkles" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="SteelChestSmallSeam" target="SteelChest" local="true">CT77Steel.osd\SteelChestSmallSeam</Data>
+            <Data name="SteelCollarSmallSeam" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarSmallSeam</Data>
+            <Data name="SteelLeggingsSmallSeam" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsSmallSeam</Data>
+            <Data name="SteelOrigChestSmallSeam" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="SteelChestShoulderTweak" target="SteelChest" local="true">CT77Steel.osd\SteelChestShoulderTweak</Data>
+            <Data name="SteelCollarShoulderTweak" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarShoulderTweak</Data>
+            <Data name="SteelOrigChestShoulderTweak" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestShoulderTweak</Data>
+            <Data name="SteelOrigPauldronsShoulderTweak" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsShoulderTweak</Data>
+            <Data name="SteelPauldronsShoulderTweak" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapCollar" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelCollarZapCollar" target="SteelCollar" local="true">CT77Steel.osd\SteelCollarZapCollar</Data>
+        </Slider>
+        <Slider name="ToggleOrigChest" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="SteelOrigPauldronsZapOrigPauldrons" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsZapOrigPauldrons</Data>
+            <Data name="SteelOrigChestZapOrigChest" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestZapOrigChest</Data>
+            <Data name="SteelOrigStrapsZapOrigStraps" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsZapOrigStraps</Data>
+        </Slider>
+        <Slider name="ToggleChest" invert="false" small="0" big="0" zap="true" zaptoggles="ToggleOrigChest;">
+            <Data name="SteelChestZapChest" target="SteelChest" local="true">CT77Steel.osd\SteelChestZapChest</Data>
+            <Data name="SteelPauldronsZapPauldrons" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelPauldronsZapPauldrons" target="SteelPauldrons" local="true">CT77Steel.osd\SteelPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelChestZapChest" target="SteelChest" local="true">CT77Steel.osd\SteelChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapOrigPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelOrigPauldronsZapOrigPauldrons" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsZapOrigPauldrons</Data>
+        </Slider>
+        <Slider name="ZapOrigChest" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelOrigPauldronsZapOrigPauldrons" target="SteelOrigPauldrons" local="true">CT77Steel.osd\SteelOrigPauldronsZapOrigPauldrons</Data>
+            <Data name="SteelOrigChestZapOrigChest" target="SteelOrigChest" local="true">CT77Steel.osd\SteelOrigChestZapOrigChest</Data>
+            <Data name="SteelOrigStrapsZapOrigStraps" target="SteelOrigStraps" local="true">CT77Steel.osd\SteelOrigStrapsZapOrigStraps</Data>
+        </Slider>
+        <Slider name="ZapPouches" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelPouchesZapPouches" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesZapPouches</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelSkirtZapSkirt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelBeltZapBelt" target="SteelBelt" local="true">CT77Steel.osd\SteelBeltZapBelt</Data>
+            <Data name="SteelPouchesZapPouches" target="SteelPouches" local="true">CT77Steel.osd\SteelPouchesZapPouches</Data>
+            <Data name="SteelSkirtZapSkirt" target="SteelSkirt" local="true">CT77Steel.osd\SteelSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLegArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelLegArmorZapLegArmor" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="SteelLeggingsZapLeggings" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsZapLeggings</Data>
+            <Data name="SteelLegArmorZapLegArmor" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Steel Gauntlets">
+        <DataFolder>CT77Steel</DataFolder>
+        <SourceFile>CT77SteelGauntlets.nif</SourceFile>
+        <OutputPath>meshes\armor\steel\f</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="SteelGauntlets">SteelGauntlets</Shape>
+        <Shape target="SteelHands" DataFolder="CT77SteelGauntlets">SteelHands</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="SteelGauntletsArms" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="SteelGauntletsChubbyArms" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="SteelGauntletsShoulderWidth" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SteelGauntletsBigTorso" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SteelHandsSmallSeam" target="SteelHands" local="true">CT77SteelGauntlets.osd\SteelHandsSmallSeam</Data>
+            <Data name="SteelGauntletsSmallSeam" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Steel Gauntlets Arg">
+        <DataFolder>CT77Steel</DataFolder>
+        <SourceFile>CT77SteelGauntletsArg.nif</SourceFile>
+        <OutputPath>meshes\armor\steel\f</OutputPath>
+        <OutputFile GenWeights="true">gauntletsarg</OutputFile>
+        <Shape target="HandsBeast" DataFolder="CT77Shared">HandsBeast</Shape>
+        <Shape target="SteelGauntlets">SteelGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="SteelGauntletsArms" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="SteelGauntletsChubbyArms" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="SteelGauntletsShoulderWidth" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SteelGauntletsBigTorso" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="HandsBeastSmallSeam" target="HandsBeast">CT77Shared.osd\HandsBeastSmallSeam</Data>
+            <Data name="SteelGauntletsSmallSeam" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Steel Gauntlets Kha">
+        <DataFolder>CT77Steel</DataFolder>
+        <SourceFile>CT77SteelGauntletsKha.nif</SourceFile>
+        <OutputPath>meshes\armor\steel\f</OutputPath>
+        <OutputFile GenWeights="true">gauntletskha</OutputFile>
+        <Shape target="HandsBeast" DataFolder="CT77Shared">HandsBeast</Shape>
+        <Shape target="SteelGauntlets">SteelGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="SteelGauntletsArms" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="SteelGauntletsChubbyArms" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="SteelGauntletsShoulderWidth" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SteelGauntletsBigTorso" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="HandsBeastSmallSeam" target="HandsBeast">CT77Shared.osd\HandsBeastSmallSeam</Data>
+            <Data name="SteelGauntletsSmallSeam" target="SteelGauntlets" local="true">CT77SteelGauntlets.osd\SteelGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Steel Boots">
+        <DataFolder>CT77Steel</DataFolder>
+        <SourceFile>CT77SteelBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\steel\f</OutputPath>
+        <OutputFile GenWeights="true">boots</OutputFile>
+        <Shape target="SteelBoots">SteelBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SteelBootsChubbyLegs" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SteelBootsLegs" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SteelBootsKneeHeight" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="SteelBootsCalfSize" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="SteelBootsCalfSmooth" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="SteelBootsAnkles" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SteelBootsSmallSeam" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Steel Thigh Boots">
+        <DataFolder>CT77Steel</DataFolder>
+        <SourceFile>CT77SteelThighBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\steel\f</OutputPath>
+        <OutputFile GenWeights="true">CT77thighboots</OutputFile>
+        <Shape target="SteelBoots">SteelBoots</Shape>
+        <Shape target="SteelLegArmor">SteelLegArmor</Shape>
+        <Shape target="SteelLeggings">SteelLeggings</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="SteelLegArmorHips" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorHips</Data>
+            <Data name="SteelLeggingsHips" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="SteelLegArmorButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButt</Data>
+            <Data name="SteelLeggingsButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="SteelLegArmorButtSmall" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButtSmall</Data>
+            <Data name="SteelLeggingsButtSmall" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="SteelLegArmorButtShape2" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorButtShape2</Data>
+            <Data name="SteelLeggingsButtShape2" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="SteelLegArmorBigButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorBigButt</Data>
+            <Data name="SteelLeggingsBigButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="SteelLegArmorChubbyButt" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorChubbyButt</Data>
+            <Data name="SteelLeggingsChubbyButt" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SteelLegArmorSlimThighs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorSlimThighs</Data>
+            <Data name="SteelLeggingsSlimThighs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="SteelLegArmorThighs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorThighs</Data>
+            <Data name="SteelLeggingsThighs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SteelBootsChubbyLegs" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsChubbyLegs</Data>
+            <Data name="SteelLegArmorChubbyLegs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorChubbyLegs</Data>
+            <Data name="SteelLeggingsChubbyLegs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SteelBootsLegs" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsLegs</Data>
+            <Data name="SteelLegArmorLegs" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorLegs</Data>
+            <Data name="SteelLeggingsLegs" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SteelBootsKneeHeight" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsKneeHeight</Data>
+            <Data name="SteelLegArmorKneeHeight" target="SteelLegArmor" local="true">CT77Steel.osd\SteelLegArmorKneeHeight</Data>
+            <Data name="SteelLeggingsKneeHeight" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="SteelBootsCalfSize" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsCalfSize</Data>
+            <Data name="SteelLeggingsCalfSize" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="SteelBootsCalfSmooth" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsCalfSmooth</Data>
+            <Data name="SteelLeggingsCalfSmooth" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="SteelBootsAnkles" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsAnkles</Data>
+            <Data name="SteelLeggingsAnkles" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SteelBootsSmallSeam" target="SteelBoots" local="true">CT77SteelBoots.osd\SteelBootsSmallSeam</Data>
+            <Data name="SteelLeggingsSmallSeam" target="SteelLeggings" local="true">CT77Steel.osd\SteelLeggingsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,270 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Mini Apron">
+        <DataFolder>Mini Apron</DataFolder>
+        <SourceFile>Mini Apron.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\MiniApron</OutputPath>
+        <OutputFile GenWeights="true">apron</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="lCollar_1_1_1">lCollar_1_1_1</Shape>
+        <Shape target="lCollar_1_1_2">lCollar_1_1_2</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="lCollar_1_1_1Breasts" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Breasts</Data>
+            <Data name="lCollar_1_1_2Breasts" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="lCollar_1_1_1BreastsSmall" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastsSmall</Data>
+            <Data name="lCollar_1_1_2BreastsSmall" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="lCollar_1_1_1BreastsSH" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastsSH</Data>
+            <Data name="lCollar_1_1_2BreastsSH" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="lCollar_1_1_1BreastsSSH" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastsSSH</Data>
+            <Data name="lCollar_1_1_2BreastsSSH" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="lCollar_1_1_1BreastsFantasy" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastsFantasy</Data>
+            <Data name="lCollar_1_1_2BreastsFantasy" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="lCollar_1_1_1DoubleMelon" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1DoubleMelon</Data>
+            <Data name="lCollar_1_1_2DoubleMelon" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="lCollar_1_1_1BreastCleavage" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastCleavage</Data>
+            <Data name="lCollar_1_1_2BreastCleavage" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="lCollar_1_1_1BreastFlatness" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastFlatness</Data>
+            <Data name="lCollar_1_1_2BreastFlatness" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="lCollar_1_1_1BreastGravity" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastGravity</Data>
+            <Data name="lCollar_1_1_2BreastGravity" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="lCollar_1_1_1PushUp" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1PushUp</Data>
+            <Data name="lCollar_1_1_2PushUp" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="lCollar_1_1_1BreastHeight" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastHeight</Data>
+            <Data name="lCollar_1_1_2BreastHeight" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="lCollar_1_1_1BreastPerkiness" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastPerkiness</Data>
+            <Data name="lCollar_1_1_2BreastPerkiness" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="lCollar_1_1_1BreastWidth" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BreastWidth</Data>
+            <Data name="lCollar_1_1_2BreastWidth" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="lCollar_1_1_1NippleDistance" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NippleDistance</Data>
+            <Data name="lCollar_1_1_2NippleDistance" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="lCollar_1_1_1NipplePerkiness" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NipplePerkiness</Data>
+            <Data name="lCollar_1_1_2NipplePerkiness" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="lCollar_1_1_1NippleLength" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NippleLength</Data>
+            <Data name="lCollar_1_1_2NippleLength" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="lCollar_1_1_1NippleSize" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NippleSize</Data>
+            <Data name="lCollar_1_1_2NippleSize" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="lCollar_1_1_1NippleAreola" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NippleAreola</Data>
+            <Data name="lCollar_1_1_2NippleAreola" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="lCollar_1_1_1NippleUp" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NippleUp</Data>
+            <Data name="lCollar_1_1_2NippleUp" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="lCollar_1_1_1NippleDown" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NippleDown</Data>
+            <Data name="lCollar_1_1_2NippleDown" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="lCollar_1_1_1NippleTip" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1NippleTip</Data>
+            <Data name="lCollar_1_1_2NippleTip" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="lCollar_1_1_1Arms" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="lCollar_1_1_1ChubbyArms" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="lCollar_1_1_1ShoulderSmooth" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="lCollar_1_1_1ShoulderWidth" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="lCollar_1_1_1BigTorso" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BigTorso</Data>
+            <Data name="lCollar_1_1_2BigTorso" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="lCollar_1_1_1Waist" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Waist</Data>
+            <Data name="lCollar_1_1_2Waist" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="lCollar_1_1_1WideWaistLine" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1WideWaistLine</Data>
+            <Data name="lCollar_1_1_2WideWaistLine" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="lCollar_1_1_1ChubbyWaist" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ChubbyWaist</Data>
+            <Data name="lCollar_1_1_2ChubbyWaist" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="lCollar_1_1_1Belly" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Belly</Data>
+            <Data name="lCollar_1_1_2Belly" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="lCollar_1_1_1BigBelly" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BigBelly</Data>
+            <Data name="lCollar_1_1_2BigBelly" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="lCollar_1_1_1PregnancyBelly" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1PregnancyBelly</Data>
+            <Data name="lCollar_1_1_2PregnancyBelly" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="lCollar_1_1_1TummyTuck" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1TummyTuck</Data>
+            <Data name="lCollar_1_1_2TummyTuck" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="lCollar_1_1_1Back" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Back</Data>
+            <Data name="lCollar_1_1_2Back" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="lCollar_1_1_1Hipbone" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Hipbone</Data>
+            <Data name="lCollar_1_1_2Hipbone" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="lCollar_1_1_1Hips" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Hips</Data>
+            <Data name="lCollar_1_1_2Hips" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="lCollar_1_1_1ButtCrack" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="lCollar_1_1_1Butt" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Butt</Data>
+            <Data name="lCollar_1_1_2Butt" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="lCollar_1_1_1ButtSmall" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ButtSmall</Data>
+            <Data name="lCollar_1_1_2ButtSmall" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="lCollar_1_1_1ButtShape2" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ButtShape2</Data>
+            <Data name="lCollar_1_1_2ButtShape2" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="lCollar_1_1_1BigButt" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1BigButt</Data>
+            <Data name="lCollar_1_1_2BigButt" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="lCollar_1_1_1ChubbyButt" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ChubbyButt</Data>
+            <Data name="lCollar_1_1_2ChubbyButt" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="lCollar_1_1_1AppleCheeks" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1AppleCheeks</Data>
+            <Data name="lCollar_1_1_2AppleCheeks" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="lCollar_1_1_1RoundAss" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="lCollar_1_1_1Groin" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Groin</Data>
+            <Data name="lCollar_1_1_2Groin" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="lCollar_1_1_1SlimThighs" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1SlimThighs</Data>
+            <Data name="lCollar_1_1_2SlimThighs" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="lCollar_1_1_1Thighs" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Thighs</Data>
+            <Data name="lCollar_1_1_2Thighs" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="lCollar_1_1_1ChubbyLegs" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ChubbyLegs</Data>
+            <Data name="lCollar_1_1_2ChubbyLegs" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="lCollar_1_1_1Legs" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1Legs</Data>
+            <Data name="lCollar_1_1_2Legs" target="lCollar_1_1_2" local="true">Mini Apron.osd\lCollar_1_1_2Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="lCollar_1_1_1SmallSeam" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="lCollar_1_1_1ShoulderTweak" target="lCollar_1_1_1" local="true">Mini Apron.osd\lCollar_1_1_1ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

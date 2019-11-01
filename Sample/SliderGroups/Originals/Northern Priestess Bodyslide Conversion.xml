@@ -1,0 +1,42 @@
+<SliderGroups>
+
+    <Group name="Northern Priestess Bodyslide">
+        <Member name="NP Bra" />
+        <Member name="NP Circle Armlets" />
+        <Member name="NP Circle Skirt" />
+        <Member name="NP Circle Thighs" />
+        <Member name="NP Engraved Amulet" />
+        <Member name="NP Engraved Armlets" />
+        <Member name="NP Engraved Thighs" />
+        <Member name="NP Full Robe" />
+        <Member name="NP Half Robe" />
+	<Member name="NP Leather Legs" />
+	<Member name="NP Metal Legs" />
+	<Member name="NP Panty" />
+	<Member name="NP Square Amulet" />
+	<Member name="NP Square Armlets" />
+	<Member name="NP Square Skirt" />
+	<Member name="NP Square Thighs" />
+    </Group>
+
+    <!-------------------- CB++ supergroup (for Presets) ----------------------->
+    <Group name="CB++">
+        <Member name="NP Bra" />
+        <Member name="NP Circle Armlets" />
+        <Member name="NP Circle Skirt" />
+        <Member name="NP Circle Thighs" />
+        <Member name="NP Engraved Amulet" />
+        <Member name="NP Engraved Armlets" />
+        <Member name="NP Engraved Thighs" />
+        <Member name="NP Full Robe" />
+        <Member name="NP Half Robe" />
+	<Member name="NP Leather Legs" />
+	<Member name="NP Metal Legs" />
+	<Member name="NP Panty" />
+	<Member name="NP Square Amulet" />
+	<Member name="NP Square Armlets" />
+	<Member name="NP Square Skirt" />
+	<Member name="NP Square Thighs" />
+    </Group>
+
+</SliderGroups>

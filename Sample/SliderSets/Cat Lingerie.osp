@@ -1,0 +1,314 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cat Lingerie">
+        <DataFolder>Cat Lingerie</DataFolder>
+        <SourceFile>Cat Lingerie.nif</SourceFile>
+        <OutputPath>meshes\Armor\SpeedBuster\CatLingerie</OutputPath>
+        <OutputFile GenWeights="true">White</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Bell01">Bell01</Shape>
+        <Shape target="BeltNeck01">BeltNeck01</Shape>
+        <Shape target="Bottm01_01">Bottm01_01</Shape>
+        <Shape target="FrillTop01_01_1">FrillTop01_01_1</Shape>
+        <Shape target="FrillTop01_01_2">FrillTop01_01_2</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="FrillTop01_01_2Breasts" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2Breasts</Data>
+            <Data name="FrillTop01_01_1Breasts" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="FrillTop01_01_2BreastsSmall" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastsSmall</Data>
+            <Data name="FrillTop01_01_1BreastsSmall" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastsSmall</Data>
+            <Data name="Bottm01_01BreastsSmall" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Bell01BreastsSH" target="Bell01" local="true">Cat Lingerie.osd\Bell01BreastsSH</Data>
+            <Data name="FrillTop01_01_2BreastsSH" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastsSH</Data>
+            <Data name="FrillTop01_01_1BreastsSH" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Bell01BreastsSSH" target="Bell01" local="true">Cat Lingerie.osd\Bell01BreastsSSH</Data>
+            <Data name="BeltNeck01BreastsSSH" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01BreastsSSH</Data>
+            <Data name="FrillTop01_01_2BreastsSSH" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastsSSH</Data>
+            <Data name="FrillTop01_01_1BreastsSSH" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="FrillTop01_01_2BreastsFantasy" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastsFantasy</Data>
+            <Data name="FrillTop01_01_1BreastsFantasy" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Bell01DoubleMelon" target="Bell01" local="true">Cat Lingerie.osd\Bell01DoubleMelon</Data>
+            <Data name="FrillTop01_01_2DoubleMelon" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2DoubleMelon</Data>
+            <Data name="FrillTop01_01_1DoubleMelon" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="FrillTop01_01_2BreastCleavage" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastCleavage</Data>
+            <Data name="FrillTop01_01_1BreastCleavage" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Bell01BreastFlatness" target="Bell01" local="true">Cat Lingerie.osd\Bell01BreastFlatness</Data>
+            <Data name="BeltNeck01BreastFlatness" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01BreastFlatness</Data>
+            <Data name="FrillTop01_01_2BreastFlatness" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastFlatness</Data>
+            <Data name="FrillTop01_01_1BreastFlatness" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="FrillTop01_01_2BreastGravity" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastGravity</Data>
+            <Data name="FrillTop01_01_1BreastGravity" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="FrillTop01_01_2PushUp" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2PushUp</Data>
+            <Data name="FrillTop01_01_1PushUp" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="Bell01BreastHeight" target="Bell01" local="true">Cat Lingerie.osd\Bell01BreastHeight</Data>
+            <Data name="BeltNeck01BreastHeight" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01BreastHeight</Data>
+            <Data name="FrillTop01_01_2BreastHeight" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastHeight</Data>
+            <Data name="FrillTop01_01_1BreastHeight" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastHeight</Data>
+            <Data name="Bottm01_01BreastHeight" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="FrillTop01_01_2BreastPerkiness" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastPerkiness</Data>
+            <Data name="FrillTop01_01_1BreastPerkiness" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Bell01BreastWidth" target="Bell01" local="true">Cat Lingerie.osd\Bell01BreastWidth</Data>
+            <Data name="BeltNeck01BreastWidth" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01BreastWidth</Data>
+            <Data name="FrillTop01_01_2BreastWidth" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BreastWidth</Data>
+            <Data name="FrillTop01_01_1BreastWidth" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="FrillTop01_01_2NippleDistance" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NippleDistance</Data>
+            <Data name="FrillTop01_01_1NippleDistance" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="FrillTop01_01_2NipplePerkiness" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Bell01NippleLength" target="Bell01" local="true">Cat Lingerie.osd\Bell01NippleLength</Data>
+            <Data name="BeltNeck01NippleLength" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01NippleLength</Data>
+            <Data name="FrillTop01_01_2NippleLength" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NippleLength</Data>
+            <Data name="FrillTop01_01_1NippleLength" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="FrillTop01_01_2NippleSize" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="FrillTop01_01_2NippleAreola" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NippleAreola</Data>
+            <Data name="FrillTop01_01_1NippleAreola" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="FrillTop01_01_2NippleUp" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NippleUp</Data>
+            <Data name="FrillTop01_01_1NippleUp" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="FrillTop01_01_2NippleDown" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NippleDown</Data>
+            <Data name="FrillTop01_01_1NippleDown" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="FrillTop01_01_2NippleTip" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="BeltNeck01Arms" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01Arms</Data>
+            <Data name="FrillTop01_01_2Arms" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2Arms</Data>
+            <Data name="FrillTop01_01_1Arms" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="FrillTop01_01_2ChubbyArms" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ChubbyArms</Data>
+            <Data name="FrillTop01_01_1ChubbyArms" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Bell01ShoulderSmooth" target="Bell01" local="true">Cat Lingerie.osd\Bell01ShoulderSmooth</Data>
+            <Data name="BeltNeck01ShoulderSmooth" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01ShoulderSmooth</Data>
+            <Data name="FrillTop01_01_2ShoulderSmooth" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ShoulderSmooth</Data>
+            <Data name="FrillTop01_01_1ShoulderSmooth" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="BeltNeck01ShoulderWidth" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01ShoulderWidth</Data>
+            <Data name="FrillTop01_01_2ShoulderWidth" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ShoulderWidth</Data>
+            <Data name="FrillTop01_01_1ShoulderWidth" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="Bell01BigTorso" target="Bell01" local="true">Cat Lingerie.osd\Bell01BigTorso</Data>
+            <Data name="BeltNeck01BigTorso" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01BigTorso</Data>
+            <Data name="FrillTop01_01_2BigTorso" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BigTorso</Data>
+            <Data name="FrillTop01_01_1BigTorso" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BigTorso</Data>
+            <Data name="Bottm01_01BigTorso" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="FrillTop01_01_2Waist" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2Waist</Data>
+            <Data name="FrillTop01_01_1Waist" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Waist</Data>
+            <Data name="Bottm01_01Waist" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="FrillTop01_01_2WideWaistLine" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2WideWaistLine</Data>
+            <Data name="FrillTop01_01_1WideWaistLine" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1WideWaistLine</Data>
+            <Data name="Bottm01_01WideWaistLine" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="FrillTop01_01_2ChubbyWaist" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ChubbyWaist</Data>
+            <Data name="FrillTop01_01_1ChubbyWaist" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1ChubbyWaist</Data>
+            <Data name="Bottm01_01ChubbyWaist" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="FrillTop01_01_2Belly" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2Belly</Data>
+            <Data name="FrillTop01_01_1Belly" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Belly</Data>
+            <Data name="Bottm01_01Belly" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="FrillTop01_01_2BigBelly" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BigBelly</Data>
+            <Data name="FrillTop01_01_1BigBelly" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BigBelly</Data>
+            <Data name="Bottm01_01BigBelly" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="Bell01PregnancyBelly" target="Bell01" local="true">Cat Lingerie.osd\Bell01PregnancyBelly</Data>
+            <Data name="BeltNeck01PregnancyBelly" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01PregnancyBelly</Data>
+            <Data name="FrillTop01_01_2PregnancyBelly" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2PregnancyBelly</Data>
+            <Data name="FrillTop01_01_1PregnancyBelly" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1PregnancyBelly</Data>
+            <Data name="Bottm01_01PregnancyBelly" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="FrillTop01_01_2TummyTuck" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2TummyTuck</Data>
+            <Data name="FrillTop01_01_1TummyTuck" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1TummyTuck</Data>
+            <Data name="Bottm01_01TummyTuck" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="BeltNeck01Back" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01Back</Data>
+            <Data name="FrillTop01_01_2Back" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2Back</Data>
+            <Data name="FrillTop01_01_1Back" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Back</Data>
+            <Data name="Bottm01_01Back" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="FrillTop01_01_1Hipbone" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Hipbone</Data>
+            <Data name="Bottm01_01Hipbone" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="FrillTop01_01_2Hips" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2Hips</Data>
+            <Data name="FrillTop01_01_1Hips" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Hips</Data>
+            <Data name="Bottm01_01Hips" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="Bottm01_01ButtCrack" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="FrillTop01_01_2Butt" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2Butt</Data>
+            <Data name="FrillTop01_01_1Butt" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1Butt</Data>
+            <Data name="Bottm01_01Butt" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="FrillTop01_01_2ButtSmall" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ButtSmall</Data>
+            <Data name="FrillTop01_01_1ButtSmall" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1ButtSmall</Data>
+            <Data name="Bottm01_01ButtSmall" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="FrillTop01_01_2ButtShape2" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ButtShape2</Data>
+            <Data name="FrillTop01_01_1ButtShape2" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1ButtShape2</Data>
+            <Data name="Bottm01_01ButtShape2" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="FrillTop01_01_2BigButt" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2BigButt</Data>
+            <Data name="FrillTop01_01_1BigButt" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1BigButt</Data>
+            <Data name="Bottm01_01BigButt" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="FrillTop01_01_2ChubbyButt" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ChubbyButt</Data>
+            <Data name="FrillTop01_01_1ChubbyButt" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1ChubbyButt</Data>
+            <Data name="Bottm01_01ChubbyButt" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="FrillTop01_01_2AppleCheeks" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2AppleCheeks</Data>
+            <Data name="FrillTop01_01_1AppleCheeks" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1AppleCheeks</Data>
+            <Data name="Bottm01_01AppleCheeks" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="Bottm01_01RoundAss" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="Bottm01_01Groin" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="FrillTop01_01_2SlimThighs" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2SlimThighs</Data>
+            <Data name="FrillTop01_01_1SlimThighs" target="FrillTop01_01_1" local="true">Cat Lingerie.osd\FrillTop01_01_1SlimThighs</Data>
+            <Data name="Bottm01_01SlimThighs" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Bottm01_01Thighs" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Bottm01_01ChubbyLegs" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Bottm01_01Legs" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="Bottm01_01KneeHeight" target="Bottm01_01" local="true">Cat Lingerie.osd\Bottm01_01KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Bell01SmallSeam" target="Bell01" local="true">Cat Lingerie.osd\Bell01SmallSeam</Data>
+            <Data name="BeltNeck01SmallSeam" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01SmallSeam</Data>
+            <Data name="FrillTop01_01_2SmallSeam" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="BeltNeck01ShoulderTweak" target="BeltNeck01" local="true">Cat Lingerie.osd\BeltNeck01ShoulderTweak</Data>
+            <Data name="FrillTop01_01_2ShoulderTweak" target="FrillTop01_01_2" local="true">Cat Lingerie.osd\FrillTop01_01_2ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

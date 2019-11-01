@@ -2,10 +2,10 @@
 <SliderGroupGeneratorConfig>	
 <!-- use installed texture files as the source textures by default.  convenience setting.  set to 1 to 
 have TexBlend look in its local repository for source textures, set to 0 to get them from the game data folder -->
-<SliderGroupsPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/Sample/SliderGroups/</SliderGroupsPath>
+<SliderGroupsPath>E:/GIT/BodySlide-Group-Generator/Sample/SliderGroups/</SliderGroupsPath>
 <!-- Alpha matte for previewing modification textures with transparency.  The transparent parts will be set 
 to this color when the image is displayed on the preview.  Possible values: white or black -->
-<SliderSetPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/Sample/SliderSets/</SliderSetPath>	
+<SliderSetPath>E:/GIT/BodySlide-Group-Generator/Sample/SliderSets/</SliderSetPath>	
 <VerboseLogging>0</VerboseLogging>
 <!-- s -->
 <GenerateMasterGroupList>false</GenerateMasterGroupList>

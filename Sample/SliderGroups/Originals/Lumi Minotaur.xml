@@ -1,0 +1,10 @@
+<SliderGroups>
+    <Group name="CBAdvanced">
+        <Member name="Lumi Minotaur Armor"/>
+        <Member name="Lumi Minotaur Gauntlets"/>
+    </Group>
+    <Group name="Lumi Minotaur">
+        <Member name="Lumi Minotaur Armor"/>
+        <Member name="Lumi Minotaur Gauntlets"/>
+    </Group>
+</SliderGroups>

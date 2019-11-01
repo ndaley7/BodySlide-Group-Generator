@@ -42,6 +42,9 @@ g_bodyslideGroupedOutfitsOnly=set() #Non Repeating Set (Python) of all grouped o
 g_bodyslideGroupedOutfitsWGroup=[] #List (Python) of Tuples (Python) Containing all Groups and Member outfits
 g_bodyslideNewGroupedOutfitsWGroup=[]
 g_xmlEncodingString="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+
+g_utf8_parser = ET.XMLParser(encoding='utf-8')
+g_unicode_parser = ET.XMLParser(encoding='cp1252',ns_clean=True, recover=True)
 #Accepts an XML format file with full path and checks for the presence of the XML encoding at the beginning of the document.
 #Assuming encoding: for windows 10
 def XMLEncodingConfirm(checkFile):
@@ -53,8 +56,9 @@ def XMLEncodingConfirm(checkFile):
         f.close()
     else:
         f.close()
-        with open(checkFile, 'r') as original: data = original.read()
-        with open(checkFile, 'w') as modified: modified.write(g_xmlEncodingString+"\n" + data)
+        with open(checkFile, 'r', encoding="cp1252") as original: data = original.read()
+        #with open(checkFile, 'w', encoding="cp1252") as modified: modified.write(g_xmlEncodingString+"\n" + data)
+        with open(checkFile, 'w', encoding="cp1252") as modified: modified.write(data)
 
     #Check for the presence of double hyphens "--" in the comments:
 
@@ -134,7 +138,7 @@ def ParseSliderSet(fileWithPath,fileName):
     fileListing=[]
 
     #Load in XML Tree 
-    tree = ET.parse(fileWithPath) 
+    tree = ET.parse(fileWithPath,g_unicode_parser) 
     root = tree.getroot()
 
     #Assign Potential Group Name

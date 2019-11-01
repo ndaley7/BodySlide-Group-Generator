@@ -1,0 +1,38 @@
+<SliderSetInfo>
+    <SliderSet name="Female Farmer Glovers">
+        <SetFolder>FemaleFarmerGlovers</SetFolder>
+        <SourceFile>FemaleFarmerGlovers.nif</SourceFile>
+        <OutputPath>meshes\clothes\farmclothes03</OutputPath>
+        <OutputFile>farmerglovesf</OutputFile>
+        <BaseShapeName target="HandFemale3rdGloveskin">HandFemale3rdGloveskin</BaseShapeName>
+        <BaseShapeName target="gloveslow02">gloveslow02</BaseShapeName>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="gloveslow02Arms" target="gloveslow02" local="true">gloveslow02Arms.bsd</datafile>
+            <datafile name="HandFemale3rdGloveskinArms" target="HandFemale3rdGloveskin" local="true">HandFemale3rdGloveskinArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="gloveslow02ChubbyArms" target="gloveslow02" local="true">gloveslow02ChubbyArms.bsd</datafile>
+            <datafile name="HandFemale3rdGloveskinChubbyArms" target="HandFemale3rdGloveskin" local="true">HandFemale3rdGloveskinChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="gloveslow02ShoulderWidth" target="gloveslow02" local="true">gloveslow02ShoulderWidth.bsd</datafile>
+            <datafile name="HandFemale3rdGloveskinShoulderWidth" target="HandFemale3rdGloveskin" local="true">HandFemale3rdGloveskinShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="gloveslow02BigTorso" target="gloveslow02" local="true">gloveslow02BigTorso.bsd</datafile>
+            <datafile name="HandFemale3rdGloveskinBigTorso" target="HandFemale3rdGloveskin" local="true">HandFemale3rdGloveskinBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="gloveslow02TummyTuck" target="gloveslow02" local="true">gloveslow02TummyTuck.bsd</datafile>
+            <datafile name="HandFemale3rdGloveskinTummyTuck" target="HandFemale3rdGloveskin" local="true">HandFemale3rdGloveskinTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="gloveslow02Butt" target="gloveslow02" local="true">gloveslow02Butt.bsd</datafile>
+            <datafile name="HandFemale3rdGloveskinButt" target="HandFemale3rdGloveskin" local="true">HandFemale3rdGloveskinButt.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="gloveslow02SmallSeam" target="gloveslow02" local="true">gloveslow02SmallSeam.bsd</datafile>
+            <datafile name="HandFemale3rdGloveskinSmallSeam" target="HandFemale3rdGloveskin" local="true">HandFemale3rdGloveskinSmallSeam.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

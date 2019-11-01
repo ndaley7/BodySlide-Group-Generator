@@ -1,0 +1,112 @@
+<SliderSetInfo version="1">
+    <SliderSet name="SweetPeaBoots02">
+        <DataFolder>SweetPeaBoots02</DataFolder>
+        <SourceFile>SweetPeaBoots02.nif</SourceFile>
+        <OutputPath>meshes\armor\SweetPea</OutputPath>
+        <OutputFile GenWeights="true">boots02</OutputFile>
+        <Shape target="left:boot">left:boot</Shape>
+        <Shape target="left:heel">left:heel</Shape>
+        <Shape target="left:heelcap">left:heelcap</Shape>
+        <Shape target="left:toe">left:toe</Shape>
+        <Shape target="left:zipper">left:zipper</Shape>
+        <Shape target="left:ziptexture">left:ziptexture</Shape>
+        <Shape target="leftt:heelbase">leftt:heelbase</Shape>
+        <Shape target="right:boot">right:boot</Shape>
+        <Shape target="right:heel">right:heel</Shape>
+        <Shape target="right:heelbase">right:heelbase</Shape>
+        <Shape target="right:heelcap">right:heelcap</Shape>
+        <Shape target="right:toe">right:toe</Shape>
+        <Shape target="right:zipper">right:zipper</Shape>
+        <Shape target="right:ziptexture">right:ziptexture</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="left:bootPregnancyBelly" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootPregnancyBelly</Data>
+            <Data name="left:ziptexturePregnancyBelly" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptexturePregnancyBelly</Data>
+            <Data name="right:ziptexturePregnancyBelly" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptexturePregnancyBelly</Data>
+            <Data name="right:bootPregnancyBelly" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="left:bootButt" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootButt</Data>
+            <Data name="right:bootButt" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="left:zipperButtSmall" target="left:zipper" local="true">SweetPeaBoots02.osd\left:zipperButtSmall</Data>
+            <Data name="left:bootButtSmall" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootButtSmall</Data>
+            <Data name="left:ziptextureButtSmall" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureButtSmall</Data>
+            <Data name="right:zipperButtSmall" target="right:zipper" local="true">SweetPeaBoots02.osd\right:zipperButtSmall</Data>
+            <Data name="right:ziptextureButtSmall" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureButtSmall</Data>
+            <Data name="right:bootButtSmall" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootButtSmall</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="left:bootBigButt" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootBigButt</Data>
+            <Data name="right:bootBigButt" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="left:bootChubbyButt" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootChubbyButt</Data>
+            <Data name="right:bootChubbyButt" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="left:zipperSlimThighs" target="left:zipper" local="true">SweetPeaBoots02.osd\left:zipperSlimThighs</Data>
+            <Data name="left:bootSlimThighs" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootSlimThighs</Data>
+            <Data name="left:ziptextureSlimThighs" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureSlimThighs</Data>
+            <Data name="right:zipperSlimThighs" target="right:zipper" local="true">SweetPeaBoots02.osd\right:zipperSlimThighs</Data>
+            <Data name="right:ziptextureSlimThighs" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureSlimThighs</Data>
+            <Data name="right:bootSlimThighs" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="left:zipperThighs" target="left:zipper" local="true">SweetPeaBoots02.osd\left:zipperThighs</Data>
+            <Data name="left:bootThighs" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootThighs</Data>
+            <Data name="left:ziptextureThighs" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureThighs</Data>
+            <Data name="right:zipperThighs" target="right:zipper" local="true">SweetPeaBoots02.osd\right:zipperThighs</Data>
+            <Data name="right:ziptextureThighs" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureThighs</Data>
+            <Data name="right:bootThighs" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="left:zipperChubbyLegs" target="left:zipper" local="true">SweetPeaBoots02.osd\left:zipperChubbyLegs</Data>
+            <Data name="left:bootChubbyLegs" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootChubbyLegs</Data>
+            <Data name="left:ziptextureChubbyLegs" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureChubbyLegs</Data>
+            <Data name="right:zipperChubbyLegs" target="right:zipper" local="true">SweetPeaBoots02.osd\right:zipperChubbyLegs</Data>
+            <Data name="right:ziptextureChubbyLegs" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureChubbyLegs</Data>
+            <Data name="right:bootChubbyLegs" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="left:zipperLegs" target="left:zipper" local="true">SweetPeaBoots02.osd\left:zipperLegs</Data>
+            <Data name="left:bootLegs" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootLegs</Data>
+            <Data name="left:ziptextureLegs" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureLegs</Data>
+            <Data name="right:zipperLegs" target="right:zipper" local="true">SweetPeaBoots02.osd\right:zipperLegs</Data>
+            <Data name="right:ziptextureLegs" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureLegs</Data>
+            <Data name="right:bootLegs" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="left:zipperKneeHeight" target="left:zipper" local="true">SweetPeaBoots02.osd\left:zipperKneeHeight</Data>
+            <Data name="left:bootKneeHeight" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootKneeHeight</Data>
+            <Data name="left:ziptextureKneeHeight" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureKneeHeight</Data>
+            <Data name="right:zipperKneeHeight" target="right:zipper" local="true">SweetPeaBoots02.osd\right:zipperKneeHeight</Data>
+            <Data name="right:ziptextureKneeHeight" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureKneeHeight</Data>
+            <Data name="right:bootKneeHeight" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="left:bootCalfSize" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootCalfSize</Data>
+            <Data name="left:ziptextureCalfSize" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureCalfSize</Data>
+            <Data name="right:ziptextureCalfSize" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureCalfSize</Data>
+            <Data name="right:bootCalfSize" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="left:bootCalfSmooth" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootCalfSmooth</Data>
+            <Data name="left:ziptextureCalfSmooth" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureCalfSmooth</Data>
+            <Data name="right:ziptextureCalfSmooth" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureCalfSmooth</Data>
+            <Data name="right:bootCalfSmooth" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="left:bootAnkles" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootAnkles</Data>
+            <Data name="left:ziptextureAnkles" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureAnkles</Data>
+            <Data name="right:ziptextureAnkles" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureAnkles</Data>
+            <Data name="right:bootAnkles" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="left:bootSmallSeam" target="left:boot" local="true">SweetPeaBoots02.osd\left:bootSmallSeam</Data>
+            <Data name="left:ziptextureSmallSeam" target="left:ziptexture" local="true">SweetPeaBoots02.osd\left:ziptextureSmallSeam</Data>
+            <Data name="right:ziptextureSmallSeam" target="right:ziptexture" local="true">SweetPeaBoots02.osd\right:ziptextureSmallSeam</Data>
+            <Data name="right:bootSmallSeam" target="right:boot" local="true">SweetPeaBoots02.osd\right:bootSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
