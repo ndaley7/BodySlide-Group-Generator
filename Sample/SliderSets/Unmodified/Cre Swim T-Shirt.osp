@@ -1,0 +1,102 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Swim T-Shirt">
+        <DataFolder>Cre Swim T-Shirt</DataFolder>
+        <SourceFile>Cre Swim T-Shirt.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\Mizugi</OutputPath>
+        <OutputFile GenWeights="true">Swim_Suit_Shatsu</OutputFile>
+        <Shape target="0_Shatsu">0_Shatsu</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="0_ShatsuBreasts" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="0_ShatsuBreastsSmall" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastsSH" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastsSSH" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastsFantasy" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="0_ShatsuDoubleMelon" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastCleavage" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastFlatness" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastGravity" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="0_ShatsuPushUp" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastHeight" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastPerkiness" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBreastWidth" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="0_ShatsuNippleDistance" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="0_ShatsuNippleLength" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuNippleLength</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="0_ShatsuNippleAreola" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="0_ShatsuNippleUp" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="0_ShatsuNippleDown" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="0_ShatsuArms" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="0_ShatsuChubbyArms" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="0_ShatsuShoulderSmooth" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="0_ShatsuShoulderWidth" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBigTorso" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="0_ShatsuWaist" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="0_ShatsuWideWaistLine" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="0_ShatsuChubbyWaist" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuChubbyWaist</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="0_ShatsuPregnancyBelly" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="0_ShatsuBack" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuBack</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="0_ShatsuChubbyButt" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuChubbyButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="0_ShatsuSmallSeam" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="0_ShatsuShoulderTweak" target="0_Shatsu" local="true">Cre Swim T-Shirt.osd\0_ShatsuShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

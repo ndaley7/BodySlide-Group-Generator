@@ -1,0 +1,111 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Swim Sash A">
+        <DataFolder>Cre Swim Sash A</DataFolder>
+        <SourceFile>Cre Swim Sash A.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\Mizugi</OutputPath>
+        <OutputFile GenWeights="true">Pareo</OutputFile>
+        <Shape target="0Pareo1">0Pareo1</Shape>
+        <Shape target="0Pareo2">0Pareo2</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="0Pareo1BreastsSmall" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="0Pareo1BreastHeight" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1BreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="0Pareo1BigTorso" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1BigTorso</Data>
+            <Data name="0Pareo2BigTorso" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="0Pareo1Waist" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Waist</Data>
+            <Data name="0Pareo2Waist" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="0Pareo1WideWaistLine" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1WideWaistLine</Data>
+            <Data name="0Pareo2WideWaistLine" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="0Pareo1ChubbyWaist" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1ChubbyWaist</Data>
+            <Data name="0Pareo2ChubbyWaist" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="0Pareo1Belly" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="0Pareo1BigBelly" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1BigBelly</Data>
+            <Data name="0Pareo2BigBelly" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="0Pareo1PregnancyBelly" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1PregnancyBelly</Data>
+            <Data name="0Pareo2PregnancyBelly" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="0Pareo1TummyTuck" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1TummyTuck</Data>
+            <Data name="0Pareo2TummyTuck" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="0Pareo1Back" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Back</Data>
+            <Data name="0Pareo2Back" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="0Pareo1Hipbone" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Hipbone</Data>
+            <Data name="0Pareo2Hipbone" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="0Pareo1Hips" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Hips</Data>
+            <Data name="0Pareo2Hips" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="0Pareo1ButtCrack" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="0Pareo1Butt" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Butt</Data>
+            <Data name="0Pareo2Butt" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="0Pareo1ButtSmall" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1ButtSmall</Data>
+            <Data name="0Pareo2ButtSmall" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="0Pareo1ButtShape2" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1ButtShape2</Data>
+            <Data name="0Pareo2ButtShape2" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="0Pareo1BigButt" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1BigButt</Data>
+            <Data name="0Pareo2BigButt" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="0Pareo1ChubbyButt" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1ChubbyButt</Data>
+            <Data name="0Pareo2ChubbyButt" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="0Pareo1AppleCheeks" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1AppleCheeks</Data>
+            <Data name="0Pareo2AppleCheeks" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="0Pareo1RoundAss" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="0Pareo1Groin" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="0Pareo1SlimThighs" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1SlimThighs</Data>
+            <Data name="0Pareo2SlimThighs" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="0Pareo1Thighs" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Thighs</Data>
+            <Data name="0Pareo2Thighs" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="0Pareo1ChubbyLegs" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1ChubbyLegs</Data>
+            <Data name="0Pareo2ChubbyLegs" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="0Pareo1Legs" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1Legs</Data>
+            <Data name="0Pareo2Legs" target="0Pareo2" local="true">Cre Swim Sash A.osd\0Pareo2Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="0Pareo1KneeHeight" target="0Pareo1" local="true">Cre Swim Sash A.osd\0Pareo1KneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

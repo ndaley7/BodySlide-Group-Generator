@@ -1,0 +1,40 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova Short Gloves [Technology]">
+        <DataFolder>Nova Short Gloves [Technology]</DataFolder>
+        <SourceFile>nova_arm03a_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_arm03a_ca</OutputFile>
+        <Shape target="Bracers2">Bracers2</Shape>
+        <Shape target="Gloves2">Gloves2</Shape>
+        <Shape target="Iface">Iface</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Bracers2Arms" target="Bracers2" local="true">nova_arm03a_ca.osd\Bracers2Arms</Data>
+            <Data name="IfaceArms" target="Iface" local="true">nova_arm03a_ca.osd\IfaceArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="Bracers2ChubbyArms" target="Bracers2" local="true">nova_arm03a_ca.osd\Bracers2ChubbyArms</Data>
+            <Data name="IfaceChubbyArms" target="Iface" local="true">nova_arm03a_ca.osd\IfaceChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="Bracers2ShoulderWidth" target="Bracers2" local="true">nova_arm03a_ca.osd\Bracers2ShoulderWidth</Data>
+            <Data name="IfaceShoulderWidth" target="Iface" local="true">nova_arm03a_ca.osd\IfaceShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Bracers2BigTorso" target="Bracers2" local="true">nova_arm03a_ca.osd\Bracers2BigTorso</Data>
+            <Data name="IfaceBigTorso" target="Iface" local="true">nova_arm03a_ca.osd\IfaceBigTorso</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Bracers2TummyTuck" target="Bracers2" local="true">nova_arm03a_ca.osd\Bracers2TummyTuck</Data>
+            <Data name="Gloves2TummyTuck" target="Gloves2" local="true">nova_arm03a_ca.osd\Gloves2TummyTuck</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Bracers2Butt" target="Bracers2" local="true">nova_arm03a_ca.osd\Bracers2Butt</Data>
+            <Data name="Gloves2Butt" target="Gloves2" local="true">nova_arm03a_ca.osd\Gloves2Butt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Bracers2SmallSeam" target="Bracers2" local="true">nova_arm03a_ca.osd\Bracers2SmallSeam</Data>
+            <Data name="Gloves2SmallSeam" target="Gloves2" local="true">nova_arm03a_ca.osd\Gloves2SmallSeam</Data>
+            <Data name="IfaceSmallSeam" target="Iface" local="true">nova_arm03a_ca.osd\IfaceSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

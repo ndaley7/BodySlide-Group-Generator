@@ -1,0 +1,303 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova CatSuit [09] [HDT]">
+        <DataFolder>Nova CatSuit [09] [HDT]</DataFolder>
+        <SourceFile>nova_body09_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_body09_ca</OutputFile>
+        <Shape target="AccT1M">AccT1M</Shape>
+        <Shape target="AccT1a">AccT1a</Shape>
+        <Shape target="BT6AddOn">BT6AddOn</Shape>
+        <Shape target="BodyType6">BodyType6</Shape>
+        <Shape target="NCat2">NCat2</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="BodyType6Breasts" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Breasts</Data>
+            <Data name="BT6AddOnBreasts" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreasts</Data>
+            <Data name="NCat2Breasts" target="NCat2" local="true">nova_body09_ca.osd\NCat2Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BodyType6BreastsSmall" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastsSmall</Data>
+            <Data name="BT6AddOnBreastsSmall" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastsSmall</Data>
+            <Data name="NCat2BreastsSmall" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastsSH" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastsSH</Data>
+            <Data name="BT6AddOnBreastsSH" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastsSH</Data>
+            <Data name="NCat2BreastsSH" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastsSSH" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastsSSH</Data>
+            <Data name="BT6AddOnBreastsSSH" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastsSSH</Data>
+            <Data name="NCat2BreastsSSH" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastsFantasy" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastsFantasy</Data>
+            <Data name="BT6AddOnBreastsFantasy" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastsFantasy</Data>
+            <Data name="NCat2BreastsFantasy" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastsFantasy</Data>
+            <Data name="AccT1aBreastsFantasy" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BodyType6DoubleMelon" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6DoubleMelon</Data>
+            <Data name="BT6AddOnDoubleMelon" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnDoubleMelon</Data>
+            <Data name="NCat2DoubleMelon" target="NCat2" local="true">nova_body09_ca.osd\NCat2DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastCleavage" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastCleavage</Data>
+            <Data name="BT6AddOnBreastCleavage" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastCleavage</Data>
+            <Data name="NCat2BreastCleavage" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastFlatness" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastFlatness</Data>
+            <Data name="BT6AddOnBreastFlatness" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastFlatness</Data>
+            <Data name="NCat2BreastFlatness" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastFlatness</Data>
+            <Data name="AccT1aBreastFlatness" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastGravity" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastGravity</Data>
+            <Data name="BT6AddOnBreastGravity" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastGravity</Data>
+            <Data name="NCat2BreastGravity" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastGravity</Data>
+            <Data name="AccT1aBreastGravity" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BodyType6PushUp" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6PushUp</Data>
+            <Data name="BT6AddOnPushUp" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnPushUp</Data>
+            <Data name="NCat2PushUp" target="NCat2" local="true">nova_body09_ca.osd\NCat2PushUp</Data>
+            <Data name="AccT1aPushUp" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastHeight" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastHeight</Data>
+            <Data name="BT6AddOnBreastHeight" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastHeight</Data>
+            <Data name="AccT1MBreastHeight" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MBreastHeight</Data>
+            <Data name="NCat2BreastHeight" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastHeight</Data>
+            <Data name="AccT1aBreastHeight" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastPerkiness" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastPerkiness</Data>
+            <Data name="BT6AddOnBreastPerkiness" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastPerkiness</Data>
+            <Data name="NCat2BreastPerkiness" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastPerkiness</Data>
+            <Data name="AccT1aBreastPerkiness" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BodyType6BreastWidth" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BreastWidth</Data>
+            <Data name="BT6AddOnBreastWidth" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBreastWidth</Data>
+            <Data name="NCat2BreastWidth" target="NCat2" local="true">nova_body09_ca.osd\NCat2BreastWidth</Data>
+            <Data name="AccT1aBreastWidth" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="BodyType6NippleDistance" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6NippleDistance</Data>
+            <Data name="BT6AddOnNippleDistance" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnNippleDistance</Data>
+            <Data name="NCat2NippleDistance" target="NCat2" local="true">nova_body09_ca.osd\NCat2NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NCat2NipplePerkiness" target="NCat2" local="true">nova_body09_ca.osd\NCat2NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BodyType6NippleLength" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6NippleLength</Data>
+            <Data name="BT6AddOnNippleLength" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnNippleLength</Data>
+            <Data name="NCat2NippleLength" target="NCat2" local="true">nova_body09_ca.osd\NCat2NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NCat2NippleSize" target="NCat2" local="true">nova_body09_ca.osd\NCat2NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="BodyType6NippleAreola" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6NippleAreola</Data>
+            <Data name="BT6AddOnNippleAreola" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnNippleAreola</Data>
+            <Data name="NCat2NippleAreola" target="NCat2" local="true">nova_body09_ca.osd\NCat2NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BodyType6NippleUp" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6NippleUp</Data>
+            <Data name="BT6AddOnNippleUp" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnNippleUp</Data>
+            <Data name="NCat2NippleUp" target="NCat2" local="true">nova_body09_ca.osd\NCat2NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BodyType6NippleDown" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6NippleDown</Data>
+            <Data name="BT6AddOnNippleDown" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnNippleDown</Data>
+            <Data name="NCat2NippleDown" target="NCat2" local="true">nova_body09_ca.osd\NCat2NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NCat2NippleTip" target="NCat2" local="true">nova_body09_ca.osd\NCat2NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BodyType6Arms" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Arms</Data>
+            <Data name="BT6AddOnArms" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnArms</Data>
+            <Data name="AccT1MArms" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MArms</Data>
+            <Data name="NCat2Arms" target="NCat2" local="true">nova_body09_ca.osd\NCat2Arms</Data>
+            <Data name="AccT1aArms" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BodyType6ChubbyArms" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ChubbyArms</Data>
+            <Data name="BT6AddOnChubbyArms" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnChubbyArms</Data>
+            <Data name="AccT1MChubbyArms" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MChubbyArms</Data>
+            <Data name="NCat2ChubbyArms" target="NCat2" local="true">nova_body09_ca.osd\NCat2ChubbyArms</Data>
+            <Data name="AccT1aChubbyArms" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BodyType6ShoulderSmooth" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ShoulderSmooth</Data>
+            <Data name="BT6AddOnShoulderSmooth" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnShoulderSmooth</Data>
+            <Data name="NCat2ShoulderSmooth" target="NCat2" local="true">nova_body09_ca.osd\NCat2ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BodyType6ShoulderWidth" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ShoulderWidth</Data>
+            <Data name="BT6AddOnShoulderWidth" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnShoulderWidth</Data>
+            <Data name="AccT1MShoulderWidth" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MShoulderWidth</Data>
+            <Data name="NCat2ShoulderWidth" target="NCat2" local="true">nova_body09_ca.osd\NCat2ShoulderWidth</Data>
+            <Data name="AccT1aShoulderWidth" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BodyType6BigTorso" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BigTorso</Data>
+            <Data name="BT6AddOnBigTorso" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBigTorso</Data>
+            <Data name="AccT1MBigTorso" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MBigTorso</Data>
+            <Data name="NCat2BigTorso" target="NCat2" local="true">nova_body09_ca.osd\NCat2BigTorso</Data>
+            <Data name="AccT1aBigTorso" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="BodyType6Waist" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Waist</Data>
+            <Data name="BT6AddOnWaist" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnWaist</Data>
+            <Data name="NCat2Waist" target="NCat2" local="true">nova_body09_ca.osd\NCat2Waist</Data>
+            <Data name="AccT1aWaist" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BodyType6WideWaistLine" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6WideWaistLine</Data>
+            <Data name="BT6AddOnWideWaistLine" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnWideWaistLine</Data>
+            <Data name="NCat2WideWaistLine" target="NCat2" local="true">nova_body09_ca.osd\NCat2WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BodyType6ChubbyWaist" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ChubbyWaist</Data>
+            <Data name="BT6AddOnChubbyWaist" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnChubbyWaist</Data>
+            <Data name="NCat2ChubbyWaist" target="NCat2" local="true">nova_body09_ca.osd\NCat2ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BodyType6Belly" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Belly</Data>
+            <Data name="BT6AddOnBelly" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBelly</Data>
+            <Data name="NCat2Belly" target="NCat2" local="true">nova_body09_ca.osd\NCat2Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BodyType6BigBelly" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BigBelly</Data>
+            <Data name="BT6AddOnBigBelly" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBigBelly</Data>
+            <Data name="NCat2BigBelly" target="NCat2" local="true">nova_body09_ca.osd\NCat2BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BodyType6PregnancyBelly" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6PregnancyBelly</Data>
+            <Data name="BT6AddOnPregnancyBelly" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnPregnancyBelly</Data>
+            <Data name="NCat2PregnancyBelly" target="NCat2" local="true">nova_body09_ca.osd\NCat2PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BodyType6TummyTuck" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6TummyTuck</Data>
+            <Data name="BT6AddOnTummyTuck" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnTummyTuck</Data>
+            <Data name="NCat2TummyTuck" target="NCat2" local="true">nova_body09_ca.osd\NCat2TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BodyType6Back" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Back</Data>
+            <Data name="BT6AddOnBack" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBack</Data>
+            <Data name="NCat2Back" target="NCat2" local="true">nova_body09_ca.osd\NCat2Back</Data>
+            <Data name="AccT1aBack" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="BodyType6Hipbone" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Hipbone</Data>
+            <Data name="NCat2Hipbone" target="NCat2" local="true">nova_body09_ca.osd\NCat2Hipbone</Data>
+            <Data name="AccT1aHipbone" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BodyType6Hips" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Hips</Data>
+            <Data name="BT6AddOnHips" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnHips</Data>
+            <Data name="AccT1MHips" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MHips</Data>
+            <Data name="NCat2Hips" target="NCat2" local="true">nova_body09_ca.osd\NCat2Hips</Data>
+            <Data name="AccT1aHips" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="BodyType6ButtCrack" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ButtCrack</Data>
+            <Data name="NCat2ButtCrack" target="NCat2" local="true">nova_body09_ca.osd\NCat2ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BodyType6Butt" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Butt</Data>
+            <Data name="AccT1MButt" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MButt</Data>
+            <Data name="NCat2Butt" target="NCat2" local="true">nova_body09_ca.osd\NCat2Butt</Data>
+            <Data name="AccT1aButt" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BodyType6ButtSmall" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ButtSmall</Data>
+            <Data name="AccT1MButtSmall" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MButtSmall</Data>
+            <Data name="NCat2ButtSmall" target="NCat2" local="true">nova_body09_ca.osd\NCat2ButtSmall</Data>
+            <Data name="AccT1aButtSmall" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BodyType6ButtShape2" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ButtShape2</Data>
+            <Data name="BT6AddOnButtShape2" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnButtShape2</Data>
+            <Data name="NCat2ButtShape2" target="NCat2" local="true">nova_body09_ca.osd\NCat2ButtShape2</Data>
+            <Data name="AccT1aButtShape2" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BodyType6BigButt" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6BigButt</Data>
+            <Data name="BT6AddOnBigButt" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnBigButt</Data>
+            <Data name="AccT1MBigButt" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MBigButt</Data>
+            <Data name="NCat2BigButt" target="NCat2" local="true">nova_body09_ca.osd\NCat2BigButt</Data>
+            <Data name="AccT1aBigButt" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BodyType6ChubbyButt" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ChubbyButt</Data>
+            <Data name="BT6AddOnChubbyButt" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnChubbyButt</Data>
+            <Data name="AccT1MChubbyButt" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MChubbyButt</Data>
+            <Data name="NCat2ChubbyButt" target="NCat2" local="true">nova_body09_ca.osd\NCat2ChubbyButt</Data>
+            <Data name="AccT1aChubbyButt" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BodyType6AppleCheeks" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6AppleCheeks</Data>
+            <Data name="NCat2AppleCheeks" target="NCat2" local="true">nova_body09_ca.osd\NCat2AppleCheeks</Data>
+            <Data name="AccT1aAppleCheeks" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BodyType6RoundAss" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6RoundAss</Data>
+            <Data name="NCat2RoundAss" target="NCat2" local="true">nova_body09_ca.osd\NCat2RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BodyType6Groin" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Groin</Data>
+            <Data name="NCat2Groin" target="NCat2" local="true">nova_body09_ca.osd\NCat2Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BodyType6SlimThighs" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6SlimThighs</Data>
+            <Data name="AccT1MSlimThighs" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MSlimThighs</Data>
+            <Data name="NCat2SlimThighs" target="NCat2" local="true">nova_body09_ca.osd\NCat2SlimThighs</Data>
+            <Data name="AccT1aSlimThighs" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BodyType6Thighs" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Thighs</Data>
+            <Data name="AccT1MThighs" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MThighs</Data>
+            <Data name="NCat2Thighs" target="NCat2" local="true">nova_body09_ca.osd\NCat2Thighs</Data>
+            <Data name="AccT1aThighs" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BodyType6ChubbyLegs" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ChubbyLegs</Data>
+            <Data name="AccT1MChubbyLegs" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MChubbyLegs</Data>
+            <Data name="NCat2ChubbyLegs" target="NCat2" local="true">nova_body09_ca.osd\NCat2ChubbyLegs</Data>
+            <Data name="AccT1aChubbyLegs" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BodyType6Legs" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6Legs</Data>
+            <Data name="AccT1MLegs" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MLegs</Data>
+            <Data name="NCat2Legs" target="NCat2" local="true">nova_body09_ca.osd\NCat2Legs</Data>
+            <Data name="AccT1aLegs" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="AccT1MKneeHeight" target="AccT1M" local="true">nova_body09_ca.osd\AccT1MKneeHeight</Data>
+            <Data name="NCat2KneeHeight" target="NCat2" local="true">nova_body09_ca.osd\NCat2KneeHeight</Data>
+            <Data name="AccT1aKneeHeight" target="AccT1a" local="true">nova_body09_ca.osd\AccT1aKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="NCat2CalfSize" target="NCat2" local="true">nova_body09_ca.osd\NCat2CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="NCat2CalfSmooth" target="NCat2" local="true">nova_body09_ca.osd\NCat2CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="NCat2Ankles" target="NCat2" local="true">nova_body09_ca.osd\NCat2Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BodyType6SmallSeam" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6SmallSeam</Data>
+            <Data name="BT6AddOnSmallSeam" target="BT6AddOn" local="true">nova_body09_ca.osd\BT6AddOnSmallSeam</Data>
+            <Data name="NCat2SmallSeam" target="NCat2" local="true">nova_body09_ca.osd\NCat2SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="BodyType6ShoulderTweak" target="BodyType6" local="true">nova_body09_ca.osd\BodyType6ShoulderTweak</Data>
+            <Data name="NCat2ShoulderTweak" target="NCat2" local="true">nova_body09_ca.osd\NCat2ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

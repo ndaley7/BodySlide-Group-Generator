@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Temple">
+        <DataFolder>CT77Temple</DataFolder>
+        <SourceFile>CT77Temple.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\temple</OutputPath>
+        <OutputFile GenWeights="true">templepriestf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="TempleChest">TempleChest</Shape>
+        <Shape target="TempleLeggings">TempleLeggings</Shape>
+        <Shape target="TempleShirt">TempleShirt</Shape>
+        <Shape target="TempleShorts">TempleShorts</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="TempleChestBreasts" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreasts</Data>
+            <Data name="TempleShirtBreasts" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="TempleChestBreastsSmall" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastsSmall</Data>
+            <Data name="TempleShirtBreastsSmall" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastsSmall</Data>
+            <Data name="TempleShortsBreastsSmall" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="TempleChestBreastsSH" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastsSH</Data>
+            <Data name="TempleShirtBreastsSH" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="TempleChestBreastsSSH" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastsSSH</Data>
+            <Data name="TempleShirtBreastsSSH" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="TempleChestBreastsFantasy" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastsFantasy</Data>
+            <Data name="TempleShirtBreastsFantasy" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="TempleChestDoubleMelon" target="TempleChest" local="true">CT77Temple.osd\TempleChestDoubleMelon</Data>
+            <Data name="TempleShirtDoubleMelon" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="TempleChestBreastCleavage" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastCleavage</Data>
+            <Data name="TempleShirtBreastCleavage" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="TempleChestBreastFlatness" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastFlatness</Data>
+            <Data name="TempleShirtBreastFlatness" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="TempleChestBreastGravity" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastGravity</Data>
+            <Data name="TempleShirtBreastGravity" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="TempleChestPushUp" target="TempleChest" local="true">CT77Temple.osd\TempleChestPushUp</Data>
+            <Data name="TempleShirtPushUp" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="TempleChestBreastHeight" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastHeight</Data>
+            <Data name="TempleShirtBreastHeight" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastHeight</Data>
+            <Data name="TempleShortsBreastHeight" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="TempleChestBreastPerkiness" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastPerkiness</Data>
+            <Data name="TempleShirtBreastPerkiness" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="TempleChestBreastWidth" target="TempleChest" local="true">CT77Temple.osd\TempleChestBreastWidth</Data>
+            <Data name="TempleShirtBreastWidth" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="TempleChestNippleDistance" target="TempleChest" local="true">CT77Temple.osd\TempleChestNippleDistance</Data>
+            <Data name="TempleShirtNippleDistance" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="TempleChestNipplePerkiness" target="TempleChest" local="true">CT77Temple.osd\TempleChestNipplePerkiness</Data>
+            <Data name="TempleShirtNipplePerkiness" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="TempleChestNippleLength" target="TempleChest" local="true">CT77Temple.osd\TempleChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="TempleChestNippleSize" target="TempleChest" local="true">CT77Temple.osd\TempleChestNippleSize</Data>
+            <Data name="TempleShirtNippleSize" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="TempleChestNippleAreola" target="TempleChest" local="true">CT77Temple.osd\TempleChestNippleAreola</Data>
+            <Data name="TempleShirtNippleAreola" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="TempleChestNippleUp" target="TempleChest" local="true">CT77Temple.osd\TempleChestNippleUp</Data>
+            <Data name="TempleShirtNippleUp" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="TempleChestNippleDown" target="TempleChest" local="true">CT77Temple.osd\TempleChestNippleDown</Data>
+            <Data name="TempleShirtNippleDown" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="TempleChestNippleTip" target="TempleChest" local="true">CT77Temple.osd\TempleChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="TempleChestArms" target="TempleChest" local="true">CT77Temple.osd\TempleChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="TempleChestChubbyArms" target="TempleChest" local="true">CT77Temple.osd\TempleChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="TempleChestShoulderSmooth" target="TempleChest" local="true">CT77Temple.osd\TempleChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="TempleChestShoulderWidth" target="TempleChest" local="true">CT77Temple.osd\TempleChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="TempleChestBigTorso" target="TempleChest" local="true">CT77Temple.osd\TempleChestBigTorso</Data>
+            <Data name="TempleShirtBigTorso" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBigTorso</Data>
+            <Data name="TempleShortsBigTorso" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="TempleChestWaist" target="TempleChest" local="true">CT77Temple.osd\TempleChestWaist</Data>
+            <Data name="TempleShirtWaist" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtWaist</Data>
+            <Data name="TempleShortsWaist" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="TempleChestWideWaistLine" target="TempleChest" local="true">CT77Temple.osd\TempleChestWideWaistLine</Data>
+            <Data name="TempleShirtWideWaistLine" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtWideWaistLine</Data>
+            <Data name="TempleShortsWideWaistLine" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="TempleChestChubbyWaist" target="TempleChest" local="true">CT77Temple.osd\TempleChestChubbyWaist</Data>
+            <Data name="TempleShirtChubbyWaist" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtChubbyWaist</Data>
+            <Data name="TempleShortsChubbyWaist" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="TempleChestBelly" target="TempleChest" local="true">CT77Temple.osd\TempleChestBelly</Data>
+            <Data name="TempleShirtBelly" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBelly</Data>
+            <Data name="TempleShortsBelly" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="TempleChestBigBelly" target="TempleChest" local="true">CT77Temple.osd\TempleChestBigBelly</Data>
+            <Data name="TempleShirtBigBelly" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBigBelly</Data>
+            <Data name="TempleShortsBigBelly" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="TempleChestTummyTuck" target="TempleChest" local="true">CT77Temple.osd\TempleChestTummyTuck</Data>
+            <Data name="TempleShirtTummyTuck" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtTummyTuck</Data>
+            <Data name="TempleShortsTummyTuck" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="TempleChestBack" target="TempleChest" local="true">CT77Temple.osd\TempleChestBack</Data>
+            <Data name="TempleShirtBack" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBack</Data>
+            <Data name="TempleShortsBack" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="TempleChestHipbone" target="TempleChest" local="true">CT77Temple.osd\TempleChestHipbone</Data>
+            <Data name="TempleShirtHipbone" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtHipbone</Data>
+            <Data name="TempleShortsHipbone" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="TempleChestHips" target="TempleChest" local="true">CT77Temple.osd\TempleChestHips</Data>
+            <Data name="TempleShirtHips" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtHips</Data>
+            <Data name="TempleShortsHips" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="TempleShortsButtCrack" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="TempleChestButt" target="TempleChest" local="true">CT77Temple.osd\TempleChestButt</Data>
+            <Data name="TempleLeggingsButt" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsButt</Data>
+            <Data name="TempleShirtButt" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtButt</Data>
+            <Data name="TempleShortsButt" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="TempleChestButtSmall" target="TempleChest" local="true">CT77Temple.osd\TempleChestButtSmall</Data>
+            <Data name="TempleLeggingsButtSmall" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsButtSmall</Data>
+            <Data name="TempleShirtButtSmall" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtButtSmall</Data>
+            <Data name="TempleShortsButtSmall" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="TempleChestButtShape2" target="TempleChest" local="true">CT77Temple.osd\TempleChestButtShape2</Data>
+            <Data name="TempleShirtButtShape2" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtButtShape2</Data>
+            <Data name="TempleShortsButtShape2" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="TempleChestBigButt" target="TempleChest" local="true">CT77Temple.osd\TempleChestBigButt</Data>
+            <Data name="TempleLeggingsBigButt" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsBigButt</Data>
+            <Data name="TempleShirtBigButt" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtBigButt</Data>
+            <Data name="TempleShortsBigButt" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="TempleChestChubbyButt" target="TempleChest" local="true">CT77Temple.osd\TempleChestChubbyButt</Data>
+            <Data name="TempleLeggingsChubbyButt" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsChubbyButt</Data>
+            <Data name="TempleShirtChubbyButt" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtChubbyButt</Data>
+            <Data name="TempleShortsChubbyButt" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="TempleChestAppleCheeks" target="TempleChest" local="true">CT77Temple.osd\TempleChestAppleCheeks</Data>
+            <Data name="TempleShirtAppleCheeks" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtAppleCheeks</Data>
+            <Data name="TempleShortsAppleCheeks" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="TempleChestRoundAss" target="TempleChest" local="true">CT77Temple.osd\TempleChestRoundAss</Data>
+            <Data name="TempleShortsRoundAss" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="TempleShortsGroin" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="TempleChestSlimThighs" target="TempleChest" local="true">CT77Temple.osd\TempleChestSlimThighs</Data>
+            <Data name="TempleLeggingsSlimThighs" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsSlimThighs</Data>
+            <Data name="TempleShirtSlimThighs" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtSlimThighs</Data>
+            <Data name="TempleShortsSlimThighs" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="TempleChestThighs" target="TempleChest" local="true">CT77Temple.osd\TempleChestThighs</Data>
+            <Data name="TempleLeggingsThighs" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsThighs</Data>
+            <Data name="TempleShirtThighs" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtThighs</Data>
+            <Data name="TempleShortsThighs" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="TempleChestChubbyLegs" target="TempleChest" local="true">CT77Temple.osd\TempleChestChubbyLegs</Data>
+            <Data name="TempleLeggingsChubbyLegs" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsChubbyLegs</Data>
+            <Data name="TempleShirtChubbyLegs" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtChubbyLegs</Data>
+            <Data name="TempleShortsChubbyLegs" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="TempleChestLegs" target="TempleChest" local="true">CT77Temple.osd\TempleChestLegs</Data>
+            <Data name="TempleLeggingsLegs" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsLegs</Data>
+            <Data name="TempleShirtLegs" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtLegs</Data>
+            <Data name="TempleShortsLegs" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="TempleChestKneeHeight" target="TempleChest" local="true">CT77Temple.osd\TempleChestKneeHeight</Data>
+            <Data name="TempleLeggingsKneeHeight" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsKneeHeight</Data>
+            <Data name="TempleShortsKneeHeight" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="TempleLeggingsCalfSize" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="TempleLeggingsCalfSmooth" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="TempleLeggingsAnkles" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="TempleChestSmallSeam" target="TempleChest" local="true">CT77Temple.osd\TempleChestSmallSeam</Data>
+            <Data name="TempleLeggingsSmallSeam" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="TempleChestShoulderTweak" target="TempleChest" local="true">CT77Temple.osd\TempleChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapRobes" invert="false" small="0" big="0" zap="true">
+            <Data name="TempleChestZapRobes" target="TempleChest" local="true">CT77Temple.osd\TempleChestZapRobes</Data>
+            <Data name="TempleShirtZapRobes" target="TempleShirt" local="true">CT77Temple.osd\TempleShirtZapRobes</Data>
+        </Slider>
+        <Slider name="ZapShorts" invert="false" small="0" big="0" zap="true">
+            <Data name="TempleShortsZapShorts" target="TempleShorts" local="true">CT77Temple.osd\TempleShortsZapShorts</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="TempleLeggingsZapLeggings" target="TempleLeggings" local="true">CT77Temple.osd\TempleLeggingsZapLeggings</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Temple Boots">
+        <DataFolder>CT77Temple</DataFolder>
+        <SourceFile>CT77TempleBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\temple</OutputPath>
+        <OutputFile GenWeights="true">templepriestfboots</OutputFile>
+        <Shape target="TempleBoots">TempleBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="TempleBootsChubbyLegs" target="TempleBoots" local="true">CT77TempleBoots.osd\TempleBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="TempleBootsLegs" target="TempleBoots" local="true">CT77TempleBoots.osd\TempleBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="TempleBootsKneeHeight" target="TempleBoots" local="true">CT77TempleBoots.osd\TempleBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="TempleBootsCalfSize" target="TempleBoots" local="true">CT77TempleBoots.osd\TempleBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="TempleBootsCalfSmooth" target="TempleBoots" local="true">CT77TempleBoots.osd\TempleBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="TempleBootsAnkles" target="TempleBoots" local="true">CT77TempleBoots.osd\TempleBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="TempleBootsSmallSeam" target="TempleBoots" local="true">CT77TempleBoots.osd\TempleBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

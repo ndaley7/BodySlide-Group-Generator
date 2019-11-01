@@ -1,0 +1,503 @@
+<SliderSetInfo>
+    <SliderSet name="Minou Diguojun Pauldron I">
+        <SetFolder>Minou Diguojun Pauldron</SetFolder>
+        <SourceFile>Minou Diguojun Pauldron.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Diguojun</OutputPath>
+        <OutputFile>pauldrona</OutputFile>
+        <BaseShapeName target="PAUDRONFFFF">PAUDRONFFFF</BaseShapeName>
+        <BaseShapeName target="PDrnP">PDrnP</BaseShapeName>
+        <BaseShapeName target="breastp">breastp</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="PAUDRONFFFFBreasts" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreasts.bsd</datafile>
+            <datafile name="breastpBreasts" target="breastp" local="true">breastpBreasts.bsd</datafile>
+            <datafile name="PDrnPBreasts" target="PDrnP" local="true">PDrnPBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFBreastsSmall" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSmall.bsd</datafile>
+            <datafile name="breastpBreastsSmall" target="breastp" local="true">breastpBreastsSmall.bsd</datafile>
+            <datafile name="PDrnPBreastsSmall" target="PDrnP" local="true">PDrnPBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsSH" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSH.bsd</datafile>
+            <datafile name="breastpBreastsSH" target="breastp" local="true">breastpBreastsSH.bsd</datafile>
+            <datafile name="PDrnPBreastsSH" target="PDrnP" local="true">PDrnPBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsSSH" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSSH.bsd</datafile>
+            <datafile name="breastpBreastsSSH" target="breastp" local="true">breastpBreastsSSH.bsd</datafile>
+            <datafile name="PDrnPBreastsSSH" target="PDrnP" local="true">PDrnPBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsFantasy" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsFantasy.bsd</datafile>
+            <datafile name="breastpBreastsFantasy" target="breastp" local="true">breastpBreastsFantasy.bsd</datafile>
+            <datafile name="PDrnPBreastsFantasy" target="PDrnP" local="true">PDrnPBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFDoubleMelon" target="PAUDRONFFFF" local="true">PAUDRONFFFFDoubleMelon.bsd</datafile>
+            <datafile name="breastpDoubleMelon" target="breastp" local="true">breastpDoubleMelon.bsd</datafile>
+            <datafile name="PDrnPDoubleMelon" target="PDrnP" local="true">PDrnPDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastCleavage" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastCleavage.bsd</datafile>
+            <datafile name="breastpBreastCleavage" target="breastp" local="true">breastpBreastCleavage.bsd</datafile>
+            <datafile name="PDrnPBreastCleavage" target="PDrnP" local="true">PDrnPBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastFlatness" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastFlatness.bsd</datafile>
+            <datafile name="breastpBreastFlatness" target="breastp" local="true">breastpBreastFlatness.bsd</datafile>
+            <datafile name="PDrnPBreastFlatness" target="PDrnP" local="true">PDrnPBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastGravity" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastGravity.bsd</datafile>
+            <datafile name="breastpBreastGravity" target="breastp" local="true">breastpBreastGravity.bsd</datafile>
+            <datafile name="PDrnPBreastGravity" target="PDrnP" local="true">PDrnPBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFPushUp" target="PAUDRONFFFF" local="true">PAUDRONFFFFPushUp.bsd</datafile>
+            <datafile name="breastpPushUp" target="breastp" local="true">breastpPushUp.bsd</datafile>
+            <datafile name="PDrnPPushUp" target="PDrnP" local="true">PDrnPPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastHeight" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastHeight.bsd</datafile>
+            <datafile name="breastpBreastHeight" target="breastp" local="true">breastpBreastHeight.bsd</datafile>
+            <datafile name="PDrnPBreastHeight" target="PDrnP" local="true">PDrnPBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastPerkiness" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastPerkiness.bsd</datafile>
+            <datafile name="breastpBreastPerkiness" target="breastp" local="true">breastpBreastPerkiness.bsd</datafile>
+            <datafile name="PDrnPBreastPerkiness" target="PDrnP" local="true">PDrnPBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastWidth" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastWidth.bsd</datafile>
+            <datafile name="breastpBreastWidth" target="breastp" local="true">breastpBreastWidth.bsd</datafile>
+            <datafile name="PDrnPBreastWidth" target="PDrnP" local="true">PDrnPBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFNippleDistance" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleDistance.bsd</datafile>
+            <datafile name="breastpNippleDistance" target="breastp" local="true">breastpNippleDistance.bsd</datafile>
+            <datafile name="PDrnPNippleDistance" target="PDrnP" local="true">PDrnPNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFNippleUp" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleUp.bsd</datafile>
+            <datafile name="breastpNippleUp" target="breastp" local="true">breastpNippleUp.bsd</datafile>
+            <datafile name="PDrnPNippleUp" target="PDrnP" local="true">PDrnPNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFNippleDown" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleDown.bsd</datafile>
+            <datafile name="breastpNippleDown" target="breastp" local="true">breastpNippleDown.bsd</datafile>
+            <datafile name="PDrnPNippleDown" target="PDrnP" local="true">PDrnPNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="PAUDRONFFFFArms" target="PAUDRONFFFF" local="true">PAUDRONFFFFArms.bsd</datafile>
+            <datafile name="PDrnPArms" target="PDrnP" local="true">PDrnPArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyArms" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyArms.bsd</datafile>
+            <datafile name="PDrnPChubbyArms" target="PDrnP" local="true">PDrnPChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFShoulderSmooth" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFShoulderWidth" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderWidth.bsd</datafile>
+            <datafile name="PDrnPShoulderWidth" target="PDrnP" local="true">PDrnPShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBigTorso" target="PAUDRONFFFF" local="true">PAUDRONFFFFBigTorso.bsd</datafile>
+            <datafile name="breastpBigTorso" target="breastp" local="true">breastpBigTorso.bsd</datafile>
+            <datafile name="PDrnPBigTorso" target="PDrnP" local="true">PDrnPBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="PAUDRONFFFFWaist" target="PAUDRONFFFF" local="true">PAUDRONFFFFWaist.bsd</datafile>
+            <datafile name="PDrnPWaist" target="PDrnP" local="true">PDrnPWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="PDrnPWideWaistLine" target="PDrnP" local="true">PDrnPWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyWaist" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyWaist.bsd</datafile>
+            <datafile name="PDrnPChubbyWaist" target="PDrnP" local="true">PDrnPChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="PDrnPBelly" target="PDrnP" local="true">PDrnPBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="PDrnPBigBelly" target="PDrnP" local="true">PDrnPBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="PDrnPTummyTuck" target="PDrnP" local="true">PDrnPTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBack" target="PAUDRONFFFF" local="true">PAUDRONFFFFBack.bsd</datafile>
+            <datafile name="PDrnPBack" target="PDrnP" local="true">PDrnPBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="PDrnPHipbone" target="PDrnP" local="true">PDrnPHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="PDrnPHips" target="PDrnP" local="true">PDrnPHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="PDrnPButt" target="PDrnP" local="true">PDrnPButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="PDrnPButtSmall" target="PDrnP" local="true">PDrnPButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="PDrnPButtShape2" target="PDrnP" local="true">PDrnPButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="PDrnPBigButt" target="PDrnP" local="true">PDrnPBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyButt" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyButt.bsd</datafile>
+            <datafile name="PDrnPChubbyButt" target="PDrnP" local="true">PDrnPChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="PDrnPAppleCheeks" target="PDrnP" local="true">PDrnPAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="PDrnPSlimThighs" target="PDrnP" local="true">PDrnPSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="PAUDRONFFFFSmallSeam" target="PAUDRONFFFF" local="true">PAUDRONFFFFSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="PAUDRONFFFFShoulderTweak" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="Minou Diguojun Pauldron II">
+        <SetFolder>Minou Diguojun Pauldron</SetFolder>
+        <SourceFile>Minou Diguojun Pauldron2.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Diguojun</OutputPath>
+        <OutputFile>pauldronb</OutputFile>
+        <BaseShapeName target="PAUDRONFFFF">PAUDRONFFFF</BaseShapeName>
+        <BaseShapeName target="PDrnP">PDrnP</BaseShapeName>
+        <BaseShapeName target="breastp">breastp</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="PAUDRONFFFFBreasts" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreasts.bsd</datafile>
+            <datafile name="breastpBreasts" target="breastp" local="true">breastpBreasts.bsd</datafile>
+            <datafile name="PDrnPBreasts" target="PDrnP" local="true">PDrnPBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFBreastsSmall" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSmall.bsd</datafile>
+            <datafile name="breastpBreastsSmall" target="breastp" local="true">breastpBreastsSmall.bsd</datafile>
+            <datafile name="PDrnPBreastsSmall" target="PDrnP" local="true">PDrnPBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsSH" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSH.bsd</datafile>
+            <datafile name="breastpBreastsSH" target="breastp" local="true">breastpBreastsSH.bsd</datafile>
+            <datafile name="PDrnPBreastsSH" target="PDrnP" local="true">PDrnPBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsSSH" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSSH.bsd</datafile>
+            <datafile name="breastpBreastsSSH" target="breastp" local="true">breastpBreastsSSH.bsd</datafile>
+            <datafile name="PDrnPBreastsSSH" target="PDrnP" local="true">PDrnPBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsFantasy" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsFantasy.bsd</datafile>
+            <datafile name="breastpBreastsFantasy" target="breastp" local="true">breastpBreastsFantasy.bsd</datafile>
+            <datafile name="PDrnPBreastsFantasy" target="PDrnP" local="true">PDrnPBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFDoubleMelon" target="PAUDRONFFFF" local="true">PAUDRONFFFFDoubleMelon.bsd</datafile>
+            <datafile name="breastpDoubleMelon" target="breastp" local="true">breastpDoubleMelon.bsd</datafile>
+            <datafile name="PDrnPDoubleMelon" target="PDrnP" local="true">PDrnPDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastCleavage" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastCleavage.bsd</datafile>
+            <datafile name="breastpBreastCleavage" target="breastp" local="true">breastpBreastCleavage.bsd</datafile>
+            <datafile name="PDrnPBreastCleavage" target="PDrnP" local="true">PDrnPBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastFlatness" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastFlatness.bsd</datafile>
+            <datafile name="breastpBreastFlatness" target="breastp" local="true">breastpBreastFlatness.bsd</datafile>
+            <datafile name="PDrnPBreastFlatness" target="PDrnP" local="true">PDrnPBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastGravity" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastGravity.bsd</datafile>
+            <datafile name="breastpBreastGravity" target="breastp" local="true">breastpBreastGravity.bsd</datafile>
+            <datafile name="PDrnPBreastGravity" target="PDrnP" local="true">PDrnPBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFPushUp" target="PAUDRONFFFF" local="true">PAUDRONFFFFPushUp.bsd</datafile>
+            <datafile name="breastpPushUp" target="breastp" local="true">breastpPushUp.bsd</datafile>
+            <datafile name="PDrnPPushUp" target="PDrnP" local="true">PDrnPPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastHeight" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastHeight.bsd</datafile>
+            <datafile name="breastpBreastHeight" target="breastp" local="true">breastpBreastHeight.bsd</datafile>
+            <datafile name="PDrnPBreastHeight" target="PDrnP" local="true">PDrnPBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastPerkiness" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastPerkiness.bsd</datafile>
+            <datafile name="breastpBreastPerkiness" target="breastp" local="true">breastpBreastPerkiness.bsd</datafile>
+            <datafile name="PDrnPBreastPerkiness" target="PDrnP" local="true">PDrnPBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastWidth" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastWidth.bsd</datafile>
+            <datafile name="breastpBreastWidth" target="breastp" local="true">breastpBreastWidth.bsd</datafile>
+            <datafile name="PDrnPBreastWidth" target="PDrnP" local="true">PDrnPBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFNippleDistance" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleDistance.bsd</datafile>
+            <datafile name="breastpNippleDistance" target="breastp" local="true">breastpNippleDistance.bsd</datafile>
+            <datafile name="PDrnPNippleDistance" target="PDrnP" local="true">PDrnPNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFNippleUp" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleUp.bsd</datafile>
+            <datafile name="breastpNippleUp" target="breastp" local="true">breastpNippleUp.bsd</datafile>
+            <datafile name="PDrnPNippleUp" target="PDrnP" local="true">PDrnPNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFNippleDown" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleDown.bsd</datafile>
+            <datafile name="breastpNippleDown" target="breastp" local="true">breastpNippleDown.bsd</datafile>
+            <datafile name="PDrnPNippleDown" target="PDrnP" local="true">PDrnPNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="PAUDRONFFFFArms" target="PAUDRONFFFF" local="true">PAUDRONFFFFArms.bsd</datafile>
+            <datafile name="PDrnPArms" target="PDrnP" local="true">PDrnPArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyArms" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyArms.bsd</datafile>
+            <datafile name="PDrnPChubbyArms" target="PDrnP" local="true">PDrnPChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFShoulderSmooth" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFShoulderWidth" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderWidth.bsd</datafile>
+            <datafile name="PDrnPShoulderWidth" target="PDrnP" local="true">PDrnPShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBigTorso" target="PAUDRONFFFF" local="true">PAUDRONFFFFBigTorso.bsd</datafile>
+            <datafile name="breastpBigTorso" target="breastp" local="true">breastpBigTorso.bsd</datafile>
+            <datafile name="PDrnPBigTorso" target="PDrnP" local="true">PDrnPBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="PAUDRONFFFFWaist" target="PAUDRONFFFF" local="true">PAUDRONFFFFWaist.bsd</datafile>
+            <datafile name="PDrnPWaist" target="PDrnP" local="true">PDrnPWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="PDrnPWideWaistLine" target="PDrnP" local="true">PDrnPWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyWaist" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyWaist.bsd</datafile>
+            <datafile name="PDrnPChubbyWaist" target="PDrnP" local="true">PDrnPChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="PDrnPBelly" target="PDrnP" local="true">PDrnPBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="PDrnPBigBelly" target="PDrnP" local="true">PDrnPBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="PDrnPTummyTuck" target="PDrnP" local="true">PDrnPTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBack" target="PAUDRONFFFF" local="true">PAUDRONFFFFBack.bsd</datafile>
+            <datafile name="PDrnPBack" target="PDrnP" local="true">PDrnPBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="PDrnPHipbone" target="PDrnP" local="true">PDrnPHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="PDrnPHips" target="PDrnP" local="true">PDrnPHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="PDrnPButt" target="PDrnP" local="true">PDrnPButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="PDrnPButtSmall" target="PDrnP" local="true">PDrnPButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="PDrnPButtShape2" target="PDrnP" local="true">PDrnPButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="PDrnPBigButt" target="PDrnP" local="true">PDrnPBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyButt" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyButt.bsd</datafile>
+            <datafile name="PDrnPChubbyButt" target="PDrnP" local="true">PDrnPChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="PDrnPAppleCheeks" target="PDrnP" local="true">PDrnPAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="PDrnPSlimThighs" target="PDrnP" local="true">PDrnPSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="PAUDRONFFFFSmallSeam" target="PAUDRONFFFF" local="true">PAUDRONFFFFSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="PAUDRONFFFFShoulderTweak" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="Minou Diguojun Pauldron III">
+        <SetFolder>Minou Diguojun Pauldron</SetFolder>
+        <SourceFile>Minou Diguojun Pauldron3.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Diguojun</OutputPath>
+        <OutputFile>pauldronc</OutputFile>
+        <BaseShapeName target="PAUDRONFFFF">PAUDRONFFFF</BaseShapeName>
+        <BaseShapeName target="PDrnP">PDrnP</BaseShapeName>
+        <BaseShapeName target="breastp">breastp</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="PAUDRONFFFFBreasts" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreasts.bsd</datafile>
+            <datafile name="breastpBreasts" target="breastp" local="true">breastpBreasts.bsd</datafile>
+            <datafile name="PDrnPBreasts" target="PDrnP" local="true">PDrnPBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFBreastsSmall" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSmall.bsd</datafile>
+            <datafile name="breastpBreastsSmall" target="breastp" local="true">breastpBreastsSmall.bsd</datafile>
+            <datafile name="PDrnPBreastsSmall" target="PDrnP" local="true">PDrnPBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsSH" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSH.bsd</datafile>
+            <datafile name="breastpBreastsSH" target="breastp" local="true">breastpBreastsSH.bsd</datafile>
+            <datafile name="PDrnPBreastsSH" target="PDrnP" local="true">PDrnPBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsSSH" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsSSH.bsd</datafile>
+            <datafile name="breastpBreastsSSH" target="breastp" local="true">breastpBreastsSSH.bsd</datafile>
+            <datafile name="PDrnPBreastsSSH" target="PDrnP" local="true">PDrnPBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastsFantasy" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastsFantasy.bsd</datafile>
+            <datafile name="breastpBreastsFantasy" target="breastp" local="true">breastpBreastsFantasy.bsd</datafile>
+            <datafile name="PDrnPBreastsFantasy" target="PDrnP" local="true">PDrnPBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFDoubleMelon" target="PAUDRONFFFF" local="true">PAUDRONFFFFDoubleMelon.bsd</datafile>
+            <datafile name="breastpDoubleMelon" target="breastp" local="true">breastpDoubleMelon.bsd</datafile>
+            <datafile name="PDrnPDoubleMelon" target="PDrnP" local="true">PDrnPDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastCleavage" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastCleavage.bsd</datafile>
+            <datafile name="breastpBreastCleavage" target="breastp" local="true">breastpBreastCleavage.bsd</datafile>
+            <datafile name="PDrnPBreastCleavage" target="PDrnP" local="true">PDrnPBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastFlatness" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastFlatness.bsd</datafile>
+            <datafile name="breastpBreastFlatness" target="breastp" local="true">breastpBreastFlatness.bsd</datafile>
+            <datafile name="PDrnPBreastFlatness" target="PDrnP" local="true">PDrnPBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastGravity" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastGravity.bsd</datafile>
+            <datafile name="breastpBreastGravity" target="breastp" local="true">breastpBreastGravity.bsd</datafile>
+            <datafile name="PDrnPBreastGravity" target="PDrnP" local="true">PDrnPBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFPushUp" target="PAUDRONFFFF" local="true">PAUDRONFFFFPushUp.bsd</datafile>
+            <datafile name="breastpPushUp" target="breastp" local="true">breastpPushUp.bsd</datafile>
+            <datafile name="PDrnPPushUp" target="PDrnP" local="true">PDrnPPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastHeight" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastHeight.bsd</datafile>
+            <datafile name="breastpBreastHeight" target="breastp" local="true">breastpBreastHeight.bsd</datafile>
+            <datafile name="PDrnPBreastHeight" target="PDrnP" local="true">PDrnPBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastPerkiness" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastPerkiness.bsd</datafile>
+            <datafile name="breastpBreastPerkiness" target="breastp" local="true">breastpBreastPerkiness.bsd</datafile>
+            <datafile name="PDrnPBreastPerkiness" target="PDrnP" local="true">PDrnPBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBreastWidth" target="PAUDRONFFFF" local="true">PAUDRONFFFFBreastWidth.bsd</datafile>
+            <datafile name="breastpBreastWidth" target="breastp" local="true">breastpBreastWidth.bsd</datafile>
+            <datafile name="PDrnPBreastWidth" target="PDrnP" local="true">PDrnPBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFNippleDistance" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleDistance.bsd</datafile>
+            <datafile name="breastpNippleDistance" target="breastp" local="true">breastpNippleDistance.bsd</datafile>
+            <datafile name="PDrnPNippleDistance" target="PDrnP" local="true">PDrnPNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFNippleUp" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleUp.bsd</datafile>
+            <datafile name="breastpNippleUp" target="breastp" local="true">breastpNippleUp.bsd</datafile>
+            <datafile name="PDrnPNippleUp" target="PDrnP" local="true">PDrnPNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFNippleDown" target="PAUDRONFFFF" local="true">PAUDRONFFFFNippleDown.bsd</datafile>
+            <datafile name="breastpNippleDown" target="breastp" local="true">breastpNippleDown.bsd</datafile>
+            <datafile name="PDrnPNippleDown" target="PDrnP" local="true">PDrnPNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="PAUDRONFFFFArms" target="PAUDRONFFFF" local="true">PAUDRONFFFFArms.bsd</datafile>
+            <datafile name="PDrnPArms" target="PDrnP" local="true">PDrnPArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyArms" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyArms.bsd</datafile>
+            <datafile name="PDrnPChubbyArms" target="PDrnP" local="true">PDrnPChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFShoulderSmooth" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="PAUDRONFFFFShoulderWidth" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderWidth.bsd</datafile>
+            <datafile name="PDrnPShoulderWidth" target="PDrnP" local="true">PDrnPShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBigTorso" target="PAUDRONFFFF" local="true">PAUDRONFFFFBigTorso.bsd</datafile>
+            <datafile name="breastpBigTorso" target="breastp" local="true">breastpBigTorso.bsd</datafile>
+            <datafile name="PDrnPBigTorso" target="PDrnP" local="true">PDrnPBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="PAUDRONFFFFWaist" target="PAUDRONFFFF" local="true">PAUDRONFFFFWaist.bsd</datafile>
+            <datafile name="PDrnPWaist" target="PDrnP" local="true">PDrnPWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="PDrnPWideWaistLine" target="PDrnP" local="true">PDrnPWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyWaist" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyWaist.bsd</datafile>
+            <datafile name="PDrnPChubbyWaist" target="PDrnP" local="true">PDrnPChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="PDrnPBelly" target="PDrnP" local="true">PDrnPBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="PDrnPBigBelly" target="PDrnP" local="true">PDrnPBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="PDrnPTummyTuck" target="PDrnP" local="true">PDrnPTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFBack" target="PAUDRONFFFF" local="true">PAUDRONFFFFBack.bsd</datafile>
+            <datafile name="PDrnPBack" target="PDrnP" local="true">PDrnPBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="PDrnPHipbone" target="PDrnP" local="true">PDrnPHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="PDrnPHips" target="PDrnP" local="true">PDrnPHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="PDrnPButt" target="PDrnP" local="true">PDrnPButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="PDrnPButtSmall" target="PDrnP" local="true">PDrnPButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="PDrnPButtShape2" target="PDrnP" local="true">PDrnPButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="PDrnPBigButt" target="PDrnP" local="true">PDrnPBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="PAUDRONFFFFChubbyButt" target="PAUDRONFFFF" local="true">PAUDRONFFFFChubbyButt.bsd</datafile>
+            <datafile name="PDrnPChubbyButt" target="PDrnP" local="true">PDrnPChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="PDrnPAppleCheeks" target="PDrnP" local="true">PDrnPAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="PDrnPSlimThighs" target="PDrnP" local="true">PDrnPSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="PAUDRONFFFFSmallSeam" target="PAUDRONFFFF" local="true">PAUDRONFFFFSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="PAUDRONFFFFShoulderTweak" target="PAUDRONFFFF" local="true">PAUDRONFFFFShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

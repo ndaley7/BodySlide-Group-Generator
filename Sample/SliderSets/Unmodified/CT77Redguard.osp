@@ -1,0 +1,1100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Redguard">
+        <DataFolder>CT77Redguard</DataFolder>
+        <SourceFile>CT77Redguard.nif</SourceFile>
+        <OutputPath>meshes\clothes\redguard</OutputPath>
+        <OutputFile GenWeights="true">redguardoutfitf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="RGArmbands">RGArmbands</Shape>
+        <Shape target="RGBelt">RGBelt</Shape>
+        <Shape target="RGBracers">RGBracers</Shape>
+        <Shape target="RGLeggings">RGLeggings</Shape>
+        <Shape target="RGShirt">RGShirt</Shape>
+        <Shape target="RGSkirt">RGSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape" local="true">CT77Redguard.osd\Breasts1</Data>
+            <Data name="RGShirtBreasts" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="RGArmbandsBreastsSmall" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastsSmall</Data>
+            <Data name="RGBeltBreastsSmall" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastsSmall</Data>
+            <Data name="RGShirtBreastsSmall" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsSmall</Data>
+            <Data name="RGSkirtBreastsSmall" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="RGShirtBreastsSH" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="RGShirtBreastsSSH" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="RGArmbandsBreastsFantasy" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastsFantasy</Data>
+            <Data name="RGShirtBreastsFantasy" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="RGShirtDoubleMelon" target="RGShirt" local="true">CT77Redguard.osd\RGShirtDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="RGShirtBreastCleavage" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="RGArmbandsBreastFlatness" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastFlatness</Data>
+            <Data name="RGBeltBreastFlatness" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastFlatness</Data>
+            <Data name="RGShirtBreastFlatness" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="RGArmbandsBreastGravity" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastGravity</Data>
+            <Data name="RGShirtBreastGravity" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="RGArmbandsPushUp" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsPushUp</Data>
+            <Data name="RGShirtPushUp" target="RGShirt" local="true">CT77Redguard.osd\RGShirtPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="RGArmbandsBreastHeight" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastHeight</Data>
+            <Data name="RGBeltBreastHeight" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastHeight</Data>
+            <Data name="RGShirtBreastHeight" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastHeight</Data>
+            <Data name="RGSkirtBreastHeight" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="RGArmbandsBreastPerkiness" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastPerkiness</Data>
+            <Data name="RGShirtBreastPerkiness" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="RGArmbandsBreastWidth" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastWidth</Data>
+            <Data name="RGBeltBreastWidth" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastWidth</Data>
+            <Data name="RGShirtBreastWidth" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="RGShirtNippleDistance" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="RGShirtNipplePerkiness" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="RGShirtNippleLength" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="RGShirtNippleSize" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="RGShirtNippleAreola" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="RGShirtNippleUp" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="RGShirtNippleDown" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="RGShirtNippleTip" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="RGArmbandsArms" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsArms</Data>
+            <Data name="RGBracersArms" target="RGBracers" local="true">CT77Redguard.osd\RGBracersArms</Data>
+            <Data name="RGShirtArms" target="RGShirt" local="true">CT77Redguard.osd\RGShirtArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="RGArmbandsChubbyArms" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsChubbyArms</Data>
+            <Data name="RGBracersChubbyArms" target="RGBracers" local="true">CT77Redguard.osd\RGBracersChubbyArms</Data>
+            <Data name="RGShirtChubbyArms" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="RGShirtShoulderSmooth" target="RGShirt" local="true">CT77Redguard.osd\RGShirtShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="RGArmbandsShoulderWidth" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsShoulderWidth</Data>
+            <Data name="RGBracersShoulderWidth" target="RGBracers" local="true">CT77Redguard.osd\RGBracersShoulderWidth</Data>
+            <Data name="RGShirtShoulderWidth" target="RGShirt" local="true">CT77Redguard.osd\RGShirtShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="RGArmbandsBigTorso" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBigTorso</Data>
+            <Data name="RGBeltBigTorso" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBigTorso</Data>
+            <Data name="RGBracersBigTorso" target="RGBracers" local="true">CT77Redguard.osd\RGBracersBigTorso</Data>
+            <Data name="RGShirtBigTorso" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBigTorso</Data>
+            <Data name="RGSkirtBigTorso" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="RGArmbandsWaist" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsWaist</Data>
+            <Data name="RGBeltWaist" target="RGBelt" local="true">CT77Redguard.osd\RGBeltWaist</Data>
+            <Data name="RGShirtWaist" target="RGShirt" local="true">CT77Redguard.osd\RGShirtWaist</Data>
+            <Data name="RGSkirtWaist" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="RGBeltWideWaistLine" target="RGBelt" local="true">CT77Redguard.osd\RGBeltWideWaistLine</Data>
+            <Data name="RGShirtWideWaistLine" target="RGShirt" local="true">CT77Redguard.osd\RGShirtWideWaistLine</Data>
+            <Data name="RGSkirtWideWaistLine" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="RGBeltChubbyWaist" target="RGBelt" local="true">CT77Redguard.osd\RGBeltChubbyWaist</Data>
+            <Data name="RGShirtChubbyWaist" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyWaist</Data>
+            <Data name="RGSkirtChubbyWaist" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="RGBeltBelly" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBelly</Data>
+            <Data name="RGShirtBelly" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBelly</Data>
+            <Data name="RGSkirtBelly" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="RGBeltBigBelly" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBigBelly</Data>
+            <Data name="RGShirtBigBelly" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBigBelly</Data>
+            <Data name="RGSkirtBigBelly" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="RGBeltTummyTuck" target="RGBelt" local="true">CT77Redguard.osd\RGBeltTummyTuck</Data>
+            <Data name="RGBracersTummyTuck" target="RGBracers" local="true">CT77Redguard.osd\RGBracersTummyTuck</Data>
+            <Data name="RGShirtTummyTuck" target="RGShirt" local="true">CT77Redguard.osd\RGShirtTummyTuck</Data>
+            <Data name="RGSkirtTummyTuck" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="RGArmbandsBack" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBack</Data>
+            <Data name="RGBeltBack" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBack</Data>
+            <Data name="RGBracersBack" target="RGBracers" local="true">CT77Redguard.osd\RGBracersBack</Data>
+            <Data name="RGShirtBack" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBack</Data>
+            <Data name="RGSkirtBack" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="RGBeltHipbone" target="RGBelt" local="true">CT77Redguard.osd\RGBeltHipbone</Data>
+            <Data name="RGShirtHipbone" target="RGShirt" local="true">CT77Redguard.osd\RGShirtHipbone</Data>
+            <Data name="RGSkirtHipbone" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="RGBeltHips" target="RGBelt" local="true">CT77Redguard.osd\RGBeltHips</Data>
+            <Data name="RGLeggingsHips" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsHips</Data>
+            <Data name="RGShirtHips" target="RGShirt" local="true">CT77Redguard.osd\RGShirtHips</Data>
+            <Data name="RGSkirtHips" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="RGBeltButt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltButt</Data>
+            <Data name="RGBracersButt" target="RGBracers" local="true">CT77Redguard.osd\RGBracersButt</Data>
+            <Data name="RGLeggingsButt" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsButt</Data>
+            <Data name="RGShirtButt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtButt</Data>
+            <Data name="RGSkirtButt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="RGBeltButtSmall" target="RGBelt" local="true">CT77Redguard.osd\RGBeltButtSmall</Data>
+            <Data name="RGLeggingsButtSmall" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsButtSmall</Data>
+            <Data name="RGShirtButtSmall" target="RGShirt" local="true">CT77Redguard.osd\RGShirtButtSmall</Data>
+            <Data name="RGSkirtButtSmall" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="RGBeltButtShape2" target="RGBelt" local="true">CT77Redguard.osd\RGBeltButtShape2</Data>
+            <Data name="RGLeggingsButtShape2" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsButtShape2</Data>
+            <Data name="RGShirtButtShape2" target="RGShirt" local="true">CT77Redguard.osd\RGShirtButtShape2</Data>
+            <Data name="RGSkirtButtShape2" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="RGBeltBigButt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBigButt</Data>
+            <Data name="RGLeggingsBigButt" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsBigButt</Data>
+            <Data name="RGShirtBigButt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBigButt</Data>
+            <Data name="RGSkirtBigButt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="RGBeltChubbyButt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltChubbyButt</Data>
+            <Data name="RGLeggingsChubbyButt" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsChubbyButt</Data>
+            <Data name="RGShirtChubbyButt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyButt</Data>
+            <Data name="RGSkirtChubbyButt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="RGBeltAppleCheeks" target="RGBelt" local="true">CT77Redguard.osd\RGBeltAppleCheeks</Data>
+            <Data name="RGShirtAppleCheeks" target="RGShirt" local="true">CT77Redguard.osd\RGShirtAppleCheeks</Data>
+            <Data name="RGSkirtAppleCheeks" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="RGBeltRoundAss" target="RGBelt" local="true">CT77Redguard.osd\RGBeltRoundAss</Data>
+            <Data name="RGShirtRoundAss" target="RGShirt" local="true">CT77Redguard.osd\RGShirtRoundAss</Data>
+            <Data name="RGSkirtRoundAss" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="RGBeltSlimThighs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltSlimThighs</Data>
+            <Data name="RGLeggingsSlimThighs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsSlimThighs</Data>
+            <Data name="RGShirtSlimThighs" target="RGShirt" local="true">CT77Redguard.osd\RGShirtSlimThighs</Data>
+            <Data name="RGSkirtSlimThighs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="RGBeltThighs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltThighs</Data>
+            <Data name="RGLeggingsThighs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsThighs</Data>
+            <Data name="RGSkirtThighs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="RGBeltChubbyLegs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltChubbyLegs</Data>
+            <Data name="RGLeggingsChubbyLegs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsChubbyLegs</Data>
+            <Data name="RGShirtChubbyLegs" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyLegs</Data>
+            <Data name="RGSkirtChubbyLegs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="RGBeltLegs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltLegs</Data>
+            <Data name="RGLeggingsLegs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsLegs</Data>
+            <Data name="RGShirtLegs" target="RGShirt" local="true">CT77Redguard.osd\RGShirtLegs</Data>
+            <Data name="RGSkirtLegs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="RGBeltKneeHeight" target="RGBelt" local="true">CT77Redguard.osd\RGBeltKneeHeight</Data>
+            <Data name="RGLeggingsKneeHeight" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsKneeHeight</Data>
+            <Data name="RGSkirtKneeHeight" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="RGLeggingsCalfSize" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="RGLeggingsCalfSmooth" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="RGLeggingsAnkles" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="RGBracersSmallSeam" target="RGBracers" local="true">CT77Redguard.osd\RGBracersSmallSeam</Data>
+            <Data name="RGLeggingsSmallSeam" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsSmallSeam</Data>
+            <Data name="RGShirtSmallSeam" target="RGShirt" local="true">CT77Redguard.osd\RGShirtSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="RGShirtShoulderTweak" target="RGShirt" local="true">CT77Redguard.osd\RGShirtShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapShirt" invert="false" small="0" big="0" zap="true">
+            <Data name="RGShirtZapShirt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtZapShirt</Data>
+        </Slider>
+        <Slider name="ZapArmbands" invert="false" small="0" big="0" zap="true">
+            <Data name="RGArmbandsZapArmbands" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsZapArmbands</Data>
+        </Slider>
+        <Slider name="ZapBracers" invert="false" small="0" big="0" zap="true">
+            <Data name="RGBracersZapBracers" target="RGBracers" local="true">CT77Redguard.osd\RGBracersZapBracers</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="RGBeltZapBelt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="RGSkirtZapSkirt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="RGLeggingsZapLeggings" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Redguard DB">
+        <DataFolder>CT77Redguard</DataFolder>
+        <SourceFile>CT77RedguardDB.nif</SourceFile>
+        <OutputPath>meshes\clothes\redguard</OutputPath>
+        <OutputFile GenWeights="true">redguardoutfitdbf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="RGArmbands">RGArmbands</Shape>
+        <Shape target="RGBelt">RGBelt</Shape>
+        <Shape target="RGBracers">RGBracers</Shape>
+        <Shape target="RGLeggings">RGLeggings</Shape>
+        <Shape target="RGShirt">RGShirt</Shape>
+        <Shape target="RGSkirt">RGSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape" local="true">CT77Redguard.osd\Breasts1</Data>
+            <Data name="RGShirtBreasts" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="RGArmbandsBreastsSmall" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastsSmall</Data>
+            <Data name="RGBeltBreastsSmall" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastsSmall</Data>
+            <Data name="RGShirtBreastsSmall" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsSmall</Data>
+            <Data name="RGSkirtBreastsSmall" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="RGShirtBreastsSH" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="RGShirtBreastsSSH" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="RGArmbandsBreastsFantasy" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastsFantasy</Data>
+            <Data name="RGShirtBreastsFantasy" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="RGShirtDoubleMelon" target="RGShirt" local="true">CT77Redguard.osd\RGShirtDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="RGShirtBreastCleavage" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="RGArmbandsBreastFlatness" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastFlatness</Data>
+            <Data name="RGBeltBreastFlatness" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastFlatness</Data>
+            <Data name="RGShirtBreastFlatness" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="RGArmbandsBreastGravity" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastGravity</Data>
+            <Data name="RGShirtBreastGravity" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="RGArmbandsPushUp" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsPushUp</Data>
+            <Data name="RGShirtPushUp" target="RGShirt" local="true">CT77Redguard.osd\RGShirtPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="RGArmbandsBreastHeight" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastHeight</Data>
+            <Data name="RGBeltBreastHeight" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastHeight</Data>
+            <Data name="RGShirtBreastHeight" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastHeight</Data>
+            <Data name="RGSkirtBreastHeight" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="RGArmbandsBreastPerkiness" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastPerkiness</Data>
+            <Data name="RGShirtBreastPerkiness" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="RGArmbandsBreastWidth" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBreastWidth</Data>
+            <Data name="RGBeltBreastWidth" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBreastWidth</Data>
+            <Data name="RGShirtBreastWidth" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="RGShirtNippleDistance" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="RGShirtNipplePerkiness" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="RGShirtNippleLength" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="RGShirtNippleSize" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="RGShirtNippleAreola" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="RGShirtNippleUp" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="RGShirtNippleDown" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="RGShirtNippleTip" target="RGShirt" local="true">CT77Redguard.osd\RGShirtNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="RGArmbandsArms" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsArms</Data>
+            <Data name="RGBracersArms" target="RGBracers" local="true">CT77Redguard.osd\RGBracersArms</Data>
+            <Data name="RGShirtArms" target="RGShirt" local="true">CT77Redguard.osd\RGShirtArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="RGArmbandsChubbyArms" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsChubbyArms</Data>
+            <Data name="RGBracersChubbyArms" target="RGBracers" local="true">CT77Redguard.osd\RGBracersChubbyArms</Data>
+            <Data name="RGShirtChubbyArms" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="RGShirtShoulderSmooth" target="RGShirt" local="true">CT77Redguard.osd\RGShirtShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="RGArmbandsShoulderWidth" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsShoulderWidth</Data>
+            <Data name="RGBracersShoulderWidth" target="RGBracers" local="true">CT77Redguard.osd\RGBracersShoulderWidth</Data>
+            <Data name="RGShirtShoulderWidth" target="RGShirt" local="true">CT77Redguard.osd\RGShirtShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="RGArmbandsBigTorso" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBigTorso</Data>
+            <Data name="RGBeltBigTorso" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBigTorso</Data>
+            <Data name="RGBracersBigTorso" target="RGBracers" local="true">CT77Redguard.osd\RGBracersBigTorso</Data>
+            <Data name="RGShirtBigTorso" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBigTorso</Data>
+            <Data name="RGSkirtBigTorso" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="RGArmbandsWaist" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsWaist</Data>
+            <Data name="RGBeltWaist" target="RGBelt" local="true">CT77Redguard.osd\RGBeltWaist</Data>
+            <Data name="RGShirtWaist" target="RGShirt" local="true">CT77Redguard.osd\RGShirtWaist</Data>
+            <Data name="RGSkirtWaist" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="RGBeltWideWaistLine" target="RGBelt" local="true">CT77Redguard.osd\RGBeltWideWaistLine</Data>
+            <Data name="RGShirtWideWaistLine" target="RGShirt" local="true">CT77Redguard.osd\RGShirtWideWaistLine</Data>
+            <Data name="RGSkirtWideWaistLine" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="RGBeltChubbyWaist" target="RGBelt" local="true">CT77Redguard.osd\RGBeltChubbyWaist</Data>
+            <Data name="RGShirtChubbyWaist" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyWaist</Data>
+            <Data name="RGSkirtChubbyWaist" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="RGBeltBelly" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBelly</Data>
+            <Data name="RGShirtBelly" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBelly</Data>
+            <Data name="RGSkirtBelly" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="RGBeltBigBelly" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBigBelly</Data>
+            <Data name="RGShirtBigBelly" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBigBelly</Data>
+            <Data name="RGSkirtBigBelly" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="RGBeltTummyTuck" target="RGBelt" local="true">CT77Redguard.osd\RGBeltTummyTuck</Data>
+            <Data name="RGBracersTummyTuck" target="RGBracers" local="true">CT77Redguard.osd\RGBracersTummyTuck</Data>
+            <Data name="RGShirtTummyTuck" target="RGShirt" local="true">CT77Redguard.osd\RGShirtTummyTuck</Data>
+            <Data name="RGSkirtTummyTuck" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="RGArmbandsBack" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsBack</Data>
+            <Data name="RGBeltBack" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBack</Data>
+            <Data name="RGBracersBack" target="RGBracers" local="true">CT77Redguard.osd\RGBracersBack</Data>
+            <Data name="RGShirtBack" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBack</Data>
+            <Data name="RGSkirtBack" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="RGBeltHipbone" target="RGBelt" local="true">CT77Redguard.osd\RGBeltHipbone</Data>
+            <Data name="RGShirtHipbone" target="RGShirt" local="true">CT77Redguard.osd\RGShirtHipbone</Data>
+            <Data name="RGSkirtHipbone" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="RGBeltHips" target="RGBelt" local="true">CT77Redguard.osd\RGBeltHips</Data>
+            <Data name="RGLeggingsHips" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsHips</Data>
+            <Data name="RGShirtHips" target="RGShirt" local="true">CT77Redguard.osd\RGShirtHips</Data>
+            <Data name="RGSkirtHips" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="RGBeltButt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltButt</Data>
+            <Data name="RGBracersButt" target="RGBracers" local="true">CT77Redguard.osd\RGBracersButt</Data>
+            <Data name="RGLeggingsButt" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsButt</Data>
+            <Data name="RGShirtButt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtButt</Data>
+            <Data name="RGSkirtButt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="RGBeltButtSmall" target="RGBelt" local="true">CT77Redguard.osd\RGBeltButtSmall</Data>
+            <Data name="RGLeggingsButtSmall" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsButtSmall</Data>
+            <Data name="RGShirtButtSmall" target="RGShirt" local="true">CT77Redguard.osd\RGShirtButtSmall</Data>
+            <Data name="RGSkirtButtSmall" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="RGBeltButtShape2" target="RGBelt" local="true">CT77Redguard.osd\RGBeltButtShape2</Data>
+            <Data name="RGLeggingsButtShape2" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsButtShape2</Data>
+            <Data name="RGShirtButtShape2" target="RGShirt" local="true">CT77Redguard.osd\RGShirtButtShape2</Data>
+            <Data name="RGSkirtButtShape2" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="RGBeltBigButt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltBigButt</Data>
+            <Data name="RGLeggingsBigButt" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsBigButt</Data>
+            <Data name="RGShirtBigButt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtBigButt</Data>
+            <Data name="RGSkirtBigButt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="RGBeltChubbyButt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltChubbyButt</Data>
+            <Data name="RGLeggingsChubbyButt" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsChubbyButt</Data>
+            <Data name="RGShirtChubbyButt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyButt</Data>
+            <Data name="RGSkirtChubbyButt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="RGBeltAppleCheeks" target="RGBelt" local="true">CT77Redguard.osd\RGBeltAppleCheeks</Data>
+            <Data name="RGShirtAppleCheeks" target="RGShirt" local="true">CT77Redguard.osd\RGShirtAppleCheeks</Data>
+            <Data name="RGSkirtAppleCheeks" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="RGBeltRoundAss" target="RGBelt" local="true">CT77Redguard.osd\RGBeltRoundAss</Data>
+            <Data name="RGShirtRoundAss" target="RGShirt" local="true">CT77Redguard.osd\RGShirtRoundAss</Data>
+            <Data name="RGSkirtRoundAss" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="RGBeltSlimThighs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltSlimThighs</Data>
+            <Data name="RGLeggingsSlimThighs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsSlimThighs</Data>
+            <Data name="RGShirtSlimThighs" target="RGShirt" local="true">CT77Redguard.osd\RGShirtSlimThighs</Data>
+            <Data name="RGSkirtSlimThighs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+            <Data name="RGBeltThighs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltThighs</Data>
+            <Data name="RGLeggingsThighs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsThighs</Data>
+            <Data name="RGSkirtThighs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+            <Data name="RGBeltChubbyLegs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltChubbyLegs</Data>
+            <Data name="RGLeggingsChubbyLegs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsChubbyLegs</Data>
+            <Data name="RGShirtChubbyLegs" target="RGShirt" local="true">CT77Redguard.osd\RGShirtChubbyLegs</Data>
+            <Data name="RGSkirtChubbyLegs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+            <Data name="RGBeltLegs" target="RGBelt" local="true">CT77Redguard.osd\RGBeltLegs</Data>
+            <Data name="RGLeggingsLegs" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsLegs</Data>
+            <Data name="RGShirtLegs" target="RGShirt" local="true">CT77Redguard.osd\RGShirtLegs</Data>
+            <Data name="RGSkirtLegs" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="RGBeltKneeHeight" target="RGBelt" local="true">CT77Redguard.osd\RGBeltKneeHeight</Data>
+            <Data name="RGLeggingsKneeHeight" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsKneeHeight</Data>
+            <Data name="RGSkirtKneeHeight" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="RGLeggingsCalfSize" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="RGLeggingsCalfSmooth" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="RGLeggingsAnkles" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="RGBracersSmallSeam" target="RGBracers" local="true">CT77Redguard.osd\RGBracersSmallSeam</Data>
+            <Data name="RGLeggingsSmallSeam" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsSmallSeam</Data>
+            <Data name="RGShirtSmallSeam" target="RGShirt" local="true">CT77Redguard.osd\RGShirtSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="RGShirtShoulderTweak" target="RGShirt" local="true">CT77Redguard.osd\RGShirtShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapShirt" invert="false" small="0" big="0" zap="true">
+            <Data name="RGShirtZapShirt" target="RGShirt" local="true">CT77Redguard.osd\RGShirtZapShirt</Data>
+        </Slider>
+        <Slider name="ZapArmbands" invert="false" small="0" big="0" zap="true">
+            <Data name="RGArmbandsZapArmbands" target="RGArmbands" local="true">CT77Redguard.osd\RGArmbandsZapArmbands</Data>
+        </Slider>
+        <Slider name="ZapBracers" invert="false" small="0" big="0" zap="true">
+            <Data name="RGBracersZapBracers" target="RGBracers" local="true">CT77Redguard.osd\RGBracersZapBracers</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="RGBeltZapBelt" target="RGBelt" local="true">CT77Redguard.osd\RGBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="RGSkirtZapSkirt" target="RGSkirt" local="true">CT77Redguard.osd\RGSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="RGLeggingsZapLeggings" target="RGLeggings" local="true">CT77Redguard.osd\RGLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Redguard Boots">
+        <DataFolder>CT77Redguard</DataFolder>
+        <SourceFile>CT77RedguardBoots.nif</SourceFile>
+        <OutputPath>meshes\clothes\redguard</OutputPath>
+        <OutputFile GenWeights="true">redguardbootsf</OutputFile>
+        <Shape target="RGBoots">RGBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="RGBootsChubbyLegs" target="RGBoots" local="true">CT77RedguardBoots.osd\RGBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="RGBootsLegs" target="RGBoots" local="true">CT77RedguardBoots.osd\RGBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="RGBootsKneeHeight" target="RGBoots" local="true">CT77RedguardBoots.osd\RGBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="RGBootsCalfSize" target="RGBoots" local="true">CT77RedguardBoots.osd\RGBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="RGBootsCalfSmooth" target="RGBoots" local="true">CT77RedguardBoots.osd\RGBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="RGBootsAnkles" target="RGBoots" local="true">CT77RedguardBoots.osd\RGBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="RGBootsSmallSeam" target="RGBoots" local="true">CT77RedguardBoots.osd\RGBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Redguard Hood">
+        <DataFolder>CT77Redguard</DataFolder>
+        <SourceFile>CT77RedguardHood.nif</SourceFile>
+        <OutputPath>meshes\clothes\redguard</OutputPath>
+        <OutputFile GenWeights="true">redguardhoodf</OutputFile>
+        <Shape target="RedguardHood">RedguardHood</Shape>
+        <Shape target="RedguardHoodArg">RedguardHoodArg</Shape>
+        <Shape target="RedguardHoodKha">RedguardHoodKha</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="RedguardHoodBreasts" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreasts</Data>
+            <Data name="RedguardHoodArgBreasts" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreasts</Data>
+            <Data name="RedguardHoodKhaBreasts" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="RedguardHoodBreastsSmall" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSmall</Data>
+            <Data name="RedguardHoodArgBreastsSmall" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSmall</Data>
+            <Data name="RedguardHoodKhaBreastsSmall" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsSH" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSH</Data>
+            <Data name="RedguardHoodArgBreastsSH" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSH</Data>
+            <Data name="RedguardHoodKhaBreastsSH" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsSSH" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSSH</Data>
+            <Data name="RedguardHoodArgBreastsSSH" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSSH</Data>
+            <Data name="RedguardHoodKhaBreastsSSH" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsFantasy" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsFantasy</Data>
+            <Data name="RedguardHoodArgBreastsFantasy" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsFantasy</Data>
+            <Data name="RedguardHoodKhaBreastsFantasy" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="RedguardHoodDoubleMelon" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodDoubleMelon</Data>
+            <Data name="RedguardHoodArgDoubleMelon" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgDoubleMelon</Data>
+            <Data name="RedguardHoodKhaDoubleMelon" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastCleavage" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastCleavage</Data>
+            <Data name="RedguardHoodArgBreastCleavage" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastCleavage</Data>
+            <Data name="RedguardHoodKhaBreastCleavage" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastFlatness" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastFlatness</Data>
+            <Data name="RedguardHoodArgBreastFlatness" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastFlatness</Data>
+            <Data name="RedguardHoodKhaBreastFlatness" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastGravity" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastGravity</Data>
+            <Data name="RedguardHoodArgBreastGravity" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastGravity</Data>
+            <Data name="RedguardHoodKhaBreastGravity" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="RedguardHoodPushUp" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodPushUp</Data>
+            <Data name="RedguardHoodArgPushUp" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgPushUp</Data>
+            <Data name="RedguardHoodKhaPushUp" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastHeight" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastHeight</Data>
+            <Data name="RedguardHoodArgBreastHeight" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastHeight</Data>
+            <Data name="RedguardHoodKhaBreastHeight" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastPerkiness" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastPerkiness</Data>
+            <Data name="RedguardHoodArgBreastPerkiness" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastPerkiness</Data>
+            <Data name="RedguardHoodKhaBreastPerkiness" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastWidth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastWidth</Data>
+            <Data name="RedguardHoodArgBreastWidth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastWidth</Data>
+            <Data name="RedguardHoodKhaBreastWidth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="RedguardHoodArms" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodArms</Data>
+            <Data name="RedguardHoodArgArms" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgArms</Data>
+            <Data name="RedguardHoodKhaArms" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="RedguardHoodChubbyArms" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodChubbyArms</Data>
+            <Data name="RedguardHoodArgChubbyArms" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgChubbyArms</Data>
+            <Data name="RedguardHoodKhaChubbyArms" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="RedguardHoodShoulderSmooth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderSmooth</Data>
+            <Data name="RedguardHoodArgShoulderSmooth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderSmooth</Data>
+            <Data name="RedguardHoodKhaShoulderSmooth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="RedguardHoodShoulderWidth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderWidth</Data>
+            <Data name="RedguardHoodArgShoulderWidth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderWidth</Data>
+            <Data name="RedguardHoodKhaShoulderWidth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBigTorso" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBigTorso</Data>
+            <Data name="RedguardHoodArgBigTorso" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBigTorso</Data>
+            <Data name="RedguardHoodKhaBigTorso" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBigTorso</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBack" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBack</Data>
+            <Data name="RedguardHoodArgBack" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBack</Data>
+            <Data name="RedguardHoodKhaBack" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBack</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="RedguardHoodSmallSeam" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodSmallSeam</Data>
+            <Data name="RedguardHoodArgSmallSeam" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgSmallSeam</Data>
+            <Data name="RedguardHoodKhaSmallSeam" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="RedguardHoodShoulderTweak" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderTweak</Data>
+            <Data name="RedguardHoodArgShoulderTweak" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderTweak</Data>
+            <Data name="RedguardHoodKhaShoulderTweak" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapHoodArg" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="RedguardHoodArgZapHoodArg" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgZapHoodArg</Data>
+        </Slider>
+        <Slider name="ZapHoodKha" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="RedguardHoodKhaZapHoodKha" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaZapHoodKha</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Redguard Hood Arg">
+        <DataFolder>CT77Redguard</DataFolder>
+        <SourceFile>CT77RedguardHood.nif</SourceFile>
+        <OutputPath>meshes\clothes\redguard</OutputPath>
+        <OutputFile GenWeights="true">redguardhoodfarg</OutputFile>
+        <Shape target="RedguardHood">RedguardHood</Shape>
+        <Shape target="RedguardHoodArg">RedguardHoodArg</Shape>
+        <Shape target="RedguardHoodKha">RedguardHoodKha</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="RedguardHoodBreasts" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreasts</Data>
+            <Data name="RedguardHoodArgBreasts" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreasts</Data>
+            <Data name="RedguardHoodKhaBreasts" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="RedguardHoodBreastsSmall" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSmall</Data>
+            <Data name="RedguardHoodArgBreastsSmall" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSmall</Data>
+            <Data name="RedguardHoodKhaBreastsSmall" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsSH" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSH</Data>
+            <Data name="RedguardHoodArgBreastsSH" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSH</Data>
+            <Data name="RedguardHoodKhaBreastsSH" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsSSH" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSSH</Data>
+            <Data name="RedguardHoodArgBreastsSSH" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSSH</Data>
+            <Data name="RedguardHoodKhaBreastsSSH" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsFantasy" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsFantasy</Data>
+            <Data name="RedguardHoodArgBreastsFantasy" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsFantasy</Data>
+            <Data name="RedguardHoodKhaBreastsFantasy" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="RedguardHoodDoubleMelon" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodDoubleMelon</Data>
+            <Data name="RedguardHoodArgDoubleMelon" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgDoubleMelon</Data>
+            <Data name="RedguardHoodKhaDoubleMelon" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastCleavage" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastCleavage</Data>
+            <Data name="RedguardHoodArgBreastCleavage" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastCleavage</Data>
+            <Data name="RedguardHoodKhaBreastCleavage" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastFlatness" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastFlatness</Data>
+            <Data name="RedguardHoodArgBreastFlatness" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastFlatness</Data>
+            <Data name="RedguardHoodKhaBreastFlatness" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastGravity" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastGravity</Data>
+            <Data name="RedguardHoodArgBreastGravity" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastGravity</Data>
+            <Data name="RedguardHoodKhaBreastGravity" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="RedguardHoodPushUp" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodPushUp</Data>
+            <Data name="RedguardHoodArgPushUp" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgPushUp</Data>
+            <Data name="RedguardHoodKhaPushUp" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastHeight" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastHeight</Data>
+            <Data name="RedguardHoodArgBreastHeight" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastHeight</Data>
+            <Data name="RedguardHoodKhaBreastHeight" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastPerkiness" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastPerkiness</Data>
+            <Data name="RedguardHoodArgBreastPerkiness" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastPerkiness</Data>
+            <Data name="RedguardHoodKhaBreastPerkiness" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastWidth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastWidth</Data>
+            <Data name="RedguardHoodArgBreastWidth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastWidth</Data>
+            <Data name="RedguardHoodKhaBreastWidth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="RedguardHoodArms" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodArms</Data>
+            <Data name="RedguardHoodArgArms" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgArms</Data>
+            <Data name="RedguardHoodKhaArms" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="RedguardHoodChubbyArms" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodChubbyArms</Data>
+            <Data name="RedguardHoodArgChubbyArms" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgChubbyArms</Data>
+            <Data name="RedguardHoodKhaChubbyArms" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="RedguardHoodShoulderSmooth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderSmooth</Data>
+            <Data name="RedguardHoodArgShoulderSmooth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderSmooth</Data>
+            <Data name="RedguardHoodKhaShoulderSmooth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="RedguardHoodShoulderWidth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderWidth</Data>
+            <Data name="RedguardHoodArgShoulderWidth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderWidth</Data>
+            <Data name="RedguardHoodKhaShoulderWidth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBigTorso" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBigTorso</Data>
+            <Data name="RedguardHoodArgBigTorso" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBigTorso</Data>
+            <Data name="RedguardHoodKhaBigTorso" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBigTorso</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBack" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBack</Data>
+            <Data name="RedguardHoodArgBack" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBack</Data>
+            <Data name="RedguardHoodKhaBack" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBack</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="RedguardHoodSmallSeam" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodSmallSeam</Data>
+            <Data name="RedguardHoodArgSmallSeam" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgSmallSeam</Data>
+            <Data name="RedguardHoodKhaSmallSeam" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="RedguardHoodShoulderTweak" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderTweak</Data>
+            <Data name="RedguardHoodArgShoulderTweak" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderTweak</Data>
+            <Data name="RedguardHoodKhaShoulderTweak" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapHood" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="RedguardHoodZapHood" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodZapHood</Data>
+        </Slider>
+        <Slider name="ZapHoodKha" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="RedguardHoodKhaZapHoodKha" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaZapHoodKha</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Redguard Hood Kha">
+        <DataFolder>CT77Redguard</DataFolder>
+        <SourceFile>CT77RedguardHood.nif</SourceFile>
+        <OutputPath>meshes\clothes\redguard</OutputPath>
+        <OutputFile GenWeights="true">redguardhoodfkha</OutputFile>
+        <Shape target="RedguardHood">RedguardHood</Shape>
+        <Shape target="RedguardHoodArg">RedguardHoodArg</Shape>
+        <Shape target="RedguardHoodKha">RedguardHoodKha</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="RedguardHoodBreasts" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreasts</Data>
+            <Data name="RedguardHoodArgBreasts" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreasts</Data>
+            <Data name="RedguardHoodKhaBreasts" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="RedguardHoodBreastsSmall" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSmall</Data>
+            <Data name="RedguardHoodArgBreastsSmall" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSmall</Data>
+            <Data name="RedguardHoodKhaBreastsSmall" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsSH" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSH</Data>
+            <Data name="RedguardHoodArgBreastsSH" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSH</Data>
+            <Data name="RedguardHoodKhaBreastsSH" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsSSH" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsSSH</Data>
+            <Data name="RedguardHoodArgBreastsSSH" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsSSH</Data>
+            <Data name="RedguardHoodKhaBreastsSSH" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastsFantasy" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastsFantasy</Data>
+            <Data name="RedguardHoodArgBreastsFantasy" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastsFantasy</Data>
+            <Data name="RedguardHoodKhaBreastsFantasy" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="RedguardHoodDoubleMelon" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodDoubleMelon</Data>
+            <Data name="RedguardHoodArgDoubleMelon" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgDoubleMelon</Data>
+            <Data name="RedguardHoodKhaDoubleMelon" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastCleavage" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastCleavage</Data>
+            <Data name="RedguardHoodArgBreastCleavage" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastCleavage</Data>
+            <Data name="RedguardHoodKhaBreastCleavage" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastFlatness" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastFlatness</Data>
+            <Data name="RedguardHoodArgBreastFlatness" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastFlatness</Data>
+            <Data name="RedguardHoodKhaBreastFlatness" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastGravity" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastGravity</Data>
+            <Data name="RedguardHoodArgBreastGravity" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastGravity</Data>
+            <Data name="RedguardHoodKhaBreastGravity" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="RedguardHoodPushUp" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodPushUp</Data>
+            <Data name="RedguardHoodArgPushUp" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgPushUp</Data>
+            <Data name="RedguardHoodKhaPushUp" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastHeight" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastHeight</Data>
+            <Data name="RedguardHoodArgBreastHeight" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastHeight</Data>
+            <Data name="RedguardHoodKhaBreastHeight" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastPerkiness" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastPerkiness</Data>
+            <Data name="RedguardHoodArgBreastPerkiness" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastPerkiness</Data>
+            <Data name="RedguardHoodKhaBreastPerkiness" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBreastWidth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBreastWidth</Data>
+            <Data name="RedguardHoodArgBreastWidth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBreastWidth</Data>
+            <Data name="RedguardHoodKhaBreastWidth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="RedguardHoodArms" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodArms</Data>
+            <Data name="RedguardHoodArgArms" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgArms</Data>
+            <Data name="RedguardHoodKhaArms" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="RedguardHoodChubbyArms" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodChubbyArms</Data>
+            <Data name="RedguardHoodArgChubbyArms" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgChubbyArms</Data>
+            <Data name="RedguardHoodKhaChubbyArms" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="RedguardHoodShoulderSmooth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderSmooth</Data>
+            <Data name="RedguardHoodArgShoulderSmooth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderSmooth</Data>
+            <Data name="RedguardHoodKhaShoulderSmooth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="RedguardHoodShoulderWidth" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderWidth</Data>
+            <Data name="RedguardHoodArgShoulderWidth" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderWidth</Data>
+            <Data name="RedguardHoodKhaShoulderWidth" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBigTorso" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBigTorso</Data>
+            <Data name="RedguardHoodArgBigTorso" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBigTorso</Data>
+            <Data name="RedguardHoodKhaBigTorso" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBigTorso</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="RedguardHoodBack" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodBack</Data>
+            <Data name="RedguardHoodArgBack" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgBack</Data>
+            <Data name="RedguardHoodKhaBack" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaBack</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="RedguardHoodSmallSeam" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodSmallSeam</Data>
+            <Data name="RedguardHoodArgSmallSeam" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgSmallSeam</Data>
+            <Data name="RedguardHoodKhaSmallSeam" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="RedguardHoodShoulderTweak" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodShoulderTweak</Data>
+            <Data name="RedguardHoodArgShoulderTweak" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgShoulderTweak</Data>
+            <Data name="RedguardHoodKhaShoulderTweak" target="RedguardHoodKha" local="true">CT77RedguardHood.osd\RedguardHoodKhaShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapHood" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="RedguardHoodZapHood" target="RedguardHood" local="true">CT77RedguardHood.osd\RedguardHoodZapHood</Data>
+        </Slider>
+        <Slider name="ZapHoodArg" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="RedguardHoodArgZapHoodArg" target="RedguardHoodArg" local="true">CT77RedguardHood.osd\RedguardHoodArgZapHoodArg</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

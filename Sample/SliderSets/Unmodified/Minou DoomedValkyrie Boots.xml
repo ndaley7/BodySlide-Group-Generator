@@ -1,0 +1,2146 @@
+<SliderSetInfo>
+    <SliderSet name="Minou DoomedValkyrie Boots">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou DoomedValkyrie Boots Teal">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots Teal.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots Teal</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou DoomedValkyrie Boots Red">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots Red.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots Red</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou DoomedValkyrie Boots Purple">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots Purple.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots Purple</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou DoomedValkyrie Boots Pink">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots Pink.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots Pink</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou DoomedValkyrie Boots Orange">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots Orange.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots Orange</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou DoomedValkyrie Boots Green">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots Green.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots Green</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou DoomedValkyrie Boots Blue">
+        <SetFolder>Minou DoomedValkyrie Boots</SetFolder>
+        <SourceFile>Minou DoomedValkyrie Boots Blue.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Doomed Valkyrie</OutputPath>
+        <OutputFile>Minou DoomedValkyrie Boots Blue</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie">Doomed Valkyrie</BaseShapeName>
+        <BaseShapeName target="Doomed Valkyrie_1">Doomed Valkyrie_1</BaseShapeName>
+        <BaseShapeName target="HomunculusGirl_skel_002">HomunculusGirl_skel_002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleAreola" target="BaseShape_outfit" local="true">BaseShape_outfitNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="Doomed ValkyriePregnancyBelly" target="Doomed Valkyrie" local="true">Doomed ValkyriePregnancyBelly.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002PregnancyBelly" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+            <datafile name="Doomed ValkyrieHips" target="Doomed Valkyrie" local="true">Doomed ValkyrieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ButtSmall" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ButtSmall.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtSmall" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+            <datafile name="Doomed ValkyrieButtShape2" target="Doomed Valkyrie" local="true">Doomed ValkyrieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieBigButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyButt" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+            <datafile name="Doomed ValkyrieAppleCheeks" target="Doomed Valkyrie" local="true">Doomed ValkyrieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1SlimThighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1SlimThighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieSlimThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Thighs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Thighs.bsd</datafile>
+            <datafile name="Doomed ValkyrieThighs" target="Doomed Valkyrie" local="true">Doomed ValkyrieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1ChubbyLegs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1ChubbyLegs.bsd</datafile>
+            <datafile name="Doomed ValkyrieChubbyLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieChubbyLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002ChubbyLegs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Legs" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Legs.bsd</datafile>
+            <datafile name="Doomed ValkyrieLegs" target="Doomed Valkyrie" local="true">Doomed ValkyrieLegs.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Legs" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1KneeHeight" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1KneeHeight.bsd</datafile>
+            <datafile name="Doomed ValkyrieKneeHeight" target="Doomed Valkyrie" local="true">Doomed ValkyrieKneeHeight.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002KneeHeight" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSize" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSize.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSize" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSize.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSize" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1CalfSmooth" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1CalfSmooth.bsd</datafile>
+            <datafile name="Doomed ValkyrieCalfSmooth" target="Doomed Valkyrie" local="true">Doomed ValkyrieCalfSmooth.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002CalfSmooth" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="Doomed Valkyrie_1Ankles" target="Doomed Valkyrie_1" local="true">Doomed Valkyrie_1Ankles.bsd</datafile>
+            <datafile name="Doomed ValkyrieAnkles" target="Doomed Valkyrie" local="true">Doomed ValkyrieAnkles.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002Ankles" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="Doomed ValkyrieSmallSeam" target="Doomed Valkyrie" local="true">Doomed ValkyrieSmallSeam.bsd</datafile>
+            <datafile name="HomunculusGirl_skel_002SmallSeam" target="HomunculusGirl_skel_002" local="true">HomunculusGirl_skel_002SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

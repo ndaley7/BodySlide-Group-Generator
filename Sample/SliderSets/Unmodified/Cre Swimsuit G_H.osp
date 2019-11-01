@@ -1,0 +1,267 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Swimsuit G_H">
+        <DataFolder>Cre Swimsuit G_H</DataFolder>
+        <SourceFile>Cre Swimsuit G_H.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\Mizugi</OutputPath>
+        <OutputFile GenWeights="true">Swim_Suit_G_H</OutputFile>
+        <Shape target="0_Himo2">0_Himo2</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Bikini_himo">Bikini_himo</Shape>
+        <Shape target="Himo_Back">Himo_Back</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Bikini_himoBreasts" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="Bikini_himoBreastsSmall" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Bikini_himoBreastsSH" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Bikini_himoBreastsSSH" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Bikini_himoBreastsFantasy" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Bikini_himoDoubleMelon" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Bikini_himoBreastCleavage" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Bikini_himoBreastFlatness" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Bikini_himoBreastGravity" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Bikini_himoPushUp" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="0_Himo2BreastHeight" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2BreastHeight</Data>
+            <Data name="Himo_BackBreastHeight" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackBreastHeight</Data>
+            <Data name="Bikini_himoBreastHeight" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Bikini_himoBreastPerkiness" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Bikini_himoBreastWidth" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Bikini_himoNippleDistance" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Bikini_himoNipplePerkiness" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Bikini_himoNippleLength" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Bikini_himoNippleSize" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Bikini_himoNippleAreola" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Bikini_himoNippleUp" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Bikini_himoNippleDown" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Bikini_himoNippleTip" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Himo_BackArms" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackArms</Data>
+            <Data name="Bikini_himoArms" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Bikini_himoChubbyArms" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Bikini_himoShoulderSmooth" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Bikini_himoShoulderWidth" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="0_Himo2BigTorso" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2BigTorso</Data>
+            <Data name="Himo_BackBigTorso" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackBigTorso</Data>
+            <Data name="Bikini_himoBigTorso" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="0_Himo2Waist" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Waist</Data>
+            <Data name="Himo_BackWaist" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackWaist</Data>
+            <Data name="Bikini_himoWaist" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="0_Himo2WideWaistLine" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2WideWaistLine</Data>
+            <Data name="Himo_BackWideWaistLine" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackWideWaistLine</Data>
+            <Data name="Bikini_himoWideWaistLine" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="0_Himo2ChubbyWaist" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2ChubbyWaist</Data>
+            <Data name="Himo_BackChubbyWaist" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackChubbyWaist</Data>
+            <Data name="Bikini_himoChubbyWaist" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="0_Himo2Belly" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Belly</Data>
+            <Data name="Bikini_himoBelly" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="0_Himo2BigBelly" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2BigBelly</Data>
+            <Data name="Bikini_himoBigBelly" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="0_Himo2PregnancyBelly" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2PregnancyBelly</Data>
+            <Data name="Bikini_himoPregnancyBelly" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="0_Himo2TummyTuck" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2TummyTuck</Data>
+            <Data name="Bikini_himoTummyTuck" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="0_Himo2Back" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Back</Data>
+            <Data name="Himo_BackBack" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackBack</Data>
+            <Data name="Bikini_himoBack" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="0_Himo2Hipbone" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Hipbone</Data>
+            <Data name="Bikini_himoHipbone" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="0_Himo2Hips" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Hips</Data>
+            <Data name="Himo_BackHips" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackHips</Data>
+            <Data name="Bikini_himoHips" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="Bikini_himoButtCrack" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="0_Himo2Butt" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Butt</Data>
+            <Data name="Himo_BackButt" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackButt</Data>
+            <Data name="Bikini_himoButt" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="0_Himo2ButtSmall" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2ButtSmall</Data>
+            <Data name="Himo_BackButtSmall" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackButtSmall</Data>
+            <Data name="Bikini_himoButtSmall" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="0_Himo2ButtShape2" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2ButtShape2</Data>
+            <Data name="Himo_BackButtShape2" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackButtShape2</Data>
+            <Data name="Bikini_himoButtShape2" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="0_Himo2BigButt" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2BigButt</Data>
+            <Data name="Himo_BackBigButt" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackBigButt</Data>
+            <Data name="Bikini_himoBigButt" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="0_Himo2ChubbyButt" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2ChubbyButt</Data>
+            <Data name="Himo_BackChubbyButt" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackChubbyButt</Data>
+            <Data name="Bikini_himoChubbyButt" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="0_Himo2AppleCheeks" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2AppleCheeks</Data>
+            <Data name="Himo_BackAppleCheeks" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackAppleCheeks</Data>
+            <Data name="Bikini_himoAppleCheeks" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="0_Himo2RoundAss" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2RoundAss</Data>
+            <Data name="Bikini_himoRoundAss" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="Bikini_himoGroin" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="0_Himo2SlimThighs" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2SlimThighs</Data>
+            <Data name="Himo_BackSlimThighs" target="Himo_Back" local="true">Cre Swimsuit G_H.osd\Himo_BackSlimThighs</Data>
+            <Data name="Bikini_himoSlimThighs" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="0_Himo2Thighs" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Thighs</Data>
+            <Data name="Bikini_himoThighs" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="0_Himo2ChubbyLegs" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2ChubbyLegs</Data>
+            <Data name="Bikini_himoChubbyLegs" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="0_Himo2Legs" target="0_Himo2" local="true">Cre Swimsuit G_H.osd\0_Himo2Legs</Data>
+            <Data name="Bikini_himoLegs" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="Bikini_himoKneeHeight" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Bikini_himoSmallSeam" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Bikini_himoShoulderTweak" target="Bikini_himo" local="true">Cre Swimsuit G_H.osd\Bikini_himoShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

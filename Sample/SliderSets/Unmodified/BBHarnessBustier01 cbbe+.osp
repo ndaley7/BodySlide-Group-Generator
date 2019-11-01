@@ -1,0 +1,263 @@
+<SliderSetInfo version="1">
+    <SliderSet name="BBHarnessBustier01 cbbe+">
+        <DataFolder>Heretical Resources\BBHarnessBustier01 cbbe+</DataFolder>
+        <SourceFile>BBHarnessBustier01.nif</SourceFile>
+        <OutputPath>Meshes\HereticalResources\HR Armor\BreastBondage</OutputPath>
+        <OutputFile GenWeights="true">BBHarnessBustier01</OutputFile>
+        <Shape target="BaseShape A" DataFolder="Heretical Resources\BBIron01 cbbe Adjust A BBv2">BaseShape A</Shape>
+        <Shape target="BreastChain">BreastChain</Shape>
+        <Shape target="BreastConnect">BreastConnect</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="BaseShape ABreasts" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreasts</Data>
+            <Data name="BreastConnectBreasts" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreasts</Data>
+            <Data name="BreastChainBreasts" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BaseShape ABreastsSmall" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastsSmall</Data>
+            <Data name="BreastConnectBreastsSmall" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastsSmall</Data>
+            <Data name="BreastChainBreastsSmall" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastsSH" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastsSH</Data>
+            <Data name="BreastConnectBreastsSH" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastsSH</Data>
+            <Data name="BreastChainBreastsSH" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastsSSH" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastsSSH</Data>
+            <Data name="BreastConnectBreastsSSH" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastsSSH</Data>
+            <Data name="BreastChainBreastsSSH" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastsFantasy" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastsFantasy</Data>
+            <Data name="BreastConnectBreastsFantasy" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastsFantasy</Data>
+            <Data name="BreastChainBreastsFantasy" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShape ADoubleMelon" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ADoubleMelon</Data>
+            <Data name="BreastConnectDoubleMelon" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectDoubleMelon</Data>
+            <Data name="BreastChainDoubleMelon" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastCleavage" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastCleavage</Data>
+            <Data name="BreastChainBreastCleavage" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastFlatness" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastFlatness</Data>
+            <Data name="BreastConnectBreastFlatness" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastFlatness</Data>
+            <Data name="BreastChainBreastFlatness" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastGravity" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastGravity</Data>
+            <Data name="BreastConnectBreastGravity" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastGravity</Data>
+            <Data name="BreastChainBreastGravity" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShape APushUp" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape APushUp</Data>
+            <Data name="BreastConnectPushUp" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectPushUp</Data>
+            <Data name="BreastChainPushUp" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastHeight" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastHeight</Data>
+            <Data name="BreastConnectBreastHeight" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastHeight</Data>
+            <Data name="BreastChainBreastHeight" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastPerkiness" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastPerkiness</Data>
+            <Data name="BreastConnectBreastPerkiness" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastPerkiness</Data>
+            <Data name="BreastChainBreastPerkiness" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastWidth" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABreastWidth</Data>
+            <Data name="BreastConnectBreastWidth" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBreastWidth</Data>
+            <Data name="BreastChainBreastWidth" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="BaseShape ANippleDistance" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleDistance</Data>
+            <Data name="BreastChainNippleDistance" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShape ANipplePerkiness" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANipplePerkiness</Data>
+            <Data name="BreastChainNipplePerkiness" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleLength" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleLength</Data>
+            <Data name="BreastChainNippleLength" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="BaseShape ANippleSize" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleSize</Data>
+            <Data name="BreastChainNippleSize" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleAreola" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleAreola</Data>
+            <Data name="BreastConnectNippleAreola" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectNippleAreola</Data>
+            <Data name="BreastChainNippleAreola" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleUp" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleUp</Data>
+            <Data name="BreastConnectNippleUp" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectNippleUp</Data>
+            <Data name="BreastChainNippleUp" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleDown" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleDown</Data>
+            <Data name="BreastChainNippleDown" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleTip" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleTip</Data>
+            <Data name="BreastChainNippleTip" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BaseShape AArms" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AArms</Data>
+            <Data name="BreastChainArms" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyArms" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AChubbyArms</Data>
+            <Data name="BreastConnectChubbyArms" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectChubbyArms</Data>
+            <Data name="BreastChainChubbyArms" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShape AShoulderSmooth" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AShoulderSmooth</Data>
+            <Data name="BreastChainShoulderSmooth" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BaseShape AShoulderWidth" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AShoulderWidth</Data>
+            <Data name="BreastConnectShoulderWidth" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectShoulderWidth</Data>
+            <Data name="BreastChainShoulderWidth" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShape ABigTorso" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABigTorso</Data>
+            <Data name="BreastConnectBigTorso" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBigTorso</Data>
+            <Data name="BreastChainBigTorso" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="BaseShape AWaist" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AWaist</Data>
+            <Data name="BreastConnectWaist" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectWaist</Data>
+            <Data name="BreastChainWaist" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShape AWideWaistLine" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AWideWaistLine</Data>
+            <Data name="BreastConnectWideWaistLine" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectWideWaistLine</Data>
+            <Data name="BreastChainWideWaistLine" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyWaist" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AChubbyWaist</Data>
+            <Data name="BreastConnectChubbyWaist" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectChubbyWaist</Data>
+            <Data name="BreastChainChubbyWaist" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShape ABelly" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABelly</Data>
+            <Data name="BreastChainBelly" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShape ABigBelly" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABigBelly</Data>
+            <Data name="BreastChainBigBelly" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShape APregnancyBelly" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape APregnancyBelly</Data>
+            <Data name="BreastConnectPregnancyBelly" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectPregnancyBelly</Data>
+            <Data name="BreastChainPregnancyBelly" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShape ATummyTuck" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ATummyTuck</Data>
+            <Data name="BreastChainTummyTuck" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShape ABack" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABack</Data>
+            <Data name="BreastConnectBack" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectBack</Data>
+            <Data name="BreastChainBack" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="BaseShape AHipbone" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AHipbone</Data>
+            <Data name="BreastChainHipbone" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShape AHips" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AHips</Data>
+            <Data name="BreastChainHips" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="BaseShape AButtCrack" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AButtCrack</Data>
+            <Data name="BreastChainButtCrack" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BaseShape AButt" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AButt</Data>
+            <Data name="BreastChainButt" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BaseShape AButtSmall" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AButtSmall</Data>
+            <Data name="BreastChainButtSmall" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShape AButtShape2" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AButtShape2</Data>
+            <Data name="BreastChainButtShape2" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShape ABigButt" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABigButt</Data>
+            <Data name="BreastChainBigButt" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyButt" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AChubbyButt</Data>
+            <Data name="BreastConnectChubbyButt" target="BreastConnect" local="true">BBHarnessBustier01.osd\BreastConnectChubbyButt</Data>
+            <Data name="BreastChainChubbyButt" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShape AAppleCheeks" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AAppleCheeks</Data>
+            <Data name="BreastChainAppleCheeks" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShape ARoundAss" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ARoundAss</Data>
+            <Data name="BreastChainRoundAss" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShape AGroin" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AGroin</Data>
+            <Data name="BreastChainGroin" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShape ASlimThighs" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ASlimThighs</Data>
+            <Data name="BreastChainSlimThighs" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShape AThighs" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AThighs</Data>
+            <Data name="BreastChainThighs" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyLegs" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AChubbyLegs</Data>
+            <Data name="BreastChainChubbyLegs" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BaseShape ALegs" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ALegs</Data>
+            <Data name="BreastChainLegs" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShape AKneeHeight" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AKneeHeight</Data>
+            <Data name="BreastChainKneeHeight" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShape ACalfSize" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ACalfSize</Data>
+            <Data name="BreastChainCalfSize" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShape ACalfSmooth" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ACalfSmooth</Data>
+            <Data name="BreastChainCalfSmooth" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="BaseShape AAnkles" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShape ASmallSeam" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ASmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="BaseShape AShoulderTweak" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape AShoulderTweak</Data>
+            <Data name="BreastChainShoulderTweak" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainShoulderTweak</Data>
+        </Slider>
+        <Slider name="BB Breasts" invert="false" small="100" big="100" hidden="true">
+            <Data name="BaseShape ABB Breasts" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ABB Breasts</Data>
+        </Slider>
+        <Slider name="NippleDefinition" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleDefinition" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANippleDefinition</Data>
+            <Data name="BreastChainNippleDefinition" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNippleDefinition</Data>
+        </Slider>
+        <Slider name="NipplePuffiness" invert="false" small="0" big="0">
+            <Data name="BaseShape ANipplePuffiness" target="BaseShape A" local="true">BBHarnessBustier01.osd\BaseShape ANipplePuffiness</Data>
+            <Data name="BreastChainNipplePuffiness" target="BreastChain" local="true">BBHarnessBustier01.osd\BreastChainNipplePuffiness</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

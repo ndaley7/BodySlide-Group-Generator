@@ -1,0 +1,226 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Summer Bikini 2">
+        <DataFolder>Summer Bikini 2</DataFolder>
+        <SourceFile>Summer Bikini 2.nif</SourceFile>
+        <OutputPath>meshes\Summer Bikini</OutputPath>
+        <OutputFile GenWeights="true">Bikini2</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Suit17">Suit17</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Suit17Breasts" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="Suit17BreastsSmall" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Suit17BreastsSH" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Suit17BreastsSSH" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Suit17BreastsFantasy" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Suit17DoubleMelon" target="Suit17" local="true">Summer Bikini 2.osd\Suit17DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Suit17BreastCleavage" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Suit17BreastFlatness" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Suit17BreastGravity" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Suit17PushUp" target="Suit17" local="true">Summer Bikini 2.osd\Suit17PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="Suit17BreastHeight" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Suit17BreastPerkiness" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Suit17BreastWidth" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Suit17NippleDistance" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Suit17NipplePerkiness" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Suit17NippleLength" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Suit17NippleSize" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Suit17NippleAreola" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Suit17NippleUp" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Suit17NippleDown" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Suit17NippleTip" target="Suit17" local="true">Summer Bikini 2.osd\Suit17NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Suit17Arms" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Suit17ChubbyArms" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Suit17ShoulderSmooth" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Suit17ShoulderWidth" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="Suit17BigTorso" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="Suit17Waist" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="Suit17WideWaistLine" target="Suit17" local="true">Summer Bikini 2.osd\Suit17WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="Suit17ChubbyWaist" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="Suit17Belly" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="Suit17BigBelly" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="Suit17PregnancyBelly" target="Suit17" local="true">Summer Bikini 2.osd\Suit17PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="Suit17TummyTuck" target="Suit17" local="true">Summer Bikini 2.osd\Suit17TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="Suit17Back" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="Suit17Hipbone" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="Suit17Hips" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="Suit17ButtCrack" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="Suit17Butt" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="Suit17ButtSmall" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="Suit17ButtShape2" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="Suit17BigButt" target="Suit17" local="true">Summer Bikini 2.osd\Suit17BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="Suit17ChubbyButt" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="Suit17AppleCheeks" target="Suit17" local="true">Summer Bikini 2.osd\Suit17AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="Suit17RoundAss" target="Suit17" local="true">Summer Bikini 2.osd\Suit17RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="Suit17Groin" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="Suit17SlimThighs" target="Suit17" local="true">Summer Bikini 2.osd\Suit17SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Suit17Thighs" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Suit17ChubbyLegs" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Suit17Legs" target="Suit17" local="true">Summer Bikini 2.osd\Suit17Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Suit17SmallSeam" target="Suit17" local="true">Summer Bikini 2.osd\Suit17SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Suit17ShoulderTweak" target="Suit17" local="true">Summer Bikini 2.osd\Suit17ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

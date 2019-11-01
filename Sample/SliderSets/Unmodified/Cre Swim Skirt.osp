@@ -1,0 +1,90 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Swim Skirt">
+        <DataFolder>Cre Swim Skirt</DataFolder>
+        <SourceFile>Cre Swim Skirt.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\Mizugi</OutputPath>
+        <OutputFile GenWeights="true">Skirt</OutputFile>
+        <Shape target="Skirt">Skirt</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="SkirtBreastsSmall" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="SkirtBreastHeight" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SkirtBigTorso" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="SkirtWaist" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="SkirtWideWaistLine" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="SkirtChubbyWaist" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="SkirtBelly" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="SkirtBigBelly" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="SkirtPregnancyBelly" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="SkirtTummyTuck" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="SkirtBack" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="SkirtHipbone" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="SkirtHips" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="SkirtButtCrack" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="SkirtButt" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="SkirtButtSmall" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="SkirtButtShape2" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="SkirtBigButt" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="SkirtChubbyButt" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="SkirtAppleCheeks" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="SkirtRoundAss" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="SkirtGroin" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SkirtSlimThighs" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="SkirtThighs" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SkirtChubbyLegs" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SkirtLegs" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SkirtKneeHeight" target="Skirt" local="true">Cre Swim Skirt.osd\SkirtKneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

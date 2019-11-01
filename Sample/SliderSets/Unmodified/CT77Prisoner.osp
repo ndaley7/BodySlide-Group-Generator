@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Prisoner">
+        <DataFolder>CT77Prisoner</DataFolder>
+        <SourceFile>CT77Prisoner.nif</SourceFile>
+        <OutputPath>meshes\clothes\prisoner</OutputPath>
+        <OutputFile GenWeights="true">prisonerclothes_f</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="PrisonerChest">PrisonerChest</Shape>
+        <Shape target="PrisonerLeggings">PrisonerLeggings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="PrisonerChestBreasts" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="PrisonerChestBreastsSmall" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="PrisonerChestBreastsSH" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="PrisonerChestBreastsSSH" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="PrisonerChestBreastsFantasy" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="PrisonerChestDoubleMelon" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="PrisonerChestBreastCleavage" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="PrisonerChestBreastFlatness" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="PrisonerChestBreastGravity" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="PrisonerChestPushUp" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="PrisonerChestBreastHeight" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="PrisonerChestBreastPerkiness" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="PrisonerChestBreastWidth" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="PrisonerChestNippleDistance" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="PrisonerChestNipplePerkiness" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="PrisonerChestNippleLength" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="PrisonerChestNippleSize" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="PrisonerChestNippleAreola" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="PrisonerChestNippleUp" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="PrisonerChestNippleDown" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="PrisonerChestNippleTip" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="PrisonerChestArms" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="PrisonerChestChubbyArms" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="PrisonerChestShoulderSmooth" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="PrisonerChestShoulderWidth" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="PrisonerChestBigTorso" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="PrisonerChestWaist" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="PrisonerChestWideWaistLine" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="PrisonerChestChubbyWaist" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="PrisonerChestBelly" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="PrisonerChestBigBelly" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="PrisonerChestTummyTuck" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="PrisonerChestBack" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="PrisonerChestHipbone" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="PrisonerChestHips" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestHips</Data>
+            <Data name="PrisonerLeggingsHips" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="PrisonerChestButt" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestButt</Data>
+            <Data name="PrisonerLeggingsButt" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="PrisonerChestButtSmall" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestButtSmall</Data>
+            <Data name="PrisonerLeggingsButtSmall" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="PrisonerChestButtShape2" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestButtShape2</Data>
+            <Data name="PrisonerLeggingsButtShape2" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="PrisonerChestBigButt" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBigButt</Data>
+            <Data name="PrisonerLeggingsBigButt" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="PrisonerChestChubbyButt" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyButt</Data>
+            <Data name="PrisonerLeggingsChubbyButt" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="PrisonerChestAppleCheeks" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="PrisonerChestRoundAss" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="PrisonerChestSlimThighs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestSlimThighs</Data>
+            <Data name="PrisonerLeggingsSlimThighs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PrisonerChestThighs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestThighs</Data>
+            <Data name="PrisonerLeggingsThighs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PrisonerChestChubbyLegs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyLegs</Data>
+            <Data name="PrisonerLeggingsChubbyLegs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PrisonerChestLegs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestLegs</Data>
+            <Data name="PrisonerLeggingsLegs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="PrisonerChestKneeHeight" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestKneeHeight</Data>
+            <Data name="PrisonerLeggingsKneeHeight" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="PrisonerLeggingsCalfSize" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="PrisonerLeggingsCalfSmooth" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="PrisonerLeggingsAnkles" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="PrisonerChestSmallSeam" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestSmallSeam</Data>
+            <Data name="PrisonerLeggingsSmallSeam" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="PrisonerChestShoulderTweak" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="PrisonerChestZapChest" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="PrisonerLeggingsZapLeggings" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Prisoner Footwraps">
+        <DataFolder>CT77Prisoner</DataFolder>
+        <SourceFile>CT77PrisonerFootwraps.nif</SourceFile>
+        <OutputPath>meshes\clothes\prisoner</OutputPath>
+        <OutputFile GenWeights="true">prisonershoes_f</OutputFile>
+        <Shape target="Feet">Feet</Shape>
+        <Shape target="PrisonerShoes">PrisonerShoes</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesChubbyLegs" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="FeetLegs" target="Feet" local="true">CT77PrisonerFootwraps.osd\FeetLegs</Data>
+            <Data name="PrisonerShoesLegs" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesKneeHeight" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesCalfSize" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesCalfSmooth" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FeetAnkles" target="Feet" local="true">CT77PrisonerFootwraps.osd\FeetAnkles</Data>
+            <Data name="PrisonerShoesAnkles" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FeetSmallSeam" target="Feet" local="true">CT77PrisonerFootwraps.osd\FeetSmallSeam</Data>
+            <Data name="PrisonerShoesSmallSeam" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Prisoner Cuffs">
+        <DataFolder>CT77Prisoner</DataFolder>
+        <SourceFile>CT77PrisonerCuffs.nif</SourceFile>
+        <OutputPath>meshes\clothes\prisoner</OutputPath>
+        <OutputFile GenWeights="true">prisonercuffsf</OutputFile>
+        <Shape target="Hands" DataFolder="CT77Shared">Hands</Shape>
+        <Shape target="PrisonerCuffs">PrisonerCuffs</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="PrisonerCuffsArms" target="PrisonerCuffs" local="true">CT77PrisonerCuffs.osd\PrisonerCuffsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="PrisonerCuffsChubbyArms" target="PrisonerCuffs" local="true">CT77PrisonerCuffs.osd\PrisonerCuffsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="PrisonerCuffsShoulderWidth" target="PrisonerCuffs" local="true">CT77PrisonerCuffs.osd\PrisonerCuffsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="PrisonerCuffsBigTorso" target="PrisonerCuffs" local="true">CT77PrisonerCuffs.osd\PrisonerCuffsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="HandsSmallSeam" target="Hands">CT77Shared.osd\HandsSmallSeam</Data>
+            <Data name="PrisonerCuffsSmallSeam" target="PrisonerCuffs" local="true">CT77PrisonerCuffs.osd\PrisonerCuffsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Prisoner Bloody">
+        <DataFolder>CT77Prisoner</DataFolder>
+        <SourceFile>CT77PrisonerBloody.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\prisoner</OutputPath>
+        <OutputFile GenWeights="true">prisonerclothesbloody_f</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="PrisonerChest">PrisonerChest</Shape>
+        <Shape target="PrisonerLeggings">PrisonerLeggings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="PrisonerChestBreasts" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="PrisonerChestBreastsSmall" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="PrisonerChestBreastsSH" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="PrisonerChestBreastsSSH" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="PrisonerChestBreastsFantasy" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="PrisonerChestDoubleMelon" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="PrisonerChestBreastCleavage" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="PrisonerChestBreastFlatness" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="PrisonerChestBreastGravity" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="PrisonerChestPushUp" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="PrisonerChestBreastHeight" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="PrisonerChestBreastPerkiness" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="PrisonerChestBreastWidth" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="PrisonerChestNippleDistance" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="PrisonerChestNipplePerkiness" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="PrisonerChestNippleLength" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="PrisonerChestNippleSize" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="PrisonerChestNippleAreola" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="PrisonerChestNippleUp" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="PrisonerChestNippleDown" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="PrisonerChestNippleTip" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="PrisonerChestArms" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="PrisonerChestChubbyArms" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="PrisonerChestShoulderSmooth" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="PrisonerChestShoulderWidth" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="PrisonerChestBigTorso" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="PrisonerChestWaist" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="PrisonerChestWideWaistLine" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="PrisonerChestChubbyWaist" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="PrisonerChestBelly" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="PrisonerChestBigBelly" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="PrisonerChestTummyTuck" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="PrisonerChestBack" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="PrisonerChestHipbone" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="PrisonerChestHips" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestHips</Data>
+            <Data name="PrisonerLeggingsHips" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="PrisonerChestButt" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestButt</Data>
+            <Data name="PrisonerLeggingsButt" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="PrisonerChestButtSmall" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestButtSmall</Data>
+            <Data name="PrisonerLeggingsButtSmall" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="PrisonerChestButtShape2" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestButtShape2</Data>
+            <Data name="PrisonerLeggingsButtShape2" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="PrisonerChestBigButt" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestBigButt</Data>
+            <Data name="PrisonerLeggingsBigButt" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="PrisonerChestChubbyButt" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyButt</Data>
+            <Data name="PrisonerLeggingsChubbyButt" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="PrisonerChestAppleCheeks" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="PrisonerChestRoundAss" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="PrisonerChestSlimThighs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestSlimThighs</Data>
+            <Data name="PrisonerLeggingsSlimThighs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+            <Data name="PrisonerChestThighs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestThighs</Data>
+            <Data name="PrisonerLeggingsThighs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+            <Data name="PrisonerChestChubbyLegs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestChubbyLegs</Data>
+            <Data name="PrisonerLeggingsChubbyLegs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+            <Data name="PrisonerChestLegs" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestLegs</Data>
+            <Data name="PrisonerLeggingsLegs" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="PrisonerChestKneeHeight" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestKneeHeight</Data>
+            <Data name="PrisonerLeggingsKneeHeight" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="PrisonerLeggingsCalfSize" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="PrisonerLeggingsCalfSmooth" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="PrisonerLeggingsAnkles" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="PrisonerChestSmallSeam" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestSmallSeam</Data>
+            <Data name="PrisonerLeggingsSmallSeam" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="PrisonerChestShoulderTweak" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="PrisonerChestZapChest" target="PrisonerChest" local="true">CT77Prisoner.osd\PrisonerChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="PrisonerLeggingsZapLeggings" target="PrisonerLeggings" local="true">CT77Prisoner.osd\PrisonerLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Prisoner Footwraps Bloody">
+        <DataFolder>CT77Prisoner</DataFolder>
+        <SourceFile>CT77PrisonerFootwrapsBloody.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\prisoner</OutputPath>
+        <OutputFile GenWeights="true">prisonershoesbloody_f</OutputFile>
+        <Shape target="Feet">Feet</Shape>
+        <Shape target="PrisonerShoes">PrisonerShoes</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesChubbyLegs" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="FeetLegs" target="Feet" local="true">CT77PrisonerFootwraps.osd\FeetLegs</Data>
+            <Data name="PrisonerShoesLegs" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesKneeHeight" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesCalfSize" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="PrisonerShoesCalfSmooth" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FeetAnkles" target="Feet" local="true">CT77PrisonerFootwraps.osd\FeetAnkles</Data>
+            <Data name="PrisonerShoesAnkles" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FeetSmallSeam" target="Feet" local="true">CT77PrisonerFootwraps.osd\FeetSmallSeam</Data>
+            <Data name="PrisonerShoesSmallSeam" target="PrisonerShoes" local="true">CT77PrisonerFootwraps.osd\PrisonerShoesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

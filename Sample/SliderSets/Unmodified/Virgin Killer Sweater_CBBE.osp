@@ -1,0 +1,227 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Virgin Killer Sweater_CBBE">
+        <DataFolder>Virgin Killer Sweater_CBBE</DataFolder>
+        <SourceFile>Virgin Killer Sweater_CBBE.nif</SourceFile>
+        <OutputPath>meshes\xemos</OutputPath>
+        <OutputFile GenWeights="true">killver-ex</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="NPC L UpperarmTwist2 [LUt2]_1">NPC L UpperarmTwist2 [LUt2]_1</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Breasts" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastsSmall" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastsSH" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastsSSH" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastsFantasy" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1DoubleMelon" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastCleavage" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastFlatness" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastGravity" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1PushUp" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastHeight" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastPerkiness" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BreastWidth" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NippleDistance" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NipplePerkiness" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NippleLength" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NippleSize" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NippleAreola" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NippleUp" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NippleDown" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1NippleTip" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Arms" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ChubbyArms" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ShoulderSmooth" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ShoulderWidth" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BigTorso" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Waist" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1WideWaistLine" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ChubbyWaist" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Belly" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BigBelly" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1PregnancyBelly" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1TummyTuck" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Back" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Hipbone" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Hips" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ButtCrack" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Butt" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ButtSmall" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ButtShape2" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1BigButt" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ChubbyButt" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1AppleCheeks" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1RoundAss" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Groin" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1SlimThighs" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Thighs" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ChubbyLegs" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1Legs" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1KneeHeight" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1SmallSeam" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="NPC L UpperarmTwist2 [LUt2]_1ShoulderTweak" target="NPC L UpperarmTwist2 [LUt2]_1" local="true">Virgin Killer Sweater_CBBE.osd\NPC L UpperarmTwist2 [LUt2]_1ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

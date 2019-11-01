@@ -1,0 +1,42 @@
+<SliderSetInfo>
+    <SliderSet name="Female Farmer Boots">
+        <SetFolder>FemaleFarmerBoots</SetFolder>
+        <SourceFile>FemaleFarmerBoots.nif</SourceFile>
+        <OutputPath>meshes\clothes\farmclothes03</OutputPath>
+        <OutputFile>farmershoesf</OutputFile>
+        <BaseShapeName target="boots_1">boots_1</BaseShapeName>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="boots_1PregnancyBelly" target="boots_1" local="true">boots_1PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="boots_1ButtSmall" target="boots_1" local="true">boots_1ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="boots_1SlimThighs" target="boots_1" local="true">boots_1SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="boots_1Thighs" target="boots_1" local="true">boots_1Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="boots_1ChubbyLegs" target="boots_1" local="true">boots_1ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="boots_1Legs" target="boots_1" local="true">boots_1Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="boots_1KneeHeight" target="boots_1" local="true">boots_1KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="boots_1CalfSize" target="boots_1" local="true">boots_1CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="boots_1CalfSmooth" target="boots_1" local="true">boots_1CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="boots_1Ankles" target="boots_1" local="true">boots_1Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="boots_1SmallSeam" target="boots_1" local="true">boots_1SmallSeam.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

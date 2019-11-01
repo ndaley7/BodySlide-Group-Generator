@@ -1,0 +1,379 @@
+<SliderSetInfo>
+    <SliderSet name="Satan Maid Dress HDT">
+        <SetFolder>SatanDress</SetFolder>
+        <SourceFile>SatanDress.nif</SourceFile>
+        <OutputPath>meshes\armor\satan</OutputPath>
+        <OutputFile>Satan_Dress</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="collar">collar</BaseShapeName>
+        <BaseShapeName target="cuffs">cuffs</BaseShapeName>
+        <BaseShapeName target="hearts">hearts</BaseShapeName>
+        <BaseShapeName target="pin">pin</BaseShapeName>
+        <BaseShapeName target="sleeves">sleeves</BaseShapeName>
+        <BaseShapeName target="stockings">stockings</BaseShapeName>
+        <BaseShapeName target="top">top</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="stockingsBreasts" target="stockings" local="true">stockingsBreasts.bsd</datafile>
+            <datafile name="topBreasts" target="top" local="true">topBreasts.bsd</datafile>
+            <datafile name="collarBreasts" target="collar" local="true">collarBreasts.bsd</datafile>
+            <datafile name="heartsBreasts" target="hearts" local="true">heartsBreasts.bsd</datafile>
+            <datafile name="sleevesBreasts" target="sleeves" local="true">sleevesBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="stockingsBreastsSmall" target="stockings" local="true">stockingsBreastsSmall.bsd</datafile>
+            <datafile name="topBreastsSmall" target="top" local="true">topBreastsSmall.bsd</datafile>
+            <datafile name="collarBreastsSmall" target="collar" local="true">collarBreastsSmall.bsd</datafile>
+            <datafile name="heartsBreastsSmall" target="hearts" local="true">heartsBreastsSmall.bsd</datafile>
+            <datafile name="sleevesBreastsSmall" target="sleeves" local="true">sleevesBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="stockingsBreastsSH" target="stockings" local="true">stockingsBreastsSH.bsd</datafile>
+            <datafile name="topBreastsSH" target="top" local="true">topBreastsSH.bsd</datafile>
+            <datafile name="collarBreastsSH" target="collar" local="true">collarBreastsSH.bsd</datafile>
+            <datafile name="heartsBreastsSH" target="hearts" local="true">heartsBreastsSH.bsd</datafile>
+            <datafile name="sleevesBreastsSH" target="sleeves" local="true">sleevesBreastsSH.bsd</datafile>
+            <datafile name="pinBreastsSH" target="pin" local="true">pinBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="stockingsBreastsSSH" target="stockings" local="true">stockingsBreastsSSH.bsd</datafile>
+            <datafile name="topBreastsSSH" target="top" local="true">topBreastsSSH.bsd</datafile>
+            <datafile name="collarBreastsSSH" target="collar" local="true">collarBreastsSSH.bsd</datafile>
+            <datafile name="heartsBreastsSSH" target="hearts" local="true">heartsBreastsSSH.bsd</datafile>
+            <datafile name="sleevesBreastsSSH" target="sleeves" local="true">sleevesBreastsSSH.bsd</datafile>
+            <datafile name="pinBreastsSSH" target="pin" local="true">pinBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="stockingsBreastsFantasy" target="stockings" local="true">stockingsBreastsFantasy.bsd</datafile>
+            <datafile name="topBreastsFantasy" target="top" local="true">topBreastsFantasy.bsd</datafile>
+            <datafile name="collarBreastsFantasy" target="collar" local="true">collarBreastsFantasy.bsd</datafile>
+            <datafile name="heartsBreastsFantasy" target="hearts" local="true">heartsBreastsFantasy.bsd</datafile>
+            <datafile name="sleevesBreastsFantasy" target="sleeves" local="true">sleevesBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="stockingsDoubleMelon" target="stockings" local="true">stockingsDoubleMelon.bsd</datafile>
+            <datafile name="topDoubleMelon" target="top" local="true">topDoubleMelon.bsd</datafile>
+            <datafile name="collarDoubleMelon" target="collar" local="true">collarDoubleMelon.bsd</datafile>
+            <datafile name="heartsDoubleMelon" target="hearts" local="true">heartsDoubleMelon.bsd</datafile>
+            <datafile name="sleevesDoubleMelon" target="sleeves" local="true">sleevesDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="stockingsBreastCleavage" target="stockings" local="true">stockingsBreastCleavage.bsd</datafile>
+            <datafile name="topBreastCleavage" target="top" local="true">topBreastCleavage.bsd</datafile>
+            <datafile name="heartsBreastCleavage" target="hearts" local="true">heartsBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="stockingsBreastFlatness" target="stockings" local="true">stockingsBreastFlatness.bsd</datafile>
+            <datafile name="topBreastFlatness" target="top" local="true">topBreastFlatness.bsd</datafile>
+            <datafile name="collarBreastFlatness" target="collar" local="true">collarBreastFlatness.bsd</datafile>
+            <datafile name="heartsBreastFlatness" target="hearts" local="true">heartsBreastFlatness.bsd</datafile>
+            <datafile name="sleevesBreastFlatness" target="sleeves" local="true">sleevesBreastFlatness.bsd</datafile>
+            <datafile name="pinBreastFlatness" target="pin" local="true">pinBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="stockingsBreastGravity" target="stockings" local="true">stockingsBreastGravity.bsd</datafile>
+            <datafile name="topBreastGravity" target="top" local="true">topBreastGravity.bsd</datafile>
+            <datafile name="collarBreastGravity" target="collar" local="true">collarBreastGravity.bsd</datafile>
+            <datafile name="heartsBreastGravity" target="hearts" local="true">heartsBreastGravity.bsd</datafile>
+            <datafile name="sleevesBreastGravity" target="sleeves" local="true">sleevesBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="stockingsPushUp" target="stockings" local="true">stockingsPushUp.bsd</datafile>
+            <datafile name="topPushUp" target="top" local="true">topPushUp.bsd</datafile>
+            <datafile name="collarPushUp" target="collar" local="true">collarPushUp.bsd</datafile>
+            <datafile name="heartsPushUp" target="hearts" local="true">heartsPushUp.bsd</datafile>
+            <datafile name="sleevesPushUp" target="sleeves" local="true">sleevesPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="stockingsBreastHeight" target="stockings" local="true">stockingsBreastHeight.bsd</datafile>
+            <datafile name="topBreastHeight" target="top" local="true">topBreastHeight.bsd</datafile>
+            <datafile name="collarBreastHeight" target="collar" local="true">collarBreastHeight.bsd</datafile>
+            <datafile name="heartsBreastHeight" target="hearts" local="true">heartsBreastHeight.bsd</datafile>
+            <datafile name="sleevesBreastHeight" target="sleeves" local="true">sleevesBreastHeight.bsd</datafile>
+            <datafile name="pinBreastHeight" target="pin" local="true">pinBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="stockingsBreastPerkiness" target="stockings" local="true">stockingsBreastPerkiness.bsd</datafile>
+            <datafile name="topBreastPerkiness" target="top" local="true">topBreastPerkiness.bsd</datafile>
+            <datafile name="heartsBreastPerkiness" target="hearts" local="true">heartsBreastPerkiness.bsd</datafile>
+            <datafile name="sleevesBreastPerkiness" target="sleeves" local="true">sleevesBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="stockingsBreastWidth" target="stockings" local="true">stockingsBreastWidth.bsd</datafile>
+            <datafile name="topBreastWidth" target="top" local="true">topBreastWidth.bsd</datafile>
+            <datafile name="collarBreastWidth" target="collar" local="true">collarBreastWidth.bsd</datafile>
+            <datafile name="heartsBreastWidth" target="hearts" local="true">heartsBreastWidth.bsd</datafile>
+            <datafile name="sleevesBreastWidth" target="sleeves" local="true">sleevesBreastWidth.bsd</datafile>
+            <datafile name="pinBreastWidth" target="pin" local="true">pinBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="stockingsNippleDistance" target="stockings" local="true">stockingsNippleDistance.bsd</datafile>
+            <datafile name="heartsNippleDistance" target="hearts" local="true">heartsNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="heartsNipplePerkiness" target="hearts" local="true">heartsNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="stockingsNippleLength" target="stockings" local="true">stockingsNippleLength.bsd</datafile>
+            <datafile name="topNippleLength" target="top" local="true">topNippleLength.bsd</datafile>
+            <datafile name="collarNippleLength" target="collar" local="true">collarNippleLength.bsd</datafile>
+            <datafile name="heartsNippleLength" target="hearts" local="true">heartsNippleLength.bsd</datafile>
+            <datafile name="sleevesNippleLength" target="sleeves" local="true">sleevesNippleLength.bsd</datafile>
+            <datafile name="pinNippleLength" target="pin" local="true">pinNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="heartsNippleSize" target="hearts" local="true">heartsNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="stockingsNippleAreola" target="stockings" local="true">stockingsNippleAreola.bsd</datafile>
+            <datafile name="topNippleAreola" target="top" local="true">topNippleAreola.bsd</datafile>
+            <datafile name="heartsNippleAreola" target="hearts" local="true">heartsNippleAreola.bsd</datafile>
+            <datafile name="sleevesNippleAreola" target="sleeves" local="true">sleevesNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="stockingsNippleUp" target="stockings" local="true">stockingsNippleUp.bsd</datafile>
+            <datafile name="topNippleUp" target="top" local="true">topNippleUp.bsd</datafile>
+            <datafile name="heartsNippleUp" target="hearts" local="true">heartsNippleUp.bsd</datafile>
+            <datafile name="sleevesNippleUp" target="sleeves" local="true">sleevesNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="stockingsNippleDown" target="stockings" local="true">stockingsNippleDown.bsd</datafile>
+            <datafile name="topNippleDown" target="top" local="true">topNippleDown.bsd</datafile>
+            <datafile name="heartsNippleDown" target="hearts" local="true">heartsNippleDown.bsd</datafile>
+            <datafile name="sleevesNippleDown" target="sleeves" local="true">sleevesNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="heartsNippleTip" target="hearts" local="true">heartsNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="stockingsArms" target="stockings" local="true">stockingsArms.bsd</datafile>
+            <datafile name="topArms" target="top" local="true">topArms.bsd</datafile>
+            <datafile name="collarArms" target="collar" local="true">collarArms.bsd</datafile>
+            <datafile name="heartsArms" target="hearts" local="true">heartsArms.bsd</datafile>
+            <datafile name="cuffsArms" target="cuffs" local="true">cuffsArms.bsd</datafile>
+            <datafile name="sleevesArms" target="sleeves" local="true">sleevesArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="stockingsChubbyArms" target="stockings" local="true">stockingsChubbyArms.bsd</datafile>
+            <datafile name="topChubbyArms" target="top" local="true">topChubbyArms.bsd</datafile>
+            <datafile name="collarChubbyArms" target="collar" local="true">collarChubbyArms.bsd</datafile>
+            <datafile name="heartsChubbyArms" target="hearts" local="true">heartsChubbyArms.bsd</datafile>
+            <datafile name="cuffsChubbyArms" target="cuffs" local="true">cuffsChubbyArms.bsd</datafile>
+            <datafile name="sleevesChubbyArms" target="sleeves" local="true">sleevesChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="stockingsShoulderSmooth" target="stockings" local="true">stockingsShoulderSmooth.bsd</datafile>
+            <datafile name="topShoulderSmooth" target="top" local="true">topShoulderSmooth.bsd</datafile>
+            <datafile name="collarShoulderSmooth" target="collar" local="true">collarShoulderSmooth.bsd</datafile>
+            <datafile name="sleevesShoulderSmooth" target="sleeves" local="true">sleevesShoulderSmooth.bsd</datafile>
+            <datafile name="pinShoulderSmooth" target="pin" local="true">pinShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="stockingsShoulderWidth" target="stockings" local="true">stockingsShoulderWidth.bsd</datafile>
+            <datafile name="topShoulderWidth" target="top" local="true">topShoulderWidth.bsd</datafile>
+            <datafile name="collarShoulderWidth" target="collar" local="true">collarShoulderWidth.bsd</datafile>
+            <datafile name="heartsShoulderWidth" target="hearts" local="true">heartsShoulderWidth.bsd</datafile>
+            <datafile name="cuffsShoulderWidth" target="cuffs" local="true">cuffsShoulderWidth.bsd</datafile>
+            <datafile name="sleevesShoulderWidth" target="sleeves" local="true">sleevesShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="stockingsBigTorso" target="stockings" local="true">stockingsBigTorso.bsd</datafile>
+            <datafile name="topBigTorso" target="top" local="true">topBigTorso.bsd</datafile>
+            <datafile name="collarBigTorso" target="collar" local="true">collarBigTorso.bsd</datafile>
+            <datafile name="heartsBigTorso" target="hearts" local="true">heartsBigTorso.bsd</datafile>
+            <datafile name="cuffsBigTorso" target="cuffs" local="true">cuffsBigTorso.bsd</datafile>
+            <datafile name="sleevesBigTorso" target="sleeves" local="true">sleevesBigTorso.bsd</datafile>
+            <datafile name="pinBigTorso" target="pin" local="true">pinBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="stockingsWaist" target="stockings" local="true">stockingsWaist.bsd</datafile>
+            <datafile name="topWaist" target="top" local="true">topWaist.bsd</datafile>
+            <datafile name="sleevesWaist" target="sleeves" local="true">sleevesWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="stockingsWideWaistLine" target="stockings" local="true">stockingsWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="stockingsChubbyWaist" target="stockings" local="true">stockingsChubbyWaist.bsd</datafile>
+            <datafile name="topChubbyWaist" target="top" local="true">topChubbyWaist.bsd</datafile>
+            <datafile name="sleevesChubbyWaist" target="sleeves" local="true">sleevesChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="stockingsBelly" target="stockings" local="true">stockingsBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="stockingsBigBelly" target="stockings" local="true">stockingsBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="stockingsPregnancyBelly" target="stockings" local="true">stockingsPregnancyBelly.bsd</datafile>
+            <datafile name="topPregnancyBelly" target="top" local="true">topPregnancyBelly.bsd</datafile>
+            <datafile name="collarPregnancyBelly" target="collar" local="true">collarPregnancyBelly.bsd</datafile>
+            <datafile name="heartsPregnancyBelly" target="hearts" local="true">heartsPregnancyBelly.bsd</datafile>
+            <datafile name="sleevesPregnancyBelly" target="sleeves" local="true">sleevesPregnancyBelly.bsd</datafile>
+            <datafile name="pinPregnancyBelly" target="pin" local="true">pinPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="stockingsTummyTuck" target="stockings" local="true">stockingsTummyTuck.bsd</datafile>
+            <datafile name="heartsTummyTuck" target="hearts" local="true">heartsTummyTuck.bsd</datafile>
+            <datafile name="cuffsTummyTuck" target="cuffs" local="true">cuffsTummyTuck.bsd</datafile>
+            <datafile name="sleevesTummyTuck" target="sleeves" local="true">sleevesTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="stockingsBack" target="stockings" local="true">stockingsBack.bsd</datafile>
+            <datafile name="topBack" target="top" local="true">topBack.bsd</datafile>
+            <datafile name="collarBack" target="collar" local="true">collarBack.bsd</datafile>
+            <datafile name="sleevesBack" target="sleeves" local="true">sleevesBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="stockingsHipbone" target="stockings" local="true">stockingsHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="stockingsHips" target="stockings" local="true">stockingsHips.bsd</datafile>
+            <datafile name="heartsHips" target="hearts" local="true">heartsHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="stockingsButtCrack" target="stockings" local="true">stockingsButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="stockingsButt" target="stockings" local="true">stockingsButt.bsd</datafile>
+            <datafile name="heartsButt" target="hearts" local="true">heartsButt.bsd</datafile>
+            <datafile name="cuffsButt" target="cuffs" local="true">cuffsButt.bsd</datafile>
+            <datafile name="sleevesButt" target="sleeves" local="true">sleevesButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="stockingsButtSmall" target="stockings" local="true">stockingsButtSmall.bsd</datafile>
+            <datafile name="heartsButtSmall" target="hearts" local="true">heartsButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="stockingsButtShape2" target="stockings" local="true">stockingsButtShape2.bsd</datafile>
+            <datafile name="heartsButtShape2" target="hearts" local="true">heartsButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="stockingsBigButt" target="stockings" local="true">stockingsBigButt.bsd</datafile>
+            <datafile name="heartsBigButt" target="hearts" local="true">heartsBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="stockingsChubbyButt" target="stockings" local="true">stockingsChubbyButt.bsd</datafile>
+            <datafile name="topChubbyButt" target="top" local="true">topChubbyButt.bsd</datafile>
+            <datafile name="heartsChubbyButt" target="hearts" local="true">heartsChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="stockingsAppleCheeks" target="stockings" local="true">stockingsAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="stockingsRoundAss" target="stockings" local="true">stockingsRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="stockingsGroin" target="stockings" local="true">stockingsGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="stockingsSlimThighs" target="stockings" local="true">stockingsSlimThighs.bsd</datafile>
+            <datafile name="heartsSlimThighs" target="hearts" local="true">heartsSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="stockingsThighs" target="stockings" local="true">stockingsThighs.bsd</datafile>
+            <datafile name="heartsThighs" target="hearts" local="true">heartsThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="stockingsChubbyLegs" target="stockings" local="true">stockingsChubbyLegs.bsd</datafile>
+            <datafile name="heartsChubbyLegs" target="hearts" local="true">heartsChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="stockingsLegs" target="stockings" local="true">stockingsLegs.bsd</datafile>
+            <datafile name="heartsLegs" target="hearts" local="true">heartsLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="stockingsKneeHeight" target="stockings" local="true">stockingsKneeHeight.bsd</datafile>
+            <datafile name="heartsKneeHeight" target="hearts" local="true">heartsKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="stockingsCalfSize" target="stockings" local="true">stockingsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="stockingsCalfSmooth" target="stockings" local="true">stockingsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="stockingsAnkles" target="stockings" local="true">stockingsAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="stockingsSmallSeam" target="stockings" local="true">stockingsSmallSeam.bsd</datafile>
+            <datafile name="topSmallSeam" target="top" local="true">topSmallSeam.bsd</datafile>
+            <datafile name="collarSmallSeam" target="collar" local="true">collarSmallSeam.bsd</datafile>
+            <datafile name="heartsSmallSeam" target="hearts" local="true">heartsSmallSeam.bsd</datafile>
+            <datafile name="cuffsSmallSeam" target="cuffs" local="true">cuffsSmallSeam.bsd</datafile>
+            <datafile name="sleevesSmallSeam" target="sleeves" local="true">sleevesSmallSeam.bsd</datafile>
+            <datafile name="pinSmallSeam" target="pin" local="true">pinSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="topShoulderTweak" target="top" local="true">topShoulderTweak.bsd</datafile>
+            <datafile name="collarShoulderTweak" target="collar" local="true">collarShoulderTweak.bsd</datafile>
+            <datafile name="sleevesShoulderTweak" target="sleeves" local="true">sleevesShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="(Zap) Heart Tassles" invert="false" small="0" big="0" zap="true">
+            <datafile name="hearts(Zap) Heart Tassles" target="hearts" local="true">hearts(Zap) Heart Tassles.bsd</datafile>
+        </Slider>
+        <Slider name="(Zap) Groin Part" invert="false" small="0" big="0" zap="true">
+            <datafile name="stockings(Zap) Groin Part" target="stockings" local="true">stockings(Zap) Groin Part.bsd</datafile>
+        </Slider>
+        <Slider name="(Zap) Bodice" invert="false" small="0" big="0" zap="true">
+            <datafile name="stockings(Zap) Bodice" target="stockings" local="true">stockings(Zap) Bodice.bsd</datafile>
+        </Slider>
+        <Slider name="ZapLimbs" invert="false" small="100" big="100" hidden="true" zap="true">
+            <datafile name="BaseShapeZapLimbs" target="BaseShape" local="true">BaseShapeZapLimbs.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Draugr">
+        <DataFolder>CT77Draugr</DataFolder>
+        <SourceFile>CT77Draugr.nif</SourceFile>
+        <OutputPath>meshes\armor\draugr</OutputPath>
+        <OutputFile GenWeights="true">draugrarmorfemale</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="DraugrArmbands">DraugrArmbands</Shape>
+        <Shape target="DraugrBeltArmor">DraugrBeltArmor</Shape>
+        <Shape target="DraugrChest">DraugrChest</Shape>
+        <Shape target="DraugrChestBands">DraugrChestBands</Shape>
+        <Shape target="DraugrHipArmor">DraugrHipArmor</Shape>
+        <Shape target="DraugrLeggings">DraugrLeggings</Shape>
+        <Shape target="DraugrPauldrons">DraugrPauldrons</Shape>
+        <Shape target="DraugrSkirt">DraugrSkirt</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="DraugrChestBreasts" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreasts</Data>
+            <Data name="DraugrChestBandsBreasts" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreasts</Data>
+            <Data name="DraugrPauldronsBreasts" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="DraugrBeltArmorBreastsSmall" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBreastsSmall</Data>
+            <Data name="DraugrChestBreastsSmall" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastsSmall</Data>
+            <Data name="DraugrChestBandsBreastsSmall" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastsSmall</Data>
+            <Data name="DraugrPauldronsBreastsSmall" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastsSmall</Data>
+            <Data name="DraugrSkirtBreastsSmall" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="DraugrChestBreastsSH" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastsSH</Data>
+            <Data name="DraugrChestBandsBreastsSH" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastsSH</Data>
+            <Data name="DraugrPauldronsBreastsSH" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="DraugrChestBreastsSSH" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastsSSH</Data>
+            <Data name="DraugrChestBandsBreastsSSH" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastsSSH</Data>
+            <Data name="DraugrPauldronsBreastsSSH" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="DraugrArmbandsBreastsFantasy" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBreastsFantasy</Data>
+            <Data name="DraugrChestBreastsFantasy" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastsFantasy</Data>
+            <Data name="DraugrChestBandsBreastsFantasy" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastsFantasy</Data>
+            <Data name="DraugrPauldronsBreastsFantasy" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="DraugrChestDoubleMelon" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestDoubleMelon</Data>
+            <Data name="DraugrChestBandsDoubleMelon" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsDoubleMelon</Data>
+            <Data name="DraugrPauldronsDoubleMelon" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="DraugrChestBreastCleavage" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastCleavage</Data>
+            <Data name="DraugrChestBandsBreastCleavage" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastCleavage</Data>
+            <Data name="DraugrPauldronsBreastCleavage" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="DraugrArmbandsBreastFlatness" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBreastFlatness</Data>
+            <Data name="DraugrBeltArmorBreastFlatness" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBreastFlatness</Data>
+            <Data name="DraugrChestBreastFlatness" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastFlatness</Data>
+            <Data name="DraugrChestBandsBreastFlatness" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastFlatness</Data>
+            <Data name="DraugrPauldronsBreastFlatness" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastFlatness</Data>
+            <Data name="DraugrSkirtBreastFlatness" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="DraugrArmbandsBreastGravity" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBreastGravity</Data>
+            <Data name="DraugrChestBreastGravity" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastGravity</Data>
+            <Data name="DraugrChestBandsBreastGravity" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastGravity</Data>
+            <Data name="DraugrPauldronsBreastGravity" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="DraugrArmbandsPushUp" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsPushUp</Data>
+            <Data name="DraugrChestPushUp" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestPushUp</Data>
+            <Data name="DraugrChestBandsPushUp" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsPushUp</Data>
+            <Data name="DraugrPauldronsPushUp" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="DraugrArmbandsBreastHeight" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBreastHeight</Data>
+            <Data name="DraugrBeltArmorBreastHeight" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBreastHeight</Data>
+            <Data name="DraugrChestBreastHeight" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastHeight</Data>
+            <Data name="DraugrChestBandsBreastHeight" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastHeight</Data>
+            <Data name="DraugrHipArmorBreastHeight" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorBreastHeight</Data>
+            <Data name="DraugrPauldronsBreastHeight" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastHeight</Data>
+            <Data name="DraugrSkirtBreastHeight" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="DraugrArmbandsBreastPerkiness" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBreastPerkiness</Data>
+            <Data name="DraugrChestBreastPerkiness" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastPerkiness</Data>
+            <Data name="DraugrChestBandsBreastPerkiness" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastPerkiness</Data>
+            <Data name="DraugrPauldronsBreastPerkiness" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="DraugrArmbandsBreastWidth" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBreastWidth</Data>
+            <Data name="DraugrBeltArmorBreastWidth" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBreastWidth</Data>
+            <Data name="DraugrChestBreastWidth" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBreastWidth</Data>
+            <Data name="DraugrChestBandsBreastWidth" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBreastWidth</Data>
+            <Data name="DraugrPauldronsBreastWidth" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBreastWidth</Data>
+            <Data name="DraugrSkirtBreastWidth" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="DraugrChestNippleDistance" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="DraugrChestNipplePerkiness" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="DraugrChestNippleLength" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="DraugrChestNippleSize" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="DraugrChestNippleAreola" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="DraugrChestNippleUp" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="DraugrChestNippleDown" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="DraugrChestNippleTip" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="DraugrArmbandsArms" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsArms</Data>
+            <Data name="DraugrChestArms" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestArms</Data>
+            <Data name="DraugrChestBandsArms" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsArms</Data>
+            <Data name="DraugrPauldronsArms" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="DraugrArmbandsChubbyArms" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsChubbyArms</Data>
+            <Data name="DraugrChestChubbyArms" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestChubbyArms</Data>
+            <Data name="DraugrPauldronsChubbyArms" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="DraugrChestShoulderSmooth" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestShoulderSmooth</Data>
+            <Data name="DraugrChestBandsShoulderSmooth" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsShoulderSmooth</Data>
+            <Data name="DraugrPauldronsShoulderSmooth" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="DraugrArmbandsShoulderWidth" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsShoulderWidth</Data>
+            <Data name="DraugrChestShoulderWidth" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestShoulderWidth</Data>
+            <Data name="DraugrChestBandsShoulderWidth" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsShoulderWidth</Data>
+            <Data name="DraugrPauldronsShoulderWidth" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="DraugrArmbandsBigTorso" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBigTorso</Data>
+            <Data name="DraugrBeltArmorBigTorso" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBigTorso</Data>
+            <Data name="DraugrChestBigTorso" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBigTorso</Data>
+            <Data name="DraugrChestBandsBigTorso" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsBigTorso</Data>
+            <Data name="DraugrHipArmorBigTorso" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorBigTorso</Data>
+            <Data name="DraugrPauldronsBigTorso" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBigTorso</Data>
+            <Data name="DraugrSkirtBigTorso" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="DraugrArmbandsWaist" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsWaist</Data>
+            <Data name="DraugrBeltArmorWaist" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorWaist</Data>
+            <Data name="DraugrChestWaist" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestWaist</Data>
+            <Data name="DraugrHipArmorWaist" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorWaist</Data>
+            <Data name="DraugrSkirtWaist" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="DraugrChestWideWaistLine" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestWideWaistLine</Data>
+            <Data name="DraugrHipArmorWideWaistLine" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorWideWaistLine</Data>
+            <Data name="DraugrSkirtWideWaistLine" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="DraugrBeltArmorChubbyWaist" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorChubbyWaist</Data>
+            <Data name="DraugrChestChubbyWaist" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestChubbyWaist</Data>
+            <Data name="DraugrHipArmorChubbyWaist" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorChubbyWaist</Data>
+            <Data name="DraugrSkirtChubbyWaist" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="DraugrBeltArmorBelly" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBelly</Data>
+            <Data name="DraugrChestBelly" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBelly</Data>
+            <Data name="DraugrHipArmorBelly" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorBelly</Data>
+            <Data name="DraugrSkirtBelly" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="DraugrBeltArmorBigBelly" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBigBelly</Data>
+            <Data name="DraugrChestBigBelly" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBigBelly</Data>
+            <Data name="DraugrHipArmorBigBelly" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorBigBelly</Data>
+            <Data name="DraugrSkirtBigBelly" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="DraugrBeltArmorTummyTuck" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorTummyTuck</Data>
+            <Data name="DraugrChestTummyTuck" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestTummyTuck</Data>
+            <Data name="DraugrHipArmorTummyTuck" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorTummyTuck</Data>
+            <Data name="DraugrSkirtTummyTuck" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="DraugrArmbandsBack" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsBack</Data>
+            <Data name="DraugrBeltArmorBack" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBack</Data>
+            <Data name="DraugrChestBack" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBack</Data>
+            <Data name="DraugrHipArmorBack" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorBack</Data>
+            <Data name="DraugrPauldronsBack" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsBack</Data>
+            <Data name="DraugrSkirtBack" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="DraugrBeltArmorHipbone" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorHipbone</Data>
+            <Data name="DraugrChestHipbone" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestHipbone</Data>
+            <Data name="DraugrHipArmorHipbone" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorHipbone</Data>
+            <Data name="DraugrSkirtHipbone" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="DraugrBeltArmorHips" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorHips</Data>
+            <Data name="DraugrChestHips" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestHips</Data>
+            <Data name="DraugrHipArmorHips" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorHips</Data>
+            <Data name="DraugrSkirtHips" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="DraugrArmbandsButt" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsButt</Data>
+            <Data name="DraugrChestButt" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestButt</Data>
+            <Data name="DraugrHipArmorButt" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorButt</Data>
+            <Data name="DraugrLeggingsButt" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsButt</Data>
+            <Data name="DraugrSkirtButt" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="DraugrBeltArmorButtSmall" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorButtSmall</Data>
+            <Data name="DraugrChestButtSmall" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestButtSmall</Data>
+            <Data name="DraugrHipArmorButtSmall" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorButtSmall</Data>
+            <Data name="DraugrLeggingsButtSmall" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsButtSmall</Data>
+            <Data name="DraugrSkirtButtSmall" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="DraugrBeltArmorButtShape2" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorButtShape2</Data>
+            <Data name="DraugrChestButtShape2" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestButtShape2</Data>
+            <Data name="DraugrHipArmorButtShape2" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorButtShape2</Data>
+            <Data name="DraugrSkirtButtShape2" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="DraugrBeltArmorBigButt" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorBigButt</Data>
+            <Data name="DraugrChestBigButt" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestBigButt</Data>
+            <Data name="DraugrHipArmorBigButt" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorBigButt</Data>
+            <Data name="DraugrLeggingsBigButt" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsBigButt</Data>
+            <Data name="DraugrSkirtBigButt" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="DraugrBeltArmorChubbyButt" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorChubbyButt</Data>
+            <Data name="DraugrChestChubbyButt" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestChubbyButt</Data>
+            <Data name="DraugrHipArmorChubbyButt" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorChubbyButt</Data>
+            <Data name="DraugrLeggingsChubbyButt" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsChubbyButt</Data>
+            <Data name="DraugrSkirtChubbyButt" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="DraugrChestAppleCheeks" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestAppleCheeks</Data>
+            <Data name="DraugrHipArmorAppleCheeks" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorAppleCheeks</Data>
+            <Data name="DraugrSkirtAppleCheeks" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="DraugrChestRoundAss" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestRoundAss</Data>
+            <Data name="DraugrHipArmorRoundAss" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorRoundAss</Data>
+            <Data name="DraugrSkirtRoundAss" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="DraugrBeltArmorSlimThighs" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorSlimThighs</Data>
+            <Data name="DraugrChestSlimThighs" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestSlimThighs</Data>
+            <Data name="DraugrHipArmorSlimThighs" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorSlimThighs</Data>
+            <Data name="DraugrLeggingsSlimThighs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsSlimThighs</Data>
+            <Data name="DraugrSkirtSlimThighs" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="DraugrBeltArmorThighs" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorThighs</Data>
+            <Data name="DraugrChestThighs" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestThighs</Data>
+            <Data name="DraugrHipArmorThighs" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorThighs</Data>
+            <Data name="DraugrLeggingsThighs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsThighs</Data>
+            <Data name="DraugrSkirtThighs" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="DraugrChestChubbyLegs" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestChubbyLegs</Data>
+            <Data name="DraugrHipArmorChubbyLegs" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorChubbyLegs</Data>
+            <Data name="DraugrLeggingsChubbyLegs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsChubbyLegs</Data>
+            <Data name="DraugrSkirtChubbyLegs" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="DraugrChestLegs" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestLegs</Data>
+            <Data name="DraugrHipArmorLegs" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorLegs</Data>
+            <Data name="DraugrLeggingsLegs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsLegs</Data>
+            <Data name="DraugrSkirtLegs" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="DraugrChestKneeHeight" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestKneeHeight</Data>
+            <Data name="DraugrHipArmorKneeHeight" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorKneeHeight</Data>
+            <Data name="DraugrLeggingsKneeHeight" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsKneeHeight</Data>
+            <Data name="DraugrSkirtKneeHeight" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="DraugrLeggingsCalfSize" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="DraugrLeggingsCalfSmooth" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="DraugrLeggingsAnkles" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="DraugrArmbandsSmallSeam" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsSmallSeam</Data>
+            <Data name="DraugrChestSmallSeam" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestSmallSeam</Data>
+            <Data name="DraugrLeggingsSmallSeam" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsSmallSeam</Data>
+            <Data name="DraugrPauldronsSmallSeam" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="DraugrChestShoulderTweak" target="DraugrChest" local="true">CT77Draugr.osd\DraugrChestShoulderTweak</Data>
+            <Data name="DraugrPauldronsShoulderTweak" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="DraugrPauldronsZapPauldrons" target="DraugrPauldrons" local="true">CT77Draugr.osd\DraugrPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapChestBands" invert="false" small="0" big="0" zap="true">
+            <Data name="DraugrChestBandsZapChestBands" target="DraugrChestBands" local="true">CT77Draugr.osd\DraugrChestBandsZapChestBands</Data>
+        </Slider>
+        <Slider name="ZapArmbands" invert="false" small="0" big="0" zap="true">
+            <Data name="DraugrArmbandsZapArmbands" target="DraugrArmbands" local="true">CT77Draugr.osd\DraugrArmbandsZapArmbands</Data>
+        </Slider>
+        <Slider name="ZapBeltArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="DraugrBeltArmorZapBeltArmor" target="DraugrBeltArmor" local="true">CT77Draugr.osd\DraugrBeltArmorZapBeltArmor</Data>
+        </Slider>
+        <Slider name="ZapHipArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="DraugrHipArmorZapHipArmor" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorZapHipArmor</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="DraugrHipArmorZapHipArmor" target="DraugrHipArmor" local="true">CT77Draugr.osd\DraugrHipArmorZapHipArmor</Data>
+            <Data name="DraugrSkirtZapSkirt" target="DraugrSkirt" local="true">CT77Draugr.osd\DraugrSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="DraugrLeggingsZapLeggings" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Draugr Gauntlets">
+        <DataFolder>CT77Draugr</DataFolder>
+        <SourceFile>CT77DraugrGauntlets.nif</SourceFile>
+        <OutputPath>meshes\armor\draugr</OutputPath>
+        <OutputFile GenWeights="true">draugrgauntletsfemale</OutputFile>
+        <Shape target="DraugrGauntlets">DraugrGauntlets</Shape>
+        <Shape target="DraugrHands">DraugrHands</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="DraugrGauntletsArms" target="DraugrGauntlets" local="true">CT77DraugrGauntlets.osd\DraugrGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="DraugrGauntletsChubbyArms" target="DraugrGauntlets" local="true">CT77DraugrGauntlets.osd\DraugrGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="DraugrGauntletsShoulderWidth" target="DraugrGauntlets" local="true">CT77DraugrGauntlets.osd\DraugrGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="DraugrGauntletsBigTorso" target="DraugrGauntlets" local="true">CT77DraugrGauntlets.osd\DraugrGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DraugrGauntletsSmallSeam" target="DraugrGauntlets" local="true">CT77DraugrGauntlets.osd\DraugrGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Draugr Boots">
+        <DataFolder>CT77Draugr</DataFolder>
+        <SourceFile>CT77DraugrBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\draugr</OutputPath>
+        <OutputFile GenWeights="true">draugrbootsfemale</OutputFile>
+        <Shape target="DraugrBoots">DraugrBoots</Shape>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DraugrBootsSlimThighs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DraugrBootsThighs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DraugrBootsChubbyLegs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="DraugrBootsLegs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DraugrBootsKneeHeight" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="DraugrBootsCalfSize" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="DraugrBootsCalfSmooth" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="DraugrBootsAnkles" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DraugrBootsSmallSeam" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Draugr Thigh Boots">
+        <DataFolder>CT77Draugr</DataFolder>
+        <SourceFile>CT77DraugrThighBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\draugr</OutputPath>
+        <OutputFile GenWeights="true">CT77draugrthighboots</OutputFile>
+        <Shape target="DraugrBoots">DraugrBoots</Shape>
+        <Shape target="DraugrLeggings">DraugrLeggings</Shape>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="DraugrLeggingsButt" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="DraugrLeggingsButtSmall" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="DraugrLeggingsBigButt" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="DraugrLeggingsChubbyButt" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DraugrBootsSlimThighs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsSlimThighs</Data>
+            <Data name="DraugrLeggingsSlimThighs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DraugrBootsThighs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsThighs</Data>
+            <Data name="DraugrLeggingsThighs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DraugrBootsChubbyLegs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsChubbyLegs</Data>
+            <Data name="DraugrLeggingsChubbyLegs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="DraugrBootsLegs" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsLegs</Data>
+            <Data name="DraugrLeggingsLegs" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DraugrBootsKneeHeight" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsKneeHeight</Data>
+            <Data name="DraugrLeggingsKneeHeight" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="DraugrBootsCalfSize" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsCalfSize</Data>
+            <Data name="DraugrLeggingsCalfSize" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="DraugrBootsCalfSmooth" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsCalfSmooth</Data>
+            <Data name="DraugrLeggingsCalfSmooth" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="DraugrBootsAnkles" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsAnkles</Data>
+            <Data name="DraugrLeggingsAnkles" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DraugrBootsSmallSeam" target="DraugrBoots" local="true">CT77DraugrBoots.osd\DraugrBootsSmallSeam</Data>
+            <Data name="DraugrLeggingsSmallSeam" target="DraugrLeggings" local="true">CT77Draugr.osd\DraugrLeggingsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,278 @@
+<SliderSetInfo>
+    <SliderSet name="Minou GangMenHS BodySuit 1">
+        <SetFolder>Minou GangMenHS BodySuit 1</SetFolder>
+        <SourceFile>Minou GangMenHS BodySuit 1.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou GangMenHS</OutputPath>
+        <OutputFile>Minou GangMenHS BodySuit 1</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="XQ">XQ</BaseShapeName>
+        <BaseShapeName target="jia">jia</BaseShapeName>
+        <BaseShapeName target="nk">nk</BaseShapeName>
+        <BaseShapeName target="sy">sy</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="jiaBreasts" target="jia" local="true">jiaBreasts.bsd</datafile>
+            <datafile name="XQBreasts" target="XQ" local="true">XQBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="nkBreastsSmall" target="nk" local="true">nkBreastsSmall.bsd</datafile>
+            <datafile name="jiaBreastsSmall" target="jia" local="true">jiaBreastsSmall.bsd</datafile>
+            <datafile name="XQBreastsSmall" target="XQ" local="true">XQBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="jiaBreastsSH" target="jia" local="true">jiaBreastsSH.bsd</datafile>
+            <datafile name="XQBreastsSH" target="XQ" local="true">XQBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="jiaBreastsSSH" target="jia" local="true">jiaBreastsSSH.bsd</datafile>
+            <datafile name="XQBreastsSSH" target="XQ" local="true">XQBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="jiaBreastsFantasy" target="jia" local="true">jiaBreastsFantasy.bsd</datafile>
+            <datafile name="XQBreastsFantasy" target="XQ" local="true">XQBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="jiaDoubleMelon" target="jia" local="true">jiaDoubleMelon.bsd</datafile>
+            <datafile name="XQDoubleMelon" target="XQ" local="true">XQDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="jiaBreastCleavage" target="jia" local="true">jiaBreastCleavage.bsd</datafile>
+            <datafile name="XQBreastCleavage" target="XQ" local="true">XQBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="jiaBreastFlatness" target="jia" local="true">jiaBreastFlatness.bsd</datafile>
+            <datafile name="XQBreastFlatness" target="XQ" local="true">XQBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="jiaBreastGravity" target="jia" local="true">jiaBreastGravity.bsd</datafile>
+            <datafile name="XQBreastGravity" target="XQ" local="true">XQBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="jiaPushUp" target="jia" local="true">jiaPushUp.bsd</datafile>
+            <datafile name="XQPushUp" target="XQ" local="true">XQPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="jiaBreastHeight" target="jia" local="true">jiaBreastHeight.bsd</datafile>
+            <datafile name="XQBreastHeight" target="XQ" local="true">XQBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="jiaBreastPerkiness" target="jia" local="true">jiaBreastPerkiness.bsd</datafile>
+            <datafile name="XQBreastPerkiness" target="XQ" local="true">XQBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="jiaBreastWidth" target="jia" local="true">jiaBreastWidth.bsd</datafile>
+            <datafile name="XQBreastWidth" target="XQ" local="true">XQBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="jiaNippleDistance" target="jia" local="true">jiaNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="jiaNipplePerkiness" target="jia" local="true">jiaNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="jiaNippleLength" target="jia" local="true">jiaNippleLength.bsd</datafile>
+            <datafile name="XQNippleLength" target="XQ" local="true">XQNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="jiaNippleSize" target="jia" local="true">jiaNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="jiaNippleAreola" target="jia" local="true">jiaNippleAreola.bsd</datafile>
+            <datafile name="XQNippleAreola" target="XQ" local="true">XQNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="jiaNippleUp" target="jia" local="true">jiaNippleUp.bsd</datafile>
+            <datafile name="XQNippleUp" target="XQ" local="true">XQNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="jiaNippleDown" target="jia" local="true">jiaNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="jiaNippleTip" target="jia" local="true">jiaNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="jiaArms" target="jia" local="true">jiaArms.bsd</datafile>
+            <datafile name="XQArms" target="XQ" local="true">XQArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="jiaChubbyArms" target="jia" local="true">jiaChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="XQShoulderSmooth" target="XQ" local="true">XQShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="jiaShoulderWidth" target="jia" local="true">jiaShoulderWidth.bsd</datafile>
+            <datafile name="XQShoulderWidth" target="XQ" local="true">XQShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="jiaBigTorso" target="jia" local="true">jiaBigTorso.bsd</datafile>
+            <datafile name="XQBigTorso" target="XQ" local="true">XQBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="nkWaist" target="nk" local="true">nkWaist.bsd</datafile>
+            <datafile name="jiaWaist" target="jia" local="true">jiaWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="nkChubbyWaist" target="nk" local="true">nkChubbyWaist.bsd</datafile>
+            <datafile name="jiaChubbyWaist" target="jia" local="true">jiaChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="nkBelly" target="nk" local="true">nkBelly.bsd</datafile>
+            <datafile name="jiaBelly" target="jia" local="true">jiaBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="nkBigBelly" target="nk" local="true">nkBigBelly.bsd</datafile>
+            <datafile name="jiaBigBelly" target="jia" local="true">jiaBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="nkPregnancyBelly" target="nk" local="true">nkPregnancyBelly.bsd</datafile>
+            <datafile name="jiaPregnancyBelly" target="jia" local="true">jiaPregnancyBelly.bsd</datafile>
+            <datafile name="syPregnancyBelly" target="sy" local="true">syPregnancyBelly.bsd</datafile>
+            <datafile name="XQPregnancyBelly" target="XQ" local="true">XQPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="nkTummyTuck" target="nk" local="true">nkTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="jiaBack" target="jia" local="true">jiaBack.bsd</datafile>
+            <datafile name="XQBack" target="XQ" local="true">XQBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="nkHipbone" target="nk" local="true">nkHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="nkHips" target="nk" local="true">nkHips.bsd</datafile>
+            <datafile name="jiaHips" target="jia" local="true">jiaHips.bsd</datafile>
+            <datafile name="syHips" target="sy" local="true">syHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="nkButt" target="nk" local="true">nkButt.bsd</datafile>
+            <datafile name="syButt" target="sy" local="true">syButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="nkButtSmall" target="nk" local="true">nkButtSmall.bsd</datafile>
+            <datafile name="syButtSmall" target="sy" local="true">syButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="nkButtShape2" target="nk" local="true">nkButtShape2.bsd</datafile>
+            <datafile name="syButtShape2" target="sy" local="true">syButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="nkBigButt" target="nk" local="true">nkBigButt.bsd</datafile>
+            <datafile name="syBigButt" target="sy" local="true">syBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="nkChubbyButt" target="nk" local="true">nkChubbyButt.bsd</datafile>
+            <datafile name="jiaChubbyButt" target="jia" local="true">jiaChubbyButt.bsd</datafile>
+            <datafile name="syChubbyButt" target="sy" local="true">syChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="nkAppleCheeks" target="nk" local="true">nkAppleCheeks.bsd</datafile>
+            <datafile name="syAppleCheeks" target="sy" local="true">syAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="nkGroin" target="nk" local="true">nkGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="nkSlimThighs" target="nk" local="true">nkSlimThighs.bsd</datafile>
+            <datafile name="sySlimThighs" target="sy" local="true">sySlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="nkThighs" target="nk" local="true">nkThighs.bsd</datafile>
+            <datafile name="syThighs" target="sy" local="true">syThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="nkChubbyLegs" target="nk" local="true">nkChubbyLegs.bsd</datafile>
+            <datafile name="syChubbyLegs" target="sy" local="true">syChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="nkLegs" target="nk" local="true">nkLegs.bsd</datafile>
+            <datafile name="syLegs" target="sy" local="true">syLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="syKneeHeight" target="sy" local="true">syKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="syCalfSize" target="sy" local="true">syCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="syCalfSmooth" target="sy" local="true">syCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="syAnkles" target="sy" local="true">syAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="sySmallSeam" target="sy" local="true">sySmallSeam.bsd</datafile>
+            <datafile name="XQSmallSeam" target="XQ" local="true">XQSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="XQShoulderTweak" target="XQ" local="true">XQShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

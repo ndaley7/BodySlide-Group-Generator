@@ -1,0 +1,343 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Halloween Bikini">
+        <DataFolder>Cre Halloween Bikini</DataFolder>
+        <SourceFile>Cre Halloween Bikini.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\HalloWeen</OutputPath>
+        <OutputFile GenWeights="true">Halloween_Bikini</OutputFile>
+        <Shape target="0Top">0Top</Shape>
+        <Shape target="0Under_himo">0Under_himo</Shape>
+        <Shape target="0_Top2">0_Top2</Shape>
+        <Shape target="0_Top_himo">0_Top_himo</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Pumpkin_Under">Pumpkin_Under</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="0_Top2Breasts" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2Breasts</Data>
+            <Data name="0_Top_himoBreasts" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreasts</Data>
+            <Data name="0TopBreasts" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="0_Top2BreastsSmall" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastsSmall</Data>
+            <Data name="0_Top_himoBreastsSmall" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastsSmall</Data>
+            <Data name="0TopBreastsSmall" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastsSmall</Data>
+            <Data name="0Under_himoBreastsSmall" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBreastsSmall</Data>
+            <Data name="Pumpkin_UnderBreastsSmall" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="0_Top2BreastsSH" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastsSH</Data>
+            <Data name="0_Top_himoBreastsSH" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastsSH</Data>
+            <Data name="0TopBreastsSH" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="0_Top2BreastsSSH" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastsSSH</Data>
+            <Data name="0_Top_himoBreastsSSH" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastsSSH</Data>
+            <Data name="0TopBreastsSSH" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="0_Top2BreastsFantasy" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastsFantasy</Data>
+            <Data name="0_Top_himoBreastsFantasy" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastsFantasy</Data>
+            <Data name="0TopBreastsFantasy" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="0_Top2DoubleMelon" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2DoubleMelon</Data>
+            <Data name="0_Top_himoDoubleMelon" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoDoubleMelon</Data>
+            <Data name="0TopDoubleMelon" target="0Top" local="true">Cre Halloween Bikini.osd\0TopDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="0_Top2BreastCleavage" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastCleavage</Data>
+            <Data name="0_Top_himoBreastCleavage" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastCleavage</Data>
+            <Data name="0TopBreastCleavage" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="0_Top2BreastFlatness" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastFlatness</Data>
+            <Data name="0_Top_himoBreastFlatness" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastFlatness</Data>
+            <Data name="0TopBreastFlatness" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastFlatness</Data>
+            <Data name="0Under_himoBreastFlatness" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="0_Top2BreastGravity" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastGravity</Data>
+            <Data name="0_Top_himoBreastGravity" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastGravity</Data>
+            <Data name="0TopBreastGravity" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="0_Top2PushUp" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2PushUp</Data>
+            <Data name="0_Top_himoPushUp" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoPushUp</Data>
+            <Data name="0TopPushUp" target="0Top" local="true">Cre Halloween Bikini.osd\0TopPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="0_Top2BreastHeight" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastHeight</Data>
+            <Data name="0_Top_himoBreastHeight" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastHeight</Data>
+            <Data name="0TopBreastHeight" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastHeight</Data>
+            <Data name="0Under_himoBreastHeight" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="0_Top2BreastPerkiness" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastPerkiness</Data>
+            <Data name="0_Top_himoBreastPerkiness" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastPerkiness</Data>
+            <Data name="0TopBreastPerkiness" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="0_Top2BreastWidth" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BreastWidth</Data>
+            <Data name="0_Top_himoBreastWidth" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBreastWidth</Data>
+            <Data name="0TopBreastWidth" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBreastWidth</Data>
+            <Data name="0Under_himoBreastWidth" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="0_Top2NippleDistance" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NippleDistance</Data>
+            <Data name="0_Top_himoNippleDistance" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoNippleDistance</Data>
+            <Data name="0TopNippleDistance" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="0_Top2NipplePerkiness" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NipplePerkiness</Data>
+            <Data name="0TopNipplePerkiness" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="0_Top2NippleLength" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NippleLength</Data>
+            <Data name="0_Top_himoNippleLength" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoNippleLength</Data>
+            <Data name="0TopNippleLength" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="0_Top2NippleSize" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NippleSize</Data>
+            <Data name="0_Top_himoNippleSize" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoNippleSize</Data>
+            <Data name="0TopNippleSize" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="0_Top2NippleAreola" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NippleAreola</Data>
+            <Data name="0_Top_himoNippleAreola" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoNippleAreola</Data>
+            <Data name="0TopNippleAreola" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="0_Top2NippleUp" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NippleUp</Data>
+            <Data name="0_Top_himoNippleUp" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoNippleUp</Data>
+            <Data name="0TopNippleUp" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="0_Top2NippleDown" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NippleDown</Data>
+            <Data name="0_Top_himoNippleDown" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoNippleDown</Data>
+            <Data name="0TopNippleDown" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="0_Top2NippleTip" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2NippleTip</Data>
+            <Data name="0TopNippleTip" target="0Top" local="true">Cre Halloween Bikini.osd\0TopNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="0_Top2Arms" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2Arms</Data>
+            <Data name="0_Top_himoArms" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoArms</Data>
+            <Data name="0TopArms" target="0Top" local="true">Cre Halloween Bikini.osd\0TopArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="0_Top2ChubbyArms" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2ChubbyArms</Data>
+            <Data name="0_Top_himoChubbyArms" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoChubbyArms</Data>
+            <Data name="0TopChubbyArms" target="0Top" local="true">Cre Halloween Bikini.osd\0TopChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="0_Top2ShoulderSmooth" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2ShoulderSmooth</Data>
+            <Data name="0_Top_himoShoulderSmooth" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoShoulderSmooth</Data>
+            <Data name="0TopShoulderSmooth" target="0Top" local="true">Cre Halloween Bikini.osd\0TopShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="0_Top2ShoulderWidth" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2ShoulderWidth</Data>
+            <Data name="0_Top_himoShoulderWidth" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoShoulderWidth</Data>
+            <Data name="0TopShoulderWidth" target="0Top" local="true">Cre Halloween Bikini.osd\0TopShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="0_Top2BigTorso" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BigTorso</Data>
+            <Data name="0_Top_himoBigTorso" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBigTorso</Data>
+            <Data name="0TopBigTorso" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBigTorso</Data>
+            <Data name="0Under_himoBigTorso" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBigTorso</Data>
+            <Data name="Pumpkin_UnderBigTorso" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="0_Top2Waist" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2Waist</Data>
+            <Data name="0_Top_himoWaist" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoWaist</Data>
+            <Data name="0TopWaist" target="0Top" local="true">Cre Halloween Bikini.osd\0TopWaist</Data>
+            <Data name="0Under_himoWaist" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoWaist</Data>
+            <Data name="Pumpkin_UnderWaist" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="0_Top2WideWaistLine" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2WideWaistLine</Data>
+            <Data name="0_Top_himoWideWaistLine" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoWideWaistLine</Data>
+            <Data name="0TopWideWaistLine" target="0Top" local="true">Cre Halloween Bikini.osd\0TopWideWaistLine</Data>
+            <Data name="0Under_himoWideWaistLine" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="0_Top2ChubbyWaist" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2ChubbyWaist</Data>
+            <Data name="0_Top_himoChubbyWaist" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoChubbyWaist</Data>
+            <Data name="0TopChubbyWaist" target="0Top" local="true">Cre Halloween Bikini.osd\0TopChubbyWaist</Data>
+            <Data name="0Under_himoChubbyWaist" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoChubbyWaist</Data>
+            <Data name="Pumpkin_UnderChubbyWaist" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="0_Top2Belly" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2Belly</Data>
+            <Data name="0_Top_himoBelly" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBelly</Data>
+            <Data name="0TopBelly" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBelly</Data>
+            <Data name="0Under_himoBelly" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBelly</Data>
+            <Data name="Pumpkin_UnderBelly" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="0_Top2BigBelly" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BigBelly</Data>
+            <Data name="0_Top_himoBigBelly" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBigBelly</Data>
+            <Data name="0TopBigBelly" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBigBelly</Data>
+            <Data name="0Under_himoBigBelly" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBigBelly</Data>
+            <Data name="Pumpkin_UnderBigBelly" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="0_Top2PregnancyBelly" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2PregnancyBelly</Data>
+            <Data name="0_Top_himoPregnancyBelly" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoPregnancyBelly</Data>
+            <Data name="0TopPregnancyBelly" target="0Top" local="true">Cre Halloween Bikini.osd\0TopPregnancyBelly</Data>
+            <Data name="0Under_himoPregnancyBelly" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoPregnancyBelly</Data>
+            <Data name="Pumpkin_UnderPregnancyBelly" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="0_Top2TummyTuck" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2TummyTuck</Data>
+            <Data name="0TopTummyTuck" target="0Top" local="true">Cre Halloween Bikini.osd\0TopTummyTuck</Data>
+            <Data name="0Under_himoTummyTuck" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoTummyTuck</Data>
+            <Data name="Pumpkin_UnderTummyTuck" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="0_Top2Back" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2Back</Data>
+            <Data name="0_Top_himoBack" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoBack</Data>
+            <Data name="0TopBack" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBack</Data>
+            <Data name="0Under_himoBack" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="0Under_himoHipbone" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoHipbone</Data>
+            <Data name="Pumpkin_UnderHipbone" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="0_Top2Hips" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2Hips</Data>
+            <Data name="0TopHips" target="0Top" local="true">Cre Halloween Bikini.osd\0TopHips</Data>
+            <Data name="0Under_himoHips" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoHips</Data>
+            <Data name="Pumpkin_UnderHips" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="0Under_himoButtCrack" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoButtCrack</Data>
+            <Data name="Pumpkin_UnderButtCrack" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="0Under_himoButt" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoButt</Data>
+            <Data name="Pumpkin_UnderButt" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="0Under_himoButtSmall" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoButtSmall</Data>
+            <Data name="Pumpkin_UnderButtSmall" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="0_Top2ButtShape2" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2ButtShape2</Data>
+            <Data name="0_Top_himoButtShape2" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoButtShape2</Data>
+            <Data name="0TopButtShape2" target="0Top" local="true">Cre Halloween Bikini.osd\0TopButtShape2</Data>
+            <Data name="0Under_himoButtShape2" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoButtShape2</Data>
+            <Data name="Pumpkin_UnderButtShape2" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="0_Top2BigButt" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2BigButt</Data>
+            <Data name="0TopBigButt" target="0Top" local="true">Cre Halloween Bikini.osd\0TopBigButt</Data>
+            <Data name="0Under_himoBigButt" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoBigButt</Data>
+            <Data name="Pumpkin_UnderBigButt" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="0_Top2ChubbyButt" target="0_Top2" local="true">Cre Halloween Bikini.osd\0_Top2ChubbyButt</Data>
+            <Data name="0_Top_himoChubbyButt" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoChubbyButt</Data>
+            <Data name="0TopChubbyButt" target="0Top" local="true">Cre Halloween Bikini.osd\0TopChubbyButt</Data>
+            <Data name="0Under_himoChubbyButt" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoChubbyButt</Data>
+            <Data name="Pumpkin_UnderChubbyButt" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="0_Top_himoAppleCheeks" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoAppleCheeks</Data>
+            <Data name="0Under_himoAppleCheeks" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoAppleCheeks</Data>
+            <Data name="Pumpkin_UnderAppleCheeks" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="0Under_himoRoundAss" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoRoundAss</Data>
+            <Data name="Pumpkin_UnderRoundAss" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="0Under_himoGroin" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoGroin</Data>
+            <Data name="Pumpkin_UnderGroin" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="0Under_himoSlimThighs" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoSlimThighs</Data>
+            <Data name="Pumpkin_UnderSlimThighs" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="0Under_himoThighs" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoThighs</Data>
+            <Data name="Pumpkin_UnderThighs" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="0Under_himoChubbyLegs" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoChubbyLegs</Data>
+            <Data name="Pumpkin_UnderChubbyLegs" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="0Under_himoLegs" target="0Under_himo" local="true">Cre Halloween Bikini.osd\0Under_himoLegs</Data>
+            <Data name="Pumpkin_UnderLegs" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="Pumpkin_UnderKneeHeight" target="Pumpkin_Under" local="true">Cre Halloween Bikini.osd\Pumpkin_UnderKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="0_Top_himoSmallSeam" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="0_Top_himoShoulderTweak" target="0_Top_himo" local="true">Cre Halloween Bikini.osd\0_Top_himoShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

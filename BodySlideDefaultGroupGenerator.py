@@ -58,7 +58,7 @@ def XMLEncodingConfirm(checkFile):
         f.close()
         with open(checkFile, 'r', encoding="cp1252") as original: data = original.read()
         #with open(checkFile, 'w', encoding="cp1252") as modified: modified.write(g_xmlEncodingString+"\n" + data)
-        with open(checkFile, 'w', encoding="cp1252") as modified: modified.write(data)
+        with open(checkFile, 'w', encoding="utf-8") as modified: modified.write(data)
 
     #Check for the presence of double hyphens "--" in the comments:
 
@@ -138,13 +138,16 @@ def ParseSliderSet(fileWithPath,fileName):
     fileListing=[]
 
     #Load in XML Tree 
-    tree = ET.parse(fileWithPath,g_unicode_parser) 
+    #tree = ET.parse(fileWithPath,g_unicode_parser)
+    tree = ET.parse(fileWithPath, ET.XMLParser(ns_clean=True, recover=True))  
+    #root = tree.getroot()
     root = tree.getroot()
 
     #Assign Potential Group Name
     #Extract the name of the current file it is in for the group
     groupName=fileName
     #Parse through every <SliderSet> tag
+    #Use Xpath to parse for the Sliderset tag to deal with the ocassional <SliderSetInfo version="1"> Tag on some OSP files
     for sliderSet in root.findall('SliderSet'):
         
         #Check if SliderSet Outfit is already in the MasterList
@@ -201,10 +204,11 @@ def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
         outfitName=groupOutfitTuple[1]
 
         #Check to see if current Group has been added to SliderGroups
-        groupNameMatch=rootMasterXML.findall(".//Group[@name='"+groupName+"']")
+        groupNameMatch=rootMasterXML.findall(".//Group[@name=\""+groupName+"\"]")
         if not groupNameMatch:
             currGroup=ET.SubElement(rootMasterXML,'Group',{'name': groupName})
             print("Group Added:"+groupName)
+            currGroup=rootMasterXML.find(".//Group[@name=\""+groupName+"\"]")
             ET.SubElement(currGroup,'Member',{'name': outfitName})
             print("<-Outfit: "+outfitName)        
                 
