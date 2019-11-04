@@ -31,6 +31,9 @@ import glob
 import csv 
 import requests
 #import lxml
+
+#Import Functions
+#from .UtilitiesBSGG.FileListing import GetFileList
  
 import lxml.etree as ET
 #parser = ET.XMLParser(encoding="utf-8")
@@ -77,6 +80,18 @@ def XMLEncodingConfirm(checkFile):
     f.write(newdata3b)
     f.close()
 
+def GetFileList(filePath,fileExtension):
+    #Variables
+    fileListing=[]
+
+    #Get list of all files in the group folder (.fileExtension)
+    os.chdir(filePath)
+    for file in glob.glob(fileExtension):
+        fileListing.append(filePath+file)
+        print(file)
+   
+    #Return the File List (With Full Path)   
+    return fileListing
 
 def LoadConfigXML(configFile): 
     # Variables
@@ -167,18 +182,6 @@ def ParseSliderSet(fileWithPath,fileName):
     #return fileListing
 
 
-def GetFileList(filePath,fileExtension):
-    #Variables
-    fileListing=[]
-
-    #Get list of all files in the group folder (.fileExtension)
-    os.chdir(filePath)
-    for file in glob.glob(fileExtension):
-        fileListing.append(filePath+file)
-        print(file)
-   
-    #Return the File List (With Full Path)   
-    return fileListing
 
 def CatalogGroupedOutfits(sliderGroupPath):
     #This function generates the list of XML files in the SliderGroup Folder and passes them to be Parsed
@@ -224,7 +227,11 @@ def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
         #ET.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
 
 
-
+#This Function will take in the List of Tuple (Group, Outfit) and provide addiitonal sorting options for the outfits
+def GroupingConcatenationByName(tupleListIn):
+    #Placeholder
+    for i, val in enumerate(tupleListIn):
+        testint=5
 
 
 def main():
@@ -267,6 +274,8 @@ def main():
     print("simple sort")
     print(g_bodyslideNewGroupedOutfitsWGroup)
     #Writeout Status to console (Orignial Group # Final Group # Full Group List)
+
+    #See if User wants to modify Groupings
       
     #Ask if user wants to generate a master list with all existing groups
 
