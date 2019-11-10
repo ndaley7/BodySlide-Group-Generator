@@ -26,6 +26,7 @@ distribution.
 """
 #Import of Modules used
 import os
+import sys
 import ntpath
 import glob
 import csv 
@@ -227,7 +228,21 @@ def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
         #ET.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
 
 
+#This function will configure a ConfigBSGG.xml file by asking the user questions on the command line
+#Afterwards it will save a 'ConfigBSGG.xml' file in the same directory  as the executeable.
+def ConfigureConfigBSGGXML():
+    #Ask for both SliderGroup and SliderSet folders
+    sliderGroupInput=input("Please type in the path to SliderGroups Folder:")
+    assert os.path.isdir(sliderGroupInput), "SliderGroups folder not detected at, "+str(sliderGroupInput)
+    print("SliderGroup Folder Good!")
+
+    sliderSetInput=input("Please type in the path to SliderSets Folder:")
+    assert os.path.isdir(sliderSetInput), "SliderSets folder not detected at, "+str(sliderSetInput)
+    print("SliderGroup Folder Good!")
+
+    
 #This Function will take in the List of Tuple (Group, Outfit) and provide addiitonal sorting options for the outfits
+#For now, group selection will be implemented by through input on the command line
 def GroupingConcatenationByName(tupleListIn):
     #Placeholder
     for i, val in enumerate(tupleListIn):
@@ -239,7 +254,13 @@ def main():
     bodyslidePaths=[]
     sliderSetXMLPaths=[]
     sliderSetOSPPaths=[]
-      
+
+    #Check for the existance of a Config.xml file
+    configExists=os.path.exists('Config.xml')
+    if configExists:
+        print("Config.xml Detected")
+    else:
+        print("Config.xml Not Detected.  Running Configurator")
     #Load Config File
     bodyslidePaths=LoadConfigXML('Config.xml')
 
@@ -273,7 +294,7 @@ def main():
     g_bodyslideNewGroupedOutfitsWGroup.sort()
     print("simple sort")
     print(g_bodyslideNewGroupedOutfitsWGroup)
-    #Writeout Status to console (Orignial Group # Final Group # Full Group List)
+    #++Writeout Status to console (Orignial Group # Final Group # Full Group List)
 
     #See if User wants to modify Groupings
       
@@ -290,6 +311,7 @@ if __name__ == "__main__":
     main() 
 
     #Errors to Try and Catch:
+    #Check for the Presence of Config.xml and ask questions to create it if it doesnt exist.
     #Wrong Set folder location (Check for detection of Set format xml/osp files)
     #Wrong Group folder location (Check for detection of Set format xml files)
     #Check for Presence of the above paths in config.xml, if not present, ask for them
