@@ -252,66 +252,72 @@ def GroupingConcatenationByName(tupleListIn):
     runningMatchList=[]
     referenceString=tupleListIn[0][0]
     #Running Indeces
+    tupleIdx=0
     startingIdx=0
     endingIdx=0
     groupIterator=0
     #String Compare
     matchedLengthOld=0
 
-    #Placeholder
-    for i, val in enumerate(tupleListIn):
-        #Set String to be compared against
-        comparisonString=tupleListIn[i+1][0]
+    #String Comparison Variables
+    referenceString=tupleListIn[0][0]
+    #Set String for comparison
+    comparisonString=tupleListIn[0][0]
+
+    #While loop terminating when i>length(tuplelist)
+    while tupleIdx< len(tupleListIn):
         
+
         #Init SequenceMatcher
         SeqMatch=SequenceMatcher(None,comparisonString,referenceString)
+
+        
         
         #Run Sequence Match and get the longest length
         matchedInfo=SeqMatch.find_longest_match(0,len(comparisonString),0,len(referenceString))
         matchedLength=matchedInfo[2]
 
         
-        
-        #Special Case for only the First Entry
-        if(matchedLengthOld==0 and i==0):
-            groupIterator=groupIterator+1
+        #Special case for individual entries or those that have the same starting character
+        if(matchedLength>0 and groupIterator==0):
+            #Custom Group String assigment
+            #Set most recent String Group
+            currGroupString=(referenceString[0:matchedLength])
             matchedLengthOld=matchedLength
-            #currGroupString=(comparisonString[0:matchedLength]) 
-            
-        #Subsequent matching Cases
-        elif(matchedLengthOld==matchedLength):
             groupIterator=groupIterator+1
-            matchedLengthOld=matchedLength
-            #currGroupString=(comparisonString[0:matchedLength]) 
-        
-        elif(matchedLength>=3):
-            groupIterator=groupIterator+1
-            matchedLengthOld=matchedLength
-            #currGroupString=(comparisonString[0:matchedLength])
-        #When the Matching case Terminates
-        elif(matchedLengthOld!=matchedLength and matchedLength<3):
-            
-            endingIdx=i
-            startingIdx=i-groupIterator
-            currGroupString=(referenceString[0:matchedLengthOld])
-            if(groupIterator==0):
-                currCustomGroup=(referenceString,startingIdx,endingIdx)
-            else:
-                currCustomGroup=(currGroupString,startingIdx,endingIdx)
+            comparisonString=tupleListIn[tupleIdx+1][0]
 
+        elif(matchedLength>2 ):
             
             matchedLengthOld=matchedLength
+            groupIterator=groupIterator+1
+            comparisonString=tupleListIn[tupleIdx+1][0]
+
+        elif(matchedLength<3 or matchedLength<=1 ):
+            #groupIterator=groupIterator+1
+            endingIdx=tupleIdx-1
+            startingIdx=tupleIdx-groupIterator
+            
+            
+            currCustomGroup=(currGroupString,startingIdx,endingIdx)
+
             runningMatchList.append(currCustomGroup)
-            referenceString=comparisonString
-
-            groupIterator=0
-            
-
-      
+            #currGroupString=(comparisonString[0:matchedLength]) 
         
+            matchedLengthOld=matchedLength
+            
+            referenceString=comparisonString
+            comparisonString=tupleListIn[tupleIdx][0]
+            groupIterator=0
 
-
+        else:
+            comparisonString=tupleListIn[tupleIdx+1][0]
+        
+        #Iterate the counter
+        tupleIdx=tupleIdx+1
     return bodyslideCustomGroups
+
+
 
 #This function will take in a list of tuples of the format (Group,Outfit)
 #Return a list of tuples format (Group,ContainedOutfitCount) With each Group occuring once.
@@ -383,7 +389,7 @@ def main():
     #Sort List
     g_bodyslideNewGroupedOutfitsWGroup.sort()
     print("simple sort")
-    print(g_bodyslideNewGroupedOutfitsWGroup)
+    #print(g_bodyslideNewGroupedOutfitsWGroup)
     #++Writeout Status to console (Orignial Group # Final Group # Full Group List)
 
     #See if User wants to modify Groupings
