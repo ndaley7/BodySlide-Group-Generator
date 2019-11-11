@@ -307,6 +307,12 @@ def GroupingConcatenationByName(tupleListIn):
         #Assign the new Comparison String
         if (tupleIdx != len(tupleListIn)):
             comparisonString=tupleListIn[tupleIdx][0]
+        #This is the case for the finall item in the list to be read in.    
+        else:
+            #Create Tuple and append
+            currCustomGroup=(currGroupString,startingIdx,len(tupleListIn)-1)
+
+            runningMatchList.append(currCustomGroup)
     return bodyslideCustomGroups
 
 
