@@ -32,11 +32,14 @@ import glob
 import csv 
 import requests
 #import lxml
-
+import lxml.etree as ET
+#import difflib
+from difflib import SequenceMatcher
 #Import Functions
+
 #from .UtilitiesBSGG.FileListing import GetFileList
  
-import lxml.etree as ET
+
 #parser = ET.XMLParser(encoding="utf-8")
 #tree = ET.fromstring(xmlstring, parser=parser)
 
@@ -240,14 +243,101 @@ def ConfigureConfigBSGGXML():
     assert os.path.isdir(sliderSetInput), "SliderSets folder not detected at, "+str(sliderSetInput)
     print("SliderGroup Folder Good!")
 
-    
+
 #This Function will take in the List of Tuple (Group, Outfit) and provide addiitonal sorting options for the outfits
 #For now, group selection will be implemented by through input on the command line
 def GroupingConcatenationByName(tupleListIn):
+    #Initializations
+    bodyslideCustomGroups=[]
+    runningMatchList=[]
+    referenceString=tupleListIn[0][0]
+    #Running Indeces
+    startingIdx=0
+    endingIdx=0
+    groupIterator=0
+    #String Compare
+    matchedLengthOld=0
+
     #Placeholder
     for i, val in enumerate(tupleListIn):
-        testint=5
+        #Set String to be compared against
+        comparisonString=tupleListIn[i+1][0]
+        
+        #Init SequenceMatcher
+        SeqMatch=SequenceMatcher(None,comparisonString,referenceString)
+        
+        #Run Sequence Match and get the longest length
+        matchedInfo=SeqMatch.find_longest_match(0,len(comparisonString),0,len(referenceString))
+        matchedLength=matchedInfo[2]
 
+        
+        
+        #Special Case for only the First Entry
+        if(matchedLengthOld==0 and i==0):
+            groupIterator=groupIterator+1
+            matchedLengthOld=matchedLength
+            #currGroupString=(comparisonString[0:matchedLength]) 
+            
+        #Subsequent matching Cases
+        elif(matchedLengthOld==matchedLength):
+            groupIterator=groupIterator+1
+            matchedLengthOld=matchedLength
+            #currGroupString=(comparisonString[0:matchedLength]) 
+        
+        elif(matchedLength>=3):
+            groupIterator=groupIterator+1
+            matchedLengthOld=matchedLength
+            #currGroupString=(comparisonString[0:matchedLength])
+        #When the Matching case Terminates
+        elif(matchedLengthOld!=matchedLength and matchedLength<3):
+            
+            endingIdx=i
+            startingIdx=i-groupIterator
+            currGroupString=(referenceString[0:matchedLengthOld])
+            if(groupIterator==0):
+                currCustomGroup=(referenceString,startingIdx,endingIdx)
+            else:
+                currCustomGroup=(currGroupString,startingIdx,endingIdx)
+
+            
+            matchedLengthOld=matchedLength
+            runningMatchList.append(currCustomGroup)
+            referenceString=comparisonString
+
+            groupIterator=0
+            
+
+      
+        
+
+
+    return bodyslideCustomGroups
+
+#This function will take in a list of tuples of the format (Group,Outfit)
+#Return a list of tuples format (Group,ContainedOutfitCount) With each Group occuring once.
+def ListGroupsOutfitNumber(groupOutfitTupleList):
+    #init Variables
+    groupOutfitNumber=[]
+    referenceGroup=groupOutfitTupleList[0][0]
+    outfitCount=1
+
+    #Parse through the list of outfits and groups
+    for GroupOutfit in groupOutfitTupleList:
+        compareGroup=GroupOutfit[0]
+        if (referenceGroup==compareGroup):
+            outfitCount=outfitCount+1
+        else:
+            groupAndCount=(referenceGroup,outfitCount)
+            groupOutfitNumber.append(groupAndCount)
+            #Set the old reference to the compared group and reinitialize count
+            referenceGroup=compareGroup
+            outfitCount=1
+
+    #Append the Final Group and Count
+    groupAndCount=(referenceGroup,outfitCount)
+    groupOutfitNumber.append(groupAndCount)
+
+    return groupOutfitNumber
 
 def main():
     #Initialize Variables
@@ -297,6 +387,18 @@ def main():
     #++Writeout Status to console (Orignial Group # Final Group # Full Group List)
 
     #See if User wants to modify Groupings
+    modifyGroups=True
+
+    if(modifyGroups):
+
+        #Sort Groupings into a single Occurence List Of Tuples (Groupname,Outfits)
+        existingGroupsWithOutfitNumber=ListGroupsOutfitNumber(g_bodyslideNewGroupedOutfitsWGroup)
+        #Give Use Choices over Custom Groupings
+        customBodyslideGroupedOutfits=GroupingConcatenationByName(existingGroupsWithOutfitNumber)
+
+    else:
+        #Assign the Default grouping
+        customBodyslideGroupedOutfits=g_bodyslideNewGroupedOutfitsWGroup
       
     #Ask if user wants to generate a master list with all existing groups
 
@@ -304,7 +406,7 @@ def main():
 
     #Writeout Masterlist
 
-    TupleList2SliderGroupXML(g_bodyslideNewGroupedOutfitsWGroup,sliderGroupPath)
+    TupleList2SliderGroupXML(customBodyslideGroupedOutfits,sliderGroupPath)
 if __name__ == "__main__": 
   
     # calling main function 
