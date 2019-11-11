@@ -262,59 +262,51 @@ def GroupingConcatenationByName(tupleListIn):
     #String Comparison Variables
     referenceString=tupleListIn[0][0]
     #Set String for comparison
-    comparisonString=tupleListIn[0][0]
+    comparisonString=tupleListIn[1][0]
 
     #While loop terminating when i>length(tuplelist)
     while tupleIdx< len(tupleListIn):
+
         
 
         #Init SequenceMatcher
         SeqMatch=SequenceMatcher(None,comparisonString,referenceString)
 
         
-        
+        currGroupString=referenceString
         #Run Sequence Match and get the longest length
         matchedInfo=SeqMatch.find_longest_match(0,len(comparisonString),0,len(referenceString))
         matchedLength=matchedInfo[2]
 
-        
-        #Special case for individual entries or those that have the same starting character
-        if(matchedLength>0 and groupIterator==0):
-            #Custom Group String assigment
-            #Set most recent String Group
-            currGroupString=(referenceString[0:matchedLength])
-            matchedLengthOld=matchedLength
-            groupIterator=groupIterator+1
-            comparisonString=tupleListIn[tupleIdx+1][0]
+        #Transition to single matching condition
 
-        elif(matchedLength>2 ):
-            
-            matchedLengthOld=matchedLength
-            groupIterator=groupIterator+1
-            comparisonString=tupleListIn[tupleIdx+1][0]
-
-        elif(matchedLength<3 or matchedLength<=1 ):
+        if(matchedLength<3 ):
             #groupIterator=groupIterator+1
-            endingIdx=tupleIdx-1
-            startingIdx=tupleIdx-groupIterator
+            #endingIdx=tupleIdx-1
             
             
+            #Create Tuple and append
             currCustomGroup=(currGroupString,startingIdx,endingIdx)
 
             runningMatchList.append(currCustomGroup)
             #currGroupString=(comparisonString[0:matchedLength]) 
         
-            matchedLengthOld=matchedLength
+            #Reassign Starting Index
+            startingIdx=tupleIdx
             
             referenceString=comparisonString
             comparisonString=tupleListIn[tupleIdx][0]
             groupIterator=0
 
-        else:
-            comparisonString=tupleListIn[tupleIdx+1][0]
         
+        #Assign Ending ID:
+        endingIdx=tupleIdx
         #Iterate the counter
         tupleIdx=tupleIdx+1
+
+        #Assign the new Comparison String
+        if (tupleIdx != len(tupleListIn)):
+            comparisonString=tupleListIn[tupleIdx][0]
     return bodyslideCustomGroups
 
 
