@@ -315,17 +315,26 @@ def GroupingConcatenationByName(tupleListIn):
             runningMatchList.append(currCustomGroup)
     return bodyslideCustomGroups
 
-def consoleSelectHelper(inputGroup)
+def consoleSelectHelper(inputGroup):
     #init
     OutputGroups=[]
+
+    inputIdx=1
+    outfitTotal=0
     #Console Argument Count
     argc=0
 
     #Start Text Out
     #Writeout Group Layout
-    print("SuperGroup "+inputGroup[0]+" contains:")
+    print("SuperGroup "+inputGroup[0][0]+" contains SubGroups :")
     #List out subgroups and outfits in format: "GroupName-> #Outfits"
-    print("Initializing Group Selection:")
+
+    while inputIdx< len(inputGroup):
+        print("--> "+inputGroup[inputIdx][0]+" with "+inputGroup[inputIdx][1]+" Outfits")
+
+        #Add to total Outfit count
+        outfitTotal=outfitTotal+inputGroup[inputIdx][1]
+        inputIdx=inputIdx+1
 
     while (argc!=1):#Loop until only one argument is input
         
@@ -341,35 +350,28 @@ def consoleSelectHelper(inputGroup)
         selected = [int(x) for x in choices.split()]
 
         argc=len(selected)
-        if(argc>1)
+        if(argc>1):
             print("--------Please Select only one Option--------")
             print(" ")
 
        #Implement the selected Choice
 
-       int selectOption = selected[0]
+        selectOption = selected[0]
         
-        switch (selectOption) {
-            case 1:  
-                    #Keep
+        if(selectOption==1):
+            print("Option1")
+        elif(selectOption==2):
+            print("Option2")
+        elif(selectOption==3):
+            print("Option3")
 
-                     break;
-            case 2: #Rename
+
                     
-                     break;
-            case 3:  #Split
-                    
-                     break;
-
-
-    
-
-
     return OutputGroups
 
 #This Function will accept both the SupergroupRange Tuple(SupergroupName,Start,End) and sorted UngroupedOutift Lis: (Group, Outfit) 
 #Premade and an optional Custom group sort will be available for selection on the command line.
-def CustomGroupSelection(superGroupsWithRange,globalUngroupedList):
+def CustomGroupSelection(superGroupsWithRange,globalUngroupedList,GroupOutfitNumberList):
     #Initializations
     groupOutfitFocus=[]
     customGroupOutfitList=[]
@@ -380,7 +382,7 @@ def CustomGroupSelection(superGroupsWithRange,globalUngroupedList):
     for superGroup in superGroupsWithRange:
         groupOutfitFocus.clear()
         #CHECK THE NOTATION BELOW FOR CORRECT PERFORMANCE
-        groupOutfitFocus=globalUngroupedList[superGroup[1]:superGroup[2]+1]
+        groupOutfitFocus=GroupOutfitNumberList[superGroup[1]:superGroup[2]+1]
         consoleSelectedGroups=consoleSelectHelper(groupOutfitFocus)
         #Add the selected groupings to the ouput Grouplist
         
@@ -474,7 +476,7 @@ def main():
         #Prep List for custom group selector
         presortedGroupsWithRange=GroupingConcatenationByName(existingGroupsWithOutfitNumber)
         #Console Outfit Group Selector
-        customBodyslideGroupedOutfits=CustomGroupSelection(presortedGroupsWithRange,g_bodyslideNewGroupedOutfitsWGroup)
+        customBodyslideGroupedOutfits=CustomGroupSelection(presortedGroupsWithRange,existingGroupsWithOutfitNumber,g_bodyslideNewGroupedOutfitsWGroup)
     else:
         #Assign the Default grouping
         customBodyslideGroupedOutfits=g_bodyslideNewGroupedOutfitsWGroup
