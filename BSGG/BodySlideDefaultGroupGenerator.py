@@ -313,7 +313,7 @@ def GroupingConcatenationByName(tupleListIn):
             currCustomGroup=(currGroupString,startingIdx,len(tupleListIn)-1)
 
             runningMatchList.append(currCustomGroup)
-    return bodyslideCustomGroups
+    return runningMatchList
 
 def consoleSelectHelper(inputGroup):
     #init
@@ -330,7 +330,7 @@ def consoleSelectHelper(inputGroup):
     #List out subgroups and outfits in format: "GroupName-> #Outfits"
 
     while inputIdx< len(inputGroup):
-        print("--> "+inputGroup[inputIdx][0]+" with "+inputGroup[inputIdx][1]+" Outfits")
+        print("--> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
 
         #Add to total Outfit count
         outfitTotal=outfitTotal+inputGroup[inputIdx][1]
@@ -356,7 +356,7 @@ def consoleSelectHelper(inputGroup):
 
        #Implement the selected Choice
 
-        selectOption = selected[0]
+        selectOption = str(selected[0])
         
         if(selectOption==1):
             print("Option1")
@@ -364,7 +364,8 @@ def consoleSelectHelper(inputGroup):
             print("Option2")
         elif(selectOption==3):
             print("Option3")
-
+        else:
+            print("--------Improper Input Detected--------------")
 
                     
     return OutputGroups
@@ -476,7 +477,7 @@ def main():
         #Prep List for custom group selector
         presortedGroupsWithRange=GroupingConcatenationByName(existingGroupsWithOutfitNumber)
         #Console Outfit Group Selector
-        customBodyslideGroupedOutfits=CustomGroupSelection(presortedGroupsWithRange,existingGroupsWithOutfitNumber,g_bodyslideNewGroupedOutfitsWGroup)
+        customBodyslideGroupedOutfits=CustomGroupSelection(presortedGroupsWithRange, g_bodyslideNewGroupedOutfitsWGroup,existingGroupsWithOutfitNumber)
     else:
         #Assign the Default grouping
         customBodyslideGroupedOutfits=g_bodyslideNewGroupedOutfitsWGroup
