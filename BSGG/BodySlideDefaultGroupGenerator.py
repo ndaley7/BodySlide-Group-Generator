@@ -315,11 +315,16 @@ def GroupingConcatenationByName(tupleListIn):
             runningMatchList.append(currCustomGroup)
     return runningMatchList
 
+
+
+#Accpets a (Group, OutfitCount) tuple to be assigned a supergroup
+#Outputs a (Supergrout,Subgroup,outfitCount) Tuple List With the finalzied group Conversions
 def consoleSelectHelper(inputGroup):
     #init
-    OutputGroups=[]
-
-    inputIdx=1
+    OutputGroupConvertions=[]
+    subgroupList=[i[0] for i in inputGroup]
+    superGroupName=str(inputGroup[0][0])
+    inputIdx=0
     outfitTotal=0
     #Console Argument Count
     argc=0
@@ -327,14 +332,17 @@ def consoleSelectHelper(inputGroup):
     #Start Text Out
     #Writeout Group Layout
     print("SuperGroup "+inputGroup[0][0]+" contains SubGroups :")
+    
     #List out subgroups and outfits in format: "GroupName-> #Outfits"
-
-    while inputIdx< len(inputGroup):
-        print("--> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
+    while inputIdx<len(inputGroup):
+        print("( "+str(inputIdx)+" )-> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
 
         #Add to total Outfit count
         outfitTotal=outfitTotal+inputGroup[inputIdx][1]
         inputIdx=inputIdx+1
+
+    #Total Outfit Printout    
+    print(" Total of "+ str(outfitTotal) +" Outfits")
 
     while (argc!=1):#Loop until only one argument is input
         
@@ -358,17 +366,35 @@ def consoleSelectHelper(inputGroup):
 
         selectOption = str(selected[0])
         
-        if(selectOption==1):
-            print("Option1")
-        elif(selectOption==2):
-            print("Option2")
-        elif(selectOption==3):
+        if(selectOption==str(1)):#Keep the Super Group name as is
+            print("Assigning SubGroups")
+
+            #Reassign all subgroup names to match the supergroup:
+            for groupTuple in inputGroup:
+                conversionTuple=(superGroupName,groupTuple[0],groupTuple[1])
+                OutputGroupConvertions.append(conversionTuple)
+
+
+
+        elif(selectOption==str(2)):#Keep the Super Group name as is
+            print("Renaming")
+            nameAlternate = str(input('Type Alternate name: '))
+            #CHECK THIS:  Does it fix weird character entry in the console
+            selectedName=''.join(e for e in nameAlternate if e.isalnum())
+
+            #Reassign all subgroup names to match the supergroup:
+            for groupTuple in inputGroup:
+                conversionTuple=(selectedName,groupTuple[0],outfitTotal)
+                OutputGroupConvertions.append(conversionTuple)
+
+        elif(selectOption==str(3)): #Split into multiple supergroups
             print("Option3")
+            print("Split Functionality Currently in progress")
         else:
             print("--------Improper Input Detected--------------")
 
                     
-    return OutputGroups
+    return OutputGroupConvertions
 
 #This Function will accept both the SupergroupRange Tuple(SupergroupName,Start,End) and sorted UngroupedOutift Lis: (Group, Outfit) 
 #Premade and an optional Custom group sort will be available for selection on the command line.
@@ -377,17 +403,32 @@ def CustomGroupSelection(superGroupsWithRange,globalUngroupedList,GroupOutfitNum
     groupOutfitFocus=[]
     customGroupOutfitList=[]
     #Running Indeces
-    
+    ungroupedIdx=0
     print("Initializing Group Selection:")
     #Loop going through the superGroup list
     for superGroup in superGroupsWithRange:
         groupOutfitFocus.clear()
         #CHECK THE NOTATION BELOW FOR CORRECT PERFORMANCE
         groupOutfitFocus=GroupOutfitNumberList[superGroup[1]:superGroup[2]+1]
-        consoleSelectedGroups=consoleSelectHelper(groupOutfitFocus)
+        groupConverstionTupleList=consoleSelectHelper(groupOutfitFocus)
+
+        #Find total amount of Outfits
+        subgroupList=[i[2] for i in groupConverstionTupleList]
+        outfitTotal=sum(subgroupList)
+        #Parse the globalUngroupedList and convert the groups specified.
+         
+        for conversionTuple in groupConverstionTupleList:
+            ungroupedIdx=0
+            for conversionIdx in range(0,conversionTuple[2]+1):
+                
+
+                customNameOutfit=(conversionTuple[0],globalUngroupedList[ungroupedIdx][1])
+                customGroupOutfitList.append(customNameOutfit)
+                ungroupedIdx=ungroupedIdx+1
+
         #Add the selected groupings to the ouput Grouplist
         
-        customGroupOutfitList.extend(consoleSelectedGroups)
+        #customGroupOutfitList=globalUngroupedList
 
         
     return customGroupOutfitList
