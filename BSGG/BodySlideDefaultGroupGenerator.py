@@ -366,7 +366,7 @@ def consoleSelectHelper(inputGroup):
 
         selectOption = str(selected[0])
         
-        if(selectOption==str(1)):#Keep the Super Group name as is
+        if(selectOption==str(1)):#Keep
             print("Assigning SubGroups")
 
             #Reassign all subgroup names to match the supergroup:
@@ -376,7 +376,7 @@ def consoleSelectHelper(inputGroup):
 
 
 
-        elif(selectOption==str(2)):#Keep the Super Group name as is
+        elif(selectOption==str(2)):#Rename
             print("Renaming")
             nameAlternate = str(input('Type Alternate name: '))
             #CHECK THIS:  Does it fix weird character entry in the console
@@ -418,8 +418,8 @@ def CustomGroupSelection(superGroupsWithRange,globalUngroupedList,GroupOutfitNum
         #Parse the globalUngroupedList and convert the groups specified.
          
         for conversionTuple in groupConverstionTupleList:
-            ungroupedIdx=0
-            for conversionIdx in range(0,conversionTuple[2]+1):
+            #ungroupedIdx=0
+            for conversionIdx in range(0,conversionTuple[2]):
                 
 
                 customNameOutfit=(conversionTuple[0],globalUngroupedList[ungroupedIdx][1])
@@ -441,7 +441,7 @@ def ListGroupsOutfitNumber(groupOutfitTupleList):
     #init Variables
     groupOutfitNumber=[]
     referenceGroup=groupOutfitTupleList[0][0]
-    outfitCount=1
+    outfitCount=0
 
     #Parse through the list of outfits and groups
     for GroupOutfit in groupOutfitTupleList:
