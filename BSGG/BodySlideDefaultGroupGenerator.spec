@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['BodySlideDefaultGroupGenerator.py'],
-             pathex=['C:\\Users\\ndaley\\Documents\\GitHub\\BodySlide-Group-Generator\\.venv35\\Lib\\site-packages', 'C:\\Users\\ndaley\\Documents\\GitHub\\BodySlide-Group-Generator\\BSGG'],
+             pathex=['C:\\Users\\ndaley\\Documents\\GitHub\\BodySlide-Group-Generator\\bsgg'],
              binaries=[],
              datas=[],
              hiddenimports=[],

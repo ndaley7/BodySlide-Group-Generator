@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SliderGroupGeneratorConfig>	
-<!-- use installed texture files as the source textures by default.  convenience setting.  set to 1 to 
-have TexBlend look in its local repository for source textures, set to 0 to get them from the game data folder -->
+<!-- Set the path to your SliderGroups folder within the Data CalienteTools Bodyslide Folder-->
 <SliderGroupsPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/Sample/SliderGroups/</SliderGroupsPath>
-<!-- Alpha matte for previewing modification textures with transparency.  The transparent parts will be set 
-to this color when the image is displayed on the preview.  Possible values: white or black -->
+<!-- Set the path to your SliderSets group within the Data CalienteTools Bodyslide Folder-->
 <SliderSetPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/Sample/SliderSets/</SliderSetPath>	
 <VerboseLogging>0</VerboseLogging>
 <!-- s -->

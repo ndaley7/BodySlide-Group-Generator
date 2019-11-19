@@ -32,11 +32,14 @@ import glob
 import csv 
 import requests
 #import lxml
-
+import lxml.etree as ET
+#import difflib
+from difflib import SequenceMatcher
 #Import Functions
+
 #from .UtilitiesBSGG.FileListing import GetFileList
  
-import lxml.etree as ET
+
 #parser = ET.XMLParser(encoding="utf-8")
 #tree = ET.fromstring(xmlstring, parser=parser)
 
@@ -240,14 +243,223 @@ def ConfigureConfigBSGGXML():
     assert os.path.isdir(sliderSetInput), "SliderSets folder not detected at, "+str(sliderSetInput)
     print("SliderGroup Folder Good!")
 
-    
+
 #This Function will take in the List of Tuple (Group, Outfit) and provide addiitonal sorting options for the outfits
 #For now, group selection will be implemented by through input on the command line
 def GroupingConcatenationByName(tupleListIn):
-    #Placeholder
-    for i, val in enumerate(tupleListIn):
-        testint=5
+    #Initializations
+    bodyslideCustomGroups=[]
+    runningMatchList=[]
+    referenceString=tupleListIn[0][0]
+    #Running Indeces
+    tupleIdx=0
+    startingIdx=0
+    endingIdx=0
+    groupIterator=0
+    #String Compare
+    matchedLengthOld=0
 
+    #String Comparison Variables
+    referenceString=tupleListIn[0][0]
+    #Set String for comparison
+    comparisonString=tupleListIn[1][0]
+
+    #While loop terminating when i>length(tuplelist)
+    while tupleIdx< len(tupleListIn):
+
+        
+
+        #Init SequenceMatcher
+        SeqMatch=SequenceMatcher(None,comparisonString,referenceString)
+
+        
+        currGroupString=referenceString
+        #Run Sequence Match and get the longest length
+        matchedInfo=SeqMatch.find_longest_match(0,len(comparisonString),0,len(referenceString))
+        matchedLength=matchedInfo[2]
+
+        #Transition to single matching condition
+
+        if(matchedLength<3 ):
+            #groupIterator=groupIterator+1
+            #endingIdx=tupleIdx-1
+            
+            
+            #Create Tuple and append
+            currCustomGroup=(currGroupString,startingIdx,endingIdx)
+
+            runningMatchList.append(currCustomGroup)
+            #currGroupString=(comparisonString[0:matchedLength]) 
+        
+            #Reassign Starting Index
+            startingIdx=tupleIdx
+            
+            referenceString=comparisonString
+            comparisonString=tupleListIn[tupleIdx][0]
+            groupIterator=0
+
+        
+        #Assign Ending ID:
+        endingIdx=tupleIdx
+        #Iterate the counter
+        tupleIdx=tupleIdx+1
+
+        #Assign the new Comparison String
+        if (tupleIdx != len(tupleListIn)):
+            comparisonString=tupleListIn[tupleIdx][0]
+        #This is the case for the finall item in the list to be read in.    
+        else:
+            #Create Tuple and append
+            currCustomGroup=(currGroupString,startingIdx,len(tupleListIn)-1)
+
+            runningMatchList.append(currCustomGroup)
+    return runningMatchList
+
+
+
+#Accpets a (Group, OutfitCount) tuple to be assigned a supergroup
+#Outputs a (Supergrout,Subgroup,outfitCount) Tuple List With the finalzied group Conversions
+def consoleSelectHelper(inputGroup):
+    #init
+    OutputGroupConvertions=[]
+    subgroupList=[i[0] for i in inputGroup]
+    superGroupName=str(inputGroup[0][0])
+    inputIdx=0
+    outfitTotal=0
+    #Console Argument Count
+    argc=0
+
+    #Start Text Out
+    #Writeout Group Layout
+    print("SuperGroup "+inputGroup[0][0]+" contains SubGroups :")
+    
+    #List out subgroups and outfits in format: "GroupName-> #Outfits"
+    while inputIdx<len(inputGroup):
+        print("( "+str(inputIdx)+" )-> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
+
+        #Add to total Outfit count
+        outfitTotal=outfitTotal+inputGroup[inputIdx][1]
+        inputIdx=inputIdx+1
+
+    #Total Outfit Printout    
+    print(" Total of "+ str(outfitTotal) +" Outfits")
+
+    while (argc!=1):#Loop until only one argument is input
+        
+
+
+        print("Would you like to:")
+        print(" ")
+        print("( 1 ): Keep SuperGroup As Is")
+        print("( 2 ): Rename This SuperGroup")
+        print("( 3 ): Split SuperGroup")
+
+        choices = input('Select one Option: ')
+        selected = [int(x) for x in choices.split()]
+
+        argc=len(selected)
+        if(argc>1):
+            print("--------Please Select only one Option--------")
+            print(" ")
+
+       #Implement the selected Choice
+
+        selectOption = str(selected[0])
+        
+        if(selectOption==str(1)):#Keep
+            print("Assigning SubGroups")
+
+            #Reassign all subgroup names to match the supergroup:
+            for groupTuple in inputGroup:
+                conversionTuple=(superGroupName,groupTuple[0],groupTuple[1])
+                OutputGroupConvertions.append(conversionTuple)
+
+
+
+        elif(selectOption==str(2)):#Rename
+            print("Renaming")
+            nameAlternate = str(input('Type Alternate name: '))
+            #CHECK THIS:  Does it fix weird character entry in the console
+            selectedName=''.join(e for e in nameAlternate if e.isalnum())
+
+            #Reassign all subgroup names to match the supergroup:
+            for groupTuple in inputGroup:
+                conversionTuple=(selectedName,groupTuple[0],outfitTotal)
+                OutputGroupConvertions.append(conversionTuple)
+
+        elif(selectOption==str(3)): #Split into multiple supergroups
+            print("Option3")
+            print("Split Functionality Currently in progress")
+        else:
+            print("--------Improper Input Detected--------------")
+
+                    
+    return OutputGroupConvertions
+
+#This Function will accept both the SupergroupRange Tuple(SupergroupName,Start,End) and sorted UngroupedOutift Lis: (Group, Outfit) 
+#Premade and an optional Custom group sort will be available for selection on the command line.
+def CustomGroupSelection(superGroupsWithRange,globalUngroupedList,GroupOutfitNumberList):
+    #Initializations
+    groupOutfitFocus=[]
+    customGroupOutfitList=[]
+    #Running Indeces
+    ungroupedIdx=0
+    print("Initializing Group Selection:")
+    #Loop going through the superGroup list
+    for superGroup in superGroupsWithRange:
+        groupOutfitFocus.clear()
+        #CHECK THE NOTATION BELOW FOR CORRECT PERFORMANCE
+        groupOutfitFocus=GroupOutfitNumberList[superGroup[1]:superGroup[2]+1]
+        groupConverstionTupleList=consoleSelectHelper(groupOutfitFocus)
+
+        #Find total amount of Outfits
+        subgroupList=[i[2] for i in groupConverstionTupleList]
+        outfitTotal=sum(subgroupList)
+        #Parse the globalUngroupedList and convert the groups specified.
+         
+        for conversionTuple in groupConverstionTupleList:
+            #ungroupedIdx=0
+            for conversionIdx in range(0,conversionTuple[2]):
+                
+
+                customNameOutfit=(conversionTuple[0],globalUngroupedList[ungroupedIdx][1])
+                customGroupOutfitList.append(customNameOutfit)
+                ungroupedIdx=ungroupedIdx+1
+
+        #Add the selected groupings to the ouput Grouplist
+        
+        #customGroupOutfitList=globalUngroupedList
+
+        
+    return customGroupOutfitList
+
+
+
+#This function will take in a list of tuples of the format (Group,Outfit)
+#Return a list of tuples format (Group,ContainedOutfitCount) With each Group occuring once.
+def ListGroupsOutfitNumber(groupOutfitTupleList):
+    #init Variables
+    groupOutfitNumber=[]
+    referenceGroup=groupOutfitTupleList[0][0]
+    outfitCount=0
+
+    #Parse through the list of outfits and groups
+    for GroupOutfit in groupOutfitTupleList:
+        compareGroup=GroupOutfit[0]
+        if (referenceGroup==compareGroup):
+            outfitCount=outfitCount+1
+        else:
+            groupAndCount=(referenceGroup,outfitCount)
+            groupOutfitNumber.append(groupAndCount)
+            #Set the old reference to the compared group and reinitialize count
+            referenceGroup=compareGroup
+            outfitCount=1
+
+    #Append the Final Group and Count
+    groupAndCount=(referenceGroup,outfitCount)
+    groupOutfitNumber.append(groupAndCount)
+
+    return groupOutfitNumber
 
 def main():
     #Initialize Variables
@@ -293,10 +505,23 @@ def main():
     #Sort List
     g_bodyslideNewGroupedOutfitsWGroup.sort()
     print("simple sort")
-    print(g_bodyslideNewGroupedOutfitsWGroup)
+    #print(g_bodyslideNewGroupedOutfitsWGroup)
     #++Writeout Status to console (Orignial Group # Final Group # Full Group List)
 
     #See if User wants to modify Groupings
+    modifyGroups=True
+
+    if(modifyGroups):
+
+        #Sort Groupings into a single Occurence List Of Tuples (Groupname,Outfits)
+        existingGroupsWithOutfitNumber=ListGroupsOutfitNumber(g_bodyslideNewGroupedOutfitsWGroup)
+        #Prep List for custom group selector
+        presortedGroupsWithRange=GroupingConcatenationByName(existingGroupsWithOutfitNumber)
+        #Console Outfit Group Selector
+        customBodyslideGroupedOutfits=CustomGroupSelection(presortedGroupsWithRange, g_bodyslideNewGroupedOutfitsWGroup,existingGroupsWithOutfitNumber)
+    else:
+        #Assign the Default grouping
+        customBodyslideGroupedOutfits=g_bodyslideNewGroupedOutfitsWGroup
       
     #Ask if user wants to generate a master list with all existing groups
 
@@ -304,7 +529,7 @@ def main():
 
     #Writeout Masterlist
 
-    TupleList2SliderGroupXML(g_bodyslideNewGroupedOutfitsWGroup,sliderGroupPath)
+    TupleList2SliderGroupXML(customBodyslideGroupedOutfits,sliderGroupPath)
 if __name__ == "__main__": 
   
     # calling main function 
