@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SliderGroupGeneratorConfig>	
-<<!-- Set the path to your SliderGroups folder within the Data CalienteTools Bodyslide Folder-->
+<!-- Set the path to your SliderGroups folder within the Data CalienteTools Bodyslide Folder-->
+<!-- Make Sure to use forward slashes in the path  like C:/folder/folder ect-->
 <SliderGroupsPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/Sample/SliderGroups/</SliderGroupsPath>
 <!-- Set the path to your SliderSets group within the Data CalienteTools Bodyslide Folder-->
 <SliderSetPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/Sample/SliderSets/</SliderSetPath>	

@@ -35,6 +35,9 @@ import requests
 import lxml.etree as ET
 #import difflib
 from difflib import SequenceMatcher
+
+#import django for encoding issues
+from django.utils.encoding import smart_str
 #Import Functions
 
 #from .UtilitiesBSGG.FileListing import GetFileList
@@ -51,7 +54,9 @@ g_bodyslideNewGroupedOutfitsWGroup=[]
 g_xmlEncodingString="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 
 g_utf8_parser = ET.XMLParser(encoding='utf-8')
-g_unicode_parser = ET.XMLParser(encoding='cp1252',ns_clean=True, recover=True)
+g_latin1_parser = ET.XMLParser(encoding='latin1')
+g_unicode_parser = ET.XMLParser(encoding='cp1252')
+#g_unicode_parser = ET.XMLParser(encoding='cp1252',ns_clean=True, recover=True)
 #Accepts an XML format file with full path and checks for the presence of the XML encoding at the beginning of the document.
 #Assuming encoding: for windows 10
 def XMLEncodingConfirm(checkFile):
@@ -63,9 +68,9 @@ def XMLEncodingConfirm(checkFile):
         f.close()
     else:
         f.close()
-        with open(checkFile, 'r', encoding="cp1252") as original: data = original.read()
-        #with open(checkFile, 'w', encoding="cp1252") as modified: modified.write(g_xmlEncodingString+"\n" + data)
-        with open(checkFile, 'w', encoding="utf-8") as modified: modified.write(data)
+        with open(checkFile, 'r', encoding="latin-1") as original: data = original.read()
+        modstring=smart_str(data,encoding='utf-8')
+        with open(checkFile, 'w', encoding="utf-8") as modified: modified.write(modstring)
 
     #Check for the presence of double hyphens "--" in the comments:
 
@@ -79,9 +84,10 @@ def XMLEncodingConfirm(checkFile):
     newdata3 = newdata2.replace("xx>","-->")
     newdata3a = newdata3.replace("<!xx","<!--")
     newdata3b = newdata3a.replace("--->","-->")
+    newdata4 = newdata3b.replace("&#x03","") #Incompatible XML string
 
     f = open(checkFile,'w')
-    f.write(newdata3b)
+    f.write(newdata4)
     f.close()
 
 def GetFileList(filePath,fileExtension):
@@ -158,6 +164,7 @@ def ParseSliderSet(fileWithPath,fileName):
 
     #Load in XML Tree 
     #tree = ET.parse(fileWithPath,g_unicode_parser)
+    #tree = ET.parse(fileWithPath, parser=g_latin1_parser)  
     tree = ET.parse(fileWithPath, ET.XMLParser(ns_clean=True, recover=True))  
     #root = tree.getroot()
     root = tree.getroot()
@@ -326,41 +333,40 @@ def consoleSelectHelper(inputGroup):
     superGroupName=str(inputGroup[0][0])
     inputIdx=0
     outfitTotal=0
+    selectOption='0'
     #Console Argument Count
     argc=0
 
-    #Start Text Out
-    #Writeout Group Layout
-    print("SuperGroup "+inputGroup[0][0]+" contains SubGroups :")
     
-    #List out subgroups and outfits in format: "GroupName-> #Outfits"
-    while inputIdx<len(inputGroup):
-        print("( "+str(inputIdx)+" )-> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
 
-        #Add to total Outfit count
-        outfitTotal=outfitTotal+inputGroup[inputIdx][1]
-        inputIdx=inputIdx+1
-
-    #Total Outfit Printout    
-    print(" Total of "+ str(outfitTotal) +" Outfits")
-
-    while (argc!=1):#Loop until only one argument is input
+    while (selectOption!=str(1) and selectOption!=str(2) and selectOption!=str(3)):#Loop until only one argument is input
         
+        #Start Text Out
+        #Writeout Group Layout
+        print("SuperGroup "+inputGroup[0][0]+" contains SubGroups :")
+    
+        #List out subgroups and outfits in format: "GroupName-> #Outfits"
+        while inputIdx<len(inputGroup):
+            print("( "+str(inputIdx)+" )-> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
 
+            #Add to total Outfit count
+            outfitTotal=outfitTotal+inputGroup[inputIdx][1]
+            inputIdx=inputIdx+1
 
+        #Total Outfit Printout    
+        print(" Total of "+ str(outfitTotal) +" Outfits")
+        print(" ")
+        print(" ")
         print("Would you like to:")
         print(" ")
         print("( 1 ): Keep SuperGroup As Is")
         print("( 2 ): Rename This SuperGroup")
         print("( 3 ): Split SuperGroup")
 
-        choices = input('Select one Option: ')
-        selected = [int(x) for x in choices.split()]
+        choices = input('Selected Option: ')
+        selected = [x for x in choices.split()]
 
-        argc=len(selected)
-        if(argc>1):
-            print("--------Please Select only one Option--------")
-            print(" ")
+        
 
        #Implement the selected Choice
 
@@ -384,14 +390,33 @@ def consoleSelectHelper(inputGroup):
 
             #Reassign all subgroup names to match the supergroup:
             for groupTuple in inputGroup:
-                conversionTuple=(selectedName,groupTuple[0],outfitTotal)
+                conversionTuple=(selectedName,groupTuple[0],groupTuple[1])
                 OutputGroupConvertions.append(conversionTuple)
 
         elif(selectOption==str(3)): #Split into multiple supergroups
             print("Option3")
             print("Split Functionality Currently in progress")
         else:
+            print(" ")
             print("--------Improper Input Detected--------------")
+        
+
+            argc=len(selected)
+            if(argc>1):
+                print("--------Please Select only one Option--------")
+                print(" ")
+
+        #Spacing to Leave a gap in terminal
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
 
                     
     return OutputGroupConvertions
