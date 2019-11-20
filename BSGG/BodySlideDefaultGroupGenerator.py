@@ -37,7 +37,7 @@ import lxml.etree as ET
 from difflib import SequenceMatcher
 
 #Tk
-from Tkinter import filedialog
+
 
 #import django for encoding issues
 from django.utils.encoding import smart_str
@@ -45,6 +45,7 @@ from django.utils.encoding import smart_str
 from ParsingBSGG.XMLParsing import LoadConfigXML
 
 from UtilitiesBSGG.ConsoleSelection import ConsoleSelectHelper
+from UtilitiesBSGG.UITkSelection import CreateConfigBSGGXML
 
 #from .UtilitiesBSGG.FileListing import GetFileList
  
@@ -383,14 +384,15 @@ def main():
     sliderSetXMLPaths=[]
     sliderSetOSPPaths=[]
 
-    #Check for the existance of a Config.xml file
-    configExists=os.path.exists('Config.xml')
+    #Check for the existance of a ConfigBSGG.xml file
+    configExists=os.path.exists('ConfigBSGG.xml')
     if configExists:
-        print("Config.xml Detected")
+        print("ConfigBSGG.xml Detected")
     else:
-        print("Config.xml Not Detected.  Running Configurator")
+        print("ConfigBSGG.xml Not Detected.  Running Configurator")
+        CreateConfigBSGGXML()
     #Load Config File
-    bodyslidePaths=LoadConfigXML('Config.xml')
+    bodyslidePaths=LoadConfigXML('ConfigBSGG.xml')
 
     #Store SliderGroups and SliderSet Paths
     sliderGroupPath=bodyslidePaths[0]
@@ -452,10 +454,10 @@ if __name__ == "__main__":
     main() 
 
     #Errors to Try and Catch:
-    #Check for the Presence of Config.xml and ask questions to create it if it doesnt exist.
+    #Check for the Presence of ConfigBSGG.xml and ask questions to create it if it doesnt exist.
     #Wrong Set folder location (Check for detection of Set format xml/osp files)
     #Wrong Group folder location (Check for detection of Set format xml files)
-    #Check for Presence of the above paths in config.xml, if not present, ask for them
+    #Check for Presence of the above paths in ConfigBSGG.xml, if not present, ask for them
     #Check for Presence of Masterlist
 
 
