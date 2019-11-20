@@ -36,6 +36,9 @@ import lxml.etree as ET
 #import difflib
 from difflib import SequenceMatcher
 
+#Tk
+from Tkinter import filedialog
+
 #import django for encoding issues
 from django.utils.encoding import smart_str
 #Local Application Imports
