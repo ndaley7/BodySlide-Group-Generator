@@ -37,7 +37,7 @@ from tkinter import Tk
 
 
 #Local Application Imports
-from ParsingBSGG.XMLIO import CreateConfigBSGGXML
+from ..ParsingBSGG.XMLIO import CreateConfigBSGGXML
 
 #root = Tk()
 
