@@ -42,10 +42,10 @@ from difflib import SequenceMatcher
 #import django for encoding issues
 from django.utils.encoding import smart_str
 #Local Application Imports
-from ParsingBSGG.XMLParsing import LoadConfigXML
+from ParsingBSGG.XMLIO import LoadConfigXML
 
 from UtilitiesBSGG.ConsoleSelection import ConsoleSelectHelper
-from UtilitiesBSGG.UITkSelection import CreateConfigBSGGXML
+from UtilitiesBSGG.UITkSelection import BodySlidePathSelect
 
 #from .UtilitiesBSGG.FileListing import GetFileList
  
@@ -390,7 +390,7 @@ def main():
         print("ConfigBSGG.xml Detected")
     else:
         print("ConfigBSGG.xml Not Detected.  Running Configurator")
-        CreateConfigBSGGXML()
+        BodySlidePathSelect()
     #Load Config File
     bodyslidePaths=LoadConfigXML('ConfigBSGG.xml')
 

@@ -1,0 +1,7 @@
+<SliderGroupGeneratorConfig>
+  <SliderGroupsPath>F:/BodySlide/SliderGroups</SliderGroupsPath>
+  <SliderSetsPath>F:/BodySlide/SliderSets</SliderSetsPath>
+  <SliderCategoriesPath>F:/BodySlide/SliderCategories</SliderCategoriesPath>
+  <SliderPresetsPath>F:/BodySlide/SliderPresets</SliderPresetsPath>
+  <EnableDebugBSGG>True</EnableDebugBSGG>
+</SliderGroupGeneratorConfig>
