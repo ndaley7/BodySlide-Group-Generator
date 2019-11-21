@@ -47,4 +47,6 @@ This is a short Python Script to compare installed BS outfits and automatically 
 |requests| - | - |
 |GPU| - | - |
 
+Example Build Command (VSCODE)
 
+C:\....\BodySlide-Group-Generator> C:\....\.venv35\Scripts\pyinstaller.exe --onefile cli.py --name BSGG
