@@ -37,7 +37,7 @@ from tkinter import Tk
 
 
 #Local Application Imports
-from ..ParsingBSGG.XMLIO import CreateConfigBSGGXML
+from ..ParsingBSGG.XMLIO import CreateConfigBSCGXML
 
 #root = Tk()
 
@@ -75,10 +75,10 @@ def BodySlidePathSelect():
             bodyslideDirFound=True
 
             #Check for Desired Error Log Status
-            enableErrorLogging=messagebox.askyesno("Attn","Would you like to enable Debug Logging?")
+            enableErrorLogging=messagebox.askyesno("BodySlide Custom Grouper","Would you like to enable Debug Logging?")
 
             #Create the ConfigBSGG.xml file
-            CreateConfigBSGGXML(filename,enableErrorLogging)
+            CreateConfigBSCGXML(filename,enableErrorLogging)
             stringhold="placeholder"
         else:
             stringplace="placeholder"

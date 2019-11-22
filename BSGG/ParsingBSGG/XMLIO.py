@@ -32,7 +32,7 @@ import lxml.etree as ET
 #Abbreviated Version of the disclaimer
 liscenceAbbrev='placeholder'
 
-def CreateConfigBSGGXML(bodyslideFilepath,debugLogStatus):
+def CreateConfigBSCGXML(bodyslideFilepath,debugLogStatus):
     #Intiate Root
     rootConfigXML=ET.Element('SliderGroupGeneratorConfig')
     pathComment = ET.Comment('File paths for the Bodyslide folders important to this tool. \n Note they all use / end with an occurence of /')
@@ -54,7 +54,7 @@ def CreateConfigBSGGXML(bodyslideFilepath,debugLogStatus):
     
     #Write out the XML file
     my_tree = ET.ElementTree(rootConfigXML)
-    with open('ConfigBSGG.xml','wb') as f: ## Write document to file
+    with open('ConfigBSCG.xml','wb') as f: ## Write document to file
         f.write(ET.tostring(my_tree,pretty_print=True))
 
 def LoadConfigXML(configFile): 

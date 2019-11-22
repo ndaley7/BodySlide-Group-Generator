@@ -228,8 +228,8 @@ def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
         #ET.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
 
 
-#This function will configure a ConfigBSGG.xml file by asking the user questions on the command line
-#Afterwards it will save a 'ConfigBSGG.xml' file in the same directory  as the executeable.
+#This function will configure a ConfigBSCG.xml file by asking the user questions on the command line
+#Afterwards it will save a 'ConfigBSCG.xml' file in the same directory  as the executeable.
 def ConfigureConfigBSGGXML():
     #Ask for both SliderGroup and SliderSet folders
     sliderGroupInput=input("Please type in the path to SliderGroups Folder:")
@@ -380,23 +380,23 @@ def ListGroupsOutfitNumber(groupOutfitTupleList):
     return groupOutfitNumber
 
 def main():
-    print("BSGG Startup.....")
-    print("Checking for ConfigBSGG.xml.....")
+    print("BsCG x64 Startup.....")
+    print("Checking for ConfigBSCG.xml.....")
     print("")
     #Initialize Variables
     bodyslidePaths=[]
     sliderSetXMLPaths=[]
     sliderSetOSPPaths=[]
 
-    #Check for the existance of a ConfigBSGG.xml file
-    configExists=os.path.exists('ConfigBSGG.xml')
+    #Check for the existance of a ConfigBSCG.xml file
+    configExists=os.path.exists('ConfigBSCG.xml')
     if configExists:
-        print("ConfigBSGG.xml Detected")
+        print("ConfigBSCG.xml Detected")
     else:
-        print("ConfigBSGG.xml Not Detected.  Running Configurator")
+        print("ConfigBSCG.xml Not Detected.  Running Configurator")
         BodySlidePathSelect()
     #Load Config File
-    bodyslidePaths=LoadConfigXML('ConfigBSGG.xml')
+    bodyslidePaths=LoadConfigXML('ConfigBSCG.xml')
 
     #Store SliderGroups and SliderSet Paths
     sliderGroupPath=bodyslidePaths[0]
