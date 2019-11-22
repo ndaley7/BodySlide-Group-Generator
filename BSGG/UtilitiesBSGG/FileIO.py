@@ -31,6 +31,9 @@ import os
 import glob
 
 from shutil import copy2 #So metadata is copied as well
+#Local Imports
+from .UtilitiesBSGG.UITkSelection import CustomYesNoCancel
+from .UtilitiesBSGG.UITkSelection import CustomYesNo
 
 #Returns a List of files within the specified filePath with specified fileExtension
 def GetFileList(filePath,fileExtension):
@@ -99,7 +102,45 @@ def SliderSetBackup(sliderPath):
         print("")
         print("")
 
+#Checks for existing MasterListX.xml files
+#Offers option to Delete existing ones or create another with a higher iterator
+def MasterListCheck(sliderGroupPath):
+    #Variables
+    AvailableMasterList=False
+    masterListIterator=0
 
+    #List all MasterListX.xml files
+    originalListXML=GetFileList(sliderPath,"MasterList*.xml")
+
+    if(len(originalListXML)==0):
+        #DEBUG: No existing MasterLists detected
+        masterListNumber=0
+    elif(len(originalListXML)>0):
+        #Ask YN for additional list creation
+        mListAdditionalYN=CustomYesNoCancel("BodySlide Custom Grouper","MasterList(s) Detected. \n Make Additional List?")
+        if(mListAdditionalYN=True):
+            #Search for Available modifying number and make an additional list
+            while(AvailableMasterList!=True):
+            for masterList in originalListXML
+                masterListName=os.path.basename
+                masterListNameNew="MasterList"+str(masterListIterator)+".xml"
+
+                if(masterListName!=masterListNameNew):
+                    AvailableMasterList=True
+
+            masterListIterator=masterListIterator+1
+
+        elif(mListAdditionalYN=False)
+            #Delete all existing files with prefix 'MasterList' and create MasterList0.xml
+
+        else:
+            break #Terminate
+
+        
+
+   
+    #Return the File List (With Full Path)   
+    return masterListNumber
     
    
     

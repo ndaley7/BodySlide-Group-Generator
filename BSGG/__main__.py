@@ -52,6 +52,7 @@ from .UtilitiesBSGG.ConsoleSelection import ConsoleSelectHelper
 from .UtilitiesBSGG.UITkSelection import BodySlidePathSelect
 from .UtilitiesBSGG.FileIO import GetFileList
 from .UtilitiesBSGG.FileIO import SliderSetBackup
+from .UtilitiesBSGG.FileIO import MasterListCheck
 
 #from .UtilitiesBSGG.FileListing import GetFileList
  
@@ -191,7 +192,7 @@ def CatalogGroupedOutfits(sliderGroupPath):
         ParseSliderGroupXML(groupXML,g_bodyslideGroupedOutfitsOnly)  
     return True
 
-def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
+def TupleList2SliderGroupXML(masterListXML,tupleListIn,sliderGroupPath):
     #Initiate Root of MasterList.xml
     rootMasterXML=ET.Element('SliderGroups')
 
@@ -217,7 +218,7 @@ def TupleList2SliderGroupXML(tupleListIn,sliderGroupPath):
             print("<-Outfit: "+outfitName)
 
     my_tree = ET.ElementTree(rootMasterXML)
-    with open(sliderGroupPath+'MasterList.xml','wb') as f: ## Write document to file
+    with open(sliderGroupPath+masterListXML,'wb') as f: ## Write document to file
         f.write(ET.tostring(my_tree,pretty_print=True))
         #f.write(ET.tostring(rootMasterXML,encoding='utf-8', xml_declaration=True,pretty_print=True))
         #ET.write(sliderGroupPath+'MasterList.xml', encoding='utf-8', xml_declaration=True, pretty_print=True) 
@@ -382,6 +383,10 @@ def main():
     bodyslidePaths=[]
     sliderSetXMLPaths=[]
     sliderSetOSPPaths=[]
+    
+    #Used for modifying the name of MasterList if previous ones exist
+    masterListNum=0
+    
 
     #Check for the existance of a ConfigBSCG.xml file
     configExists=os.path.exists('ConfigBSCG.xml')
@@ -400,6 +405,9 @@ def main():
     #Run Backup Algorithm
     SliderSetBackup(sliderSetPath)
     SliderSetBackup(sliderGroupPath)
+
+    #Check if a masterlist already exists and write out the naming modifier
+    masterListNum=MasterListCheck(sliderGroupPath)
     
     #Generate list of Already Grouped Outfits
     CatalogGroupedOutfits(sliderGroupPath)
@@ -450,6 +458,6 @@ def main():
 
     #Writeout Masterlist
 
-    TupleList2SliderGroupXML(customBodyslideGroupedOutfits,sliderGroupPath)
+    TupleList2SliderGroupXML('MasterList'+ str(masterListNum) +'.xml',customBodyslideGroupedOutfits,sliderGroupPath)
 
 

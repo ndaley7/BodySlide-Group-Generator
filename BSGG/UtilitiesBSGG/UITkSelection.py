@@ -101,7 +101,14 @@ def CustomOK(stringTitle,stringContent):
     messagebox.showinfo(stringTitle,stringContent)
 
     
-            
+ #Renders a TKinter dialog with a custom message and Title Returns True/False or None
+def CustomYesNoCancel(stringTitle,stringContent):
+   
+    #Display Okay Dialog
+    result=messagebox.askyesnocancel(stringTitle,stringContent)
+
+    return result
+           
         
 
 
