@@ -1,0 +1,302 @@
+<SliderSetInfo>
+    <SliderSet name="Minou Zhuliya">
+        <SetFolder>Minou Zhuliya</SetFolder>
+        <SourceFile>Zhuliya.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Zhuliya</OutputPath>
+        <OutputFile>cuirass</OutputFile>
+        <BaseShapeName target="65071_JinF001">65071_JinF001</BaseShapeName>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="BaseShape_outfit">BaseShape_outfit</BaseShapeName>
+        <BaseShapeName target="nn1">nn1</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="65071_JinF001Breasts" target="65071_JinF001" local="true">65071_JinF001Breasts.bsd</datafile>
+            <datafile name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">BaseShape_outfitBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="65071_JinF001BreastsSmall" target="65071_JinF001" local="true">65071_JinF001BreastsSmall.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="65071_JinF001BreastsSH" target="65071_JinF001" local="true">65071_JinF001BreastsSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSH.bsd</datafile>
+            <datafile name="nn1BreastsSH" target="nn1" local="true">nn1BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="65071_JinF001BreastsSSH" target="65071_JinF001" local="true">65071_JinF001BreastsSSH.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsSSH.bsd</datafile>
+            <datafile name="nn1BreastsSSH" target="nn1" local="true">nn1BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="65071_JinF001BreastsFantasy" target="65071_JinF001" local="true">65071_JinF001BreastsFantasy.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastsFantasy" target="BaseShape_outfit" local="true">BaseShape_outfitBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="65071_JinF001DoubleMelon" target="65071_JinF001" local="true">65071_JinF001DoubleMelon.bsd</datafile>
+            <datafile name="BaseShape_outfitDoubleMelon" target="BaseShape_outfit" local="true">BaseShape_outfitDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="65071_JinF001BreastCleavage" target="65071_JinF001" local="true">65071_JinF001BreastCleavage.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastCleavage" target="BaseShape_outfit" local="true">BaseShape_outfitBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="65071_JinF001BreastFlatness" target="65071_JinF001" local="true">65071_JinF001BreastFlatness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastFlatness.bsd</datafile>
+            <datafile name="nn1BreastFlatness" target="nn1" local="true">nn1BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="65071_JinF001BreastGravity" target="65071_JinF001" local="true">65071_JinF001BreastGravity.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastGravity" target="BaseShape_outfit" local="true">BaseShape_outfitBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="65071_JinF001PushUp" target="65071_JinF001" local="true">65071_JinF001PushUp.bsd</datafile>
+            <datafile name="BaseShape_outfitPushUp" target="BaseShape_outfit" local="true">BaseShape_outfitPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="65071_JinF001BreastHeight" target="65071_JinF001" local="true">65071_JinF001BreastHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">BaseShape_outfitBreastHeight.bsd</datafile>
+            <datafile name="nn1BreastHeight" target="nn1" local="true">nn1BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="65071_JinF001BreastPerkiness" target="65071_JinF001" local="true">65071_JinF001BreastPerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastPerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="65071_JinF001BreastWidth" target="65071_JinF001" local="true">65071_JinF001BreastWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">BaseShape_outfitBreastWidth.bsd</datafile>
+            <datafile name="nn1BreastWidth" target="nn1" local="true">nn1BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="65071_JinF001NippleDistance" target="65071_JinF001" local="true">65071_JinF001NippleDistance.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDistance" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="65071_JinF001NipplePerkiness" target="65071_JinF001" local="true">65071_JinF001NipplePerkiness.bsd</datafile>
+            <datafile name="BaseShape_outfitNipplePerkiness" target="BaseShape_outfit" local="true">BaseShape_outfitNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="65071_JinF001NippleLength" target="65071_JinF001" local="true">65071_JinF001NippleLength.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">BaseShape_outfitNippleLength.bsd</datafile>
+            <datafile name="nn1NippleLength" target="nn1" local="true">nn1NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="65071_JinF001NippleSize" target="65071_JinF001" local="true">65071_JinF001NippleSize.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleSize" target="BaseShape_outfit" local="true">BaseShape_outfitNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="65071_JinF001NippleUp" target="65071_JinF001" local="true">65071_JinF001NippleUp.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleUp" target="BaseShape_outfit" local="true">BaseShape_outfitNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="65071_JinF001NippleDown" target="65071_JinF001" local="true">65071_JinF001NippleDown.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleDown" target="BaseShape_outfit" local="true">BaseShape_outfitNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="65071_JinF001NippleTip" target="65071_JinF001" local="true">65071_JinF001NippleTip.bsd</datafile>
+            <datafile name="BaseShape_outfitNippleTip" target="BaseShape_outfit" local="true">BaseShape_outfitNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="65071_JinF001Arms" target="65071_JinF001" local="true">65071_JinF001Arms.bsd</datafile>
+            <datafile name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">BaseShape_outfitArms.bsd</datafile>
+            <datafile name="nn1Arms" target="nn1" local="true">nn1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="65071_JinF001ChubbyArms" target="65071_JinF001" local="true">65071_JinF001ChubbyArms.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyArms.bsd</datafile>
+            <datafile name="nn1ChubbyArms" target="nn1" local="true">nn1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="65071_JinF001ShoulderSmooth" target="65071_JinF001" local="true">65071_JinF001ShoulderSmooth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="nn1ShoulderSmooth" target="nn1" local="true">nn1ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="65071_JinF001ShoulderWidth" target="65071_JinF001" local="true">65071_JinF001ShoulderWidth.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderWidth.bsd</datafile>
+            <datafile name="nn1ShoulderWidth" target="nn1" local="true">nn1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="65071_JinF001BigTorso" target="65071_JinF001" local="true">65071_JinF001BigTorso.bsd</datafile>
+            <datafile name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">BaseShape_outfitBigTorso.bsd</datafile>
+            <datafile name="nn1BigTorso" target="nn1" local="true">nn1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="65071_JinF001Waist" target="65071_JinF001" local="true">65071_JinF001Waist.bsd</datafile>
+            <datafile name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">BaseShape_outfitWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="65071_JinF001WideWaistLine" target="65071_JinF001" local="true">65071_JinF001WideWaistLine.bsd</datafile>
+            <datafile name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">BaseShape_outfitWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="65071_JinF001ChubbyWaist" target="65071_JinF001" local="true">65071_JinF001ChubbyWaist.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="65071_JinF001Belly" target="65071_JinF001" local="true">65071_JinF001Belly.bsd</datafile>
+            <datafile name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="65071_JinF001BigBelly" target="65071_JinF001" local="true">65071_JinF001BigBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">BaseShape_outfitBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="65071_JinF001PregnancyBelly" target="65071_JinF001" local="true">65071_JinF001PregnancyBelly.bsd</datafile>
+            <datafile name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">BaseShape_outfitPregnancyBelly.bsd</datafile>
+            <datafile name="nn1PregnancyBelly" target="nn1" local="true">nn1PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="65071_JinF001TummyTuck" target="65071_JinF001" local="true">65071_JinF001TummyTuck.bsd</datafile>
+            <datafile name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">BaseShape_outfitTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="65071_JinF001Back" target="65071_JinF001" local="true">65071_JinF001Back.bsd</datafile>
+            <datafile name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">BaseShape_outfitBack.bsd</datafile>
+            <datafile name="nn1Back" target="nn1" local="true">nn1Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="65071_JinF001Hipbone" target="65071_JinF001" local="true">65071_JinF001Hipbone.bsd</datafile>
+            <datafile name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">BaseShape_outfitHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="65071_JinF001Hips" target="65071_JinF001" local="true">65071_JinF001Hips.bsd</datafile>
+            <datafile name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">BaseShape_outfitHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="65071_JinF001ButtCrack" target="65071_JinF001" local="true">65071_JinF001ButtCrack.bsd</datafile>
+            <datafile name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">BaseShape_outfitButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="65071_JinF001Butt" target="65071_JinF001" local="true">65071_JinF001Butt.bsd</datafile>
+            <datafile name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">BaseShape_outfitButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="65071_JinF001ButtSmall" target="65071_JinF001" local="true">65071_JinF001ButtSmall.bsd</datafile>
+            <datafile name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">BaseShape_outfitButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="65071_JinF001ButtShape2" target="65071_JinF001" local="true">65071_JinF001ButtShape2.bsd</datafile>
+            <datafile name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">BaseShape_outfitButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="65071_JinF001BigButt" target="65071_JinF001" local="true">65071_JinF001BigButt.bsd</datafile>
+            <datafile name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">BaseShape_outfitBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="65071_JinF001ChubbyButt" target="65071_JinF001" local="true">65071_JinF001ChubbyButt.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="65071_JinF001AppleCheeks" target="65071_JinF001" local="true">65071_JinF001AppleCheeks.bsd</datafile>
+            <datafile name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">BaseShape_outfitAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="65071_JinF001RoundAss" target="65071_JinF001" local="true">65071_JinF001RoundAss.bsd</datafile>
+            <datafile name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">BaseShape_outfitRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="65071_JinF001Groin" target="65071_JinF001" local="true">65071_JinF001Groin.bsd</datafile>
+            <datafile name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">BaseShape_outfitGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="65071_JinF001SlimThighs" target="65071_JinF001" local="true">65071_JinF001SlimThighs.bsd</datafile>
+            <datafile name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">BaseShape_outfitSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="65071_JinF001Thighs" target="65071_JinF001" local="true">65071_JinF001Thighs.bsd</datafile>
+            <datafile name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">BaseShape_outfitThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="65071_JinF001ChubbyLegs" target="65071_JinF001" local="true">65071_JinF001ChubbyLegs.bsd</datafile>
+            <datafile name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">BaseShape_outfitChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="65071_JinF001Legs" target="65071_JinF001" local="true">65071_JinF001Legs.bsd</datafile>
+            <datafile name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">BaseShape_outfitLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="65071_JinF001KneeHeight" target="65071_JinF001" local="true">65071_JinF001KneeHeight.bsd</datafile>
+            <datafile name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">BaseShape_outfitKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="65071_JinF001CalfSize" target="65071_JinF001" local="true">65071_JinF001CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="65071_JinF001CalfSmooth" target="65071_JinF001" local="true">65071_JinF001CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="65071_JinF001Ankles" target="65071_JinF001" local="true">65071_JinF001Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="65071_JinF001SmallSeam" target="65071_JinF001" local="true">65071_JinF001SmallSeam.bsd</datafile>
+            <datafile name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">BaseShape_outfitSmallSeam.bsd</datafile>
+            <datafile name="nn1SmallSeam" target="nn1" local="true">nn1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">BaseShape_outfitShoulderTweak.bsd</datafile>
+            <datafile name="nn1ShoulderTweak" target="nn1" local="true">nn1ShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+        <Slider name="xx" invert="false" small="100" big="100" zap="true">
+            <datafile name="BaseShapexx" target="BaseShape" local="true">BaseShapexx.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -25,6 +25,7 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
+from BSGG.__main__ import g_DebugEnabled
 
 #Accpets a (Group, OutfitCount) tuple to be assigned a supergroup
 #Outputs a (Supergrout,Subgroup,outfitCount) Tuple List With the finalzied group Conversions

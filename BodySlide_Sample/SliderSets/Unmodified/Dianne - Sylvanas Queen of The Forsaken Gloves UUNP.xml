@@ -1,0 +1,733 @@
+<SliderSetInfo>
+    <SliderSet name="Dianne - Sylvanas Queen of The Forsaken Gloves UUNP">
+        <SetFolder>Dianne - Sylvanas Queen of The Forsaken Gloves UUNP</SetFolder>
+        <SourceFile>Dianne - Sylvanas Queen of The Forsaken Gloves UUNP.nif</SourceFile>
+        <OutputPath>meshes\armor\ryushenron\Sylvanas Windrunner</OutputPath>
+        <OutputFile>sylgloves</OutputFile>
+        <BaseShapeName target="Forearms">Forearms</BaseShapeName>
+        <BaseShapeName target="Gloves">Gloves</BaseShapeName>
+        <BaseShapeName target="Handarmor">Handarmor</BaseShapeName>
+        <BaseShapeName target="Hands">Hands</BaseShapeName>
+        <BaseShapeName target="Nails">Nails</BaseShapeName>
+        <BaseShapeName target="UUNP" DataFolder="Unified UNP">UUNP</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="100" big="100">
+            <datafile name="Breasts" target="UUNP">Breasts.bsd</datafile>
+            <datafile name="GlovesBreasts" target="Gloves" local="true">GlovesBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSmall" target="UUNP">BreastsSmall.bsd</datafile>
+            <datafile name="GlovesBreastsSmall" target="Gloves" local="true">GlovesBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="UUNP">BreastsSH.bsd</datafile>
+            <datafile name="GlovesBreastsSH" target="Gloves" local="true">GlovesBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="UUNP">BreastsSSH.bsd</datafile>
+            <datafile name="GlovesBreastsSSH" target="Gloves" local="true">GlovesBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="UUNP">BreastsFantasy.bsd</datafile>
+            <datafile name="GlovesBreastsFantasy" target="Gloves" local="true">GlovesBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="UUNP">DoubleMelon.bsd</datafile>
+            <datafile name="GlovesDoubleMelon" target="Gloves" local="true">GlovesDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="UUNP">BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="UUNP">BreastFlatness.bsd</datafile>
+            <datafile name="GlovesBreastFlatness" target="Gloves" local="true">GlovesBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="UUNP">BreastGravity.bsd</datafile>
+            <datafile name="GlovesBreastGravity" target="Gloves" local="true">GlovesBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="UUNP">PushUp.bsd</datafile>
+            <datafile name="GlovesPushUp" target="Gloves" local="true">GlovesPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHeight" target="UUNP">BreastHeight.bsd</datafile>
+            <datafile name="GlovesBreastHeight" target="Gloves" local="true">GlovesBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="UUNP">BreastPerkiness.bsd</datafile>
+            <datafile name="GlovesBreastPerkiness" target="Gloves" local="true">GlovesBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="UUNP">BreastWidth.bsd</datafile>
+            <datafile name="GlovesBreastWidth" target="Gloves" local="true">GlovesBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="UUNP">NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="UUNP">NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="UUNP">NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="UUNP">NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="UUNP">NippleAreola.bsd</datafile>
+            <datafile name="GlovesNippleAreola" target="Gloves" local="true">GlovesNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="UUNP">NippleUp.bsd</datafile>
+            <datafile name="GlovesNippleUp" target="Gloves" local="true">GlovesNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="UUNP">NippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="UUNP">NippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="100" big="100">
+            <datafile name="Arms" target="UUNP">Arms.bsd</datafile>
+            <datafile name="GlovesArms" target="Gloves" local="true">GlovesArms.bsd</datafile>
+            <datafile name="ForearmsArms" target="Forearms" local="true">ForearmsArms.bsd</datafile>
+            <datafile name="HandarmorArms" target="Handarmor" local="true">HandarmorArms.bsd</datafile>
+            <datafile name="HandsArms" target="Hands" local="true">HandsArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="UUNP">ChubbyArms.bsd</datafile>
+            <datafile name="GlovesChubbyArms" target="Gloves" local="true">GlovesChubbyArms.bsd</datafile>
+            <datafile name="ForearmsChubbyArms" target="Forearms" local="true">ForearmsChubbyArms.bsd</datafile>
+            <datafile name="HandarmorChubbyArms" target="Handarmor" local="true">HandarmorChubbyArms.bsd</datafile>
+            <datafile name="HandsChubbyArms" target="Hands" local="true">HandsChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="UUNP">ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="UUNP">ShoulderWidth.bsd</datafile>
+            <datafile name="GlovesShoulderWidth" target="Gloves" local="true">GlovesShoulderWidth.bsd</datafile>
+            <datafile name="ForearmsShoulderWidth" target="Forearms" local="true">ForearmsShoulderWidth.bsd</datafile>
+            <datafile name="HandarmorShoulderWidth" target="Handarmor" local="true">HandarmorShoulderWidth.bsd</datafile>
+            <datafile name="HandsShoulderWidth" target="Hands" local="true">HandsShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="UUNP">BigTorso.bsd</datafile>
+            <datafile name="GlovesBigTorso" target="Gloves" local="true">GlovesBigTorso.bsd</datafile>
+            <datafile name="ForearmsBigTorso" target="Forearms" local="true">ForearmsBigTorso.bsd</datafile>
+            <datafile name="HandarmorBigTorso" target="Handarmor" local="true">HandarmorBigTorso.bsd</datafile>
+            <datafile name="HandsBigTorso" target="Hands" local="true">HandsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <datafile name="Waist" target="UUNP">Waist.bsd</datafile>
+            <datafile name="GlovesWaist" target="Gloves" local="true">GlovesWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="UUNP">WideWaistLine.bsd</datafile>
+            <datafile name="GlovesWideWaistLine" target="Gloves" local="true">GlovesWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="UUNP">ChubbyWaist.bsd</datafile>
+            <datafile name="GlovesChubbyWaist" target="Gloves" local="true">GlovesChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="UUNP">Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="UUNP">BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="UUNP">PregnancyBelly.bsd</datafile>
+            <datafile name="GlovesPregnancyBelly" target="Gloves" local="true">GlovesPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="UUNP">TummyTuck.bsd</datafile>
+            <datafile name="GlovesTummyTuck" target="Gloves" local="true">GlovesTummyTuck.bsd</datafile>
+            <datafile name="ForearmsTummyTuck" target="Forearms" local="true">ForearmsTummyTuck.bsd</datafile>
+            <datafile name="HandarmorTummyTuck" target="Handarmor" local="true">HandarmorTummyTuck.bsd</datafile>
+            <datafile name="HandsTummyTuck" target="Hands" local="true">HandsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="UUNP">Back.bsd</datafile>
+            <datafile name="GlovesBack" target="Gloves" local="true">GlovesBack.bsd</datafile>
+            <datafile name="ForearmsBack" target="Forearms" local="true">ForearmsBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="UUNP">Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="UUNP">Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="UUNP">ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="100" big="100">
+            <datafile name="Butt" target="UUNP">Butt.bsd</datafile>
+            <datafile name="GlovesButt" target="Gloves" local="true">GlovesButt.bsd</datafile>
+            <datafile name="ForearmsButt" target="Forearms" local="true">ForearmsButt.bsd</datafile>
+            <datafile name="HandarmorButt" target="Handarmor" local="true">HandarmorButt.bsd</datafile>
+            <datafile name="HandsButt" target="Hands" local="true">HandsButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSmall" target="UUNP">ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="ButtShape2" target="UUNP">ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="UUNP">BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="UUNP">ChubbyButt.bsd</datafile>
+            <datafile name="GlovesChubbyButt" target="Gloves" local="true">GlovesChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheeks" target="UUNP">AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="UUNP">RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="UUNP">SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="UUNP">Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="UUNP">ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="100" big="100">
+            <datafile name="Legs" target="UUNP">Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="UUNP">KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="UUNP">CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="UUNP">CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Neck" invert="false" small="100" big="0" hidden="true">
+            <datafile name="Neck" target="UUNP">Neck.bsd</datafile>
+        </Slider>
+        <Slider name="7B Low" invert="false" small="0" big="0">
+            <datafile name="7B Low" target="UUNP">7B Low.bsd</datafile>
+            <datafile name="Gloves7B Low" target="Gloves" local="true">Gloves7B Low.bsd</datafile>
+            <datafile name="Forearms7B Low" target="Forearms" local="true">Forearms7B Low.bsd</datafile>
+            <datafile name="Handarmor7B Low" target="Handarmor" local="true">Handarmor7B Low.bsd</datafile>
+            <datafile name="Hands7B Low" target="Hands" local="true">Hands7B Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B High" invert="false" small="0" big="0">
+            <datafile name="7B High" target="UUNP">7B High.bsd</datafile>
+            <datafile name="Gloves7B High" target="Gloves" local="true">Gloves7B High.bsd</datafile>
+            <datafile name="Forearms7B High" target="Forearms" local="true">Forearms7B High.bsd</datafile>
+            <datafile name="Handarmor7B High" target="Handarmor" local="true">Handarmor7B High.bsd</datafile>
+            <datafile name="Hands7B High" target="Hands" local="true">Hands7B High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Bombshell Low" invert="false" small="0" big="0">
+            <datafile name="7B Bombshell Low" target="UUNP">7B Bombshell Low.bsd</datafile>
+            <datafile name="Gloves7B Bombshell Low" target="Gloves" local="true">Gloves7B Bombshell Low.bsd</datafile>
+            <datafile name="Forearms7B Bombshell Low" target="Forearms" local="true">Forearms7B Bombshell Low.bsd</datafile>
+            <datafile name="Handarmor7B Bombshell Low" target="Handarmor" local="true">Handarmor7B Bombshell Low.bsd</datafile>
+            <datafile name="Hands7B Bombshell Low" target="Hands" local="true">Hands7B Bombshell Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Bombshell High" invert="false" small="0" big="0">
+            <datafile name="7B Bombshell High" target="UUNP">7B Bombshell High.bsd</datafile>
+            <datafile name="Gloves7B Bombshell High" target="Gloves" local="true">Gloves7B Bombshell High.bsd</datafile>
+            <datafile name="Forearms7B Bombshell High" target="Forearms" local="true">Forearms7B Bombshell High.bsd</datafile>
+            <datafile name="Handarmor7B Bombshell High" target="Handarmor" local="true">Handarmor7B Bombshell High.bsd</datafile>
+            <datafile name="Hands7B Bombshell High" target="Hands" local="true">Hands7B Bombshell High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Natural Low" invert="false" small="0" big="0">
+            <datafile name="7B Natural Low" target="UUNP">7B Natural Low.bsd</datafile>
+            <datafile name="Gloves7B Natural Low" target="Gloves" local="true">Gloves7B Natural Low.bsd</datafile>
+            <datafile name="Forearms7B Natural Low" target="Forearms" local="true">Forearms7B Natural Low.bsd</datafile>
+            <datafile name="Handarmor7B Natural Low" target="Handarmor" local="true">Handarmor7B Natural Low.bsd</datafile>
+            <datafile name="Hands7B Natural Low" target="Hands" local="true">Hands7B Natural Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Natural High" invert="false" small="0" big="0">
+            <datafile name="7B Natural High" target="UUNP">7B Natural High.bsd</datafile>
+            <datafile name="Gloves7B Natural High" target="Gloves" local="true">Gloves7B Natural High.bsd</datafile>
+            <datafile name="Forearms7B Natural High" target="Forearms" local="true">Forearms7B Natural High.bsd</datafile>
+            <datafile name="Handarmor7B Natural High" target="Handarmor" local="true">Handarmor7B Natural High.bsd</datafile>
+            <datafile name="Hands7B Natural High" target="Hands" local="true">Hands7B Natural High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Cleavage Low" invert="false" small="0" big="0">
+            <datafile name="7B Cleavage Low" target="UUNP">7B Cleavage Low.bsd</datafile>
+            <datafile name="Gloves7B Cleavage Low" target="Gloves" local="true">Gloves7B Cleavage Low.bsd</datafile>
+            <datafile name="Forearms7B Cleavage Low" target="Forearms" local="true">Forearms7B Cleavage Low.bsd</datafile>
+            <datafile name="Handarmor7B Cleavage Low" target="Handarmor" local="true">Handarmor7B Cleavage Low.bsd</datafile>
+            <datafile name="Hands7B Cleavage Low" target="Hands" local="true">Hands7B Cleavage Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Cleavage High" invert="false" small="0" big="0">
+            <datafile name="7B Cleavage High" target="UUNP">7B Cleavage High.bsd</datafile>
+            <datafile name="Gloves7B Cleavage High" target="Gloves" local="true">Gloves7B Cleavage High.bsd</datafile>
+            <datafile name="Forearms7B Cleavage High" target="Forearms" local="true">Forearms7B Cleavage High.bsd</datafile>
+            <datafile name="Handarmor7B Cleavage High" target="Handarmor" local="true">Handarmor7B Cleavage High.bsd</datafile>
+            <datafile name="Hands7B Cleavage High" target="Hands" local="true">Hands7B Cleavage High.bsd</datafile>
+        </Slider>
+        <Slider name="7B BCup Low" invert="false" small="0" big="0">
+            <datafile name="7B BCup Low" target="UUNP">7B BCup Low.bsd</datafile>
+            <datafile name="Gloves7B BCup Low" target="Gloves" local="true">Gloves7B BCup Low.bsd</datafile>
+            <datafile name="Forearms7B BCup Low" target="Forearms" local="true">Forearms7B BCup Low.bsd</datafile>
+            <datafile name="Handarmor7B BCup Low" target="Handarmor" local="true">Handarmor7B BCup Low.bsd</datafile>
+            <datafile name="Hands7B BCup Low" target="Hands" local="true">Hands7B BCup Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B BCup High" invert="false" small="0" big="0">
+            <datafile name="7B BCup High" target="UUNP">7B BCup High.bsd</datafile>
+            <datafile name="Gloves7B BCup High" target="Gloves" local="true">Gloves7B BCup High.bsd</datafile>
+            <datafile name="Forearms7B BCup High" target="Forearms" local="true">Forearms7B BCup High.bsd</datafile>
+            <datafile name="Handarmor7B BCup High" target="Handarmor" local="true">Handarmor7B BCup High.bsd</datafile>
+            <datafile name="Hands7B BCup High" target="Hands" local="true">Hands7B BCup High.bsd</datafile>
+        </Slider>
+        <Slider name="7BUNP Low" invert="false" small="0" big="0">
+            <datafile name="7BUNP Low" target="UUNP">7BUNP Low.bsd</datafile>
+            <datafile name="Gloves7BUNP Low" target="Gloves" local="true">Gloves7BUNP Low.bsd</datafile>
+            <datafile name="Forearms7BUNP Low" target="Forearms" local="true">Forearms7BUNP Low.bsd</datafile>
+            <datafile name="Handarmor7BUNP Low" target="Handarmor" local="true">Handarmor7BUNP Low.bsd</datafile>
+            <datafile name="Hands7BUNP Low" target="Hands" local="true">Hands7BUNP Low.bsd</datafile>
+        </Slider>
+        <Slider name="7BUNP High" invert="false" small="0" big="0">
+            <datafile name="7BUNP High" target="UUNP">7BUNP High.bsd</datafile>
+            <datafile name="Gloves7BUNP High" target="Gloves" local="true">Gloves7BUNP High.bsd</datafile>
+            <datafile name="Forearms7BUNP High" target="Forearms" local="true">Forearms7BUNP High.bsd</datafile>
+            <datafile name="Handarmor7BUNP High" target="Handarmor" local="true">Handarmor7BUNP High.bsd</datafile>
+            <datafile name="Hands7BUNP High" target="Hands" local="true">Hands7BUNP High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Oppai Low" invert="false" small="0" big="0">
+            <datafile name="7B Oppai Low" target="UUNP">7B Oppai Low.bsd</datafile>
+            <datafile name="Gloves7B Oppai Low" target="Gloves" local="true">Gloves7B Oppai Low.bsd</datafile>
+            <datafile name="Forearms7B Oppai Low" target="Forearms" local="true">Forearms7B Oppai Low.bsd</datafile>
+            <datafile name="Handarmor7B Oppai Low" target="Handarmor" local="true">Handarmor7B Oppai Low.bsd</datafile>
+            <datafile name="Hands7B Oppai Low" target="Hands" local="true">Hands7B Oppai Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Oppai High" invert="false" small="0" big="0">
+            <datafile name="7B Oppai High" target="UUNP">7B Oppai High.bsd</datafile>
+            <datafile name="Gloves7B Oppai High" target="Gloves" local="true">Gloves7B Oppai High.bsd</datafile>
+            <datafile name="Forearms7B Oppai High" target="Forearms" local="true">Forearms7B Oppai High.bsd</datafile>
+            <datafile name="Handarmor7B Oppai High" target="Handarmor" local="true">Handarmor7B Oppai High.bsd</datafile>
+            <datafile name="Hands7B Oppai High" target="Hands" local="true">Hands7B Oppai High.bsd</datafile>
+        </Slider>
+        <Slider name="7B CH Low" invert="false" small="0" big="0">
+            <datafile name="7B CH Low" target="UUNP">7B CH Low.bsd</datafile>
+            <datafile name="Gloves7B CH Low" target="Gloves" local="true">Gloves7B CH Low.bsd</datafile>
+            <datafile name="Forearms7B CH Low" target="Forearms" local="true">Forearms7B CH Low.bsd</datafile>
+            <datafile name="Handarmor7B CH Low" target="Handarmor" local="true">Handarmor7B CH Low.bsd</datafile>
+            <datafile name="Hands7B CH Low" target="Hands" local="true">Hands7B CH Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B CH High" invert="false" small="0" big="0">
+            <datafile name="7B CH High" target="UUNP">7B CH High.bsd</datafile>
+            <datafile name="Gloves7B CH High" target="Gloves" local="true">Gloves7B CH High.bsd</datafile>
+            <datafile name="Forearms7B CH High" target="Forearms" local="true">Forearms7B CH High.bsd</datafile>
+            <datafile name="Handarmor7B CH High" target="Handarmor" local="true">Handarmor7B CH High.bsd</datafile>
+            <datafile name="Hands7B CH High" target="Hands" local="true">Hands7B CH High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Low" invert="false" small="0" big="0">
+            <datafile name="UNP Low" target="UUNP">UNP Low.bsd</datafile>
+            <datafile name="GlovesUNP Low" target="Gloves" local="true">GlovesUNP Low.bsd</datafile>
+            <datafile name="ForearmsUNP Low" target="Forearms" local="true">ForearmsUNP Low.bsd</datafile>
+            <datafile name="HandarmorUNP Low" target="Handarmor" local="true">HandarmorUNP Low.bsd</datafile>
+            <datafile name="HandsUNP Low" target="Hands" local="true">HandsUNP Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP High" invert="false" small="0" big="0">
+            <datafile name="UNP High" target="UUNP">UNP High.bsd</datafile>
+            <datafile name="GlovesUNP High" target="Gloves" local="true">GlovesUNP High.bsd</datafile>
+            <datafile name="ForearmsUNP High" target="Forearms" local="true">ForearmsUNP High.bsd</datafile>
+            <datafile name="HandarmorUNP High" target="Handarmor" local="true">HandarmorUNP High.bsd</datafile>
+            <datafile name="HandsUNP High" target="Hands" local="true">HandsUNP High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Pushup Low" invert="false" small="0" big="0">
+            <datafile name="UNP Pushup Low" target="UUNP">UNP Pushup Low.bsd</datafile>
+            <datafile name="GlovesUNP Pushup Low" target="Gloves" local="true">GlovesUNP Pushup Low.bsd</datafile>
+            <datafile name="ForearmsUNP Pushup Low" target="Forearms" local="true">ForearmsUNP Pushup Low.bsd</datafile>
+            <datafile name="HandarmorUNP Pushup Low" target="Handarmor" local="true">HandarmorUNP Pushup Low.bsd</datafile>
+            <datafile name="HandsUNP Pushup Low" target="Hands" local="true">HandsUNP Pushup Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Pushup High" invert="false" small="0" big="0">
+            <datafile name="UNP Pushup High" target="UUNP">UNP Pushup High.bsd</datafile>
+            <datafile name="GlovesUNP Pushup High" target="Gloves" local="true">GlovesUNP Pushup High.bsd</datafile>
+            <datafile name="ForearmsUNP Pushup High" target="Forearms" local="true">ForearmsUNP Pushup High.bsd</datafile>
+            <datafile name="HandarmorUNP Pushup High" target="Handarmor" local="true">HandarmorUNP Pushup High.bsd</datafile>
+            <datafile name="HandsUNP Pushup High" target="Hands" local="true">HandsUNP Pushup High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Skinny Low" invert="false" small="0" big="0">
+            <datafile name="UNP Skinny Low" target="UUNP">UNP Skinny Low.bsd</datafile>
+            <datafile name="GlovesUNP Skinny Low" target="Gloves" local="true">GlovesUNP Skinny Low.bsd</datafile>
+            <datafile name="ForearmsUNP Skinny Low" target="Forearms" local="true">ForearmsUNP Skinny Low.bsd</datafile>
+            <datafile name="HandarmorUNP Skinny Low" target="Handarmor" local="true">HandarmorUNP Skinny Low.bsd</datafile>
+            <datafile name="HandsUNP Skinny Low" target="Hands" local="true">HandsUNP Skinny Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Skinny High" invert="false" small="0" big="0">
+            <datafile name="UNP Skinny High" target="UUNP">UNP Skinny High.bsd</datafile>
+            <datafile name="GlovesUNP Skinny High" target="Gloves" local="true">GlovesUNP Skinny High.bsd</datafile>
+            <datafile name="ForearmsUNP Skinny High" target="Forearms" local="true">ForearmsUNP Skinny High.bsd</datafile>
+            <datafile name="HandarmorUNP Skinny High" target="Handarmor" local="true">HandarmorUNP Skinny High.bsd</datafile>
+            <datafile name="HandsUNP Skinny High" target="Hands" local="true">HandsUNP Skinny High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Perky Low" invert="false" small="0" big="0">
+            <datafile name="UNP Perky Low" target="UUNP">UNP Perky Low.bsd</datafile>
+            <datafile name="GlovesUNP Perky Low" target="Gloves" local="true">GlovesUNP Perky Low.bsd</datafile>
+            <datafile name="ForearmsUNP Perky Low" target="Forearms" local="true">ForearmsUNP Perky Low.bsd</datafile>
+            <datafile name="HandarmorUNP Perky Low" target="Handarmor" local="true">HandarmorUNP Perky Low.bsd</datafile>
+            <datafile name="HandsUNP Perky Low" target="Hands" local="true">HandsUNP Perky Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Perky High" invert="false" small="0" big="0">
+            <datafile name="UNP Perky High" target="UUNP">UNP Perky High.bsd</datafile>
+            <datafile name="GlovesUNP Perky High" target="Gloves" local="true">GlovesUNP Perky High.bsd</datafile>
+            <datafile name="ForearmsUNP Perky High" target="Forearms" local="true">ForearmsUNP Perky High.bsd</datafile>
+            <datafile name="HandarmorUNP Perky High" target="Handarmor" local="true">HandarmorUNP Perky High.bsd</datafile>
+            <datafile name="HandsUNP Perky High" target="Hands" local="true">HandsUNP Perky High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Low" invert="false" small="0" big="0">
+            <datafile name="UNPB Low" target="UUNP">UNPB Low.bsd</datafile>
+            <datafile name="GlovesUNPB Low" target="Gloves" local="true">GlovesUNPB Low.bsd</datafile>
+            <datafile name="ForearmsUNPB Low" target="Forearms" local="true">ForearmsUNPB Low.bsd</datafile>
+            <datafile name="HandarmorUNPB Low" target="Handarmor" local="true">HandarmorUNPB Low.bsd</datafile>
+            <datafile name="HandsUNPB Low" target="Hands" local="true">HandsUNPB Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB High" invert="false" small="0" big="0">
+            <datafile name="UNPB High" target="UUNP">UNPB High.bsd</datafile>
+            <datafile name="GlovesUNPB High" target="Gloves" local="true">GlovesUNPB High.bsd</datafile>
+            <datafile name="ForearmsUNPB High" target="Forearms" local="true">ForearmsUNPB High.bsd</datafile>
+            <datafile name="HandarmorUNPB High" target="Handarmor" local="true">HandarmorUNPB High.bsd</datafile>
+            <datafile name="HandsUNPB High" target="Hands" local="true">HandsUNPB High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Chapi" invert="false" small="0" big="0">
+            <datafile name="UNPB Chapi" target="UUNP">UNPB Chapi.bsd</datafile>
+            <datafile name="GlovesUNPB Chapi" target="Gloves" local="true">GlovesUNPB Chapi.bsd</datafile>
+            <datafile name="ForearmsUNPB Chapi" target="Forearms" local="true">ForearmsUNPB Chapi.bsd</datafile>
+            <datafile name="HandarmorUNPB Chapi" target="Handarmor" local="true">HandarmorUNPB Chapi.bsd</datafile>
+            <datafile name="HandsUNPB Chapi" target="Hands" local="true">HandsUNPB Chapi.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Oppai v1" invert="false" small="0" big="0">
+            <datafile name="UNPB Oppai v1" target="UUNP">UNPB Oppai v1.bsd</datafile>
+            <datafile name="GlovesUNPB Oppai v1" target="Gloves" local="true">GlovesUNPB Oppai v1.bsd</datafile>
+            <datafile name="ForearmsUNPB Oppai v1" target="Forearms" local="true">ForearmsUNPB Oppai v1.bsd</datafile>
+            <datafile name="HandarmorUNPB Oppai v1" target="Handarmor" local="true">HandarmorUNPB Oppai v1.bsd</datafile>
+            <datafile name="HandsUNPB Oppai v1" target="Hands" local="true">HandsUNPB Oppai v1.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Oppai v3.2 Low" invert="false" small="0" big="0">
+            <datafile name="UNPB Oppai v3.2 Low" target="UUNP">UNPB Oppai v3.2 Low.bsd</datafile>
+            <datafile name="GlovesUNPB Oppai v3.2 Low" target="Gloves" local="true">GlovesUNPB Oppai v3.2 Low.bsd</datafile>
+            <datafile name="ForearmsUNPB Oppai v3.2 Low" target="Forearms" local="true">ForearmsUNPB Oppai v3.2 Low.bsd</datafile>
+            <datafile name="HandarmorUNPB Oppai v3.2 Low" target="Handarmor" local="true">HandarmorUNPB Oppai v3.2 Low.bsd</datafile>
+            <datafile name="HandsUNPB Oppai v3.2 Low" target="Hands" local="true">HandsUNPB Oppai v3.2 Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Oppai v3.2 High" invert="false" small="0" big="0">
+            <datafile name="UNPB Oppai v3.2 High" target="UUNP">UNPB Oppai v3.2 High.bsd</datafile>
+            <datafile name="GlovesUNPB Oppai v3.2 High" target="Gloves" local="true">GlovesUNPB Oppai v3.2 High.bsd</datafile>
+            <datafile name="ForearmsUNPB Oppai v3.2 High" target="Forearms" local="true">ForearmsUNPB Oppai v3.2 High.bsd</datafile>
+            <datafile name="HandarmorUNPB Oppai v3.2 High" target="Handarmor" local="true">HandarmorUNPB Oppai v3.2 High.bsd</datafile>
+            <datafile name="HandsUNPB Oppai v3.2 High" target="Hands" local="true">HandsUNPB Oppai v3.2 High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPetite Low" invert="false" small="0" big="0">
+            <datafile name="UNPetite Low" target="UUNP">UNPetite Low.bsd</datafile>
+            <datafile name="GlovesUNPetite Low" target="Gloves" local="true">GlovesUNPetite Low.bsd</datafile>
+            <datafile name="ForearmsUNPetite Low" target="Forearms" local="true">ForearmsUNPetite Low.bsd</datafile>
+            <datafile name="HandarmorUNPetite Low" target="Handarmor" local="true">HandarmorUNPetite Low.bsd</datafile>
+            <datafile name="HandsUNPetite Low" target="Hands" local="true">HandsUNPetite Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPetite High" invert="false" small="0" big="0">
+            <datafile name="UNPetite High" target="UUNP">UNPetite High.bsd</datafile>
+            <datafile name="GlovesUNPetite High" target="Gloves" local="true">GlovesUNPetite High.bsd</datafile>
+            <datafile name="ForearmsUNPetite High" target="Forearms" local="true">ForearmsUNPetite High.bsd</datafile>
+            <datafile name="HandarmorUNPetite High" target="Handarmor" local="true">HandarmorUNPetite High.bsd</datafile>
+            <datafile name="HandsUNPetite High" target="Hands" local="true">HandsUNPetite High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPC Low" invert="false" small="0" big="0">
+            <datafile name="UNPC Low" target="UUNP">UNPC Low.bsd</datafile>
+            <datafile name="GlovesUNPC Low" target="Gloves" local="true">GlovesUNPC Low.bsd</datafile>
+            <datafile name="ForearmsUNPC Low" target="Forearms" local="true">ForearmsUNPC Low.bsd</datafile>
+            <datafile name="HandarmorUNPC Low" target="Handarmor" local="true">HandarmorUNPC Low.bsd</datafile>
+            <datafile name="HandsUNPC Low" target="Hands" local="true">HandsUNPC Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPC High" invert="false" small="0" big="0">
+            <datafile name="UNPC High" target="UUNP">UNPC High.bsd</datafile>
+            <datafile name="GlovesUNPC High" target="Gloves" local="true">GlovesUNPC High.bsd</datafile>
+            <datafile name="ForearmsUNPC High" target="Forearms" local="true">ForearmsUNPC High.bsd</datafile>
+            <datafile name="HandarmorUNPC High" target="Handarmor" local="true">HandarmorUNPC High.bsd</datafile>
+            <datafile name="HandsUNPC High" target="Hands" local="true">HandsUNPC High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPCM Low" invert="false" small="0" big="0">
+            <datafile name="UNPCM Low" target="UUNP">UNPCM Low.bsd</datafile>
+            <datafile name="GlovesUNPCM Low" target="Gloves" local="true">GlovesUNPCM Low.bsd</datafile>
+            <datafile name="ForearmsUNPCM Low" target="Forearms" local="true">ForearmsUNPCM Low.bsd</datafile>
+            <datafile name="HandarmorUNPCM Low" target="Handarmor" local="true">HandarmorUNPCM Low.bsd</datafile>
+            <datafile name="HandsUNPCM Low" target="Hands" local="true">HandsUNPCM Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPCM High" invert="false" small="0" big="0">
+            <datafile name="UNPCM High" target="UUNP">UNPCM High.bsd</datafile>
+            <datafile name="GlovesUNPCM High" target="Gloves" local="true">GlovesUNPCM High.bsd</datafile>
+            <datafile name="ForearmsUNPCM High" target="Forearms" local="true">ForearmsUNPCM High.bsd</datafile>
+            <datafile name="HandarmorUNPCM High" target="Handarmor" local="true">HandarmorUNPCM High.bsd</datafile>
+            <datafile name="HandsUNPCM High" target="Hands" local="true">HandsUNPCM High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPSH Low" invert="false" small="0" big="0">
+            <datafile name="UNPSH Low" target="UUNP">UNPSH Low.bsd</datafile>
+            <datafile name="GlovesUNPSH Low" target="Gloves" local="true">GlovesUNPSH Low.bsd</datafile>
+            <datafile name="ForearmsUNPSH Low" target="Forearms" local="true">ForearmsUNPSH Low.bsd</datafile>
+            <datafile name="HandarmorUNPSH Low" target="Handarmor" local="true">HandarmorUNPSH Low.bsd</datafile>
+            <datafile name="HandsUNPSH Low" target="Hands" local="true">HandsUNPSH Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPSH High" invert="false" small="0" big="0">
+            <datafile name="UNPSH High" target="UUNP">UNPSH High.bsd</datafile>
+            <datafile name="GlovesUNPSH High" target="Gloves" local="true">GlovesUNPSH High.bsd</datafile>
+            <datafile name="ForearmsUNPSH High" target="Forearms" local="true">ForearmsUNPSH High.bsd</datafile>
+            <datafile name="HandarmorUNPSH High" target="Handarmor" local="true">HandarmorUNPSH High.bsd</datafile>
+            <datafile name="HandsUNPSH High" target="Hands" local="true">HandsUNPSH High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK Low" invert="false" small="0" big="0">
+            <datafile name="UNPK Low" target="UUNP">UNPK Low.bsd</datafile>
+            <datafile name="GlovesUNPK Low" target="Gloves" local="true">GlovesUNPK Low.bsd</datafile>
+            <datafile name="ForearmsUNPK Low" target="Forearms" local="true">ForearmsUNPK Low.bsd</datafile>
+            <datafile name="HandarmorUNPK Low" target="Handarmor" local="true">HandarmorUNPK Low.bsd</datafile>
+            <datafile name="HandsUNPK Low" target="Hands" local="true">HandsUNPK Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK High" invert="false" small="0" big="0">
+            <datafile name="UNPK High" target="UUNP">UNPK High.bsd</datafile>
+            <datafile name="GlovesUNPK High" target="Gloves" local="true">GlovesUNPK High.bsd</datafile>
+            <datafile name="ForearmsUNPK High" target="Forearms" local="true">ForearmsUNPK High.bsd</datafile>
+            <datafile name="HandarmorUNPK High" target="Handarmor" local="true">HandarmorUNPK High.bsd</datafile>
+            <datafile name="HandsUNPK High" target="Hands" local="true">HandsUNPK High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK Bonus Low" invert="false" small="0" big="0">
+            <datafile name="UNPK Bonus Low" target="UUNP">UNPK Bonus Low.bsd</datafile>
+            <datafile name="GlovesUNPK Bonus Low" target="Gloves" local="true">GlovesUNPK Bonus Low.bsd</datafile>
+            <datafile name="ForearmsUNPK Bonus Low" target="Forearms" local="true">ForearmsUNPK Bonus Low.bsd</datafile>
+            <datafile name="HandarmorUNPK Bonus Low" target="Handarmor" local="true">HandarmorUNPK Bonus Low.bsd</datafile>
+            <datafile name="HandsUNPK Bonus Low" target="Hands" local="true">HandsUNPK Bonus Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK Bonus High" invert="false" small="0" big="0">
+            <datafile name="UNPK Bonus High" target="UUNP">UNPK Bonus High.bsd</datafile>
+            <datafile name="GlovesUNPK Bonus High" target="Gloves" local="true">GlovesUNPK Bonus High.bsd</datafile>
+            <datafile name="ForearmsUNPK Bonus High" target="Forearms" local="true">ForearmsUNPK Bonus High.bsd</datafile>
+            <datafile name="HandarmorUNPK Bonus High" target="Handarmor" local="true">HandarmorUNPK Bonus High.bsd</datafile>
+            <datafile name="HandsUNPK Bonus High" target="Hands" local="true">HandsUNPK Bonus High.bsd</datafile>
+        </Slider>
+        <Slider name="UN7B Low" invert="false" small="0" big="0">
+            <datafile name="UN7B Low" target="UUNP">UN7B Low.bsd</datafile>
+            <datafile name="GlovesUN7B Low" target="Gloves" local="true">GlovesUN7B Low.bsd</datafile>
+            <datafile name="ForearmsUN7B Low" target="Forearms" local="true">ForearmsUN7B Low.bsd</datafile>
+            <datafile name="HandarmorUN7B Low" target="Handarmor" local="true">HandarmorUN7B Low.bsd</datafile>
+            <datafile name="HandsUN7B Low" target="Hands" local="true">HandsUN7B Low.bsd</datafile>
+        </Slider>
+        <Slider name="UN7B High" invert="false" small="0" big="0">
+            <datafile name="UN7B High" target="UUNP">UN7B High.bsd</datafile>
+            <datafile name="GlovesUN7B High" target="Gloves" local="true">GlovesUN7B High.bsd</datafile>
+            <datafile name="ForearmsUN7B High" target="Forearms" local="true">ForearmsUN7B High.bsd</datafile>
+            <datafile name="HandarmorUN7B High" target="Handarmor" local="true">HandarmorUN7B High.bsd</datafile>
+            <datafile name="HandsUN7B High" target="Hands" local="true">HandsUN7B High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPBB Low" invert="false" small="0" big="0">
+            <datafile name="UNPBB Low" target="UUNP">UNPBB Low.bsd</datafile>
+            <datafile name="GlovesUNPBB Low" target="Gloves" local="true">GlovesUNPBB Low.bsd</datafile>
+            <datafile name="ForearmsUNPBB Low" target="Forearms" local="true">ForearmsUNPBB Low.bsd</datafile>
+            <datafile name="HandarmorUNPBB Low" target="Handarmor" local="true">HandarmorUNPBB Low.bsd</datafile>
+            <datafile name="HandsUNPBB Low" target="Hands" local="true">HandsUNPBB Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPBB High" invert="false" small="0" big="0">
+            <datafile name="UNPBB High" target="UUNP">UNPBB High.bsd</datafile>
+            <datafile name="GlovesUNPBB High" target="Gloves" local="true">GlovesUNPBB High.bsd</datafile>
+            <datafile name="ForearmsUNPBB High" target="Forearms" local="true">ForearmsUNPBB High.bsd</datafile>
+            <datafile name="HandarmorUNPBB High" target="Handarmor" local="true">HandarmorUNPBB High.bsd</datafile>
+            <datafile name="HandsUNPBB High" target="Hands" local="true">HandsUNPBB High.bsd</datafile>
+        </Slider>
+        <Slider name="Seraphim Low" invert="false" small="0" big="0">
+            <datafile name="Seraphim Low" target="UUNP">Seraphim Low.bsd</datafile>
+            <datafile name="GlovesSeraphim Low" target="Gloves" local="true">GlovesSeraphim Low.bsd</datafile>
+            <datafile name="ForearmsSeraphim Low" target="Forearms" local="true">ForearmsSeraphim Low.bsd</datafile>
+            <datafile name="HandarmorSeraphim Low" target="Handarmor" local="true">HandarmorSeraphim Low.bsd</datafile>
+            <datafile name="HandsSeraphim Low" target="Hands" local="true">HandsSeraphim Low.bsd</datafile>
+        </Slider>
+        <Slider name="Seraphim High" invert="false" small="0" big="0">
+            <datafile name="Seraphim High" target="UUNP">Seraphim High.bsd</datafile>
+            <datafile name="GlovesSeraphim High" target="Gloves" local="true">GlovesSeraphim High.bsd</datafile>
+            <datafile name="ForearmsSeraphim High" target="Forearms" local="true">ForearmsSeraphim High.bsd</datafile>
+            <datafile name="HandarmorSeraphim High" target="Handarmor" local="true">HandarmorSeraphim High.bsd</datafile>
+            <datafile name="HandsSeraphim High" target="Hands" local="true">HandsSeraphim High.bsd</datafile>
+        </Slider>
+        <Slider name="Demonfet Low" invert="false" small="0" big="0">
+            <datafile name="Demonfet Low" target="UUNP">Demonfet Low.bsd</datafile>
+            <datafile name="GlovesDemonfet Low" target="Gloves" local="true">GlovesDemonfet Low.bsd</datafile>
+            <datafile name="ForearmsDemonfet Low" target="Forearms" local="true">ForearmsDemonfet Low.bsd</datafile>
+            <datafile name="HandarmorDemonfet Low" target="Handarmor" local="true">HandarmorDemonfet Low.bsd</datafile>
+            <datafile name="HandsDemonfet Low" target="Hands" local="true">HandsDemonfet Low.bsd</datafile>
+        </Slider>
+        <Slider name="Demonfet High" invert="false" small="0" big="0">
+            <datafile name="Demonfet High" target="UUNP">Demonfet High.bsd</datafile>
+            <datafile name="GlovesDemonfet High" target="Gloves" local="true">GlovesDemonfet High.bsd</datafile>
+            <datafile name="ForearmsDemonfet High" target="Forearms" local="true">ForearmsDemonfet High.bsd</datafile>
+            <datafile name="HandarmorDemonfet High" target="Handarmor" local="true">HandarmorDemonfet High.bsd</datafile>
+            <datafile name="HandsDemonfet High" target="Hands" local="true">HandsDemonfet High.bsd</datafile>
+        </Slider>
+        <Slider name="Dream Girl Low" invert="false" small="0" big="0">
+            <datafile name="Dream Girl Low" target="UUNP">Dream Girl Low.bsd</datafile>
+            <datafile name="GlovesDream Girl Low" target="Gloves" local="true">GlovesDream Girl Low.bsd</datafile>
+            <datafile name="ForearmsDream Girl Low" target="Forearms" local="true">ForearmsDream Girl Low.bsd</datafile>
+            <datafile name="HandarmorDream Girl Low" target="Handarmor" local="true">HandarmorDream Girl Low.bsd</datafile>
+            <datafile name="HandsDream Girl Low" target="Hands" local="true">HandsDream Girl Low.bsd</datafile>
+        </Slider>
+        <Slider name="Dream Girl High" invert="false" small="0" big="0">
+            <datafile name="Dream Girl High" target="UUNP">Dream Girl High.bsd</datafile>
+            <datafile name="GlovesDream Girl High" target="Gloves" local="true">GlovesDream Girl High.bsd</datafile>
+            <datafile name="ForearmsDream Girl High" target="Forearms" local="true">ForearmsDream Girl High.bsd</datafile>
+            <datafile name="HandarmorDream Girl High" target="Handarmor" local="true">HandarmorDream Girl High.bsd</datafile>
+            <datafile name="HandsDream Girl High" target="Hands" local="true">HandsDream Girl High.bsd</datafile>
+        </Slider>
+        <Slider name="Top Model Low" invert="false" small="0" big="0">
+            <datafile name="Top Model Low" target="UUNP">Top Model Low.bsd</datafile>
+            <datafile name="GlovesTop Model Low" target="Gloves" local="true">GlovesTop Model Low.bsd</datafile>
+            <datafile name="ForearmsTop Model Low" target="Forearms" local="true">ForearmsTop Model Low.bsd</datafile>
+            <datafile name="HandarmorTop Model Low" target="Handarmor" local="true">HandarmorTop Model Low.bsd</datafile>
+            <datafile name="HandsTop Model Low" target="Hands" local="true">HandsTop Model Low.bsd</datafile>
+        </Slider>
+        <Slider name="Top Model High" invert="false" small="0" big="0">
+            <datafile name="Top Model High" target="UUNP">Top Model High.bsd</datafile>
+            <datafile name="GlovesTop Model High" target="Gloves" local="true">GlovesTop Model High.bsd</datafile>
+            <datafile name="ForearmsTop Model High" target="Forearms" local="true">ForearmsTop Model High.bsd</datafile>
+            <datafile name="HandarmorTop Model High" target="Handarmor" local="true">HandarmorTop Model High.bsd</datafile>
+            <datafile name="HandsTop Model High" target="Hands" local="true">HandsTop Model High.bsd</datafile>
+        </Slider>
+        <Slider name="Leito Low" invert="false" small="0" big="0">
+            <datafile name="Leito Low" target="UUNP">Leito Low.bsd</datafile>
+            <datafile name="GlovesLeito Low" target="Gloves" local="true">GlovesLeito Low.bsd</datafile>
+            <datafile name="ForearmsLeito Low" target="Forearms" local="true">ForearmsLeito Low.bsd</datafile>
+            <datafile name="HandarmorLeito Low" target="Handarmor" local="true">HandarmorLeito Low.bsd</datafile>
+            <datafile name="HandsLeito Low" target="Hands" local="true">HandsLeito Low.bsd</datafile>
+        </Slider>
+        <Slider name="Leito High" invert="false" small="0" big="0">
+            <datafile name="Leito High" target="UUNP">Leito High.bsd</datafile>
+            <datafile name="GlovesLeito High" target="Gloves" local="true">GlovesLeito High.bsd</datafile>
+            <datafile name="ForearmsLeito High" target="Forearms" local="true">ForearmsLeito High.bsd</datafile>
+            <datafile name="HandarmorLeito High" target="Handarmor" local="true">HandarmorLeito High.bsd</datafile>
+            <datafile name="HandsLeito High" target="Hands" local="true">HandsLeito High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPF Low" invert="false" small="0" big="0">
+            <datafile name="UNPF Low" target="UUNP">UNPF Low.bsd</datafile>
+            <datafile name="GlovesUNPF Low" target="Gloves" local="true">GlovesUNPF Low.bsd</datafile>
+            <datafile name="ForearmsUNPF Low" target="Forearms" local="true">ForearmsUNPF Low.bsd</datafile>
+            <datafile name="HandarmorUNPF Low" target="Handarmor" local="true">HandarmorUNPF Low.bsd</datafile>
+            <datafile name="HandsUNPF Low" target="Hands" local="true">HandsUNPF Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPF High" invert="false" small="0" big="0">
+            <datafile name="UNPF High" target="UUNP">UNPF High.bsd</datafile>
+            <datafile name="GlovesUNPF High" target="Gloves" local="true">GlovesUNPF High.bsd</datafile>
+            <datafile name="ForearmsUNPF High" target="Forearms" local="true">ForearmsUNPF High.bsd</datafile>
+            <datafile name="HandarmorUNPF High" target="Handarmor" local="true">HandarmorUNPF High.bsd</datafile>
+            <datafile name="HandsUNPF High" target="Hands" local="true">HandsUNPF High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPFx Low" invert="false" small="0" big="0">
+            <datafile name="UNPFx Low" target="UUNP">UNPFx Low.bsd</datafile>
+            <datafile name="GlovesUNPFx Low" target="Gloves" local="true">GlovesUNPFx Low.bsd</datafile>
+            <datafile name="ForearmsUNPFx Low" target="Forearms" local="true">ForearmsUNPFx Low.bsd</datafile>
+            <datafile name="HandarmorUNPFx Low" target="Handarmor" local="true">HandarmorUNPFx Low.bsd</datafile>
+            <datafile name="HandsUNPFx Low" target="Hands" local="true">HandsUNPFx Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPFx High" invert="false" small="0" big="0">
+            <datafile name="UNPFx High" target="UUNP">UNPFx High.bsd</datafile>
+            <datafile name="GlovesUNPFx High" target="Gloves" local="true">GlovesUNPFx High.bsd</datafile>
+            <datafile name="ForearmsUNPFx High" target="Forearms" local="true">ForearmsUNPFx High.bsd</datafile>
+            <datafile name="HandarmorUNPFx High" target="Handarmor" local="true">HandarmorUNPFx High.bsd</datafile>
+            <datafile name="HandsUNPFx High" target="Hands" local="true">HandsUNPFx High.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF Low" invert="false" small="0" big="0">
+            <datafile name="CNHF Low" target="UUNP">CNHF Low.bsd</datafile>
+            <datafile name="GlovesCNHF Low" target="Gloves" local="true">GlovesCNHF Low.bsd</datafile>
+            <datafile name="ForearmsCNHF Low" target="Forearms" local="true">ForearmsCNHF Low.bsd</datafile>
+            <datafile name="HandarmorCNHF Low" target="Handarmor" local="true">HandarmorCNHF Low.bsd</datafile>
+            <datafile name="HandsCNHF Low" target="Hands" local="true">HandsCNHF Low.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF High" invert="false" small="0" big="0">
+            <datafile name="CNHF High" target="UUNP">CNHF High.bsd</datafile>
+            <datafile name="GlovesCNHF High" target="Gloves" local="true">GlovesCNHF High.bsd</datafile>
+            <datafile name="ForearmsCNHF High" target="Forearms" local="true">ForearmsCNHF High.bsd</datafile>
+            <datafile name="HandarmorCNHF High" target="Handarmor" local="true">HandarmorCNHF High.bsd</datafile>
+            <datafile name="HandsCNHF High" target="Hands" local="true">HandsCNHF High.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF Bonus Low" invert="false" small="0" big="0">
+            <datafile name="CNHF Bonus Low" target="UUNP">CNHF Bonus Low.bsd</datafile>
+            <datafile name="GlovesCNHF Bonus Low" target="Gloves" local="true">GlovesCNHF Bonus Low.bsd</datafile>
+            <datafile name="ForearmsCNHF Bonus Low" target="Forearms" local="true">ForearmsCNHF Bonus Low.bsd</datafile>
+            <datafile name="HandarmorCNHF Bonus Low" target="Handarmor" local="true">HandarmorCNHF Bonus Low.bsd</datafile>
+            <datafile name="HandsCNHF Bonus Low" target="Hands" local="true">HandsCNHF Bonus Low.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF Bonus High" invert="false" small="0" big="0">
+            <datafile name="CNHF Bonus High" target="UUNP">CNHF Bonus High.bsd</datafile>
+            <datafile name="GlovesCNHF Bonus High" target="Gloves" local="true">GlovesCNHF Bonus High.bsd</datafile>
+            <datafile name="ForearmsCNHF Bonus High" target="Forearms" local="true">ForearmsCNHF Bonus High.bsd</datafile>
+            <datafile name="HandarmorCNHF Bonus High" target="Handarmor" local="true">HandarmorCNHF Bonus High.bsd</datafile>
+            <datafile name="HandsCNHF Bonus High" target="Hands" local="true">HandsCNHF Bonus High.bsd</datafile>
+        </Slider>
+        <Slider name="MCBM Low" invert="false" small="0" big="0">
+            <datafile name="MCBM Low" target="UUNP">MCBM Low.bsd</datafile>
+            <datafile name="GlovesMCBM Low" target="Gloves" local="true">GlovesMCBM Low.bsd</datafile>
+            <datafile name="ForearmsMCBM Low" target="Forearms" local="true">ForearmsMCBM Low.bsd</datafile>
+            <datafile name="HandarmorMCBM Low" target="Handarmor" local="true">HandarmorMCBM Low.bsd</datafile>
+            <datafile name="HandsMCBM Low" target="Hands" local="true">HandsMCBM Low.bsd</datafile>
+        </Slider>
+        <Slider name="MCBM High" invert="false" small="0" big="0">
+            <datafile name="MCBM High" target="UUNP">MCBM High.bsd</datafile>
+            <datafile name="GlovesMCBM High" target="Gloves" local="true">GlovesMCBM High.bsd</datafile>
+            <datafile name="ForearmsMCBM High" target="Forearms" local="true">ForearmsMCBM High.bsd</datafile>
+            <datafile name="HandarmorMCBM High" target="Handarmor" local="true">HandarmorMCBM High.bsd</datafile>
+            <datafile name="HandsMCBM High" target="Hands" local="true">HandsMCBM High.bsd</datafile>
+        </Slider>
+        <Slider name="Venus Low" invert="false" small="0" big="0">
+            <datafile name="Venus Low" target="UUNP">Venus Low.bsd</datafile>
+            <datafile name="GlovesVenus Low" target="Gloves" local="true">GlovesVenus Low.bsd</datafile>
+            <datafile name="ForearmsVenus Low" target="Forearms" local="true">ForearmsVenus Low.bsd</datafile>
+            <datafile name="HandarmorVenus Low" target="Handarmor" local="true">HandarmorVenus Low.bsd</datafile>
+            <datafile name="HandsVenus Low" target="Hands" local="true">HandsVenus Low.bsd</datafile>
+        </Slider>
+        <Slider name="Venus High" invert="false" small="0" big="0">
+            <datafile name="Venus High" target="UUNP">Venus High.bsd</datafile>
+            <datafile name="GlovesVenus High" target="Gloves" local="true">GlovesVenus High.bsd</datafile>
+            <datafile name="ForearmsVenus High" target="Forearms" local="true">ForearmsVenus High.bsd</datafile>
+            <datafile name="HandarmorVenus High" target="Handarmor" local="true">HandarmorVenus High.bsd</datafile>
+            <datafile name="HandsVenus High" target="Hands" local="true">HandsVenus High.bsd</datafile>
+        </Slider>
+        <Slider name="ZGGB-R2 Low" invert="false" small="0" big="0">
+            <datafile name="ZGGB-R2 Low" target="UUNP">ZGGB-R2 Low.bsd</datafile>
+            <datafile name="GlovesZGGB-R2 Low" target="Gloves" local="true">GlovesZGGB-R2 Low.bsd</datafile>
+            <datafile name="ForearmsZGGB-R2 Low" target="Forearms" local="true">ForearmsZGGB-R2 Low.bsd</datafile>
+            <datafile name="HandarmorZGGB-R2 Low" target="Handarmor" local="true">HandarmorZGGB-R2 Low.bsd</datafile>
+            <datafile name="HandsZGGB-R2 Low" target="Hands" local="true">HandsZGGB-R2 Low.bsd</datafile>
+        </Slider>
+        <Slider name="ZGGB-R2 High" invert="false" small="0" big="0">
+            <datafile name="ZGGB-R2 High" target="UUNP">ZGGB-R2 High.bsd</datafile>
+            <datafile name="GlovesZGGB-R2 High" target="Gloves" local="true">GlovesZGGB-R2 High.bsd</datafile>
+            <datafile name="ForearmsZGGB-R2 High" target="Forearms" local="true">ForearmsZGGB-R2 High.bsd</datafile>
+            <datafile name="HandarmorZGGB-R2 High" target="Handarmor" local="true">HandarmorZGGB-R2 High.bsd</datafile>
+            <datafile name="HandsZGGB-R2 High" target="Hands" local="true">HandsZGGB-R2 High.bsd</datafile>
+        </Slider>
+        <Slider name="Manga Low" invert="false" small="0" big="0">
+            <datafile name="Manga Low" target="UUNP">Manga Low.bsd</datafile>
+            <datafile name="GlovesManga Low" target="Gloves" local="true">GlovesManga Low.bsd</datafile>
+            <datafile name="ForearmsManga Low" target="Forearms" local="true">ForearmsManga Low.bsd</datafile>
+            <datafile name="HandarmorManga Low" target="Handarmor" local="true">HandarmorManga Low.bsd</datafile>
+            <datafile name="HandsManga Low" target="Hands" local="true">HandsManga Low.bsd</datafile>
+        </Slider>
+        <Slider name="Manga High" invert="false" small="0" big="0">
+            <datafile name="Manga High" target="UUNP">Manga High.bsd</datafile>
+            <datafile name="GlovesManga High" target="Gloves" local="true">GlovesManga High.bsd</datafile>
+            <datafile name="ForearmsManga High" target="Forearms" local="true">ForearmsManga High.bsd</datafile>
+            <datafile name="HandarmorManga High" target="Handarmor" local="true">HandarmorManga High.bsd</datafile>
+            <datafile name="HandsManga High" target="Hands" local="true">HandsManga High.bsd</datafile>
+        </Slider>
+        <Slider name="CHSBHC Low" invert="false" small="0" big="0">
+            <datafile name="CHSBHC Low" target="UUNP">CHSBHC Low.bsd</datafile>
+            <datafile name="GlovesCHSBHC Low" target="Gloves" local="true">GlovesCHSBHC Low.bsd</datafile>
+            <datafile name="ForearmsCHSBHC Low" target="Forearms" local="true">ForearmsCHSBHC Low.bsd</datafile>
+            <datafile name="HandarmorCHSBHC Low" target="Handarmor" local="true">HandarmorCHSBHC Low.bsd</datafile>
+            <datafile name="HandsCHSBHC Low" target="Hands" local="true">HandsCHSBHC Low.bsd</datafile>
+        </Slider>
+        <Slider name="CHSBHC High" invert="false" small="0" big="0">
+            <datafile name="CHSBHC High" target="UUNP">CHSBHC High.bsd</datafile>
+            <datafile name="GlovesCHSBHC High" target="Gloves" local="true">GlovesCHSBHC High.bsd</datafile>
+            <datafile name="ForearmsCHSBHC High" target="Forearms" local="true">ForearmsCHSBHC High.bsd</datafile>
+            <datafile name="HandarmorCHSBHC High" target="Handarmor" local="true">HandarmorCHSBHC High.bsd</datafile>
+            <datafile name="HandsCHSBHC High" target="Hands" local="true">HandsCHSBHC High.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

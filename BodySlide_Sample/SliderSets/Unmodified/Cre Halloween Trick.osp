@@ -1,0 +1,236 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Halloween Trick">
+        <DataFolder>Cre Halloween Trick</DataFolder>
+        <SourceFile>Cre Halloween Trick.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\HalloWeen</OutputPath>
+        <OutputFile GenWeights="true">HalloWeen_TRICK</OutputFile>
+        <Shape target="0Himo">0Himo</Shape>
+        <Shape target="0Top">0Top</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="0HimoBreasts" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreasts</Data>
+            <Data name="0TopBreasts" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="0HimoBreastsSmall" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastsSmall</Data>
+            <Data name="0TopBreastsSmall" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="0HimoBreastsSH" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastsSH</Data>
+            <Data name="0TopBreastsSH" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="0HimoBreastsSSH" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastsSSH</Data>
+            <Data name="0TopBreastsSSH" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="0HimoBreastsFantasy" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastsFantasy</Data>
+            <Data name="0TopBreastsFantasy" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="0HimoDoubleMelon" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoDoubleMelon</Data>
+            <Data name="0TopDoubleMelon" target="0Top" local="true">Cre Halloween Trick.osd\0TopDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="0HimoBreastCleavage" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastCleavage</Data>
+            <Data name="0TopBreastCleavage" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="0HimoBreastFlatness" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastFlatness</Data>
+            <Data name="0TopBreastFlatness" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="0HimoBreastGravity" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastGravity</Data>
+            <Data name="0TopBreastGravity" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="0HimoPushUp" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoPushUp</Data>
+            <Data name="0TopPushUp" target="0Top" local="true">Cre Halloween Trick.osd\0TopPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="0HimoBreastHeight" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastHeight</Data>
+            <Data name="0TopBreastHeight" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="0HimoBreastPerkiness" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastPerkiness</Data>
+            <Data name="0TopBreastPerkiness" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="0HimoBreastWidth" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBreastWidth</Data>
+            <Data name="0TopBreastWidth" target="0Top" local="true">Cre Halloween Trick.osd\0TopBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="0HimoNippleDistance" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoNippleDistance</Data>
+            <Data name="0TopNippleDistance" target="0Top" local="true">Cre Halloween Trick.osd\0TopNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="0HimoNipplePerkiness" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoNipplePerkiness</Data>
+            <Data name="0TopNipplePerkiness" target="0Top" local="true">Cre Halloween Trick.osd\0TopNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="0TopNippleLength" target="0Top" local="true">Cre Halloween Trick.osd\0TopNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="0HimoNippleSize" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoNippleSize</Data>
+            <Data name="0TopNippleSize" target="0Top" local="true">Cre Halloween Trick.osd\0TopNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="0HimoNippleAreola" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoNippleAreola</Data>
+            <Data name="0TopNippleAreola" target="0Top" local="true">Cre Halloween Trick.osd\0TopNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="0HimoNippleUp" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoNippleUp</Data>
+            <Data name="0TopNippleUp" target="0Top" local="true">Cre Halloween Trick.osd\0TopNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="0HimoNippleDown" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoNippleDown</Data>
+            <Data name="0TopNippleDown" target="0Top" local="true">Cre Halloween Trick.osd\0TopNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="0TopNippleTip" target="0Top" local="true">Cre Halloween Trick.osd\0TopNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="0HimoArms" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="0HimoChubbyArms" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="0HimoShoulderWidth" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoShoulderWidth</Data>
+            <Data name="0TopShoulderWidth" target="0Top" local="true">Cre Halloween Trick.osd\0TopShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="0HimoBigTorso" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBigTorso</Data>
+            <Data name="0TopBigTorso" target="0Top" local="true">Cre Halloween Trick.osd\0TopBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="0HimoWaist" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="0HimoWideWaistLine" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="0HimoChubbyWaist" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoChubbyWaist</Data>
+            <Data name="0TopChubbyWaist" target="0Top" local="true">Cre Halloween Trick.osd\0TopChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="0HimoBigBelly" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBigBelly</Data>
+            <Data name="0TopBigBelly" target="0Top" local="true">Cre Halloween Trick.osd\0TopBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="0HimoPregnancyBelly" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoPregnancyBelly</Data>
+            <Data name="0TopPregnancyBelly" target="0Top" local="true">Cre Halloween Trick.osd\0TopPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="0HimoBack" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="0HimoHips" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="0HimoButtShape2" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="0HimoBigButt" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="0HimoChubbyButt" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="0HimoAppleCheeks" target="0Himo" local="true">Cre Halloween Trick.osd\0HimoAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

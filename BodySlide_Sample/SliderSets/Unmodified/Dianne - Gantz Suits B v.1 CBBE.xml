@@ -1,0 +1,395 @@
+<SliderSetInfo>
+    <SliderSet name="Dianne - Gantz Suits B v.1 CBBE">
+        <SetFolder>Dianne - Gantz Suits B v.1 CBBE</SetFolder>
+        <SourceFile>Dianne - Gantz Suits B v.1 CBBE.nif</SourceFile>
+        <OutputPath>Meshes\Neovinci\GantzF</OutputPath>
+        <OutputFile>GantzB</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="SLFC">BaseShape</BaseShapeName>
+        <BaseShapeName target="NB">NB</BaseShapeName>
+        <BaseShapeName target="SHB">SHB</BaseShapeName>
+        <BaseShapeName target="UB">UB</BaseShapeName>
+        <BaseShapeName target="Under">Under</BaseShapeName>
+        <BaseShapeName target="Under.001">Under.001</BaseShapeName>
+        <BaseShapeName target="Upper">Upper</BaseShapeName>
+        <BaseShapeName target="neck">neck</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="BaseShapeBreasts" target="BaseShape" local="true">BaseShapeBreasts.bsd</datafile>
+            <datafile name="SHBBreasts" target="SHB" local="true">SHBBreasts.bsd</datafile>
+            <datafile name="UBBreasts" target="UB" local="true">UBBreasts.bsd</datafile>
+            <datafile name="UnderBreasts" target="Under" local="true">UnderBreasts.bsd</datafile>
+            <datafile name="Under.001Breasts" target="Under.001" local="true">Under.001Breasts.bsd</datafile>
+            <datafile name="UpperBreasts" target="Upper" local="true">UpperBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BaseShapeBreastsSmall" target="BaseShape" local="true">BaseShapeBreastsSmall.bsd</datafile>
+            <datafile name="SHBBreastsSmall" target="SHB" local="true">SHBBreastsSmall.bsd</datafile>
+            <datafile name="UBBreastsSmall" target="UB" local="true">UBBreastsSmall.bsd</datafile>
+            <datafile name="UnderBreastsSmall" target="Under" local="true">UnderBreastsSmall.bsd</datafile>
+            <datafile name="Under.001BreastsSmall" target="Under.001" local="true">Under.001BreastsSmall.bsd</datafile>
+            <datafile name="UpperBreastsSmall" target="Upper" local="true">UpperBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastsSH" target="BaseShape" local="true">BaseShapeBreastsSH.bsd</datafile>
+            <datafile name="SHBBreastsSH" target="SHB" local="true">SHBBreastsSH.bsd</datafile>
+            <datafile name="UBBreastsSH" target="UB" local="true">UBBreastsSH.bsd</datafile>
+            <datafile name="UnderBreastsSH" target="Under" local="true">UnderBreastsSH.bsd</datafile>
+            <datafile name="Under.001BreastsSH" target="Under.001" local="true">Under.001BreastsSH.bsd</datafile>
+            <datafile name="UpperBreastsSH" target="Upper" local="true">UpperBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastsSSH" target="BaseShape" local="true">BaseShapeBreastsSSH.bsd</datafile>
+            <datafile name="SHBBreastsSSH" target="SHB" local="true">SHBBreastsSSH.bsd</datafile>
+            <datafile name="UBBreastsSSH" target="UB" local="true">UBBreastsSSH.bsd</datafile>
+            <datafile name="UnderBreastsSSH" target="Under" local="true">UnderBreastsSSH.bsd</datafile>
+            <datafile name="Under.001BreastsSSH" target="Under.001" local="true">Under.001BreastsSSH.bsd</datafile>
+            <datafile name="UpperBreastsSSH" target="Upper" local="true">UpperBreastsSSH.bsd</datafile>
+            <datafile name="NBBreastsSSH" target="NB" local="true">NBBreastsSSH.bsd</datafile>
+            <datafile name="neckBreastsSSH" target="neck" local="true">neckBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastsFantasy" target="BaseShape" local="true">BaseShapeBreastsFantasy.bsd</datafile>
+            <datafile name="SHBBreastsFantasy" target="SHB" local="true">SHBBreastsFantasy.bsd</datafile>
+            <datafile name="UBBreastsFantasy" target="UB" local="true">UBBreastsFantasy.bsd</datafile>
+            <datafile name="UnderBreastsFantasy" target="Under" local="true">UnderBreastsFantasy.bsd</datafile>
+            <datafile name="Under.001BreastsFantasy" target="Under.001" local="true">Under.001BreastsFantasy.bsd</datafile>
+            <datafile name="UpperBreastsFantasy" target="Upper" local="true">UpperBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="BaseShapeDoubleMelon" target="BaseShape" local="true">BaseShapeDoubleMelon.bsd</datafile>
+            <datafile name="SHBDoubleMelon" target="SHB" local="true">SHBDoubleMelon.bsd</datafile>
+            <datafile name="UBDoubleMelon" target="UB" local="true">UBDoubleMelon.bsd</datafile>
+            <datafile name="UnderDoubleMelon" target="Under" local="true">UnderDoubleMelon.bsd</datafile>
+            <datafile name="Under.001DoubleMelon" target="Under.001" local="true">Under.001DoubleMelon.bsd</datafile>
+            <datafile name="UpperDoubleMelon" target="Upper" local="true">UpperDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastCleavage" target="BaseShape" local="true">BaseShapeBreastCleavage.bsd</datafile>
+            <datafile name="UBBreastCleavage" target="UB" local="true">UBBreastCleavage.bsd</datafile>
+            <datafile name="UnderBreastCleavage" target="Under" local="true">UnderBreastCleavage.bsd</datafile>
+            <datafile name="Under.001BreastCleavage" target="Under.001" local="true">Under.001BreastCleavage.bsd</datafile>
+            <datafile name="UpperBreastCleavage" target="Upper" local="true">UpperBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastFlatness" target="BaseShape" local="true">BaseShapeBreastFlatness.bsd</datafile>
+            <datafile name="SHBBreastFlatness" target="SHB" local="true">SHBBreastFlatness.bsd</datafile>
+            <datafile name="UBBreastFlatness" target="UB" local="true">UBBreastFlatness.bsd</datafile>
+            <datafile name="UnderBreastFlatness" target="Under" local="true">UnderBreastFlatness.bsd</datafile>
+            <datafile name="Under.001BreastFlatness" target="Under.001" local="true">Under.001BreastFlatness.bsd</datafile>
+            <datafile name="UpperBreastFlatness" target="Upper" local="true">UpperBreastFlatness.bsd</datafile>
+            <datafile name="NBBreastFlatness" target="NB" local="true">NBBreastFlatness.bsd</datafile>
+            <datafile name="neckBreastFlatness" target="neck" local="true">neckBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastGravity" target="BaseShape" local="true">BaseShapeBreastGravity.bsd</datafile>
+            <datafile name="SHBBreastGravity" target="SHB" local="true">SHBBreastGravity.bsd</datafile>
+            <datafile name="UBBreastGravity" target="UB" local="true">UBBreastGravity.bsd</datafile>
+            <datafile name="UnderBreastGravity" target="Under" local="true">UnderBreastGravity.bsd</datafile>
+            <datafile name="Under.001BreastGravity" target="Under.001" local="true">Under.001BreastGravity.bsd</datafile>
+            <datafile name="UpperBreastGravity" target="Upper" local="true">UpperBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="BaseShapePushUp" target="BaseShape" local="true">BaseShapePushUp.bsd</datafile>
+            <datafile name="SHBPushUp" target="SHB" local="true">SHBPushUp.bsd</datafile>
+            <datafile name="UBPushUp" target="UB" local="true">UBPushUp.bsd</datafile>
+            <datafile name="UnderPushUp" target="Under" local="true">UnderPushUp.bsd</datafile>
+            <datafile name="Under.001PushUp" target="Under.001" local="true">Under.001PushUp.bsd</datafile>
+            <datafile name="UpperPushUp" target="Upper" local="true">UpperPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastHeight" target="BaseShape" local="true">BaseShapeBreastHeight.bsd</datafile>
+            <datafile name="SHBBreastHeight" target="SHB" local="true">SHBBreastHeight.bsd</datafile>
+            <datafile name="UBBreastHeight" target="UB" local="true">UBBreastHeight.bsd</datafile>
+            <datafile name="UnderBreastHeight" target="Under" local="true">UnderBreastHeight.bsd</datafile>
+            <datafile name="Under.001BreastHeight" target="Under.001" local="true">Under.001BreastHeight.bsd</datafile>
+            <datafile name="UpperBreastHeight" target="Upper" local="true">UpperBreastHeight.bsd</datafile>
+            <datafile name="NBBreastHeight" target="NB" local="true">NBBreastHeight.bsd</datafile>
+            <datafile name="neckBreastHeight" target="neck" local="true">neckBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastPerkiness" target="BaseShape" local="true">BaseShapeBreastPerkiness.bsd</datafile>
+            <datafile name="SHBBreastPerkiness" target="SHB" local="true">SHBBreastPerkiness.bsd</datafile>
+            <datafile name="UBBreastPerkiness" target="UB" local="true">UBBreastPerkiness.bsd</datafile>
+            <datafile name="UnderBreastPerkiness" target="Under" local="true">UnderBreastPerkiness.bsd</datafile>
+            <datafile name="Under.001BreastPerkiness" target="Under.001" local="true">Under.001BreastPerkiness.bsd</datafile>
+            <datafile name="UpperBreastPerkiness" target="Upper" local="true">UpperBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBreastWidth" target="BaseShape" local="true">BaseShapeBreastWidth.bsd</datafile>
+            <datafile name="SHBBreastWidth" target="SHB" local="true">SHBBreastWidth.bsd</datafile>
+            <datafile name="UBBreastWidth" target="UB" local="true">UBBreastWidth.bsd</datafile>
+            <datafile name="UnderBreastWidth" target="Under" local="true">UnderBreastWidth.bsd</datafile>
+            <datafile name="Under.001BreastWidth" target="Under.001" local="true">Under.001BreastWidth.bsd</datafile>
+            <datafile name="UpperBreastWidth" target="Upper" local="true">UpperBreastWidth.bsd</datafile>
+            <datafile name="NBBreastWidth" target="NB" local="true">NBBreastWidth.bsd</datafile>
+            <datafile name="neckBreastWidth" target="neck" local="true">neckBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="BaseShapeNippleDistance" target="BaseShape" local="true">BaseShapeNippleDistance.bsd</datafile>
+            <datafile name="UBNippleDistance" target="UB" local="true">UBNippleDistance.bsd</datafile>
+            <datafile name="UpperNippleDistance" target="Upper" local="true">UpperNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="BaseShapeNipplePerkiness" target="BaseShape" local="true">BaseShapeNipplePerkiness.bsd</datafile>
+            <datafile name="UpperNipplePerkiness" target="Upper" local="true">UpperNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="BaseShapeNippleLength" target="BaseShape" local="true">BaseShapeNippleLength.bsd</datafile>
+            <datafile name="SHBNippleLength" target="SHB" local="true">SHBNippleLength.bsd</datafile>
+            <datafile name="UnderNippleLength" target="Under" local="true">UnderNippleLength.bsd</datafile>
+            <datafile name="UpperNippleLength" target="Upper" local="true">UpperNippleLength.bsd</datafile>
+            <datafile name="NBNippleLength" target="NB" local="true">NBNippleLength.bsd</datafile>
+            <datafile name="neckNippleLength" target="neck" local="true">neckNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="BaseShapeNippleSize" target="BaseShape" local="true">BaseShapeNippleSize.bsd</datafile>
+            <datafile name="UBNippleSize" target="UB" local="true">UBNippleSize.bsd</datafile>
+            <datafile name="UpperNippleSize" target="Upper" local="true">UpperNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="BaseShapeNippleAreola" target="BaseShape" local="true">BaseShapeNippleAreola.bsd</datafile>
+            <datafile name="UBNippleAreola" target="UB" local="true">UBNippleAreola.bsd</datafile>
+            <datafile name="Under.001NippleAreola" target="Under.001" local="true">Under.001NippleAreola.bsd</datafile>
+            <datafile name="UpperNippleAreola" target="Upper" local="true">UpperNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="BaseShapeNippleUp" target="BaseShape" local="true">BaseShapeNippleUp.bsd</datafile>
+            <datafile name="SHBNippleUp" target="SHB" local="true">SHBNippleUp.bsd</datafile>
+            <datafile name="UBNippleUp" target="UB" local="true">UBNippleUp.bsd</datafile>
+            <datafile name="UnderNippleUp" target="Under" local="true">UnderNippleUp.bsd</datafile>
+            <datafile name="Under.001NippleUp" target="Under.001" local="true">Under.001NippleUp.bsd</datafile>
+            <datafile name="UpperNippleUp" target="Upper" local="true">UpperNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="BaseShapeNippleDown" target="BaseShape" local="true">BaseShapeNippleDown.bsd</datafile>
+            <datafile name="UBNippleDown" target="UB" local="true">UBNippleDown.bsd</datafile>
+            <datafile name="Under.001NippleDown" target="Under.001" local="true">Under.001NippleDown.bsd</datafile>
+            <datafile name="UpperNippleDown" target="Upper" local="true">UpperNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="BaseShapeNippleTip" target="BaseShape" local="true">BaseShapeNippleTip.bsd</datafile>
+            <datafile name="UpperNippleTip" target="Upper" local="true">UpperNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="BaseShapeArms" target="BaseShape" local="true">BaseShapeArms.bsd</datafile>
+            <datafile name="SHBArms" target="SHB" local="true">SHBArms.bsd</datafile>
+            <datafile name="UBArms" target="UB" local="true">UBArms.bsd</datafile>
+            <datafile name="UnderArms" target="Under" local="true">UnderArms.bsd</datafile>
+            <datafile name="UpperArms" target="Upper" local="true">UpperArms.bsd</datafile>
+            <datafile name="NBArms" target="NB" local="true">NBArms.bsd</datafile>
+            <datafile name="neckArms" target="neck" local="true">neckArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="BaseShapeChubbyArms" target="BaseShape" local="true">BaseShapeChubbyArms.bsd</datafile>
+            <datafile name="SHBChubbyArms" target="SHB" local="true">SHBChubbyArms.bsd</datafile>
+            <datafile name="UnderChubbyArms" target="Under" local="true">UnderChubbyArms.bsd</datafile>
+            <datafile name="UpperChubbyArms" target="Upper" local="true">UpperChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="BaseShapeShoulderSmooth" target="BaseShape" local="true">BaseShapeShoulderSmooth.bsd</datafile>
+            <datafile name="SHBShoulderSmooth" target="SHB" local="true">SHBShoulderSmooth.bsd</datafile>
+            <datafile name="UnderShoulderSmooth" target="Under" local="true">UnderShoulderSmooth.bsd</datafile>
+            <datafile name="UpperShoulderSmooth" target="Upper" local="true">UpperShoulderSmooth.bsd</datafile>
+            <datafile name="NBShoulderSmooth" target="NB" local="true">NBShoulderSmooth.bsd</datafile>
+            <datafile name="neckShoulderSmooth" target="neck" local="true">neckShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="BaseShapeShoulderWidth" target="BaseShape" local="true">BaseShapeShoulderWidth.bsd</datafile>
+            <datafile name="SHBShoulderWidth" target="SHB" local="true">SHBShoulderWidth.bsd</datafile>
+            <datafile name="UBShoulderWidth" target="UB" local="true">UBShoulderWidth.bsd</datafile>
+            <datafile name="UnderShoulderWidth" target="Under" local="true">UnderShoulderWidth.bsd</datafile>
+            <datafile name="UpperShoulderWidth" target="Upper" local="true">UpperShoulderWidth.bsd</datafile>
+            <datafile name="NBShoulderWidth" target="NB" local="true">NBShoulderWidth.bsd</datafile>
+            <datafile name="neckShoulderWidth" target="neck" local="true">neckShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBigTorso" target="BaseShape" local="true">BaseShapeBigTorso.bsd</datafile>
+            <datafile name="SHBBigTorso" target="SHB" local="true">SHBBigTorso.bsd</datafile>
+            <datafile name="UBBigTorso" target="UB" local="true">UBBigTorso.bsd</datafile>
+            <datafile name="UnderBigTorso" target="Under" local="true">UnderBigTorso.bsd</datafile>
+            <datafile name="Under.001BigTorso" target="Under.001" local="true">Under.001BigTorso.bsd</datafile>
+            <datafile name="UpperBigTorso" target="Upper" local="true">UpperBigTorso.bsd</datafile>
+            <datafile name="NBBigTorso" target="NB" local="true">NBBigTorso.bsd</datafile>
+            <datafile name="neckBigTorso" target="neck" local="true">neckBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="BaseShapeWaist" target="BaseShape" local="true">BaseShapeWaist.bsd</datafile>
+            <datafile name="SHBWaist" target="SHB" local="true">SHBWaist.bsd</datafile>
+            <datafile name="UBWaist" target="UB" local="true">UBWaist.bsd</datafile>
+            <datafile name="Under.001Waist" target="Under.001" local="true">Under.001Waist.bsd</datafile>
+            <datafile name="UpperWaist" target="Upper" local="true">UpperWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="BaseShapeWideWaistLine" target="BaseShape" local="true">BaseShapeWideWaistLine.bsd</datafile>
+            <datafile name="SHBWideWaistLine" target="SHB" local="true">SHBWideWaistLine.bsd</datafile>
+            <datafile name="UBWideWaistLine" target="UB" local="true">UBWideWaistLine.bsd</datafile>
+            <datafile name="Under.001WideWaistLine" target="Under.001" local="true">Under.001WideWaistLine.bsd</datafile>
+            <datafile name="UpperWideWaistLine" target="Upper" local="true">UpperWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="BaseShapeChubbyWaist" target="BaseShape" local="true">BaseShapeChubbyWaist.bsd</datafile>
+            <datafile name="SHBChubbyWaist" target="SHB" local="true">SHBChubbyWaist.bsd</datafile>
+            <datafile name="UBChubbyWaist" target="UB" local="true">UBChubbyWaist.bsd</datafile>
+            <datafile name="Under.001ChubbyWaist" target="Under.001" local="true">Under.001ChubbyWaist.bsd</datafile>
+            <datafile name="UpperChubbyWaist" target="Upper" local="true">UpperChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBelly" target="BaseShape" local="true">BaseShapeBelly.bsd</datafile>
+            <datafile name="SHBBelly" target="SHB" local="true">SHBBelly.bsd</datafile>
+            <datafile name="UBBelly" target="UB" local="true">UBBelly.bsd</datafile>
+            <datafile name="Under.001Belly" target="Under.001" local="true">Under.001Belly.bsd</datafile>
+            <datafile name="UpperBelly" target="Upper" local="true">UpperBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBigBelly" target="BaseShape" local="true">BaseShapeBigBelly.bsd</datafile>
+            <datafile name="SHBBigBelly" target="SHB" local="true">SHBBigBelly.bsd</datafile>
+            <datafile name="UBBigBelly" target="UB" local="true">UBBigBelly.bsd</datafile>
+            <datafile name="Under.001BigBelly" target="Under.001" local="true">Under.001BigBelly.bsd</datafile>
+            <datafile name="UpperBigBelly" target="Upper" local="true">UpperBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="BaseShapePregnancyBelly" target="BaseShape" local="true">BaseShapePregnancyBelly.bsd</datafile>
+            <datafile name="SHBPregnancyBelly" target="SHB" local="true">SHBPregnancyBelly.bsd</datafile>
+            <datafile name="UBPregnancyBelly" target="UB" local="true">UBPregnancyBelly.bsd</datafile>
+            <datafile name="UnderPregnancyBelly" target="Under" local="true">UnderPregnancyBelly.bsd</datafile>
+            <datafile name="Under.001PregnancyBelly" target="Under.001" local="true">Under.001PregnancyBelly.bsd</datafile>
+            <datafile name="UpperPregnancyBelly" target="Upper" local="true">UpperPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="BaseShapeTummyTuck" target="BaseShape" local="true">BaseShapeTummyTuck.bsd</datafile>
+            <datafile name="SHBTummyTuck" target="SHB" local="true">SHBTummyTuck.bsd</datafile>
+            <datafile name="UBTummyTuck" target="UB" local="true">UBTummyTuck.bsd</datafile>
+            <datafile name="Under.001TummyTuck" target="Under.001" local="true">Under.001TummyTuck.bsd</datafile>
+            <datafile name="UpperTummyTuck" target="Upper" local="true">UpperTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBack" target="BaseShape" local="true">BaseShapeBack.bsd</datafile>
+            <datafile name="SHBBack" target="SHB" local="true">SHBBack.bsd</datafile>
+            <datafile name="UBBack" target="UB" local="true">UBBack.bsd</datafile>
+            <datafile name="UnderBack" target="Under" local="true">UnderBack.bsd</datafile>
+            <datafile name="Under.001Back" target="Under.001" local="true">Under.001Back.bsd</datafile>
+            <datafile name="UpperBack" target="Upper" local="true">UpperBack.bsd</datafile>
+            <datafile name="neckBack" target="neck" local="true">neckBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="BaseShapeHipbone" target="BaseShape" local="true">BaseShapeHipbone.bsd</datafile>
+            <datafile name="SHBHipbone" target="SHB" local="true">SHBHipbone.bsd</datafile>
+            <datafile name="UBHipbone" target="UB" local="true">UBHipbone.bsd</datafile>
+            <datafile name="Under.001Hipbone" target="Under.001" local="true">Under.001Hipbone.bsd</datafile>
+            <datafile name="UpperHipbone" target="Upper" local="true">UpperHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="BaseShapeHips" target="BaseShape" local="true">BaseShapeHips.bsd</datafile>
+            <datafile name="SHBHips" target="SHB" local="true">SHBHips.bsd</datafile>
+            <datafile name="UBHips" target="UB" local="true">UBHips.bsd</datafile>
+            <datafile name="Under.001Hips" target="Under.001" local="true">Under.001Hips.bsd</datafile>
+            <datafile name="UpperHips" target="Upper" local="true">UpperHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="BaseShapeButtCrack" target="BaseShape" local="true">BaseShapeButtCrack.bsd</datafile>
+            <datafile name="Under.001ButtCrack" target="Under.001" local="true">Under.001ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="BaseShapeButt" target="BaseShape" local="true">BaseShapeButt.bsd</datafile>
+            <datafile name="SHBButt" target="SHB" local="true">SHBButt.bsd</datafile>
+            <datafile name="UBButt" target="UB" local="true">UBButt.bsd</datafile>
+            <datafile name="Under.001Butt" target="Under.001" local="true">Under.001Butt.bsd</datafile>
+            <datafile name="UpperButt" target="Upper" local="true">UpperButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="BaseShapeButtSmall" target="BaseShape" local="true">BaseShapeButtSmall.bsd</datafile>
+            <datafile name="SHBButtSmall" target="SHB" local="true">SHBButtSmall.bsd</datafile>
+            <datafile name="UBButtSmall" target="UB" local="true">UBButtSmall.bsd</datafile>
+            <datafile name="Under.001ButtSmall" target="Under.001" local="true">Under.001ButtSmall.bsd</datafile>
+            <datafile name="UpperButtSmall" target="Upper" local="true">UpperButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="BaseShapeButtShape2" target="BaseShape" local="true">BaseShapeButtShape2.bsd</datafile>
+            <datafile name="SHBButtShape2" target="SHB" local="true">SHBButtShape2.bsd</datafile>
+            <datafile name="UBButtShape2" target="UB" local="true">UBButtShape2.bsd</datafile>
+            <datafile name="Under.001ButtShape2" target="Under.001" local="true">Under.001ButtShape2.bsd</datafile>
+            <datafile name="UpperButtShape2" target="Upper" local="true">UpperButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BaseShapeBigButt" target="BaseShape" local="true">BaseShapeBigButt.bsd</datafile>
+            <datafile name="SHBBigButt" target="SHB" local="true">SHBBigButt.bsd</datafile>
+            <datafile name="UBBigButt" target="UB" local="true">UBBigButt.bsd</datafile>
+            <datafile name="Under.001BigButt" target="Under.001" local="true">Under.001BigButt.bsd</datafile>
+            <datafile name="UpperBigButt" target="Upper" local="true">UpperBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="BaseShapeChubbyButt" target="BaseShape" local="true">BaseShapeChubbyButt.bsd</datafile>
+            <datafile name="SHBChubbyButt" target="SHB" local="true">SHBChubbyButt.bsd</datafile>
+            <datafile name="UBChubbyButt" target="UB" local="true">UBChubbyButt.bsd</datafile>
+            <datafile name="Under.001ChubbyButt" target="Under.001" local="true">Under.001ChubbyButt.bsd</datafile>
+            <datafile name="UpperChubbyButt" target="Upper" local="true">UpperChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="BaseShapeAppleCheeks" target="BaseShape" local="true">BaseShapeAppleCheeks.bsd</datafile>
+            <datafile name="SHBAppleCheeks" target="SHB" local="true">SHBAppleCheeks.bsd</datafile>
+            <datafile name="UBAppleCheeks" target="UB" local="true">UBAppleCheeks.bsd</datafile>
+            <datafile name="Under.001AppleCheeks" target="Under.001" local="true">Under.001AppleCheeks.bsd</datafile>
+            <datafile name="UpperAppleCheeks" target="Upper" local="true">UpperAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="BaseShapeRoundAss" target="BaseShape" local="true">BaseShapeRoundAss.bsd</datafile>
+            <datafile name="Under.001RoundAss" target="Under.001" local="true">Under.001RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="BaseShapeSlimThighs" target="BaseShape" local="true">BaseShapeSlimThighs.bsd</datafile>
+            <datafile name="SHBSlimThighs" target="SHB" local="true">SHBSlimThighs.bsd</datafile>
+            <datafile name="UBSlimThighs" target="UB" local="true">UBSlimThighs.bsd</datafile>
+            <datafile name="Under.001SlimThighs" target="Under.001" local="true">Under.001SlimThighs.bsd</datafile>
+            <datafile name="UpperSlimThighs" target="Upper" local="true">UpperSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="BaseShapeThighs" target="BaseShape" local="true">BaseShapeThighs.bsd</datafile>
+            <datafile name="Under.001Thighs" target="Under.001" local="true">Under.001Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="BaseShapeChubbyLegs" target="BaseShape" local="true">BaseShapeChubbyLegs.bsd</datafile>
+            <datafile name="Under.001ChubbyLegs" target="Under.001" local="true">Under.001ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="BaseShapeLegs" target="BaseShape" local="true">BaseShapeLegs.bsd</datafile>
+            <datafile name="Under.001Legs" target="Under.001" local="true">Under.001Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="BaseShapeKneeHeight" target="BaseShape" local="true">BaseShapeKneeHeight.bsd</datafile>
+            <datafile name="Under.001KneeHeight" target="Under.001" local="true">Under.001KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="BaseShapeCalfSize" target="BaseShape" local="true">BaseShapeCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="BaseShapeCalfSmooth" target="BaseShape" local="true">BaseShapeCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="BaseShapeAnkles" target="BaseShape" local="true">BaseShapeAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="BaseShapeSmallSeam" target="BaseShape" local="true">BaseShapeSmallSeam.bsd</datafile>
+            <datafile name="SHBSmallSeam" target="SHB" local="true">SHBSmallSeam.bsd</datafile>
+            <datafile name="UnderSmallSeam" target="Under" local="true">UnderSmallSeam.bsd</datafile>
+            <datafile name="UpperSmallSeam" target="Upper" local="true">UpperSmallSeam.bsd</datafile>
+            <datafile name="NBSmallSeam" target="NB" local="true">NBSmallSeam.bsd</datafile>
+            <datafile name="neckSmallSeam" target="neck" local="true">neckSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="BaseShapeShoulderTweak" target="BaseShape" local="true">BaseShapeShoulderTweak.bsd</datafile>
+            <datafile name="SHBShoulderTweak" target="SHB" local="true">SHBShoulderTweak.bsd</datafile>
+            <datafile name="UnderShoulderTweak" target="Under" local="true">UnderShoulderTweak.bsd</datafile>
+            <datafile name="UpperShoulderTweak" target="Upper" local="true">UpperShoulderTweak.bsd</datafile>
+            <datafile name="NBShoulderTweak" target="NB" local="true">NBShoulderTweak.bsd</datafile>
+            <datafile name="neckShoulderTweak" target="neck" local="true">neckShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="BaseShapeNH_LockSeamHi" target="BaseShape" local="true">BaseShapeNH_LockSeamHi.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="BaseShapeNH_LockSeamLo" target="BaseShape" local="true">BaseShapeNH_LockSeamLo.bsd</datafile>
+        </Slider>
+        <Slider name="Wall" invert="false" small="0" big="0" zap="true">
+            <datafile name="BaseShapeWall" target="BaseShape" local="true">BaseShapeWall.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

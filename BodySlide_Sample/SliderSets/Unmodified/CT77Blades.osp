@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Blades">
+        <DataFolder>CT77Blades</DataFolder>
+        <SourceFile>CT77Blades.nif</SourceFile>
+        <OutputPath>meshes\armor\blades</OutputPath>
+        <OutputFile GenWeights="true">bladesarmorf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="BladesBelt">BladesBelt</Shape>
+        <Shape target="BladesChest">BladesChest</Shape>
+        <Shape target="BladesHipArmor">BladesHipArmor</Shape>
+        <Shape target="BladesLeggings">BladesLeggings</Shape>
+        <Shape target="BladesPauldrons">BladesPauldrons</Shape>
+        <Shape target="BladesSkirt">BladesSkirt</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="BladesChestBreasts" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreasts</Data>
+            <Data name="BladesPauldronsBreasts" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="BladesBeltBreastsSmall" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBreastsSmall</Data>
+            <Data name="BladesChestBreastsSmall" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastsSmall</Data>
+            <Data name="BladesPauldronsBreastsSmall" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastsSmall</Data>
+            <Data name="BladesSkirtBreastsSmall" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="BladesChestBreastsSH" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastsSH</Data>
+            <Data name="BladesPauldronsBreastsSH" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="BladesChestBreastsSSH" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastsSSH</Data>
+            <Data name="BladesPauldronsBreastsSSH" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="BladesChestBreastsFantasy" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastsFantasy</Data>
+            <Data name="BladesPauldronsBreastsFantasy" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="BladesChestDoubleMelon" target="BladesChest" local="true">CT77Blades.osd\BladesChestDoubleMelon</Data>
+            <Data name="BladesPauldronsDoubleMelon" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="BladesChestBreastCleavage" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastCleavage</Data>
+            <Data name="BladesPauldronsBreastCleavage" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="BladesBeltBreastFlatness" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBreastFlatness</Data>
+            <Data name="BladesChestBreastFlatness" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastFlatness</Data>
+            <Data name="BladesPauldronsBreastFlatness" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="BladesChestBreastGravity" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastGravity</Data>
+            <Data name="BladesPauldronsBreastGravity" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="BladesChestPushUp" target="BladesChest" local="true">CT77Blades.osd\BladesChestPushUp</Data>
+            <Data name="BladesPauldronsPushUp" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="BladesBeltBreastHeight" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBreastHeight</Data>
+            <Data name="BladesChestBreastHeight" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastHeight</Data>
+            <Data name="BladesHipArmorBreastHeight" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorBreastHeight</Data>
+            <Data name="BladesPauldronsBreastHeight" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastHeight</Data>
+            <Data name="BladesSkirtBreastHeight" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="BladesChestBreastPerkiness" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastPerkiness</Data>
+            <Data name="BladesPauldronsBreastPerkiness" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="BladesBeltBreastWidth" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBreastWidth</Data>
+            <Data name="BladesChestBreastWidth" target="BladesChest" local="true">CT77Blades.osd\BladesChestBreastWidth</Data>
+            <Data name="BladesPauldronsBreastWidth" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="BladesChestNippleDistance" target="BladesChest" local="true">CT77Blades.osd\BladesChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="BladesChestNipplePerkiness" target="BladesChest" local="true">CT77Blades.osd\BladesChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="BladesChestNippleLength" target="BladesChest" local="true">CT77Blades.osd\BladesChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="BladesChestNippleSize" target="BladesChest" local="true">CT77Blades.osd\BladesChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="BladesChestNippleAreola" target="BladesChest" local="true">CT77Blades.osd\BladesChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="BladesChestNippleUp" target="BladesChest" local="true">CT77Blades.osd\BladesChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="BladesChestNippleDown" target="BladesChest" local="true">CT77Blades.osd\BladesChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="BladesChestNippleTip" target="BladesChest" local="true">CT77Blades.osd\BladesChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="BladesChestArms" target="BladesChest" local="true">CT77Blades.osd\BladesChestArms</Data>
+            <Data name="BladesPauldronsArms" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="BladesChestChubbyArms" target="BladesChest" local="true">CT77Blades.osd\BladesChestChubbyArms</Data>
+            <Data name="BladesPauldronsChubbyArms" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="BladesChestShoulderSmooth" target="BladesChest" local="true">CT77Blades.osd\BladesChestShoulderSmooth</Data>
+            <Data name="BladesPauldronsShoulderSmooth" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="BladesChestShoulderWidth" target="BladesChest" local="true">CT77Blades.osd\BladesChestShoulderWidth</Data>
+            <Data name="BladesPauldronsShoulderWidth" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="BladesBeltBigTorso" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBigTorso</Data>
+            <Data name="BladesChestBigTorso" target="BladesChest" local="true">CT77Blades.osd\BladesChestBigTorso</Data>
+            <Data name="BladesHipArmorBigTorso" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorBigTorso</Data>
+            <Data name="BladesPauldronsBigTorso" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBigTorso</Data>
+            <Data name="BladesSkirtBigTorso" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="BladesBeltWaist" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltWaist</Data>
+            <Data name="BladesChestWaist" target="BladesChest" local="true">CT77Blades.osd\BladesChestWaist</Data>
+            <Data name="BladesHipArmorWaist" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorWaist</Data>
+            <Data name="BladesPauldronsWaist" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsWaist</Data>
+            <Data name="BladesSkirtWaist" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="BladesBeltWideWaistLine" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltWideWaistLine</Data>
+            <Data name="BladesChestWideWaistLine" target="BladesChest" local="true">CT77Blades.osd\BladesChestWideWaistLine</Data>
+            <Data name="BladesHipArmorWideWaistLine" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorWideWaistLine</Data>
+            <Data name="BladesSkirtWideWaistLine" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="BladesBeltChubbyWaist" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltChubbyWaist</Data>
+            <Data name="BladesChestChubbyWaist" target="BladesChest" local="true">CT77Blades.osd\BladesChestChubbyWaist</Data>
+            <Data name="BladesHipArmorChubbyWaist" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorChubbyWaist</Data>
+            <Data name="BladesSkirtChubbyWaist" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="BladesBeltBelly" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBelly</Data>
+            <Data name="BladesHipArmorBelly" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorBelly</Data>
+            <Data name="BladesSkirtBelly" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="BladesBeltBigBelly" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBigBelly</Data>
+            <Data name="BladesChestBigBelly" target="BladesChest" local="true">CT77Blades.osd\BladesChestBigBelly</Data>
+            <Data name="BladesHipArmorBigBelly" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorBigBelly</Data>
+            <Data name="BladesSkirtBigBelly" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="BladesBeltTummyTuck" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltTummyTuck</Data>
+            <Data name="BladesHipArmorTummyTuck" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorTummyTuck</Data>
+            <Data name="BladesSkirtTummyTuck" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="BladesBeltBack" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBack</Data>
+            <Data name="BladesChestBack" target="BladesChest" local="true">CT77Blades.osd\BladesChestBack</Data>
+            <Data name="BladesHipArmorBack" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorBack</Data>
+            <Data name="BladesPauldronsBack" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsBack</Data>
+            <Data name="BladesSkirtBack" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="BladesBeltHipbone" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltHipbone</Data>
+            <Data name="BladesHipArmorHipbone" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorHipbone</Data>
+            <Data name="BladesSkirtHipbone" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="BladesBeltHips" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltHips</Data>
+            <Data name="BladesChestHips" target="BladesChest" local="true">CT77Blades.osd\BladesChestHips</Data>
+            <Data name="BladesHipArmorHips" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorHips</Data>
+            <Data name="BladesLeggingsHips" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsHips</Data>
+            <Data name="BladesSkirtHips" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="BladesBeltButt" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltButt</Data>
+            <Data name="BladesHipArmorButt" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorButt</Data>
+            <Data name="BladesLeggingsButt" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsButt</Data>
+            <Data name="BladesSkirtButt" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="BladesBeltButtSmall" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltButtSmall</Data>
+            <Data name="BladesHipArmorButtSmall" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorButtSmall</Data>
+            <Data name="BladesLeggingsButtSmall" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsButtSmall</Data>
+            <Data name="BladesSkirtButtSmall" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="BladesBeltButtShape2" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltButtShape2</Data>
+            <Data name="BladesHipArmorButtShape2" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorButtShape2</Data>
+            <Data name="BladesLeggingsButtShape2" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsButtShape2</Data>
+            <Data name="BladesSkirtButtShape2" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="BladesBeltBigButt" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltBigButt</Data>
+            <Data name="BladesHipArmorBigButt" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorBigButt</Data>
+            <Data name="BladesLeggingsBigButt" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsBigButt</Data>
+            <Data name="BladesSkirtBigButt" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="BladesBeltChubbyButt" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltChubbyButt</Data>
+            <Data name="BladesChestChubbyButt" target="BladesChest" local="true">CT77Blades.osd\BladesChestChubbyButt</Data>
+            <Data name="BladesHipArmorChubbyButt" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorChubbyButt</Data>
+            <Data name="BladesLeggingsChubbyButt" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsChubbyButt</Data>
+            <Data name="BladesSkirtChubbyButt" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="BladesBeltAppleCheeks" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltAppleCheeks</Data>
+            <Data name="BladesHipArmorAppleCheeks" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorAppleCheeks</Data>
+            <Data name="BladesSkirtAppleCheeks" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="BladesBeltRoundAss" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltRoundAss</Data>
+            <Data name="BladesHipArmorRoundAss" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorRoundAss</Data>
+            <Data name="BladesSkirtRoundAss" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="BladesBeltSlimThighs" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltSlimThighs</Data>
+            <Data name="BladesHipArmorSlimThighs" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorSlimThighs</Data>
+            <Data name="BladesLeggingsSlimThighs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsSlimThighs</Data>
+            <Data name="BladesSkirtSlimThighs" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="BladesBeltThighs" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltThighs</Data>
+            <Data name="BladesHipArmorThighs" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorThighs</Data>
+            <Data name="BladesLeggingsThighs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="BladesBeltChubbyLegs" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltChubbyLegs</Data>
+            <Data name="BladesHipArmorChubbyLegs" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorChubbyLegs</Data>
+            <Data name="BladesLeggingsChubbyLegs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="BladesBeltLegs" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltLegs</Data>
+            <Data name="BladesHipArmorLegs" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorLegs</Data>
+            <Data name="BladesLeggingsLegs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="BladesHipArmorKneeHeight" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorKneeHeight</Data>
+            <Data name="BladesLeggingsKneeHeight" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="BladesLeggingsCalfSize" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="BladesLeggingsCalfSmooth" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="BladesLeggingsAnkles" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="BladesChestSmallSeam" target="BladesChest" local="true">CT77Blades.osd\BladesChestSmallSeam</Data>
+            <Data name="BladesLeggingsSmallSeam" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsSmallSeam</Data>
+            <Data name="BladesPauldronsSmallSeam" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="BladesChestShoulderTweak" target="BladesChest" local="true">CT77Blades.osd\BladesChestShoulderTweak</Data>
+            <Data name="BladesPauldronsShoulderTweak" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="BladesPauldronsZapPauldrons" target="BladesPauldrons" local="true">CT77Blades.osd\BladesPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="BladesChestZapChest" target="BladesChest" local="true">CT77Blades.osd\BladesChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapHipArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="BladesHipArmorZapHipArmor" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorZapHipArmor</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="BladesSkirtZapSkirt" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="BladesBeltZapBelt" target="BladesBelt" local="true">CT77Blades.osd\BladesBeltZapBelt</Data>
+            <Data name="BladesHipArmorZapHipArmor" target="BladesHipArmor" local="true">CT77Blades.osd\BladesHipArmorZapHipArmor</Data>
+            <Data name="BladesSkirtZapSkirt" target="BladesSkirt" local="true">CT77Blades.osd\BladesSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="BladesLeggingsZapLeggings" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Blades Gauntlets">
+        <DataFolder>CT77Blades</DataFolder>
+        <SourceFile>CT77BladesGauntlets.nif</SourceFile>
+        <OutputPath>meshes\armor\blades</OutputPath>
+        <OutputFile GenWeights="true">bladesgauntletsf</OutputFile>
+        <Shape target="BladesGauntlets">BladesGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BladesGauntletsArms" target="BladesGauntlets" local="true">CT77BladesGauntlets.osd\BladesGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BladesGauntletsChubbyArms" target="BladesGauntlets" local="true">CT77BladesGauntlets.osd\BladesGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BladesGauntletsShoulderWidth" target="BladesGauntlets" local="true">CT77BladesGauntlets.osd\BladesGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BladesGauntletsBigTorso" target="BladesGauntlets" local="true">CT77BladesGauntlets.osd\BladesGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BladesGauntletsSmallSeam" target="BladesGauntlets" local="true">CT77BladesGauntlets.osd\BladesGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Blades Boots">
+        <DataFolder>CT77Blades</DataFolder>
+        <SourceFile>CT77BladesBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\blades</OutputPath>
+        <OutputFile GenWeights="true">bladesbootsf</OutputFile>
+        <Shape target="BladesBoots">BladesBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BladesBootsChubbyLegs" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BladesBootsLegs" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BladesBootsKneeHeight" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BladesBootsCalfSize" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BladesBootsCalfSmooth" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="BladesBootsAnkles" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BladesBootsSmallSeam" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Blades Thigh Boots">
+        <DataFolder>CT77Blades</DataFolder>
+        <SourceFile>CT77BladesThighBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\blades</OutputPath>
+        <OutputFile GenWeights="true">CT77bladesthighbootsf</OutputFile>
+        <Shape target="BladesBoots">BladesBoots</Shape>
+        <Shape target="BladesLeggings">BladesLeggings</Shape>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BladesLeggingsButt" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BladesLeggingsButtSmall" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BladesLeggingsChubbyButt" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BladesLeggingsSlimThighs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BladesLeggingsThighs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BladesLeggingsChubbyLegs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsChubbyLegs</Data>
+            <Data name="BladesBootsChubbyLegs" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BladesLeggingsLegs" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsLegs</Data>
+            <Data name="BladesBootsLegs" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BladesLeggingsKneeHeight" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsKneeHeight</Data>
+            <Data name="BladesBootsKneeHeight" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BladesLeggingsCalfSize" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsCalfSize</Data>
+            <Data name="BladesBootsCalfSize" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BladesLeggingsCalfSmooth" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsCalfSmooth</Data>
+            <Data name="BladesBootsCalfSmooth" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="BladesLeggingsAnkles" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsAnkles</Data>
+            <Data name="BladesBootsAnkles" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BladesLeggingsSmallSeam" target="BladesLeggings" local="true">CT77Blades.osd\BladesLeggingsSmallSeam</Data>
+            <Data name="BladesBootsSmallSeam" target="BladesBoots" local="true">CT77BladesBoots.osd\BladesBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

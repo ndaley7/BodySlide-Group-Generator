@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Nightingale">
+        <DataFolder>CT77Nightingale</DataFolder>
+        <SourceFile>CT77Nightingale.nif</SourceFile>
+        <OutputPath>meshes\armor\nightingale\f</OutputPath>
+        <OutputFile GenWeights="true">torso</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="NightingaleBelt">NightingaleBelt</Shape>
+        <Shape target="NightingaleChest">NightingaleChest</Shape>
+        <Shape target="NightingaleLeggings">NightingaleLeggings</Shape>
+        <Shape target="NightingalePauldrons">NightingalePauldrons</Shape>
+        <Shape target="NightingaleSkirt">NightingaleSkirt</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="NightingaleChestBreasts" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="NightingaleBeltBreastsSmall" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBreastsSmall</Data>
+            <Data name="NightingaleChestBreastsSmall" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastsSmall</Data>
+            <Data name="NightingalePauldronsBreastsSmall" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBreastsSmall</Data>
+            <Data name="NightingaleSkirtBreastsSmall" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="NightingaleChestBreastsSH" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="NightingaleChestBreastsSSH" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="NightingaleChestBreastsFantasy" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastsFantasy</Data>
+            <Data name="NightingalePauldronsBreastsFantasy" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="NightingaleChestDoubleMelon" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="NightingaleChestBreastCleavage" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="NightingaleBeltBreastFlatness" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBreastFlatness</Data>
+            <Data name="NightingaleChestBreastFlatness" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastFlatness</Data>
+            <Data name="NightingalePauldronsBreastFlatness" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="NightingaleChestBreastGravity" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastGravity</Data>
+            <Data name="NightingalePauldronsBreastGravity" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="NightingaleChestPushUp" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestPushUp</Data>
+            <Data name="NightingalePauldronsPushUp" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="NightingaleBeltBreastHeight" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBreastHeight</Data>
+            <Data name="NightingaleChestBreastHeight" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastHeight</Data>
+            <Data name="NightingalePauldronsBreastHeight" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="NightingaleChestBreastPerkiness" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastPerkiness</Data>
+            <Data name="NightingalePauldronsBreastPerkiness" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="NightingaleBeltBreastWidth" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBreastWidth</Data>
+            <Data name="NightingaleChestBreastWidth" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBreastWidth</Data>
+            <Data name="NightingalePauldronsBreastWidth" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="NightingaleChestNippleDistance" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="NightingaleChestNipplePerkiness" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="NightingaleChestNippleLength" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNippleLength</Data>
+            <Data name="NightingalePauldronsNippleLength" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="NightingaleChestNippleSize" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="NightingaleChestNippleAreola" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="NightingaleChestNippleUp" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNippleUp</Data>
+            <Data name="NightingalePauldronsNippleUp" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="NightingaleChestNippleDown" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="NightingaleChestNippleTip" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="NightingaleChestArms" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestArms</Data>
+            <Data name="NightingalePauldronsArms" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="NightingaleChestChubbyArms" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestChubbyArms</Data>
+            <Data name="NightingalePauldronsChubbyArms" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="NightingaleChestShoulderSmooth" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestShoulderSmooth</Data>
+            <Data name="NightingalePauldronsShoulderSmooth" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="NightingaleChestShoulderWidth" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestShoulderWidth</Data>
+            <Data name="NightingalePauldronsShoulderWidth" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="NightingaleBeltBigTorso" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBigTorso</Data>
+            <Data name="NightingaleChestBigTorso" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBigTorso</Data>
+            <Data name="NightingalePauldronsBigTorso" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBigTorso</Data>
+            <Data name="NightingaleSkirtBigTorso" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="NightingaleBeltWaist" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltWaist</Data>
+            <Data name="NightingaleChestWaist" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestWaist</Data>
+            <Data name="NightingaleSkirtWaist" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="NightingaleBeltWideWaistLine" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltWideWaistLine</Data>
+            <Data name="NightingaleChestWideWaistLine" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="NightingaleBeltChubbyWaist" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltChubbyWaist</Data>
+            <Data name="NightingaleChestChubbyWaist" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestChubbyWaist</Data>
+            <Data name="NightingaleSkirtChubbyWaist" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="NightingaleBeltBelly" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBelly</Data>
+            <Data name="NightingaleChestBelly" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBelly</Data>
+            <Data name="NightingaleSkirtBelly" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="NightingaleBeltBigBelly" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBigBelly</Data>
+            <Data name="NightingaleChestBigBelly" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBigBelly</Data>
+            <Data name="NightingaleSkirtBigBelly" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="NightingaleBeltTummyTuck" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltTummyTuck</Data>
+            <Data name="NightingaleChestTummyTuck" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestTummyTuck</Data>
+            <Data name="NightingaleSkirtTummyTuck" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="NightingaleBeltBack" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBack</Data>
+            <Data name="NightingaleChestBack" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBack</Data>
+            <Data name="NightingalePauldronsBack" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsBack</Data>
+            <Data name="NightingaleSkirtBack" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="NightingaleBeltHipbone" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltHipbone</Data>
+            <Data name="NightingaleLeggingsHipbone" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsHipbone</Data>
+            <Data name="NightingaleSkirtHipbone" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="NightingaleBeltHips" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltHips</Data>
+            <Data name="NightingaleChestHips" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestHips</Data>
+            <Data name="NightingaleLeggingsHips" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsHips</Data>
+            <Data name="NightingaleSkirtHips" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="NightingaleBeltButt" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltButt</Data>
+            <Data name="NightingaleLeggingsButt" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsButt</Data>
+            <Data name="NightingaleSkirtButt" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="NightingaleBeltButtSmall" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltButtSmall</Data>
+            <Data name="NightingaleChestButtSmall" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestButtSmall</Data>
+            <Data name="NightingaleLeggingsButtSmall" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsButtSmall</Data>
+            <Data name="NightingaleSkirtButtSmall" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="NightingaleBeltButtShape2" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltButtShape2</Data>
+            <Data name="NightingaleChestButtShape2" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestButtShape2</Data>
+            <Data name="NightingaleLeggingsButtShape2" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsButtShape2</Data>
+            <Data name="NightingaleSkirtButtShape2" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="NightingaleBeltBigButt" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltBigButt</Data>
+            <Data name="NightingaleChestBigButt" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestBigButt</Data>
+            <Data name="NightingaleLeggingsBigButt" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsBigButt</Data>
+            <Data name="NightingaleSkirtBigButt" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="NightingaleBeltChubbyButt" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltChubbyButt</Data>
+            <Data name="NightingaleChestChubbyButt" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestChubbyButt</Data>
+            <Data name="NightingaleLeggingsChubbyButt" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsChubbyButt</Data>
+            <Data name="NightingaleSkirtChubbyButt" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="NightingaleBeltAppleCheeks" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltAppleCheeks</Data>
+            <Data name="NightingaleLeggingsAppleCheeks" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsAppleCheeks</Data>
+            <Data name="NightingaleSkirtAppleCheeks" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="NightingaleBeltRoundAss" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltRoundAss</Data>
+            <Data name="NightingaleSkirtRoundAss" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="NightingaleBeltSlimThighs" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltSlimThighs</Data>
+            <Data name="NightingaleChestSlimThighs" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestSlimThighs</Data>
+            <Data name="NightingaleLeggingsSlimThighs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsSlimThighs</Data>
+            <Data name="NightingaleSkirtSlimThighs" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="NightingaleBeltThighs" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltThighs</Data>
+            <Data name="NightingaleLeggingsThighs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsThighs</Data>
+            <Data name="NightingaleSkirtThighs" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="NightingaleBeltChubbyLegs" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltChubbyLegs</Data>
+            <Data name="NightingaleLeggingsChubbyLegs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsChubbyLegs</Data>
+            <Data name="NightingaleSkirtChubbyLegs" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="NightingaleBeltLegs" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltLegs</Data>
+            <Data name="NightingaleLeggingsLegs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsLegs</Data>
+            <Data name="NightingaleSkirtLegs" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="NightingaleLeggingsKneeHeight" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsKneeHeight</Data>
+            <Data name="NightingaleSkirtKneeHeight" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="NightingaleLeggingsCalfSize" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="NightingaleLeggingsCalfSmooth" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="NightingaleLeggingsAnkles" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="NightingaleChestSmallSeam" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestSmallSeam</Data>
+            <Data name="NightingaleLeggingsSmallSeam" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="NightingaleChestShoulderTweak" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestShoulderTweak</Data>
+            <Data name="NightingalePauldronsShoulderTweak" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="NightingalePauldronsZapPauldrons" target="NightingalePauldrons" local="true">CT77Nightingale.osd\NightingalePauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="NightingaleChestZapChest" target="NightingaleChest" local="true">CT77Nightingale.osd\NightingaleChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="NightingaleBeltZapBelt" target="NightingaleBelt" local="true">CT77Nightingale.osd\NightingaleBeltZapBelt</Data>
+            <Data name="NightingaleSkirtZapSkirt" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="NightingaleSkirtZapSkirt" target="NightingaleSkirt" local="true">CT77Nightingale.osd\NightingaleSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="NightingaleLeggingsZapLeggings" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Nightingale Gloves">
+        <DataFolder>CT77Nightingale</DataFolder>
+        <SourceFile>CT77NightingaleGloves.nif</SourceFile>
+        <OutputPath>meshes\armor\nightingale\f</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="NightingaleGauntlets">NightingaleGauntlets</Shape>
+        <Shape target="NightingaleHands" DataFolder="CT77 Nightingale">NightingaleHands</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="NightingaleGauntletsArms" target="NightingaleGauntlets" local="true">CT77NightingaleGloves.osd\NightingaleGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="NightingaleGauntletsChubbyArms" target="NightingaleGauntlets" local="true">CT77NightingaleGloves.osd\NightingaleGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="NightingaleGauntletsShoulderWidth" target="NightingaleGauntlets" local="true">CT77NightingaleGloves.osd\NightingaleGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="NightingaleGauntletsBigTorso" target="NightingaleGauntlets" local="true">CT77NightingaleGloves.osd\NightingaleGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="NightingaleGauntletsSmallSeam" target="NightingaleGauntlets" local="true">CT77NightingaleGloves.osd\NightingaleGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Nightingale Boots">
+        <DataFolder>CT77Nightingale</DataFolder>
+        <SourceFile>CT77NightingaleBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\nightingale\f</OutputPath>
+        <OutputFile GenWeights="true">boots</OutputFile>
+        <Shape target="NightingaleBoots">NightingaleBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsChubbyLegs" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="NightingaleBootsLegs" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsKneeHeight" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsCalfSize" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsCalfSmooth" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="NightingaleBootsAnkles" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="NightingaleBootsSmallSeam" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Nightingale Thigh Boots">
+        <DataFolder>CT77Nightingale</DataFolder>
+        <SourceFile>CT77NightingaleThighBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\nightingale\f</OutputPath>
+        <OutputFile GenWeights="true">CT77thighboots</OutputFile>
+        <Shape target="NightingaleBoots">NightingaleBoots</Shape>
+        <Shape target="NightingaleLeggings">NightingaleLeggings</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="NightingaleLeggingsHips" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="NightingaleLeggingsButt" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="NightingaleLeggingsButtSmall" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="NightingaleLeggingsButtShape2" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="NightingaleLeggingsBigButt" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="NightingaleLeggingsChubbyButt" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="NightingaleLeggingsAppleCheeks" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsAppleCheeks</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="NightingaleLeggingsSlimThighs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="NightingaleLeggingsThighs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsChubbyLegs" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsChubbyLegs</Data>
+            <Data name="NightingaleLeggingsChubbyLegs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="NightingaleBootsLegs" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsLegs</Data>
+            <Data name="NightingaleLeggingsLegs" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsKneeHeight" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsKneeHeight</Data>
+            <Data name="NightingaleLeggingsKneeHeight" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsCalfSize" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsCalfSize</Data>
+            <Data name="NightingaleLeggingsCalfSize" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="NightingaleBootsCalfSmooth" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsCalfSmooth</Data>
+            <Data name="NightingaleLeggingsCalfSmooth" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="NightingaleBootsAnkles" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsAnkles</Data>
+            <Data name="NightingaleLeggingsAnkles" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="NightingaleBootsSmallSeam" target="NightingaleBoots" local="true">CT77NightingaleBoots.osd\NightingaleBootsSmallSeam</Data>
+            <Data name="NightingaleLeggingsSmallSeam" target="NightingaleLeggings" local="true">CT77Nightingale.osd\NightingaleLeggingsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

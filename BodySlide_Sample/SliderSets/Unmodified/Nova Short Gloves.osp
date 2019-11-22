@@ -1,0 +1,26 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova Short Gloves">
+        <DataFolder>Nova Short Gloves</DataFolder>
+        <SourceFile>nova_arm01b_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_arm01b_ca</OutputFile>
+        <Shape target="ArmMetals">ArmMetals</Shape>
+        <Shape target="Bracers1">Bracers1</Shape>
+        <Shape target="Gloves2">Gloves2</Shape>
+        <Shape target="Harness">Harness</Shape>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Bracers1TummyTuck" target="Bracers1" local="true">nova_arm01b_ca.osd\Bracers1TummyTuck</Data>
+            <Data name="Gloves2TummyTuck" target="Gloves2" local="true">nova_arm01b_ca.osd\Gloves2TummyTuck</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Bracers1Butt" target="Bracers1" local="true">nova_arm01b_ca.osd\Bracers1Butt</Data>
+            <Data name="Gloves2Butt" target="Gloves2" local="true">nova_arm01b_ca.osd\Gloves2Butt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="ArmMetalsSmallSeam" target="ArmMetals" local="true">nova_arm01b_ca.osd\ArmMetalsSmallSeam</Data>
+            <Data name="Bracers1SmallSeam" target="Bracers1" local="true">nova_arm01b_ca.osd\Bracers1SmallSeam</Data>
+            <Data name="Gloves2SmallSeam" target="Gloves2" local="true">nova_arm01b_ca.osd\Gloves2SmallSeam</Data>
+            <Data name="HarnessSmallSeam" target="Harness" local="true">nova_arm01b_ca.osd\HarnessSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

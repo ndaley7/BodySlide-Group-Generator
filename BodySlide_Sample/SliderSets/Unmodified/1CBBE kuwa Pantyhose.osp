@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="1CBBE Kuwa Pantyhose">
+        <DataFolder>1CBBE kuwa Pantyhose</DataFolder>
+        <SourceFile>kuwa.nif</SourceFile>
+        <OutputPath>meshes\New clothes\LSJ\kuwa\</OutputPath>
+        <OutputFile GenWeights="true">kuwa</OutputFile>
+        <Shape target="Feet" DataFolder="CalienteBody">Feet</Shape>
+        <Shape target="shoes">shoes</Shape>
+        <Shape target="sk">sk</Shape>
+        <Slider name="Feet0" invert="false" small="100" big="0" hidden="true">
+            <Data name="Feet0" target="Feet">Feet0.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FeetAnkles" target="Feet">FeetAnkles.bsd</Data>
+            <Data name="skAnkles" target="sk" local="true">kuwa.osd\skAnkles</Data>
+            <Data name="shoesAnkles" target="shoes" local="true">kuwa.osd\shoesAnkles</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="skBreastsSmall" target="sk" local="true">kuwa.osd\skBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="skBreastsSSH" target="sk" local="true">kuwa.osd\skBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="skBreastFlatness" target="sk" local="true">kuwa.osd\skBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="skBreastHeight" target="sk" local="true">kuwa.osd\skBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="skBreastWidth" target="sk" local="true">kuwa.osd\skBreastWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="skBigTorso" target="sk" local="true">kuwa.osd\skBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="skWaist" target="sk" local="true">kuwa.osd\skWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="skWideWaistLine" target="sk" local="true">kuwa.osd\skWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="skChubbyWaist" target="sk" local="true">kuwa.osd\skChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="skBelly" target="sk" local="true">kuwa.osd\skBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="skBigBelly" target="sk" local="true">kuwa.osd\skBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="skPregnancyBelly" target="sk" local="true">kuwa.osd\skPregnancyBelly</Data>
+            <Data name="shoesPregnancyBelly" target="shoes" local="true">kuwa.osd\shoesPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="skTummyTuck" target="sk" local="true">kuwa.osd\skTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="skBack" target="sk" local="true">kuwa.osd\skBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="skHipbone" target="sk" local="true">kuwa.osd\skHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="skHips" target="sk" local="true">kuwa.osd\skHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="skButtCrack" target="sk" local="true">kuwa.osd\skButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="skButt" target="sk" local="true">kuwa.osd\skButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="skButtSmall" target="sk" local="true">kuwa.osd\skButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="skButtShape2" target="sk" local="true">kuwa.osd\skButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="skBigButt" target="sk" local="true">kuwa.osd\skBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="skChubbyButt" target="sk" local="true">kuwa.osd\skChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="skAppleCheeks" target="sk" local="true">kuwa.osd\skAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="skRoundAss" target="sk" local="true">kuwa.osd\skRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="skGroin" target="sk" local="true">kuwa.osd\skGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="skSlimThighs" target="sk" local="true">kuwa.osd\skSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="skThighs" target="sk" local="true">kuwa.osd\skThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="skChubbyLegs" target="sk" local="true">kuwa.osd\skChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="skLegs" target="sk" local="true">kuwa.osd\skLegs</Data>
+            <Data name="shoesLegs" target="shoes" local="true">kuwa.osd\shoesLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="skKneeHeight" target="sk" local="true">kuwa.osd\skKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="skCalfSize" target="sk" local="true">kuwa.osd\skCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="skCalfSmooth" target="sk" local="true">kuwa.osd\skCalfSmooth</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="skSmallSeam" target="sk" local="true">kuwa.osd\skSmallSeam</Data>
+            <Data name="shoesSmallSeam" target="shoes" local="true">kuwa.osd\shoesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

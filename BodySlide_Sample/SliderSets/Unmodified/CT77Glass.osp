@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Glass">
+        <DataFolder>CT77Glass</DataFolder>
+        <SourceFile>CT77Glass.nif</SourceFile>
+        <OutputPath>meshes\armor\glass\f</OutputPath>
+        <OutputFile GenWeights="true">cuirass</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="GlassArmbands">GlassArmbands</Shape>
+        <Shape target="GlassBelt">GlassBelt</Shape>
+        <Shape target="GlassChest">GlassChest</Shape>
+        <Shape target="GlassLegArmor">GlassLegArmor</Shape>
+        <Shape target="GlassOrigChest">GlassOrigChest</Shape>
+        <Shape target="GlassOrigPauldrons">GlassOrigPauldrons</Shape>
+        <Shape target="GlassPauldrons">GlassPauldrons</Shape>
+        <Shape target="GlassSkirt">GlassSkirt</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="GlassArmbandsBreasts" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreasts</Data>
+            <Data name="GlassChestBreasts" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreasts</Data>
+            <Data name="GlassOrigChestBreasts" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreasts</Data>
+            <Data name="GlassOrigPauldronsBreasts" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreasts</Data>
+            <Data name="GlassPauldronsBreasts" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="GlassArmbandsBreastsSmall" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastsSmall</Data>
+            <Data name="GlassBeltBreastsSmall" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltBreastsSmall</Data>
+            <Data name="GlassChestBreastsSmall" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastsSmall</Data>
+            <Data name="GlassOrigChestBreastsSmall" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastsSmall</Data>
+            <Data name="GlassOrigPauldronsBreastsSmall" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastsSmall</Data>
+            <Data name="GlassPauldronsBreastsSmall" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastsSmall</Data>
+            <Data name="GlassSkirtBreastsSmall" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="GlassArmbandsBreastsSH" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastsSH</Data>
+            <Data name="GlassChestBreastsSH" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastsSH</Data>
+            <Data name="GlassOrigChestBreastsSH" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastsSH</Data>
+            <Data name="GlassOrigPauldronsBreastsSH" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastsSH</Data>
+            <Data name="GlassPauldronsBreastsSH" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="GlassChestBreastsSSH" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastsSSH</Data>
+            <Data name="GlassOrigChestBreastsSSH" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastsSSH</Data>
+            <Data name="GlassOrigPauldronsBreastsSSH" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastsSSH</Data>
+            <Data name="GlassPauldronsBreastsSSH" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="GlassArmbandsBreastsFantasy" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastsFantasy</Data>
+            <Data name="GlassChestBreastsFantasy" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastsFantasy</Data>
+            <Data name="GlassOrigChestBreastsFantasy" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastsFantasy</Data>
+            <Data name="GlassOrigPauldronsBreastsFantasy" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastsFantasy</Data>
+            <Data name="GlassPauldronsBreastsFantasy" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="GlassArmbandsDoubleMelon" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsDoubleMelon</Data>
+            <Data name="GlassChestDoubleMelon" target="GlassChest" local="true">CT77Glass.osd\GlassChestDoubleMelon</Data>
+            <Data name="GlassOrigChestDoubleMelon" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestDoubleMelon</Data>
+            <Data name="GlassOrigPauldronsDoubleMelon" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsDoubleMelon</Data>
+            <Data name="GlassPauldronsDoubleMelon" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="GlassChestBreastCleavage" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastCleavage</Data>
+            <Data name="GlassOrigChestBreastCleavage" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastCleavage</Data>
+            <Data name="GlassOrigPauldronsBreastCleavage" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastCleavage</Data>
+            <Data name="GlassPauldronsBreastCleavage" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="GlassArmbandsBreastFlatness" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastFlatness</Data>
+            <Data name="GlassChestBreastFlatness" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastFlatness</Data>
+            <Data name="GlassOrigChestBreastFlatness" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastFlatness</Data>
+            <Data name="GlassOrigPauldronsBreastFlatness" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastFlatness</Data>
+            <Data name="GlassPauldronsBreastFlatness" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastFlatness</Data>
+            <Data name="GlassSkirtBreastFlatness" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="GlassArmbandsBreastGravity" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastGravity</Data>
+            <Data name="GlassChestBreastGravity" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastGravity</Data>
+            <Data name="GlassOrigChestBreastGravity" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastGravity</Data>
+            <Data name="GlassOrigPauldronsBreastGravity" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastGravity</Data>
+            <Data name="GlassPauldronsBreastGravity" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="GlassArmbandsPushUp" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsPushUp</Data>
+            <Data name="GlassChestPushUp" target="GlassChest" local="true">CT77Glass.osd\GlassChestPushUp</Data>
+            <Data name="GlassOrigChestPushUp" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestPushUp</Data>
+            <Data name="GlassOrigPauldronsPushUp" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsPushUp</Data>
+            <Data name="GlassPauldronsPushUp" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="GlassArmbandsBreastHeight" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastHeight</Data>
+            <Data name="GlassBeltBreastHeight" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltBreastHeight</Data>
+            <Data name="GlassChestBreastHeight" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastHeight</Data>
+            <Data name="GlassOrigChestBreastHeight" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastHeight</Data>
+            <Data name="GlassOrigPauldronsBreastHeight" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastHeight</Data>
+            <Data name="GlassPauldronsBreastHeight" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastHeight</Data>
+            <Data name="GlassSkirtBreastHeight" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="GlassArmbandsBreastPerkiness" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastPerkiness</Data>
+            <Data name="GlassChestBreastPerkiness" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastPerkiness</Data>
+            <Data name="GlassOrigChestBreastPerkiness" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastPerkiness</Data>
+            <Data name="GlassOrigPauldronsBreastPerkiness" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastPerkiness</Data>
+            <Data name="GlassPauldronsBreastPerkiness" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="GlassArmbandsBreastWidth" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBreastWidth</Data>
+            <Data name="GlassChestBreastWidth" target="GlassChest" local="true">CT77Glass.osd\GlassChestBreastWidth</Data>
+            <Data name="GlassOrigChestBreastWidth" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBreastWidth</Data>
+            <Data name="GlassOrigPauldronsBreastWidth" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBreastWidth</Data>
+            <Data name="GlassPauldronsBreastWidth" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBreastWidth</Data>
+            <Data name="GlassSkirtBreastWidth" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="GlassChestNippleDistance" target="GlassChest" local="true">CT77Glass.osd\GlassChestNippleDistance</Data>
+            <Data name="GlassOrigChestNippleDistance" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNippleDistance</Data>
+            <Data name="GlassOrigPauldronsNippleDistance" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="GlassChestNipplePerkiness" target="GlassChest" local="true">CT77Glass.osd\GlassChestNipplePerkiness</Data>
+            <Data name="GlassOrigChestNipplePerkiness" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="GlassArmbandsNippleLength" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsNippleLength</Data>
+            <Data name="GlassChestNippleLength" target="GlassChest" local="true">CT77Glass.osd\GlassChestNippleLength</Data>
+            <Data name="GlassOrigChestNippleLength" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNippleLength</Data>
+            <Data name="GlassOrigPauldronsNippleLength" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsNippleLength</Data>
+            <Data name="GlassPauldronsNippleLength" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="GlassChestNippleSize" target="GlassChest" local="true">CT77Glass.osd\GlassChestNippleSize</Data>
+            <Data name="GlassOrigChestNippleSize" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="GlassChestNippleAreola" target="GlassChest" local="true">CT77Glass.osd\GlassChestNippleAreola</Data>
+            <Data name="GlassOrigChestNippleAreola" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNippleAreola</Data>
+            <Data name="GlassOrigPauldronsNippleAreola" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsNippleAreola</Data>
+            <Data name="GlassPauldronsNippleAreola" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="GlassArmbandsNippleUp" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsNippleUp</Data>
+            <Data name="GlassChestNippleUp" target="GlassChest" local="true">CT77Glass.osd\GlassChestNippleUp</Data>
+            <Data name="GlassOrigChestNippleUp" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNippleUp</Data>
+            <Data name="GlassOrigPauldronsNippleUp" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsNippleUp</Data>
+            <Data name="GlassPauldronsNippleUp" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="GlassChestNippleDown" target="GlassChest" local="true">CT77Glass.osd\GlassChestNippleDown</Data>
+            <Data name="GlassOrigChestNippleDown" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNippleDown</Data>
+            <Data name="GlassOrigPauldronsNippleDown" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsNippleDown</Data>
+            <Data name="GlassPauldronsNippleDown" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="GlassChestNippleTip" target="GlassChest" local="true">CT77Glass.osd\GlassChestNippleTip</Data>
+            <Data name="GlassOrigChestNippleTip" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="GlassArmbandsArms" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsArms</Data>
+            <Data name="GlassChestArms" target="GlassChest" local="true">CT77Glass.osd\GlassChestArms</Data>
+            <Data name="GlassOrigChestArms" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestArms</Data>
+            <Data name="GlassOrigPauldronsArms" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsArms</Data>
+            <Data name="GlassPauldronsArms" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="GlassArmbandsChubbyArms" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsChubbyArms</Data>
+            <Data name="GlassChestChubbyArms" target="GlassChest" local="true">CT77Glass.osd\GlassChestChubbyArms</Data>
+            <Data name="GlassOrigChestChubbyArms" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestChubbyArms</Data>
+            <Data name="GlassOrigPauldronsChubbyArms" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsChubbyArms</Data>
+            <Data name="GlassPauldronsChubbyArms" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="GlassArmbandsShoulderSmooth" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsShoulderSmooth</Data>
+            <Data name="GlassChestShoulderSmooth" target="GlassChest" local="true">CT77Glass.osd\GlassChestShoulderSmooth</Data>
+            <Data name="GlassOrigChestShoulderSmooth" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestShoulderSmooth</Data>
+            <Data name="GlassOrigPauldronsShoulderSmooth" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsShoulderSmooth</Data>
+            <Data name="GlassPauldronsShoulderSmooth" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="GlassArmbandsShoulderWidth" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsShoulderWidth</Data>
+            <Data name="GlassChestShoulderWidth" target="GlassChest" local="true">CT77Glass.osd\GlassChestShoulderWidth</Data>
+            <Data name="GlassOrigChestShoulderWidth" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestShoulderWidth</Data>
+            <Data name="GlassOrigPauldronsShoulderWidth" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsShoulderWidth</Data>
+            <Data name="GlassPauldronsShoulderWidth" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="GlassArmbandsBigTorso" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBigTorso</Data>
+            <Data name="GlassBeltBigTorso" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltBigTorso</Data>
+            <Data name="GlassChestBigTorso" target="GlassChest" local="true">CT77Glass.osd\GlassChestBigTorso</Data>
+            <Data name="GlassOrigChestBigTorso" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBigTorso</Data>
+            <Data name="GlassOrigPauldronsBigTorso" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBigTorso</Data>
+            <Data name="GlassPauldronsBigTorso" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBigTorso</Data>
+            <Data name="GlassSkirtBigTorso" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="GlassArmbandsWaist" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsWaist</Data>
+            <Data name="GlassBeltWaist" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltWaist</Data>
+            <Data name="GlassChestWaist" target="GlassChest" local="true">CT77Glass.osd\GlassChestWaist</Data>
+            <Data name="GlassOrigChestWaist" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestWaist</Data>
+            <Data name="GlassOrigPauldronsWaist" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsWaist</Data>
+            <Data name="GlassSkirtWaist" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="GlassBeltWideWaistLine" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltWideWaistLine</Data>
+            <Data name="GlassChestWideWaistLine" target="GlassChest" local="true">CT77Glass.osd\GlassChestWideWaistLine</Data>
+            <Data name="GlassSkirtWideWaistLine" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="GlassArmbandsChubbyWaist" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsChubbyWaist</Data>
+            <Data name="GlassBeltChubbyWaist" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltChubbyWaist</Data>
+            <Data name="GlassChestChubbyWaist" target="GlassChest" local="true">CT77Glass.osd\GlassChestChubbyWaist</Data>
+            <Data name="GlassOrigChestChubbyWaist" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestChubbyWaist</Data>
+            <Data name="GlassSkirtChubbyWaist" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="GlassBeltBelly" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltBelly</Data>
+            <Data name="GlassChestBelly" target="GlassChest" local="true">CT77Glass.osd\GlassChestBelly</Data>
+            <Data name="GlassSkirtBelly" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="GlassBeltBigBelly" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltBigBelly</Data>
+            <Data name="GlassChestBigBelly" target="GlassChest" local="true">CT77Glass.osd\GlassChestBigBelly</Data>
+            <Data name="GlassOrigChestBigBelly" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBigBelly</Data>
+            <Data name="GlassSkirtBigBelly" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="GlassBeltTummyTuck" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltTummyTuck</Data>
+            <Data name="GlassChestTummyTuck" target="GlassChest" local="true">CT77Glass.osd\GlassChestTummyTuck</Data>
+            <Data name="GlassSkirtTummyTuck" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="GlassArmbandsBack" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsBack</Data>
+            <Data name="GlassBeltBack" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltBack</Data>
+            <Data name="GlassChestBack" target="GlassChest" local="true">CT77Glass.osd\GlassChestBack</Data>
+            <Data name="GlassOrigChestBack" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestBack</Data>
+            <Data name="GlassOrigPauldronsBack" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsBack</Data>
+            <Data name="GlassPauldronsBack" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsBack</Data>
+            <Data name="GlassSkirtBack" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="GlassBeltHipbone" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltHipbone</Data>
+            <Data name="GlassSkirtHipbone" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="GlassBeltHips" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltHips</Data>
+            <Data name="GlassChestHips" target="GlassChest" local="true">CT77Glass.osd\GlassChestHips</Data>
+            <Data name="GlassLegArmorHips" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorHips</Data>
+            <Data name="GlassOrigChestHips" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestHips</Data>
+            <Data name="GlassSkirtHips" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="GlassBeltButt" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltButt</Data>
+            <Data name="GlassLegArmorButt" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorButt</Data>
+            <Data name="GlassSkirtButt" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="GlassBeltButtSmall" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltButtSmall</Data>
+            <Data name="GlassLegArmorButtSmall" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorButtSmall</Data>
+            <Data name="GlassSkirtButtSmall" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="GlassBeltButtShape2" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltButtShape2</Data>
+            <Data name="GlassChestButtShape2" target="GlassChest" local="true">CT77Glass.osd\GlassChestButtShape2</Data>
+            <Data name="GlassLegArmorButtShape2" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorButtShape2</Data>
+            <Data name="GlassSkirtButtShape2" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="GlassBeltBigButt" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltBigButt</Data>
+            <Data name="GlassChestBigButt" target="GlassChest" local="true">CT77Glass.osd\GlassChestBigButt</Data>
+            <Data name="GlassLegArmorBigButt" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorBigButt</Data>
+            <Data name="GlassSkirtBigButt" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="GlassBeltChubbyButt" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltChubbyButt</Data>
+            <Data name="GlassChestChubbyButt" target="GlassChest" local="true">CT77Glass.osd\GlassChestChubbyButt</Data>
+            <Data name="GlassLegArmorChubbyButt" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorChubbyButt</Data>
+            <Data name="GlassOrigChestChubbyButt" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestChubbyButt</Data>
+            <Data name="GlassSkirtChubbyButt" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="GlassBeltAppleCheeks" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltAppleCheeks</Data>
+            <Data name="GlassSkirtAppleCheeks" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="GlassBeltRoundAss" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltRoundAss</Data>
+            <Data name="GlassSkirtRoundAss" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="GlassBeltSlimThighs" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltSlimThighs</Data>
+            <Data name="GlassLegArmorSlimThighs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorSlimThighs</Data>
+            <Data name="GlassSkirtSlimThighs" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="GlassBeltThighs" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltThighs</Data>
+            <Data name="GlassLegArmorThighs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorThighs</Data>
+            <Data name="GlassSkirtThighs" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="GlassBeltChubbyLegs" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltChubbyLegs</Data>
+            <Data name="GlassLegArmorChubbyLegs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorChubbyLegs</Data>
+            <Data name="GlassSkirtChubbyLegs" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="GlassBeltLegs" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltLegs</Data>
+            <Data name="GlassLegArmorLegs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorLegs</Data>
+            <Data name="GlassSkirtLegs" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="GlassBeltKneeHeight" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltKneeHeight</Data>
+            <Data name="GlassLegArmorKneeHeight" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorKneeHeight</Data>
+            <Data name="GlassSkirtKneeHeight" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="GlassLegArmorCalfSize" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="GlassLegArmorCalfSmooth" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="GlassLegArmorAnkles" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="GlassChestSmallSeam" target="GlassChest" local="true">CT77Glass.osd\GlassChestSmallSeam</Data>
+            <Data name="GlassOrigChestSmallSeam" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestSmallSeam</Data>
+            <Data name="GlassOrigPauldronsSmallSeam" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="GlassArmbandsShoulderTweak" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsShoulderTweak</Data>
+            <Data name="GlassChestShoulderTweak" target="GlassChest" local="true">CT77Glass.osd\GlassChestShoulderTweak</Data>
+            <Data name="GlassOrigChestShoulderTweak" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestShoulderTweak</Data>
+            <Data name="GlassOrigPauldronsShoulderTweak" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsShoulderTweak</Data>
+            <Data name="GlassPauldronsShoulderTweak" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ToggleOrigChest" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="GlassOrigChestZapOrigChest" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestZapOrigChest</Data>
+            <Data name="GlassOrigPauldronsZapOrigPauldrons" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsZapOrigPauldrons</Data>
+        </Slider>
+		<Slider name="ToggleChest" invert="false" small="0" big="0" zap="true" zaptoggles="ToggleOrigChest;">
+            <Data name="GlassArmbandsZapArmbands" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsZapArmbands</Data>
+            <Data name="GlassChestZapChest" target="GlassChest" local="true">CT77Glass.osd\GlassChestZapChest</Data>
+            <Data name="GlassPauldronsZapPauldrons" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsZapPauldrons</Data>
+        </Slider>	
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassPauldronsZapPauldrons" target="GlassPauldrons" local="true">CT77Glass.osd\GlassPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapArmbands" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassArmbandsZapArmbands" target="GlassArmbands" local="true">CT77Glass.osd\GlassArmbandsZapArmbands</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassChestZapChest" target="GlassChest" local="true">CT77Glass.osd\GlassChestZapChest</Data>
+        </Slider>
+        <Slider name="ToggleOrigBelt" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="GlassBeltZapBelt" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ToggleBelt" invert="false" small="0" big="0" zap="true" zaptoggles="ToggleOrigBelt;">
+            <Data name="GlassSkirtZapSkirt" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassSkirtZapSkirt" target="GlassSkirt" local="true">CT77Glass.osd\GlassSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapAltPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassOrigPauldronsZapOrigPauldrons" target="GlassOrigPauldrons" local="true">CT77Glass.osd\GlassOrigPauldronsZapOrigPauldrons</Data>
+        </Slider>
+        <Slider name="ZapAltChest" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassOrigChestZapOrigChest" target="GlassOrigChest" local="true">CT77Glass.osd\GlassOrigChestZapOrigChest</Data>
+        </Slider>
+        <Slider name="ZapAltBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassBeltZapBelt" target="GlassBelt" local="true">CT77Glass.osd\GlassBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ZapLegArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="GlassLegArmorZapLegArmor" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Glass Gauntlets">
+        <DataFolder>CT77Glass</DataFolder>
+        <SourceFile>CT77GlassGauntlets.nif</SourceFile>
+        <OutputPath>meshes\armor\glass\f</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="GlassGauntlets">GlassGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="GlassGauntletsArms" target="GlassGauntlets" local="true">CT77GlassGauntlets.osd\GlassGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="GlassGauntletsChubbyArms" target="GlassGauntlets" local="true">CT77GlassGauntlets.osd\GlassGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="GlassGauntletsShoulderWidth" target="GlassGauntlets" local="true">CT77GlassGauntlets.osd\GlassGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="GlassGauntletsBigTorso" target="GlassGauntlets" local="true">CT77GlassGauntlets.osd\GlassGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="GlassGauntletsSmallSeam" target="GlassGauntlets" local="true">CT77GlassGauntlets.osd\GlassGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Glass Boots">
+        <DataFolder>CT77Glass</DataFolder>
+        <SourceFile>CT77GlassBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\glass\f</OutputPath>
+        <OutputFile GenWeights="true">boots</OutputFile>
+        <Shape target="GlassBoots">GlassBoots</Shape>
+        <Shape target="GlassShinCover">GlassShinCover</Shape>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="GlassBootsButtSmall" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="GlassBootsSlimThighs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="GlassBootsThighs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="GlassBootsChubbyLegs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsChubbyLegs</Data>
+            <Data name="GlassShinCoverChubbyLegs" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="GlassBootsLegs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsLegs</Data>
+            <Data name="GlassShinCoverLegs" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="GlassBootsKneeHeight" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsKneeHeight</Data>
+            <Data name="GlassShinCoverKneeHeight" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="GlassBootsCalfSize" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsCalfSize</Data>
+            <Data name="GlassShinCoverCalfSize" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="GlassBootsCalfSmooth" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsCalfSmooth</Data>
+            <Data name="GlassShinCoverCalfSmooth" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="GlassBootsAnkles" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsAnkles</Data>
+            <Data name="GlassShinCoverAnkles" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="GlassBootsSmallSeam" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsSmallSeam</Data>
+            <Data name="GlassShinCoverSmallSeam" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Glass Thigh Boots">
+        <DataFolder>CT77Glass</DataFolder>
+        <SourceFile>CT77GlassThighBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\glass\f</OutputPath>
+        <OutputFile GenWeights="true">CT77thighboots</OutputFile>
+        <Shape target="GlassBoots">GlassBoots</Shape>
+        <Shape target="GlassLegArmor">GlassLegArmor</Shape>
+        <Shape target="GlassShinCover">GlassShinCover</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorHips" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="GlassLegArmorButt" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="GlassLegArmorButtSmall" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorButtSmall</Data>
+            <Data name="GlassBootsButtSmall" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorButtShape2" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorBigButt" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorChubbyButt" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorSlimThighs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorSlimThighs</Data>
+            <Data name="GlassBootsSlimThighs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorThighs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorThighs</Data>
+            <Data name="GlassBootsThighs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorChubbyLegs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorChubbyLegs</Data>
+            <Data name="GlassBootsChubbyLegs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsChubbyLegs</Data>
+            <Data name="GlassShinCoverChubbyLegs" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="GlassLegArmorLegs" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorLegs</Data>
+            <Data name="GlassBootsLegs" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsLegs</Data>
+            <Data name="GlassShinCoverLegs" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorKneeHeight" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorKneeHeight</Data>
+            <Data name="GlassBootsKneeHeight" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsKneeHeight</Data>
+            <Data name="GlassShinCoverKneeHeight" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorCalfSize" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorCalfSize</Data>
+            <Data name="GlassBootsCalfSize" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsCalfSize</Data>
+            <Data name="GlassShinCoverCalfSize" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="GlassLegArmorCalfSmooth" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorCalfSmooth</Data>
+            <Data name="GlassBootsCalfSmooth" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsCalfSmooth</Data>
+            <Data name="GlassShinCoverCalfSmooth" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="GlassLegArmorAnkles" target="GlassLegArmor" local="true">CT77Glass.osd\GlassLegArmorAnkles</Data>
+            <Data name="GlassBootsAnkles" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsAnkles</Data>
+            <Data name="GlassShinCoverAnkles" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="GlassBootsSmallSeam" target="GlassBoots" local="true">CT77GlassBoots.osd\GlassBootsSmallSeam</Data>
+            <Data name="GlassShinCoverSmallSeam" target="GlassShinCover" local="true">CT77GlassBoots.osd\GlassShinCoverSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

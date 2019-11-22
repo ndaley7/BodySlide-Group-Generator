@@ -1,0 +1,32 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova Visor Glass &amp; Mask">
+        <DataFolder>Nova Visor Glass &amp; Mask</DataFolder>
+        <SourceFile>nova_head04_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_head04_ca</OutputFile>
+        <Shape target="SAOMask">SAOMask</Shape>
+        <Shape target="Visor">Visor</Shape>
+        <Shape target="VisorGlass">VisorGlass</Shape>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="SAOMaskBreastsSSH" target="SAOMask" local="true">nova_head04_ca.osd\SAOMaskBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="SAOMaskBreastFlatness" target="SAOMask" local="true">nova_head04_ca.osd\SAOMaskBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="SAOMaskBreastHeight" target="SAOMask" local="true">nova_head04_ca.osd\SAOMaskBreastHeight</Data>
+            <Data name="VisorBreastHeight" target="Visor" local="true">nova_head04_ca.osd\VisorBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="SAOMaskBreastWidth" target="SAOMask" local="true">nova_head04_ca.osd\SAOMaskBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="SAOMaskNippleLength" target="SAOMask" local="true">nova_head04_ca.osd\SAOMaskNippleLength</Data>
+            <Data name="VisorNippleLength" target="Visor" local="true">nova_head04_ca.osd\VisorNippleLength</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SAOMaskSmallSeam" target="SAOMask" local="true">nova_head04_ca.osd\SAOMaskSmallSeam</Data>
+            <Data name="VisorSmallSeam" target="Visor" local="true">nova_head04_ca.osd\VisorSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

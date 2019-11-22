@@ -1,0 +1,249 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Little Blush CBBE">
+        <DataFolder>Little Blush CBBE</DataFolder>
+        <SourceFile>Little Blush CBBE.nif</SourceFile>
+        <OutputPath>meshes\New_clothes\lilflameII\LittleBlush</OutputPath>
+        <OutputFile GenWeights="true">01Little Blush</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="BlushShorts">BlushShorts</Shape>
+        <Shape target="BlushTop">BlushTop</Shape>
+        <Shape target="BlushTop01">BlushTop01</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="BlushTopBreasts" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="BlushShortsBreastsSmall" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsBreastsSmall</Data>
+            <Data name="BlushTopBreastsSmall" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="BlushTopBreastsSH" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="BlushTopBreastsSSH" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="BlushTopBreastsFantasy" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="BlushTopDoubleMelon" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="BlushTopBreastCleavage" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="BlushTopBreastFlatness" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="BlushTopBreastGravity" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="BlushTopPushUp" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="BlushShortsBreastHeight" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsBreastHeight</Data>
+            <Data name="BlushTopBreastHeight" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastHeight</Data>
+            <Data name="BlushTop01BreastHeight" target="BlushTop01" local="true">Little Blush CBBE.osd\BlushTop01BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="BlushTopBreastPerkiness" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="BlushTopBreastWidth" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="BlushTopNippleDistance" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="BlushTopNipplePerkiness" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="BlushTopNippleLength" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="BlushTopNippleSize" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="BlushTopNippleAreola" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="BlushTopNippleUp" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="BlushTopNippleDown" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="BlushTopNippleTip" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="BlushTopArms" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopArms</Data>
+            <Data name="BlushTop01Arms" target="BlushTop01" local="true">Little Blush CBBE.osd\BlushTop01Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="BlushTopChubbyArms" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="BlushTopShoulderSmooth" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="BlushTopShoulderWidth" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="BlushShortsBigTorso" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsBigTorso</Data>
+            <Data name="BlushTopBigTorso" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBigTorso</Data>
+            <Data name="BlushTop01BigTorso" target="BlushTop01" local="true">Little Blush CBBE.osd\BlushTop01BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="BlushShortsWaist" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsWaist</Data>
+            <Data name="BlushTopWaist" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="BlushShortsWideWaistLine" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsWideWaistLine</Data>
+            <Data name="BlushTopWideWaistLine" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="BlushShortsChubbyWaist" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsChubbyWaist</Data>
+            <Data name="BlushTopChubbyWaist" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopChubbyWaist</Data>
+            <Data name="BlushTop01ChubbyWaist" target="BlushTop01" local="true">Little Blush CBBE.osd\BlushTop01ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="BlushShortsBelly" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsBelly</Data>
+            <Data name="BlushTopBelly" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="BlushShortsBigBelly" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsBigBelly</Data>
+            <Data name="BlushTopBigBelly" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="BlushShortsPregnancyBelly" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsPregnancyBelly</Data>
+            <Data name="BlushTopPregnancyBelly" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="BlushShortsTummyTuck" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsTummyTuck</Data>
+            <Data name="BlushTopTummyTuck" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="BlushShortsBack" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsBack</Data>
+            <Data name="BlushTopBack" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopBack</Data>
+            <Data name="BlushTop01Back" target="BlushTop01" local="true">Little Blush CBBE.osd\BlushTop01Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="BlushShortsHipbone" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="BlushShortsHips" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsHips</Data>
+            <Data name="BlushTopHips" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="BlushShortsButtCrack" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="BlushShortsButt" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="BlushShortsButtSmall" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="BlushShortsButtShape2" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsButtShape2</Data>
+            <Data name="BlushTopButtShape2" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="BlushShortsBigButt" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="BlushShortsChubbyButt" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsChubbyButt</Data>
+            <Data name="BlushTopChubbyButt" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopChubbyButt</Data>
+            <Data name="BlushTop01ChubbyButt" target="BlushTop01" local="true">Little Blush CBBE.osd\BlushTop01ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="BlushShortsAppleCheeks" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="BlushShortsRoundAss" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="BlushShortsGroin" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="BlushShortsSlimThighs" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsSlimThighs</Data>
+            <Data name="BlushTopSlimThighs" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="BlushShortsThighs" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="BlushShortsChubbyLegs" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="BlushShortsLegs" target="BlushShorts" local="true">Little Blush CBBE.osd\BlushShortsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="BlushTopSmallSeam" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="BlushTopShoulderTweak" target="BlushTop" local="true">Little Blush CBBE.osd\BlushTopShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -25,6 +25,8 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
+from BSGG.__main__ import g_DebugEnabled
+
 #Import of Modules used
 import os
 
@@ -39,14 +41,15 @@ from tkinter import Tk
 #Local Application Imports
 from ..ParsingBSGG.XMLIO import CreateConfigBSCGXML
 
-#root = Tk()
+
 
 #Create and Hide Root window
 Tk().withdraw()
 
  
 
-
+#This function opens a Tkinter folder select dialog to enable selection of the Bodyslide folder.  
+#Loops until the four "Slider" folders are found in the same subdirectory
 def BodySlidePathSelect():
     #Init
 
@@ -79,9 +82,26 @@ def BodySlidePathSelect():
 
             #Create the ConfigBSGG.xml file
             CreateConfigBSCGXML(filename,enableErrorLogging)
-            stringhold="placeholder"
+            
         else:
-            stringplace="placeholder"
+            messagebox.showinfo("BodySlide Custom Grouper","Slider Folder(s) not Detected.\n See Terminal/Console")
+
+#Renders a TKinter dialog with a custom question and title.  Returns True/False
+def CustomYesNoTF(stringTitle,stringContent):
+   
+    #Display Yes/No Dialog
+    result=messagebox.askyesno(stringTitle,stringContent)
+
+    return result
+
+#Renders a TKinter dialog with a custom message and Title
+def CustomOK(stringTitle,stringContent):
+   
+    #Display Okay Dialog
+    messagebox.showinfo(stringTitle,stringContent)
+
+    
+            
         
 
 

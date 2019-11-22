@@ -25,6 +25,9 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
+#Debugging
+g_DebugEnabled=False
+
 #Import of Modules used
 import os
 import sys
@@ -47,6 +50,8 @@ from .ParsingBSGG.XMLIO import LoadConfigXML
 
 from .UtilitiesBSGG.ConsoleSelection import ConsoleSelectHelper
 from .UtilitiesBSGG.UITkSelection import BodySlidePathSelect
+from .UtilitiesBSGG.FileIO import GetFileList
+from .UtilitiesBSGG.FileIO import SliderSetBackup
 
 #from .UtilitiesBSGG.FileListing import GetFileList
  
@@ -56,11 +61,15 @@ from .UtilitiesBSGG.UITkSelection import BodySlidePathSelect
 
 #Global Variables
 
+
+
+#Global Lists (Needs to be taken out of the Global Scope)
 g_bodyslideGroupedOutfitsOnly=set() #Non Repeating Set (Python) of all grouped outfits
 g_bodyslideGroupedOutfitsWGroup=[] #List (Python) of Tuples (Python) Containing all Groups and Member outfits
 g_bodyslideNewGroupedOutfitsWGroup=[]
 g_xmlEncodingString="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 
+#lxml Parsers with various encodings
 g_utf8_parser = ET.XMLParser(encoding='utf-8')
 g_latin1_parser = ET.XMLParser(encoding='latin1')
 g_unicode_parser = ET.XMLParser(encoding='cp1252')
@@ -97,20 +106,6 @@ def XMLEncodingConfirm(checkFile):
     f = open(checkFile,'w')
     f.write(newdata4)
     f.close()
-
-def GetFileList(filePath,fileExtension):
-    #Variables
-    fileListing=[]
-
-    #Get list of all files in the group folder (.fileExtension)
-    os.chdir(filePath)
-    for file in glob.glob(fileExtension):
-        fileListing.append(filePath+file)
-        print(file)
-   
-    #Return the File List (With Full Path)   
-    return fileListing
-
 
 
 def ParseSliderGroupXML(fileWithPath,bodyslideGroupedOutfitsOnly):
@@ -401,6 +396,10 @@ def main():
     #Store SliderGroups and SliderSet Paths
     sliderGroupPath=bodyslidePaths[0]
     sliderSetPath=bodyslidePaths[1]
+
+    #Run Backup Algorithm
+    SliderSetBackup(sliderSetPath)
+    SliderSetBackup(sliderGroupPath)
     
     #Generate list of Already Grouped Outfits
     CatalogGroupedOutfits(sliderGroupPath)

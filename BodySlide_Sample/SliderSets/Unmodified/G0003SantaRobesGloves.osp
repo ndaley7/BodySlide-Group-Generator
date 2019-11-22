@@ -1,0 +1,116 @@
+<SliderSetInfo version="1">
+    <SliderSet name="G0003 Santa Robes Gloves">
+        <DataFolder>G0003SantaRobesGloves</DataFolder>
+        <SourceFile>glovesf.nif</SourceFile>
+        <OutputPath>meshes\armor\Santa</OutputPath>
+        <OutputFile GenWeights="true">glovesf</OutputFile>
+        <Shape target="Glove:1">Glove:1</Shape>
+        <Shape target="Glove:2">Glove:2</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Glove:2Breasts" target="Glove:2" local="true">glovesf.osd\Glove:2Breasts</Data>
+            <Data name="Glove:1Breasts" target="Glove:1" local="true">glovesf.osd\Glove:1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="Glove:2BreastsSmall" target="Glove:2" local="true">glovesf.osd\Glove:2BreastsSmall</Data>
+            <Data name="Glove:1BreastsSmall" target="Glove:1" local="true">glovesf.osd\Glove:1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastsSH" target="Glove:2" local="true">glovesf.osd\Glove:2BreastsSH</Data>
+            <Data name="Glove:1BreastsSH" target="Glove:1" local="true">glovesf.osd\Glove:1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastsSSH" target="Glove:2" local="true">glovesf.osd\Glove:2BreastsSSH</Data>
+            <Data name="Glove:1BreastsSSH" target="Glove:1" local="true">glovesf.osd\Glove:1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastsFantasy" target="Glove:2" local="true">glovesf.osd\Glove:2BreastsFantasy</Data>
+            <Data name="Glove:1BreastsFantasy" target="Glove:1" local="true">glovesf.osd\Glove:1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="Glove:2DoubleMelon" target="Glove:2" local="true">glovesf.osd\Glove:2DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastFlatness" target="Glove:2" local="true">glovesf.osd\Glove:2BreastFlatness</Data>
+            <Data name="Glove:1BreastFlatness" target="Glove:1" local="true">glovesf.osd\Glove:1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastGravity" target="Glove:2" local="true">glovesf.osd\Glove:2BreastGravity</Data>
+            <Data name="Glove:1BreastGravity" target="Glove:1" local="true">glovesf.osd\Glove:1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="Glove:2PushUp" target="Glove:2" local="true">glovesf.osd\Glove:2PushUp</Data>
+            <Data name="Glove:1PushUp" target="Glove:1" local="true">glovesf.osd\Glove:1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastHeight" target="Glove:2" local="true">glovesf.osd\Glove:2BreastHeight</Data>
+            <Data name="Glove:1BreastHeight" target="Glove:1" local="true">glovesf.osd\Glove:1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastPerkiness" target="Glove:2" local="true">glovesf.osd\Glove:2BreastPerkiness</Data>
+            <Data name="Glove:1BreastPerkiness" target="Glove:1" local="true">glovesf.osd\Glove:1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="Glove:2BreastWidth" target="Glove:2" local="true">glovesf.osd\Glove:2BreastWidth</Data>
+            <Data name="Glove:1BreastWidth" target="Glove:1" local="true">glovesf.osd\Glove:1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="Glove:2NippleLength" target="Glove:2" local="true">glovesf.osd\Glove:2NippleLength</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="Glove:2NippleAreola" target="Glove:2" local="true">glovesf.osd\Glove:2NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="Glove:2NippleUp" target="Glove:2" local="true">glovesf.osd\Glove:2NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="Glove:2NippleDown" target="Glove:2" local="true">glovesf.osd\Glove:2NippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Glove:2Arms" target="Glove:2" local="true">glovesf.osd\Glove:2Arms</Data>
+            <Data name="Glove:1Arms" target="Glove:1" local="true">glovesf.osd\Glove:1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="Glove:2ChubbyArms" target="Glove:2" local="true">glovesf.osd\Glove:2ChubbyArms</Data>
+            <Data name="Glove:1ChubbyArms" target="Glove:1" local="true">glovesf.osd\Glove:1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="Glove:2ShoulderWidth" target="Glove:2" local="true">glovesf.osd\Glove:2ShoulderWidth</Data>
+            <Data name="Glove:1ShoulderWidth" target="Glove:1" local="true">glovesf.osd\Glove:1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Glove:2BigTorso" target="Glove:2" local="true">glovesf.osd\Glove:2BigTorso</Data>
+            <Data name="Glove:1BigTorso" target="Glove:1" local="true">glovesf.osd\Glove:1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Glove:2Waist" target="Glove:2" local="true">glovesf.osd\Glove:2Waist</Data>
+            <Data name="Glove:1Waist" target="Glove:1" local="true">glovesf.osd\Glove:1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Glove:2WideWaistLine" target="Glove:2" local="true">glovesf.osd\Glove:2WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Glove:2ChubbyWaist" target="Glove:2" local="true">glovesf.osd\Glove:2ChubbyWaist</Data>
+            <Data name="Glove:1ChubbyWaist" target="Glove:1" local="true">glovesf.osd\Glove:1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Glove:2PregnancyBelly" target="Glove:2" local="true">glovesf.osd\Glove:2PregnancyBelly</Data>
+            <Data name="Glove:1PregnancyBelly" target="Glove:1" local="true">glovesf.osd\Glove:1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Glove:1TummyTuck" target="Glove:1" local="true">glovesf.osd\Glove:1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Glove:2Back" target="Glove:2" local="true">glovesf.osd\Glove:2Back</Data>
+            <Data name="Glove:1Back" target="Glove:1" local="true">glovesf.osd\Glove:1Back</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Glove:1Butt" target="Glove:1" local="true">glovesf.osd\Glove:1Butt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Glove:2ChubbyButt" target="Glove:2" local="true">glovesf.osd\Glove:2ChubbyButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Glove:1SmallSeam" target="Glove:1" local="true">glovesf.osd\Glove:1SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

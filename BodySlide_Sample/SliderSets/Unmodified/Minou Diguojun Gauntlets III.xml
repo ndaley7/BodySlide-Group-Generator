@@ -1,0 +1,90 @@
+<SliderSetInfo>
+    <SliderSet name="Minou Diguojun Gauntlets III">
+        <SetFolder>Minou Diguojun Gauntlets III</SetFolder>
+        <SourceFile>Minou Diguojun Gauntlets III.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Diguojun</OutputPath>
+        <OutputFile>gauntletsc</OutputFile>
+        <BaseShapeName target="ArmL">ArmL</BaseShapeName>
+        <BaseShapeName target="GL2">GL2</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="ArmLBreasts" target="ArmL" local="true">ArmLBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="ArmLBreastsSmall" target="ArmL" local="true">ArmLBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastsSH" target="ArmL" local="true">ArmLBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastsSSH" target="ArmL" local="true">ArmLBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastsFantasy" target="ArmL" local="true">ArmLBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="ArmLDoubleMelon" target="ArmL" local="true">ArmLDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastFlatness" target="ArmL" local="true">ArmLBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastGravity" target="ArmL" local="true">ArmLBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="ArmLPushUp" target="ArmL" local="true">ArmLPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastHeight" target="ArmL" local="true">ArmLBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastPerkiness" target="ArmL" local="true">ArmLBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="ArmLBreastWidth" target="ArmL" local="true">ArmLBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="ArmLNippleUp" target="ArmL" local="true">ArmLNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="ArmLArms" target="ArmL" local="true">ArmLArms.bsd</datafile>
+            <datafile name="GL2Arms" target="GL2" local="true">GL2Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ArmLChubbyArms" target="ArmL" local="true">ArmLChubbyArms.bsd</datafile>
+            <datafile name="GL2ChubbyArms" target="GL2" local="true">GL2ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ArmLShoulderWidth" target="ArmL" local="true">ArmLShoulderWidth.bsd</datafile>
+            <datafile name="GL2ShoulderWidth" target="GL2" local="true">GL2ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="ArmLBigTorso" target="ArmL" local="true">ArmLBigTorso.bsd</datafile>
+            <datafile name="GL2BigTorso" target="GL2" local="true">GL2BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="ArmLWaist" target="ArmL" local="true">ArmLWaist.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ArmLChubbyWaist" target="ArmL" local="true">ArmLChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="ArmLPregnancyBelly" target="ArmL" local="true">ArmLPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="ArmLTummyTuck" target="ArmL" local="true">ArmLTummyTuck.bsd</datafile>
+            <datafile name="GL2TummyTuck" target="GL2" local="true">GL2TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="ArmLBack" target="ArmL" local="true">ArmLBack.bsd</datafile>
+            <datafile name="GL2Back" target="GL2" local="true">GL2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="ArmLButt" target="ArmL" local="true">ArmLButt.bsd</datafile>
+            <datafile name="GL2Butt" target="GL2" local="true">GL2Butt.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="ArmLSmallSeam" target="ArmL" local="true">ArmLSmallSeam.bsd</datafile>
+            <datafile name="GL2SmallSeam" target="GL2" local="true">GL2SmallSeam.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

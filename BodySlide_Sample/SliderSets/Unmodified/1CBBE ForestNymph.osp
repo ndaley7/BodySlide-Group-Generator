@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="1CBBE ForestNymph Top">
+        <DataFolder>1CBBE ForestNymph</DataFolder>
+        <SourceFile>ForestNymphTop.nif</SourceFile>
+        <OutputPath>meshes\armor\ForestNymph</OutputPath>
+        <OutputFile GenWeights="true">ForestNymphTop</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Lisa_Leaf">Lisa_Leaf</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Lisa_LeafBreasts" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="Lisa_LeafBreastsSmall" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Lisa_LeafBreastsSH" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Lisa_LeafBreastsSSH" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Lisa_LeafBreastsFantasy" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Lisa_LeafDoubleMelon" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Lisa_LeafBreastCleavage" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Lisa_LeafBreastFlatness" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Lisa_LeafBreastGravity" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Lisa_LeafPushUp" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="Lisa_LeafBreastHeight" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Lisa_LeafBreastPerkiness" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Lisa_LeafBreastWidth" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Lisa_LeafNippleDistance" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Lisa_LeafNipplePerkiness" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Lisa_LeafNippleLength" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Lisa_LeafNippleSize" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Lisa_LeafNippleAreola" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Lisa_LeafNippleUp" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Lisa_LeafNippleDown" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Lisa_LeafNippleTip" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Lisa_LeafArms" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Lisa_LeafChubbyArms" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Lisa_LeafShoulderSmooth" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Lisa_LeafShoulderWidth" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="Lisa_LeafBigTorso" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="Lisa_LeafWaist" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="Lisa_LeafWideWaistLine" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="Lisa_LeafChubbyWaist" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="Lisa_LeafBelly" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="Lisa_LeafBigBelly" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="Lisa_LeafPregnancyBelly" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="Lisa_LeafBack" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="Lisa_LeafHips" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="Lisa_LeafButtShape2" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="Lisa_LeafChubbyButt" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="Lisa_LeafAppleCheeks" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Lisa_LeafSmallSeam" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Lisa_LeafShoulderTweak" target="Lisa_Leaf" local="true">ForestNymphTop.osd\Lisa_LeafShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="1CBBE ForestNymph Bot">
+        <DataFolder>1CBBE ForestNymph</DataFolder>
+        <SourceFile>ForestNymphBot.nif</SourceFile>
+        <OutputPath>meshes\armor\ForestNymph</OutputPath>
+        <OutputFile GenWeights="true">ForestNymphBot</OutputFile>
+        <Shape target="Lisa_Leaf">Lisa_Leaf</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="Lisa_LeafBreastsSmall" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafBreastHeight" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafBreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafBigTorso" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Lisa_LeafWaist" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafWideWaistLine" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafChubbyWaist" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafBelly" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafBigBelly" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafPregnancyBelly" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafTummyTuck" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafBack" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafHipbone" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafHips" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="Lisa_LeafButtCrack" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Lisa_LeafButt" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Lisa_LeafButtSmall" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafButtShape2" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafBigButt" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafChubbyButt" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafAppleCheeks" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafRoundAss" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafGroin" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafSlimThighs" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafThighs" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafChubbyLegs" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Lisa_LeafLegs" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Lisa_LeafKneeHeight" target="Lisa_Leaf" local="true">ForestNymphBot.osd\Lisa_LeafKneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

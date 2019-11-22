@@ -1,0 +1,249 @@
+<SliderSetInfo version="1">
+    <SliderSet name="GFB Nico Robin_Outfit_CBBE">
+        <DataFolder>GFB Nico Robin_Outfit_CBBE</DataFolder>
+        <SourceFile>GFB Nico Robin_Outfit_CBBE.nif</SourceFile>
+        <OutputPath>Meshes\Nico Robin Pre Timeskip</OutputPath>
+        <OutputFile GenWeights="true">yifu</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Model001_40_dets_0_1_16_16">Model001_40_dets_0_1_16_16</Shape>
+        <Shape target="Model001_40_outfit_1_2_16_16">Model001_40_outfit_1_2_16_16</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Breasts1</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Breasts" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastsSm</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastsSmall" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastsSmall</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastsSmall" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastsSH</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastsSH" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastsSH</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastsSH" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastsSSH</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastsSSH" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastsSSH</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastsSSH" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastsFantasy</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastsFantasy" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastsFantasy</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastsFantasy" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\DoubleMelon</Data>
+            <Data name="Model001_40_outfit_1_2_16_16DoubleMelon" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16DoubleMelon</Data>
+            <Data name="Model001_40_dets_0_1_16_16DoubleMelon" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastCleavage</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastCleavage" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastCleavage</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastCleavage" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastFlatness</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastFlatness" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastFlatness</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastFlatness" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastGravity</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastGravity" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastGravity</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastGravity" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\PushUp</Data>
+            <Data name="Model001_40_outfit_1_2_16_16PushUp" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16PushUp</Data>
+            <Data name="Model001_40_dets_0_1_16_16PushUp" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastHt</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastHeight" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastHeight</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastHeight" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastPerkiness</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastPerkiness" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastPerkiness</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastPerkiness" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BreastWidth</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BreastWidth" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BreastWidth</Data>
+            <Data name="Model001_40_dets_0_1_16_16BreastWidth" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NippleDistance</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NippleDistance" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NipplePerkiness</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NipplePerkiness" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NippleLength</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NippleLength" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NippleSize</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NippleSize" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NippleAreola</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NippleAreola" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NippleAreola</Data>
+            <Data name="Model001_40_dets_0_1_16_16NippleAreola" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NippleUp</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NippleUp" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NippleUp</Data>
+            <Data name="Model001_40_dets_0_1_16_16NippleUp" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NippleDown</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NippleDown" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NippleDown</Data>
+            <Data name="Model001_40_dets_0_1_16_16NippleDown" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\NippleTip</Data>
+            <Data name="Model001_40_outfit_1_2_16_16NippleTip" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Arms</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Arms" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ChubbyArms</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ChubbyArms" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ShoulderSmooth</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ShoulderSmooth" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ShoulderWidth</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ShoulderWidth" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BigTorso</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BigTorso" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BigTorso</Data>
+            <Data name="Model001_40_dets_0_1_16_16BigTorso" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Waist</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Waist" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\WideWaistLine</Data>
+            <Data name="Model001_40_outfit_1_2_16_16WideWaistLine" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ChubbyWaist</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ChubbyWaist" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ChubbyWaist</Data>
+            <Data name="Model001_40_dets_0_1_16_16ChubbyWaist" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Belly</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Belly" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Belly</Data>
+            <Data name="Model001_40_dets_0_1_16_16Belly" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BigBelly</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BigBelly" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BigBelly</Data>
+            <Data name="Model001_40_dets_0_1_16_16BigBelly" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\PregnancyBelly</Data>
+            <Data name="Model001_40_outfit_1_2_16_16PregnancyBelly" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16PregnancyBelly</Data>
+            <Data name="Model001_40_dets_0_1_16_16PregnancyBelly" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\TummyTuck</Data>
+            <Data name="Model001_40_outfit_1_2_16_16TummyTuck" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Back</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Back" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Back</Data>
+            <Data name="Model001_40_dets_0_1_16_16Back" target="Model001_40_dets_0_1_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_dets_0_1_16_16Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Hipbone</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Hipbone" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Hips</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Hips" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ButtCrack</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ButtCrack" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Butt1</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Butt" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ButtSm</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ButtSmall" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\MakButt</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ButtShape2" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\BigButt</Data>
+            <Data name="Model001_40_outfit_1_2_16_16BigButt" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ChubbyButt</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ChubbyButt" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\AppleCheecks</Data>
+            <Data name="Model001_40_outfit_1_2_16_16AppleCheeks" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\RoundAss</Data>
+            <Data name="Model001_40_outfit_1_2_16_16RoundAss" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Groin</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Groin" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\SlimThighs</Data>
+            <Data name="Model001_40_outfit_1_2_16_16SlimThighs" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Thighs</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Thighs" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ChubbyLegs</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ChubbyLegs" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Legs</Data>
+            <Data name="Model001_40_outfit_1_2_16_16Legs" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\KneeHeight</Data>
+            <Data name="Model001_40_outfit_1_2_16_16KneeHeight" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\SeamSm</Data>
+            <Data name="Model001_40_outfit_1_2_16_16SmallSeam" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape" local="true">GFB Nico Robin_Outfit_CBBE.osd\ShoulderTweak</Data>
+            <Data name="Model001_40_outfit_1_2_16_16ShoulderTweak" target="Model001_40_outfit_1_2_16_16" local="true">GFB Nico Robin_Outfit_CBBE.osd\Model001_40_outfit_1_2_16_16ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

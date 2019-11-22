@@ -1,0 +1,404 @@
+<SliderSetInfo>
+    <SliderSet name="Minou juri 1">
+        <SetFolder>Minou Juri</SetFolder>
+        <SourceFile>juri1.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Juri</OutputPath>
+        <OutputFile>cuirass</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="EDITBODYNEWfinal004">EDITBODYNEWfinal004</BaseShapeName>
+        <BaseShapeName target="na8ida001">na8ida001</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="na8ida001Breasts" target="na8ida001" local="true">na8ida001Breasts.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Breasts" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="na8ida001BreastsSmall" target="na8ida001" local="true">na8ida001BreastsSmall.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastsSmall" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="na8ida001BreastsSH" target="na8ida001" local="true">na8ida001BreastsSH.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastsSH" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="na8ida001BreastsSSH" target="na8ida001" local="true">na8ida001BreastsSSH.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastsSSH" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="na8ida001BreastsFantasy" target="na8ida001" local="true">na8ida001BreastsFantasy.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastsFantasy" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="na8ida001DoubleMelon" target="na8ida001" local="true">na8ida001DoubleMelon.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004DoubleMelon" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="na8ida001BreastCleavage" target="na8ida001" local="true">na8ida001BreastCleavage.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastCleavage" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="na8ida001BreastFlatness" target="na8ida001" local="true">na8ida001BreastFlatness.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastFlatness" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="na8ida001BreastGravity" target="na8ida001" local="true">na8ida001BreastGravity.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastGravity" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="na8ida001PushUp" target="na8ida001" local="true">na8ida001PushUp.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004PushUp" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="na8ida001BreastHeight" target="na8ida001" local="true">na8ida001BreastHeight.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastHeight" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="na8ida001BreastPerkiness" target="na8ida001" local="true">na8ida001BreastPerkiness.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastPerkiness" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="na8ida001BreastWidth" target="na8ida001" local="true">na8ida001BreastWidth.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BreastWidth" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="na8ida001NippleDistance" target="na8ida001" local="true">na8ida001NippleDistance.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NippleDistance" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="na8ida001NipplePerkiness" target="na8ida001" local="true">na8ida001NipplePerkiness.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NipplePerkiness" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="na8ida001NippleLength" target="na8ida001" local="true">na8ida001NippleLength.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NippleLength" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="na8ida001NippleSize" target="na8ida001" local="true">na8ida001NippleSize.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NippleSize" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="na8ida001NippleAreola" target="na8ida001" local="true">na8ida001NippleAreola.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NippleAreola" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="na8ida001NippleUp" target="na8ida001" local="true">na8ida001NippleUp.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NippleUp" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="na8ida001NippleDown" target="na8ida001" local="true">na8ida001NippleDown.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NippleDown" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="na8ida001NippleTip" target="na8ida001" local="true">na8ida001NippleTip.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004NippleTip" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004NippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="na8ida001Arms" target="na8ida001" local="true">na8ida001Arms.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Arms" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="na8ida001ChubbyArms" target="na8ida001" local="true">na8ida001ChubbyArms.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ChubbyArms" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="na8ida001ShoulderSmooth" target="na8ida001" local="true">na8ida001ShoulderSmooth.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ShoulderSmooth" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="na8ida001ShoulderWidth" target="na8ida001" local="true">na8ida001ShoulderWidth.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ShoulderWidth" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="na8ida001BigTorso" target="na8ida001" local="true">na8ida001BigTorso.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BigTorso" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="na8ida001Waist" target="na8ida001" local="true">na8ida001Waist.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Waist" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Waist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="na8ida001WideWaistLine" target="na8ida001" local="true">na8ida001WideWaistLine.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004WideWaistLine" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004WideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="na8ida001ChubbyWaist" target="na8ida001" local="true">na8ida001ChubbyWaist.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ChubbyWaist" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="na8ida001Belly" target="na8ida001" local="true">na8ida001Belly.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Belly" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="na8ida001BigBelly" target="na8ida001" local="true">na8ida001BigBelly.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BigBelly" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="na8ida001PregnancyBelly" target="na8ida001" local="true">na8ida001PregnancyBelly.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004PregnancyBelly" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="na8ida001TummyTuck" target="na8ida001" local="true">na8ida001TummyTuck.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004TummyTuck" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="na8ida001Back" target="na8ida001" local="true">na8ida001Back.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Back" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="na8ida001Hipbone" target="na8ida001" local="true">na8ida001Hipbone.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Hipbone" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="na8ida001Hips" target="na8ida001" local="true">na8ida001Hips.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Hips" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="na8ida001ButtCrack" target="na8ida001" local="true">na8ida001ButtCrack.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ButtCrack" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="na8ida001Butt" target="na8ida001" local="true">na8ida001Butt.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Butt" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="na8ida001ButtSmall" target="na8ida001" local="true">na8ida001ButtSmall.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ButtSmall" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="na8ida001ButtShape2" target="na8ida001" local="true">na8ida001ButtShape2.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ButtShape2" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="na8ida001BigButt" target="na8ida001" local="true">na8ida001BigButt.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004BigButt" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="na8ida001ChubbyButt" target="na8ida001" local="true">na8ida001ChubbyButt.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ChubbyButt" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="na8ida001AppleCheeks" target="na8ida001" local="true">na8ida001AppleCheeks.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004AppleCheeks" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="na8ida001RoundAss" target="na8ida001" local="true">na8ida001RoundAss.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004RoundAss" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="na8ida001Groin" target="na8ida001" local="true">na8ida001Groin.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Groin" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Groin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="na8ida001SlimThighs" target="na8ida001" local="true">na8ida001SlimThighs.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004SlimThighs" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="na8ida001Thighs" target="na8ida001" local="true">na8ida001Thighs.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Thighs" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="na8ida001ChubbyLegs" target="na8ida001" local="true">na8ida001ChubbyLegs.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ChubbyLegs" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="na8ida001Legs" target="na8ida001" local="true">na8ida001Legs.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Legs" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="na8ida001KneeHeight" target="na8ida001" local="true">na8ida001KneeHeight.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004KneeHeight" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="na8ida001CalfSize" target="na8ida001" local="true">na8ida001CalfSize.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004CalfSize" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="na8ida001CalfSmooth" target="na8ida001" local="true">na8ida001CalfSmooth.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004CalfSmooth" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="na8ida001Ankles" target="na8ida001" local="true">na8ida001Ankles.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004Ankles" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="na8ida001SmallSeam" target="na8ida001" local="true">na8ida001SmallSeam.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004SmallSeam" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="na8ida001ShoulderTweak" target="na8ida001" local="true">na8ida001ShoulderTweak.bsd</datafile>
+            <datafile name="EDITBODYNEWfinal004ShoulderTweak" target="EDITBODYNEWfinal004" local="true">EDITBODYNEWfinal004ShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou Juri belt 1">
+        <SetFolder>Minou Juri</SetFolder>
+        <SourceFile>Juribelt1.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Juri</OutputPath>
+        <OutputFile>belt</OutputFile>
+        <BaseShapeName target="beltbackup001">beltbackup001</BaseShapeName>
+        <BaseShapeName target="beltbackup008">beltbackup008</BaseShapeName>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="beltbackup008BreastsSmall" target="beltbackup008" local="true">beltbackup008BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="beltbackup008BreastHeight" target="beltbackup008" local="true">beltbackup008BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="beltbackup001BigTorso" target="beltbackup001" local="true">beltbackup001BigTorso.bsd</datafile>
+            <datafile name="beltbackup008BigTorso" target="beltbackup008" local="true">beltbackup008BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="beltbackup001Waist" target="beltbackup001" local="true">beltbackup001Waist.bsd</datafile>
+            <datafile name="beltbackup008Waist" target="beltbackup008" local="true">beltbackup008Waist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="beltbackup001WideWaistLine" target="beltbackup001" local="true">beltbackup001WideWaistLine.bsd</datafile>
+            <datafile name="beltbackup008WideWaistLine" target="beltbackup008" local="true">beltbackup008WideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="beltbackup001ChubbyWaist" target="beltbackup001" local="true">beltbackup001ChubbyWaist.bsd</datafile>
+            <datafile name="beltbackup008ChubbyWaist" target="beltbackup008" local="true">beltbackup008ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="beltbackup008Belly" target="beltbackup008" local="true">beltbackup008Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="beltbackup001BigBelly" target="beltbackup001" local="true">beltbackup001BigBelly.bsd</datafile>
+            <datafile name="beltbackup008BigBelly" target="beltbackup008" local="true">beltbackup008BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="beltbackup001PregnancyBelly" target="beltbackup001" local="true">beltbackup001PregnancyBelly.bsd</datafile>
+            <datafile name="beltbackup008PregnancyBelly" target="beltbackup008" local="true">beltbackup008PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="beltbackup001TummyTuck" target="beltbackup001" local="true">beltbackup001TummyTuck.bsd</datafile>
+            <datafile name="beltbackup008TummyTuck" target="beltbackup008" local="true">beltbackup008TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="beltbackup001Back" target="beltbackup001" local="true">beltbackup001Back.bsd</datafile>
+            <datafile name="beltbackup008Back" target="beltbackup008" local="true">beltbackup008Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="beltbackup001Hipbone" target="beltbackup001" local="true">beltbackup001Hipbone.bsd</datafile>
+            <datafile name="beltbackup008Hipbone" target="beltbackup008" local="true">beltbackup008Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="beltbackup001Hips" target="beltbackup001" local="true">beltbackup001Hips.bsd</datafile>
+            <datafile name="beltbackup008Hips" target="beltbackup008" local="true">beltbackup008Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="beltbackup008ButtCrack" target="beltbackup008" local="true">beltbackup008ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="beltbackup001Butt" target="beltbackup001" local="true">beltbackup001Butt.bsd</datafile>
+            <datafile name="beltbackup008Butt" target="beltbackup008" local="true">beltbackup008Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="beltbackup001ButtSmall" target="beltbackup001" local="true">beltbackup001ButtSmall.bsd</datafile>
+            <datafile name="beltbackup008ButtSmall" target="beltbackup008" local="true">beltbackup008ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="beltbackup001ButtShape2" target="beltbackup001" local="true">beltbackup001ButtShape2.bsd</datafile>
+            <datafile name="beltbackup008ButtShape2" target="beltbackup008" local="true">beltbackup008ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="beltbackup001BigButt" target="beltbackup001" local="true">beltbackup001BigButt.bsd</datafile>
+            <datafile name="beltbackup008BigButt" target="beltbackup008" local="true">beltbackup008BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="beltbackup001ChubbyButt" target="beltbackup001" local="true">beltbackup001ChubbyButt.bsd</datafile>
+            <datafile name="beltbackup008ChubbyButt" target="beltbackup008" local="true">beltbackup008ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="beltbackup001AppleCheeks" target="beltbackup001" local="true">beltbackup001AppleCheeks.bsd</datafile>
+            <datafile name="beltbackup008AppleCheeks" target="beltbackup008" local="true">beltbackup008AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="beltbackup008RoundAss" target="beltbackup008" local="true">beltbackup008RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="beltbackup008Groin" target="beltbackup008" local="true">beltbackup008Groin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="beltbackup001SlimThighs" target="beltbackup001" local="true">beltbackup001SlimThighs.bsd</datafile>
+            <datafile name="beltbackup008SlimThighs" target="beltbackup008" local="true">beltbackup008SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="beltbackup001Thighs" target="beltbackup001" local="true">beltbackup001Thighs.bsd</datafile>
+            <datafile name="beltbackup008Thighs" target="beltbackup008" local="true">beltbackup008Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="beltbackup001ChubbyLegs" target="beltbackup001" local="true">beltbackup001ChubbyLegs.bsd</datafile>
+            <datafile name="beltbackup008ChubbyLegs" target="beltbackup008" local="true">beltbackup008ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="beltbackup001Legs" target="beltbackup001" local="true">beltbackup001Legs.bsd</datafile>
+            <datafile name="beltbackup008Legs" target="beltbackup008" local="true">beltbackup008Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="beltbackup001KneeHeight" target="beltbackup001" local="true">beltbackup001KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="beltbackup001Ankles" target="beltbackup001" local="true">beltbackup001Ankles.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

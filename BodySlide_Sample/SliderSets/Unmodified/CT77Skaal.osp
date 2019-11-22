@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Skaal">
+        <DataFolder>CT77Skaal</DataFolder>
+        <SourceFile>CT77Skaal.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\skaal\f</OutputPath>
+        <OutputFile GenWeights="true">skaaltorso</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="SkaalCanteen">SkaalCanteen</Shape>
+        <Shape target="SkaalCoat">SkaalCoat</Shape>
+        <Shape target="SkaalLeggings">SkaalLeggings</Shape>
+        <Shape target="SkaalSkirt">SkaalSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="SkaalCoatBreasts" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="SkaalCoatBreastsSmall" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastsSmall</Data>
+            <Data name="SkaalSkirtBreastsSmall" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="SkaalCoatBreastsSH" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="SkaalCoatBreastsSSH" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="SkaalCoatBreastsFantasy" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="SkaalCoatDoubleMelon" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="SkaalCoatBreastCleavage" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="SkaalCoatBreastFlatness" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastFlatness</Data>
+            <Data name="SkaalSkirtBreastFlatness" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="SkaalCoatBreastGravity" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="SkaalCoatPushUp" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="SkaalCoatBreastHeight" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastHeight</Data>
+            <Data name="SkaalSkirtBreastHeight" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="SkaalCoatBreastPerkiness" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="SkaalCoatBreastWidth" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBreastWidth</Data>
+            <Data name="SkaalSkirtBreastWidth" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="SkaalCoatNippleDistance" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="SkaalCoatNipplePerkiness" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="SkaalCoatNippleLength" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="SkaalCoatNippleSize" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="SkaalCoatNippleAreola" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="SkaalCoatNippleUp" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="SkaalCoatNippleDown" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="SkaalCoatNippleTip" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="SkaalCoatArms" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="SkaalCoatChubbyArms" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="SkaalCoatShoulderSmooth" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="SkaalCoatShoulderWidth" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="SkaalCanteenBigTorso" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenBigTorso</Data>
+            <Data name="SkaalCoatBigTorso" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBigTorso</Data>
+            <Data name="SkaalSkirtBigTorso" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="SkaalCanteenWaist" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenWaist</Data>
+            <Data name="SkaalCoatWaist" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatWaist</Data>
+            <Data name="SkaalSkirtWaist" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="SkaalCoatWideWaistLine" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatWideWaistLine</Data>
+            <Data name="SkaalSkirtWideWaistLine" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="SkaalCanteenChubbyWaist" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenChubbyWaist</Data>
+            <Data name="SkaalCoatChubbyWaist" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatChubbyWaist</Data>
+            <Data name="SkaalSkirtChubbyWaist" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="SkaalCoatBelly" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBelly</Data>
+            <Data name="SkaalSkirtBelly" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="SkaalCoatBigBelly" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBigBelly</Data>
+            <Data name="SkaalSkirtBigBelly" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="SkaalCoatTummyTuck" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatTummyTuck</Data>
+            <Data name="SkaalSkirtTummyTuck" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="SkaalCanteenBack" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenBack</Data>
+            <Data name="SkaalCoatBack" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBack</Data>
+            <Data name="SkaalSkirtBack" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="SkaalCanteenHipbone" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenHipbone</Data>
+            <Data name="SkaalLeggingsHipbone" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsHipbone</Data>
+            <Data name="SkaalSkirtHipbone" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="SkaalCanteenHips" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenHips</Data>
+            <Data name="SkaalCoatHips" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatHips</Data>
+            <Data name="SkaalLeggingsHips" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsHips</Data>
+            <Data name="SkaalSkirtHips" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="SkaalCanteenButt" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenButt</Data>
+            <Data name="SkaalCoatButt" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatButt</Data>
+            <Data name="SkaalLeggingsButt" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsButt</Data>
+            <Data name="SkaalSkirtButt" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="SkaalCanteenButtSmall" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenButtSmall</Data>
+            <Data name="SkaalCoatButtSmall" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatButtSmall</Data>
+            <Data name="SkaalLeggingsButtSmall" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsButtSmall</Data>
+            <Data name="SkaalSkirtButtSmall" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="SkaalCanteenButtShape2" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenButtShape2</Data>
+            <Data name="SkaalCoatButtShape2" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatButtShape2</Data>
+            <Data name="SkaalLeggingsButtShape2" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsButtShape2</Data>
+            <Data name="SkaalSkirtButtShape2" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="SkaalCanteenBigButt" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenBigButt</Data>
+            <Data name="SkaalCoatBigButt" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatBigButt</Data>
+            <Data name="SkaalLeggingsBigButt" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsBigButt</Data>
+            <Data name="SkaalSkirtBigButt" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="SkaalCanteenChubbyButt" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenChubbyButt</Data>
+            <Data name="SkaalCoatChubbyButt" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatChubbyButt</Data>
+            <Data name="SkaalLeggingsChubbyButt" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsChubbyButt</Data>
+            <Data name="SkaalSkirtChubbyButt" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="SkaalCanteenAppleCheeks" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenAppleCheeks</Data>
+            <Data name="SkaalCoatAppleCheeks" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatAppleCheeks</Data>
+            <Data name="SkaalSkirtAppleCheeks" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="SkaalCanteenRoundAss" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenRoundAss</Data>
+            <Data name="SkaalSkirtRoundAss" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="SkaalCanteenSlimThighs" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenSlimThighs</Data>
+            <Data name="SkaalCoatSlimThighs" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatSlimThighs</Data>
+            <Data name="SkaalLeggingsSlimThighs" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsSlimThighs</Data>
+            <Data name="SkaalSkirtSlimThighs" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="SkaalCanteenThighs" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenThighs</Data>
+            <Data name="SkaalLeggingsThighs" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsThighs</Data>
+            <Data name="SkaalSkirtThighs" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="SkaalCanteenChubbyLegs" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenChubbyLegs</Data>
+            <Data name="SkaalLeggingsChubbyLegs" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsChubbyLegs</Data>
+            <Data name="SkaalSkirtChubbyLegs" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="SkaalCanteenLegs" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenLegs</Data>
+            <Data name="SkaalLeggingsLegs" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsLegs</Data>
+            <Data name="SkaalSkirtLegs" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="SkaalLeggingsKneeHeight" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsKneeHeight</Data>
+            <Data name="SkaalSkirtKneeHeight" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="SkaalLeggingsCalfSize" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="SkaalLeggingsCalfSmooth" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="SkaalLeggingsAnkles" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="SkaalCoatSmallSeam" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatSmallSeam</Data>
+            <Data name="SkaalLeggingsSmallSeam" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="SkaalCoatShoulderTweak" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapCoat" invert="false" small="0" big="0" zap="true">
+            <Data name="SkaalCoatZapCoat" target="SkaalCoat" local="true">CT77Skaal.osd\SkaalCoatZapCoat</Data>
+        </Slider>
+        <Slider name="ZapCanteen" invert="false" small="0" big="0" zap="true">
+            <Data name="SkaalCanteenZapCanteen" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenZapCanteen</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="SkaalCanteenZapSkirt" target="SkaalCanteen" local="true">CT77Skaal.osd\SkaalCanteenZapSkirt</Data>
+            <Data name="SkaalSkirtZapSkirt" target="SkaalSkirt" local="true">CT77Skaal.osd\SkaalSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="SkaalLeggingsZapLeggings" target="SkaalLeggings" local="true">CT77Skaal.osd\SkaalLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Skaal Boots">
+        <DataFolder>CT77Skaal</DataFolder>
+        <SourceFile>CT77SkaalBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\skaal\f</OutputPath>
+        <OutputFile GenWeights="true">skaalboots</OutputFile>
+        <Shape target="SkaalBoots">SkaalBoots</Shape>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SkaalBootsSlimThighs" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="SkaalBootsThighs" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SkaalBootsChubbyLegs" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SkaalBootsLegs" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SkaalBootsKneeHeight" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="SkaalBootsCalfSize" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="SkaalBootsCalfSmooth" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="SkaalBootsAnkles" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SkaalBootsSmallSeam" target="SkaalBoots" local="true">CT77SkaalBoots.osd\SkaalBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Skaal Gloves">
+        <DataFolder>CT77Skaal</DataFolder>
+        <SourceFile>CT77SkaalGloves.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\skaal\f</OutputPath>
+        <OutputFile GenWeights="true">skaalgauntlets</OutputFile>
+        <Shape target="SkaalGauntlets">SkaalGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="SkaalGauntletsArms" target="SkaalGauntlets" local="true">CT77SkaalGloves.osd\SkaalGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="SkaalGauntletsChubbyArms" target="SkaalGauntlets" local="true">CT77SkaalGloves.osd\SkaalGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="SkaalGauntletsShoulderWidth" target="SkaalGauntlets" local="true">CT77SkaalGloves.osd\SkaalGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SkaalGauntletsBigTorso" target="SkaalGauntlets" local="true">CT77SkaalGloves.osd\SkaalGauntletsBigTorso</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

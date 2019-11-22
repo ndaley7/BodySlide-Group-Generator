@@ -1,0 +1,72 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Dark Angel Vixen Long Gloves">
+        <DataFolder>Dark Angel Vixen Long Gloves</DataFolder>
+        <SourceFile>angdarkvixhandta.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">angdarkvixhandta</OutputFile>
+        <Shape target="Bracers">Bracers</Shape>
+        <Shape target="BracersAddon">BracersAddon</Shape>
+        <Shape target="FemaleHands" DataFolder="Angel Vixen Long Gloves">FemaleHands</Shape>
+        <Shape target="Gloves">Gloves</Shape>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="GlovesBreastFlatness" target="Gloves" local="true">angdarkvixhandta.osd\GlovesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="GlovesBreastGravity" target="Gloves" local="true">angdarkvixhandta.osd\GlovesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="GlovesPushUp" target="Gloves" local="true">angdarkvixhandta.osd\GlovesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="GlovesBreastHeight" target="Gloves" local="true">angdarkvixhandta.osd\GlovesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="GlovesBreastWidth" target="Gloves" local="true">angdarkvixhandta.osd\GlovesBreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BracersArms" target="Bracers" local="true">angdarkvixhandta.osd\BracersArms</Data>
+            <Data name="BracersAddonArms" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonArms</Data>
+            <Data name="GlovesArms" target="Gloves" local="true">angdarkvixhandta.osd\GlovesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BracersChubbyArms" target="Bracers" local="true">angdarkvixhandta.osd\BracersChubbyArms</Data>
+            <Data name="BracersAddonChubbyArms" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonChubbyArms</Data>
+            <Data name="GlovesChubbyArms" target="Gloves" local="true">angdarkvixhandta.osd\GlovesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BracersShoulderWidth" target="Bracers" local="true">angdarkvixhandta.osd\BracersShoulderWidth</Data>
+            <Data name="BracersAddonShoulderWidth" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonShoulderWidth</Data>
+            <Data name="GlovesShoulderWidth" target="Gloves" local="true">angdarkvixhandta.osd\GlovesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BracersBigTorso" target="Bracers" local="true">angdarkvixhandta.osd\BracersBigTorso</Data>
+            <Data name="BracersAddonBigTorso" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonBigTorso</Data>
+            <Data name="GlovesBigTorso" target="Gloves" local="true">angdarkvixhandta.osd\GlovesBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="GlovesWaist" target="Gloves" local="true">angdarkvixhandta.osd\GlovesWaist</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="FemaleHandsTummyTuck" target="FemaleHands" local="true">angdarkvixhandta.osd\FemaleHandsTummyTuck</Data>
+            <Data name="BracersTummyTuck" target="Bracers" local="true">angdarkvixhandta.osd\BracersTummyTuck</Data>
+            <Data name="BracersAddonTummyTuck" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonTummyTuck</Data>
+            <Data name="GlovesTummyTuck" target="Gloves" local="true">angdarkvixhandta.osd\GlovesTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BracersAddonBack" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonBack</Data>
+            <Data name="GlovesBack" target="Gloves" local="true">angdarkvixhandta.osd\GlovesBack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="FemaleHandsButt" target="FemaleHands" local="true">angdarkvixhandta.osd\FemaleHandsButt</Data>
+            <Data name="BracersButt" target="Bracers" local="true">angdarkvixhandta.osd\BracersButt</Data>
+            <Data name="BracersAddonButt" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonButt</Data>
+            <Data name="GlovesButt" target="Gloves" local="true">angdarkvixhandta.osd\GlovesButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FemaleHandsSmallSeam" target="FemaleHands" local="true">angdarkvixhandta.osd\FemaleHandsSmallSeam</Data>
+            <Data name="BracersSmallSeam" target="Bracers" local="true">angdarkvixhandta.osd\BracersSmallSeam</Data>
+            <Data name="BracersAddonSmallSeam" target="BracersAddon" local="true">angdarkvixhandta.osd\BracersAddonSmallSeam</Data>
+            <Data name="GlovesSmallSeam" target="Gloves" local="true">angdarkvixhandta.osd\GlovesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

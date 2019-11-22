@@ -1,0 +1,85 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Lumi Minotaur Gauntlets">
+        <DataFolder>Lumi Minotaur Gauntlets</DataFolder>
+        <SourceFile>Lumi Minotaur Gauntlets.nif</SourceFile>
+        <OutputPath>meshes\actors\character\Lumi\armor</OutputPath>
+        <OutputFile GenWeights="true">Gauntletsf2</OutputFile>
+        <Shape target="FemaleHands.00.00">FemaleHands.00.00</Shape>
+        <Shape target="SteelArmorHeavyFur.50">SteelArmorHeavyFur.50</Shape>
+        <Shape target="SteelBoots.001.00.00">SteelBoots.001.00.00</Shape>
+        <Shape target="SteelGauntlets.01">SteelGauntlets.01</Shape>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="SteelBoots.001.00.00BreastsFantasy" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00BreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="SteelArmorHeavyFur.50BreastFlatness" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50BreastFlatness</Data>
+            <Data name="SteelBoots.001.00.00BreastFlatness" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="SteelBoots.001.00.00BreastGravity" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="SteelBoots.001.00.00PushUp" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="SteelArmorHeavyFur.50BreastHeight" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50BreastHeight</Data>
+            <Data name="SteelBoots.001.00.00BreastHeight" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="SteelBoots.001.00.00BreastPerkiness" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="SteelArmorHeavyFur.50BreastWidth" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50BreastWidth</Data>
+            <Data name="SteelBoots.001.00.00BreastWidth" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00BreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="FemaleHands.00.00Arms" target="FemaleHands.00.00" local="true">Lumi Minotaur Gauntlets.osd\FemaleHands.00.00Arms</Data>
+            <Data name="SteelArmorHeavyFur.50Arms" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50Arms</Data>
+            <Data name="SteelBoots.001.00.00Arms" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00Arms</Data>
+            <Data name="SteelGauntlets.01Arms" target="SteelGauntlets.01" local="true">Lumi Minotaur Gauntlets.osd\SteelGauntlets.01Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="FemaleHands.00.00ChubbyArms" target="FemaleHands.00.00" local="true">Lumi Minotaur Gauntlets.osd\FemaleHands.00.00ChubbyArms</Data>
+            <Data name="SteelArmorHeavyFur.50ChubbyArms" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50ChubbyArms</Data>
+            <Data name="SteelBoots.001.00.00ChubbyArms" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00ChubbyArms</Data>
+            <Data name="SteelGauntlets.01ChubbyArms" target="SteelGauntlets.01" local="true">Lumi Minotaur Gauntlets.osd\SteelGauntlets.01ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="FemaleHands.00.00ShoulderWidth" target="FemaleHands.00.00" local="true">Lumi Minotaur Gauntlets.osd\FemaleHands.00.00ShoulderWidth</Data>
+            <Data name="SteelArmorHeavyFur.50ShoulderWidth" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50ShoulderWidth</Data>
+            <Data name="SteelBoots.001.00.00ShoulderWidth" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00ShoulderWidth</Data>
+            <Data name="SteelGauntlets.01ShoulderWidth" target="SteelGauntlets.01" local="true">Lumi Minotaur Gauntlets.osd\SteelGauntlets.01ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="FemaleHands.00.00BigTorso" target="FemaleHands.00.00" local="true">Lumi Minotaur Gauntlets.osd\FemaleHands.00.00BigTorso</Data>
+            <Data name="SteelArmorHeavyFur.50BigTorso" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50BigTorso</Data>
+            <Data name="SteelBoots.001.00.00BigTorso" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00BigTorso</Data>
+            <Data name="SteelGauntlets.01BigTorso" target="SteelGauntlets.01" local="true">Lumi Minotaur Gauntlets.osd\SteelGauntlets.01BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="SteelBoots.001.00.00Waist" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00Waist</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="FemaleHands.00.00TummyTuck" target="FemaleHands.00.00" local="true">Lumi Minotaur Gauntlets.osd\FemaleHands.00.00TummyTuck</Data>
+            <Data name="SteelArmorHeavyFur.50TummyTuck" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50TummyTuck</Data>
+            <Data name="SteelBoots.001.00.00TummyTuck" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00TummyTuck</Data>
+            <Data name="SteelGauntlets.01TummyTuck" target="SteelGauntlets.01" local="true">Lumi Minotaur Gauntlets.osd\SteelGauntlets.01TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="SteelArmorHeavyFur.50Back" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50Back</Data>
+            <Data name="SteelBoots.001.00.00Back" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00Back</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="FemaleHands.00.00Butt" target="FemaleHands.00.00" local="true">Lumi Minotaur Gauntlets.osd\FemaleHands.00.00Butt</Data>
+            <Data name="SteelArmorHeavyFur.50Butt" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50Butt</Data>
+            <Data name="SteelBoots.001.00.00Butt" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00Butt</Data>
+            <Data name="SteelGauntlets.01Butt" target="SteelGauntlets.01" local="true">Lumi Minotaur Gauntlets.osd\SteelGauntlets.01Butt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FemaleHands.00.00SmallSeam" target="FemaleHands.00.00" local="true">Lumi Minotaur Gauntlets.osd\FemaleHands.00.00SmallSeam</Data>
+            <Data name="SteelArmorHeavyFur.50SmallSeam" target="SteelArmorHeavyFur.50" local="true">Lumi Minotaur Gauntlets.osd\SteelArmorHeavyFur.50SmallSeam</Data>
+            <Data name="SteelBoots.001.00.00SmallSeam" target="SteelBoots.001.00.00" local="true">Lumi Minotaur Gauntlets.osd\SteelBoots.001.00.00SmallSeam</Data>
+            <Data name="SteelGauntlets.01SmallSeam" target="SteelGauntlets.01" local="true">Lumi Minotaur Gauntlets.osd\SteelGauntlets.01SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

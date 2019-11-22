@@ -1,0 +1,110 @@
+<SliderSetInfo version="1">
+    <SliderSet name="BBPiercing01 cbbe+">
+        <DataFolder>Heretical Resources\BBPiercing01 cbbe+</DataFolder>
+        <SourceFile>BBPiercing01.nif</SourceFile>
+        <OutputPath>Meshes\HereticalResources\HR Armor\BreastBondage</OutputPath>
+        <OutputFile GenWeights="true">BBPiercing01</OutputFile>
+        <Shape target="RingLeft 1">RingLeft 1</Shape>
+        <Shape target="RingRight 1">RingRight 1</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="RingRight 1Breasts" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1Breasts</Data>
+            <Data name="RingLeft 1Breasts" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="RingRight 1BreastsSmall" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastsSmall</Data>
+            <Data name="RingLeft 1BreastsSmall" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastsSH" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastsSH</Data>
+            <Data name="RingLeft 1BreastsSH" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastsSSH" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastsSSH</Data>
+            <Data name="RingLeft 1BreastsSSH" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastsFantasy" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastsFantasy</Data>
+            <Data name="RingLeft 1BreastsFantasy" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="RingRight 1DoubleMelon" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1DoubleMelon</Data>
+            <Data name="RingLeft 1DoubleMelon" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastCleavage" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastCleavage</Data>
+            <Data name="RingLeft 1BreastCleavage" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastFlatness" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastFlatness</Data>
+            <Data name="RingLeft 1BreastFlatness" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastGravity" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastGravity</Data>
+            <Data name="RingLeft 1BreastGravity" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="RingRight 1PushUp" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1PushUp</Data>
+            <Data name="RingLeft 1PushUp" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastHeight" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastHeight</Data>
+            <Data name="RingLeft 1BreastHeight" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastPerkiness" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastPerkiness</Data>
+            <Data name="RingLeft 1BreastPerkiness" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="RingRight 1BreastWidth" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BreastWidth</Data>
+            <Data name="RingLeft 1BreastWidth" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="RingRight 1NippleDistance" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleDistance</Data>
+            <Data name="RingLeft 1NippleDistance" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="RingRight 1NipplePerkiness" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NipplePerkiness</Data>
+            <Data name="RingLeft 1NipplePerkiness" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="RingRight 1NippleLength" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleLength</Data>
+            <Data name="RingLeft 1NippleLength" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="RingRight 1NippleSize" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleSize</Data>
+            <Data name="RingLeft 1NippleSize" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="RingRight 1NippleAreola" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleAreola</Data>
+            <Data name="RingLeft 1NippleAreola" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="RingRight 1NippleUp" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleUp</Data>
+            <Data name="RingLeft 1NippleUp" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="RingRight 1NippleDown" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleDown</Data>
+            <Data name="RingLeft 1NippleDown" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="RingRight 1NippleTip" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleTip</Data>
+            <Data name="RingLeft 1NippleTip" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleTip</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="RingRight 1BigTorso" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1BigTorso</Data>
+            <Data name="RingLeft 1BigTorso" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1BigTorso</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="RingRight 1PregnancyBelly" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1PregnancyBelly</Data>
+            <Data name="RingLeft 1PregnancyBelly" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="NippleDefinition" invert="false" small="0" big="0">
+            <Data name="RingRight 1NippleDefinition" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NippleDefinition</Data>
+            <Data name="RingLeft 1NippleDefinition" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NippleDefinition</Data>
+        </Slider>
+        <Slider name="NipplePuffiness" invert="false" small="0" big="0">
+            <Data name="RingRight 1NipplePuffiness" target="RingRight 1" local="true">BBPiercing01.osd\RingRight 1NipplePuffiness</Data>
+            <Data name="RingLeft 1NipplePuffiness" target="RingLeft 1" local="true">BBPiercing01.osd\RingLeft 1NipplePuffiness</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

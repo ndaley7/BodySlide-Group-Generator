@@ -1,0 +1,379 @@
+<SliderSetInfo>
+    <SliderSet name="bondage b white &amp; gold">
+        <SetFolder>bondage b white &amp; gold</SetFolder>
+        <SourceFile>bondage b white &amp; gold.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Bondage</OutputPath>
+        <OutputFile>bondage b white &amp; gold</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Tri beruto.004 0">Tri beruto.004 0</BaseShapeName>
+        <BaseShapeName target="beruto.007">beruto.007</BaseShapeName>
+        <BaseShapeName target="beruto.008">beruto.008</BaseShapeName>
+        <BaseShapeName target="beruto.009">beruto.009</BaseShapeName>
+        <BaseShapeName target="beruto.010 1">beruto.010 1</BaseShapeName>
+        <BaseShapeName target="femalefeet_1">femalefeet_1</BaseShapeName>
+        <BaseShapeName target="houtai.001">houtai.001</BaseShapeName>
+        <BaseShapeName target="kanagu.00">kanagu.00</BaseShapeName>
+        <BaseShapeName target="kanagu.005">kanagu.005</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="beruto.010 1Breasts" target="beruto.010 1" local="true">beruto.010 1Breasts.bsd</datafile>
+            <datafile name="kanagu.00Breasts" target="kanagu.00" local="true">kanagu.00Breasts.bsd</datafile>
+            <datafile name="Tri beruto.004 0Breasts" target="Tri beruto.004 0" local="true">Tri beruto.004 0Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="beruto.010 1BreastsSmall" target="beruto.010 1" local="true">beruto.010 1BreastsSmall.bsd</datafile>
+            <datafile name="kanagu.00BreastsSmall" target="kanagu.00" local="true">kanagu.00BreastsSmall.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastsSmall" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastsSmall.bsd</datafile>
+            <datafile name="beruto.008BreastsSmall" target="beruto.008" local="true">beruto.008BreastsSmall.bsd</datafile>
+            <datafile name="beruto.009BreastsSmall" target="beruto.009" local="true">beruto.009BreastsSmall.bsd</datafile>
+            <datafile name="kanagu.005BreastsSmall" target="kanagu.005" local="true">kanagu.005BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="beruto.010 1BreastsSH" target="beruto.010 1" local="true">beruto.010 1BreastsSH.bsd</datafile>
+            <datafile name="kanagu.00BreastsSH" target="kanagu.00" local="true">kanagu.00BreastsSH.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastsSH" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="beruto.010 1BreastsSSH" target="beruto.010 1" local="true">beruto.010 1BreastsSSH.bsd</datafile>
+            <datafile name="kanagu.00BreastsSSH" target="kanagu.00" local="true">kanagu.00BreastsSSH.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastsSSH" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="beruto.010 1BreastsFantasy" target="beruto.010 1" local="true">beruto.010 1BreastsFantasy.bsd</datafile>
+            <datafile name="kanagu.00BreastsFantasy" target="kanagu.00" local="true">kanagu.00BreastsFantasy.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastsFantasy" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="beruto.010 1DoubleMelon" target="beruto.010 1" local="true">beruto.010 1DoubleMelon.bsd</datafile>
+            <datafile name="kanagu.00DoubleMelon" target="kanagu.00" local="true">kanagu.00DoubleMelon.bsd</datafile>
+            <datafile name="Tri beruto.004 0DoubleMelon" target="Tri beruto.004 0" local="true">Tri beruto.004 0DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="beruto.010 1BreastCleavage" target="beruto.010 1" local="true">beruto.010 1BreastCleavage.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastCleavage" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="beruto.010 1BreastFlatness" target="beruto.010 1" local="true">beruto.010 1BreastFlatness.bsd</datafile>
+            <datafile name="kanagu.00BreastFlatness" target="kanagu.00" local="true">kanagu.00BreastFlatness.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastFlatness" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="beruto.010 1BreastGravity" target="beruto.010 1" local="true">beruto.010 1BreastGravity.bsd</datafile>
+            <datafile name="kanagu.00BreastGravity" target="kanagu.00" local="true">kanagu.00BreastGravity.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastGravity" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="beruto.010 1PushUp" target="beruto.010 1" local="true">beruto.010 1PushUp.bsd</datafile>
+            <datafile name="kanagu.00PushUp" target="kanagu.00" local="true">kanagu.00PushUp.bsd</datafile>
+            <datafile name="Tri beruto.004 0PushUp" target="Tri beruto.004 0" local="true">Tri beruto.004 0PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="beruto.010 1BreastHeight" target="beruto.010 1" local="true">beruto.010 1BreastHeight.bsd</datafile>
+            <datafile name="kanagu.00BreastHeight" target="kanagu.00" local="true">kanagu.00BreastHeight.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastHeight" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastHeight.bsd</datafile>
+            <datafile name="beruto.008BreastHeight" target="beruto.008" local="true">beruto.008BreastHeight.bsd</datafile>
+            <datafile name="beruto.009BreastHeight" target="beruto.009" local="true">beruto.009BreastHeight.bsd</datafile>
+            <datafile name="kanagu.005BreastHeight" target="kanagu.005" local="true">kanagu.005BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="beruto.010 1BreastPerkiness" target="beruto.010 1" local="true">beruto.010 1BreastPerkiness.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastPerkiness" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="beruto.010 1BreastWidth" target="beruto.010 1" local="true">beruto.010 1BreastWidth.bsd</datafile>
+            <datafile name="kanagu.00BreastWidth" target="kanagu.00" local="true">kanagu.00BreastWidth.bsd</datafile>
+            <datafile name="Tri beruto.004 0BreastWidth" target="Tri beruto.004 0" local="true">Tri beruto.004 0BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="beruto.010 1NippleDistance" target="beruto.010 1" local="true">beruto.010 1NippleDistance.bsd</datafile>
+            <datafile name="Tri beruto.004 0NippleDistance" target="Tri beruto.004 0" local="true">Tri beruto.004 0NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="beruto.010 1NipplePerkiness" target="beruto.010 1" local="true">beruto.010 1NipplePerkiness.bsd</datafile>
+            <datafile name="Tri beruto.004 0NipplePerkiness" target="Tri beruto.004 0" local="true">Tri beruto.004 0NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="beruto.010 1NippleLength" target="beruto.010 1" local="true">beruto.010 1NippleLength.bsd</datafile>
+            <datafile name="kanagu.00NippleLength" target="kanagu.00" local="true">kanagu.00NippleLength.bsd</datafile>
+            <datafile name="Tri beruto.004 0NippleLength" target="Tri beruto.004 0" local="true">Tri beruto.004 0NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="beruto.010 1NippleSize" target="beruto.010 1" local="true">beruto.010 1NippleSize.bsd</datafile>
+            <datafile name="Tri beruto.004 0NippleSize" target="Tri beruto.004 0" local="true">Tri beruto.004 0NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="beruto.010 1NippleAreola" target="beruto.010 1" local="true">beruto.010 1NippleAreola.bsd</datafile>
+            <datafile name="Tri beruto.004 0NippleAreola" target="Tri beruto.004 0" local="true">Tri beruto.004 0NippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="beruto.010 1NippleUp" target="beruto.010 1" local="true">beruto.010 1NippleUp.bsd</datafile>
+            <datafile name="Tri beruto.004 0NippleUp" target="Tri beruto.004 0" local="true">Tri beruto.004 0NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="beruto.010 1NippleDown" target="beruto.010 1" local="true">beruto.010 1NippleDown.bsd</datafile>
+            <datafile name="Tri beruto.004 0NippleDown" target="Tri beruto.004 0" local="true">Tri beruto.004 0NippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="beruto.010 1NippleTip" target="beruto.010 1" local="true">beruto.010 1NippleTip.bsd</datafile>
+            <datafile name="Tri beruto.004 0NippleTip" target="Tri beruto.004 0" local="true">Tri beruto.004 0NippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="kanagu.00Arms" target="kanagu.00" local="true">kanagu.00Arms.bsd</datafile>
+            <datafile name="Tri beruto.004 0Arms" target="Tri beruto.004 0" local="true">Tri beruto.004 0Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="Tri beruto.004 0ChubbyArms" target="Tri beruto.004 0" local="true">Tri beruto.004 0ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="kanagu.00ShoulderSmooth" target="kanagu.00" local="true">kanagu.00ShoulderSmooth.bsd</datafile>
+            <datafile name="Tri beruto.004 0ShoulderSmooth" target="Tri beruto.004 0" local="true">Tri beruto.004 0ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="Tri beruto.004 0ShoulderWidth" target="Tri beruto.004 0" local="true">Tri beruto.004 0ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="beruto.010 1BigTorso" target="beruto.010 1" local="true">beruto.010 1BigTorso.bsd</datafile>
+            <datafile name="kanagu.00BigTorso" target="kanagu.00" local="true">kanagu.00BigTorso.bsd</datafile>
+            <datafile name="Tri beruto.004 0BigTorso" target="Tri beruto.004 0" local="true">Tri beruto.004 0BigTorso.bsd</datafile>
+            <datafile name="beruto.008BigTorso" target="beruto.008" local="true">beruto.008BigTorso.bsd</datafile>
+            <datafile name="beruto.009BigTorso" target="beruto.009" local="true">beruto.009BigTorso.bsd</datafile>
+            <datafile name="kanagu.005BigTorso" target="kanagu.005" local="true">kanagu.005BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="Tri beruto.004 0Waist" target="Tri beruto.004 0" local="true">Tri beruto.004 0Waist.bsd</datafile>
+            <datafile name="beruto.008Waist" target="beruto.008" local="true">beruto.008Waist.bsd</datafile>
+            <datafile name="beruto.009Waist" target="beruto.009" local="true">beruto.009Waist.bsd</datafile>
+            <datafile name="kanagu.005Waist" target="kanagu.005" local="true">kanagu.005Waist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="Tri beruto.004 0WideWaistLine" target="Tri beruto.004 0" local="true">Tri beruto.004 0WideWaistLine.bsd</datafile>
+            <datafile name="beruto.008WideWaistLine" target="beruto.008" local="true">beruto.008WideWaistLine.bsd</datafile>
+            <datafile name="beruto.009WideWaistLine" target="beruto.009" local="true">beruto.009WideWaistLine.bsd</datafile>
+            <datafile name="kanagu.005WideWaistLine" target="kanagu.005" local="true">kanagu.005WideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="Tri beruto.004 0ChubbyWaist" target="Tri beruto.004 0" local="true">Tri beruto.004 0ChubbyWaist.bsd</datafile>
+            <datafile name="beruto.008ChubbyWaist" target="beruto.008" local="true">beruto.008ChubbyWaist.bsd</datafile>
+            <datafile name="beruto.009ChubbyWaist" target="beruto.009" local="true">beruto.009ChubbyWaist.bsd</datafile>
+            <datafile name="kanagu.005ChubbyWaist" target="kanagu.005" local="true">kanagu.005ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="beruto.008Belly" target="beruto.008" local="true">beruto.008Belly.bsd</datafile>
+            <datafile name="beruto.009Belly" target="beruto.009" local="true">beruto.009Belly.bsd</datafile>
+            <datafile name="kanagu.005Belly" target="kanagu.005" local="true">kanagu.005Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="beruto.010 1BigBelly" target="beruto.010 1" local="true">beruto.010 1BigBelly.bsd</datafile>
+            <datafile name="Tri beruto.004 0BigBelly" target="Tri beruto.004 0" local="true">Tri beruto.004 0BigBelly.bsd</datafile>
+            <datafile name="beruto.008BigBelly" target="beruto.008" local="true">beruto.008BigBelly.bsd</datafile>
+            <datafile name="beruto.009BigBelly" target="beruto.009" local="true">beruto.009BigBelly.bsd</datafile>
+            <datafile name="kanagu.005BigBelly" target="kanagu.005" local="true">kanagu.005BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="beruto.010 1PregnancyBelly" target="beruto.010 1" local="true">beruto.010 1PregnancyBelly.bsd</datafile>
+            <datafile name="kanagu.00PregnancyBelly" target="kanagu.00" local="true">kanagu.00PregnancyBelly.bsd</datafile>
+            <datafile name="Tri beruto.004 0PregnancyBelly" target="Tri beruto.004 0" local="true">Tri beruto.004 0PregnancyBelly.bsd</datafile>
+            <datafile name="beruto.008PregnancyBelly" target="beruto.008" local="true">beruto.008PregnancyBelly.bsd</datafile>
+            <datafile name="beruto.007PregnancyBelly" target="beruto.007" local="true">beruto.007PregnancyBelly.bsd</datafile>
+            <datafile name="beruto.009PregnancyBelly" target="beruto.009" local="true">beruto.009PregnancyBelly.bsd</datafile>
+            <datafile name="kanagu.005PregnancyBelly" target="kanagu.005" local="true">kanagu.005PregnancyBelly.bsd</datafile>
+            <datafile name="houtai.001PregnancyBelly" target="houtai.001" local="true">houtai.001PregnancyBelly.bsd</datafile>
+            <datafile name="femalefeet_1PregnancyBelly" target="femalefeet_1" local="true">femalefeet_1PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="beruto.008TummyTuck" target="beruto.008" local="true">beruto.008TummyTuck.bsd</datafile>
+            <datafile name="beruto.009TummyTuck" target="beruto.009" local="true">beruto.009TummyTuck.bsd</datafile>
+            <datafile name="kanagu.005TummyTuck" target="kanagu.005" local="true">kanagu.005TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="Tri beruto.004 0Back" target="Tri beruto.004 0" local="true">Tri beruto.004 0Back.bsd</datafile>
+            <datafile name="beruto.008Back" target="beruto.008" local="true">beruto.008Back.bsd</datafile>
+            <datafile name="beruto.009Back" target="beruto.009" local="true">beruto.009Back.bsd</datafile>
+            <datafile name="kanagu.005Back" target="kanagu.005" local="true">kanagu.005Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="beruto.008Hipbone" target="beruto.008" local="true">beruto.008Hipbone.bsd</datafile>
+            <datafile name="beruto.009Hipbone" target="beruto.009" local="true">beruto.009Hipbone.bsd</datafile>
+            <datafile name="kanagu.005Hipbone" target="kanagu.005" local="true">kanagu.005Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="Tri beruto.004 0Hips" target="Tri beruto.004 0" local="true">Tri beruto.004 0Hips.bsd</datafile>
+            <datafile name="beruto.008Hips" target="beruto.008" local="true">beruto.008Hips.bsd</datafile>
+            <datafile name="beruto.009Hips" target="beruto.009" local="true">beruto.009Hips.bsd</datafile>
+            <datafile name="kanagu.005Hips" target="kanagu.005" local="true">kanagu.005Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="beruto.008ButtCrack" target="beruto.008" local="true">beruto.008ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="Tri beruto.004 0Butt" target="Tri beruto.004 0" local="true">Tri beruto.004 0Butt.bsd</datafile>
+            <datafile name="beruto.008Butt" target="beruto.008" local="true">beruto.008Butt.bsd</datafile>
+            <datafile name="beruto.009Butt" target="beruto.009" local="true">beruto.009Butt.bsd</datafile>
+            <datafile name="kanagu.005Butt" target="kanagu.005" local="true">kanagu.005Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="beruto.008ButtSmall" target="beruto.008" local="true">beruto.008ButtSmall.bsd</datafile>
+            <datafile name="beruto.009ButtSmall" target="beruto.009" local="true">beruto.009ButtSmall.bsd</datafile>
+            <datafile name="kanagu.005ButtSmall" target="kanagu.005" local="true">kanagu.005ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="Tri beruto.004 0ButtShape2" target="Tri beruto.004 0" local="true">Tri beruto.004 0ButtShape2.bsd</datafile>
+            <datafile name="beruto.008ButtShape2" target="beruto.008" local="true">beruto.008ButtShape2.bsd</datafile>
+            <datafile name="beruto.009ButtShape2" target="beruto.009" local="true">beruto.009ButtShape2.bsd</datafile>
+            <datafile name="kanagu.005ButtShape2" target="kanagu.005" local="true">kanagu.005ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="Tri beruto.004 0BigButt" target="Tri beruto.004 0" local="true">Tri beruto.004 0BigButt.bsd</datafile>
+            <datafile name="beruto.008BigButt" target="beruto.008" local="true">beruto.008BigButt.bsd</datafile>
+            <datafile name="beruto.009BigButt" target="beruto.009" local="true">beruto.009BigButt.bsd</datafile>
+            <datafile name="kanagu.005BigButt" target="kanagu.005" local="true">kanagu.005BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="Tri beruto.004 0ChubbyButt" target="Tri beruto.004 0" local="true">Tri beruto.004 0ChubbyButt.bsd</datafile>
+            <datafile name="beruto.008ChubbyButt" target="beruto.008" local="true">beruto.008ChubbyButt.bsd</datafile>
+            <datafile name="beruto.009ChubbyButt" target="beruto.009" local="true">beruto.009ChubbyButt.bsd</datafile>
+            <datafile name="kanagu.005ChubbyButt" target="kanagu.005" local="true">kanagu.005ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="Tri beruto.004 0AppleCheeks" target="Tri beruto.004 0" local="true">Tri beruto.004 0AppleCheeks.bsd</datafile>
+            <datafile name="beruto.008AppleCheeks" target="beruto.008" local="true">beruto.008AppleCheeks.bsd</datafile>
+            <datafile name="kanagu.005AppleCheeks" target="kanagu.005" local="true">kanagu.005AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="beruto.008RoundAss" target="beruto.008" local="true">beruto.008RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="beruto.008Groin" target="beruto.008" local="true">beruto.008Groin.bsd</datafile>
+            <datafile name="beruto.009Groin" target="beruto.009" local="true">beruto.009Groin.bsd</datafile>
+            <datafile name="kanagu.005Groin" target="kanagu.005" local="true">kanagu.005Groin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="Tri beruto.004 0SlimThighs" target="Tri beruto.004 0" local="true">Tri beruto.004 0SlimThighs.bsd</datafile>
+            <datafile name="beruto.008SlimThighs" target="beruto.008" local="true">beruto.008SlimThighs.bsd</datafile>
+            <datafile name="beruto.009SlimThighs" target="beruto.009" local="true">beruto.009SlimThighs.bsd</datafile>
+            <datafile name="kanagu.005SlimThighs" target="kanagu.005" local="true">kanagu.005SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="beruto.008Thighs" target="beruto.008" local="true">beruto.008Thighs.bsd</datafile>
+            <datafile name="beruto.009Thighs" target="beruto.009" local="true">beruto.009Thighs.bsd</datafile>
+            <datafile name="kanagu.005Thighs" target="kanagu.005" local="true">kanagu.005Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="beruto.008ChubbyLegs" target="beruto.008" local="true">beruto.008ChubbyLegs.bsd</datafile>
+            <datafile name="beruto.007ChubbyLegs" target="beruto.007" local="true">beruto.007ChubbyLegs.bsd</datafile>
+            <datafile name="beruto.009ChubbyLegs" target="beruto.009" local="true">beruto.009ChubbyLegs.bsd</datafile>
+            <datafile name="kanagu.005ChubbyLegs" target="kanagu.005" local="true">kanagu.005ChubbyLegs.bsd</datafile>
+            <datafile name="houtai.001ChubbyLegs" target="houtai.001" local="true">houtai.001ChubbyLegs.bsd</datafile>
+            <datafile name="femalefeet_1ChubbyLegs" target="femalefeet_1" local="true">femalefeet_1ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="beruto.008Legs" target="beruto.008" local="true">beruto.008Legs.bsd</datafile>
+            <datafile name="beruto.007Legs" target="beruto.007" local="true">beruto.007Legs.bsd</datafile>
+            <datafile name="beruto.009Legs" target="beruto.009" local="true">beruto.009Legs.bsd</datafile>
+            <datafile name="kanagu.005Legs" target="kanagu.005" local="true">kanagu.005Legs.bsd</datafile>
+            <datafile name="houtai.001Legs" target="houtai.001" local="true">houtai.001Legs.bsd</datafile>
+            <datafile name="femalefeet_1Legs" target="femalefeet_1" local="true">femalefeet_1Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="beruto.008KneeHeight" target="beruto.008" local="true">beruto.008KneeHeight.bsd</datafile>
+            <datafile name="beruto.007KneeHeight" target="beruto.007" local="true">beruto.007KneeHeight.bsd</datafile>
+            <datafile name="beruto.009KneeHeight" target="beruto.009" local="true">beruto.009KneeHeight.bsd</datafile>
+            <datafile name="kanagu.005KneeHeight" target="kanagu.005" local="true">kanagu.005KneeHeight.bsd</datafile>
+            <datafile name="houtai.001KneeHeight" target="houtai.001" local="true">houtai.001KneeHeight.bsd</datafile>
+            <datafile name="femalefeet_1KneeHeight" target="femalefeet_1" local="true">femalefeet_1KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="beruto.008CalfSize" target="beruto.008" local="true">beruto.008CalfSize.bsd</datafile>
+            <datafile name="beruto.007CalfSize" target="beruto.007" local="true">beruto.007CalfSize.bsd</datafile>
+            <datafile name="kanagu.005CalfSize" target="kanagu.005" local="true">kanagu.005CalfSize.bsd</datafile>
+            <datafile name="houtai.001CalfSize" target="houtai.001" local="true">houtai.001CalfSize.bsd</datafile>
+            <datafile name="femalefeet_1CalfSize" target="femalefeet_1" local="true">femalefeet_1CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="beruto.008CalfSmooth" target="beruto.008" local="true">beruto.008CalfSmooth.bsd</datafile>
+            <datafile name="beruto.007CalfSmooth" target="beruto.007" local="true">beruto.007CalfSmooth.bsd</datafile>
+            <datafile name="kanagu.005CalfSmooth" target="kanagu.005" local="true">kanagu.005CalfSmooth.bsd</datafile>
+            <datafile name="houtai.001CalfSmooth" target="houtai.001" local="true">houtai.001CalfSmooth.bsd</datafile>
+            <datafile name="femalefeet_1CalfSmooth" target="femalefeet_1" local="true">femalefeet_1CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="beruto.008Ankles" target="beruto.008" local="true">beruto.008Ankles.bsd</datafile>
+            <datafile name="beruto.007Ankles" target="beruto.007" local="true">beruto.007Ankles.bsd</datafile>
+            <datafile name="kanagu.005Ankles" target="kanagu.005" local="true">kanagu.005Ankles.bsd</datafile>
+            <datafile name="houtai.001Ankles" target="houtai.001" local="true">houtai.001Ankles.bsd</datafile>
+            <datafile name="femalefeet_1Ankles" target="femalefeet_1" local="true">femalefeet_1Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="kanagu.00SmallSeam" target="kanagu.00" local="true">kanagu.00SmallSeam.bsd</datafile>
+            <datafile name="Tri beruto.004 0SmallSeam" target="Tri beruto.004 0" local="true">Tri beruto.004 0SmallSeam.bsd</datafile>
+            <datafile name="beruto.008SmallSeam" target="beruto.008" local="true">beruto.008SmallSeam.bsd</datafile>
+            <datafile name="beruto.007SmallSeam" target="beruto.007" local="true">beruto.007SmallSeam.bsd</datafile>
+            <datafile name="kanagu.005SmallSeam" target="kanagu.005" local="true">kanagu.005SmallSeam.bsd</datafile>
+            <datafile name="houtai.001SmallSeam" target="houtai.001" local="true">houtai.001SmallSeam.bsd</datafile>
+            <datafile name="femalefeet_1SmallSeam" target="femalefeet_1" local="true">femalefeet_1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="Tri beruto.004 0ShoulderTweak" target="Tri beruto.004 0" local="true">Tri beruto.004 0ShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

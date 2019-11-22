@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Falmer Heavy">
+        <DataFolder>CT77FalmerHeavy</DataFolder>
+        <SourceFile>CT77FalmerHeavy.nif</SourceFile>
+        <OutputPath>meshes\dlc01\armor\falmerheavy</OutputPath>
+        <OutputFile GenWeights="true">falmerheavycuirassf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="FHBelt">FHBelt</Shape>
+        <Shape target="FHChest">FHChest</Shape>
+        <Shape target="FHLegArmor">FHLegArmor</Shape>
+        <Shape target="FHSkirt">FHSkirt</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="FHChestBreasts" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="FHBeltBreastsSmall" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltBreastsSmall</Data>
+            <Data name="FHChestBreastsSmall" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="FHChestBreastsSH" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="FHChestBreastsSSH" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="FHChestBreastsFantasy" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="FHChestDoubleMelon" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="FHChestBreastCleavage" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="FHChestBreastFlatness" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="FHChestBreastGravity" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="FHChestPushUp" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="FHBeltBreastHeight" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltBreastHeight</Data>
+            <Data name="FHChestBreastHeight" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="FHChestBreastPerkiness" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="FHChestBreastWidth" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="FHChestNippleDistance" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="FHChestNipplePerkiness" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="FHChestNippleLength" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="FHChestNippleSize" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="FHChestNippleAreola" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="FHChestNippleUp" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="FHChestNippleDown" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="FHChestNippleTip" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="FHChestArms" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="FHChestChubbyArms" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="FHChestShoulderSmooth" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="FHChestShoulderWidth" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="FHBeltBigTorso" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltBigTorso</Data>
+            <Data name="FHChestBigTorso" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBigTorso</Data>
+            <Data name="FHSkirtBigTorso" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="FHBeltWaist" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltWaist</Data>
+            <Data name="FHChestWaist" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestWaist</Data>
+            <Data name="FHSkirtWaist" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="FHBeltWideWaistLine" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltWideWaistLine</Data>
+            <Data name="FHChestWideWaistLine" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="FHBeltChubbyWaist" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltChubbyWaist</Data>
+            <Data name="FHChestChubbyWaist" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestChubbyWaist</Data>
+            <Data name="FHSkirtChubbyWaist" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="FHBeltBelly" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltBelly</Data>
+            <Data name="FHChestBelly" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="FHBeltBigBelly" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltBigBelly</Data>
+            <Data name="FHChestBigBelly" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="FHBeltTummyTuck" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltTummyTuck</Data>
+            <Data name="FHChestTummyTuck" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="FHBeltBack" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltBack</Data>
+            <Data name="FHChestBack" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBack</Data>
+            <Data name="FHSkirtBack" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="FHBeltHipbone" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltHipbone</Data>
+            <Data name="FHChestHipbone" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestHipbone</Data>
+            <Data name="FHLegArmorHipbone" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorHipbone</Data>
+            <Data name="FHSkirtHipbone" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="FHBeltHips" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltHips</Data>
+            <Data name="FHChestHips" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestHips</Data>
+            <Data name="FHLegArmorHips" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorHips</Data>
+            <Data name="FHSkirtHips" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="FHBeltButt" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltButt</Data>
+            <Data name="FHChestButt" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestButt</Data>
+            <Data name="FHLegArmorButt" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorButt</Data>
+            <Data name="FHSkirtButt" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="FHBeltButtSmall" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltButtSmall</Data>
+            <Data name="FHChestButtSmall" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestButtSmall</Data>
+            <Data name="FHLegArmorButtSmall" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorButtSmall</Data>
+            <Data name="FHSkirtButtSmall" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="FHBeltButtShape2" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltButtShape2</Data>
+            <Data name="FHChestButtShape2" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestButtShape2</Data>
+            <Data name="FHLegArmorButtShape2" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorButtShape2</Data>
+            <Data name="FHSkirtButtShape2" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="FHBeltBigButt" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltBigButt</Data>
+            <Data name="FHChestBigButt" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestBigButt</Data>
+            <Data name="FHLegArmorBigButt" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorBigButt</Data>
+            <Data name="FHSkirtBigButt" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="FHBeltChubbyButt" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltChubbyButt</Data>
+            <Data name="FHChestChubbyButt" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestChubbyButt</Data>
+            <Data name="FHLegArmorChubbyButt" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorChubbyButt</Data>
+            <Data name="FHSkirtChubbyButt" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="FHBeltAppleCheeks" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltAppleCheeks</Data>
+            <Data name="FHChestAppleCheeks" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestAppleCheeks</Data>
+            <Data name="FHLegArmorAppleCheeks" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorAppleCheeks</Data>
+            <Data name="FHSkirtAppleCheeks" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="FHBeltRoundAss" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltRoundAss</Data>
+            <Data name="FHSkirtRoundAss" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="FHBeltSlimThighs" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltSlimThighs</Data>
+            <Data name="FHChestSlimThighs" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestSlimThighs</Data>
+            <Data name="FHLegArmorSlimThighs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorSlimThighs</Data>
+            <Data name="FHSkirtSlimThighs" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="FHLegArmorThighs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorThighs</Data>
+            <Data name="FHSkirtThighs" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="FHLegArmorChubbyLegs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorChubbyLegs</Data>
+            <Data name="FHSkirtChubbyLegs" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="FHBeltLegs" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltLegs</Data>
+            <Data name="FHLegArmorLegs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorLegs</Data>
+            <Data name="FHSkirtLegs" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="FHBeltKneeHeight" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltKneeHeight</Data>
+            <Data name="FHLegArmorKneeHeight" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="FHLegArmorCalfSize" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="FHLegArmorCalfSmooth" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="FHLegArmorAnkles" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="FHChestSmallSeam" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestSmallSeam</Data>
+            <Data name="FHLegArmorSmallSeam" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="FHChestShoulderTweak" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="FHChestZapChest" target="FHChest" local="true">CT77FalmerHeavy.osd\FHChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="FHBeltZapBelt" target="FHBelt" local="true">CT77FalmerHeavy.osd\FHBeltZapBelt</Data>
+            <Data name="FHSkirtZapBelt" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="FHSkirtZapSkirt" target="FHSkirt" local="true">CT77FalmerHeavy.osd\FHSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLegArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="FHLegArmorZapLegArmor" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Falmer Heavy Gauntlets">
+        <DataFolder>CT77FalmerHeavy</DataFolder>
+        <SourceFile>CT77FalmerHeavyGauntlets.nif</SourceFile>
+        <OutputPath>meshes\dlc01\armor\falmerheavy</OutputPath>
+        <OutputFile GenWeights="true">falmerheavygauntletsf</OutputFile>
+        <Shape target="FHGauntlets">FHGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="FHGauntletsArms" target="FHGauntlets" local="true">CT77FalmerHeavyGauntlets.osd\FHGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="FHGauntletsChubbyArms" target="FHGauntlets" local="true">CT77FalmerHeavyGauntlets.osd\FHGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="FHGauntletsShoulderWidth" target="FHGauntlets" local="true">CT77FalmerHeavyGauntlets.osd\FHGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="FHGauntletsBigTorso" target="FHGauntlets" local="true">CT77FalmerHeavyGauntlets.osd\FHGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FHGauntletsSmallSeam" target="FHGauntlets" local="true">CT77FalmerHeavyGauntlets.osd\FHGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Falmer Heavy Boots">
+        <DataFolder>CT77FalmerHeavy</DataFolder>
+        <SourceFile>CT77FalmerHeavyBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc01\armor\falmerheavy</OutputPath>
+        <OutputFile GenWeights="true">falmerheavybootsf</OutputFile>
+        <Shape target="FHBoots">FHBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="FHBootsChubbyLegs" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="FHBootsLegs" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="FHBootsKneeHeight" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="FHBootsCalfSize" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="FHBootsCalfSmooth" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FHBootsAnkles" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FHBootsSmallSeam" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Falmer Heavy Thigh Boots">
+        <DataFolder>CT77FalmerHeavy</DataFolder>
+        <SourceFile>CT77FalmerHeavyThighBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc01\armor\falmerheavy</OutputPath>
+        <OutputFile GenWeights="true">CT77falmerheavythighbootsf</OutputFile>
+        <Shape target="FHBoots">FHBoots</Shape>
+        <Shape target="FHLegArmor">FHLegArmor</Shape>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="FHLegArmorHipbone" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="FHLegArmorHips" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="FHLegArmorButt" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="FHLegArmorButtSmall" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="FHLegArmorButtShape2" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="FHLegArmorBigButt" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="FHLegArmorChubbyButt" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="FHLegArmorAppleCheeks" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorAppleCheeks</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="FHLegArmorSlimThighs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="FHLegArmorThighs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="FHBootsChubbyLegs" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsChubbyLegs</Data>
+            <Data name="FHLegArmorChubbyLegs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="FHBootsLegs" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsLegs</Data>
+            <Data name="FHLegArmorLegs" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="FHBootsKneeHeight" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsKneeHeight</Data>
+            <Data name="FHLegArmorKneeHeight" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="FHBootsCalfSize" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsCalfSize</Data>
+            <Data name="FHLegArmorCalfSize" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="FHBootsCalfSmooth" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsCalfSmooth</Data>
+            <Data name="FHLegArmorCalfSmooth" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FHBootsAnkles" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsAnkles</Data>
+            <Data name="FHLegArmorAnkles" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FHBootsSmallSeam" target="FHBoots" local="true">CT77FalmerBoots.osd\FHBootsSmallSeam</Data>
+            <Data name="FHLegArmorSmallSeam" target="FHLegArmor" local="true">CT77FalmerHeavy.osd\FHLegArmorSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
