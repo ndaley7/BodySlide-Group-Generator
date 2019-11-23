@@ -110,6 +110,14 @@ def CustomYesNoCancel(stringTitle,stringContent):
     return result
            
         
+#Renders a TKinter warning Dialog
+def CustomWarning(stringTitle,stringContent):
+   
+    #Display Okay Dialog
+    messagebox.showwarning(stringTitle,stringContent)
 
-
-        
+#Renders a TKinter Error Dialog with a custom message and Title
+def CustomError(stringTitle,stringContent):
+   
+    #Display Okay Dialog
+    messagebox.showerror(stringTitle,stringContent)        

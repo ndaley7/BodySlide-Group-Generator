@@ -29,11 +29,14 @@ from BSGG.__main__ import g_DebugEnabled
 
 import os
 import glob
+import sys
 
 from shutil import copy2 #So metadata is copied as well
 #Local Imports
-from .UtilitiesBSGG.UITkSelection import CustomYesNoCancel
-from .UtilitiesBSGG.UITkSelection import CustomYesNo
+from .UITkSelection import CustomYesNoCancel
+from .UITkSelection import CustomYesNoTF
+from .UITkSelection import CustomWarning
+from .UITkSelection import CustomError
 
 #Returns a List of files within the specified filePath with specified fileExtension
 def GetFileList(filePath,fileExtension):
@@ -110,7 +113,7 @@ def MasterListCheck(sliderGroupPath):
     masterListIterator=0
 
     #List all MasterListX.xml files
-    originalListXML=GetFileList(sliderPath,"MasterList*.xml")
+    originalListXML=GetFileList(sliderGroupPath,"MasterList*.xml")
 
     if(len(originalListXML)==0):
         #DEBUG: No existing MasterLists detected
@@ -118,23 +121,33 @@ def MasterListCheck(sliderGroupPath):
     elif(len(originalListXML)>0):
         #Ask YN for additional list creation
         mListAdditionalYN=CustomYesNoCancel("BodySlide Custom Grouper","MasterList(s) Detected. \n Make Additional List?")
-        if(mListAdditionalYN=True):
+        if(mListAdditionalYN==True):
             #Search for Available modifying number and make an additional list
             while(AvailableMasterList!=True):
-            for masterList in originalListXML
-                masterListName=os.path.basename
-                masterListNameNew="MasterList"+str(masterListIterator)+".xml"
+                for masterList in originalListXML:
+                    masterListName=os.path.basename(masterList)
+                    masterListNameNew="MasterList"+str(masterListIterator)+".xml"
 
-                if(masterListName!=masterListNameNew):
-                    AvailableMasterList=True
+                    if(masterListName!=masterListNameNew):
+                        AvailableMasterList=True
 
             masterListIterator=masterListIterator+1
 
-        elif(mListAdditionalYN=False)
-            #Delete all existing files with prefix 'MasterList' and create MasterList0.xml
-
+        elif(mListAdditionalYN==False):
+            #Remove all MasterList Files and create a new one?
+            mListDeleteYN=CustomYesNoTF("BodySlide Custom Grouper","Remove old MasterList files and Create Single File?")
+            if(mListDeleteYN==True):
+                #Delete all existing files with prefix 'MasterList' and create MasterList0.xml
+                masterListList=GetFileList(sliderGroupPath,"MasterList*.xml")
+                CustomWarning("BodySlide Custom Grouper","About to delete "+str(len(masterListList))+"MasterList File(s). \n Rename them for safekeeping")
+                for file in masterListList:
+                    os.remove(file)
+                masterListNumber=0
+            else:
+                CustomWarning("BodySlide Custom Grouper","BSCG Shutting Down")
+                sys.exit
         else:
-            break #Terminate
+            sys.exit #Terminate
 
         
 
