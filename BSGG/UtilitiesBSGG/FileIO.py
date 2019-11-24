@@ -130,8 +130,10 @@ def MasterListCheck(sliderGroupPath):
 
                     if(masterListName!=masterListNameNew):
                         AvailableMasterList=True
+                        masterListNumber=masterListIterator
 
-            masterListIterator=masterListIterator+1
+                masterListIterator=masterListIterator+1
+
 
         elif(mListAdditionalYN==False):
             #Remove all MasterList Files and create a new one?
@@ -139,19 +141,20 @@ def MasterListCheck(sliderGroupPath):
             if(mListDeleteYN==True):
                 #Delete all existing files with prefix 'MasterList' and create MasterList0.xml
                 masterListList=GetFileList(sliderGroupPath,"MasterList*.xml")
-                CustomWarning("BodySlide Custom Grouper","About to delete "+str(len(masterListList))+"MasterList File(s). \n Rename them for safekeeping")
+                CustomWarning("BodySlide Custom Grouper","About to delete "+str(len(masterListList))+" MasterList File(s). \n Rename them for safekeeping")
                 for file in masterListList:
                     os.remove(file)
                 masterListNumber=0
             else:
                 CustomWarning("BodySlide Custom Grouper","BSCG Shutting Down")
-                sys.exit
+                exit()
         else:
-            sys.exit #Terminate
+            CustomWarning("BodySlide Custom Grouper","BSCG Shutting Down")
+            exit() #Terminate
 
         
 
-   
+    
     #Return the File List (With Full Path)   
     return masterListNumber
     

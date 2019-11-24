@@ -64,7 +64,7 @@ def ConsoleSelectHelper(inputGroup):
         print(" ")
         print("( 1 ): Keep SuperGroup As Is")
         print("( 2 ): Rename This SuperGroup")
-        print("( 3 ): Split SuperGroup")
+        print("( 3 ): Split SuperGroup (Coming in Version 1.3)")
 
         choices = input('Selected Option: ')
         selected = [x for x in choices.split()]
@@ -72,8 +72,14 @@ def ConsoleSelectHelper(inputGroup):
         
 
        #Implement the selected Choice
+        #implementing fix for if nothing has been input into the console
+        argc=len(selected)
 
-        selectOption = str(selected[0])
+        if (argc>0):
+            #If the argument count isnt greater than zero then ignore the input and loop again
+            selectOption = str(selected[0])
+
+        
         
         if(selectOption==str(1)):#Keep
             print("Assigning SubGroups")
@@ -93,7 +99,7 @@ def ConsoleSelectHelper(inputGroup):
 
             #Reassign all subgroup names to match the supergroup:
             for groupTuple in inputGroup:
-                conversionTuple=(selectedName,groupTuple[0],groupTuple[1])
+                conversionTuple=(selectedName.capitalize(),groupTuple[0],groupTuple[1])
                 OutputGroupConvertions.append(conversionTuple)
 
         elif(selectOption==str(3)): #Split into multiple supergroups
@@ -104,7 +110,7 @@ def ConsoleSelectHelper(inputGroup):
             print("--------Improper Input Detected--------------")
         
 
-            argc=len(selected)
+            
             if(argc>1):
                 print("--------Please Select only one Option--------")
                 print(" ")

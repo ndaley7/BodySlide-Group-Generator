@@ -333,7 +333,7 @@ def CustomGroupSelection(superGroupsWithRange,globalUngroupedList,GroupOutfitNum
          
         for conversionTuple in groupConverstionTupleList:
             #ungroupedIdx=0
-            for conversionIdx in range(0,conversionTuple[2]):
+            for conversionIdx in range(0,conversionTuple[2]-1):
                 
 
                 customNameOutfit=(conversionTuple[0],globalUngroupedList[ungroupedIdx][1])

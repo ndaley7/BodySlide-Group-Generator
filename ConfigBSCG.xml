@@ -1,0 +1,9 @@
+<SliderGroupGeneratorConfig>
+  <!--File paths for the Bodyslide folders important to this tool. 
+ Note they all use / end with an occurence of /-->
+  <SliderGroupsPath>E:/GIT/BodySlide-Group-Generator/BodySlide_Sample/SliderGroups/</SliderGroupsPath>
+  <SliderSetsPath>E:/GIT/BodySlide-Group-Generator/BodySlide_Sample/SliderSets/</SliderSetsPath>
+  <SliderCategoriesPath>E:/GIT/BodySlide-Group-Generator/BodySlide_Sample/SliderCategories/</SliderCategoriesPath>
+  <SliderPresetsPath>E:/GIT/BodySlide-Group-Generator/BodySlide_Sample/SliderPresets/</SliderPresetsPath>
+  <EnableDebugBSGG>True</EnableDebugBSGG>
+</SliderGroupGeneratorConfig>

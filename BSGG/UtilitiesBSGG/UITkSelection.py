@@ -33,9 +33,11 @@ import os
 
 
 #Tk
-from tkinter import filedialog
+#import tkinter
+#from tkinter import *
 from tkinter import messagebox
-from tkinter import Tk
+from tkinter import filedialog
+#from tkMessageBox import *
 
 
 #Local Application Imports
@@ -44,7 +46,7 @@ from ..ParsingBSGG.XMLIO import CreateConfigBSCGXML
 
 
 #Create and Hide Root window
-Tk().withdraw()
+#Tk().withdraw()
 
  
 
