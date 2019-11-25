@@ -1,0 +1,3 @@
+14:58:18,229 root INFO Running Urban Planning
+15:01:23,210 root INFO Running Urban Planning
+15:02:31,315 root INFO Running Urban Planning

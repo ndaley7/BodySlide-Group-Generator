@@ -25,7 +25,7 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
-from BSGG.__main__ import g_DebugEnabled
+
 
 #Import of Modules used
 import os

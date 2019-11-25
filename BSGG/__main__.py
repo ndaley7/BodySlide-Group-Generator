@@ -25,8 +25,6 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
-#Debugging
-g_DebugEnabled=False
 
 #Import of Modules used
 import os
@@ -54,9 +52,13 @@ from .UtilitiesBSGG.UITkSelection import CustomYesNoTF
 from .UtilitiesBSGG.FileIO import GetFileList
 from .UtilitiesBSGG.FileIO import SliderSetBackup
 from .UtilitiesBSGG.FileIO import MasterListCheck
+from .UtilitiesBSGG.BSCGLogging import BSCGDebugInit
+from .UtilitiesBSGG import GlobalDebug 
 
+#Debugging
 
-#from .UtilitiesBSGG.FileListing import GetFileList
+GlobalDebug.g_DebugEnabled=False
+
  
 
 #parser = ET.XMLParser(encoding="utf-8")
@@ -324,7 +326,7 @@ def CustomGroupSelection(superGroupsWithRange,globalUngroupedList,GroupOutfitNum
 
     #Option to Mass Auto-Group
     autoNameBool=CustomYesNoTF("Bodyslide Custom Grouper","Would you like to manually confirm each Custom Group?")
-    
+
     #Loop going through the superGroup list
     for superGroup in superGroupsWithRange:
         groupOutfitFocus.clear()
@@ -403,6 +405,9 @@ def main():
         BodySlidePathSelect()
     #Load Config File
     bodyslidePaths=LoadConfigXML('ConfigBSCG.xml')
+
+    #Debug Init
+    BSCGDebugInit()
 
     #Store SliderGroups and SliderSet Paths
     sliderGroupPath=bodyslidePaths[0]

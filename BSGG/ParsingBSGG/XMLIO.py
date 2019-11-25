@@ -25,12 +25,19 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
+#from BSGG.__main__ import g_DebugEnabled
 #import lxml
 import lxml.etree as ET
 
+from BSGG.UtilitiesBSGG import GlobalDebug 
 
 #Abbreviated Version of the disclaimer
 liscenceAbbrev='placeholder'
+def str_to_bool(s):
+    if s == 'True':
+         return True
+    elif s == 'False':
+         return False
 
 def CreateConfigBSCGXML(bodyslideFilepath,debugLogStatus):
     #Intiate Root
@@ -71,7 +78,10 @@ def LoadConfigXML(configFile):
     #Append the two paths to the output array
     
     bsPaths.append(root[0].text)
-    bsPaths.append(root[1].text)  
+    bsPaths.append(root[1].text)
+    GlobalDebug.g_DebugEnabled=str_to_bool(root[4].text)
+     
+    #Debug 
     # Test for path Existance and write out if good:
 
     # return news items list 
