@@ -61,6 +61,17 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                 outfitTotal=outfitTotal+inputGroup[inputIdx][1]
                 inputIdx=inputIdx+1
 
+            #Spacing to Leave a gap in terminal
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
             #Total Outfit Printout    
             print(" Total of "+ str(outfitTotal) +" Outfits")
             print(" ")
@@ -121,17 +132,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                 print("--------Please Select only one Option--------")
                 print(" ")
 
-        #Spacing to Leave a gap in terminal
-        print(" ")
-        print(" ")
-        print(" ")
-        print(" ")
-        print(" ")
-        print(" ")
-        print(" ")
-        print(" ")
-        print(" ")
-        print(" ")
+        
 
                     
     return OutputGroupConvertions
