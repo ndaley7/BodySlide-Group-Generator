@@ -27,9 +27,11 @@
 """
 from BSGG.__main__ import g_DebugEnabled
 
+
+
 #Accpets a (Group, OutfitCount) tuple to be assigned a supergroup
 #Outputs a (Supergrout,Subgroup,outfitCount) Tuple List With the finalzied group Conversions
-def ConsoleSelectHelper(inputGroup):
+def ConsoleSelectHelper(inputGroup,manualSelectBool):
     #init
     OutputGroupConvertions=[]
     subgroupList=[i[0] for i in inputGroup]
@@ -41,35 +43,39 @@ def ConsoleSelectHelper(inputGroup):
     argc=0
 
     
+    
 
     while (selectOption!=str(1) and selectOption!=str(2) and selectOption!=str(3)):#Loop until only one argument is input
         
-        #Start Text Out
-        #Writeout Group Layout
-        print("SuperGroup "+inputGroup[0][0]+" contains SubGroups :")
+
+        if(manualSelectBool==True):
+            #Start Text Out
+            #Writeout Group Layout
+            print("Custom Group "+inputGroup[0][0]+" contains SubGroups :")
     
-        #List out subgroups and outfits in format: "GroupName-> #Outfits"
-        while inputIdx<len(inputGroup):
-            print("( "+str(inputIdx)+" )-> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
+            #List out subgroups and outfits in format: "GroupName-> #Outfits"
+            while inputIdx<len(inputGroup):
+                print("( "+str(inputIdx)+" )-> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
 
-            #Add to total Outfit count
-            outfitTotal=outfitTotal+inputGroup[inputIdx][1]
-            inputIdx=inputIdx+1
+                #Add to total Outfit count
+                outfitTotal=outfitTotal+inputGroup[inputIdx][1]
+                inputIdx=inputIdx+1
 
-        #Total Outfit Printout    
-        print(" Total of "+ str(outfitTotal) +" Outfits")
-        print(" ")
-        print(" ")
-        print("Would you like to:")
-        print(" ")
-        print("( 1 ): Keep SuperGroup As Is")
-        print("( 2 ): Rename This SuperGroup")
-        print("( 3 ): Split SuperGroup (Coming in Version 1.3)")
+            #Total Outfit Printout    
+            print(" Total of "+ str(outfitTotal) +" Outfits")
+            print(" ")
+            print(" ")
+            print("Would you like to:")
+            print(" ")
+            print("( 1 ): Keep SuperGroup As Is")
+            print("( 2 ): Rename This SuperGroup")
+            print("( 3 ): Split SuperGroup (Coming in Version 1.3)")
 
-        choices = input('Selected Option: ')
-        selected = [x for x in choices.split()]
+            choices = input('Selected Option: ')
+            selected = [x for x in choices.split()]
 
-        
+        else:
+            selected=[1,2,3]
 
        #Implement the selected Choice
         #implementing fix for if nothing has been input into the console

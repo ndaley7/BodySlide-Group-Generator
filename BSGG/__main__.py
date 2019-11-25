@@ -50,9 +50,11 @@ from .ParsingBSGG.XMLIO import LoadConfigXML
 
 from .UtilitiesBSGG.ConsoleSelection import ConsoleSelectHelper
 from .UtilitiesBSGG.UITkSelection import BodySlidePathSelect
+from .UtilitiesBSGG.UITkSelection import CustomYesNoTF
 from .UtilitiesBSGG.FileIO import GetFileList
 from .UtilitiesBSGG.FileIO import SliderSetBackup
 from .UtilitiesBSGG.FileIO import MasterListCheck
+
 
 #from .UtilitiesBSGG.FileListing import GetFileList
  
@@ -319,12 +321,16 @@ def CustomGroupSelection(superGroupsWithRange,globalUngroupedList,GroupOutfitNum
     #Running Indeces
     ungroupedIdx=0
     print("Initializing Group Selection:")
+
+    #Option to Mass Auto-Group
+    autoNameBool=CustomYesNoTF("Bodyslide Custom Grouper","Would you like to manually confirm each Custom Group?")
+    
     #Loop going through the superGroup list
     for superGroup in superGroupsWithRange:
         groupOutfitFocus.clear()
         #CHECK THE NOTATION BELOW FOR CORRECT PERFORMANCE
         groupOutfitFocus=GroupOutfitNumberList[superGroup[1]:superGroup[2]+1]
-        groupConverstionTupleList=ConsoleSelectHelper(groupOutfitFocus)
+        groupConverstionTupleList=ConsoleSelectHelper(groupOutfitFocus,autoNameBool)
 
         #Find total amount of Outfits
         subgroupList=[i[2] for i in groupConverstionTupleList]

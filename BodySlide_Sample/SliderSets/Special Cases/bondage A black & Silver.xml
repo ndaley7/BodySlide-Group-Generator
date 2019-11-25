@@ -1,9 +1,9 @@
 <SliderSetInfo>
-    <SliderSet name="bondage A black &amp; Pink">
-        <SetFolder>bondage A black &amp; Pink</SetFolder>
-        <SourceFile>bondage A black &amp; Pink.nif</SourceFile>
+    <SliderSet name="bondage A black &amp; Silver">
+        <SetFolder>bondage A black &amp; Silver</SetFolder>
+        <SourceFile>bondage A black &amp; Silver.nif</SourceFile>
         <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Bondage</OutputPath>
-        <OutputFile>bondage A black &amp; Pink</OutputFile>
+        <OutputFile>bondage A black &amp; Silver</OutputFile>
         <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
         <BaseShapeName target="Tri RenHead.004 0">Tri RenHead.004 0</BaseShapeName>
         <BaseShapeName target="Tri RenHead.004 1">Tri RenHead.004 1</BaseShapeName>
