@@ -39,6 +39,9 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
     inputIdx=0
     outfitTotal=0
     selectOption='0'
+    splitIdxValid=False
+    inputGroupLength=len(inputGroup)
+    defaultInputGroupName=inputGroup[0][0]
     #Console Argument Count
     argc=0
 
@@ -82,7 +85,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
             print("( 2 ): Rename This SuperGroup")
             print("( 3 ): Split SuperGroup (Coming in Version 1.3)")
 
-            choices = input('Selected Option: ')
+            choices = input('-->: ')
             selected = [x for x in choices.split()]
 
         else:
@@ -121,7 +124,123 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
 
         elif(selectOption==str(3)): #Split into multiple supergroups
             print("Option3")
-            print("Split Functionality Currently in progress")
+            print("Split Selected")
+            outfitTotal=0
+            #Loop the split process until there are no more entries in the inputGroup list.
+            while(len(inputGroup)>0):
+                #Request the Split Index (Inclusive)
+                while (splitIdxValid==False):
+
+                    splitchoices = input('Select Beginning and ending indices (inclusive): ')
+                    #Check to make sure two IDs were enetered
+                    if (len(splitchoices.split())==2):
+                        splitIdxs= [x for x in splitchoices.split()]
+                        splitStart= int(splitIdxs[0])
+                        splitEnd=int(splitIdxs[1])
+
+                        #Check to ensure id selections are valid
+                        if( splitStart>splitEnd or splitEnd>(inputGroupLength-1)):
+                            splitIdxValid=False
+                            print('Make sure that StartID < EndID <= Length of Selection List')
+                        else:
+                            splitIdxValid=True
+                    else:
+                        splitIdxValid=False
+                        print('Make sure Indices follow the format ""StartID EndID"" ')
+                #Sublist the selected indices and remove members from inputGroup
+                splitList=inputGroup[splitStart:splitEnd+1]
+                #Check and ensure this delete is working
+                for i in sorted(range(splitStart,splitEnd), reverse=True):
+                    del inputGroup[i]
+                #Indexes selected, dislpay split group
+                print("Split Selection Contains : ")
+                #List out subgroups and outfits in format: "GroupName-> #Outfits"
+                splitIdx=0
+                while splitIdx<len(splitList):
+                    print("( "+str(splitIdx)+" )-> "+ str(splitList[splitIdx][0]) +" with "+ str(splitList[splitIdx][1]) +" Outfits")
+
+                    #Add to total Outfit count
+                    outfitTotal=outfitTotal+splitList[splitIdx][1]
+                    splitIdx=splitIdx+1
+                print(" Total of "+ str(outfitTotal) +" Outfits")
+                
+                #Enter a name for this group or press Enter for name 'DEFAULTNAME'
+                print('Enter a name for this selection or press Enter for default')
+                splitNameInput = input('-->: ')
+
+                #Check for Default
+                if(splitNameInput==''):
+                    #Name is empty, do default Naming
+                    selectedSplitName=defaultInputGroupName
+                else:
+                    print('Setting name of selected groups to '+ str(splitNameInput))
+                    selectedSplitName=splitNameInput
+
+                for splitGroup in splitList:
+                    conversionTuple=(selectedSplitName.capitalize(),splitGroup[0],splitGroup[1])
+                    OutputGroupConvertions.append(conversionTuple)
+                #Reset for remainder of Group Entries
+                outfitTotal=0
+                splitIdx=0
+                #Display remaining inputGroup Entries and see if another subselection wants to be made.
+                if(len(inputGroup)>0):
+                    print('There are '+str(len(inputGroup))+' Groups Remaining')
+                    print("Would you like to:")
+                    print(" ")
+                    print("( 1 ): Group Under Default Name: "+ defaultInputGroupName)
+                    print("( 2 ): Group Under Custom Name")
+                    print("( 3 ): Split Groups")
+                    print('')
+                    choices2 = input('-->: ')
+                    #Check Input Length for Null input
+                    argc2=len(choices2)
+                    if (argc2>0):
+                        selected2 = [x for x in choices2.split()]
+                        
+                        selectOption2 = str(selected2[0])
+                        #Check selectOption2 for action
+                        if(selectOption2==str(1)):#Keep
+                            print("Assigning SubGroups")
+
+                            #Reassign all subgroup names to match the supergroup:
+                            for groupTuple in inputGroup:
+                                conversionTuple=(defaultInputGroupName,groupTuple[0],groupTuple[1])
+                                OutputGroupConvertions.append(conversionTuple)
+
+
+
+                        elif(selectOption2==str(2)):#Rename
+                            print("Renaming")
+                            nameAlternate = str(input('Alternate Name ->>: '))
+                            #CHECK THIS:  Does it fix weird character entry in the console
+                            selectedName=''.join(e for e in nameAlternate if e.isalnum())
+
+                            #Reassign all subgroup names to match the supergroup:
+                            for groupTuple in inputGroup:
+                                conversionTuple=(selectedName.capitalize(),groupTuple[0],groupTuple[1])
+                                OutputGroupConvertions.append(conversionTuple)
+
+                        elif(selectOption2==str(3)):#Split Loop again
+                            print('Split:')
+                            #Reset Control Variables
+                            splitIdxValid=False
+
+
+                    else:
+                        print('Strange input detected, Using default name for remainder')
+                        #Name the remainder of the Input Group entries after the default
+                        for groupTuple in inputGroup:
+                            conversionTuple=(defaultInputGroupName.capitalize(),groupTuple[0],groupTuple[1])
+                            OutputGroupConvertions.append(conversionTuple)
+                else:
+                    print('All Groups Named')
+
+                
+                
+            
+            
+            
+            
         else:
             print(" ")
             print("--------Improper Input Detected--------------")
