@@ -51,6 +51,7 @@ def GetFileList(filePath,fileExtension):
         print(file)
    
     #Return the File List (With Full Path)   
+    LoggingInfoBSCG("FILELISTING: Found "+ str(len(fileListing))+" "+fileExtension+" files")
     return fileListing
 
 #Checks for  BackupBSCG folder in the Sliderset folder

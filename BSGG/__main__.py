@@ -45,7 +45,7 @@ from difflib import SequenceMatcher
 from django.utils.encoding import smart_str
 #Local Application Imports
 from .ParsingBSGG.XMLIO import LoadConfigXML
-
+from .ParsingBSGG.XMLIO import XMLEncodingConfirm
 from .UtilitiesBSGG.ConsoleSelection import ConsoleSelectHelper
 from .UtilitiesBSGG.UITkSelection import BodySlidePathSelect
 from .UtilitiesBSGG.UITkSelection import CustomYesNoTF
@@ -60,10 +60,6 @@ from .UtilitiesBSGG import GlobalDebug
 
 GlobalDebug.g_DebugEnabled=False
 
- 
-
-#parser = ET.XMLParser(encoding="utf-8")
-#tree = ET.fromstring(xmlstring, parser=parser)
 
 #Global Variables
 
@@ -73,56 +69,16 @@ GlobalDebug.g_DebugEnabled=False
 g_bodyslideGroupedOutfitsOnly=set() #Non Repeating Set (Python) of all grouped outfits
 g_bodyslideGroupedOutfitsWGroup=[] #List (Python) of Tuples (Python) Containing all Groups and Member outfits
 g_bodyslideNewGroupedOutfitsWGroup=[]
-g_xmlEncodingString="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 
-#lxml Parsers with various encodings
-g_utf8_parser = ET.XMLParser(encoding='utf-8')
-g_latin1_parser = ET.XMLParser(encoding='latin1')
-g_unicode_parser = ET.XMLParser(encoding='cp1252')
-#g_unicode_parser = ET.XMLParser(encoding='cp1252',ns_clean=True, recover=True)
-#Accepts an XML format file with full path and checks for the presence of the XML encoding at the beginning of the document.
-#Assuming encoding: for windows 10
-def XMLEncodingConfirm(checkFile):
-
-    f = open(checkFile, 'r')
-    line = f.readline()
-
-    if g_xmlEncodingString in line:
-        f.close()
-    else:
-        f.close()
-        with open(checkFile, 'r', encoding="latin-1") as original: data = original.read()
-        modstring=smart_str(data,encoding='utf-8')
-        with open(checkFile, 'w', encoding="utf-8") as modified: modified.write(modstring)
-
-    #Check for the presence of double hyphens "--" in the comments:
-
-    f = open(checkFile,'r')
-    filedata = f.read()
-    f.close()
-
-    newdata1 = filedata.replace("<!--","<!xx")
-    newdata1a = newdata1.replace("-->","xx>")
-    newdata2 = newdata1a.replace("--","  ")
-    newdata3 = newdata2.replace("xx>","-->")
-    newdata3a = newdata3.replace("<!xx","<!--")
-    newdata3b = newdata3a.replace("--->","-->")
-    newdata4 = newdata3b.replace("&#x03","") #Incompatible XML string
-
-    f = open(checkFile,'w')
-    f.write(newdata4)
-    f.close()
-
-
+#This function accepts a full Path .xml SliderGroup File.  Primarily used to create the Pre-Grouped Outfits list.
 def ParseSliderGroupXML(fileWithPath,bodyslideGroupedOutfitsOnly):
-    #This fxn will accept a SliderGroups .xml file and add the contents to a running outfit list and a Master Grouping XML file
+    
     #Variables
     fileListing=[]
-
+    outfitCount=0
+    fileoutfitCount=0
     #Load in XML Tree 
-    #with open(fileWithPath, 'r') as xml_file:
-        #tree = ET.fromstring(xml_file.read())
-    #XMLEncodingConfirm(fileWithPath)
+    LoggingInfoBSCG("PARSEGROUP: XML File: "+ os.path.basename(fileWithPath)) 
     parser = ET.XMLParser(remove_comments=True)
     tree = ET.parse(fileWithPath,parser=parser) 
     root = tree.getroot()
@@ -132,6 +88,7 @@ def ParseSliderGroupXML(fileWithPath,bodyslideGroupedOutfitsOnly):
         #g_bodyslideGroupedOutfitsOnly.add(group.name)
         #Parse every <Member> tag
         groupName=group.get('name')
+        fileoutfitCount=0
 
         for member in group.findall('Member'):
             #Add Group and Member to a Tuple (Python) containing both values
@@ -141,17 +98,24 @@ def ParseSliderGroupXML(fileWithPath,bodyslideGroupedOutfitsOnly):
 
             #Check if Member Outfit is already in the MasterList
             if member.get('name') in bodyslideGroupedOutfitsOnly:
-                print("Already Added to Master: "+member.get('name'))
+                #print("Already Added to Master: "+member.get('name'))
+                alreadyGrouped=True
             else:
                 bodyslideGroupedOutfitsOnly.add(member.get('name'))
+            fileoutfitCount=fileoutfitCount+1
+            outfitCount=outfitCount+1
+        #Summarized Readout of file contents 
+        print(groupName+" contains "+str(fileoutfitCount)+" Grouped Outfits")
+    LoggingInfoBSCG("PARSEGROUP: "+ str(outfitCount)+ " Outfits added to Pre-Grouped List")
 
 #This function accepts a full Path .xml/osp SliderSet File.  It checks against the Master Outfit Grouping list.
 #If the Outfits within the file are not grouped, they will be added to the master list and assigned a group named:
 #"SLIDERSET FILENAME" + "SLIDERSET NAME"
 def ParseSliderSet(fileWithPath,fileName):
-     #This fxn will accept a SliderSet .xml/osp file and compare the contents to the outfit Masterlist
+    LoggingInfoBSCG("PARSESET: File: "+ os.path.basename(fileWithPath))
     #Variables
     fileListing=[]
+    outfitCount=0
 
     #Load in XML Tree 
     #tree = ET.parse(fileWithPath,g_unicode_parser)
@@ -169,7 +133,8 @@ def ParseSliderSet(fileWithPath,fileName):
         
         #Check if SliderSet Outfit is already in the MasterList
         if sliderSet.get('name') in g_bodyslideGroupedOutfitsOnly:
-            print("SliderSet Present in Master: "+sliderSet.get('name'))
+            #print("SliderSet Present in Master: "+sliderSet.get('name'))
+            groupedOutfitsFound=True
         else:
             #If not present in the Master list, add along with Group
 
@@ -178,7 +143,8 @@ def ParseSliderSet(fileWithPath,fileName):
             outfitGroupMember=(groupName,memberName)
             g_bodyslideNewGroupedOutfitsWGroup.append(outfitGroupMember)
             g_bodyslideGroupedOutfitsOnly.add(memberName)
-           
+
+    LoggingInfoBSCG("PARSESET: "+ str(len(g_bodyslideNewGroupedOutfitsWGroup))+ " Non Grouped Outfits Found")       
 
     #Return the File List (With Full Path)   
     #return fileListing
@@ -191,7 +157,7 @@ def CatalogGroupedOutfits(sliderGroupPath):
     fileListing=[]
     #Get list of all files in the group folder (.xml)
     fileListing=GetFileList(sliderGroupPath,"*.xml")
-    #Parse through each file Adding Groups and Outfits to overall collection
+    #Parse through each file Adding Groups and Outfits to overall collection (DEBUG Done)
     for groupXML in fileListing:
         XMLEncodingConfirm(groupXML) 
         ParseSliderGroupXML(groupXML,g_bodyslideGroupedOutfitsOnly)  
@@ -311,6 +277,7 @@ def GroupingConcatenationByName(tupleListIn):
             currCustomGroup=(currGroupString,startingIdx,len(tupleListIn)-1)
 
             runningMatchList.append(currCustomGroup)
+    LoggingInfoBSCG("GR.CONCAT: Start and End Indices found for outfits")
     return runningMatchList
 
 
@@ -378,9 +345,13 @@ def ListGroupsOutfitNumber(groupOutfitTupleList):
             referenceGroup=compareGroup
             outfitCount=1
 
+    LoggingInfoBSCG("GR.OUTFITNUM. : "+referenceGroup+" Contains "+str(outfitCount)+" Outfits")
+
     #Append the Final Group and Count
     groupAndCount=(referenceGroup,outfitCount)
     groupOutfitNumber.append(groupAndCount)
+
+    
 
     return groupOutfitNumber
 
@@ -412,11 +383,11 @@ def main():
 
     #Debug Init
     BSCGDebugInit()
-    LoggingInfoBSCG("BSCG: Logging Session Start")
+    LoggingInfoBSCG("BSCG CORE: Logging Session Start")
     #Store SliderGroups and SliderSet Paths (DEBUG done)
     sliderGroupPath=bodyslidePaths[0]
     sliderSetPath=bodyslidePaths[1]
-    LoggingInfoBSCG("BSCG: SliderSet and SliderGroup Paths Found")
+    LoggingInfoBSCG("BSCG CORE: SliderSet and SliderGroup Paths Found")
     #Run Backup Algorithm (DEBUG done)
     SliderSetBackup(sliderSetPath)
     SliderSetBackup(sliderGroupPath)
@@ -424,22 +395,31 @@ def main():
     #Check if a masterlist already exists and write out the naming modifier (DEBUG done)
     masterListNum=MasterListCheck(sliderGroupPath)
     
-    #Generate list of Already Grouped Outfits (DEBUG X)
+    #Generate list of Already Grouped Outfits (DEBUG done)
     CatalogGroupedOutfits(sliderGroupPath)
 
-    #Generate lists of paths to .xml and .osp files in the SliderSet Folder(DEBUG X)
+    #Generate lists of paths to .xml and .osp files in the SliderSet Folder(DEBUG done)
+    LoggingInfoBSCG("BSCG CORE: Listing XML/OSP Files")
+    
     sliderSetXMLPaths=GetFileList(sliderSetPath,'*.xml')
     sliderSetOSPPaths=GetFileList(sliderSetPath,'*.osp')
 
+    
     #Loop through lists of OSP and XML files and process them.
-    #SliderSet XML Reader(DEBUG X)
+    #Most likely where the majority of issues will come up for people
+    #This is due to Characters getting mangled in the decoding by latin-1 and recoding to utf-8 interfering with parsing
+    #SliderSet XML Reader(DEBUG done)
+    LoggingInfoBSCG("BSCG CORE: Parsing SliderSet XML")
+
     for setXML in sliderSetXMLPaths:
         XMLEncodingConfirm(setXML)
         fileWithExtension=os.path.basename(setXML)
         fileWithoutExtension=os.path.splitext(fileWithExtension)[0] 
         ParseSliderSet(setXML,fileWithoutExtension)
 
-    #SliderSet OSP Reader(DEBUG X)
+    #SliderSet OSP Reader(DEBUG Done)
+    LoggingInfoBSCG("BSCG CORE: Parsing SliderSet OSP")
+
     for setOSP in sliderSetOSPPaths:
         XMLEncodingConfirm(setOSP)
         fileWithExtension=os.path.basename(setOSP)
@@ -448,28 +428,25 @@ def main():
 
     #Sort List
     g_bodyslideNewGroupedOutfitsWGroup.sort()
-    print("simple sort")
+    LoggingInfoBSCG("BSCG CORE: Ungrouped Outfits Sorted")
     #print(g_bodyslideNewGroupedOutfitsWGroup)
     #++Writeout Status to console (Orignial Group # Final Group # Full Group List)
 
     #See if User wants to modify Groupings
-    modifyGroups=True
+    modifyGroups=CustomYesNoTF("BodySlide Custom Grouper","Customize New Groups?")
 
     if(modifyGroups):
-
-        #Sort Groupings into a single Occurence List Of Tuples (Groupname,Outfits) (DEBUG X)
+        LoggingInfoBSCG("BSCG CORE: Manual Choice Naming Initialized")
+        #Sort Groupings into a single Occurence List Of Tuples (Groupname,Outfits) (DEBUG done)
         existingGroupsWithOutfitNumber=ListGroupsOutfitNumber(g_bodyslideNewGroupedOutfitsWGroup)
-        #Prep List for custom group selector (DEBUG X)
+        #Prep List for custom group selector (DEBUG x)
         presortedGroupsWithRange=GroupingConcatenationByName(existingGroupsWithOutfitNumber)
         #Console Outfit Group Selector (DEBUG X)
         customBodyslideGroupedOutfits=CustomGroupSelection(presortedGroupsWithRange, g_bodyslideNewGroupedOutfitsWGroup,existingGroupsWithOutfitNumber)
     else:
+        LoggingInfoBSCG("BSCG CORE: Auto-Naming Selected")
         #Assign the Default grouping (DEBUG X)
         customBodyslideGroupedOutfits=g_bodyslideNewGroupedOutfitsWGroup
-      
-    #Ask if user wants to generate a master list with all existing groups
-
-    #Check if a masterlist already exists
 
     #Writeout Masterlist (DEBUG X)
 

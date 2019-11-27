@@ -26,6 +26,7 @@
     distribution.
 """
 
+import os
 
 
 
@@ -53,6 +54,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
 
         if(manualSelectBool==True):
             #Start Text Out
+            os.system('cls' if os.name == 'nt' else 'clear')
             #Writeout Group Layout
             print("Custom Group "+inputGroup[0][0]+" contains SubGroups :")
     
@@ -66,15 +68,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
 
             #Spacing to Leave a gap in terminal
             print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
+            
             #Total Outfit Printout    
             print(" Total of "+ str(outfitTotal) +" Outfits")
             print(" ")
@@ -207,6 +201,10 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                                 conversionTuple=(defaultInputGroupName,groupTuple[0],groupTuple[1])
                                 OutputGroupConvertions.append(conversionTuple)
 
+                            #Remove the entries from inputGroup
+                            for i in sorted(range(0,len(inputGroup)), reverse=True):
+                                del inputGroup[i]
+
 
 
                         elif(selectOption2==str(2)):#Rename
@@ -220,6 +218,9 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                                 conversionTuple=(selectedName.capitalize(),groupTuple[0],groupTuple[1])
                                 OutputGroupConvertions.append(conversionTuple)
 
+                            #Remove the entries from inputGroup
+                            for i in sorted(range(0,len(inputGroup)), reverse=True):
+                                del inputGroup[i]
                         elif(selectOption2==str(3)):#Split Loop again
                             print('Split:')
                             #Reset Control Variables
@@ -241,6 +242,10 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                         for groupTuple in inputGroup:
                             conversionTuple=(defaultInputGroupName.capitalize(),groupTuple[0],groupTuple[1])
                             OutputGroupConvertions.append(conversionTuple)
+                        
+                        #Remove the entries from inputGroup
+                            for i in sorted(range(0,len(inputGroup)), reverse=True):
+                                del inputGroup[i]
                 else:
                     print('All Groups Named')
 

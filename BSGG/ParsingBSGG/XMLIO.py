@@ -25,20 +25,67 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
-#from BSGG.__main__ import g_DebugEnabled
+import os
 #import lxml
 import lxml.etree as ET
+#import django for encoding issues
+from django.utils.encoding import smart_str
 
 from BSGG.UtilitiesBSGG import GlobalDebug
 from BSGG.UtilitiesBSGG.BSCGLogging import LoggingInfoBSCG 
 
 #Abbreviated Version of the disclaimer
+g_xmlEncodingString="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+#lxml Parsers with various encodings
+g_utf8_parser = ET.XMLParser(encoding='utf-8')
+g_latin1_parser = ET.XMLParser(encoding='latin1')
+g_unicode_parser = ET.XMLParser(encoding='cp1252')
+#g_unicode_parser = ET.XMLParser(encoding='cp1252',ns_clean=True, recover=True)
 liscenceAbbrev='placeholder'
+
+
 def str_to_bool(s):
     if s == 'True':
          return True
     elif s == 'False':
          return False
+
+
+#Accepts an XML format file with full path and checks for the presence of the XML encoding at the beginning of the document.
+#Assuming encoding: for windows 10
+def XMLEncodingConfirm(checkFile):
+
+    f = open(checkFile, 'r')
+    line = f.readline()
+
+    if g_xmlEncodingString in line:
+        LoggingInfoBSCG("XMLENCODE: UTF-8 xml header found") 
+        f.close()
+    else:
+        f.close()
+        LoggingInfoBSCG("XMLENCODE: latin-1 read attempt file: "+ os.path.basename(checkFile)) 
+        with open(checkFile, 'r', encoding="latin-1") as original: data = original.read()
+        modstring=smart_str(data,encoding='utf-8')
+        LoggingInfoBSCG("XMLENCODE: utf-8 write attempt file: "+ os.path.basename(checkFile)) 
+        with open(checkFile, 'w', encoding="utf-8") as modified: modified.write(modstring)
+
+    #Check for the presence of double hyphens "--" in the comments:
+
+    f = open(checkFile,'r')
+    filedata = f.read()
+    f.close()
+    LoggingInfoBSCG("XMLENCODE: Removing (Bad Comments,Strange Characters)") 
+    newdata1 = filedata.replace("<!--","<!xx")
+    newdata1a = newdata1.replace("-->","xx>")
+    newdata2 = newdata1a.replace("--","  ")
+    newdata3 = newdata2.replace("xx>","-->")
+    newdata3a = newdata3.replace("<!xx","<!--")
+    newdata3b = newdata3a.replace("--->","-->")
+    newdata4 = newdata3b.replace("&#x03","") #Incompatible XML string
+
+    f = open(checkFile,'w')
+    f.write(newdata4)
+    f.close()
 
 def CreateConfigBSCGXML(bodyslideFilepath,debugLogStatus):
     #Intiate Root
