@@ -150,7 +150,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                 #Sublist the selected indices and remove members from inputGroup
                 splitList=inputGroup[splitStart:splitEnd+1]
                 #Check and ensure this delete is working
-                for i in sorted(range(splitStart,splitEnd), reverse=True):
+                for i in sorted(range(splitStart,splitEnd+1), reverse=True):
                     del inputGroup[i]
                 #Indexes selected, dislpay split group
                 print("Split Selection Contains : ")
@@ -224,6 +224,15 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                             print('Split:')
                             #Reset Control Variables
                             splitIdxValid=False
+                            #List out subgroups and outfits in format: "GroupName-> #Outfits"
+                            inputIdx=0
+                            while inputIdx<len(inputGroup):
+                                print("( "+str(inputIdx)+" )-> "+ str(inputGroup[inputIdx][0]) +" with "+ str(inputGroup[inputIdx][1]) +" Outfits")
+                                
+
+                                #Add to total Outfit count
+                                outfitTotal=outfitTotal+inputGroup[inputIdx][1]
+                                inputIdx=inputIdx+1
 
 
                     else:
