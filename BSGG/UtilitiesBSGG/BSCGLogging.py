@@ -37,11 +37,14 @@ def BSCGDebugInit():
         logging.basicConfig(filename="logBSCG.txt",
                                     filemode='a',
                                     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-                                    datefmt='%H:%M:%S',
+                                    datefmt='%a, %d %b %Y %H:%M:%S',
                                     level=logging.DEBUG)
-        logging.info("Running Urban Planning")                            
+        logging.info("BSCG Session Logging Enabled")                            
     else:
         print("Logging Disabled")
+
+def LoggingInfoBSCG(LogString):
+    logging.info(LogString)
     
 
 #self.logger = logging.getLogger('urbanGUI')

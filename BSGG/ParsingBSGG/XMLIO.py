@@ -29,7 +29,8 @@
 #import lxml
 import lxml.etree as ET
 
-from BSGG.UtilitiesBSGG import GlobalDebug 
+from BSGG.UtilitiesBSGG import GlobalDebug
+from BSGG.UtilitiesBSGG.BSCGLogging import LoggingInfoBSCG 
 
 #Abbreviated Version of the disclaimer
 liscenceAbbrev='placeholder'
@@ -80,7 +81,7 @@ def LoadConfigXML(configFile):
     bsPaths.append(root[0].text)
     bsPaths.append(root[1].text)
     GlobalDebug.g_DebugEnabled=str_to_bool(root[4].text)
-     
+    #LoggingInfoBSCG('ConfigBSCG.xml Variables found and parsed.')
     #Debug 
     # Test for path Existance and write out if good:
 

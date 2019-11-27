@@ -37,6 +37,7 @@ from .UITkSelection import CustomYesNoCancel
 from .UITkSelection import CustomYesNoTF
 from .UITkSelection import CustomWarning
 from .UITkSelection import CustomError
+from .BSCGLogging import LoggingInfoBSCG
 
 #Returns a List of files within the specified filePath with specified fileExtension
 def GetFileList(filePath,fileExtension):
@@ -57,11 +58,13 @@ def GetFileList(filePath,fileExtension):
 #If it does exist, ensures parity (Namewise) with the sliderset folder
 def SliderSetBackup(sliderPath):
     #Variables
+    LoggingInfoBSCG("BACKUP: Initializing Sliderset OSP/XML Backup")
     #Ensure Filename parity between sliderSetPath folder and the backup
     originalListXML=GetFileList(sliderPath,"*.xml")
     originalListOSP=GetFileList(sliderPath,"*.osp")
 
     #Concatenate both .OSP and .XML filelist for compatibility
+    LoggingInfoBSCG("BACKUP: Concat XML and OSP files List")
     originalListXML.extend(originalListOSP)
     originalList=originalListXML
     #Check for existance of BackupBSCG Folder
@@ -72,16 +75,17 @@ def SliderSetBackup(sliderPath):
         #Ensure Filename parity between sliderSetPath folder and the backup
         backupListXML=GetFileList(sliderPath+"/BackupBSCG","*.xml")
         backupListOSP=GetFileList(sliderPath+"/BackupBSCG","*.osp")
-
+        LoggingInfoBSCG("BACKUP: Folder Found")
         #Concatenate both .OSP and .XML filelist for compatibility
         backupListXML.extend(backupListOSP)
         backupList=backupListXML
         #Find difference between Backup and Original Lists
         difflist=list(set(originalList)-set(backupList))
-
+        LoggingInfoBSCG("BACKUP:: "+str(len(difflist)) +" New Files")
         #Copy the missing files
         for file in difflist:
             copy2(file,sliderPath+"/BackupBSCG/"+os.path.basename(file))
+            LoggingInfoBSCG("BACKUP: copied "+os.path.basename(file))
 
         print("")
         print("")
@@ -94,11 +98,12 @@ def SliderSetBackup(sliderPath):
     elif(backupBSCGFound==False):
         #Create Backup folder
         os.makedirs(sliderPath+"/BackupBSCG")
+        LoggingInfoBSCG("BACKUP: Folder not found. Creating Folder")
 
         #Copy all files to backup
         for file in originalList:
             copy2(file,sliderPath+"/BackupBSCG/"+os.path.basename(file))
-
+            LoggingInfoBSCG("BACKUP: copied "+os.path.basename(file))
         print("")
         print("")
         print("Backup Created")
@@ -117,11 +122,13 @@ def MasterListCheck(sliderGroupPath):
 
     if(len(originalListXML)==0):
         #DEBUG: No existing MasterLists detected
+        LoggingInfoBSCG("CHECKMASTER: No Existing MasterListX.xml files found")
         masterListNumber=0
     elif(len(originalListXML)>0):
         #Ask YN for additional list creation
         mListAdditionalYN=CustomYesNoCancel("BodySlide Custom Grouper","MasterList(s) Detected. \n Make Additional List?")
         if(mListAdditionalYN==True):
+            LoggingInfoBSCG("CHECKMASTER: mListAdditionalYN: Make additional MList")
             #Search for Available modifying number and make an additional list
             while(AvailableMasterList!=True):
                 for masterList in originalListXML:
@@ -137,18 +144,23 @@ def MasterListCheck(sliderGroupPath):
 
         elif(mListAdditionalYN==False):
             #Remove all MasterList Files and create a new one?
+            LoggingInfoBSCG("CHECKMASTER: mListAdditionalYN: No Additional MList Selected")
             mListDeleteYN=CustomYesNoTF("BodySlide Custom Grouper","Remove old MasterList files and Create Single File?")
+            
             if(mListDeleteYN==True):
                 #Delete all existing files with prefix 'MasterList' and create MasterList0.xml
+                LoggingInfoBSCG("CHECKMASTER: mListDeleteYN: Delete existing MLists")
                 masterListList=GetFileList(sliderGroupPath,"MasterList*.xml")
                 CustomWarning("BodySlide Custom Grouper","About to delete "+str(len(masterListList))+" MasterList File(s). \n Rename them for safekeeping")
                 for file in masterListList:
                     os.remove(file)
                 masterListNumber=0
             else:
+                LoggingInfoBSCG("CHECKMASTER: BSCG: SHUTDOWN")
                 CustomWarning("BodySlide Custom Grouper","BSCG Shutting Down")
                 exit()
         else:
+            LoggingInfoBSCG("CHECKMASTER: BSCG: SHUTDOWN")
             CustomWarning("BodySlide Custom Grouper","BSCG Shutting Down")
             exit() #Terminate
 

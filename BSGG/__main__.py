@@ -53,6 +53,7 @@ from .UtilitiesBSGG.FileIO import GetFileList
 from .UtilitiesBSGG.FileIO import SliderSetBackup
 from .UtilitiesBSGG.FileIO import MasterListCheck
 from .UtilitiesBSGG.BSCGLogging import BSCGDebugInit
+from .UtilitiesBSGG.BSCGLogging import LoggingInfoBSCG
 from .UtilitiesBSGG import GlobalDebug 
 
 #Debugging
@@ -400,42 +401,45 @@ def main():
     configExists=os.path.exists('ConfigBSCG.xml')
     if configExists:
         print("ConfigBSCG.xml Detected")
+        #LoggingInfoBSCG("ConfigBSCG.xml Detected")
     else:
         print("ConfigBSCG.xml Not Detected.  Running Configurator")
+        #LoggingInfoBSCG("ConfigBSCG.xml Not Detected.  Running Configurator")
         BodySlidePathSelect()
     #Load Config File
     bodyslidePaths=LoadConfigXML('ConfigBSCG.xml')
+    
 
     #Debug Init
     BSCGDebugInit()
-
-    #Store SliderGroups and SliderSet Paths
+    LoggingInfoBSCG("BSCG: Logging Session Start")
+    #Store SliderGroups and SliderSet Paths (DEBUG done)
     sliderGroupPath=bodyslidePaths[0]
     sliderSetPath=bodyslidePaths[1]
-
-    #Run Backup Algorithm
+    LoggingInfoBSCG("BSCG: SliderSet and SliderGroup Paths Found")
+    #Run Backup Algorithm (DEBUG done)
     SliderSetBackup(sliderSetPath)
     SliderSetBackup(sliderGroupPath)
 
-    #Check if a masterlist already exists and write out the naming modifier
+    #Check if a masterlist already exists and write out the naming modifier (DEBUG done)
     masterListNum=MasterListCheck(sliderGroupPath)
     
-    #Generate list of Already Grouped Outfits
+    #Generate list of Already Grouped Outfits (DEBUG X)
     CatalogGroupedOutfits(sliderGroupPath)
 
-    #Generate lists of paths to .xml and .osp files in the SliderSet Folder
+    #Generate lists of paths to .xml and .osp files in the SliderSet Folder(DEBUG X)
     sliderSetXMLPaths=GetFileList(sliderSetPath,'*.xml')
     sliderSetOSPPaths=GetFileList(sliderSetPath,'*.osp')
 
     #Loop through lists of OSP and XML files and process them.
-    #SliderSet XML Reader
+    #SliderSet XML Reader(DEBUG X)
     for setXML in sliderSetXMLPaths:
         XMLEncodingConfirm(setXML)
         fileWithExtension=os.path.basename(setXML)
         fileWithoutExtension=os.path.splitext(fileWithExtension)[0] 
         ParseSliderSet(setXML,fileWithoutExtension)
 
-    #SliderSet OSP Reader
+    #SliderSet OSP Reader(DEBUG X)
     for setOSP in sliderSetOSPPaths:
         XMLEncodingConfirm(setOSP)
         fileWithExtension=os.path.basename(setOSP)
@@ -453,21 +457,21 @@ def main():
 
     if(modifyGroups):
 
-        #Sort Groupings into a single Occurence List Of Tuples (Groupname,Outfits)
+        #Sort Groupings into a single Occurence List Of Tuples (Groupname,Outfits) (DEBUG X)
         existingGroupsWithOutfitNumber=ListGroupsOutfitNumber(g_bodyslideNewGroupedOutfitsWGroup)
-        #Prep List for custom group selector
+        #Prep List for custom group selector (DEBUG X)
         presortedGroupsWithRange=GroupingConcatenationByName(existingGroupsWithOutfitNumber)
-        #Console Outfit Group Selector
+        #Console Outfit Group Selector (DEBUG X)
         customBodyslideGroupedOutfits=CustomGroupSelection(presortedGroupsWithRange, g_bodyslideNewGroupedOutfitsWGroup,existingGroupsWithOutfitNumber)
     else:
-        #Assign the Default grouping
+        #Assign the Default grouping (DEBUG X)
         customBodyslideGroupedOutfits=g_bodyslideNewGroupedOutfitsWGroup
       
     #Ask if user wants to generate a master list with all existing groups
 
     #Check if a masterlist already exists
 
-    #Writeout Masterlist
+    #Writeout Masterlist (DEBUG X)
 
     TupleList2SliderGroupXML('MasterList'+ str(masterListNum) +'.xml',customBodyslideGroupedOutfits,sliderGroupPath)
 
