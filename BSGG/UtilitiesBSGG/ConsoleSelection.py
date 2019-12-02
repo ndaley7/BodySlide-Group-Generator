@@ -100,7 +100,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
 
             #Reassign all subgroup names to match the supergroup:
             for groupTuple in inputGroup:
-                conversionTuple=(superGroupName,groupTuple[0],groupTuple[1])
+                conversionTuple=(superGroupName.capitalize(),groupTuple[0],groupTuple[1])
                 OutputGroupConvertions.append(conversionTuple)
 
 
@@ -176,9 +176,24 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
                 #Reset for remainder of Group Entries
                 outfitTotal=0
                 splitIdx=0
+                inputIdx2=0
                 #Display remaining inputGroup Entries and see if another subselection wants to be made.
                 if(len(inputGroup)>0):
                     print('There are '+str(len(inputGroup))+' Groups Remaining')
+                    #List out subgroups and outfits in format: "GroupName-> #Outfits"
+                    while inputIdx2<len(inputGroup):
+                        print("( "+str(inputIdx2)+" )-> "+ str(inputGroup[inputIdx2][0]) +" with "+ str(inputGroup[inputIdx2][1]) +" Outfits")
+
+                        #Add to total Outfit count
+                        outfitTotal=outfitTotal+inputGroup[inputIdx2][1]
+                        inputIdx2=inputIdx2+1
+
+                    #Spacing to Leave a gap in terminal
+                    print(" ")
+            
+                    #Total Outfit Printout    
+                    print(" Total of "+ str(outfitTotal) +" Outfits")
+                    print(" ")
                     print("Would you like to:")
                     print(" ")
                     print("( 1 ): Group Under Default Name: "+ defaultInputGroupName)
@@ -198,7 +213,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
 
                             #Reassign all subgroup names to match the supergroup:
                             for groupTuple in inputGroup:
-                                conversionTuple=(defaultInputGroupName,groupTuple[0],groupTuple[1])
+                                conversionTuple=(defaultInputGroupName.capitalize(),groupTuple[0],groupTuple[1])
                                 OutputGroupConvertions.append(conversionTuple)
 
                             #Remove the entries from inputGroup

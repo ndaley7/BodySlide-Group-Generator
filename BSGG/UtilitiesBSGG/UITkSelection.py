@@ -33,7 +33,7 @@ import os
 
 
 #Tk
-#import tkinter
+import tkinter as tk
 #from tkinter import *
 from tkinter import messagebox
 from tkinter import filedialog
@@ -45,8 +45,6 @@ from ..ParsingBSGG.XMLIO import CreateConfigBSCGXML
 
 
 
-#Create and Hide Root window
-#Tk().withdraw()
 
  
 
@@ -54,6 +52,9 @@ from ..ParsingBSGG.XMLIO import CreateConfigBSCGXML
 #Loops until the four "Slider" folders are found in the same subdirectory
 def BodySlidePathSelect():
     #Init
+    #Create and Hide Root window
+    root = tk.Tk()
+    root.withdraw()
 
     #Boolean
     bodyslideDirFound= False
@@ -87,39 +88,65 @@ def BodySlidePathSelect():
             
         else:
             messagebox.showinfo("BodySlide Custom Grouper","Slider Folder(s) not Detected.\n See Terminal/Console")
+    
+    #Destroy Root
+    root.destroy()  
 
 #Renders a TKinter dialog with a custom question and title.  Returns True/False
 def CustomYesNoTF(stringTitle,stringContent):
-   
+   #Create and Hide Root window
+    root = tk.Tk()
+    root.withdraw()
     #Display Yes/No Dialog
     result=messagebox.askyesno(stringTitle,stringContent)
+
+    #Destroy Root
+    root.destroy()  
 
     return result
 
 #Renders a TKinter dialog with a custom message and Title
 def CustomOK(stringTitle,stringContent):
-   
+    #Create and Hide Root window
+    root = tk.Tk()
+    root.withdraw()
     #Display Okay Dialog
     messagebox.showinfo(stringTitle,stringContent)
+
+    #Destroy Root
+    root.destroy()  
 
     
  #Renders a TKinter dialog with a custom message and Title Returns True/False or None
 def CustomYesNoCancel(stringTitle,stringContent):
-   
+    #Create and Hide Root window
+    root = tk.Tk()
+    root.withdraw()
     #Display Okay Dialog
     result=messagebox.askyesnocancel(stringTitle,stringContent)
+
+    #Destroy Root
+    root.destroy()  
 
     return result
            
         
 #Renders a TKinter warning Dialog
 def CustomWarning(stringTitle,stringContent):
-   
+   #Create and Hide Root window
+    root = tk.Tk()
+    root.withdraw()
     #Display Okay Dialog
     messagebox.showwarning(stringTitle,stringContent)
+    #Destroy Root
+    root.destroy()  
 
 #Renders a TKinter Error Dialog with a custom message and Title
 def CustomError(stringTitle,stringContent):
-   
+   #Create and Hide Root window
+    root = tk.Tk()
+    root.withdraw()
     #Display Okay Dialog
-    messagebox.showerror(stringTitle,stringContent)        
+    messagebox.showerror(stringTitle,stringContent)
+    #Destroy Root
+    root.destroy()        
