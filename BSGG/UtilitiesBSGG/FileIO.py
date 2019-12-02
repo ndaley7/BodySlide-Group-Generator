@@ -59,6 +59,7 @@ def GetFileList(filePath,fileExtension):
 #If it does exist, ensures parity (Namewise) with the sliderset folder
 def SliderSetBackup(sliderPath):
     #Variables
+    newbackupCount=0
     LoggingInfoBSCG("BACKUP: Initializing Sliderset OSP/XML Backup")
     #Ensure Filename parity between sliderSetPath folder and the backup
     originalListXML=GetFileList(sliderPath,"*.xml")
@@ -73,21 +74,18 @@ def SliderSetBackup(sliderPath):
 
     #If Doesnt exist, create and copy all files from sliderSetPath Folder
     if(backupBSCGFound==True):
-        #Ensure Filename parity between sliderSetPath folder and the backup
-        backupListXML=GetFileList(sliderPath+"/BackupBSCG","*.xml")
-        backupListOSP=GetFileList(sliderPath+"/BackupBSCG","*.osp")
-        LoggingInfoBSCG("BACKUP: Folder Found")
-        #Concatenate both .OSP and .XML filelist for compatibility
-        backupListXML.extend(backupListOSP)
-        backupList=backupListXML
-        #Find difference between Backup and Original Lists
-        difflist=list(set(originalList)-set(backupList))
-        LoggingInfoBSCG("BACKUP:: "+str(len(difflist)) +" New Files")
-        #Copy the missing files
-        for file in difflist:
-            copy2(file,sliderPath+"/BackupBSCG/"+os.path.basename(file))
-            LoggingInfoBSCG("BACKUP: copied "+os.path.basename(file))
+        #Changing the framework for backup as it was not working quite properly for the difflist
+        for originalFile in originalList:
+            #Check for the existance of each file in the backup
+            if(os.path.exists(sliderPath+"/BackupBSCG/"+os.path.basename(originalFile))==False):
 
+                newbackupCount=newbackupCount+1
+                copy2(originalFile,sliderPath+"/BackupBSCG/"+os.path.basename(originalFile))
+                LoggingInfoBSCG("BACKUP: copied "+os.path.basename(originalFile))
+
+        LoggingInfoBSCG("BACKUP:: "+str(newbackupCount) +" New Files")
+
+        
         print("")
         print("")
         print("Backup Updated")
@@ -110,6 +108,9 @@ def SliderSetBackup(sliderPath):
         print("Backup Created")
         print("")
         print("")
+
+    else:
+        LoggingInfoBSCG("BACKUP:: "+str(newbackupCount) +" New Files")
 
 #Checks for existing MasterListX.xml files
 #Offers option to Delete existing ones or create another with a higher iterator

@@ -1,0 +1,286 @@
+<SliderSetInfo>
+    <SliderSet name="Bondage D Harness Red &amp; Black">
+        <SetFolder>Bondage D Harness Red &amp; Black</SetFolder>
+        <SourceFile>Bondage D Harness Red &amp; Black.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Bondage</OutputPath>
+        <OutputFile>Bondage D Harness Red &amp; Black</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="belt 02">belt 02</BaseShapeName>
+        <BaseShapeName target="tomegu">tomegu</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="belt 02Breasts" target="belt 02" local="true">belt 02Breasts.bsd</datafile>
+            <datafile name="tomeguBreasts" target="tomegu" local="true">tomeguBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="belt 02BreastsSmall" target="belt 02" local="true">belt 02BreastsSmall.bsd</datafile>
+            <datafile name="tomeguBreastsSmall" target="tomegu" local="true">tomeguBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="belt 02BreastsSH" target="belt 02" local="true">belt 02BreastsSH.bsd</datafile>
+            <datafile name="tomeguBreastsSH" target="tomegu" local="true">tomeguBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="belt 02BreastsSSH" target="belt 02" local="true">belt 02BreastsSSH.bsd</datafile>
+            <datafile name="tomeguBreastsSSH" target="tomegu" local="true">tomeguBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="belt 02BreastsFantasy" target="belt 02" local="true">belt 02BreastsFantasy.bsd</datafile>
+            <datafile name="tomeguBreastsFantasy" target="tomegu" local="true">tomeguBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="belt 02DoubleMelon" target="belt 02" local="true">belt 02DoubleMelon.bsd</datafile>
+            <datafile name="tomeguDoubleMelon" target="tomegu" local="true">tomeguDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="belt 02BreastCleavage" target="belt 02" local="true">belt 02BreastCleavage.bsd</datafile>
+            <datafile name="tomeguBreastCleavage" target="tomegu" local="true">tomeguBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="belt 02BreastFlatness" target="belt 02" local="true">belt 02BreastFlatness.bsd</datafile>
+            <datafile name="tomeguBreastFlatness" target="tomegu" local="true">tomeguBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="belt 02BreastGravity" target="belt 02" local="true">belt 02BreastGravity.bsd</datafile>
+            <datafile name="tomeguBreastGravity" target="tomegu" local="true">tomeguBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="belt 02PushUp" target="belt 02" local="true">belt 02PushUp.bsd</datafile>
+            <datafile name="tomeguPushUp" target="tomegu" local="true">tomeguPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="belt 02BreastHeight" target="belt 02" local="true">belt 02BreastHeight.bsd</datafile>
+            <datafile name="tomeguBreastHeight" target="tomegu" local="true">tomeguBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="belt 02BreastPerkiness" target="belt 02" local="true">belt 02BreastPerkiness.bsd</datafile>
+            <datafile name="tomeguBreastPerkiness" target="tomegu" local="true">tomeguBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="belt 02BreastWidth" target="belt 02" local="true">belt 02BreastWidth.bsd</datafile>
+            <datafile name="tomeguBreastWidth" target="tomegu" local="true">tomeguBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="belt 02NippleDistance" target="belt 02" local="true">belt 02NippleDistance.bsd</datafile>
+            <datafile name="tomeguNippleDistance" target="tomegu" local="true">tomeguNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="belt 02NipplePerkiness" target="belt 02" local="true">belt 02NipplePerkiness.bsd</datafile>
+            <datafile name="tomeguNipplePerkiness" target="tomegu" local="true">tomeguNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="belt 02NippleLength" target="belt 02" local="true">belt 02NippleLength.bsd</datafile>
+            <datafile name="tomeguNippleLength" target="tomegu" local="true">tomeguNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="belt 02NippleSize" target="belt 02" local="true">belt 02NippleSize.bsd</datafile>
+            <datafile name="tomeguNippleSize" target="tomegu" local="true">tomeguNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="belt 02NippleAreola" target="belt 02" local="true">belt 02NippleAreola.bsd</datafile>
+            <datafile name="tomeguNippleAreola" target="tomegu" local="true">tomeguNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="belt 02NippleUp" target="belt 02" local="true">belt 02NippleUp.bsd</datafile>
+            <datafile name="tomeguNippleUp" target="tomegu" local="true">tomeguNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="belt 02NippleDown" target="belt 02" local="true">belt 02NippleDown.bsd</datafile>
+            <datafile name="tomeguNippleDown" target="tomegu" local="true">tomeguNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="belt 02NippleTip" target="belt 02" local="true">belt 02NippleTip.bsd</datafile>
+            <datafile name="tomeguNippleTip" target="tomegu" local="true">tomeguNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="belt 02Arms" target="belt 02" local="true">belt 02Arms.bsd</datafile>
+            <datafile name="tomeguArms" target="tomegu" local="true">tomeguArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="belt 02ChubbyArms" target="belt 02" local="true">belt 02ChubbyArms.bsd</datafile>
+            <datafile name="tomeguChubbyArms" target="tomegu" local="true">tomeguChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="belt 02ShoulderSmooth" target="belt 02" local="true">belt 02ShoulderSmooth.bsd</datafile>
+            <datafile name="tomeguShoulderSmooth" target="tomegu" local="true">tomeguShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="belt 02ShoulderWidth" target="belt 02" local="true">belt 02ShoulderWidth.bsd</datafile>
+            <datafile name="tomeguShoulderWidth" target="tomegu" local="true">tomeguShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="belt 02BigTorso" target="belt 02" local="true">belt 02BigTorso.bsd</datafile>
+            <datafile name="tomeguBigTorso" target="tomegu" local="true">tomeguBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="belt 02Waist" target="belt 02" local="true">belt 02Waist.bsd</datafile>
+            <datafile name="tomeguWaist" target="tomegu" local="true">tomeguWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="belt 02WideWaistLine" target="belt 02" local="true">belt 02WideWaistLine.bsd</datafile>
+            <datafile name="tomeguWideWaistLine" target="tomegu" local="true">tomeguWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="belt 02ChubbyWaist" target="belt 02" local="true">belt 02ChubbyWaist.bsd</datafile>
+            <datafile name="tomeguChubbyWaist" target="tomegu" local="true">tomeguChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="belt 02Belly" target="belt 02" local="true">belt 02Belly.bsd</datafile>
+            <datafile name="tomeguBelly" target="tomegu" local="true">tomeguBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="belt 02BigBelly" target="belt 02" local="true">belt 02BigBelly.bsd</datafile>
+            <datafile name="tomeguBigBelly" target="tomegu" local="true">tomeguBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="belt 02PregnancyBelly" target="belt 02" local="true">belt 02PregnancyBelly.bsd</datafile>
+            <datafile name="tomeguPregnancyBelly" target="tomegu" local="true">tomeguPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="belt 02TummyTuck" target="belt 02" local="true">belt 02TummyTuck.bsd</datafile>
+            <datafile name="tomeguTummyTuck" target="tomegu" local="true">tomeguTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="belt 02Back" target="belt 02" local="true">belt 02Back.bsd</datafile>
+            <datafile name="tomeguBack" target="tomegu" local="true">tomeguBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="belt 02Hipbone" target="belt 02" local="true">belt 02Hipbone.bsd</datafile>
+            <datafile name="tomeguHipbone" target="tomegu" local="true">tomeguHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="belt 02Hips" target="belt 02" local="true">belt 02Hips.bsd</datafile>
+            <datafile name="tomeguHips" target="tomegu" local="true">tomeguHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="belt 02ButtCrack" target="belt 02" local="true">belt 02ButtCrack.bsd</datafile>
+            <datafile name="tomeguButtCrack" target="tomegu" local="true">tomeguButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="belt 02Butt" target="belt 02" local="true">belt 02Butt.bsd</datafile>
+            <datafile name="tomeguButt" target="tomegu" local="true">tomeguButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="belt 02ButtSmall" target="belt 02" local="true">belt 02ButtSmall.bsd</datafile>
+            <datafile name="tomeguButtSmall" target="tomegu" local="true">tomeguButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="belt 02ButtShape2" target="belt 02" local="true">belt 02ButtShape2.bsd</datafile>
+            <datafile name="tomeguButtShape2" target="tomegu" local="true">tomeguButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="belt 02BigButt" target="belt 02" local="true">belt 02BigButt.bsd</datafile>
+            <datafile name="tomeguBigButt" target="tomegu" local="true">tomeguBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="belt 02ChubbyButt" target="belt 02" local="true">belt 02ChubbyButt.bsd</datafile>
+            <datafile name="tomeguChubbyButt" target="tomegu" local="true">tomeguChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="belt 02AppleCheeks" target="belt 02" local="true">belt 02AppleCheeks.bsd</datafile>
+            <datafile name="tomeguAppleCheeks" target="tomegu" local="true">tomeguAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="belt 02RoundAss" target="belt 02" local="true">belt 02RoundAss.bsd</datafile>
+            <datafile name="tomeguRoundAss" target="tomegu" local="true">tomeguRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="belt 02Groin" target="belt 02" local="true">belt 02Groin.bsd</datafile>
+            <datafile name="tomeguGroin" target="tomegu" local="true">tomeguGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="belt 02SlimThighs" target="belt 02" local="true">belt 02SlimThighs.bsd</datafile>
+            <datafile name="tomeguSlimThighs" target="tomegu" local="true">tomeguSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="belt 02Thighs" target="belt 02" local="true">belt 02Thighs.bsd</datafile>
+            <datafile name="tomeguThighs" target="tomegu" local="true">tomeguThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="belt 02ChubbyLegs" target="belt 02" local="true">belt 02ChubbyLegs.bsd</datafile>
+            <datafile name="tomeguChubbyLegs" target="tomegu" local="true">tomeguChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="belt 02Legs" target="belt 02" local="true">belt 02Legs.bsd</datafile>
+            <datafile name="tomeguLegs" target="tomegu" local="true">tomeguLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="belt 02KneeHeight" target="belt 02" local="true">belt 02KneeHeight.bsd</datafile>
+            <datafile name="tomeguKneeHeight" target="tomegu" local="true">tomeguKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="belt 02SmallSeam" target="belt 02" local="true">belt 02SmallSeam.bsd</datafile>
+            <datafile name="tomeguSmallSeam" target="tomegu" local="true">tomeguSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="belt 02ShoulderTweak" target="belt 02" local="true">belt 02ShoulderTweak.bsd</datafile>
+            <datafile name="tomeguShoulderTweak" target="tomegu" local="true">tomeguShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

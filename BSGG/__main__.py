@@ -229,7 +229,7 @@ def GroupingConcatenationByName(tupleListIn):
     comparisonString=tupleListIn[1][0]
 
     #While loop terminating when i>length(tuplelist)
-    while tupleIdx< len(tupleListIn):
+    while tupleIdx< len(tupleListIn)-1:
 
         
 
@@ -256,21 +256,27 @@ def GroupingConcatenationByName(tupleListIn):
             #currGroupString=(comparisonString[0:matchedLength]) 
         
             #Reassign Starting Index
-            startingIdx=tupleIdx
+            startingIdx=tupleIdx+1
             
             referenceString=comparisonString
             comparisonString=tupleListIn[tupleIdx][0]
             groupIterator=0
 
         
-        #Assign Ending ID:
-        endingIdx=tupleIdx
+
+        
+        
         #Iterate the counter
         tupleIdx=tupleIdx+1
 
+        #Assign Ending ID:
+        endingIdx=tupleIdx
+
         #Assign the new Comparison String
-        if (tupleIdx != len(tupleListIn)):
-            comparisonString=tupleListIn[tupleIdx][0]
+        if (tupleIdx <= len(tupleListIn)-2):
+
+
+            comparisonString=tupleListIn[tupleIdx+1][0]
         #This is the case for the finall item in the list to be read in.    
         else:
             #Create Tuple and append
