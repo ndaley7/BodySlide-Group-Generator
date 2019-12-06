@@ -1,9 +1,9 @@
 <SliderGroupGeneratorConfig>
   <!--File paths for the Bodyslide folders important to this tool. 
  Note they all use / end with an occurence of /-->
-  <SliderGroupsPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderGroups/</SliderGroupsPath>
-  <SliderSetsPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderSets/</SliderSetsPath>
-  <SliderCategoriesPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderCategories/</SliderCategoriesPath>
-  <SliderPresetsPath>C:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderPresets/</SliderPresetsPath>
+  <SliderGroupsPath>E:/SteamLibrary/steamapps/common/Skyrim/Data/CalienteTools/BodySlide/SliderGroups/</SliderGroupsPath>
+  <SliderSetsPath>E:/SteamLibrary/steamapps/common/Skyrim/Data/CalienteTools/BodySlide/SliderSets/</SliderSetsPath>
+  <SliderCategoriesPath>E:/SteamLibrary/steamapps/common/Skyrim/Data/CalienteTools/BodySlide/SliderCategories/</SliderCategoriesPath>
+  <SliderPresetsPath>E:/SteamLibrary/steamapps/common/Skyrim/Data/CalienteTools/BodySlide/SliderPresets/</SliderPresetsPath>
   <EnableDebugBSGG>True</EnableDebugBSGG>
 </SliderGroupGeneratorConfig>
