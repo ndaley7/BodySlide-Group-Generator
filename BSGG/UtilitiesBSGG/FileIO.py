@@ -124,9 +124,43 @@ def SliderSetBackup(sliderPath):
                 #Copy File and overwrite if difference in size is detected.
                 copy2(sliderPath+"/BackupBSCG/"+os.path.basename(file),file)
                 LoggingInfoBSCG("BACKUP: Size Difference Detected, Reverting "+os.path.basename(file))
+
+
+    
             
-            
-            
+#Lists slider .xml/.osp files and checks for size parity with the backup in BackupBSCG folder
+#If they are different then the current slider file is reverted to the original
+#If it does exist, ensures parity (Namewise) with the sliderset folder            
+def SliderRevertCheck(sliderPath):
+    #Variables
+    newbackupCount=0
+    LoggingInfoBSCG("REVERT: Initializing Sliderset OSP/XML Backup")
+    #Ensure Filename parity between sliderSetPath folder and the backup
+    originalListXML=GetFileList(sliderPath,"*.xml")
+    originalListOSP=GetFileList(sliderPath,"*.osp")
+
+    #Concatenate both .OSP and .XML filelist for compatibility
+    LoggingInfoBSCG("REVERT: Concat XML and OSP files List")
+    originalListXML.extend(originalListOSP)
+    originalList=originalListXML
+    #Check for existance of BackupBSCG Folder
+    backupBSCGFound=os.path.isdir(sliderPath+"/BackupBSCG")
+
+
+    #After backup is completed, do one more pass to compare size of backed up files to the size of those currently in the SliderSet/Group directory
+    for file in originalList:
+            #Assign size from both the original and copy files
+            originalSize=os.path.getsize(file)
+            backupSize=os.path.getsize(sliderPath+"/BackupBSCG/"+os.path.basename(file))
+
+            #Compare Backup and Original Sizes
+
+            if(originalSize!=backupSize):
+                #Copy File and overwrite if difference in size is detected.
+                copy2(sliderPath+"/BackupBSCG/"+os.path.basename(file),file)
+                LoggingInfoBSCG("REVERT: Size Difference Detected, Reverting "+os.path.basename(file))
+
+
 
 #Checks for existing MasterListX.xml files
 #Offers option to Delete existing ones or create another with a higher iterator
