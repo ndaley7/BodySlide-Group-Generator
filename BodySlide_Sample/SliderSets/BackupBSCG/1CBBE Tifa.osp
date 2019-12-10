@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="1CBBE Tifa Top">
+        <DataFolder>1CBBE Tifa</DataFolder>
+        <SourceFile>1CBBE TifaTop.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\FF_Tifa_UNPBO</OutputPath>
+        <OutputFile GenWeights="true">Tifa Top</OutputFile>
+        <Shape target="0Top">0Top</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="0TopBreasts" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="0TopBreastsSmall" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="0TopBreastsSH" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="0TopBreastsSSH" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="0TopBreastsFantasy" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="0TopDoubleMelon" target="0Top" local="true">1CBBE TifaTop.osd\0TopDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="0TopBreastCleavage" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="0TopBreastFlatness" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="0TopBreastGravity" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="0TopPushUp" target="0Top" local="true">1CBBE TifaTop.osd\0TopPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="0TopBreastHeight" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="0TopBreastPerkiness" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="0TopBreastWidth" target="0Top" local="true">1CBBE TifaTop.osd\0TopBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="0TopNippleDistance" target="0Top" local="true">1CBBE TifaTop.osd\0TopNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="0TopNipplePerkiness" target="0Top" local="true">1CBBE TifaTop.osd\0TopNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="0TopNippleLength" target="0Top" local="true">1CBBE TifaTop.osd\0TopNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="0TopNippleSize" target="0Top" local="true">1CBBE TifaTop.osd\0TopNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="0TopNippleAreola" target="0Top" local="true">1CBBE TifaTop.osd\0TopNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="0TopNippleUp" target="0Top" local="true">1CBBE TifaTop.osd\0TopNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="0TopNippleDown" target="0Top" local="true">1CBBE TifaTop.osd\0TopNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="0TopNippleTip" target="0Top" local="true">1CBBE TifaTop.osd\0TopNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="0TopArms" target="0Top" local="true">1CBBE TifaTop.osd\0TopArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="0TopChubbyArms" target="0Top" local="true">1CBBE TifaTop.osd\0TopChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="0TopShoulderSmooth" target="0Top" local="true">1CBBE TifaTop.osd\0TopShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="0TopShoulderWidth" target="0Top" local="true">1CBBE TifaTop.osd\0TopShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="0TopBigTorso" target="0Top" local="true">1CBBE TifaTop.osd\0TopBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="0TopWaist" target="0Top" local="true">1CBBE TifaTop.osd\0TopWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="0TopWideWaistLine" target="0Top" local="true">1CBBE TifaTop.osd\0TopWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="0TopChubbyWaist" target="0Top" local="true">1CBBE TifaTop.osd\0TopChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="0TopBelly" target="0Top" local="true">1CBBE TifaTop.osd\0TopBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="0TopBigBelly" target="0Top" local="true">1CBBE TifaTop.osd\0TopBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="0TopPregnancyBelly" target="0Top" local="true">1CBBE TifaTop.osd\0TopPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="0TopTummyTuck" target="0Top" local="true">1CBBE TifaTop.osd\0TopTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="0TopBack" target="0Top" local="true">1CBBE TifaTop.osd\0TopBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="0TopHips" target="0Top" local="true">1CBBE TifaTop.osd\0TopHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="0TopChubbyButt" target="0Top" local="true">1CBBE TifaTop.osd\0TopChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="0TopSmallSeam" target="0Top" local="true">1CBBE TifaTop.osd\0TopSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="0TopShoulderTweak" target="0Top" local="true">1CBBE TifaTop.osd\0TopShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="1CBBE Tifa Panty">
+        <DataFolder>1CBBE Tifa</DataFolder>
+        <SourceFile>1CBBE TifaPanty.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\FF_Tifa_UNPBO</OutputPath>
+        <OutputFile GenWeights="true">Tifa Panty</OutputFile>
+        <Shape target="Panty">Panty</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="PantyBreastsSmall" target="Panty" local="true">1CBBE TifaPanty.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="PantyBigTorso" target="Panty" local="true">1CBBE TifaPanty.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="PantyWaist" target="Panty" local="true">1CBBE TifaPanty.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="PantyWideWaistLine" target="Panty" local="true">1CBBE TifaPanty.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="PantyChubbyWaist" target="Panty" local="true">1CBBE TifaPanty.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="PantyBelly" target="Panty" local="true">1CBBE TifaPanty.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="PantyBigBelly" target="Panty" local="true">1CBBE TifaPanty.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">1CBBE TifaPanty.osd\PantyPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="PantyTummyTuck" target="Panty" local="true">1CBBE TifaPanty.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="PantyBack" target="Panty" local="true">1CBBE TifaPanty.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="PantyHipbone" target="Panty" local="true">1CBBE TifaPanty.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="PantyHips" target="Panty" local="true">1CBBE TifaPanty.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="PantyButtCrack" target="Panty" local="true">1CBBE TifaPanty.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="PantyButt" target="Panty" local="true">1CBBE TifaPanty.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="PantyButtSmall" target="Panty" local="true">1CBBE TifaPanty.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="PantyButtShape2" target="Panty" local="true">1CBBE TifaPanty.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="PantyBigButt" target="Panty" local="true">1CBBE TifaPanty.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="PantyChubbyButt" target="Panty" local="true">1CBBE TifaPanty.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="PantyAppleCheeks" target="Panty" local="true">1CBBE TifaPanty.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="PantyRoundAss" target="Panty" local="true">1CBBE TifaPanty.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="PantyGroin" target="Panty" local="true">1CBBE TifaPanty.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="PantySlimThighs" target="Panty" local="true">1CBBE TifaPanty.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="PantyThighs" target="Panty" local="true">1CBBE TifaPanty.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="PantyChubbyLegs" target="Panty" local="true">1CBBE TifaPanty.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="PantyLegs" target="Panty" local="true">1CBBE TifaPanty.osd\PantyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="PantyKneeHeight" target="Panty" local="true">1CBBE TifaPanty.osd\PantyKneeHeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="1CBBE Tifa Skirt">
+        <DataFolder>1CBBE Tifa</DataFolder>
+        <SourceFile>1CBBE TifaSkirt.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\FF_Tifa_UNPBO</OutputPath>
+        <OutputFile GenWeights="true">Tifa Skirt</OutputFile>
+        <Shape target="0Belt">0Belt</Shape>
+        <Shape target="0Skirt">0Skirt</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="0BeltBreastsSmall" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltBreastsSmall</Data>
+            <Data name="0SkirtBreastsSmall" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="0BeltBreastHeight" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltBreastHeight</Data>
+            <Data name="0SkirtBreastHeight" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="0BeltBigTorso" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltBigTorso</Data>
+            <Data name="0SkirtBigTorso" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="0BeltWaist" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltWaist</Data>
+            <Data name="0SkirtWaist" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="0BeltWideWaistLine" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltWideWaistLine</Data>
+            <Data name="0SkirtWideWaistLine" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="0BeltChubbyWaist" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltChubbyWaist</Data>
+            <Data name="0SkirtChubbyWaist" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="0BeltBelly" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltBelly</Data>
+            <Data name="0SkirtBelly" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="0BeltBigBelly" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltBigBelly</Data>
+            <Data name="0SkirtBigBelly" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="0BeltPregnancyBelly" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltPregnancyBelly</Data>
+            <Data name="0SkirtPregnancyBelly" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="0BeltTummyTuck" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltTummyTuck</Data>
+            <Data name="0SkirtTummyTuck" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="0BeltBack" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltBack</Data>
+            <Data name="0SkirtBack" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="0BeltHipbone" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltHipbone</Data>
+            <Data name="0SkirtHipbone" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="0BeltHips" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltHips</Data>
+            <Data name="0SkirtHips" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="0BeltButtCrack" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltButtCrack</Data>
+            <Data name="0SkirtButtCrack" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="0BeltButt" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltButt</Data>
+            <Data name="0SkirtButt" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="0BeltButtSmall" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltButtSmall</Data>
+            <Data name="0SkirtButtSmall" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="0BeltButtShape2" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltButtShape2</Data>
+            <Data name="0SkirtButtShape2" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="0BeltBigButt" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltBigButt</Data>
+            <Data name="0SkirtBigButt" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="0BeltChubbyButt" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltChubbyButt</Data>
+            <Data name="0SkirtChubbyButt" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="0BeltAppleCheeks" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltAppleCheeks</Data>
+            <Data name="0SkirtAppleCheeks" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="0BeltRoundAss" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltRoundAss</Data>
+            <Data name="0SkirtRoundAss" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="0SkirtGroin" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="0BeltSlimThighs" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltSlimThighs</Data>
+            <Data name="0SkirtSlimThighs" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="0BeltThighs" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltThighs</Data>
+            <Data name="0SkirtThighs" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="0BeltChubbyLegs" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltChubbyLegs</Data>
+            <Data name="0SkirtChubbyLegs" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="0BeltLegs" target="0Belt" local="true">1CBBE TifaSkirt.osd\0BeltLegs</Data>
+            <Data name="0SkirtLegs" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="0SkirtKneeHeight" target="0Skirt" local="true">1CBBE TifaSkirt.osd\0SkirtKneeHeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="1CBBE Tifa Suspenders">
+        <DataFolder>1CBBE Tifa</DataFolder>
+        <SourceFile>1CBBE TifaSuspenders.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\FF_Tifa_UNPBO</OutputPath>
+        <OutputFile GenWeights="true">Tifa suspenders</OutputFile>
+        <Shape target="0Silver">0Silver</Shape>
+        <Shape target="0Sus">0Sus</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="0SilverBreasts" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreasts</Data>
+            <Data name="0SusBreasts" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="0SilverBreastsSmall" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastsSmall</Data>
+            <Data name="0SusBreastsSmall" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="0SilverBreastsSH" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastsSH</Data>
+            <Data name="0SusBreastsSH" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="0SilverBreastsSSH" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastsSSH</Data>
+            <Data name="0SusBreastsSSH" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="0SilverBreastsFantasy" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastsFantasy</Data>
+            <Data name="0SusBreastsFantasy" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="0SilverDoubleMelon" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverDoubleMelon</Data>
+            <Data name="0SusDoubleMelon" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="0SilverBreastCleavage" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastCleavage</Data>
+            <Data name="0SusBreastCleavage" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="0SilverBreastFlatness" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastFlatness</Data>
+            <Data name="0SusBreastFlatness" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="0SilverBreastGravity" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastGravity</Data>
+            <Data name="0SusBreastGravity" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="0SilverPushUp" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverPushUp</Data>
+            <Data name="0SusPushUp" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="0SilverBreastHeight" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastHeight</Data>
+            <Data name="0SusBreastHeight" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="0SilverBreastPerkiness" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastPerkiness</Data>
+            <Data name="0SusBreastPerkiness" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="0SilverBreastWidth" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBreastWidth</Data>
+            <Data name="0SusBreastWidth" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="0SusNippleDistance" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="0SilverNippleLength" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverNippleLength</Data>
+            <Data name="0SusNippleLength" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusNippleLength</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="0SilverNippleAreola" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverNippleAreola</Data>
+            <Data name="0SusNippleAreola" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="0SilverNippleUp" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverNippleUp</Data>
+            <Data name="0SusNippleUp" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="0SilverNippleDown" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverNippleDown</Data>
+            <Data name="0SusNippleDown" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="0SilverArms" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverArms</Data>
+            <Data name="0SusArms" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="0SilverChubbyArms" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverChubbyArms</Data>
+            <Data name="0SusChubbyArms" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="0SilverShoulderSmooth" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverShoulderSmooth</Data>
+            <Data name="0SusShoulderSmooth" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="0SilverShoulderWidth" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverShoulderWidth</Data>
+            <Data name="0SusShoulderWidth" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="0SilverBigTorso" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBigTorso</Data>
+            <Data name="0SusBigTorso" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="0SilverWaist" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverWaist</Data>
+            <Data name="0SusWaist" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="0SilverWideWaistLine" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverWideWaistLine</Data>
+            <Data name="0SusWideWaistLine" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="0SilverChubbyWaist" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverChubbyWaist</Data>
+            <Data name="0SusChubbyWaist" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="0SilverBelly" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBelly</Data>
+            <Data name="0SusBelly" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="0SilverBigBelly" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBigBelly</Data>
+            <Data name="0SusBigBelly" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="0SilverPregnancyBelly" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverPregnancyBelly</Data>
+            <Data name="0SusPregnancyBelly" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="0SilverTummyTuck" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverTummyTuck</Data>
+            <Data name="0SusTummyTuck" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="0SilverBack" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBack</Data>
+            <Data name="0SusBack" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="0SilverHipbone" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverHipbone</Data>
+            <Data name="0SusHipbone" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="0SilverHips" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverHips</Data>
+            <Data name="0SusHips" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="0SilverButtCrack" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverButtCrack</Data>
+            <Data name="0SusButtCrack" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="0SilverButt" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverButt</Data>
+            <Data name="0SusButt" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="0SilverButtSmall" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverButtSmall</Data>
+            <Data name="0SusButtSmall" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="0SilverButtShape2" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverButtShape2</Data>
+            <Data name="0SusButtShape2" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="0SilverBigButt" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverBigButt</Data>
+            <Data name="0SusBigButt" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="0SilverChubbyButt" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverChubbyButt</Data>
+            <Data name="0SusChubbyButt" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="0SilverAppleCheeks" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverAppleCheeks</Data>
+            <Data name="0SusAppleCheeks" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="0SilverRoundAss" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverRoundAss</Data>
+            <Data name="0SusRoundAss" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusRoundAss</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="0SilverSlimThighs" target="0Silver" local="true">1CBBE TifaSuspenders.osd\0SilverSlimThighs</Data>
+            <Data name="0SusSlimThighs" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusSlimThighs</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="0SusSmallSeam" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="0SusShoulderTweak" target="0Sus" local="true">1CBBE TifaSuspenders.osd\0SusShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="1CBBE Tifa Gloves">
+        <DataFolder>1CBBE Tifa</DataFolder>
+        <SourceFile>1CBBE TifaGloves.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\FF_Tifa_UNPBO</OutputPath>
+        <OutputFile GenWeights="true">Tifa Glove</OutputFile>
+        <Shape target="Arm">Arm</Shape>
+        <Shape target="Gard">Gard</Shape>
+        <Shape target="Gloves">Gloves</Shape>
+        <Shape target="Hands" DataFolder="1CBBE Tifa">Hands</Shape>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="ArmBreastFlatness" target="Arm" local="true">1CBBE TifaGloves.osd\ArmBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="ArmBreastGravity" target="Arm" local="true">1CBBE TifaGloves.osd\ArmBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="ArmPushUp" target="Arm" local="true">1CBBE TifaGloves.osd\ArmPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="ArmBreastHeight" target="Arm" local="true">1CBBE TifaGloves.osd\ArmBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="ArmBreastWidth" target="Arm" local="true">1CBBE TifaGloves.osd\ArmBreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="ArmArms" target="Arm" local="true">1CBBE TifaGloves.osd\ArmArms</Data>
+            <Data name="GardArms" target="Gard" local="true">1CBBE TifaGloves.osd\GardArms</Data>
+            <Data name="GlovesArms" target="Gloves" local="true">1CBBE TifaGloves.osd\GlovesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ArmChubbyArms" target="Arm" local="true">1CBBE TifaGloves.osd\ArmChubbyArms</Data>
+            <Data name="GardChubbyArms" target="Gard" local="true">1CBBE TifaGloves.osd\GardChubbyArms</Data>
+            <Data name="GlovesChubbyArms" target="Gloves" local="true">1CBBE TifaGloves.osd\GlovesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ArmShoulderWidth" target="Arm" local="true">1CBBE TifaGloves.osd\ArmShoulderWidth</Data>
+            <Data name="GardShoulderWidth" target="Gard" local="true">1CBBE TifaGloves.osd\GardShoulderWidth</Data>
+            <Data name="GlovesShoulderWidth" target="Gloves" local="true">1CBBE TifaGloves.osd\GlovesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="ArmBigTorso" target="Arm" local="true">1CBBE TifaGloves.osd\ArmBigTorso</Data>
+            <Data name="GardBigTorso" target="Gard" local="true">1CBBE TifaGloves.osd\GardBigTorso</Data>
+            <Data name="GlovesBigTorso" target="Gloves" local="true">1CBBE TifaGloves.osd\GlovesBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="ArmWaist" target="Arm" local="true">1CBBE TifaGloves.osd\ArmWaist</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="ArmTummyTuck" target="Arm" local="true">1CBBE TifaGloves.osd\ArmTummyTuck</Data>
+            <Data name="GlovesTummyTuck" target="Gloves" local="true">1CBBE TifaGloves.osd\GlovesTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="ArmBack" target="Arm" local="true">1CBBE TifaGloves.osd\ArmBack</Data>
+            <Data name="GardBack" target="Gard" local="true">1CBBE TifaGloves.osd\GardBack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="ArmButt" target="Arm" local="true">1CBBE TifaGloves.osd\ArmButt</Data>
+            <Data name="GardButt" target="Gard" local="true">1CBBE TifaGloves.osd\GardButt</Data>
+            <Data name="GlovesButt" target="Gloves" local="true">1CBBE TifaGloves.osd\GlovesButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="ArmSmallSeam" target="Arm" local="true">1CBBE TifaGloves.osd\ArmSmallSeam</Data>
+            <Data name="GardSmallSeam" target="Gard" local="true">1CBBE TifaGloves.osd\GardSmallSeam</Data>
+            <Data name="GlovesSmallSeam" target="Gloves" local="true">1CBBE TifaGloves.osd\GlovesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="1CBBE Tifa Sneakers">
+        <DataFolder>1CBBE Tifa</DataFolder>
+        <SourceFile>1CBBE TifaSneakers.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\FF_Tifa_UNPBO</OutputPath>
+        <OutputFile GenWeights="true">Tifa sneakers</OutputFile>
+        <Shape target="0Himo1">0Himo1</Shape>
+        <Shape target="0Himo2">0Himo2</Shape>
+        <Shape target="0sneakers">0sneakers</Shape>
+        <Shape target="0sox">0sox</Shape>
+        <Shape target="Parts">Parts</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="0Himo1PregnancyBelly" target="0Himo1" local="true">1CBBE TifaSneakers.osd\0Himo1PregnancyBelly</Data>
+            <Data name="0Himo2PregnancyBelly" target="0Himo2" local="true">1CBBE TifaSneakers.osd\0Himo2PregnancyBelly</Data>
+            <Data name="0sneakersPregnancyBelly" target="0sneakers" local="true">1CBBE TifaSneakers.osd\0sneakersPregnancyBelly</Data>
+            <Data name="0soxPregnancyBelly" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxPregnancyBelly</Data>
+            <Data name="PartsPregnancyBelly" target="Parts" local="true">1CBBE TifaSneakers.osd\PartsPregnancyBelly</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="0soxChubbyLegs" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="0Himo1Legs" target="0Himo1" local="true">1CBBE TifaSneakers.osd\0Himo1Legs</Data>
+            <Data name="0Himo2Legs" target="0Himo2" local="true">1CBBE TifaSneakers.osd\0Himo2Legs</Data>
+            <Data name="0sneakersLegs" target="0sneakers" local="true">1CBBE TifaSneakers.osd\0sneakersLegs</Data>
+            <Data name="0soxLegs" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxLegs</Data>
+            <Data name="PartsLegs" target="Parts" local="true">1CBBE TifaSneakers.osd\PartsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="0soxKneeHeight" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="0soxCalfSize" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="0soxCalfSmooth" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="0Himo1Ankles" target="0Himo1" local="true">1CBBE TifaSneakers.osd\0Himo1Ankles</Data>
+            <Data name="0Himo2Ankles" target="0Himo2" local="true">1CBBE TifaSneakers.osd\0Himo2Ankles</Data>
+            <Data name="0sneakersAnkles" target="0sneakers" local="true">1CBBE TifaSneakers.osd\0sneakersAnkles</Data>
+            <Data name="0soxAnkles" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxAnkles</Data>
+            <Data name="PartsAnkles" target="Parts" local="true">1CBBE TifaSneakers.osd\PartsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="0Himo1SmallSeam" target="0Himo1" local="true">1CBBE TifaSneakers.osd\0Himo1SmallSeam</Data>
+            <Data name="0Himo2SmallSeam" target="0Himo2" local="true">1CBBE TifaSneakers.osd\0Himo2SmallSeam</Data>
+            <Data name="0sneakersSmallSeam" target="0sneakers" local="true">1CBBE TifaSneakers.osd\0sneakersSmallSeam</Data>
+            <Data name="0soxSmallSeam" target="0sox" local="true">1CBBE TifaSneakers.osd\0soxSmallSeam</Data>
+            <Data name="PartsSmallSeam" target="Parts" local="true">1CBBE TifaSneakers.osd\PartsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

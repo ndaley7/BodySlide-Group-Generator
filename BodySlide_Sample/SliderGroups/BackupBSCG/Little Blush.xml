@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="CBAdvanced">
+        <Member name="Little Blush CBBE"/>
+    </Group>
+    <Group name="Little Blush">
+        <Member name="Little Blush CBBE"/>
+    </Group>
+</SliderGroups>

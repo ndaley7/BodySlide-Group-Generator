@@ -1,0 +1,183 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Swim White">
+        <DataFolder>Cre Swim White</DataFolder>
+        <SourceFile>Cre Swim White.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\Mizugi</OutputPath>
+        <OutputFile GenWeights="true">White</OutputFile>
+        <Shape target="Cuvier organ">Cuvier organ</Shape>
+        <Shape target="White">White</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="WhiteBreasts" target="White" local="true">Cre Swim White.osd\WhiteBreasts</Data>
+            <Data name="Cuvier organBreasts" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="WhiteBreastsSmall" target="White" local="true">Cre Swim White.osd\WhiteBreastsSmall</Data>
+            <Data name="Cuvier organBreastsSmall" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="WhiteBreastsSH" target="White" local="true">Cre Swim White.osd\WhiteBreastsSH</Data>
+            <Data name="Cuvier organBreastsSH" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="WhiteBreastsSSH" target="White" local="true">Cre Swim White.osd\WhiteBreastsSSH</Data>
+            <Data name="Cuvier organBreastsSSH" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="WhiteBreastsFantasy" target="White" local="true">Cre Swim White.osd\WhiteBreastsFantasy</Data>
+            <Data name="Cuvier organBreastsFantasy" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="WhiteDoubleMelon" target="White" local="true">Cre Swim White.osd\WhiteDoubleMelon</Data>
+            <Data name="Cuvier organDoubleMelon" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="WhiteBreastCleavage" target="White" local="true">Cre Swim White.osd\WhiteBreastCleavage</Data>
+            <Data name="Cuvier organBreastCleavage" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="WhiteBreastFlatness" target="White" local="true">Cre Swim White.osd\WhiteBreastFlatness</Data>
+            <Data name="Cuvier organBreastFlatness" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="WhiteBreastGravity" target="White" local="true">Cre Swim White.osd\WhiteBreastGravity</Data>
+            <Data name="Cuvier organBreastGravity" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="WhitePushUp" target="White" local="true">Cre Swim White.osd\WhitePushUp</Data>
+            <Data name="Cuvier organPushUp" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="WhiteBreastHeight" target="White" local="true">Cre Swim White.osd\WhiteBreastHeight</Data>
+            <Data name="Cuvier organBreastHeight" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="WhiteBreastPerkiness" target="White" local="true">Cre Swim White.osd\WhiteBreastPerkiness</Data>
+            <Data name="Cuvier organBreastPerkiness" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="WhiteBreastWidth" target="White" local="true">Cre Swim White.osd\WhiteBreastWidth</Data>
+            <Data name="Cuvier organBreastWidth" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="WhiteNippleDistance" target="White" local="true">Cre Swim White.osd\WhiteNippleDistance</Data>
+            <Data name="Cuvier organNippleDistance" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="WhiteNipplePerkiness" target="White" local="true">Cre Swim White.osd\WhiteNipplePerkiness</Data>
+            <Data name="Cuvier organNipplePerkiness" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="WhiteNippleLength" target="White" local="true">Cre Swim White.osd\WhiteNippleLength</Data>
+            <Data name="Cuvier organNippleLength" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="WhiteNippleSize" target="White" local="true">Cre Swim White.osd\WhiteNippleSize</Data>
+            <Data name="Cuvier organNippleSize" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="WhiteNippleAreola" target="White" local="true">Cre Swim White.osd\WhiteNippleAreola</Data>
+            <Data name="Cuvier organNippleAreola" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="WhiteNippleUp" target="White" local="true">Cre Swim White.osd\WhiteNippleUp</Data>
+            <Data name="Cuvier organNippleUp" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="WhiteNippleDown" target="White" local="true">Cre Swim White.osd\WhiteNippleDown</Data>
+            <Data name="Cuvier organNippleDown" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="Cuvier organNippleTip" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Cuvier organArms" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="Cuvier organChubbyArms" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="WhiteShoulderSmooth" target="White" local="true">Cre Swim White.osd\WhiteShoulderSmooth</Data>
+            <Data name="Cuvier organShoulderSmooth" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="Cuvier organShoulderWidth" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="WhiteBigTorso" target="White" local="true">Cre Swim White.osd\WhiteBigTorso</Data>
+            <Data name="Cuvier organBigTorso" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Cuvier organWaist" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Cuvier organWideWaistLine" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Cuvier organChubbyWaist" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Cuvier organBelly" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="Cuvier organBigBelly" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="WhitePregnancyBelly" target="White" local="true">Cre Swim White.osd\WhitePregnancyBelly</Data>
+            <Data name="Cuvier organPregnancyBelly" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Cuvier organTummyTuck" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Cuvier organBack" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Cuvier organHipbone" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Cuvier organHips" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Cuvier organButt" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Cuvier organButtSmall" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Cuvier organButtShape2" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Cuvier organBigButt" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Cuvier organChubbyButt" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Cuvier organAppleCheeks" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organAppleCheeks</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Cuvier organGroin" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Cuvier organSlimThighs" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Cuvier organThighs" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Cuvier organChubbyLegs" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Cuvier organLegs" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Cuvier organKneeHeight" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organKneeHeight</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Cuvier organSmallSeam" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="Cuvier organShoulderTweak" target="Cuvier organ" local="true">Cre Swim White.osd\Cuvier organShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

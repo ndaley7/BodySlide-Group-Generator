@@ -1,0 +1,52 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Halloween Droron Boots">
+        <DataFolder>Cre Halloween Droron Boots</DataFolder>
+        <SourceFile>Cre Halloween Droron Boots.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\HalloWeen\Droron</OutputPath>
+        <OutputFile GenWeights="true">Droron_boots</OutputFile>
+        <Shape target="Boots.002">Boots.002</Shape>
+        <Shape target="Boots.01_1">Boots.01_1</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Boots.01_1PregnancyBelly" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Boots.002ButtSmall" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002ButtSmall</Data>
+            <Data name="Boots.01_1ButtSmall" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1ButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Boots.002SlimThighs" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002SlimThighs</Data>
+            <Data name="Boots.01_1SlimThighs" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Boots.002Thighs" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002Thighs</Data>
+            <Data name="Boots.01_1Thighs" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Boots.002ChubbyLegs" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002ChubbyLegs</Data>
+            <Data name="Boots.01_1ChubbyLegs" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Boots.002Legs" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002Legs</Data>
+            <Data name="Boots.01_1Legs" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Boots.002KneeHeight" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002KneeHeight</Data>
+            <Data name="Boots.01_1KneeHeight" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="Boots.002CalfSize" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002CalfSize</Data>
+            <Data name="Boots.01_1CalfSize" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="Boots.002CalfSmooth" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002CalfSmooth</Data>
+            <Data name="Boots.01_1CalfSmooth" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Boots.002Ankles" target="Boots.002" local="true">Cre Halloween Droron Boots.osd\Boots.002Ankles</Data>
+            <Data name="Boots.01_1Ankles" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Boots.01_1SmallSeam" target="Boots.01_1" local="true">Cre Halloween Droron Boots.osd\Boots.01_1SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

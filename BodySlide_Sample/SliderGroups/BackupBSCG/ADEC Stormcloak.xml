@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="ADEC Stormcloak">
+        <Member name="ADEC Stormcloak Cuirass HDT"/>
+        <Member name="ADEC Stormcloak Gauntlets"/>
+        <Member name="ADEC Stormcloak High Heels HDT"/>
+    </Group>
+    <Group name="CBAdvanced">
+        <Member name="ADEC Stormcloak Cuirass HDT"/>
+        <Member name="ADEC Stormcloak Gauntlets"/>
+        <Member name="ADEC Stormcloak High Heels HDT"/>
+    </Group>
+</SliderGroups>

@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Jester">
+        <DataFolder>CT77Jester</DataFolder>
+        <SourceFile>CT77Jester.nif</SourceFile>
+        <OutputPath>meshes\clothes\jester</OutputPath>
+        <OutputFile GenWeights="true">jesterf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="JesterBelt">JesterBelt</Shape>
+        <Shape target="JesterChest">JesterChest</Shape>
+        <Shape target="JesterLeggings">JesterLeggings</Shape>
+        <Shape target="JesterSleeves">JesterSleeves</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="JesterChestBreasts" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="JesterBeltBreastsSmall" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBreastsSmall</Data>
+            <Data name="JesterChestBreastsSmall" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="JesterChestBreastsSH" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="JesterChestBreastsSSH" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="JesterChestBreastsFantasy" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="JesterChestDoubleMelon" target="JesterChest" local="true">CT77Jester.osd\JesterChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="JesterChestBreastCleavage" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="JesterBeltBreastFlatness" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBreastFlatness</Data>
+            <Data name="JesterChestBreastFlatness" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastFlatness</Data>
+            <Data name="JesterSleevesBreastFlatness" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="JesterChestBreastGravity" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="JesterChestPushUp" target="JesterChest" local="true">CT77Jester.osd\JesterChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="JesterBeltBreastHeight" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBreastHeight</Data>
+            <Data name="JesterChestBreastHeight" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastHeight</Data>
+            <Data name="JesterSleevesBreastHeight" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="JesterChestBreastPerkiness" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="JesterBeltBreastWidth" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBreastWidth</Data>
+            <Data name="JesterChestBreastWidth" target="JesterChest" local="true">CT77Jester.osd\JesterChestBreastWidth</Data>
+            <Data name="JesterSleevesBreastWidth" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="JesterChestNippleDistance" target="JesterChest" local="true">CT77Jester.osd\JesterChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="JesterChestNipplePerkiness" target="JesterChest" local="true">CT77Jester.osd\JesterChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="JesterChestNippleLength" target="JesterChest" local="true">CT77Jester.osd\JesterChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="JesterChestNippleSize" target="JesterChest" local="true">CT77Jester.osd\JesterChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="JesterChestNippleAreola" target="JesterChest" local="true">CT77Jester.osd\JesterChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="JesterChestNippleUp" target="JesterChest" local="true">CT77Jester.osd\JesterChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="JesterChestNippleDown" target="JesterChest" local="true">CT77Jester.osd\JesterChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="JesterChestNippleTip" target="JesterChest" local="true">CT77Jester.osd\JesterChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="JesterChestArms" target="JesterChest" local="true">CT77Jester.osd\JesterChestArms</Data>
+            <Data name="JesterSleevesArms" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="JesterChestChubbyArms" target="JesterChest" local="true">CT77Jester.osd\JesterChestChubbyArms</Data>
+            <Data name="JesterSleevesChubbyArms" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="JesterChestShoulderSmooth" target="JesterChest" local="true">CT77Jester.osd\JesterChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="JesterChestShoulderWidth" target="JesterChest" local="true">CT77Jester.osd\JesterChestShoulderWidth</Data>
+            <Data name="JesterSleevesShoulderWidth" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="JesterBeltBigTorso" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBigTorso</Data>
+            <Data name="JesterChestBigTorso" target="JesterChest" local="true">CT77Jester.osd\JesterChestBigTorso</Data>
+            <Data name="JesterSleevesBigTorso" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="JesterBeltWaist" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltWaist</Data>
+            <Data name="JesterChestWaist" target="JesterChest" local="true">CT77Jester.osd\JesterChestWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="JesterBeltWideWaistLine" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltWideWaistLine</Data>
+            <Data name="JesterChestWideWaistLine" target="JesterChest" local="true">CT77Jester.osd\JesterChestWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="JesterBeltChubbyWaist" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltChubbyWaist</Data>
+            <Data name="JesterChestChubbyWaist" target="JesterChest" local="true">CT77Jester.osd\JesterChestChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="JesterBeltBelly" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBelly</Data>
+            <Data name="JesterChestBelly" target="JesterChest" local="true">CT77Jester.osd\JesterChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="JesterBeltBigBelly" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBigBelly</Data>
+            <Data name="JesterChestBigBelly" target="JesterChest" local="true">CT77Jester.osd\JesterChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="JesterBeltTummyTuck" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltTummyTuck</Data>
+            <Data name="JesterChestTummyTuck" target="JesterChest" local="true">CT77Jester.osd\JesterChestTummyTuck</Data>
+            <Data name="JesterSleevesTummyTuck" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="JesterBeltBack" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBack</Data>
+            <Data name="JesterChestBack" target="JesterChest" local="true">CT77Jester.osd\JesterChestBack</Data>
+            <Data name="JesterSleevesBack" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="JesterBeltHipbone" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltHipbone</Data>
+            <Data name="JesterChestHipbone" target="JesterChest" local="true">CT77Jester.osd\JesterChestHipbone</Data>
+            <Data name="JesterLeggingsHipbone" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="JesterBeltHips" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltHips</Data>
+            <Data name="JesterChestHips" target="JesterChest" local="true">CT77Jester.osd\JesterChestHips</Data>
+            <Data name="JesterLeggingsHips" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="JesterBeltButt" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltButt</Data>
+            <Data name="JesterChestButt" target="JesterChest" local="true">CT77Jester.osd\JesterChestButt</Data>
+            <Data name="JesterLeggingsButt" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsButt</Data>
+            <Data name="JesterSleevesButt" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="JesterBeltButtSmall" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltButtSmall</Data>
+            <Data name="JesterChestButtSmall" target="JesterChest" local="true">CT77Jester.osd\JesterChestButtSmall</Data>
+            <Data name="JesterLeggingsButtSmall" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="JesterBeltButtShape2" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltButtShape2</Data>
+            <Data name="JesterChestButtShape2" target="JesterChest" local="true">CT77Jester.osd\JesterChestButtShape2</Data>
+            <Data name="JesterLeggingsButtShape2" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="JesterBeltBigButt" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltBigButt</Data>
+            <Data name="JesterChestBigButt" target="JesterChest" local="true">CT77Jester.osd\JesterChestBigButt</Data>
+            <Data name="JesterLeggingsBigButt" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="JesterBeltChubbyButt" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltChubbyButt</Data>
+            <Data name="JesterChestChubbyButt" target="JesterChest" local="true">CT77Jester.osd\JesterChestChubbyButt</Data>
+            <Data name="JesterLeggingsChubbyButt" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="JesterBeltAppleCheeks" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltAppleCheeks</Data>
+            <Data name="JesterChestAppleCheeks" target="JesterChest" local="true">CT77Jester.osd\JesterChestAppleCheeks</Data>
+            <Data name="JesterLeggingsAppleCheeks" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="JesterBeltRoundAss" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltRoundAss</Data>
+            <Data name="JesterChestRoundAss" target="JesterChest" local="true">CT77Jester.osd\JesterChestRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="JesterBeltSlimThighs" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltSlimThighs</Data>
+            <Data name="JesterChestSlimThighs" target="JesterChest" local="true">CT77Jester.osd\JesterChestSlimThighs</Data>
+            <Data name="JesterLeggingsSlimThighs" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="JesterChestThighs" target="JesterChest" local="true">CT77Jester.osd\JesterChestThighs</Data>
+            <Data name="JesterLeggingsThighs" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="JesterChestChubbyLegs" target="JesterChest" local="true">CT77Jester.osd\JesterChestChubbyLegs</Data>
+            <Data name="JesterLeggingsChubbyLegs" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="JesterChestLegs" target="JesterChest" local="true">CT77Jester.osd\JesterChestLegs</Data>
+            <Data name="JesterLeggingsLegs" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="JesterChestKneeHeight" target="JesterChest" local="true">CT77Jester.osd\JesterChestKneeHeight</Data>
+            <Data name="JesterLeggingsKneeHeight" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="JesterLeggingsCalfSize" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="JesterLeggingsCalfSmooth" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="JesterLeggingsAnkles" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="JesterChestSmallSeam" target="JesterChest" local="true">CT77Jester.osd\JesterChestSmallSeam</Data>
+            <Data name="JesterLeggingsSmallSeam" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsSmallSeam</Data>
+            <Data name="JesterSleevesSmallSeam" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="JesterChestShoulderTweak" target="JesterChest" local="true">CT77Jester.osd\JesterChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="JesterBeltZapBelt" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltZapBelt</Data>
+            <Data name="JesterChestZapChest" target="JesterChest" local="true">CT77Jester.osd\JesterChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapSleeves" invert="false" small="0" big="0" zap="true">
+            <Data name="JesterSleevesZapSleeves" target="JesterSleeves" local="true">CT77Jester.osd\JesterSleevesZapSleeves</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="JesterBeltZapBelt" target="JesterBelt" local="true">CT77Jester.osd\JesterBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="JesterLeggingsZapLeggings" target="JesterLeggings" local="true">CT77Jester.osd\JesterLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Jester Boots">
+        <DataFolder>CT77Jester</DataFolder>
+        <SourceFile>CT77JesterBoots.nif</SourceFile>
+        <OutputPath>meshes\clothes\jester</OutputPath>
+        <OutputFile GenWeights="true">jesterbootsf</OutputFile>
+        <Shape target="JesterBoots">JesterBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="JesterBootsChubbyLegs" target="JesterBoots" local="true">CT77JesterBoots.osd\JesterBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="JesterBootsLegs" target="JesterBoots" local="true">CT77JesterBoots.osd\JesterBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="JesterBootsKneeHeight" target="JesterBoots" local="true">CT77JesterBoots.osd\JesterBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="JesterBootsCalfSize" target="JesterBoots" local="true">CT77JesterBoots.osd\JesterBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="JesterBootsCalfSmooth" target="JesterBoots" local="true">CT77JesterBoots.osd\JesterBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="JesterBootsAnkles" target="JesterBoots" local="true">CT77JesterBoots.osd\JesterBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="JesterBootsSmallSeam" target="JesterBoots" local="true">CT77JesterBoots.osd\JesterBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

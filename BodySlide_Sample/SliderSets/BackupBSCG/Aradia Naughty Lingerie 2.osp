@@ -1,0 +1,329 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Aradia Naughty Lingerie 2">
+        <DataFolder>Aradia Naughty Lingerie 2</DataFolder>
+        <SourceFile>Aradia Naughty Lingerie 2.nif</SourceFile>
+        <OutputPath>meshes\Putra\Aradia Naughty Lingerie</OutputPath>
+        <OutputFile GenWeights="true">Body2</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Bra">Bra</Shape>
+        <Shape target="Lace1">Lace1</Shape>
+        <Shape target="Lace2">Lace2</Shape>
+        <Shape target="Neck">Neck</Shape>
+        <Shape target="Panty">Panty</Shape>
+        <Shape target="Upper">Upper</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="BraBreasts" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreasts</Data>
+            <Data name="Lace1Breasts" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1Breasts</Data>
+            <Data name="NeckBreasts" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreasts</Data>
+            <Data name="UpperBreasts" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="BraBreastsSmall" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastsSmall</Data>
+            <Data name="Lace1BreastsSmall" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastsSmall</Data>
+            <Data name="NeckBreastsSmall" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyBreastsSmall</Data>
+            <Data name="UpperBreastsSmall" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="BraBreastsSH" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastsSH</Data>
+            <Data name="Lace1BreastsSH" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastsSH</Data>
+            <Data name="NeckBreastsSH" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastsSH</Data>
+            <Data name="UpperBreastsSH" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="BraBreastsSSH" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastsSSH</Data>
+            <Data name="Lace1BreastsSSH" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastsSSH</Data>
+            <Data name="NeckBreastsSSH" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastsSSH</Data>
+            <Data name="UpperBreastsSSH" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="BraBreastsFantasy" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastsFantasy</Data>
+            <Data name="Lace1BreastsFantasy" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastsFantasy</Data>
+            <Data name="NeckBreastsFantasy" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastsFantasy</Data>
+            <Data name="UpperBreastsFantasy" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="BraDoubleMelon" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraDoubleMelon</Data>
+            <Data name="Lace1DoubleMelon" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1DoubleMelon</Data>
+            <Data name="NeckDoubleMelon" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckDoubleMelon</Data>
+            <Data name="UpperDoubleMelon" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="BraBreastCleavage" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="BraBreastFlatness" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastFlatness</Data>
+            <Data name="Lace1BreastFlatness" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastFlatness</Data>
+            <Data name="NeckBreastFlatness" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastFlatness</Data>
+            <Data name="UpperBreastFlatness" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="BraBreastGravity" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastGravity</Data>
+            <Data name="Lace1BreastGravity" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastGravity</Data>
+            <Data name="NeckBreastGravity" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastGravity</Data>
+            <Data name="UpperBreastGravity" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="BraPushUp" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraPushUp</Data>
+            <Data name="Lace1PushUp" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1PushUp</Data>
+            <Data name="NeckPushUp" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckPushUp</Data>
+            <Data name="UpperPushUp" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="BraBreastHeight" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastHeight</Data>
+            <Data name="Lace1BreastHeight" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastHeight</Data>
+            <Data name="Lace2BreastHeight" target="Lace2" local="true">Aradia Naughty Lingerie 2.osd\Lace2BreastHeight</Data>
+            <Data name="NeckBreastHeight" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastHeight</Data>
+            <Data name="UpperBreastHeight" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="BraBreastPerkiness" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastPerkiness</Data>
+            <Data name="Lace1BreastPerkiness" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastPerkiness</Data>
+            <Data name="UpperBreastPerkiness" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="BraBreastWidth" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBreastWidth</Data>
+            <Data name="Lace1BreastWidth" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BreastWidth</Data>
+            <Data name="NeckBreastWidth" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBreastWidth</Data>
+            <Data name="UpperBreastWidth" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="BraNippleDistance" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="BraNipplePerkiness" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="BraNippleLength" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNippleLength</Data>
+            <Data name="Lace1NippleLength" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1NippleLength</Data>
+            <Data name="NeckNippleLength" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckNippleLength</Data>
+            <Data name="UpperNippleLength" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="BraNippleSize" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="BraNippleAreola" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNippleAreola</Data>
+            <Data name="Lace1NippleAreola" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="BraNippleUp" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNippleUp</Data>
+            <Data name="Lace1NippleUp" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1NippleUp</Data>
+            <Data name="UpperNippleUp" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="BraNippleDown" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="BraNippleTip" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="BraArms" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraArms</Data>
+            <Data name="Lace1Arms" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1Arms</Data>
+            <Data name="Lace2Arms" target="Lace2" local="true">Aradia Naughty Lingerie 2.osd\Lace2Arms</Data>
+            <Data name="NeckArms" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckArms</Data>
+            <Data name="UpperArms" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="BraChubbyArms" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraChubbyArms</Data>
+            <Data name="Lace1ChubbyArms" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1ChubbyArms</Data>
+            <Data name="Lace2ChubbyArms" target="Lace2" local="true">Aradia Naughty Lingerie 2.osd\Lace2ChubbyArms</Data>
+            <Data name="UpperChubbyArms" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="BraShoulderSmooth" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraShoulderSmooth</Data>
+            <Data name="Lace1ShoulderSmooth" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1ShoulderSmooth</Data>
+            <Data name="NeckShoulderSmooth" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckShoulderSmooth</Data>
+            <Data name="UpperShoulderSmooth" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="BraShoulderWidth" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraShoulderWidth</Data>
+            <Data name="Lace1ShoulderWidth" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1ShoulderWidth</Data>
+            <Data name="Lace2ShoulderWidth" target="Lace2" local="true">Aradia Naughty Lingerie 2.osd\Lace2ShoulderWidth</Data>
+            <Data name="NeckShoulderWidth" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckShoulderWidth</Data>
+            <Data name="UpperShoulderWidth" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="BraBigTorso" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBigTorso</Data>
+            <Data name="Lace1BigTorso" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1BigTorso</Data>
+            <Data name="Lace2BigTorso" target="Lace2" local="true">Aradia Naughty Lingerie 2.osd\Lace2BigTorso</Data>
+            <Data name="NeckBigTorso" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyBigTorso</Data>
+            <Data name="UpperBigTorso" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="BraWaist" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraWaist</Data>
+            <Data name="Lace1Waist" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1Waist</Data>
+            <Data name="PantyWaist" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyWaist</Data>
+            <Data name="UpperWaist" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="BraWideWaistLine" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyWideWaistLine</Data>
+            <Data name="UpperWideWaistLine" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="BraChubbyWaist" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraChubbyWaist</Data>
+            <Data name="Lace1ChubbyWaist" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1ChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyChubbyWaist</Data>
+            <Data name="UpperChubbyWaist" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="BraBelly" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBelly</Data>
+            <Data name="PantyBelly" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="BraBigBelly" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="BraPregnancyBelly" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraPregnancyBelly</Data>
+            <Data name="Lace1PregnancyBelly" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1PregnancyBelly</Data>
+            <Data name="NeckPregnancyBelly" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckPregnancyBelly</Data>
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyPregnancyBelly</Data>
+            <Data name="UpperPregnancyBelly" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="BraTummyTuck" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="BraBack" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBack</Data>
+            <Data name="Lace1Back" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1Back</Data>
+            <Data name="Lace2Back" target="Lace2" local="true">Aradia Naughty Lingerie 2.osd\Lace2Back</Data>
+            <Data name="NeckBack" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckBack</Data>
+            <Data name="PantyBack" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyBack</Data>
+            <Data name="UpperBack" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="BraHips" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraHips</Data>
+            <Data name="PantyHips" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="BraButt" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraButt</Data>
+            <Data name="PantyButt" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="BraButtSmall" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="BraButtShape2" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="BraBigButt" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraBigButt</Data>
+            <Data name="PantyBigButt" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="BraChubbyButt" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyChubbyButt</Data>
+            <Data name="UpperChubbyButt" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="BraAppleCheeks" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="BraSlimThighs" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="PantyKneeHeight" target="Panty" local="true">Aradia Naughty Lingerie 2.osd\PantyKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="BraSmallSeam" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraSmallSeam</Data>
+            <Data name="Lace1SmallSeam" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1SmallSeam</Data>
+            <Data name="NeckSmallSeam" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckSmallSeam</Data>
+            <Data name="UpperSmallSeam" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="BraShoulderTweak" target="Bra" local="true">Aradia Naughty Lingerie 2.osd\BraShoulderTweak</Data>
+            <Data name="Lace1ShoulderTweak" target="Lace1" local="true">Aradia Naughty Lingerie 2.osd\Lace1ShoulderTweak</Data>
+            <Data name="NeckShoulderTweak" target="Neck" local="true">Aradia Naughty Lingerie 2.osd\NeckShoulderTweak</Data>
+            <Data name="UpperShoulderTweak" target="Upper" local="true">Aradia Naughty Lingerie 2.osd\UpperShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,90 @@
+<SliderSetInfo version="1">
+    <SliderSet name="NiuNiu Arms">
+        <DataFolder>NiuNiu Arms</DataFolder>
+        <SourceFile>NiuNiu Arms.nif</SourceFile>
+        <OutputPath>meshes\Vivi\NiuNiu</OutputPath>
+        <OutputFile GenWeights="true">Gloves</OutputFile>
+        <Shape target="CalienteHandFemale1st">CalienteHandFemale1st</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="CalienteHandFemale1stBreasts" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="CalienteHandFemale1stBreastsSmall" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastsSH" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastsSSH" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastsFantasy" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stDoubleMelon" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastFlatness" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastGravity" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stPushUp" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastHeight" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastPerkiness" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBreastWidth" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stNippleAreola" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stNippleUp" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stNippleDown" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="CalienteHandFemale1stArms" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stChubbyArms" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="CalienteHandFemale1stShoulderWidth" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBigTorso" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="CalienteHandFemale1stWaist" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stWideWaistLine" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stChubbyWaist" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stChubbyWaist</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stPregnancyBelly" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stTummyTuck" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1stBack" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stBack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="CalienteHandFemale1stButt" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="CalienteHandFemale1stSmallSeam" target="CalienteHandFemale1st" local="true">NiuNiu Arms.osd\CalienteHandFemale1stSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

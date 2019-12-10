@@ -1,0 +1,114 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Eva Cloth Shorts">
+        <DataFolder>Eva Cloth Shorts</DataFolder>
+        <SourceFile>Eva Cloth Shorts.nif</SourceFile>
+        <OutputPath>meshes\Zquad1\Armor\EvaCloth</OutputPath>
+        <OutputFile GenWeights="true">Shorts</OutputFile>
+        <Shape target="DEMv2_GlamShorts_0">DEMv2_GlamShorts_0</Shape>
+        <Shape target="Shorts">Shorts</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="ShortsBreastsSmall" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="ShortsBreastHeight" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsBreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0BigTorso" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0BigTorso</Data>
+            <Data name="ShortsBigTorso" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="DEMv2_GlamShorts_0Waist" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Waist</Data>
+            <Data name="ShortsWaist" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="ShortsWideWaistLine" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0ChubbyWaist" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0ChubbyWaist</Data>
+            <Data name="ShortsChubbyWaist" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0Belly" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Belly</Data>
+            <Data name="ShortsBelly" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0BigBelly" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0BigBelly</Data>
+            <Data name="ShortsBigBelly" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0PregnancyBelly" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0PregnancyBelly</Data>
+            <Data name="ShortsPregnancyBelly" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0TummyTuck" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0TummyTuck</Data>
+            <Data name="ShortsTummyTuck" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0Back" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Back</Data>
+            <Data name="ShortsBack" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0Hipbone" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Hipbone</Data>
+            <Data name="ShortsHipbone" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0Hips" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Hips</Data>
+            <Data name="ShortsHips" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ShortsButtCrack" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="DEMv2_GlamShorts_0Butt" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Butt</Data>
+            <Data name="ShortsButt" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="DEMv2_GlamShorts_0ButtSmall" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0ButtSmall</Data>
+            <Data name="ShortsButtSmall" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0ButtShape2" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0ButtShape2</Data>
+            <Data name="ShortsButtShape2" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0BigButt" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0BigButt</Data>
+            <Data name="ShortsBigButt" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0ChubbyButt" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0ChubbyButt</Data>
+            <Data name="ShortsChubbyButt" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0AppleCheeks" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0AppleCheeks</Data>
+            <Data name="ShortsAppleCheeks" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0RoundAss" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0RoundAss</Data>
+            <Data name="ShortsRoundAss" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0Groin" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Groin</Data>
+            <Data name="ShortsGroin" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0SlimThighs" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0SlimThighs</Data>
+            <Data name="ShortsSlimThighs" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0Thighs" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Thighs</Data>
+            <Data name="ShortsThighs" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0ChubbyLegs" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0ChubbyLegs</Data>
+            <Data name="ShortsChubbyLegs" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="DEMv2_GlamShorts_0Legs" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0Legs</Data>
+            <Data name="ShortsLegs" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DEMv2_GlamShorts_0KneeHeight" target="DEMv2_GlamShorts_0" local="true">Eva Cloth Shorts.osd\DEMv2_GlamShorts_0KneeHeight</Data>
+            <Data name="ShortsKneeHeight" target="Shorts" local="true">Eva Cloth Shorts.osd\ShortsKneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

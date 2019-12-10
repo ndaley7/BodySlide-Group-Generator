@@ -1,0 +1,38 @@
+<SliderSetInfo>
+    <SliderSet name="LUSH SetA MagicMoon Bracers">
+        <SetFolder>\LUSH\SetA\LUSH MagicMoon Bracers</SetFolder>
+        <SourceFile>gauntlets.nif</SourceFile>
+        <OutputPath>meshes\LUSH\magicmoon\</OutputPath>
+        <OutputFile>gauntlets</OutputFile>
+        <BaseShapeName target="CalienteHandFemale1st">CalienteHandFemale1st</BaseShapeName>
+        <BaseShapeName target="NPC L Finger01 [LF01]01">NPC L Finger01 [LF01]01</BaseShapeName>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="CalienteHandFemale1stArms" target="CalienteHandFemale1st" local="true">CalienteHandFemale1stArms.bsd</datafile>
+            <datafile name="NPC L Finger01 [LF01]01Arms" target="NPC L Finger01 [LF01]01" local="true">NPC L Finger01 [LF01]01Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="CalienteHandFemale1stChubbyArms" target="CalienteHandFemale1st" local="true">CalienteHandFemale1stChubbyArms.bsd</datafile>
+            <datafile name="NPC L Finger01 [LF01]01ChubbyArms" target="NPC L Finger01 [LF01]01" local="true">NPC L Finger01 [LF01]01ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="CalienteHandFemale1stShoulderWidth" target="CalienteHandFemale1st" local="true">CalienteHandFemale1stShoulderWidth.bsd</datafile>
+            <datafile name="NPC L Finger01 [LF01]01ShoulderWidth" target="NPC L Finger01 [LF01]01" local="true">NPC L Finger01 [LF01]01ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="CalienteHandFemale1stBigTorso" target="CalienteHandFemale1st" local="true">CalienteHandFemale1stBigTorso.bsd</datafile>
+            <datafile name="NPC L Finger01 [LF01]01BigTorso" target="NPC L Finger01 [LF01]01" local="true">NPC L Finger01 [LF01]01BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="CalienteHandFemale1stTummyTuck" target="CalienteHandFemale1st" local="true">CalienteHandFemale1stTummyTuck.bsd</datafile>
+            <datafile name="NPC L Finger01 [LF01]01TummyTuck" target="NPC L Finger01 [LF01]01" local="true">NPC L Finger01 [LF01]01TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="CalienteHandFemale1stButt" target="CalienteHandFemale1st" local="true">CalienteHandFemale1stButt.bsd</datafile>
+            <datafile name="NPC L Finger01 [LF01]01Butt" target="NPC L Finger01 [LF01]01" local="true">NPC L Finger01 [LF01]01Butt.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="CalienteHandFemale1stSmallSeam" target="CalienteHandFemale1st" local="true">CalienteHandFemale1stSmallSeam.bsd</datafile>
+            <datafile name="NPC L Finger01 [LF01]01SmallSeam" target="NPC L Finger01 [LF01]01" local="true">NPC L Finger01 [LF01]01SmallSeam.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -112,6 +112,22 @@ def SliderSetBackup(sliderPath):
     else:
         LoggingInfoBSCG("BACKUP:: "+str(newbackupCount) +" New Files")
 
+    #After backup is completed, do one more pass to compare size of backed up files to the size of those currently in the SliderSet/Group directory
+    for file in originalList:
+            #Assign size from both the original and copy files
+            originalSize=os.path.getsize(file)
+            backupSize=os.path.getsize(sliderPath+"/BackupBSCG/"+os.path.basename(file))
+
+            #Compare Backup and Original Sizes
+
+            if(originalSize!=backupSize):
+                #Copy File and overwrite if difference in size is detected.
+                copy2(sliderPath+"/BackupBSCG/"+os.path.basename(file),file)
+                LoggingInfoBSCG("BACKUP: Size Difference Detected, Reverting "+os.path.basename(file))
+            
+            
+            
+
 #Checks for existing MasterListX.xml files
 #Offers option to Delete existing ones or create another with a higher iterator
 def MasterListCheck(sliderGroupPath):

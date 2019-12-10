@@ -1,0 +1,16 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Summer Bikini Sandals 2">
+        <DataFolder>Summer Bikini Sandals 2</DataFolder>
+        <SourceFile>Summer Bikini Sandals 2.nif</SourceFile>
+        <OutputPath>meshes\Summer Bikini</OutputPath>
+        <OutputFile GenWeights="true">boots2</OutputFile>
+        <Shape target="7f67488.obj002">7f67488.obj002</Shape>
+        <Shape target="Feet" DataFolder="CalienteBody">Feet</Shape>
+        <Slider name="Feet0" invert="false" small="100" big="0" hidden="true">
+            <Data name="Feet0" target="Feet">Feet0.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FeetAnkles" target="Feet">FeetAnkles.bsd</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

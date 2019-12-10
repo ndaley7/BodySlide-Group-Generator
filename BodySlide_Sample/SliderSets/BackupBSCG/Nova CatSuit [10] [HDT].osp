@@ -1,0 +1,276 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Nova CatSuit [10] [HDT]">
+        <DataFolder>Nova CatSuit [10] [HDT]</DataFolder>
+        <SourceFile>nova_body10_ca.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">nova_body10_ca</OutputFile>
+        <Shape target="Harness">Harness</Shape>
+        <Shape target="NCat">NCat</Shape>
+        <Shape target="Rings">Rings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="HarnessBreasts" target="Harness" local="true">nova_body10_ca.osd\HarnessBreasts</Data>
+            <Data name="NCatBreasts" target="NCat" local="true">nova_body10_ca.osd\NCatBreasts</Data>
+            <Data name="RingsBreasts" target="Rings" local="true">nova_body10_ca.osd\RingsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="HarnessBreastsSmall" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastsSmall</Data>
+            <Data name="NCatBreastsSmall" target="NCat" local="true">nova_body10_ca.osd\NCatBreastsSmall</Data>
+            <Data name="RingsBreastsSmall" target="Rings" local="true">nova_body10_ca.osd\RingsBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="HarnessBreastsSH" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastsSH</Data>
+            <Data name="NCatBreastsSH" target="NCat" local="true">nova_body10_ca.osd\NCatBreastsSH</Data>
+            <Data name="RingsBreastsSH" target="Rings" local="true">nova_body10_ca.osd\RingsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="HarnessBreastsSSH" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastsSSH</Data>
+            <Data name="NCatBreastsSSH" target="NCat" local="true">nova_body10_ca.osd\NCatBreastsSSH</Data>
+            <Data name="RingsBreastsSSH" target="Rings" local="true">nova_body10_ca.osd\RingsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="HarnessBreastsFantasy" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastsFantasy</Data>
+            <Data name="NCatBreastsFantasy" target="NCat" local="true">nova_body10_ca.osd\NCatBreastsFantasy</Data>
+            <Data name="RingsBreastsFantasy" target="Rings" local="true">nova_body10_ca.osd\RingsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="HarnessDoubleMelon" target="Harness" local="true">nova_body10_ca.osd\HarnessDoubleMelon</Data>
+            <Data name="NCatDoubleMelon" target="NCat" local="true">nova_body10_ca.osd\NCatDoubleMelon</Data>
+            <Data name="RingsDoubleMelon" target="Rings" local="true">nova_body10_ca.osd\RingsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="HarnessBreastCleavage" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastCleavage</Data>
+            <Data name="NCatBreastCleavage" target="NCat" local="true">nova_body10_ca.osd\NCatBreastCleavage</Data>
+            <Data name="RingsBreastCleavage" target="Rings" local="true">nova_body10_ca.osd\RingsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="HarnessBreastFlatness" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastFlatness</Data>
+            <Data name="NCatBreastFlatness" target="NCat" local="true">nova_body10_ca.osd\NCatBreastFlatness</Data>
+            <Data name="RingsBreastFlatness" target="Rings" local="true">nova_body10_ca.osd\RingsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="HarnessBreastGravity" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastGravity</Data>
+            <Data name="NCatBreastGravity" target="NCat" local="true">nova_body10_ca.osd\NCatBreastGravity</Data>
+            <Data name="RingsBreastGravity" target="Rings" local="true">nova_body10_ca.osd\RingsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="HarnessPushUp" target="Harness" local="true">nova_body10_ca.osd\HarnessPushUp</Data>
+            <Data name="NCatPushUp" target="NCat" local="true">nova_body10_ca.osd\NCatPushUp</Data>
+            <Data name="RingsPushUp" target="Rings" local="true">nova_body10_ca.osd\RingsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="HarnessBreastHeight" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastHeight</Data>
+            <Data name="NCatBreastHeight" target="NCat" local="true">nova_body10_ca.osd\NCatBreastHeight</Data>
+            <Data name="RingsBreastHeight" target="Rings" local="true">nova_body10_ca.osd\RingsBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="HarnessBreastPerkiness" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastPerkiness</Data>
+            <Data name="NCatBreastPerkiness" target="NCat" local="true">nova_body10_ca.osd\NCatBreastPerkiness</Data>
+            <Data name="RingsBreastPerkiness" target="Rings" local="true">nova_body10_ca.osd\RingsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="HarnessBreastWidth" target="Harness" local="true">nova_body10_ca.osd\HarnessBreastWidth</Data>
+            <Data name="NCatBreastWidth" target="NCat" local="true">nova_body10_ca.osd\NCatBreastWidth</Data>
+            <Data name="RingsBreastWidth" target="Rings" local="true">nova_body10_ca.osd\RingsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="HarnessNippleDistance" target="Harness" local="true">nova_body10_ca.osd\HarnessNippleDistance</Data>
+            <Data name="NCatNippleDistance" target="NCat" local="true">nova_body10_ca.osd\NCatNippleDistance</Data>
+            <Data name="RingsNippleDistance" target="Rings" local="true">nova_body10_ca.osd\RingsNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="HarnessNipplePerkiness" target="Harness" local="true">nova_body10_ca.osd\HarnessNipplePerkiness</Data>
+            <Data name="NCatNipplePerkiness" target="NCat" local="true">nova_body10_ca.osd\NCatNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="HarnessNippleLength" target="Harness" local="true">nova_body10_ca.osd\HarnessNippleLength</Data>
+            <Data name="NCatNippleLength" target="NCat" local="true">nova_body10_ca.osd\NCatNippleLength</Data>
+            <Data name="RingsNippleLength" target="Rings" local="true">nova_body10_ca.osd\RingsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="HarnessNippleSize" target="Harness" local="true">nova_body10_ca.osd\HarnessNippleSize</Data>
+            <Data name="NCatNippleSize" target="NCat" local="true">nova_body10_ca.osd\NCatNippleSize</Data>
+            <Data name="RingsNippleSize" target="Rings" local="true">nova_body10_ca.osd\RingsNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="HarnessNippleAreola" target="Harness" local="true">nova_body10_ca.osd\HarnessNippleAreola</Data>
+            <Data name="NCatNippleAreola" target="NCat" local="true">nova_body10_ca.osd\NCatNippleAreola</Data>
+            <Data name="RingsNippleAreola" target="Rings" local="true">nova_body10_ca.osd\RingsNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="HarnessNippleUp" target="Harness" local="true">nova_body10_ca.osd\HarnessNippleUp</Data>
+            <Data name="NCatNippleUp" target="NCat" local="true">nova_body10_ca.osd\NCatNippleUp</Data>
+            <Data name="RingsNippleUp" target="Rings" local="true">nova_body10_ca.osd\RingsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="HarnessNippleDown" target="Harness" local="true">nova_body10_ca.osd\HarnessNippleDown</Data>
+            <Data name="NCatNippleDown" target="NCat" local="true">nova_body10_ca.osd\NCatNippleDown</Data>
+            <Data name="RingsNippleDown" target="Rings" local="true">nova_body10_ca.osd\RingsNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="HarnessNippleTip" target="Harness" local="true">nova_body10_ca.osd\HarnessNippleTip</Data>
+            <Data name="NCatNippleTip" target="NCat" local="true">nova_body10_ca.osd\NCatNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="HarnessArms" target="Harness" local="true">nova_body10_ca.osd\HarnessArms</Data>
+            <Data name="NCatArms" target="NCat" local="true">nova_body10_ca.osd\NCatArms</Data>
+            <Data name="RingsArms" target="Rings" local="true">nova_body10_ca.osd\RingsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="HarnessChubbyArms" target="Harness" local="true">nova_body10_ca.osd\HarnessChubbyArms</Data>
+            <Data name="NCatChubbyArms" target="NCat" local="true">nova_body10_ca.osd\NCatChubbyArms</Data>
+            <Data name="RingsChubbyArms" target="Rings" local="true">nova_body10_ca.osd\RingsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="HarnessShoulderSmooth" target="Harness" local="true">nova_body10_ca.osd\HarnessShoulderSmooth</Data>
+            <Data name="NCatShoulderSmooth" target="NCat" local="true">nova_body10_ca.osd\NCatShoulderSmooth</Data>
+            <Data name="RingsShoulderSmooth" target="Rings" local="true">nova_body10_ca.osd\RingsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="HarnessShoulderWidth" target="Harness" local="true">nova_body10_ca.osd\HarnessShoulderWidth</Data>
+            <Data name="NCatShoulderWidth" target="NCat" local="true">nova_body10_ca.osd\NCatShoulderWidth</Data>
+            <Data name="RingsShoulderWidth" target="Rings" local="true">nova_body10_ca.osd\RingsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="HarnessBigTorso" target="Harness" local="true">nova_body10_ca.osd\HarnessBigTorso</Data>
+            <Data name="NCatBigTorso" target="NCat" local="true">nova_body10_ca.osd\NCatBigTorso</Data>
+            <Data name="RingsBigTorso" target="Rings" local="true">nova_body10_ca.osd\RingsBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="HarnessWaist" target="Harness" local="true">nova_body10_ca.osd\HarnessWaist</Data>
+            <Data name="NCatWaist" target="NCat" local="true">nova_body10_ca.osd\NCatWaist</Data>
+            <Data name="RingsWaist" target="Rings" local="true">nova_body10_ca.osd\RingsWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="HarnessWideWaistLine" target="Harness" local="true">nova_body10_ca.osd\HarnessWideWaistLine</Data>
+            <Data name="NCatWideWaistLine" target="NCat" local="true">nova_body10_ca.osd\NCatWideWaistLine</Data>
+            <Data name="RingsWideWaistLine" target="Rings" local="true">nova_body10_ca.osd\RingsWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="HarnessChubbyWaist" target="Harness" local="true">nova_body10_ca.osd\HarnessChubbyWaist</Data>
+            <Data name="NCatChubbyWaist" target="NCat" local="true">nova_body10_ca.osd\NCatChubbyWaist</Data>
+            <Data name="RingsChubbyWaist" target="Rings" local="true">nova_body10_ca.osd\RingsChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="HarnessBelly" target="Harness" local="true">nova_body10_ca.osd\HarnessBelly</Data>
+            <Data name="NCatBelly" target="NCat" local="true">nova_body10_ca.osd\NCatBelly</Data>
+            <Data name="RingsBelly" target="Rings" local="true">nova_body10_ca.osd\RingsBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="HarnessBigBelly" target="Harness" local="true">nova_body10_ca.osd\HarnessBigBelly</Data>
+            <Data name="NCatBigBelly" target="NCat" local="true">nova_body10_ca.osd\NCatBigBelly</Data>
+            <Data name="RingsBigBelly" target="Rings" local="true">nova_body10_ca.osd\RingsBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="HarnessPregnancyBelly" target="Harness" local="true">nova_body10_ca.osd\HarnessPregnancyBelly</Data>
+            <Data name="NCatPregnancyBelly" target="NCat" local="true">nova_body10_ca.osd\NCatPregnancyBelly</Data>
+            <Data name="RingsPregnancyBelly" target="Rings" local="true">nova_body10_ca.osd\RingsPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="HarnessTummyTuck" target="Harness" local="true">nova_body10_ca.osd\HarnessTummyTuck</Data>
+            <Data name="NCatTummyTuck" target="NCat" local="true">nova_body10_ca.osd\NCatTummyTuck</Data>
+            <Data name="RingsTummyTuck" target="Rings" local="true">nova_body10_ca.osd\RingsTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="HarnessBack" target="Harness" local="true">nova_body10_ca.osd\HarnessBack</Data>
+            <Data name="NCatBack" target="NCat" local="true">nova_body10_ca.osd\NCatBack</Data>
+            <Data name="RingsBack" target="Rings" local="true">nova_body10_ca.osd\RingsBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="HarnessHipbone" target="Harness" local="true">nova_body10_ca.osd\HarnessHipbone</Data>
+            <Data name="NCatHipbone" target="NCat" local="true">nova_body10_ca.osd\NCatHipbone</Data>
+            <Data name="RingsHipbone" target="Rings" local="true">nova_body10_ca.osd\RingsHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="HarnessHips" target="Harness" local="true">nova_body10_ca.osd\HarnessHips</Data>
+            <Data name="NCatHips" target="NCat" local="true">nova_body10_ca.osd\NCatHips</Data>
+            <Data name="RingsHips" target="Rings" local="true">nova_body10_ca.osd\RingsHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="HarnessButtCrack" target="Harness" local="true">nova_body10_ca.osd\HarnessButtCrack</Data>
+            <Data name="NCatButtCrack" target="NCat" local="true">nova_body10_ca.osd\NCatButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="HarnessButt" target="Harness" local="true">nova_body10_ca.osd\HarnessButt</Data>
+            <Data name="NCatButt" target="NCat" local="true">nova_body10_ca.osd\NCatButt</Data>
+            <Data name="RingsButt" target="Rings" local="true">nova_body10_ca.osd\RingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="HarnessButtSmall" target="Harness" local="true">nova_body10_ca.osd\HarnessButtSmall</Data>
+            <Data name="NCatButtSmall" target="NCat" local="true">nova_body10_ca.osd\NCatButtSmall</Data>
+            <Data name="RingsButtSmall" target="Rings" local="true">nova_body10_ca.osd\RingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="HarnessButtShape2" target="Harness" local="true">nova_body10_ca.osd\HarnessButtShape2</Data>
+            <Data name="NCatButtShape2" target="NCat" local="true">nova_body10_ca.osd\NCatButtShape2</Data>
+            <Data name="RingsButtShape2" target="Rings" local="true">nova_body10_ca.osd\RingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="HarnessBigButt" target="Harness" local="true">nova_body10_ca.osd\HarnessBigButt</Data>
+            <Data name="NCatBigButt" target="NCat" local="true">nova_body10_ca.osd\NCatBigButt</Data>
+            <Data name="RingsBigButt" target="Rings" local="true">nova_body10_ca.osd\RingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="HarnessChubbyButt" target="Harness" local="true">nova_body10_ca.osd\HarnessChubbyButt</Data>
+            <Data name="NCatChubbyButt" target="NCat" local="true">nova_body10_ca.osd\NCatChubbyButt</Data>
+            <Data name="RingsChubbyButt" target="Rings" local="true">nova_body10_ca.osd\RingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="HarnessAppleCheeks" target="Harness" local="true">nova_body10_ca.osd\HarnessAppleCheeks</Data>
+            <Data name="NCatAppleCheeks" target="NCat" local="true">nova_body10_ca.osd\NCatAppleCheeks</Data>
+            <Data name="RingsAppleCheeks" target="Rings" local="true">nova_body10_ca.osd\RingsAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="HarnessRoundAss" target="Harness" local="true">nova_body10_ca.osd\HarnessRoundAss</Data>
+            <Data name="NCatRoundAss" target="NCat" local="true">nova_body10_ca.osd\NCatRoundAss</Data>
+            <Data name="RingsRoundAss" target="Rings" local="true">nova_body10_ca.osd\RingsRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="HarnessGroin" target="Harness" local="true">nova_body10_ca.osd\HarnessGroin</Data>
+            <Data name="NCatGroin" target="NCat" local="true">nova_body10_ca.osd\NCatGroin</Data>
+            <Data name="RingsGroin" target="Rings" local="true">nova_body10_ca.osd\RingsGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="HarnessSlimThighs" target="Harness" local="true">nova_body10_ca.osd\HarnessSlimThighs</Data>
+            <Data name="NCatSlimThighs" target="NCat" local="true">nova_body10_ca.osd\NCatSlimThighs</Data>
+            <Data name="RingsSlimThighs" target="Rings" local="true">nova_body10_ca.osd\RingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="HarnessThighs" target="Harness" local="true">nova_body10_ca.osd\HarnessThighs</Data>
+            <Data name="NCatThighs" target="NCat" local="true">nova_body10_ca.osd\NCatThighs</Data>
+            <Data name="RingsThighs" target="Rings" local="true">nova_body10_ca.osd\RingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="HarnessChubbyLegs" target="Harness" local="true">nova_body10_ca.osd\HarnessChubbyLegs</Data>
+            <Data name="NCatChubbyLegs" target="NCat" local="true">nova_body10_ca.osd\NCatChubbyLegs</Data>
+            <Data name="RingsChubbyLegs" target="Rings" local="true">nova_body10_ca.osd\RingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="HarnessLegs" target="Harness" local="true">nova_body10_ca.osd\HarnessLegs</Data>
+            <Data name="NCatLegs" target="NCat" local="true">nova_body10_ca.osd\NCatLegs</Data>
+            <Data name="RingsLegs" target="Rings" local="true">nova_body10_ca.osd\RingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="HarnessKneeHeight" target="Harness" local="true">nova_body10_ca.osd\HarnessKneeHeight</Data>
+            <Data name="NCatKneeHeight" target="NCat" local="true">nova_body10_ca.osd\NCatKneeHeight</Data>
+            <Data name="RingsKneeHeight" target="Rings" local="true">nova_body10_ca.osd\RingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="NCatCalfSize" target="NCat" local="true">nova_body10_ca.osd\NCatCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="NCatCalfSmooth" target="NCat" local="true">nova_body10_ca.osd\NCatCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="NCatAnkles" target="NCat" local="true">nova_body10_ca.osd\NCatAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="HarnessSmallSeam" target="Harness" local="true">nova_body10_ca.osd\HarnessSmallSeam</Data>
+            <Data name="NCatSmallSeam" target="NCat" local="true">nova_body10_ca.osd\NCatSmallSeam</Data>
+            <Data name="RingsSmallSeam" target="Rings" local="true">nova_body10_ca.osd\RingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="HarnessShoulderTweak" target="Harness" local="true">nova_body10_ca.osd\HarnessShoulderTweak</Data>
+            <Data name="NCatShoulderTweak" target="NCat" local="true">nova_body10_ca.osd\NCatShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,214 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Bowsette_Swimsuit_CBBE">
+        <DataFolder>Bowsette_Swimsuit_CBBE</DataFolder>
+        <SourceFile>Bowsette_Swimsuit_CBBE.nif</SourceFile>
+        <OutputPath>Meshes\Bowsette</OutputPath>
+        <OutputFile GenWeights="true">Swimsuit</OutputFile>
+        <Shape target="BowsetteBikiniMai.023">BowsetteBikiniMai.023</Shape>
+        <Shape target="BowsetteBikiniMai.027">BowsetteBikiniMai.027</Shape>
+        <Shape target="BowsetteBikiniMai.027_1">BowsetteBikiniMai.027_1</Shape>
+        <Shape target="pendant">pendant</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="BowsetteBikiniMai.023Breasts" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023Breasts</Data>
+            <Data name="pendantBreasts" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BowsetteBikiniMai.023BreastsSmall" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastsSmall</Data>
+            <Data name="pendantBreastsSmall" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastsSmall</Data>
+            <Data name="BowsetteBikiniMai.027BreastsSmall" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BreastsSmall</Data>
+            <Data name="BowsetteBikiniMai.027_1BreastsSmall" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastsSH" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastsSH</Data>
+            <Data name="pendantBreastsSH" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastsSSH" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastsSSH</Data>
+            <Data name="pendantBreastsSSH" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastsSSH</Data>
+            <Data name="BowsetteBikiniMai.027BreastsSSH" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastsFantasy" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastsFantasy</Data>
+            <Data name="pendantBreastsFantasy" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023DoubleMelon" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023DoubleMelon</Data>
+            <Data name="pendantDoubleMelon" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastCleavage" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastCleavage</Data>
+            <Data name="pendantBreastCleavage" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastFlatness" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastFlatness</Data>
+            <Data name="pendantBreastFlatness" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastFlatness</Data>
+            <Data name="BowsetteBikiniMai.027BreastFlatness" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BreastFlatness</Data>
+            <Data name="BowsetteBikiniMai.027_1BreastFlatness" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastGravity" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastGravity</Data>
+            <Data name="pendantBreastGravity" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023PushUp" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023PushUp</Data>
+            <Data name="pendantPushUp" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastHeight" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastHeight</Data>
+            <Data name="pendantBreastHeight" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastHeight</Data>
+            <Data name="BowsetteBikiniMai.027BreastHeight" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BreastHeight</Data>
+            <Data name="BowsetteBikiniMai.027_1BreastHeight" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastPerkiness" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastPerkiness</Data>
+            <Data name="pendantBreastPerkiness" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BreastWidth" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BreastWidth</Data>
+            <Data name="BowsetteBikiniMai.027BreastWidth" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BreastWidth</Data>
+            <Data name="BowsetteBikiniMai.027_1BreastWidth" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="BowsetteBikiniMai.023NippleDistance" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023NipplePerkiness" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023NippleLength" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="BowsetteBikiniMai.023NippleSize" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023NippleAreola" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023NippleUp" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NippleUp</Data>
+            <Data name="pendantNippleUp" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023NippleDown" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023NippleTip" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BowsetteBikiniMai.023Arms" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023ChubbyArms" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BowsetteBikiniMai.023ShoulderWidth" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BigTorso" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BigTorso</Data>
+            <Data name="pendantBigTorso" target="pendant" local="true">Bowsette_Swimsuit_CBBE.osd\pendantBigTorso</Data>
+            <Data name="BowsetteBikiniMai.027BigTorso" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BigTorso</Data>
+            <Data name="BowsetteBikiniMai.027_1BigTorso" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="BowsetteBikiniMai.023Waist" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023Waist</Data>
+            <Data name="BowsetteBikiniMai.027Waist" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027Waist</Data>
+            <Data name="BowsetteBikiniMai.027_1Waist" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023WideWaistLine" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023WideWaistLine</Data>
+            <Data name="BowsetteBikiniMai.027_1WideWaistLine" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023ChubbyWaist" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023ChubbyWaist</Data>
+            <Data name="BowsetteBikiniMai.027ChubbyWaist" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027ChubbyWaist</Data>
+            <Data name="BowsetteBikiniMai.027_1ChubbyWaist" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023Belly" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023Belly</Data>
+            <Data name="BowsetteBikiniMai.027Belly" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027Belly</Data>
+            <Data name="BowsetteBikiniMai.027_1Belly" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BigBelly" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BigBelly</Data>
+            <Data name="BowsetteBikiniMai.027BigBelly" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BigBelly</Data>
+            <Data name="BowsetteBikiniMai.027_1BigBelly" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023PregnancyBelly" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023PregnancyBelly</Data>
+            <Data name="BowsetteBikiniMai.027PregnancyBelly" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027PregnancyBelly</Data>
+            <Data name="BowsetteBikiniMai.027_1PregnancyBelly" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023TummyTuck" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023TummyTuck</Data>
+            <Data name="BowsetteBikiniMai.027TummyTuck" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027TummyTuck</Data>
+            <Data name="BowsetteBikiniMai.027_1TummyTuck" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023Back" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023Back</Data>
+            <Data name="BowsetteBikiniMai.027Back" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027Back</Data>
+            <Data name="BowsetteBikiniMai.027_1Back" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.027Hipbone" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027Hipbone</Data>
+            <Data name="BowsetteBikiniMai.027_1Hipbone" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023Hips" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023Hips</Data>
+            <Data name="BowsetteBikiniMai.027Hips" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027Hips</Data>
+            <Data name="BowsetteBikiniMai.027_1Hips" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="BowsetteBikiniMai.027_1ButtCrack" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BowsetteBikiniMai.023Butt" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023Butt</Data>
+            <Data name="BowsetteBikiniMai.027_1Butt" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BowsetteBikiniMai.023ButtSmall" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023ButtSmall</Data>
+            <Data name="BowsetteBikiniMai.027ButtSmall" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027ButtSmall</Data>
+            <Data name="BowsetteBikiniMai.027_1ButtSmall" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023ButtShape2" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023ButtShape2</Data>
+            <Data name="BowsetteBikiniMai.027ButtShape2" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027ButtShape2</Data>
+            <Data name="BowsetteBikiniMai.027_1ButtShape2" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023BigButt" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023BigButt</Data>
+            <Data name="BowsetteBikiniMai.027BigButt" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027BigButt</Data>
+            <Data name="BowsetteBikiniMai.027_1BigButt" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023ChubbyButt" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023ChubbyButt</Data>
+            <Data name="BowsetteBikiniMai.027ChubbyButt" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027ChubbyButt</Data>
+            <Data name="BowsetteBikiniMai.027_1ChubbyButt" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023AppleCheeks" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023AppleCheeks</Data>
+            <Data name="BowsetteBikiniMai.027_1AppleCheeks" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.027_1RoundAss" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.027_1Groin" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.023SlimThighs" target="BowsetteBikiniMai.023" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.023SlimThighs</Data>
+            <Data name="BowsetteBikiniMai.027SlimThighs" target="BowsetteBikiniMai.027" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027SlimThighs</Data>
+            <Data name="BowsetteBikiniMai.027_1SlimThighs" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.027_1Thighs" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.027_1ChubbyLegs" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BowsetteBikiniMai.027_1Legs" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BowsetteBikiniMai.027_1KneeHeight" target="BowsetteBikiniMai.027_1" local="true">Bowsette_Swimsuit_CBBE.osd\BowsetteBikiniMai.027_1KneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

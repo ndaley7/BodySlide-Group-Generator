@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Forsworn">
+        <DataFolder>CT77Forsworn</DataFolder>
+        <SourceFile>CT77Forsworn.nif</SourceFile>
+        <OutputPath>meshes\clothes\forswornarmor</OutputPath>
+        <OutputFile GenWeights="true">forswornarmorf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="ForswornBelt">ForswornBelt</Shape>
+        <Shape target="ForswornChest">ForswornChest</Shape>
+        <Shape target="ForswornFeathers">ForswornFeathers</Shape>
+        <Shape target="ForswornLegCloth">ForswornLegCloth</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="ForswornChestBreasts" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreasts</Data>
+            <Data name="ForswornFeathersBreasts" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="ForswornBeltBreastsSmall" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBreastsSmall</Data>
+            <Data name="ForswornChestBreastsSmall" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastsSmall</Data>
+            <Data name="ForswornFeathersBreastsSmall" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="ForswornChestBreastsSH" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastsSH</Data>
+            <Data name="ForswornFeathersBreastsSH" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="ForswornChestBreastsSSH" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastsSSH</Data>
+            <Data name="ForswornFeathersBreastsSSH" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="ForswornChestBreastsFantasy" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastsFantasy</Data>
+            <Data name="ForswornFeathersBreastsFantasy" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="ForswornChestDoubleMelon" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestDoubleMelon</Data>
+            <Data name="ForswornFeathersDoubleMelon" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="ForswornChestBreastCleavage" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastCleavage</Data>
+            <Data name="ForswornFeathersBreastCleavage" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="ForswornBeltBreastFlatness" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBreastFlatness</Data>
+            <Data name="ForswornChestBreastFlatness" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastFlatness</Data>
+            <Data name="ForswornFeathersBreastFlatness" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="ForswornChestBreastGravity" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastGravity</Data>
+            <Data name="ForswornFeathersBreastGravity" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="ForswornChestPushUp" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestPushUp</Data>
+            <Data name="ForswornFeathersPushUp" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="ForswornBeltBreastHeight" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBreastHeight</Data>
+            <Data name="ForswornChestBreastHeight" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastHeight</Data>
+            <Data name="ForswornFeathersBreastHeight" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="ForswornChestBreastPerkiness" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastPerkiness</Data>
+            <Data name="ForswornFeathersBreastPerkiness" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="ForswornBeltBreastWidth" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBreastWidth</Data>
+            <Data name="ForswornChestBreastWidth" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBreastWidth</Data>
+            <Data name="ForswornFeathersBreastWidth" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="ForswornChestNippleDistance" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNippleDistance</Data>
+            <Data name="ForswornFeathersNippleDistance" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="ForswornChestNipplePerkiness" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNipplePerkiness</Data>
+            <Data name="ForswornFeathersNipplePerkiness" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="ForswornChestNippleLength" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNippleLength</Data>
+            <Data name="ForswornFeathersNippleLength" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="ForswornChestNippleSize" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNippleSize</Data>
+            <Data name="ForswornFeathersNippleSize" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="ForswornChestNippleAreola" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNippleAreola</Data>
+            <Data name="ForswornFeathersNippleAreola" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="ForswornChestNippleUp" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNippleUp</Data>
+            <Data name="ForswornFeathersNippleUp" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="ForswornChestNippleDown" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNippleDown</Data>
+            <Data name="ForswornFeathersNippleDown" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="ForswornChestNippleTip" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="ForswornChestArms" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestArms</Data>
+            <Data name="ForswornFeathersArms" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="ForswornChestChubbyArms" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestChubbyArms</Data>
+            <Data name="ForswornFeathersChubbyArms" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="ForswornChestShoulderSmooth" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestShoulderSmooth</Data>
+            <Data name="ForswornFeathersShoulderSmooth" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="ForswornChestShoulderWidth" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestShoulderWidth</Data>
+            <Data name="ForswornFeathersShoulderWidth" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="ForswornBeltBigTorso" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBigTorso</Data>
+            <Data name="ForswornChestBigTorso" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBigTorso</Data>
+            <Data name="ForswornFeathersBigTorso" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="ForswornBeltWaist" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltWaist</Data>
+            <Data name="ForswornChestWaist" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestWaist</Data>
+            <Data name="ForswornFeathersWaist" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="ForswornBeltWideWaistLine" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltWideWaistLine</Data>
+            <Data name="ForswornChestWideWaistLine" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestWideWaistLine</Data>
+            <Data name="ForswornFeathersWideWaistLine" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="ForswornBeltChubbyWaist" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltChubbyWaist</Data>
+            <Data name="ForswornChestChubbyWaist" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestChubbyWaist</Data>
+            <Data name="ForswornFeathersChubbyWaist" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="ForswornBeltBelly" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBelly</Data>
+            <Data name="ForswornChestBelly" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="ForswornBeltBigBelly" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBigBelly</Data>
+            <Data name="ForswornChestBigBelly" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="ForswornBeltTummyTuck" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltTummyTuck</Data>
+            <Data name="ForswornChestTummyTuck" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="ForswornBeltBack" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBack</Data>
+            <Data name="ForswornChestBack" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBack</Data>
+            <Data name="ForswornFeathersBack" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="ForswornBeltHipbone" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltHipbone</Data>
+            <Data name="ForswornFeathersHipbone" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersHipbone</Data>
+            <Data name="ForswornLegClothHipbone" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="ForswornBeltHips" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltHips</Data>
+            <Data name="ForswornChestHips" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestHips</Data>
+            <Data name="ForswornFeathersHips" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersHips</Data>
+            <Data name="ForswornLegClothHips" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="ForswornBeltButt" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltButt</Data>
+            <Data name="ForswornChestButt" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestButt</Data>
+            <Data name="ForswornFeathersButt" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersButt</Data>
+            <Data name="ForswornLegClothButt" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="ForswornBeltButtSmall" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltButtSmall</Data>
+            <Data name="ForswornChestButtSmall" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestButtSmall</Data>
+            <Data name="ForswornFeathersButtSmall" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersButtSmall</Data>
+            <Data name="ForswornLegClothButtSmall" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="ForswornBeltButtShape2" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltButtShape2</Data>
+            <Data name="ForswornChestButtShape2" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestButtShape2</Data>
+            <Data name="ForswornFeathersButtShape2" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersButtShape2</Data>
+            <Data name="ForswornLegClothButtShape2" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="ForswornBeltBigButt" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltBigButt</Data>
+            <Data name="ForswornChestBigButt" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestBigButt</Data>
+            <Data name="ForswornFeathersBigButt" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersBigButt</Data>
+            <Data name="ForswornLegClothBigButt" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="ForswornBeltChubbyButt" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltChubbyButt</Data>
+            <Data name="ForswornChestChubbyButt" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestChubbyButt</Data>
+            <Data name="ForswornFeathersChubbyButt" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersChubbyButt</Data>
+            <Data name="ForswornLegClothChubbyButt" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="ForswornBeltAppleCheeks" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltAppleCheeks</Data>
+            <Data name="ForswornChestAppleCheeks" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestAppleCheeks</Data>
+            <Data name="ForswornFeathersAppleCheeks" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersAppleCheeks</Data>
+            <Data name="ForswornLegClothAppleCheeks" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="ForswornBeltRoundAss" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltRoundAss</Data>
+            <Data name="ForswornChestRoundAss" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestRoundAss</Data>
+            <Data name="ForswornFeathersRoundAss" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="ForswornBeltSlimThighs" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltSlimThighs</Data>
+            <Data name="ForswornChestSlimThighs" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestSlimThighs</Data>
+            <Data name="ForswornFeathersSlimThighs" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersSlimThighs</Data>
+            <Data name="ForswornLegClothSlimThighs" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="ForswornBeltThighs" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltThighs</Data>
+            <Data name="ForswornLegClothThighs" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="ForswornBeltChubbyLegs" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltChubbyLegs</Data>
+            <Data name="ForswornLegClothChubbyLegs" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="ForswornBeltLegs" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltLegs</Data>
+            <Data name="ForswornLegClothLegs" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="ForswornLegClothKneeHeight" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="ForswornLegClothAnkles" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="ForswornFeathersSmallSeam" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="ForswornChestShoulderTweak" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestShoulderTweak</Data>
+            <Data name="ForswornFeathersShoulderTweak" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapFeathers" invert="false" small="0" big="0" zap="true">
+            <Data name="ForswornFeathersZapFeathers" target="ForswornFeathers" local="true">CT77Forsworn.osd\ForswornFeathersZapFeathers</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="ForswornChestZapChest" target="ForswornChest" local="true">CT77Forsworn.osd\ForswornChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="ForswornBeltZapBelt" target="ForswornBelt" local="true">CT77Forsworn.osd\ForswornBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ZapLegCloth" invert="false" small="0" big="0" zap="true">
+            <Data name="ForswornLegClothZapLegCloth" target="ForswornLegCloth" local="true">CT77Forsworn.osd\ForswornLegClothZapLegCloth</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Forsworn Gauntlets">
+        <DataFolder>CT77Forsworn</DataFolder>
+        <SourceFile>CT77ForswornGauntlets.nif</SourceFile>
+        <OutputPath>meshes\clothes\forswornarmor</OutputPath>
+        <OutputFile GenWeights="true">1stpersonforsworngauntletsf</OutputFile>
+        <Shape target="ForswornGauntlets">ForswornGauntlets</Shape>
+        <Shape target="ForswornHands" DataFolder="CT77Forsworn">ForswornHands</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="ForswornGauntletsArms" target="ForswornGauntlets" local="true">CT77ForswornGauntlets.osd\ForswornGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ForswornGauntletsChubbyArms" target="ForswornGauntlets" local="true">CT77ForswornGauntlets.osd\ForswornGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ForswornGauntletsShoulderWidth" target="ForswornGauntlets" local="true">CT77ForswornGauntlets.osd\ForswornGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="ForswornGauntletsBigTorso" target="ForswornGauntlets" local="true">CT77ForswornGauntlets.osd\ForswornGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="ForswornGauntletsSmallSeam" target="ForswornGauntlets" local="true">CT77ForswornGauntlets.osd\ForswornGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Forsworn Boots">
+        <DataFolder>CT77Forsworn</DataFolder>
+        <SourceFile>CT77ForswornBoots.nif</SourceFile>
+        <OutputPath>meshes\clothes\forswornarmor</OutputPath>
+        <OutputFile GenWeights="true">forswornbootsf</OutputFile>
+        <Shape target="ForswornBoots">ForswornBoots</Shape>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ForswornBootsButtSmall" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="ForswornBootsSlimThighs" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="ForswornBootsThighs" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ForswornBootsChubbyLegs" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="ForswornBootsLegs" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="ForswornBootsKneeHeight" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="ForswornBootsCalfSize" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="ForswornBootsCalfSmooth" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="ForswornBootsAnkles" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="ForswornBootsSmallSeam" target="ForswornBoots" local="true">CT77ForswornBoots.osd\ForswornBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

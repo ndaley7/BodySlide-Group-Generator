@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Dragonscale">
+        <DataFolder>CT77Dragonscale</DataFolder>
+        <SourceFile>CT77Dragonscale.nif</SourceFile>
+        <OutputPath>meshes\armor\dragonscale</OutputPath>
+        <OutputFile GenWeights="true">dragonscalearmorf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="DragonscaleArmbands">DragonscaleArmbands</Shape>
+        <Shape target="DragonscaleBelt">DragonscaleBelt</Shape>
+        <Shape target="DragonscaleChest">DragonscaleChest</Shape>
+        <Shape target="DragonscaleLegArmor">DragonscaleLegArmor</Shape>
+        <Shape target="DragonscalePauldrons">DragonscalePauldrons</Shape>
+        <Shape target="DragonscaleSkirt">DragonscaleSkirt</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="DragonscaleChestBreasts" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreasts</Data>
+            <Data name="DragonscalePauldronsBreasts" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="DragonscaleArmbandsBreastsSmall" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBreastsSmall</Data>
+            <Data name="DragonscaleBeltBreastsSmall" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltBreastsSmall</Data>
+            <Data name="DragonscaleChestBreastsSmall" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastsSmall</Data>
+            <Data name="DragonscalePauldronsBreastsSmall" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastsSmall</Data>
+            <Data name="DragonscaleSkirtBreastsSmall" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="DragonscaleChestBreastsSH" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastsSH</Data>
+            <Data name="DragonscalePauldronsBreastsSH" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="DragonscaleChestBreastsSSH" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastsSSH</Data>
+            <Data name="DragonscalePauldronsBreastsSSH" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="DragonscaleArmbandsBreastsFantasy" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBreastsFantasy</Data>
+            <Data name="DragonscaleChestBreastsFantasy" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastsFantasy</Data>
+            <Data name="DragonscalePauldronsBreastsFantasy" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="DragonscaleChestDoubleMelon" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestDoubleMelon</Data>
+            <Data name="DragonscalePauldronsDoubleMelon" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="DragonscaleChestBreastCleavage" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastCleavage</Data>
+            <Data name="DragonscalePauldronsBreastCleavage" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="DragonscaleArmbandsBreastFlatness" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBreastFlatness</Data>
+            <Data name="DragonscaleChestBreastFlatness" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastFlatness</Data>
+            <Data name="DragonscalePauldronsBreastFlatness" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="DragonscaleArmbandsBreastGravity" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBreastGravity</Data>
+            <Data name="DragonscaleChestBreastGravity" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastGravity</Data>
+            <Data name="DragonscalePauldronsBreastGravity" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="DragonscaleArmbandsPushUp" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsPushUp</Data>
+            <Data name="DragonscaleChestPushUp" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestPushUp</Data>
+            <Data name="DragonscalePauldronsPushUp" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="DragonscaleArmbandsBreastHeight" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBreastHeight</Data>
+            <Data name="DragonscaleBeltBreastHeight" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltBreastHeight</Data>
+            <Data name="DragonscaleChestBreastHeight" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastHeight</Data>
+            <Data name="DragonscalePauldronsBreastHeight" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastHeight</Data>
+            <Data name="DragonscaleSkirtBreastHeight" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="DragonscaleArmbandsBreastPerkiness" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBreastPerkiness</Data>
+            <Data name="DragonscaleChestBreastPerkiness" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastPerkiness</Data>
+            <Data name="DragonscalePauldronsBreastPerkiness" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="DragonscaleArmbandsBreastWidth" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBreastWidth</Data>
+            <Data name="DragonscaleChestBreastWidth" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBreastWidth</Data>
+            <Data name="DragonscalePauldronsBreastWidth" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="DragonscaleChestNippleDistance" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="DragonscaleChestNipplePerkiness" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="DragonscaleChestNippleLength" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="DragonscaleChestNippleSize" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="DragonscaleChestNippleAreola" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="DragonscaleChestNippleUp" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="DragonscaleChestNippleDown" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="DragonscaleChestNippleTip" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="DragonscaleArmbandsArms" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsArms</Data>
+            <Data name="DragonscaleChestArms" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestArms</Data>
+            <Data name="DragonscalePauldronsArms" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="DragonscaleArmbandsChubbyArms" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsChubbyArms</Data>
+            <Data name="DragonscaleChestChubbyArms" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestChubbyArms</Data>
+            <Data name="DragonscalePauldronsChubbyArms" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="DragonscaleArmbandsShoulderSmooth" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsShoulderSmooth</Data>
+            <Data name="DragonscalePauldronsShoulderSmooth" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="DragonscaleArmbandsShoulderWidth" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsShoulderWidth</Data>
+            <Data name="DragonscaleChestShoulderWidth" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestShoulderWidth</Data>
+            <Data name="DragonscalePauldronsShoulderWidth" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="DragonscaleArmbandsBigTorso" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBigTorso</Data>
+            <Data name="DragonscaleBeltBigTorso" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltBigTorso</Data>
+            <Data name="DragonscaleChestBigTorso" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBigTorso</Data>
+            <Data name="DragonscalePauldronsBigTorso" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBigTorso</Data>
+            <Data name="DragonscaleSkirtBigTorso" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="DragonscaleArmbandsWaist" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsWaist</Data>
+            <Data name="DragonscaleBeltWaist" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltWaist</Data>
+            <Data name="DragonscaleChestWaist" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestWaist</Data>
+            <Data name="DragonscaleSkirtWaist" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="DragonscaleBeltWideWaistLine" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltWideWaistLine</Data>
+            <Data name="DragonscaleChestWideWaistLine" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestWideWaistLine</Data>
+            <Data name="DragonscaleSkirtWideWaistLine" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="DragonscaleBeltChubbyWaist" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltChubbyWaist</Data>
+            <Data name="DragonscaleChestChubbyWaist" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestChubbyWaist</Data>
+            <Data name="DragonscalePauldronsChubbyWaist" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsChubbyWaist</Data>
+            <Data name="DragonscaleSkirtChubbyWaist" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="DragonscaleBeltBelly" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltBelly</Data>
+            <Data name="DragonscaleChestBelly" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBelly</Data>
+            <Data name="DragonscaleSkirtBelly" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="DragonscaleBeltBigBelly" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltBigBelly</Data>
+            <Data name="DragonscaleChestBigBelly" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBigBelly</Data>
+            <Data name="DragonscaleSkirtBigBelly" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="DragonscaleBeltTummyTuck" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltTummyTuck</Data>
+            <Data name="DragonscaleChestTummyTuck" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestTummyTuck</Data>
+            <Data name="DragonscaleSkirtTummyTuck" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="DragonscaleArmbandsBack" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsBack</Data>
+            <Data name="DragonscaleBeltBack" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltBack</Data>
+            <Data name="DragonscaleChestBack" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBack</Data>
+            <Data name="DragonscalePauldronsBack" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsBack</Data>
+            <Data name="DragonscaleSkirtBack" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="DragonscaleBeltHipbone" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltHipbone</Data>
+            <Data name="DragonscaleSkirtHipbone" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="DragonscaleBeltHips" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltHips</Data>
+            <Data name="DragonscaleChestHips" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestHips</Data>
+            <Data name="DragonscaleLegArmorHips" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorHips</Data>
+            <Data name="DragonscaleSkirtHips" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="DragonscaleBeltButt" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltButt</Data>
+            <Data name="DragonscaleLegArmorButt" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorButt</Data>
+            <Data name="DragonscaleSkirtButt" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="DragonscaleBeltButtSmall" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltButtSmall</Data>
+            <Data name="DragonscaleLegArmorButtSmall" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorButtSmall</Data>
+            <Data name="DragonscaleSkirtButtSmall" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="DragonscaleBeltButtShape2" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltButtShape2</Data>
+            <Data name="DragonscaleChestButtShape2" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestButtShape2</Data>
+            <Data name="DragonscaleLegArmorButtShape2" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorButtShape2</Data>
+            <Data name="DragonscaleSkirtButtShape2" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="DragonscaleBeltBigButt" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltBigButt</Data>
+            <Data name="DragonscaleChestBigButt" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestBigButt</Data>
+            <Data name="DragonscaleLegArmorBigButt" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorBigButt</Data>
+            <Data name="DragonscaleSkirtBigButt" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="DragonscaleBeltChubbyButt" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltChubbyButt</Data>
+            <Data name="DragonscaleChestChubbyButt" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestChubbyButt</Data>
+            <Data name="DragonscaleLegArmorChubbyButt" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorChubbyButt</Data>
+            <Data name="DragonscalePauldronsChubbyButt" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsChubbyButt</Data>
+            <Data name="DragonscaleSkirtChubbyButt" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="DragonscaleBeltAppleCheeks" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltAppleCheeks</Data>
+            <Data name="DragonscaleChestAppleCheeks" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestAppleCheeks</Data>
+            <Data name="DragonscaleSkirtAppleCheeks" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="DragonscaleBeltRoundAss" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltRoundAss</Data>
+            <Data name="DragonscaleSkirtRoundAss" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="DragonscaleBeltSlimThighs" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltSlimThighs</Data>
+            <Data name="DragonscaleLegArmorSlimThighs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorSlimThighs</Data>
+            <Data name="DragonscaleSkirtSlimThighs" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="DragonscaleBeltThighs" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltThighs</Data>
+            <Data name="DragonscaleLegArmorThighs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorThighs</Data>
+            <Data name="DragonscaleSkirtThighs" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="DragonscaleBeltChubbyLegs" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltChubbyLegs</Data>
+            <Data name="DragonscaleLegArmorChubbyLegs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorChubbyLegs</Data>
+            <Data name="DragonscaleSkirtChubbyLegs" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="DragonscaleBeltLegs" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltLegs</Data>
+            <Data name="DragonscaleLegArmorLegs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorLegs</Data>
+            <Data name="DragonscaleSkirtLegs" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="DragonscaleBeltKneeHeight" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltKneeHeight</Data>
+            <Data name="DragonscaleLegArmorKneeHeight" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorKneeHeight</Data>
+            <Data name="DragonscaleSkirtKneeHeight" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="DragonscalePauldronsSmallSeam" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="DragonscaleArmbandsShoulderTweak" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsShoulderTweak</Data>
+            <Data name="DragonscalePauldronsShoulderTweak" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="DragonscalePauldronsZapPauldrons" target="DragonscalePauldrons" local="true">CT77Dragonscale.osd\DragonscalePauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapArmbands" invert="false" small="0" big="0" zap="true">
+            <Data name="DragonscaleArmbandsZapArmbands" target="DragonscaleArmbands" local="true">CT77Dragonscale.osd\DragonscaleArmbandsZapArmbands</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="DragonscaleChestZapChest" target="DragonscaleChest" local="true">CT77Dragonscale.osd\DragonscaleChestZapChest</Data>
+        </Slider>
+        <Slider name="ToggleBelt" invert="false" small="100" big="100" hidden="true" zap="true" zaptoggles="ZapSkirt;">
+            <Data name="DragonscaleBeltZapBelt" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ToggleSkirt" invert="false" small="0" big="0" zap="true" zaptoggles="ToggleBelt;">
+            <Data name="DragonscaleSkirtZapSkirt" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="DragonscaleSkirtZapSkirt" target="DragonscaleSkirt" local="true">CT77Dragonscale.osd\DragonscaleSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="DragonscaleBeltZapBelt" target="DragonscaleBelt" local="true">CT77Dragonscale.osd\DragonscaleBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ZapLegArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="DragonscaleLegArmorZapLegArmor" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Dragonscale Gauntlets">
+        <DataFolder>CT77Dragonscale</DataFolder>
+        <SourceFile>CT77DragonscaleGauntlets.nif</SourceFile>
+        <OutputPath>meshes\armor\dragonscale</OutputPath>
+        <OutputFile GenWeights="true">dragonscaleglovesf</OutputFile>
+        <Shape target="DragonscaleGauntlets">DragonscaleGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="DragonscaleGauntletsArms" target="DragonscaleGauntlets" local="true">CT77DragonscaleGauntlets.osd\DragonscaleGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="DragonscaleGauntletsChubbyArms" target="DragonscaleGauntlets" local="true">CT77DragonscaleGauntlets.osd\DragonscaleGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="DragonscaleGauntletsShoulderWidth" target="DragonscaleGauntlets" local="true">CT77DragonscaleGauntlets.osd\DragonscaleGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="DragonscaleGauntletsBigTorso" target="DragonscaleGauntlets" local="true">CT77DragonscaleGauntlets.osd\DragonscaleGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DragonscaleGauntletsSmallSeam" target="DragonscaleGauntlets" local="true">CT77DragonscaleGauntlets.osd\DragonscaleGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Dragonscale Boots">
+        <DataFolder>CT77Dragonscale</DataFolder>
+        <SourceFile>CT77DragonscaleBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\dragonscale</OutputPath>
+        <OutputFile GenWeights="true">dragonscalebootsf</OutputFile>
+        <Shape target="DragonscaleBoots">DragonscaleBoots</Shape>
+        <Shape target="DragonscaleFeet">DragonscaleFeet</Shape>
+        <Shape target="DragonscaleKneeguards">DragonscaleKneeguards</Shape>
+        <Shape target="DragonscaleShins">DragonscaleShins</Shape>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="DragonscaleKneeguardsButtSmall" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsButtSmall</Data>
+            <Data name="DragonscaleBootsButtSmall" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DragonscaleKneeguardsSlimThighs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsSlimThighs</Data>
+            <Data name="DragonscaleBootsSlimThighs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DragonscaleKneeguardsThighs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsThighs</Data>
+            <Data name="DragonscaleBootsThighs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DragonscaleKneeguardsChubbyLegs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsChubbyLegs</Data>
+            <Data name="DragonscaleBootsChubbyLegs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsChubbyLegs</Data>
+            <Data name="DragonscaleShinsChubbyLegs" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="DragonscaleKneeguardsLegs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsLegs</Data>
+            <Data name="DragonscaleFeetLegs" target="DragonscaleFeet" local="true">CT77DragonscaleBoots.osd\DragonscaleFeetLegs</Data>
+            <Data name="DragonscaleBootsLegs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsLegs</Data>
+            <Data name="DragonscaleShinsLegs" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DragonscaleKneeguardsKneeHeight" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsKneeHeight</Data>
+            <Data name="DragonscaleBootsKneeHeight" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsKneeHeight</Data>
+            <Data name="DragonscaleShinsKneeHeight" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsCalfSize" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsCalfSize</Data>
+            <Data name="DragonscaleShinsCalfSize" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsCalfSmooth" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsCalfSmooth</Data>
+            <Data name="DragonscaleShinsCalfSmooth" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="DragonscaleKneeguardsAnkles" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsAnkles</Data>
+            <Data name="DragonscaleFeetAnkles" target="DragonscaleFeet" local="true">CT77DragonscaleBoots.osd\DragonscaleFeetAnkles</Data>
+            <Data name="DragonscaleBootsAnkles" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsAnkles</Data>
+            <Data name="DragonscaleShinsAnkles" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DragonscaleFeetSmallSeam" target="DragonscaleFeet" local="true">CT77DragonscaleBoots.osd\DragonscaleFeetSmallSeam</Data>
+            <Data name="DragonscaleBootsSmallSeam" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsSmallSeam</Data>
+            <Data name="DragonscaleShinsSmallSeam" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Dragonscale Thigh Boots">
+        <DataFolder>CT77Dragonscale</DataFolder>
+        <SourceFile>CT77DragonscaleThighboots.nif</SourceFile>
+        <OutputPath>meshes\armor\dragonscale</OutputPath>
+        <OutputFile GenWeights="true">CT77dragonscalethighbootsf</OutputFile>
+        <Shape target="DragonscaleBoots">DragonscaleBoots</Shape>
+        <Shape target="DragonscaleFeet" DataFolder="CT77DragonscaleBoots">DragonscaleFeet</Shape>
+        <Shape target="DragonscaleKneeguards">DragonscaleKneeguards</Shape>
+        <Shape target="DragonscaleLegArmor">DragonscaleLegArmor</Shape>
+        <Shape target="DragonscaleShins">DragonscaleShins</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="DragonscaleLegArmorHips" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="DragonscaleLegArmorButt" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="DragonscaleLegArmorButtSmall" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorButtSmall</Data>
+            <Data name="DragonscaleKneeguardsButtSmall" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsButtSmall</Data>
+            <Data name="DragonscaleBootsButtSmall" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsButtSmall</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="DragonscaleLegArmorBigButt" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="DragonscaleLegArmorChubbyButt" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DragonscaleLegArmorSlimThighs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorSlimThighs</Data>
+            <Data name="DragonscaleKneeguardsSlimThighs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsSlimThighs</Data>
+            <Data name="DragonscaleBootsSlimThighs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DragonscaleLegArmorThighs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorThighs</Data>
+            <Data name="DragonscaleKneeguardsThighs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsThighs</Data>
+            <Data name="DragonscaleBootsThighs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DragonscaleLegArmorChubbyLegs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorChubbyLegs</Data>
+            <Data name="DragonscaleKneeguardsChubbyLegs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsChubbyLegs</Data>
+            <Data name="DragonscaleBootsChubbyLegs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsChubbyLegs</Data>
+            <Data name="DragonscaleShinsChubbyLegs" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="DragonscaleFeetLegs" target="DragonscaleFeet" local="true">CT77DragonscaleBoots.osd\DragonscaleFeetLegs</Data>
+            <Data name="DragonscaleLegArmorLegs" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorLegs</Data>
+            <Data name="DragonscaleKneeguardsLegs" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsLegs</Data>
+            <Data name="DragonscaleBootsLegs" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsLegs</Data>
+            <Data name="DragonscaleShinsLegs" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DragonscaleLegArmorKneeHeight" target="DragonscaleLegArmor" local="true">CT77Dragonscale.osd\DragonscaleLegArmorKneeHeight</Data>
+            <Data name="DragonscaleKneeguardsKneeHeight" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsKneeHeight</Data>
+            <Data name="DragonscaleBootsKneeHeight" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsKneeHeight</Data>
+            <Data name="DragonscaleShinsKneeHeight" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsCalfSize" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsCalfSize</Data>
+            <Data name="DragonscaleShinsCalfSize" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsCalfSmooth" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsCalfSmooth</Data>
+            <Data name="DragonscaleShinsCalfSmooth" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="DragonscaleFeetAnkles" target="DragonscaleFeet" local="true">CT77DragonscaleBoots.osd\DragonscaleFeetAnkles</Data>
+            <Data name="DragonscaleKneeguardsAnkles" target="DragonscaleKneeguards" local="true">CT77DragonscaleBoots.osd\DragonscaleKneeguardsAnkles</Data>
+            <Data name="DragonscaleBootsAnkles" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsAnkles</Data>
+            <Data name="DragonscaleShinsAnkles" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DragonscaleFeetSmallSeam" target="DragonscaleFeet" local="true">CT77DragonscaleBoots.osd\DragonscaleFeetSmallSeam</Data>
+            <Data name="DragonscaleBootsSmallSeam" target="DragonscaleBoots" local="true">CT77DragonscaleBoots.osd\DragonscaleBootsSmallSeam</Data>
+            <Data name="DragonscaleShinsSmallSeam" target="DragonscaleShins" local="true">CT77DragonscaleBoots.osd\DragonscaleShinsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

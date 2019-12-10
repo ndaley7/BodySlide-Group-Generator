@@ -1,0 +1,151 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Cre Halloween Cloak">
+        <DataFolder>Cre Halloween Cloak</DataFolder>
+        <SourceFile>Cre Halloween Cloak.nif</SourceFile>
+        <OutputPath>meshes\Cre_armor\HalloWeen</OutputPath>
+        <OutputFile GenWeights="true">Halloween_Cloak_A</OutputFile>
+        <Shape target="0Cloak1">0Cloak1</Shape>
+        <Shape target="0Cloak2">0Cloak2</Shape>
+        <Shape target="0heart">0heart</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="0Cloak1Breasts" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1Breasts</Data>
+            <Data name="0Cloak2Breasts" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2Breasts</Data>
+            <Data name="0heartBreasts" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="0Cloak1BreastsSmall" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastsSmall</Data>
+            <Data name="0Cloak2BreastsSmall" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastsSmall</Data>
+            <Data name="0heartBreastsSmall" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastsSH" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastsSH</Data>
+            <Data name="0Cloak2BreastsSH" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastsSH</Data>
+            <Data name="0heartBreastsSH" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastsSSH" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastsSSH</Data>
+            <Data name="0Cloak2BreastsSSH" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastsSSH</Data>
+            <Data name="0heartBreastsSSH" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastsFantasy" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastsFantasy</Data>
+            <Data name="0Cloak2BreastsFantasy" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastsFantasy</Data>
+            <Data name="0heartBreastsFantasy" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="0Cloak1DoubleMelon" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1DoubleMelon</Data>
+            <Data name="0Cloak2DoubleMelon" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2DoubleMelon</Data>
+            <Data name="0heartDoubleMelon" target="0heart" local="true">Cre Halloween Cloak.osd\0heartDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastCleavage" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastCleavage</Data>
+            <Data name="0Cloak2BreastCleavage" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastCleavage</Data>
+            <Data name="0heartBreastCleavage" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastFlatness" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastFlatness</Data>
+            <Data name="0Cloak2BreastFlatness" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastFlatness</Data>
+            <Data name="0heartBreastFlatness" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastGravity" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastGravity</Data>
+            <Data name="0Cloak2BreastGravity" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastGravity</Data>
+            <Data name="0heartBreastGravity" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="0Cloak1PushUp" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1PushUp</Data>
+            <Data name="0Cloak2PushUp" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2PushUp</Data>
+            <Data name="0heartPushUp" target="0heart" local="true">Cre Halloween Cloak.osd\0heartPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastHeight" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastHeight</Data>
+            <Data name="0Cloak2BreastHeight" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastHeight</Data>
+            <Data name="0heartBreastHeight" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastPerkiness" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastPerkiness</Data>
+            <Data name="0Cloak2BreastPerkiness" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastPerkiness</Data>
+            <Data name="0heartBreastPerkiness" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="0Cloak1BreastWidth" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BreastWidth</Data>
+            <Data name="0Cloak2BreastWidth" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BreastWidth</Data>
+            <Data name="0heartBreastWidth" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="0Cloak1NippleDistance" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1NippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="0Cloak1NippleLength" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1NippleLength</Data>
+            <Data name="0Cloak2NippleLength" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2NippleLength</Data>
+            <Data name="0heartNippleLength" target="0heart" local="true">Cre Halloween Cloak.osd\0heartNippleLength</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="0Cloak1NippleAreola" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1NippleAreola</Data>
+            <Data name="0heartNippleAreola" target="0heart" local="true">Cre Halloween Cloak.osd\0heartNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="0Cloak1NippleUp" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1NippleUp</Data>
+            <Data name="0Cloak2NippleUp" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2NippleUp</Data>
+            <Data name="0heartNippleUp" target="0heart" local="true">Cre Halloween Cloak.osd\0heartNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="0Cloak1NippleDown" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1NippleDown</Data>
+            <Data name="0heartNippleDown" target="0heart" local="true">Cre Halloween Cloak.osd\0heartNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="0Cloak1Arms" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1Arms</Data>
+            <Data name="0Cloak2Arms" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="0Cloak1ChubbyArms" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1ChubbyArms</Data>
+            <Data name="0Cloak2ChubbyArms" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="0Cloak1ShoulderSmooth" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1ShoulderSmooth</Data>
+            <Data name="0Cloak2ShoulderSmooth" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2ShoulderSmooth</Data>
+            <Data name="0heartShoulderSmooth" target="0heart" local="true">Cre Halloween Cloak.osd\0heartShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="0Cloak1ShoulderWidth" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1ShoulderWidth</Data>
+            <Data name="0Cloak2ShoulderWidth" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="0Cloak1BigTorso" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1BigTorso</Data>
+            <Data name="0Cloak2BigTorso" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2BigTorso</Data>
+            <Data name="0heartBigTorso" target="0heart" local="true">Cre Halloween Cloak.osd\0heartBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="0Cloak1Waist" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="0Cloak1WideWaistLine" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="0Cloak1ChubbyWaist" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="0Cloak1PregnancyBelly" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1PregnancyBelly</Data>
+            <Data name="0Cloak2PregnancyBelly" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2PregnancyBelly</Data>
+            <Data name="0heartPregnancyBelly" target="0heart" local="true">Cre Halloween Cloak.osd\0heartPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="0Cloak1Back" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1Back</Data>
+            <Data name="0Cloak2Back" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2Back</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="0Cloak1ButtShape2" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1ButtShape2</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="0Cloak1ChubbyButt" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1ChubbyButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="0Cloak1SmallSeam" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1SmallSeam</Data>
+            <Data name="0Cloak2SmallSeam" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="0Cloak1ShoulderTweak" target="0Cloak1" local="true">Cre Halloween Cloak.osd\0Cloak1ShoulderTweak</Data>
+            <Data name="0Cloak2ShoulderTweak" target="0Cloak2" local="true">Cre Halloween Cloak.osd\0Cloak2ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

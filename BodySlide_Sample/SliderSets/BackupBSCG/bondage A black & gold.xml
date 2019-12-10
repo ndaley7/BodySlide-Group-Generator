@@ -1,0 +1,278 @@
+<SliderSetInfo>
+    <SliderSet name="bondage A black &amp; gold">
+        <SetFolder>bondage A black &amp; gold</SetFolder>
+        <SourceFile>bondage A black &amp; gold.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Bondage</OutputPath>
+        <OutputFile>bondage A black &amp; gold</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Tri RenHead.004 0">Tri RenHead.004 0</BaseShapeName>
+        <BaseShapeName target="Tri RenHead.004 1">Tri RenHead.004 1</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Breasts" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Breasts.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Breasts" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastsSmall" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastsSmall.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastsSmall" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastsSH" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastsSH.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastsSH" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastsSSH" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastsSSH.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastsSSH" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastsFantasy" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastsFantasy.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastsFantasy" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="Tri RenHead.004 1DoubleMelon" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1DoubleMelon.bsd</datafile>
+            <datafile name="Tri RenHead.004 0DoubleMelon" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastCleavage" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastCleavage.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastCleavage" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastFlatness" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastFlatness.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastFlatness" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastGravity" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastGravity.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastGravity" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="Tri RenHead.004 1PushUp" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1PushUp.bsd</datafile>
+            <datafile name="Tri RenHead.004 0PushUp" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastHeight" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastHeight.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastHeight" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastPerkiness" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastPerkiness.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastPerkiness" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BreastWidth" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BreastWidth.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BreastWidth" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="Tri RenHead.004 1NippleDistance" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1NippleDistance.bsd</datafile>
+            <datafile name="Tri RenHead.004 0NippleDistance" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="Tri RenHead.004 1NippleLength" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1NippleLength.bsd</datafile>
+            <datafile name="Tri RenHead.004 0NippleLength" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="Tri RenHead.004 1NippleAreola" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1NippleAreola.bsd</datafile>
+            <datafile name="Tri RenHead.004 0NippleAreola" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0NippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="Tri RenHead.004 1NippleUp" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1NippleUp.bsd</datafile>
+            <datafile name="Tri RenHead.004 0NippleUp" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="Tri RenHead.004 1NippleDown" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1NippleDown.bsd</datafile>
+            <datafile name="Tri RenHead.004 0NippleDown" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0NippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Arms" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Arms.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Arms" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ChubbyArms" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ChubbyArms.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ChubbyArms" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ShoulderSmooth" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ShoulderSmooth.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ShoulderSmooth" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ShoulderWidth" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ShoulderWidth.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ShoulderWidth" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BigTorso" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BigTorso.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BigTorso" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Waist" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Waist.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Waist" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Waist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="Tri RenHead.004 1WideWaistLine" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1WideWaistLine.bsd</datafile>
+            <datafile name="Tri RenHead.004 0WideWaistLine" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0WideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ChubbyWaist" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ChubbyWaist.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ChubbyWaist" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Belly" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Belly.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Belly" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BigBelly" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BigBelly.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BigBelly" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="Tri RenHead.004 1PregnancyBelly" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1PregnancyBelly.bsd</datafile>
+            <datafile name="Tri RenHead.004 0PregnancyBelly" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="Tri RenHead.004 1TummyTuck" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1TummyTuck.bsd</datafile>
+            <datafile name="Tri RenHead.004 0TummyTuck" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Back" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Back.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Back" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Hipbone" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Hipbone.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Hipbone" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Hips" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Hips.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Hips" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ButtCrack" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ButtCrack.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ButtCrack" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Butt" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Butt.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Butt" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ButtSmall" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ButtSmall.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ButtSmall" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ButtShape2" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ButtShape2.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ButtShape2" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="Tri RenHead.004 1BigButt" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1BigButt.bsd</datafile>
+            <datafile name="Tri RenHead.004 0BigButt" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ChubbyButt" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ChubbyButt.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ChubbyButt" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="Tri RenHead.004 1AppleCheeks" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1AppleCheeks.bsd</datafile>
+            <datafile name="Tri RenHead.004 0AppleCheeks" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="Tri RenHead.004 1RoundAss" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1RoundAss.bsd</datafile>
+            <datafile name="Tri RenHead.004 0RoundAss" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Groin" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Groin.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Groin" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Groin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="Tri RenHead.004 1SlimThighs" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1SlimThighs.bsd</datafile>
+            <datafile name="Tri RenHead.004 0SlimThighs" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Thighs" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Thighs.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Thighs" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="Tri RenHead.004 1ChubbyLegs" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1ChubbyLegs.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ChubbyLegs" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="Tri RenHead.004 1Legs" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1Legs.bsd</datafile>
+            <datafile name="Tri RenHead.004 0Legs" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="Tri RenHead.004 0KneeHeight" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="Tri RenHead.004 1SmallSeam" target="Tri RenHead.004 1" local="true">Tri RenHead.004 1SmallSeam.bsd</datafile>
+            <datafile name="Tri RenHead.004 0SmallSeam" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="Tri RenHead.004 0ShoulderTweak" target="Tri RenHead.004 0" local="true">Tri RenHead.004 0ShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

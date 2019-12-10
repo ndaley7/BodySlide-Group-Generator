@@ -1,0 +1,125 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Clover Boots white">
+        <DataFolder>Clover Boots white</DataFolder>
+        <SourceFile>Clover Boots white.nif</SourceFile>
+        <OutputPath>meshes\rcnv\cloverw</OutputPath>
+        <OutputFile GenWeights="true">boots</OutputFile>
+        <Shape target="Stock_1_02_1_1_1_1_1">Stock_1_02_1_1_1_1_1</Shape>
+        <Shape target="Stock_1_02_1_1_1_1_2">Stock_1_02_1_1_1_1_2</Shape>
+        <Shape target="Stock_1_02_2">Stock_1_02_2</Shape>
+        <Shape target="Stock_1_02_3">Stock_1_02_3</Shape>
+        <Shape target="Stock_1_02_4">Stock_1_02_4</Shape>
+        <Shape target="Stock_1_02_5">Stock_1_02_5</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1PregnancyBelly" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1PregnancyBelly</Data>
+            <Data name="Stock_1_02_1_1_1_1_2PregnancyBelly" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2PregnancyBelly</Data>
+            <Data name="Stock_1_02_3PregnancyBelly" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3PregnancyBelly</Data>
+            <Data name="Stock_1_02_5PregnancyBelly" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5PregnancyBelly</Data>
+            <Data name="Stock_1_02_4PregnancyBelly" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_2TummyTuck" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2TummyTuck</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_2Hipbone" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1Hips" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1Hips</Data>
+            <Data name="Stock_1_02_1_1_1_1_2Hips" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2Hips</Data>
+            <Data name="Stock_1_02_2Hips" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2Hips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Stock_1_02_1_1_1_1_1Butt" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1Butt</Data>
+            <Data name="Stock_1_02_1_1_1_1_2Butt" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2Butt</Data>
+            <Data name="Stock_1_02_2Butt" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Stock_1_02_1_1_1_1_1ButtSmall" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1ButtSmall</Data>
+            <Data name="Stock_1_02_1_1_1_1_2ButtSmall" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2ButtSmall</Data>
+            <Data name="Stock_1_02_2ButtSmall" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1ButtShape2" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1ButtShape2</Data>
+            <Data name="Stock_1_02_1_1_1_1_2ButtShape2" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2ButtShape2</Data>
+            <Data name="Stock_1_02_2ButtShape2" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1BigButt" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1BigButt</Data>
+            <Data name="Stock_1_02_1_1_1_1_2BigButt" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2BigButt</Data>
+            <Data name="Stock_1_02_2BigButt" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1ChubbyButt" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1ChubbyButt</Data>
+            <Data name="Stock_1_02_1_1_1_1_2ChubbyButt" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2ChubbyButt</Data>
+            <Data name="Stock_1_02_2ChubbyButt" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1AppleCheeks" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1AppleCheeks</Data>
+            <Data name="Stock_1_02_1_1_1_1_2AppleCheeks" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_2RoundAss" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_2Groin" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1SlimThighs" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1SlimThighs</Data>
+            <Data name="Stock_1_02_1_1_1_1_2SlimThighs" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2SlimThighs</Data>
+            <Data name="Stock_1_02_2SlimThighs" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1Thighs" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1Thighs</Data>
+            <Data name="Stock_1_02_1_1_1_1_2Thighs" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2Thighs</Data>
+            <Data name="Stock_1_02_2Thighs" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1ChubbyLegs" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1ChubbyLegs</Data>
+            <Data name="Stock_1_02_1_1_1_1_2ChubbyLegs" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2ChubbyLegs</Data>
+            <Data name="Stock_1_02_3ChubbyLegs" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3ChubbyLegs</Data>
+            <Data name="Stock_1_02_5ChubbyLegs" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5ChubbyLegs</Data>
+            <Data name="Stock_1_02_4ChubbyLegs" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4ChubbyLegs</Data>
+            <Data name="Stock_1_02_2ChubbyLegs" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Stock_1_02_1_1_1_1_1Legs" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1Legs</Data>
+            <Data name="Stock_1_02_1_1_1_1_2Legs" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2Legs</Data>
+            <Data name="Stock_1_02_3Legs" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3Legs</Data>
+            <Data name="Stock_1_02_5Legs" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5Legs</Data>
+            <Data name="Stock_1_02_4Legs" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4Legs</Data>
+            <Data name="Stock_1_02_2Legs" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1KneeHeight" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1KneeHeight</Data>
+            <Data name="Stock_1_02_1_1_1_1_2KneeHeight" target="Stock_1_02_1_1_1_1_2" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_2KneeHeight</Data>
+            <Data name="Stock_1_02_3KneeHeight" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3KneeHeight</Data>
+            <Data name="Stock_1_02_5KneeHeight" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5KneeHeight</Data>
+            <Data name="Stock_1_02_4KneeHeight" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4KneeHeight</Data>
+            <Data name="Stock_1_02_2KneeHeight" target="Stock_1_02_2" local="true">Clover Boots white.osd\Stock_1_02_2KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1CalfSize" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1CalfSize</Data>
+            <Data name="Stock_1_02_3CalfSize" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3CalfSize</Data>
+            <Data name="Stock_1_02_5CalfSize" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5CalfSize</Data>
+            <Data name="Stock_1_02_4CalfSize" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="Stock_1_02_1_1_1_1_1CalfSmooth" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1CalfSmooth</Data>
+            <Data name="Stock_1_02_3CalfSmooth" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3CalfSmooth</Data>
+            <Data name="Stock_1_02_5CalfSmooth" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5CalfSmooth</Data>
+            <Data name="Stock_1_02_4CalfSmooth" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Stock_1_02_1_1_1_1_1Ankles" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1Ankles</Data>
+            <Data name="Stock_1_02_3Ankles" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3Ankles</Data>
+            <Data name="Stock_1_02_5Ankles" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5Ankles</Data>
+            <Data name="Stock_1_02_4Ankles" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Stock_1_02_1_1_1_1_1SmallSeam" target="Stock_1_02_1_1_1_1_1" local="true">Clover Boots white.osd\Stock_1_02_1_1_1_1_1SmallSeam</Data>
+            <Data name="Stock_1_02_3SmallSeam" target="Stock_1_02_3" local="true">Clover Boots white.osd\Stock_1_02_3SmallSeam</Data>
+            <Data name="Stock_1_02_5SmallSeam" target="Stock_1_02_5" local="true">Clover Boots white.osd\Stock_1_02_5SmallSeam</Data>
+            <Data name="Stock_1_02_4SmallSeam" target="Stock_1_02_4" local="true">Clover Boots white.osd\Stock_1_02_4SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
