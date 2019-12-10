@@ -398,6 +398,8 @@ def main():
     SliderSetBackup(sliderSetPath)
     SliderSetBackup(sliderGroupPath)
 
+    #Ask if user wants to run the preset editor or if they want to run the Unassigned Grouper
+    
     #Check if a masterlist already exists and write out the naming modifier (DEBUG done)
     masterListNum=MasterListCheck(sliderGroupPath)
     
