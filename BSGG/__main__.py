@@ -52,6 +52,7 @@ from .UtilitiesBSGG.UITkSelection import CustomYesNoTF
 from .UtilitiesBSGG.UITkSelection import CustomOK
 from .UtilitiesBSGG.FileIO import GetFileList
 from .UtilitiesBSGG.FileIO import SliderSetBackup
+from .UtilitiesBSGG.FileIO import SliderRevertCheck
 from .UtilitiesBSGG.FileIO import MasterListCheck
 from .UtilitiesBSGG.BSCGLogging import BSCGDebugInit
 from .UtilitiesBSGG.BSCGLogging import LoggingInfoBSCG
@@ -433,6 +434,10 @@ def main():
         fileWithoutExtension=os.path.splitext(fileWithExtension)[0]  
         ParseSliderSet(setOSP,fileWithoutExtension)
 
+    #Post Encoding check to ensure the files are back to the orignial
+    SliderRevertCheck(sliderSetPath)
+    SliderRevertCheck(sliderGroupPath)
+    
     #Sort List
     g_bodyslideNewGroupedOutfitsWGroup.sort()
     LoggingInfoBSCG("BSCG CORE: Ungrouped Outfits Sorted")
