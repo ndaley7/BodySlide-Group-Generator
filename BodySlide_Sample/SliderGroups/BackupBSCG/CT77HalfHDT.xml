@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>	
+	<Group name="CT77 Half HDT">
+		<Member name="CT77 Bonemold - Half HDT" />
+		<Member name="CT77 Bonemold Pauldron - Half HDT" />
+		<Member name="CT77 Bonemold Guard - Half HDT" />
+		<Member name="CT77 Chitin Heavy - Half HDT" />
+		<Member name="CT77 Chitin Light- Half HDT" />
+		<Member name="CT77 Daedric - Half HDT" />
+		<Member name="CT77 Dragonbone - Half HDT" />
+		<Member name="CT77 Dragonscale - Half HDT" />
+		<Member name="CT77 Dwarven - Half HDT" />
+		<Member name="CT77 Ebony - Half HDT" />
+		<Member name="CT77 Ebony Mail - Half HDT" />
+		<Member name="CT77 Elven - Half HDT" />
+		<Member name="CT77 Elven Light - Half HDT" />
+		<Member name="CT77 Falmer - Half HDT" />
+		<Member name="CT77 Falmer Heavy - Half HDT" />
+		<Member name="CT77 Glass - Half HDT" />
+		<Member name="CT77 Iron - Half HDT" />
+		<Member name="CT77 Iron (Banded) - Half HDT" />
+		<Member name="CT77 Ivory - Half HDT" />
+		<Member name="CT77 Morag Tong - Half HDT" />
+		<Member name="CT77 Nordic Carved - Half HDT" />
+		<Member name="CT77 Orcish - Half HDT" />
+		<Member name="CT77 Savior's Hide - Half HDT" />
+		<Member name="CT77 Stalhrim Heavy - Half HDT" />
+		<Member name="CT77 Stalhrim Light - Half HDT" />
+		<Member name="CT77 Steel - Half HDT" />
+		<Member name="CT77 Steel (Pauldrons) - Half HDT" />
+		<Member name="CT77 Steel Plate - Half HDT" />
+		<Member name="CT77 Tsun - Half HDT" />
+		<Member name="CT77 Wolf - Half HDT" />
+	</Group>
+	<Group name="CBAdvanced">
+		<Member name="CT77 Bonemold - Half HDT" />
+		<Member name="CT77 Bonemold Pauldron - Half HDT" />
+		<Member name="CT77 Bonemold Guard - Half HDT" />
+		<Member name="CT77 Chitin Heavy - Half HDT" />
+		<Member name="CT77 Chitin Light- Half HDT" />
+		<Member name="CT77 Daedric - Half HDT" />
+		<Member name="CT77 Dragonbone - Half HDT" />
+		<Member name="CT77 Dragonscale - Half HDT" />
+		<Member name="CT77 Dwarven - Half HDT" />
+		<Member name="CT77 Ebony - Half HDT" />
+		<Member name="CT77 Ebony Mail - Half HDT" />
+		<Member name="CT77 Elven - Half HDT" />
+		<Member name="CT77 Elven Light - Half HDT" />
+		<Member name="CT77 Falmer - Half HDT" />
+		<Member name="CT77 Falmer Heavy - Half HDT" />
+		<Member name="CT77 Glass - Half HDT" />
+		<Member name="CT77 Iron - Half HDT" />
+		<Member name="CT77 Iron (Banded) - Half HDT" />
+		<Member name="CT77 Ivory - Half HDT" />
+		<Member name="CT77 Morag Tong - Half HDT" />
+		<Member name="CT77 Nordic Carved - Half HDT" />
+		<Member name="CT77 Orcish - Half HDT" />
+		<Member name="CT77 Savior's Hide - Half HDT" />
+		<Member name="CT77 Stalhrim Heavy - Half HDT" />
+		<Member name="CT77 Stalhrim Light - Half HDT" />
+		<Member name="CT77 Steel - Half HDT" />
+		<Member name="CT77 Steel (Pauldrons) - Half HDT" />
+		<Member name="CT77 Steel Plate - Half HDT" />
+		<Member name="CT77 Tsun - Half HDT" />
+		<Member name="CT77 Wolf - Half HDT" />
+	</Group>
+</SliderGroups>

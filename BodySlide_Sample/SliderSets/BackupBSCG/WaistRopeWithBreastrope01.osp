@@ -1,0 +1,244 @@
+<SliderSetInfo version="1">
+    <SliderSet name="WaistRopeWithBreastrope01">
+        <DataFolder>WaistRopeWithBreastrope01</DataFolder>
+        <SourceFile>WaistRopeWithBreastrope01.nif</SourceFile>
+        <OutputPath>meshes\ZaZ-UltimateDataPack\ZaZ - Accessories\Restraints\08ZAZ - WaistRopeWithBreastRope01</OutputPath>
+        <OutputFile GenWeights="true">WaistRopeWithBreastRope01</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Breastrope">Breastrope</Shape>
+        <Shape target="waistrope">waistrope</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="BreastropeBreasts" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="waistropeBreastsSmall" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastsSmall</Data>
+            <Data name="BreastropeBreastsSmall" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="waistropeBreastsSH" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastsSH</Data>
+            <Data name="BreastropeBreastsSH" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="waistropeBreastsSSH" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastsSSH</Data>
+            <Data name="BreastropeBreastsSSH" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="waistropeBreastsFantasy" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastsFantasy</Data>
+            <Data name="BreastropeBreastsFantasy" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="BreastropeDoubleMelon" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="waistropeBreastCleavage" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastCleavage</Data>
+            <Data name="BreastropeBreastCleavage" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="waistropeBreastFlatness" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastFlatness</Data>
+            <Data name="BreastropeBreastFlatness" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="waistropeBreastGravity" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastGravity</Data>
+            <Data name="BreastropeBreastGravity" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="waistropePushUp" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropePushUp</Data>
+            <Data name="BreastropePushUp" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropePushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="waistropeBreastHeight" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastHeight</Data>
+            <Data name="BreastropeBreastHeight" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="waistropeBreastPerkiness" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastPerkiness</Data>
+            <Data name="BreastropeBreastPerkiness" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="waistropeBreastWidth" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBreastWidth</Data>
+            <Data name="BreastropeBreastWidth" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="BreastropeNippleDistance" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="BreastropeNipplePerkiness" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="BreastropeNippleSize" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="BreastropeNippleAreola" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="BreastropeNippleUp" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="BreastropeNippleDown" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="BreastropeArms" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="BreastropeChubbyArms" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="BreastropeShoulderSmooth" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="waistropeShoulderWidth" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeShoulderWidth</Data>
+            <Data name="BreastropeShoulderWidth" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="waistropeBigTorso" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBigTorso</Data>
+            <Data name="BreastropeBigTorso" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="waistropeWaist" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeWaist</Data>
+            <Data name="BreastropeWaist" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="waistropeWideWaistLine" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeWideWaistLine</Data>
+            <Data name="BreastropeWideWaistLine" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="waistropeChubbyWaist" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeChubbyWaist</Data>
+            <Data name="BreastropeChubbyWaist" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="waistropeBelly" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBelly</Data>
+            <Data name="BreastropeBelly" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="waistropeBigBelly" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBigBelly</Data>
+            <Data name="BreastropeBigBelly" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="waistropePregnancyBelly" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropePregnancyBelly</Data>
+            <Data name="BreastropePregnancyBelly" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropePregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="waistropeTummyTuck" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeTummyTuck</Data>
+            <Data name="BreastropeTummyTuck" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="waistropeBack" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBack</Data>
+            <Data name="BreastropeBack" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="waistropeHipbone" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="waistropeHips" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeHips</Data>
+            <Data name="BreastropeHips" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="waistropeButtCrack" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="waistropeButt" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="waistropeButtSmall" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="waistropeButtShape2" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeButtShape2</Data>
+            <Data name="BreastropeButtShape2" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="waistropeBigButt" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeBigButt</Data>
+            <Data name="BreastropeBigButt" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="waistropeChubbyButt" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeChubbyButt</Data>
+            <Data name="BreastropeChubbyButt" target="Breastrope" local="true">WaistRopeWithBreastrope01.osd\BreastropeChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="waistropeAppleCheeks" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="waistropeRoundAss" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="waistropeSlimThighs" target="waistrope" local="true">WaistRopeWithBreastrope01.osd\waistropeSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,90 @@
+<SliderSetInfo version="1">
+    <SliderSet name="MSE Cowgirl Panty">
+        <DataFolder>MSE Cowgirl Panty</DataFolder>
+        <SourceFile>MSE Cowgirl Panty.nif</SourceFile>
+        <OutputPath>meshes\dcc-mse-cowgirl\panty</OutputPath>
+        <OutputFile GenWeights="true">panty</OutputFile>
+        <Shape target="panty">panty</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="pantyBreastsSmall" target="panty" local="true">MSE Cowgirl Panty.osd\pantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="pantyBreastHeight" target="panty" local="true">MSE Cowgirl Panty.osd\pantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="pantyBigTorso" target="panty" local="true">MSE Cowgirl Panty.osd\pantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="pantyWaist" target="panty" local="true">MSE Cowgirl Panty.osd\pantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="pantyWideWaistLine" target="panty" local="true">MSE Cowgirl Panty.osd\pantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="pantyChubbyWaist" target="panty" local="true">MSE Cowgirl Panty.osd\pantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="pantyBelly" target="panty" local="true">MSE Cowgirl Panty.osd\pantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="pantyBigBelly" target="panty" local="true">MSE Cowgirl Panty.osd\pantyBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="pantyPregnancyBelly" target="panty" local="true">MSE Cowgirl Panty.osd\pantyPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="pantyTummyTuck" target="panty" local="true">MSE Cowgirl Panty.osd\pantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="pantyBack" target="panty" local="true">MSE Cowgirl Panty.osd\pantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="pantyHipbone" target="panty" local="true">MSE Cowgirl Panty.osd\pantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="pantyHips" target="panty" local="true">MSE Cowgirl Panty.osd\pantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="pantyButtCrack" target="panty" local="true">MSE Cowgirl Panty.osd\pantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="pantyButt" target="panty" local="true">MSE Cowgirl Panty.osd\pantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="pantyButtSmall" target="panty" local="true">MSE Cowgirl Panty.osd\pantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="pantyButtShape2" target="panty" local="true">MSE Cowgirl Panty.osd\pantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="pantyBigButt" target="panty" local="true">MSE Cowgirl Panty.osd\pantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="pantyChubbyButt" target="panty" local="true">MSE Cowgirl Panty.osd\pantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="pantyAppleCheeks" target="panty" local="true">MSE Cowgirl Panty.osd\pantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="pantyRoundAss" target="panty" local="true">MSE Cowgirl Panty.osd\pantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="pantyGroin" target="panty" local="true">MSE Cowgirl Panty.osd\pantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="pantySlimThighs" target="panty" local="true">MSE Cowgirl Panty.osd\pantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="pantyThighs" target="panty" local="true">MSE Cowgirl Panty.osd\pantyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="pantyChubbyLegs" target="panty" local="true">MSE Cowgirl Panty.osd\pantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="pantyLegs" target="panty" local="true">MSE Cowgirl Panty.osd\pantyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="pantyKneeHeight" target="panty" local="true">MSE Cowgirl Panty.osd\pantyKneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

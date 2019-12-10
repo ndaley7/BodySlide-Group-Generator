@@ -1,0 +1,409 @@
+<SliderSetInfo>
+    <SliderSet name="LUSH MilkSlave Brown Body">
+        <SetFolder>\LUSH\SetA\LUSH SetA MilkSlave</SetFolder>
+        <SourceFile>cuirass.nif</SourceFile>
+        <OutputPath>MESHES\LUSH\milkslave</OutputPath>
+        <OutputFile>cuirass</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Garter top">Garter top</BaseShapeName>
+        <BaseShapeName target="collar">collar</BaseShapeName>
+        <BaseShapeName target="collar bracket">collar bracket</BaseShapeName>
+        <BaseShapeName target="collar chain">collar chain</BaseShapeName>
+        <BaseShapeName target="cowbell">cowbell</BaseShapeName>
+        <BaseShapeName target="garter buckle">garter buckle</BaseShapeName>
+        <BaseShapeName target="garter edge">garter edge</BaseShapeName>
+        <BaseShapeName target="garter length">garter length</BaseShapeName>
+        <BaseShapeName target="labia rings">labia rings</BaseShapeName>
+        <BaseShapeName target="milk jug">milk jug</BaseShapeName>
+        <BaseShapeName target="milk label">milk label</BaseShapeName>
+        <BaseShapeName target="tail">tail</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="cowbellBreasts" target="cowbell" local="true">cowbellBreasts.bsd</datafile>
+            <datafile name="collar chainBreasts" target="collar chain" local="true">collar chainBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="garter lengthBreastsSmall" target="garter length" local="true">garter lengthBreastsSmall.bsd</datafile>
+            <datafile name="garter edgeBreastsSmall" target="garter edge" local="true">garter edgeBreastsSmall.bsd</datafile>
+            <datafile name="Garter topBreastsSmall" target="Garter top" local="true">Garter topBreastsSmall.bsd</datafile>
+            <datafile name="cowbellBreastsSmall" target="cowbell" local="true">cowbellBreastsSmall.bsd</datafile>
+            <datafile name="collar chainBreastsSmall" target="collar chain" local="true">collar chainBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="cowbellBreastsSH" target="cowbell" local="true">cowbellBreastsSH.bsd</datafile>
+            <datafile name="collar chainBreastsSH" target="collar chain" local="true">collar chainBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="cowbellBreastsSSH" target="cowbell" local="true">cowbellBreastsSSH.bsd</datafile>
+            <datafile name="collar chainBreastsSSH" target="collar chain" local="true">collar chainBreastsSSH.bsd</datafile>
+            <datafile name="collar bracketBreastsSSH" target="collar bracket" local="true">collar bracketBreastsSSH.bsd</datafile>
+            <datafile name="collarBreastsSSH" target="collar" local="true">collarBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="cowbellBreastsFantasy" target="cowbell" local="true">cowbellBreastsFantasy.bsd</datafile>
+            <datafile name="collar chainBreastsFantasy" target="collar chain" local="true">collar chainBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="cowbellDoubleMelon" target="cowbell" local="true">cowbellDoubleMelon.bsd</datafile>
+            <datafile name="collar chainDoubleMelon" target="collar chain" local="true">collar chainDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="cowbellBreastCleavage" target="cowbell" local="true">cowbellBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="garter edgeBreastFlatness" target="garter edge" local="true">garter edgeBreastFlatness.bsd</datafile>
+            <datafile name="Garter topBreastFlatness" target="Garter top" local="true">Garter topBreastFlatness.bsd</datafile>
+            <datafile name="cowbellBreastFlatness" target="cowbell" local="true">cowbellBreastFlatness.bsd</datafile>
+            <datafile name="collar chainBreastFlatness" target="collar chain" local="true">collar chainBreastFlatness.bsd</datafile>
+            <datafile name="collar bracketBreastFlatness" target="collar bracket" local="true">collar bracketBreastFlatness.bsd</datafile>
+            <datafile name="collarBreastFlatness" target="collar" local="true">collarBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="cowbellBreastGravity" target="cowbell" local="true">cowbellBreastGravity.bsd</datafile>
+            <datafile name="collar chainBreastGravity" target="collar chain" local="true">collar chainBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="cowbellPushUp" target="cowbell" local="true">cowbellPushUp.bsd</datafile>
+            <datafile name="collar chainPushUp" target="collar chain" local="true">collar chainPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="garter lengthBreastHeight" target="garter length" local="true">garter lengthBreastHeight.bsd</datafile>
+            <datafile name="garter edgeBreastHeight" target="garter edge" local="true">garter edgeBreastHeight.bsd</datafile>
+            <datafile name="Garter topBreastHeight" target="Garter top" local="true">Garter topBreastHeight.bsd</datafile>
+            <datafile name="cowbellBreastHeight" target="cowbell" local="true">cowbellBreastHeight.bsd</datafile>
+            <datafile name="collar chainBreastHeight" target="collar chain" local="true">collar chainBreastHeight.bsd</datafile>
+            <datafile name="collarBreastHeight" target="collar" local="true">collarBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="cowbellBreastPerkiness" target="cowbell" local="true">cowbellBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="garter edgeBreastWidth" target="garter edge" local="true">garter edgeBreastWidth.bsd</datafile>
+            <datafile name="Garter topBreastWidth" target="Garter top" local="true">Garter topBreastWidth.bsd</datafile>
+            <datafile name="cowbellBreastWidth" target="cowbell" local="true">cowbellBreastWidth.bsd</datafile>
+            <datafile name="collar chainBreastWidth" target="collar chain" local="true">collar chainBreastWidth.bsd</datafile>
+            <datafile name="collar bracketBreastWidth" target="collar bracket" local="true">collar bracketBreastWidth.bsd</datafile>
+            <datafile name="collarBreastWidth" target="collar" local="true">collarBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="cowbellNippleLength" target="cowbell" local="true">cowbellNippleLength.bsd</datafile>
+            <datafile name="collar chainNippleLength" target="collar chain" local="true">collar chainNippleLength.bsd</datafile>
+            <datafile name="collar bracketNippleLength" target="collar bracket" local="true">collar bracketNippleLength.bsd</datafile>
+            <datafile name="collarNippleLength" target="collar" local="true">collarNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="cowbellNippleAreola" target="cowbell" local="true">cowbellNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="cowbellNippleUp" target="cowbell" local="true">cowbellNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="cowbellNippleDown" target="cowbell" local="true">cowbellNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="collarArms" target="collar" local="true">collarArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="collarChubbyArms" target="collar" local="true">collarChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="cowbellShoulderSmooth" target="cowbell" local="true">cowbellShoulderSmooth.bsd</datafile>
+            <datafile name="collar chainShoulderSmooth" target="collar chain" local="true">collar chainShoulderSmooth.bsd</datafile>
+            <datafile name="collar bracketShoulderSmooth" target="collar bracket" local="true">collar bracketShoulderSmooth.bsd</datafile>
+            <datafile name="collarShoulderSmooth" target="collar" local="true">collarShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="collarShoulderWidth" target="collar" local="true">collarShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="tailBigTorso" target="tail" local="true">tailBigTorso.bsd</datafile>
+            <datafile name="garter lengthBigTorso" target="garter length" local="true">garter lengthBigTorso.bsd</datafile>
+            <datafile name="garter edgeBigTorso" target="garter edge" local="true">garter edgeBigTorso.bsd</datafile>
+            <datafile name="Garter topBigTorso" target="Garter top" local="true">Garter topBigTorso.bsd</datafile>
+            <datafile name="cowbellBigTorso" target="cowbell" local="true">cowbellBigTorso.bsd</datafile>
+            <datafile name="collar chainBigTorso" target="collar chain" local="true">collar chainBigTorso.bsd</datafile>
+            <datafile name="collar bracketBigTorso" target="collar bracket" local="true">collar bracketBigTorso.bsd</datafile>
+            <datafile name="collarBigTorso" target="collar" local="true">collarBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="tailWaist" target="tail" local="true">tailWaist.bsd</datafile>
+            <datafile name="garter buckleWaist" target="garter buckle" local="true">garter buckleWaist.bsd</datafile>
+            <datafile name="garter lengthWaist" target="garter length" local="true">garter lengthWaist.bsd</datafile>
+            <datafile name="garter edgeWaist" target="garter edge" local="true">garter edgeWaist.bsd</datafile>
+            <datafile name="Garter topWaist" target="Garter top" local="true">Garter topWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="garter lengthWideWaistLine" target="garter length" local="true">garter lengthWideWaistLine.bsd</datafile>
+            <datafile name="garter edgeWideWaistLine" target="garter edge" local="true">garter edgeWideWaistLine.bsd</datafile>
+            <datafile name="Garter topWideWaistLine" target="Garter top" local="true">Garter topWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="tailChubbyWaist" target="tail" local="true">tailChubbyWaist.bsd</datafile>
+            <datafile name="garter buckleChubbyWaist" target="garter buckle" local="true">garter buckleChubbyWaist.bsd</datafile>
+            <datafile name="garter lengthChubbyWaist" target="garter length" local="true">garter lengthChubbyWaist.bsd</datafile>
+            <datafile name="garter edgeChubbyWaist" target="garter edge" local="true">garter edgeChubbyWaist.bsd</datafile>
+            <datafile name="Garter topChubbyWaist" target="Garter top" local="true">Garter topChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="garter lengthBelly" target="garter length" local="true">garter lengthBelly.bsd</datafile>
+            <datafile name="garter edgeBelly" target="garter edge" local="true">garter edgeBelly.bsd</datafile>
+            <datafile name="Garter topBelly" target="Garter top" local="true">Garter topBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="garter buckleBigBelly" target="garter buckle" local="true">garter buckleBigBelly.bsd</datafile>
+            <datafile name="garter lengthBigBelly" target="garter length" local="true">garter lengthBigBelly.bsd</datafile>
+            <datafile name="garter edgeBigBelly" target="garter edge" local="true">garter edgeBigBelly.bsd</datafile>
+            <datafile name="Garter topBigBelly" target="Garter top" local="true">Garter topBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="labia ringsPregnancyBelly" target="labia rings" local="true">labia ringsPregnancyBelly.bsd</datafile>
+            <datafile name="milk jugPregnancyBelly" target="milk jug" local="true">milk jugPregnancyBelly.bsd</datafile>
+            <datafile name="garter bucklePregnancyBelly" target="garter buckle" local="true">garter bucklePregnancyBelly.bsd</datafile>
+            <datafile name="garter lengthPregnancyBelly" target="garter length" local="true">garter lengthPregnancyBelly.bsd</datafile>
+            <datafile name="garter edgePregnancyBelly" target="garter edge" local="true">garter edgePregnancyBelly.bsd</datafile>
+            <datafile name="Garter topPregnancyBelly" target="Garter top" local="true">Garter topPregnancyBelly.bsd</datafile>
+            <datafile name="cowbellPregnancyBelly" target="cowbell" local="true">cowbellPregnancyBelly.bsd</datafile>
+            <datafile name="collar chainPregnancyBelly" target="collar chain" local="true">collar chainPregnancyBelly.bsd</datafile>
+            <datafile name="collarPregnancyBelly" target="collar" local="true">collarPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="labia ringsTummyTuck" target="labia rings" local="true">labia ringsTummyTuck.bsd</datafile>
+            <datafile name="garter buckleTummyTuck" target="garter buckle" local="true">garter buckleTummyTuck.bsd</datafile>
+            <datafile name="garter lengthTummyTuck" target="garter length" local="true">garter lengthTummyTuck.bsd</datafile>
+            <datafile name="garter edgeTummyTuck" target="garter edge" local="true">garter edgeTummyTuck.bsd</datafile>
+            <datafile name="Garter topTummyTuck" target="Garter top" local="true">Garter topTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="tailBack" target="tail" local="true">tailBack.bsd</datafile>
+            <datafile name="garter lengthBack" target="garter length" local="true">garter lengthBack.bsd</datafile>
+            <datafile name="garter edgeBack" target="garter edge" local="true">garter edgeBack.bsd</datafile>
+            <datafile name="Garter topBack" target="Garter top" local="true">Garter topBack.bsd</datafile>
+            <datafile name="collarBack" target="collar" local="true">collarBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="labia ringsHipbone" target="labia rings" local="true">labia ringsHipbone.bsd</datafile>
+            <datafile name="garter buckleHipbone" target="garter buckle" local="true">garter buckleHipbone.bsd</datafile>
+            <datafile name="garter lengthHipbone" target="garter length" local="true">garter lengthHipbone.bsd</datafile>
+            <datafile name="garter edgeHipbone" target="garter edge" local="true">garter edgeHipbone.bsd</datafile>
+            <datafile name="Garter topHipbone" target="Garter top" local="true">Garter topHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="labia ringsHips" target="labia rings" local="true">labia ringsHips.bsd</datafile>
+            <datafile name="milk labelHips" target="milk label" local="true">milk labelHips.bsd</datafile>
+            <datafile name="milk jugHips" target="milk jug" local="true">milk jugHips.bsd</datafile>
+            <datafile name="tailHips" target="tail" local="true">tailHips.bsd</datafile>
+            <datafile name="garter buckleHips" target="garter buckle" local="true">garter buckleHips.bsd</datafile>
+            <datafile name="garter lengthHips" target="garter length" local="true">garter lengthHips.bsd</datafile>
+            <datafile name="garter edgeHips" target="garter edge" local="true">garter edgeHips.bsd</datafile>
+            <datafile name="Garter topHips" target="Garter top" local="true">Garter topHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="tailButtCrack" target="tail" local="true">tailButtCrack.bsd</datafile>
+            <datafile name="garter lengthButtCrack" target="garter length" local="true">garter lengthButtCrack.bsd</datafile>
+            <datafile name="garter edgeButtCrack" target="garter edge" local="true">garter edgeButtCrack.bsd</datafile>
+            <datafile name="Garter topButtCrack" target="Garter top" local="true">Garter topButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="labia ringsButt" target="labia rings" local="true">labia ringsButt.bsd</datafile>
+            <datafile name="milk labelButt" target="milk label" local="true">milk labelButt.bsd</datafile>
+            <datafile name="milk jugButt" target="milk jug" local="true">milk jugButt.bsd</datafile>
+            <datafile name="tailButt" target="tail" local="true">tailButt.bsd</datafile>
+            <datafile name="garter buckleButt" target="garter buckle" local="true">garter buckleButt.bsd</datafile>
+            <datafile name="garter lengthButt" target="garter length" local="true">garter lengthButt.bsd</datafile>
+            <datafile name="garter edgeButt" target="garter edge" local="true">garter edgeButt.bsd</datafile>
+            <datafile name="Garter topButt" target="Garter top" local="true">Garter topButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="labia ringsButtSmall" target="labia rings" local="true">labia ringsButtSmall.bsd</datafile>
+            <datafile name="milk labelButtSmall" target="milk label" local="true">milk labelButtSmall.bsd</datafile>
+            <datafile name="milk jugButtSmall" target="milk jug" local="true">milk jugButtSmall.bsd</datafile>
+            <datafile name="tailButtSmall" target="tail" local="true">tailButtSmall.bsd</datafile>
+            <datafile name="garter buckleButtSmall" target="garter buckle" local="true">garter buckleButtSmall.bsd</datafile>
+            <datafile name="garter lengthButtSmall" target="garter length" local="true">garter lengthButtSmall.bsd</datafile>
+            <datafile name="garter edgeButtSmall" target="garter edge" local="true">garter edgeButtSmall.bsd</datafile>
+            <datafile name="Garter topButtSmall" target="Garter top" local="true">Garter topButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="labia ringsButtShape2" target="labia rings" local="true">labia ringsButtShape2.bsd</datafile>
+            <datafile name="milk labelButtShape2" target="milk label" local="true">milk labelButtShape2.bsd</datafile>
+            <datafile name="milk jugButtShape2" target="milk jug" local="true">milk jugButtShape2.bsd</datafile>
+            <datafile name="tailButtShape2" target="tail" local="true">tailButtShape2.bsd</datafile>
+            <datafile name="garter buckleButtShape2" target="garter buckle" local="true">garter buckleButtShape2.bsd</datafile>
+            <datafile name="garter lengthButtShape2" target="garter length" local="true">garter lengthButtShape2.bsd</datafile>
+            <datafile name="garter edgeButtShape2" target="garter edge" local="true">garter edgeButtShape2.bsd</datafile>
+            <datafile name="Garter topButtShape2" target="Garter top" local="true">Garter topButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="labia ringsBigButt" target="labia rings" local="true">labia ringsBigButt.bsd</datafile>
+            <datafile name="milk labelBigButt" target="milk label" local="true">milk labelBigButt.bsd</datafile>
+            <datafile name="milk jugBigButt" target="milk jug" local="true">milk jugBigButt.bsd</datafile>
+            <datafile name="tailBigButt" target="tail" local="true">tailBigButt.bsd</datafile>
+            <datafile name="garter buckleBigButt" target="garter buckle" local="true">garter buckleBigButt.bsd</datafile>
+            <datafile name="garter lengthBigButt" target="garter length" local="true">garter lengthBigButt.bsd</datafile>
+            <datafile name="garter edgeBigButt" target="garter edge" local="true">garter edgeBigButt.bsd</datafile>
+            <datafile name="Garter topBigButt" target="Garter top" local="true">Garter topBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="labia ringsChubbyButt" target="labia rings" local="true">labia ringsChubbyButt.bsd</datafile>
+            <datafile name="milk labelChubbyButt" target="milk label" local="true">milk labelChubbyButt.bsd</datafile>
+            <datafile name="milk jugChubbyButt" target="milk jug" local="true">milk jugChubbyButt.bsd</datafile>
+            <datafile name="tailChubbyButt" target="tail" local="true">tailChubbyButt.bsd</datafile>
+            <datafile name="garter buckleChubbyButt" target="garter buckle" local="true">garter buckleChubbyButt.bsd</datafile>
+            <datafile name="garter lengthChubbyButt" target="garter length" local="true">garter lengthChubbyButt.bsd</datafile>
+            <datafile name="garter edgeChubbyButt" target="garter edge" local="true">garter edgeChubbyButt.bsd</datafile>
+            <datafile name="Garter topChubbyButt" target="Garter top" local="true">Garter topChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="labia ringsAppleCheeks" target="labia rings" local="true">labia ringsAppleCheeks.bsd</datafile>
+            <datafile name="tailAppleCheeks" target="tail" local="true">tailAppleCheeks.bsd</datafile>
+            <datafile name="garter lengthAppleCheeks" target="garter length" local="true">garter lengthAppleCheeks.bsd</datafile>
+            <datafile name="garter edgeAppleCheeks" target="garter edge" local="true">garter edgeAppleCheeks.bsd</datafile>
+            <datafile name="Garter topAppleCheeks" target="Garter top" local="true">Garter topAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="tailRoundAss" target="tail" local="true">tailRoundAss.bsd</datafile>
+            <datafile name="garter lengthRoundAss" target="garter length" local="true">garter lengthRoundAss.bsd</datafile>
+            <datafile name="garter edgeRoundAss" target="garter edge" local="true">garter edgeRoundAss.bsd</datafile>
+            <datafile name="Garter topRoundAss" target="Garter top" local="true">Garter topRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="labia ringsGroin" target="labia rings" local="true">labia ringsGroin.bsd</datafile>
+            <datafile name="milk labelGroin" target="milk label" local="true">milk labelGroin.bsd</datafile>
+            <datafile name="milk jugGroin" target="milk jug" local="true">milk jugGroin.bsd</datafile>
+            <datafile name="garter buckleGroin" target="garter buckle" local="true">garter buckleGroin.bsd</datafile>
+            <datafile name="garter lengthGroin" target="garter length" local="true">garter lengthGroin.bsd</datafile>
+            <datafile name="garter edgeGroin" target="garter edge" local="true">garter edgeGroin.bsd</datafile>
+            <datafile name="Garter topGroin" target="Garter top" local="true">Garter topGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="labia ringsSlimThighs" target="labia rings" local="true">labia ringsSlimThighs.bsd</datafile>
+            <datafile name="milk labelSlimThighs" target="milk label" local="true">milk labelSlimThighs.bsd</datafile>
+            <datafile name="milk jugSlimThighs" target="milk jug" local="true">milk jugSlimThighs.bsd</datafile>
+            <datafile name="tailSlimThighs" target="tail" local="true">tailSlimThighs.bsd</datafile>
+            <datafile name="garter buckleSlimThighs" target="garter buckle" local="true">garter buckleSlimThighs.bsd</datafile>
+            <datafile name="garter lengthSlimThighs" target="garter length" local="true">garter lengthSlimThighs.bsd</datafile>
+            <datafile name="garter edgeSlimThighs" target="garter edge" local="true">garter edgeSlimThighs.bsd</datafile>
+            <datafile name="Garter topSlimThighs" target="Garter top" local="true">Garter topSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="labia ringsThighs" target="labia rings" local="true">labia ringsThighs.bsd</datafile>
+            <datafile name="milk labelThighs" target="milk label" local="true">milk labelThighs.bsd</datafile>
+            <datafile name="milk jugThighs" target="milk jug" local="true">milk jugThighs.bsd</datafile>
+            <datafile name="tailThighs" target="tail" local="true">tailThighs.bsd</datafile>
+            <datafile name="garter buckleThighs" target="garter buckle" local="true">garter buckleThighs.bsd</datafile>
+            <datafile name="garter lengthThighs" target="garter length" local="true">garter lengthThighs.bsd</datafile>
+            <datafile name="garter edgeThighs" target="garter edge" local="true">garter edgeThighs.bsd</datafile>
+            <datafile name="Garter topThighs" target="Garter top" local="true">Garter topThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="labia ringsChubbyLegs" target="labia rings" local="true">labia ringsChubbyLegs.bsd</datafile>
+            <datafile name="milk labelChubbyLegs" target="milk label" local="true">milk labelChubbyLegs.bsd</datafile>
+            <datafile name="milk jugChubbyLegs" target="milk jug" local="true">milk jugChubbyLegs.bsd</datafile>
+            <datafile name="tailChubbyLegs" target="tail" local="true">tailChubbyLegs.bsd</datafile>
+            <datafile name="garter buckleChubbyLegs" target="garter buckle" local="true">garter buckleChubbyLegs.bsd</datafile>
+            <datafile name="garter lengthChubbyLegs" target="garter length" local="true">garter lengthChubbyLegs.bsd</datafile>
+            <datafile name="garter edgeChubbyLegs" target="garter edge" local="true">garter edgeChubbyLegs.bsd</datafile>
+            <datafile name="Garter topChubbyLegs" target="Garter top" local="true">Garter topChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="labia ringsLegs" target="labia rings" local="true">labia ringsLegs.bsd</datafile>
+            <datafile name="milk labelLegs" target="milk label" local="true">milk labelLegs.bsd</datafile>
+            <datafile name="milk jugLegs" target="milk jug" local="true">milk jugLegs.bsd</datafile>
+            <datafile name="tailLegs" target="tail" local="true">tailLegs.bsd</datafile>
+            <datafile name="garter buckleLegs" target="garter buckle" local="true">garter buckleLegs.bsd</datafile>
+            <datafile name="garter lengthLegs" target="garter length" local="true">garter lengthLegs.bsd</datafile>
+            <datafile name="garter edgeLegs" target="garter edge" local="true">garter edgeLegs.bsd</datafile>
+            <datafile name="Garter topLegs" target="Garter top" local="true">Garter topLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="labia ringsKneeHeight" target="labia rings" local="true">labia ringsKneeHeight.bsd</datafile>
+            <datafile name="milk labelKneeHeight" target="milk label" local="true">milk labelKneeHeight.bsd</datafile>
+            <datafile name="milk jugKneeHeight" target="milk jug" local="true">milk jugKneeHeight.bsd</datafile>
+            <datafile name="garter buckleKneeHeight" target="garter buckle" local="true">garter buckleKneeHeight.bsd</datafile>
+            <datafile name="garter lengthKneeHeight" target="garter length" local="true">garter lengthKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="cowbellSmallSeam" target="cowbell" local="true">cowbellSmallSeam.bsd</datafile>
+            <datafile name="collar chainSmallSeam" target="collar chain" local="true">collar chainSmallSeam.bsd</datafile>
+            <datafile name="collar bracketSmallSeam" target="collar bracket" local="true">collar bracketSmallSeam.bsd</datafile>
+            <datafile name="collarSmallSeam" target="collar" local="true">collarSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="collarShoulderTweak" target="collar" local="true">collarShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

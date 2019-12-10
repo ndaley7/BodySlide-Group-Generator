@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Merchant">
+        <DataFolder>CT77Merchant</DataFolder>
+        <SourceFile>CT77Merchant.nif</SourceFile>
+        <OutputPath>meshes\clothes\merchantclothes</OutputPath>
+        <OutputFile GenWeights="true">torsof</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="MerchantChest">MerchantChest</Shape>
+        <Shape target="MerchantLeggings">MerchantLeggings</Shape>
+        <Shape target="MerchantPouches">MerchantPouches</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="MerchantChestBreasts" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="MerchantChestBreastsSmall" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsSmall</Data>
+            <Data name="MerchantPouchesBreastsSmall" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="MerchantChestBreastsSH" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="MerchantChestBreastsSSH" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="MerchantChestBreastsFantasy" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="MerchantChestDoubleMelon" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="MerchantChestBreastCleavage" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="MerchantChestBreastFlatness" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="MerchantChestBreastGravity" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="MerchantChestPushUp" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="MerchantChestBreastHeight" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastHeight</Data>
+            <Data name="MerchantPouchesBreastHeight" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="MerchantChestBreastPerkiness" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="MerchantChestBreastWidth" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="MerchantChestNippleDistance" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="MerchantChestNipplePerkiness" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="MerchantChestNippleLength" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="MerchantChestNippleSize" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="MerchantChestNippleAreola" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="MerchantChestNippleUp" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="MerchantChestNippleDown" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="MerchantChestNippleTip" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="MerchantChestArms" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="MerchantChestChubbyArms" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="MerchantChestShoulderSmooth" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="MerchantChestShoulderWidth" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="MerchantChestBigTorso" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBigTorso</Data>
+            <Data name="MerchantPouchesBigTorso" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="MerchantChestWaist" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestWaist</Data>
+            <Data name="MerchantPouchesWaist" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="MerchantChestWideWaistLine" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestWideWaistLine</Data>
+            <Data name="MerchantPouchesWideWaistLine" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="MerchantChestChubbyWaist" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyWaist</Data>
+            <Data name="MerchantPouchesChubbyWaist" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="MerchantChestBelly" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBelly</Data>
+            <Data name="MerchantPouchesBelly" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="MerchantChestBigBelly" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBigBelly</Data>
+            <Data name="MerchantPouchesBigBelly" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="MerchantChestTummyTuck" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestTummyTuck</Data>
+            <Data name="MerchantPouchesTummyTuck" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="MerchantChestBack" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBack</Data>
+            <Data name="MerchantPouchesBack" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="MerchantChestHipbone" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestHipbone</Data>
+            <Data name="MerchantPouchesHipbone" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="MerchantChestHips" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestHips</Data>
+            <Data name="MerchantLeggingsHips" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsHips</Data>
+            <Data name="MerchantPouchesHips" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="MerchantChestButt" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestButt</Data>
+            <Data name="MerchantLeggingsButt" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsButt</Data>
+            <Data name="MerchantPouchesButt" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="MerchantChestButtSmall" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestButtSmall</Data>
+            <Data name="MerchantLeggingsButtSmall" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsButtSmall</Data>
+            <Data name="MerchantPouchesButtSmall" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="MerchantChestButtShape2" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestButtShape2</Data>
+            <Data name="MerchantLeggingsButtShape2" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsButtShape2</Data>
+            <Data name="MerchantPouchesButtShape2" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="MerchantChestBigButt" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBigButt</Data>
+            <Data name="MerchantLeggingsBigButt" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsBigButt</Data>
+            <Data name="MerchantPouchesBigButt" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="MerchantChestChubbyButt" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyButt</Data>
+            <Data name="MerchantLeggingsChubbyButt" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsChubbyButt</Data>
+            <Data name="MerchantPouchesChubbyButt" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="MerchantChestAppleCheeks" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestAppleCheeks</Data>
+            <Data name="MerchantPouchesAppleCheeks" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="MerchantChestRoundAss" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestRoundAss</Data>
+            <Data name="MerchantPouchesRoundAss" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="MerchantChestSlimThighs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestSlimThighs</Data>
+            <Data name="MerchantLeggingsSlimThighs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsSlimThighs</Data>
+            <Data name="MerchantPouchesSlimThighs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="MerchantChestThighs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestThighs</Data>
+            <Data name="MerchantLeggingsThighs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsThighs</Data>
+            <Data name="MerchantPouchesThighs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="MerchantChestChubbyLegs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyLegs</Data>
+            <Data name="MerchantLeggingsChubbyLegs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsChubbyLegs</Data>
+            <Data name="MerchantPouchesChubbyLegs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="MerchantChestLegs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestLegs</Data>
+            <Data name="MerchantLeggingsLegs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsLegs</Data>
+            <Data name="MerchantPouchesLegs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="MerchantChestKneeHeight" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestKneeHeight</Data>
+            <Data name="MerchantLeggingsKneeHeight" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="MerchantLeggingsCalfSize" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="MerchantLeggingsCalfSmooth" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="MerchantLeggingsAnkles" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="MerchantChestSmallSeam" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestSmallSeam</Data>
+            <Data name="MerchantLeggingsSmallSeam" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="MerchantChestShoulderTweak" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="MerchantChestZapChest" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestZapChest</Data>
+            <Data name="MerchantPouchesZapChest" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesZapChest</Data>
+        </Slider>
+        <Slider name="ZapPouches" invert="false" small="0" big="0" zap="true">
+            <Data name="MerchantPouchesZapPouch" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesZapPouch</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="MerchantLeggingsZapLeggings" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Merchant Var">
+        <DataFolder>CT77Merchant</DataFolder>
+        <SourceFile>CT77MerchantVar.nif</SourceFile>
+        <OutputPath>meshes\clothes\merchantclothes</OutputPath>
+        <OutputFile GenWeights="true">torsovarf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="MerchantChest">MerchantChest</Shape>
+        <Shape target="MerchantLeggings">MerchantLeggings</Shape>
+        <Shape target="MerchantPouches">MerchantPouches</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="MerchantChestBreasts" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="MerchantChestBreastsSmall" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsSmall</Data>
+            <Data name="MerchantPouchesBreastsSmall" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="MerchantChestBreastsSH" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="MerchantChestBreastsSSH" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="MerchantChestBreastsFantasy" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="MerchantChestDoubleMelon" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="MerchantChestBreastCleavage" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="MerchantChestBreastFlatness" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="MerchantChestBreastGravity" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="MerchantChestPushUp" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="MerchantChestBreastHeight" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastHeight</Data>
+            <Data name="MerchantPouchesBreastHeight" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="MerchantChestBreastPerkiness" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="MerchantChestBreastWidth" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="MerchantChestNippleDistance" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="MerchantChestNipplePerkiness" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="MerchantChestNippleLength" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="MerchantChestNippleSize" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="MerchantChestNippleAreola" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="MerchantChestNippleUp" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="MerchantChestNippleDown" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="MerchantChestNippleTip" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="MerchantChestArms" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="MerchantChestChubbyArms" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="MerchantChestShoulderSmooth" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="MerchantChestShoulderWidth" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="MerchantChestBigTorso" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBigTorso</Data>
+            <Data name="MerchantPouchesBigTorso" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="MerchantChestWaist" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestWaist</Data>
+            <Data name="MerchantPouchesWaist" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="MerchantChestWideWaistLine" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestWideWaistLine</Data>
+            <Data name="MerchantPouchesWideWaistLine" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="MerchantChestChubbyWaist" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyWaist</Data>
+            <Data name="MerchantPouchesChubbyWaist" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="MerchantChestBelly" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBelly</Data>
+            <Data name="MerchantPouchesBelly" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="MerchantChestBigBelly" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBigBelly</Data>
+            <Data name="MerchantPouchesBigBelly" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="MerchantChestTummyTuck" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestTummyTuck</Data>
+            <Data name="MerchantPouchesTummyTuck" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="MerchantChestBack" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBack</Data>
+            <Data name="MerchantPouchesBack" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="MerchantChestHipbone" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestHipbone</Data>
+            <Data name="MerchantPouchesHipbone" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="MerchantChestHips" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestHips</Data>
+            <Data name="MerchantLeggingsHips" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsHips</Data>
+            <Data name="MerchantPouchesHips" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="MerchantChestButt" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestButt</Data>
+            <Data name="MerchantLeggingsButt" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsButt</Data>
+            <Data name="MerchantPouchesButt" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="MerchantChestButtSmall" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestButtSmall</Data>
+            <Data name="MerchantLeggingsButtSmall" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsButtSmall</Data>
+            <Data name="MerchantPouchesButtSmall" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="MerchantChestButtShape2" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestButtShape2</Data>
+            <Data name="MerchantLeggingsButtShape2" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsButtShape2</Data>
+            <Data name="MerchantPouchesButtShape2" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="MerchantChestBigButt" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestBigButt</Data>
+            <Data name="MerchantLeggingsBigButt" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsBigButt</Data>
+            <Data name="MerchantPouchesBigButt" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="MerchantChestChubbyButt" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyButt</Data>
+            <Data name="MerchantLeggingsChubbyButt" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsChubbyButt</Data>
+            <Data name="MerchantPouchesChubbyButt" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="MerchantChestAppleCheeks" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestAppleCheeks</Data>
+            <Data name="MerchantPouchesAppleCheeks" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="MerchantChestRoundAss" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestRoundAss</Data>
+            <Data name="MerchantPouchesRoundAss" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="MerchantChestSlimThighs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestSlimThighs</Data>
+            <Data name="MerchantLeggingsSlimThighs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsSlimThighs</Data>
+            <Data name="MerchantPouchesSlimThighs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="MerchantChestThighs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestThighs</Data>
+            <Data name="MerchantLeggingsThighs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsThighs</Data>
+            <Data name="MerchantPouchesThighs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesThighs</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="MerchantChestChubbyLegs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestChubbyLegs</Data>
+            <Data name="MerchantLeggingsChubbyLegs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsChubbyLegs</Data>
+            <Data name="MerchantPouchesChubbyLegs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="MerchantChestLegs" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestLegs</Data>
+            <Data name="MerchantLeggingsLegs" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsLegs</Data>
+            <Data name="MerchantPouchesLegs" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesLegs</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="MerchantChestKneeHeight" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestKneeHeight</Data>
+            <Data name="MerchantLeggingsKneeHeight" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="MerchantLeggingsCalfSize" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="MerchantLeggingsCalfSmooth" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="MerchantLeggingsAnkles" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="MerchantChestSmallSeam" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestSmallSeam</Data>
+            <Data name="MerchantLeggingsSmallSeam" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="MerchantChestShoulderTweak" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="MerchantChestZapChest" target="MerchantChest" local="true">CT77Merchant.osd\MerchantChestZapChest</Data>
+            <Data name="MerchantPouchesZapChest" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesZapChest</Data>
+        </Slider>
+        <Slider name="ZapPouches" invert="false" small="0" big="0" zap="true">
+            <Data name="MerchantPouchesZapPouch" target="MerchantPouches" local="true">CT77Merchant.osd\MerchantPouchesZapPouch</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="MerchantLeggingsZapLeggings" target="MerchantLeggings" local="true">CT77Merchant.osd\MerchantLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Merchant Boots">
+        <DataFolder>CT77Merchant</DataFolder>
+        <SourceFile>CT77MerchantBoots.nif</SourceFile>
+        <OutputPath>meshes\clothes\merchantclothes</OutputPath>
+        <OutputFile GenWeights="true">bootsf</OutputFile>
+        <Shape target="MerchantBoots">MerchantBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="MerchantBootsChubbyLegs" target="MerchantBoots" local="true">CT77MerchantBoots.osd\MerchantBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="MerchantBootsLegs" target="MerchantBoots" local="true">CT77MerchantBoots.osd\MerchantBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="MerchantBootsKneeHeight" target="MerchantBoots" local="true">CT77MerchantBoots.osd\MerchantBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="MerchantBootsCalfSize" target="MerchantBoots" local="true">CT77MerchantBoots.osd\MerchantBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="MerchantBootsCalfSmooth" target="MerchantBoots" local="true">CT77MerchantBoots.osd\MerchantBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="MerchantBootsAnkles" target="MerchantBoots" local="true">CT77MerchantBoots.osd\MerchantBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="MerchantBootsSmallSeam" target="MerchantBoots" local="true">CT77MerchantBoots.osd\MerchantBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

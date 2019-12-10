@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Miraak">
+        <DataFolder>CT77Miraak</DataFolder>
+        <SourceFile>CT77Miraak.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\miraakrobes</OutputPath>
+        <OutputFile GenWeights="true">miraakrobes_f</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="MiraakEmblem">MiraakEmblem</Shape>
+        <Shape target="MiraakLeggings">MiraakLeggings</Shape>
+        <Shape target="MiraakPauldrons">MiraakPauldrons</Shape>
+        <Shape target="MiraakRobes">MiraakRobes</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="MiraakEmblemBreasts" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBreasts</Data>
+            <Data name="MiraakPauldronsBreasts" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreasts</Data>
+            <Data name="MiraakRobesBreasts" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="MiraakEmblemBreastsSmall" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBreastsSmall</Data>
+            <Data name="MiraakPauldronsBreastsSmall" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastsSmall</Data>
+            <Data name="MiraakRobesBreastsSmall" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="MiraakEmblemBreastsSH" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBreastsSH</Data>
+            <Data name="MiraakPauldronsBreastsSH" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastsSH</Data>
+            <Data name="MiraakRobesBreastsSH" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="MiraakRobesBreastsSSH" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="MiraakEmblemBreastsFantasy" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBreastsFantasy</Data>
+            <Data name="MiraakPauldronsBreastsFantasy" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastsFantasy</Data>
+            <Data name="MiraakRobesBreastsFantasy" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="MiraakPauldronsDoubleMelon" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsDoubleMelon</Data>
+            <Data name="MiraakRobesDoubleMelon" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="MiraakRobesBreastCleavage" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="MiraakEmblemBreastFlatness" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBreastFlatness</Data>
+            <Data name="MiraakPauldronsBreastFlatness" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastFlatness</Data>
+            <Data name="MiraakRobesBreastFlatness" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="MiraakPauldronsBreastGravity" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastGravity</Data>
+            <Data name="MiraakRobesBreastGravity" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="MiraakPauldronsPushUp" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsPushUp</Data>
+            <Data name="MiraakRobesPushUp" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="MiraakPauldronsBreastHeight" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastHeight</Data>
+            <Data name="MiraakRobesBreastHeight" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="MiraakPauldronsBreastPerkiness" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastPerkiness</Data>
+            <Data name="MiraakRobesBreastPerkiness" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="MiraakPauldronsBreastWidth" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBreastWidth</Data>
+            <Data name="MiraakRobesBreastWidth" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="MiraakEmblemNippleDistance" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemNippleDistance</Data>
+            <Data name="MiraakRobesNippleDistance" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="MiraakRobesNipplePerkiness" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="MiraakPauldronsNippleLength" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsNippleLength</Data>
+            <Data name="MiraakRobesNippleLength" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="MiraakRobesNippleSize" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="MiraakEmblemNippleAreola" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemNippleAreola</Data>
+            <Data name="MiraakPauldronsNippleAreola" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsNippleAreola</Data>
+            <Data name="MiraakRobesNippleAreola" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="MiraakEmblemNippleUp" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemNippleUp</Data>
+            <Data name="MiraakPauldronsNippleUp" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsNippleUp</Data>
+            <Data name="MiraakRobesNippleUp" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="MiraakEmblemNippleDown" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemNippleDown</Data>
+            <Data name="MiraakRobesNippleDown" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="MiraakRobesNippleTip" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="MiraakPauldronsArms" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsArms</Data>
+            <Data name="MiraakRobesArms" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="MiraakPauldronsChubbyArms" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsChubbyArms</Data>
+            <Data name="MiraakRobesChubbyArms" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="MiraakPauldronsShoulderSmooth" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsShoulderSmooth</Data>
+            <Data name="MiraakRobesShoulderSmooth" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="MiraakPauldronsShoulderWidth" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsShoulderWidth</Data>
+            <Data name="MiraakRobesShoulderWidth" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="MiraakEmblemBigTorso" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBigTorso</Data>
+            <Data name="MiraakPauldronsBigTorso" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBigTorso</Data>
+            <Data name="MiraakRobesBigTorso" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="MiraakEmblemWaist" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemWaist</Data>
+            <Data name="MiraakRobesWaist" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="MiraakEmblemWideWaistLine" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemWideWaistLine</Data>
+            <Data name="MiraakRobesWideWaistLine" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="MiraakEmblemChubbyWaist" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemChubbyWaist</Data>
+            <Data name="MiraakRobesChubbyWaist" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="MiraakEmblemBelly" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBelly</Data>
+            <Data name="MiraakRobesBelly" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="MiraakEmblemBigBelly" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBigBelly</Data>
+            <Data name="MiraakRobesBigBelly" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="MiraakEmblemTummyTuck" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemTummyTuck</Data>
+            <Data name="MiraakRobesTummyTuck" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="MiraakEmblemBack" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBack</Data>
+            <Data name="MiraakPauldronsBack" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsBack</Data>
+            <Data name="MiraakRobesBack" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="MiraakEmblemHipbone" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemHipbone</Data>
+            <Data name="MiraakRobesHipbone" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="MiraakEmblemHips" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemHips</Data>
+            <Data name="MiraakLeggingsHips" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsHips</Data>
+            <Data name="MiraakRobesHips" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="MiraakLeggingsButt" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsButt</Data>
+            <Data name="MiraakRobesButt" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="MiraakEmblemButtSmall" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemButtSmall</Data>
+            <Data name="MiraakLeggingsButtSmall" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsButtSmall</Data>
+            <Data name="MiraakRobesButtSmall" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="MiraakEmblemButtShape2" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemButtShape2</Data>
+            <Data name="MiraakLeggingsButtShape2" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsButtShape2</Data>
+            <Data name="MiraakRobesButtShape2" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="MiraakEmblemBigButt" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemBigButt</Data>
+            <Data name="MiraakLeggingsBigButt" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsBigButt</Data>
+            <Data name="MiraakRobesBigButt" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="MiraakEmblemChubbyButt" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemChubbyButt</Data>
+            <Data name="MiraakLeggingsChubbyButt" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsChubbyButt</Data>
+            <Data name="MiraakRobesChubbyButt" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="MiraakRobesAppleCheeks" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="MiraakRobesRoundAss" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="MiraakEmblemSlimThighs" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemSlimThighs</Data>
+            <Data name="MiraakLeggingsSlimThighs" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsSlimThighs</Data>
+            <Data name="MiraakRobesSlimThighs" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="MiraakLeggingsThighs" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsThighs</Data>
+            <Data name="MiraakRobesThighs" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="MiraakLeggingsChubbyLegs" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsChubbyLegs</Data>
+            <Data name="MiraakRobesChubbyLegs" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="MiraakLeggingsLegs" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsLegs</Data>
+            <Data name="MiraakRobesLegs" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="MiraakLeggingsKneeHeight" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsKneeHeight</Data>
+            <Data name="MiraakRobesKneeHeight" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="MiraakLeggingsCalfSize" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="MiraakLeggingsCalfSmooth" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="MiraakLeggingsAnkles" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="MiraakLeggingsSmallSeam" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsSmallSeam</Data>
+            <Data name="MiraakRobesSmallSeam" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="MiraakPauldronsShoulderTweak" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsShoulderTweak</Data>
+            <Data name="MiraakRobesShoulderTweak" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="MiraakPauldronsZapPauldrons" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapEmblem" invert="false" small="0" big="0" zap="true">
+            <Data name="MiraakEmblemZapEmblem" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemZapEmblem</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="MiraakEmblemZapChest" target="MiraakEmblem" local="true">CT77Miraak.osd\MiraakEmblemZapChest</Data>
+            <Data name="MiraakPauldronsZapChest" target="MiraakPauldrons" local="true">CT77Miraak.osd\MiraakPauldronsZapChest</Data>
+            <Data name="MiraakRobesZapChest" target="MiraakRobes" local="true">CT77Miraak.osd\MiraakRobesZapChest</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="MiraakLeggingsZapLeggings" target="MiraakLeggings" local="true">CT77Miraak.osd\MiraakLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Miraak Boots">
+        <DataFolder>CT77Miraak</DataFolder>
+        <SourceFile>CT77MiraakBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\miraakrobes</OutputPath>
+        <OutputFile GenWeights="true">miraakboots_f</OutputFile>
+        <Shape target="MiraakBoots">MiraakBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="MiraakBootsChubbyLegs" target="MiraakBoots" local="true">CT77MiraakBoots.osd\MiraakBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="MiraakBootsLegs" target="MiraakBoots" local="true">CT77MiraakBoots.osd\MiraakBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="MiraakBootsKneeHeight" target="MiraakBoots" local="true">CT77MiraakBoots.osd\MiraakBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="MiraakBootsCalfSize" target="MiraakBoots" local="true">CT77MiraakBoots.osd\MiraakBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="MiraakBootsCalfSmooth" target="MiraakBoots" local="true">CT77MiraakBoots.osd\MiraakBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="MiraakBootsAnkles" target="MiraakBoots" local="true">CT77MiraakBoots.osd\MiraakBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="MiraakBootsSmallSeam" target="MiraakBoots" local="true">CT77MiraakBoots.osd\MiraakBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Miraak Gauntlets">
+        <DataFolder>CT77Miraak</DataFolder>
+        <SourceFile>CT77MiraakGauntlets.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\miraakrobes</OutputPath>
+        <OutputFile GenWeights="true">miraakgloves_f</OutputFile>
+        <Shape target="MiraakGloves">MiraakGloves</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="MiraakGlovesArms" target="MiraakGloves" local="true">CT77MiraakGauntlets.osd\MiraakGlovesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="MiraakGlovesChubbyArms" target="MiraakGloves" local="true">CT77MiraakGauntlets.osd\MiraakGlovesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="MiraakGlovesShoulderWidth" target="MiraakGloves" local="true">CT77MiraakGauntlets.osd\MiraakGlovesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="MiraakGlovesBigTorso" target="MiraakGloves" local="true">CT77MiraakGauntlets.osd\MiraakGlovesBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="MiraakGlovesSmallSeam" target="MiraakGloves" local="true">CT77MiraakGauntlets.osd\MiraakGlovesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

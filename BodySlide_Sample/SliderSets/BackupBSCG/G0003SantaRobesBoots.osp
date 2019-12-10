@@ -1,0 +1,138 @@
+<SliderSetInfo version="1">
+    <SliderSet name="G0003 Santa Robes Boots">
+        <DataFolder>G0003SantaRobesBoots</DataFolder>
+        <SourceFile>bootsf.nif</SourceFile>
+        <OutputPath>meshes\armor\Santa</OutputPath>
+        <OutputFile GenWeights="true">bootsf</OutputFile>
+        <Shape target="Boots:1">Boots:1</Shape>
+        <Shape target="Boots:2">Boots:2</Shape>
+        <Shape target="Boots:3">Boots:3</Shape>
+        <Shape target="Boots:4">Boots:4</Shape>
+        <Shape target="Boots:5">Boots:5</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Boots:5PregnancyBelly" target="Boots:5" local="true">bootsf.osd\Boots:5PregnancyBelly</Data>
+            <Data name="Boots:1PregnancyBelly" target="Boots:1" local="true">bootsf.osd\Boots:1PregnancyBelly</Data>
+            <Data name="Boots:2PregnancyBelly" target="Boots:2" local="true">bootsf.osd\Boots:2PregnancyBelly</Data>
+            <Data name="Boots:3PregnancyBelly" target="Boots:3" local="true">bootsf.osd\Boots:3PregnancyBelly</Data>
+            <Data name="Boots:4PregnancyBelly" target="Boots:4" local="true">bootsf.osd\Boots:4PregnancyBelly</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Boots:5Hipbone" target="Boots:5" local="true">bootsf.osd\Boots:5Hipbone</Data>
+            <Data name="Boots:1Hipbone" target="Boots:1" local="true">bootsf.osd\Boots:1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Boots:5Hips" target="Boots:5" local="true">bootsf.osd\Boots:5Hips</Data>
+            <Data name="Boots:1Hips" target="Boots:1" local="true">bootsf.osd\Boots:1Hips</Data>
+            <Data name="Boots:2Hips" target="Boots:2" local="true">bootsf.osd\Boots:2Hips</Data>
+            <Data name="Boots:3Hips" target="Boots:3" local="true">bootsf.osd\Boots:3Hips</Data>
+            <Data name="Boots:4Hips" target="Boots:4" local="true">bootsf.osd\Boots:4Hips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Boots:5Butt" target="Boots:5" local="true">bootsf.osd\Boots:5Butt</Data>
+            <Data name="Boots:1Butt" target="Boots:1" local="true">bootsf.osd\Boots:1Butt</Data>
+            <Data name="Boots:2Butt" target="Boots:2" local="true">bootsf.osd\Boots:2Butt</Data>
+            <Data name="Boots:3Butt" target="Boots:3" local="true">bootsf.osd\Boots:3Butt</Data>
+            <Data name="Boots:4Butt" target="Boots:4" local="true">bootsf.osd\Boots:4Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Boots:5ButtSmall" target="Boots:5" local="true">bootsf.osd\Boots:5ButtSmall</Data>
+            <Data name="Boots:1ButtSmall" target="Boots:1" local="true">bootsf.osd\Boots:1ButtSmall</Data>
+            <Data name="Boots:2ButtSmall" target="Boots:2" local="true">bootsf.osd\Boots:2ButtSmall</Data>
+            <Data name="Boots:3ButtSmall" target="Boots:3" local="true">bootsf.osd\Boots:3ButtSmall</Data>
+            <Data name="Boots:4ButtSmall" target="Boots:4" local="true">bootsf.osd\Boots:4ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Boots:5ButtShape2" target="Boots:5" local="true">bootsf.osd\Boots:5ButtShape2</Data>
+            <Data name="Boots:1ButtShape2" target="Boots:1" local="true">bootsf.osd\Boots:1ButtShape2</Data>
+            <Data name="Boots:3ButtShape2" target="Boots:3" local="true">bootsf.osd\Boots:3ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Boots:5BigButt" target="Boots:5" local="true">bootsf.osd\Boots:5BigButt</Data>
+            <Data name="Boots:1BigButt" target="Boots:1" local="true">bootsf.osd\Boots:1BigButt</Data>
+            <Data name="Boots:2BigButt" target="Boots:2" local="true">bootsf.osd\Boots:2BigButt</Data>
+            <Data name="Boots:3BigButt" target="Boots:3" local="true">bootsf.osd\Boots:3BigButt</Data>
+            <Data name="Boots:4BigButt" target="Boots:4" local="true">bootsf.osd\Boots:4BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Boots:5ChubbyButt" target="Boots:5" local="true">bootsf.osd\Boots:5ChubbyButt</Data>
+            <Data name="Boots:1ChubbyButt" target="Boots:1" local="true">bootsf.osd\Boots:1ChubbyButt</Data>
+            <Data name="Boots:2ChubbyButt" target="Boots:2" local="true">bootsf.osd\Boots:2ChubbyButt</Data>
+            <Data name="Boots:3ChubbyButt" target="Boots:3" local="true">bootsf.osd\Boots:3ChubbyButt</Data>
+            <Data name="Boots:4ChubbyButt" target="Boots:4" local="true">bootsf.osd\Boots:4ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Boots:5AppleCheeks" target="Boots:5" local="true">bootsf.osd\Boots:5AppleCheeks</Data>
+            <Data name="Boots:1AppleCheeks" target="Boots:1" local="true">bootsf.osd\Boots:1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Boots:5RoundAss" target="Boots:5" local="true">bootsf.osd\Boots:5RoundAss</Data>
+            <Data name="Boots:1RoundAss" target="Boots:1" local="true">bootsf.osd\Boots:1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Boots:5Groin" target="Boots:5" local="true">bootsf.osd\Boots:5Groin</Data>
+            <Data name="Boots:1Groin" target="Boots:1" local="true">bootsf.osd\Boots:1Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Boots:5SlimThighs" target="Boots:5" local="true">bootsf.osd\Boots:5SlimThighs</Data>
+            <Data name="Boots:1SlimThighs" target="Boots:1" local="true">bootsf.osd\Boots:1SlimThighs</Data>
+            <Data name="Boots:2SlimThighs" target="Boots:2" local="true">bootsf.osd\Boots:2SlimThighs</Data>
+            <Data name="Boots:3SlimThighs" target="Boots:3" local="true">bootsf.osd\Boots:3SlimThighs</Data>
+            <Data name="Boots:4SlimThighs" target="Boots:4" local="true">bootsf.osd\Boots:4SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Boots:5Thighs" target="Boots:5" local="true">bootsf.osd\Boots:5Thighs</Data>
+            <Data name="Boots:1Thighs" target="Boots:1" local="true">bootsf.osd\Boots:1Thighs</Data>
+            <Data name="Boots:2Thighs" target="Boots:2" local="true">bootsf.osd\Boots:2Thighs</Data>
+            <Data name="Boots:3Thighs" target="Boots:3" local="true">bootsf.osd\Boots:3Thighs</Data>
+            <Data name="Boots:4Thighs" target="Boots:4" local="true">bootsf.osd\Boots:4Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Boots:5ChubbyLegs" target="Boots:5" local="true">bootsf.osd\Boots:5ChubbyLegs</Data>
+            <Data name="Boots:1ChubbyLegs" target="Boots:1" local="true">bootsf.osd\Boots:1ChubbyLegs</Data>
+            <Data name="Boots:2ChubbyLegs" target="Boots:2" local="true">bootsf.osd\Boots:2ChubbyLegs</Data>
+            <Data name="Boots:3ChubbyLegs" target="Boots:3" local="true">bootsf.osd\Boots:3ChubbyLegs</Data>
+            <Data name="Boots:4ChubbyLegs" target="Boots:4" local="true">bootsf.osd\Boots:4ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Boots:5Legs" target="Boots:5" local="true">bootsf.osd\Boots:5Legs</Data>
+            <Data name="Boots:1Legs" target="Boots:1" local="true">bootsf.osd\Boots:1Legs</Data>
+            <Data name="Boots:2Legs" target="Boots:2" local="true">bootsf.osd\Boots:2Legs</Data>
+            <Data name="Boots:3Legs" target="Boots:3" local="true">bootsf.osd\Boots:3Legs</Data>
+            <Data name="Boots:4Legs" target="Boots:4" local="true">bootsf.osd\Boots:4Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Boots:5KneeHeight" target="Boots:5" local="true">bootsf.osd\Boots:5KneeHeight</Data>
+            <Data name="Boots:1KneeHeight" target="Boots:1" local="true">bootsf.osd\Boots:1KneeHeight</Data>
+            <Data name="Boots:2KneeHeight" target="Boots:2" local="true">bootsf.osd\Boots:2KneeHeight</Data>
+            <Data name="Boots:3KneeHeight" target="Boots:3" local="true">bootsf.osd\Boots:3KneeHeight</Data>
+            <Data name="Boots:4KneeHeight" target="Boots:4" local="true">bootsf.osd\Boots:4KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="Boots:1CalfSize" target="Boots:1" local="true">bootsf.osd\Boots:1CalfSize</Data>
+            <Data name="Boots:2CalfSize" target="Boots:2" local="true">bootsf.osd\Boots:2CalfSize</Data>
+            <Data name="Boots:3CalfSize" target="Boots:3" local="true">bootsf.osd\Boots:3CalfSize</Data>
+            <Data name="Boots:4CalfSize" target="Boots:4" local="true">bootsf.osd\Boots:4CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="Boots:1CalfSmooth" target="Boots:1" local="true">bootsf.osd\Boots:1CalfSmooth</Data>
+            <Data name="Boots:2CalfSmooth" target="Boots:2" local="true">bootsf.osd\Boots:2CalfSmooth</Data>
+            <Data name="Boots:3CalfSmooth" target="Boots:3" local="true">bootsf.osd\Boots:3CalfSmooth</Data>
+            <Data name="Boots:4CalfSmooth" target="Boots:4" local="true">bootsf.osd\Boots:4CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Boots:1Ankles" target="Boots:1" local="true">bootsf.osd\Boots:1Ankles</Data>
+            <Data name="Boots:2Ankles" target="Boots:2" local="true">bootsf.osd\Boots:2Ankles</Data>
+            <Data name="Boots:3Ankles" target="Boots:3" local="true">bootsf.osd\Boots:3Ankles</Data>
+            <Data name="Boots:4Ankles" target="Boots:4" local="true">bootsf.osd\Boots:4Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Boots:1SmallSeam" target="Boots:1" local="true">bootsf.osd\Boots:1SmallSeam</Data>
+            <Data name="Boots:2SmallSeam" target="Boots:2" local="true">bootsf.osd\Boots:2SmallSeam</Data>
+            <Data name="Boots:3SmallSeam" target="Boots:3" local="true">bootsf.osd\Boots:3SmallSeam</Data>
+            <Data name="Boots:4SmallSeam" target="Boots:4" local="true">bootsf.osd\Boots:4SmallSeam</Data>
+        </Slider>
+        <Slider name="Zap 01" invert="false" small="0" big="0" zap="true">
+            <Data name="Boots:3Zap 01" target="Boots:3" local="true">bootsf.osd\Boots:3Zap 01</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

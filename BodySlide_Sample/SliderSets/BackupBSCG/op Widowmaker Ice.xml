@@ -1,0 +1,2249 @@
+<SliderSetInfo>
+    <SliderSet name="op Widowmaker Ice">
+        <SetFolder>op Widowmaker Ice</SetFolder>
+        <SourceFile>op Widowmaker Ice.nif</SourceFile>
+        <OutputPath>meshes\op\ow\widowmaker</OutputPath>
+        <OutputFile>cuirassE</OutputFile>
+        <BaseShapeName target="00FFFF">00FFFF</BaseShapeName>
+        <BaseShapeName target="00FFFF2">00FFFF2</BaseShapeName>
+        <BaseShapeName target="00FFFF4_outfit">00FFFF4_outfit</BaseShapeName>
+        <BaseShapeName target="FFarm">FFarm</BaseShapeName>
+        <BaseShapeName target="FFarm1">FFarm1</BaseShapeName>
+        <BaseShapeName target="FFarm2">FFarm2</BaseShapeName>
+        <BaseShapeName target="cl">cl</BaseShapeName>
+        <BaseShapeName target="tatoo">tatoo</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="00FFFF4_outfitBreasts" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreasts.bsd</datafile>
+            <datafile name="00FFFFBreasts" target="00FFFF" local="true">00FFFFBreasts.bsd</datafile>
+            <datafile name="clBreasts" target="cl" local="true">clBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitBreastsSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSmall.bsd</datafile>
+            <datafile name="00FFFF2BreastsSmall" target="00FFFF2" local="true">00FFFF2BreastsSmall.bsd</datafile>
+            <datafile name="00FFFFBreastsSmall" target="00FFFF" local="true">00FFFFBreastsSmall.bsd</datafile>
+            <datafile name="clBreastsSmall" target="cl" local="true">clBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSH" target="00FFFF" local="true">00FFFFBreastsSH.bsd</datafile>
+            <datafile name="clBreastsSH" target="cl" local="true">clBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSSH" target="00FFFF" local="true">00FFFFBreastsSSH.bsd</datafile>
+            <datafile name="clBreastsSSH" target="cl" local="true">clBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsFantasy" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsFantasy.bsd</datafile>
+            <datafile name="00FFFFBreastsFantasy" target="00FFFF" local="true">00FFFFBreastsFantasy.bsd</datafile>
+            <datafile name="clBreastsFantasy" target="cl" local="true">clBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitDoubleMelon" target="00FFFF4_outfit" local="true">00FFFF4_outfitDoubleMelon.bsd</datafile>
+            <datafile name="00FFFFDoubleMelon" target="00FFFF" local="true">00FFFFDoubleMelon.bsd</datafile>
+            <datafile name="clDoubleMelon" target="cl" local="true">clDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastCleavage" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastCleavage.bsd</datafile>
+            <datafile name="00FFFFBreastCleavage" target="00FFFF" local="true">00FFFFBreastCleavage.bsd</datafile>
+            <datafile name="clBreastCleavage" target="cl" local="true">clBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastFlatness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastFlatness.bsd</datafile>
+            <datafile name="00FFFF2BreastFlatness" target="00FFFF2" local="true">00FFFF2BreastFlatness.bsd</datafile>
+            <datafile name="00FFFFBreastFlatness" target="00FFFF" local="true">00FFFFBreastFlatness.bsd</datafile>
+            <datafile name="clBreastFlatness" target="cl" local="true">clBreastFlatness.bsd</datafile>
+            <datafile name="tatooBreastFlatness" target="tatoo" local="true">tatooBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastGravity" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastGravity.bsd</datafile>
+            <datafile name="00FFFFBreastGravity" target="00FFFF" local="true">00FFFFBreastGravity.bsd</datafile>
+            <datafile name="clBreastGravity" target="cl" local="true">clBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitPushUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitPushUp.bsd</datafile>
+            <datafile name="00FFFFPushUp" target="00FFFF" local="true">00FFFFPushUp.bsd</datafile>
+            <datafile name="clPushUp" target="cl" local="true">clPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastHeight.bsd</datafile>
+            <datafile name="00FFFF2BreastHeight" target="00FFFF2" local="true">00FFFF2BreastHeight.bsd</datafile>
+            <datafile name="00FFFFBreastHeight" target="00FFFF" local="true">00FFFFBreastHeight.bsd</datafile>
+            <datafile name="clBreastHeight" target="cl" local="true">clBreastHeight.bsd</datafile>
+            <datafile name="tatooBreastHeight" target="tatoo" local="true">tatooBreastHeight.bsd</datafile>
+            <datafile name="FFarm2BreastHeight" target="FFarm2" local="true">FFarm2BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastPerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastPerkiness.bsd</datafile>
+            <datafile name="00FFFFBreastPerkiness" target="00FFFF" local="true">00FFFFBreastPerkiness.bsd</datafile>
+            <datafile name="clBreastPerkiness" target="cl" local="true">clBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastWidth.bsd</datafile>
+            <datafile name="00FFFF2BreastWidth" target="00FFFF2" local="true">00FFFF2BreastWidth.bsd</datafile>
+            <datafile name="00FFFFBreastWidth" target="00FFFF" local="true">00FFFFBreastWidth.bsd</datafile>
+            <datafile name="clBreastWidth" target="cl" local="true">clBreastWidth.bsd</datafile>
+            <datafile name="tatooBreastWidth" target="tatoo" local="true">tatooBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitNippleDistance" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDistance.bsd</datafile>
+            <datafile name="clNippleDistance" target="cl" local="true">clNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNipplePerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitNipplePerkiness.bsd</datafile>
+            <datafile name="clNipplePerkiness" target="cl" local="true">clNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleUp.bsd</datafile>
+            <datafile name="00FFFFNippleUp" target="00FFFF" local="true">00FFFFNippleUp.bsd</datafile>
+            <datafile name="clNippleUp" target="cl" local="true">clNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleDown" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDown.bsd</datafile>
+            <datafile name="00FFFFNippleDown" target="00FFFF" local="true">00FFFFNippleDown.bsd</datafile>
+            <datafile name="clNippleDown" target="cl" local="true">clNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitArms.bsd</datafile>
+            <datafile name="00FFFF2Arms" target="00FFFF2" local="true">00FFFF2Arms.bsd</datafile>
+            <datafile name="00FFFFArms" target="00FFFF" local="true">00FFFFArms.bsd</datafile>
+            <datafile name="clArms" target="cl" local="true">clArms.bsd</datafile>
+            <datafile name="tatooArms" target="tatoo" local="true">tatooArms.bsd</datafile>
+            <datafile name="FFarmArms" target="FFarm" local="true">FFarmArms.bsd</datafile>
+            <datafile name="FFarm2Arms" target="FFarm2" local="true">FFarm2Arms.bsd</datafile>
+            <datafile name="FFarm1Arms" target="FFarm1" local="true">FFarm1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyArms.bsd</datafile>
+            <datafile name="00FFFFChubbyArms" target="00FFFF" local="true">00FFFFChubbyArms.bsd</datafile>
+            <datafile name="clChubbyArms" target="cl" local="true">clChubbyArms.bsd</datafile>
+            <datafile name="tatooChubbyArms" target="tatoo" local="true">tatooChubbyArms.bsd</datafile>
+            <datafile name="FFarmChubbyArms" target="FFarm" local="true">FFarmChubbyArms.bsd</datafile>
+            <datafile name="FFarm2ChubbyArms" target="FFarm2" local="true">FFarm2ChubbyArms.bsd</datafile>
+            <datafile name="FFarm1ChubbyArms" target="FFarm1" local="true">FFarm1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitShoulderSmooth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderSmooth" target="00FFFF2" local="true">00FFFF2ShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFFShoulderSmooth" target="00FFFF" local="true">00FFFFShoulderSmooth.bsd</datafile>
+            <datafile name="clShoulderSmooth" target="cl" local="true">clShoulderSmooth.bsd</datafile>
+            <datafile name="tatooShoulderSmooth" target="tatoo" local="true">tatooShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitShoulderWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderWidth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderWidth" target="00FFFF2" local="true">00FFFF2ShoulderWidth.bsd</datafile>
+            <datafile name="00FFFFShoulderWidth" target="00FFFF" local="true">00FFFFShoulderWidth.bsd</datafile>
+            <datafile name="clShoulderWidth" target="cl" local="true">clShoulderWidth.bsd</datafile>
+            <datafile name="tatooShoulderWidth" target="tatoo" local="true">tatooShoulderWidth.bsd</datafile>
+            <datafile name="FFarmShoulderWidth" target="FFarm" local="true">FFarmShoulderWidth.bsd</datafile>
+            <datafile name="FFarm2ShoulderWidth" target="FFarm2" local="true">FFarm2ShoulderWidth.bsd</datafile>
+            <datafile name="FFarm1ShoulderWidth" target="FFarm1" local="true">FFarm1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigTorso" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigTorso.bsd</datafile>
+            <datafile name="00FFFF2BigTorso" target="00FFFF2" local="true">00FFFF2BigTorso.bsd</datafile>
+            <datafile name="00FFFFBigTorso" target="00FFFF" local="true">00FFFFBigTorso.bsd</datafile>
+            <datafile name="clBigTorso" target="cl" local="true">clBigTorso.bsd</datafile>
+            <datafile name="tatooBigTorso" target="tatoo" local="true">tatooBigTorso.bsd</datafile>
+            <datafile name="FFarmBigTorso" target="FFarm" local="true">FFarmBigTorso.bsd</datafile>
+            <datafile name="FFarm2BigTorso" target="FFarm2" local="true">FFarm2BigTorso.bsd</datafile>
+            <datafile name="FFarm1BigTorso" target="FFarm1" local="true">FFarm1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="00FFFF4_outfitWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitWaist.bsd</datafile>
+            <datafile name="00FFFF2Waist" target="00FFFF2" local="true">00FFFF2Waist.bsd</datafile>
+            <datafile name="00FFFFWaist" target="00FFFF" local="true">00FFFFWaist.bsd</datafile>
+            <datafile name="clWaist" target="cl" local="true">clWaist.bsd</datafile>
+            <datafile name="tatooWaist" target="tatoo" local="true">tatooWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitWideWaistLine" target="00FFFF4_outfit" local="true">00FFFF4_outfitWideWaistLine.bsd</datafile>
+            <datafile name="00FFFF2WideWaistLine" target="00FFFF2" local="true">00FFFF2WideWaistLine.bsd</datafile>
+            <datafile name="00FFFFWideWaistLine" target="00FFFF" local="true">00FFFFWideWaistLine.bsd</datafile>
+            <datafile name="clWideWaistLine" target="cl" local="true">clWideWaistLine.bsd</datafile>
+            <datafile name="tatooWideWaistLine" target="tatoo" local="true">tatooWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyWaist.bsd</datafile>
+            <datafile name="00FFFF2ChubbyWaist" target="00FFFF2" local="true">00FFFF2ChubbyWaist.bsd</datafile>
+            <datafile name="00FFFFChubbyWaist" target="00FFFF" local="true">00FFFFChubbyWaist.bsd</datafile>
+            <datafile name="clChubbyWaist" target="cl" local="true">clChubbyWaist.bsd</datafile>
+            <datafile name="tatooChubbyWaist" target="tatoo" local="true">tatooChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBelly.bsd</datafile>
+            <datafile name="00FFFF2Belly" target="00FFFF2" local="true">00FFFF2Belly.bsd</datafile>
+            <datafile name="00FFFFBelly" target="00FFFF" local="true">00FFFFBelly.bsd</datafile>
+            <datafile name="clBelly" target="cl" local="true">clBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigBelly.bsd</datafile>
+            <datafile name="00FFFF2BigBelly" target="00FFFF2" local="true">00FFFF2BigBelly.bsd</datafile>
+            <datafile name="00FFFFBigBelly" target="00FFFF" local="true">00FFFFBigBelly.bsd</datafile>
+            <datafile name="clBigBelly" target="cl" local="true">clBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitTummyTuck" target="00FFFF4_outfit" local="true">00FFFF4_outfitTummyTuck.bsd</datafile>
+            <datafile name="00FFFF2TummyTuck" target="00FFFF2" local="true">00FFFF2TummyTuck.bsd</datafile>
+            <datafile name="00FFFFTummyTuck" target="00FFFF" local="true">00FFFFTummyTuck.bsd</datafile>
+            <datafile name="clTummyTuck" target="cl" local="true">clTummyTuck.bsd</datafile>
+            <datafile name="FFarmTummyTuck" target="FFarm" local="true">FFarmTummyTuck.bsd</datafile>
+            <datafile name="FFarm2TummyTuck" target="FFarm2" local="true">FFarm2TummyTuck.bsd</datafile>
+            <datafile name="FFarm1TummyTuck" target="FFarm1" local="true">FFarm1TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBack" target="00FFFF4_outfit" local="true">00FFFF4_outfitBack.bsd</datafile>
+            <datafile name="00FFFF2Back" target="00FFFF2" local="true">00FFFF2Back.bsd</datafile>
+            <datafile name="00FFFFBack" target="00FFFF" local="true">00FFFFBack.bsd</datafile>
+            <datafile name="clBack" target="cl" local="true">clBack.bsd</datafile>
+            <datafile name="tatooBack" target="tatoo" local="true">tatooBack.bsd</datafile>
+            <datafile name="FFarm2Back" target="FFarm2" local="true">FFarm2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHipbone" target="00FFFF4_outfit" local="true">00FFFF4_outfitHipbone.bsd</datafile>
+            <datafile name="00FFFF2Hipbone" target="00FFFF2" local="true">00FFFF2Hipbone.bsd</datafile>
+            <datafile name="00FFFFHipbone" target="00FFFF" local="true">00FFFFHipbone.bsd</datafile>
+            <datafile name="clHipbone" target="cl" local="true">clHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHips" target="00FFFF4_outfit" local="true">00FFFF4_outfitHips.bsd</datafile>
+            <datafile name="00FFFF2Hips" target="00FFFF2" local="true">00FFFF2Hips.bsd</datafile>
+            <datafile name="00FFFFHips" target="00FFFF" local="true">00FFFFHips.bsd</datafile>
+            <datafile name="clHips" target="cl" local="true">clHips.bsd</datafile>
+            <datafile name="tatooHips" target="tatoo" local="true">tatooHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitButt.bsd</datafile>
+            <datafile name="00FFFF2Butt" target="00FFFF2" local="true">00FFFF2Butt.bsd</datafile>
+            <datafile name="00FFFFButt" target="00FFFF" local="true">00FFFFButt.bsd</datafile>
+            <datafile name="clButt" target="cl" local="true">clButt.bsd</datafile>
+            <datafile name="tatooButt" target="tatoo" local="true">tatooButt.bsd</datafile>
+            <datafile name="FFarmButt" target="FFarm" local="true">FFarmButt.bsd</datafile>
+            <datafile name="FFarm2Butt" target="FFarm2" local="true">FFarm2Butt.bsd</datafile>
+            <datafile name="FFarm1Butt" target="FFarm1" local="true">FFarm1Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitButtSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtSmall.bsd</datafile>
+            <datafile name="00FFFF2ButtSmall" target="00FFFF2" local="true">00FFFF2ButtSmall.bsd</datafile>
+            <datafile name="00FFFFButtSmall" target="00FFFF" local="true">00FFFFButtSmall.bsd</datafile>
+            <datafile name="clButtSmall" target="cl" local="true">clButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitButtShape2" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtShape2.bsd</datafile>
+            <datafile name="00FFFF2ButtShape2" target="00FFFF2" local="true">00FFFF2ButtShape2.bsd</datafile>
+            <datafile name="00FFFFButtShape2" target="00FFFF" local="true">00FFFFButtShape2.bsd</datafile>
+            <datafile name="clButtShape2" target="cl" local="true">clButtShape2.bsd</datafile>
+            <datafile name="tatooButtShape2" target="tatoo" local="true">tatooButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigButt.bsd</datafile>
+            <datafile name="00FFFF2BigButt" target="00FFFF2" local="true">00FFFF2BigButt.bsd</datafile>
+            <datafile name="00FFFFBigButt" target="00FFFF" local="true">00FFFFBigButt.bsd</datafile>
+            <datafile name="clBigButt" target="cl" local="true">clBigButt.bsd</datafile>
+            <datafile name="tatooBigButt" target="tatoo" local="true">tatooBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyButt.bsd</datafile>
+            <datafile name="00FFFF2ChubbyButt" target="00FFFF2" local="true">00FFFF2ChubbyButt.bsd</datafile>
+            <datafile name="00FFFFChubbyButt" target="00FFFF" local="true">00FFFFChubbyButt.bsd</datafile>
+            <datafile name="clChubbyButt" target="cl" local="true">clChubbyButt.bsd</datafile>
+            <datafile name="tatooChubbyButt" target="tatoo" local="true">tatooChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitAppleCheeks" target="00FFFF4_outfit" local="true">00FFFF4_outfitAppleCheeks.bsd</datafile>
+            <datafile name="00FFFF2AppleCheeks" target="00FFFF2" local="true">00FFFF2AppleCheeks.bsd</datafile>
+            <datafile name="00FFFFAppleCheeks" target="00FFFF" local="true">00FFFFAppleCheeks.bsd</datafile>
+            <datafile name="clAppleCheeks" target="cl" local="true">clAppleCheeks.bsd</datafile>
+            <datafile name="tatooAppleCheeks" target="tatoo" local="true">tatooAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitRoundAss" target="00FFFF4_outfit" local="true">00FFFF4_outfitRoundAss.bsd</datafile>
+            <datafile name="00FFFF2RoundAss" target="00FFFF2" local="true">00FFFF2RoundAss.bsd</datafile>
+            <datafile name="00FFFFRoundAss" target="00FFFF" local="true">00FFFFRoundAss.bsd</datafile>
+            <datafile name="clRoundAss" target="cl" local="true">clRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitGroin" target="00FFFF4_outfit" local="true">00FFFF4_outfitGroin.bsd</datafile>
+            <datafile name="00FFFFGroin" target="00FFFF" local="true">00FFFFGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitSlimThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitSlimThighs.bsd</datafile>
+            <datafile name="00FFFF2SlimThighs" target="00FFFF2" local="true">00FFFF2SlimThighs.bsd</datafile>
+            <datafile name="00FFFFSlimThighs" target="00FFFF" local="true">00FFFFSlimThighs.bsd</datafile>
+            <datafile name="clSlimThighs" target="cl" local="true">clSlimThighs.bsd</datafile>
+            <datafile name="tatooSlimThighs" target="tatoo" local="true">tatooSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitThighs.bsd</datafile>
+            <datafile name="00FFFF2Thighs" target="00FFFF2" local="true">00FFFF2Thighs.bsd</datafile>
+            <datafile name="00FFFFThighs" target="00FFFF" local="true">00FFFFThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyLegs.bsd</datafile>
+            <datafile name="00FFFF2ChubbyLegs" target="00FFFF2" local="true">00FFFF2ChubbyLegs.bsd</datafile>
+            <datafile name="00FFFFChubbyLegs" target="00FFFF" local="true">00FFFFChubbyLegs.bsd</datafile>
+            <datafile name="clChubbyLegs" target="cl" local="true">clChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitLegs.bsd</datafile>
+            <datafile name="00FFFF2Legs" target="00FFFF2" local="true">00FFFF2Legs.bsd</datafile>
+            <datafile name="00FFFFLegs" target="00FFFF" local="true">00FFFFLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitKneeHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitKneeHeight.bsd</datafile>
+            <datafile name="00FFFFKneeHeight" target="00FFFF" local="true">00FFFFKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSize" target="00FFFF" local="true">00FFFFCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSmooth" target="00FFFF" local="true">00FFFFCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="00FFFFAnkles" target="00FFFF" local="true">00FFFFAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="00FFFF4_outfitSmallSeam" target="00FFFF4_outfit" local="true">00FFFF4_outfitSmallSeam.bsd</datafile>
+            <datafile name="00FFFF2SmallSeam" target="00FFFF2" local="true">00FFFF2SmallSeam.bsd</datafile>
+            <datafile name="00FFFFSmallSeam" target="00FFFF" local="true">00FFFFSmallSeam.bsd</datafile>
+            <datafile name="clSmallSeam" target="cl" local="true">clSmallSeam.bsd</datafile>
+            <datafile name="tatooSmallSeam" target="tatoo" local="true">tatooSmallSeam.bsd</datafile>
+            <datafile name="FFarmSmallSeam" target="FFarm" local="true">FFarmSmallSeam.bsd</datafile>
+            <datafile name="FFarm2SmallSeam" target="FFarm2" local="true">FFarm2SmallSeam.bsd</datafile>
+            <datafile name="FFarm1SmallSeam" target="FFarm1" local="true">FFarm1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="00FFFF4_outfitShoulderTweak" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderTweak.bsd</datafile>
+            <datafile name="00FFFF2ShoulderTweak" target="00FFFF2" local="true">00FFFF2ShoulderTweak.bsd</datafile>
+            <datafile name="00FFFFShoulderTweak" target="00FFFF" local="true">00FFFFShoulderTweak.bsd</datafile>
+            <datafile name="clShoulderTweak" target="cl" local="true">clShoulderTweak.bsd</datafile>
+            <datafile name="tatooShoulderTweak" target="tatoo" local="true">tatooShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	    <SliderSet name="op Widowmaker Ice-2">
+        <SetFolder>op Widowmaker Ice</SetFolder>
+        <SourceFile>op Widowmaker Ice2.nif</SourceFile>
+        <OutputPath>meshes\op\ow\widowmaker</OutputPath>
+        <OutputFile>cuirassF</OutputFile>
+        <BaseShapeName target="00FFFF">00FFFF</BaseShapeName>
+        <BaseShapeName target="00FFFF2">00FFFF2</BaseShapeName>
+        <BaseShapeName target="00FFFF4_outfit">00FFFF4_outfit</BaseShapeName>
+        <BaseShapeName target="FFarm">FFarm</BaseShapeName>
+        <BaseShapeName target="FFarm1">FFarm1</BaseShapeName>
+        <BaseShapeName target="FFarm2">FFarm2</BaseShapeName>
+        <BaseShapeName target="cl">cl</BaseShapeName>
+        <BaseShapeName target="tatoo">tatoo</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="00FFFF4_outfitBreasts" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreasts.bsd</datafile>
+            <datafile name="00FFFFBreasts" target="00FFFF" local="true">00FFFFBreasts.bsd</datafile>
+            <datafile name="clBreasts" target="cl" local="true">clBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitBreastsSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSmall.bsd</datafile>
+            <datafile name="00FFFF2BreastsSmall" target="00FFFF2" local="true">00FFFF2BreastsSmall.bsd</datafile>
+            <datafile name="00FFFFBreastsSmall" target="00FFFF" local="true">00FFFFBreastsSmall.bsd</datafile>
+            <datafile name="clBreastsSmall" target="cl" local="true">clBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSH" target="00FFFF" local="true">00FFFFBreastsSH.bsd</datafile>
+            <datafile name="clBreastsSH" target="cl" local="true">clBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSSH" target="00FFFF" local="true">00FFFFBreastsSSH.bsd</datafile>
+            <datafile name="clBreastsSSH" target="cl" local="true">clBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsFantasy" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsFantasy.bsd</datafile>
+            <datafile name="00FFFFBreastsFantasy" target="00FFFF" local="true">00FFFFBreastsFantasy.bsd</datafile>
+            <datafile name="clBreastsFantasy" target="cl" local="true">clBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitDoubleMelon" target="00FFFF4_outfit" local="true">00FFFF4_outfitDoubleMelon.bsd</datafile>
+            <datafile name="00FFFFDoubleMelon" target="00FFFF" local="true">00FFFFDoubleMelon.bsd</datafile>
+            <datafile name="clDoubleMelon" target="cl" local="true">clDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastCleavage" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastCleavage.bsd</datafile>
+            <datafile name="00FFFFBreastCleavage" target="00FFFF" local="true">00FFFFBreastCleavage.bsd</datafile>
+            <datafile name="clBreastCleavage" target="cl" local="true">clBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastFlatness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastFlatness.bsd</datafile>
+            <datafile name="00FFFF2BreastFlatness" target="00FFFF2" local="true">00FFFF2BreastFlatness.bsd</datafile>
+            <datafile name="00FFFFBreastFlatness" target="00FFFF" local="true">00FFFFBreastFlatness.bsd</datafile>
+            <datafile name="clBreastFlatness" target="cl" local="true">clBreastFlatness.bsd</datafile>
+            <datafile name="tatooBreastFlatness" target="tatoo" local="true">tatooBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastGravity" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastGravity.bsd</datafile>
+            <datafile name="00FFFFBreastGravity" target="00FFFF" local="true">00FFFFBreastGravity.bsd</datafile>
+            <datafile name="clBreastGravity" target="cl" local="true">clBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitPushUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitPushUp.bsd</datafile>
+            <datafile name="00FFFFPushUp" target="00FFFF" local="true">00FFFFPushUp.bsd</datafile>
+            <datafile name="clPushUp" target="cl" local="true">clPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastHeight.bsd</datafile>
+            <datafile name="00FFFF2BreastHeight" target="00FFFF2" local="true">00FFFF2BreastHeight.bsd</datafile>
+            <datafile name="00FFFFBreastHeight" target="00FFFF" local="true">00FFFFBreastHeight.bsd</datafile>
+            <datafile name="clBreastHeight" target="cl" local="true">clBreastHeight.bsd</datafile>
+            <datafile name="tatooBreastHeight" target="tatoo" local="true">tatooBreastHeight.bsd</datafile>
+            <datafile name="FFarm2BreastHeight" target="FFarm2" local="true">FFarm2BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastPerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastPerkiness.bsd</datafile>
+            <datafile name="00FFFFBreastPerkiness" target="00FFFF" local="true">00FFFFBreastPerkiness.bsd</datafile>
+            <datafile name="clBreastPerkiness" target="cl" local="true">clBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastWidth.bsd</datafile>
+            <datafile name="00FFFF2BreastWidth" target="00FFFF2" local="true">00FFFF2BreastWidth.bsd</datafile>
+            <datafile name="00FFFFBreastWidth" target="00FFFF" local="true">00FFFFBreastWidth.bsd</datafile>
+            <datafile name="clBreastWidth" target="cl" local="true">clBreastWidth.bsd</datafile>
+            <datafile name="tatooBreastWidth" target="tatoo" local="true">tatooBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitNippleDistance" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDistance.bsd</datafile>
+            <datafile name="clNippleDistance" target="cl" local="true">clNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNipplePerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitNipplePerkiness.bsd</datafile>
+            <datafile name="clNipplePerkiness" target="cl" local="true">clNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleUp.bsd</datafile>
+            <datafile name="00FFFFNippleUp" target="00FFFF" local="true">00FFFFNippleUp.bsd</datafile>
+            <datafile name="clNippleUp" target="cl" local="true">clNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleDown" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDown.bsd</datafile>
+            <datafile name="00FFFFNippleDown" target="00FFFF" local="true">00FFFFNippleDown.bsd</datafile>
+            <datafile name="clNippleDown" target="cl" local="true">clNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitArms.bsd</datafile>
+            <datafile name="00FFFF2Arms" target="00FFFF2" local="true">00FFFF2Arms.bsd</datafile>
+            <datafile name="00FFFFArms" target="00FFFF" local="true">00FFFFArms.bsd</datafile>
+            <datafile name="clArms" target="cl" local="true">clArms.bsd</datafile>
+            <datafile name="tatooArms" target="tatoo" local="true">tatooArms.bsd</datafile>
+            <datafile name="FFarmArms" target="FFarm" local="true">FFarmArms.bsd</datafile>
+            <datafile name="FFarm2Arms" target="FFarm2" local="true">FFarm2Arms.bsd</datafile>
+            <datafile name="FFarm1Arms" target="FFarm1" local="true">FFarm1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyArms.bsd</datafile>
+            <datafile name="00FFFFChubbyArms" target="00FFFF" local="true">00FFFFChubbyArms.bsd</datafile>
+            <datafile name="clChubbyArms" target="cl" local="true">clChubbyArms.bsd</datafile>
+            <datafile name="tatooChubbyArms" target="tatoo" local="true">tatooChubbyArms.bsd</datafile>
+            <datafile name="FFarmChubbyArms" target="FFarm" local="true">FFarmChubbyArms.bsd</datafile>
+            <datafile name="FFarm2ChubbyArms" target="FFarm2" local="true">FFarm2ChubbyArms.bsd</datafile>
+            <datafile name="FFarm1ChubbyArms" target="FFarm1" local="true">FFarm1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitShoulderSmooth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderSmooth" target="00FFFF2" local="true">00FFFF2ShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFFShoulderSmooth" target="00FFFF" local="true">00FFFFShoulderSmooth.bsd</datafile>
+            <datafile name="clShoulderSmooth" target="cl" local="true">clShoulderSmooth.bsd</datafile>
+            <datafile name="tatooShoulderSmooth" target="tatoo" local="true">tatooShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitShoulderWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderWidth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderWidth" target="00FFFF2" local="true">00FFFF2ShoulderWidth.bsd</datafile>
+            <datafile name="00FFFFShoulderWidth" target="00FFFF" local="true">00FFFFShoulderWidth.bsd</datafile>
+            <datafile name="clShoulderWidth" target="cl" local="true">clShoulderWidth.bsd</datafile>
+            <datafile name="tatooShoulderWidth" target="tatoo" local="true">tatooShoulderWidth.bsd</datafile>
+            <datafile name="FFarmShoulderWidth" target="FFarm" local="true">FFarmShoulderWidth.bsd</datafile>
+            <datafile name="FFarm2ShoulderWidth" target="FFarm2" local="true">FFarm2ShoulderWidth.bsd</datafile>
+            <datafile name="FFarm1ShoulderWidth" target="FFarm1" local="true">FFarm1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigTorso" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigTorso.bsd</datafile>
+            <datafile name="00FFFF2BigTorso" target="00FFFF2" local="true">00FFFF2BigTorso.bsd</datafile>
+            <datafile name="00FFFFBigTorso" target="00FFFF" local="true">00FFFFBigTorso.bsd</datafile>
+            <datafile name="clBigTorso" target="cl" local="true">clBigTorso.bsd</datafile>
+            <datafile name="tatooBigTorso" target="tatoo" local="true">tatooBigTorso.bsd</datafile>
+            <datafile name="FFarmBigTorso" target="FFarm" local="true">FFarmBigTorso.bsd</datafile>
+            <datafile name="FFarm2BigTorso" target="FFarm2" local="true">FFarm2BigTorso.bsd</datafile>
+            <datafile name="FFarm1BigTorso" target="FFarm1" local="true">FFarm1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="00FFFF4_outfitWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitWaist.bsd</datafile>
+            <datafile name="00FFFF2Waist" target="00FFFF2" local="true">00FFFF2Waist.bsd</datafile>
+            <datafile name="00FFFFWaist" target="00FFFF" local="true">00FFFFWaist.bsd</datafile>
+            <datafile name="clWaist" target="cl" local="true">clWaist.bsd</datafile>
+            <datafile name="tatooWaist" target="tatoo" local="true">tatooWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitWideWaistLine" target="00FFFF4_outfit" local="true">00FFFF4_outfitWideWaistLine.bsd</datafile>
+            <datafile name="00FFFF2WideWaistLine" target="00FFFF2" local="true">00FFFF2WideWaistLine.bsd</datafile>
+            <datafile name="00FFFFWideWaistLine" target="00FFFF" local="true">00FFFFWideWaistLine.bsd</datafile>
+            <datafile name="clWideWaistLine" target="cl" local="true">clWideWaistLine.bsd</datafile>
+            <datafile name="tatooWideWaistLine" target="tatoo" local="true">tatooWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyWaist.bsd</datafile>
+            <datafile name="00FFFF2ChubbyWaist" target="00FFFF2" local="true">00FFFF2ChubbyWaist.bsd</datafile>
+            <datafile name="00FFFFChubbyWaist" target="00FFFF" local="true">00FFFFChubbyWaist.bsd</datafile>
+            <datafile name="clChubbyWaist" target="cl" local="true">clChubbyWaist.bsd</datafile>
+            <datafile name="tatooChubbyWaist" target="tatoo" local="true">tatooChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBelly.bsd</datafile>
+            <datafile name="00FFFF2Belly" target="00FFFF2" local="true">00FFFF2Belly.bsd</datafile>
+            <datafile name="00FFFFBelly" target="00FFFF" local="true">00FFFFBelly.bsd</datafile>
+            <datafile name="clBelly" target="cl" local="true">clBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigBelly.bsd</datafile>
+            <datafile name="00FFFF2BigBelly" target="00FFFF2" local="true">00FFFF2BigBelly.bsd</datafile>
+            <datafile name="00FFFFBigBelly" target="00FFFF" local="true">00FFFFBigBelly.bsd</datafile>
+            <datafile name="clBigBelly" target="cl" local="true">clBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitTummyTuck" target="00FFFF4_outfit" local="true">00FFFF4_outfitTummyTuck.bsd</datafile>
+            <datafile name="00FFFF2TummyTuck" target="00FFFF2" local="true">00FFFF2TummyTuck.bsd</datafile>
+            <datafile name="00FFFFTummyTuck" target="00FFFF" local="true">00FFFFTummyTuck.bsd</datafile>
+            <datafile name="clTummyTuck" target="cl" local="true">clTummyTuck.bsd</datafile>
+            <datafile name="FFarmTummyTuck" target="FFarm" local="true">FFarmTummyTuck.bsd</datafile>
+            <datafile name="FFarm2TummyTuck" target="FFarm2" local="true">FFarm2TummyTuck.bsd</datafile>
+            <datafile name="FFarm1TummyTuck" target="FFarm1" local="true">FFarm1TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBack" target="00FFFF4_outfit" local="true">00FFFF4_outfitBack.bsd</datafile>
+            <datafile name="00FFFF2Back" target="00FFFF2" local="true">00FFFF2Back.bsd</datafile>
+            <datafile name="00FFFFBack" target="00FFFF" local="true">00FFFFBack.bsd</datafile>
+            <datafile name="clBack" target="cl" local="true">clBack.bsd</datafile>
+            <datafile name="tatooBack" target="tatoo" local="true">tatooBack.bsd</datafile>
+            <datafile name="FFarm2Back" target="FFarm2" local="true">FFarm2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHipbone" target="00FFFF4_outfit" local="true">00FFFF4_outfitHipbone.bsd</datafile>
+            <datafile name="00FFFF2Hipbone" target="00FFFF2" local="true">00FFFF2Hipbone.bsd</datafile>
+            <datafile name="00FFFFHipbone" target="00FFFF" local="true">00FFFFHipbone.bsd</datafile>
+            <datafile name="clHipbone" target="cl" local="true">clHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHips" target="00FFFF4_outfit" local="true">00FFFF4_outfitHips.bsd</datafile>
+            <datafile name="00FFFF2Hips" target="00FFFF2" local="true">00FFFF2Hips.bsd</datafile>
+            <datafile name="00FFFFHips" target="00FFFF" local="true">00FFFFHips.bsd</datafile>
+            <datafile name="clHips" target="cl" local="true">clHips.bsd</datafile>
+            <datafile name="tatooHips" target="tatoo" local="true">tatooHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitButt.bsd</datafile>
+            <datafile name="00FFFF2Butt" target="00FFFF2" local="true">00FFFF2Butt.bsd</datafile>
+            <datafile name="00FFFFButt" target="00FFFF" local="true">00FFFFButt.bsd</datafile>
+            <datafile name="clButt" target="cl" local="true">clButt.bsd</datafile>
+            <datafile name="tatooButt" target="tatoo" local="true">tatooButt.bsd</datafile>
+            <datafile name="FFarmButt" target="FFarm" local="true">FFarmButt.bsd</datafile>
+            <datafile name="FFarm2Butt" target="FFarm2" local="true">FFarm2Butt.bsd</datafile>
+            <datafile name="FFarm1Butt" target="FFarm1" local="true">FFarm1Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitButtSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtSmall.bsd</datafile>
+            <datafile name="00FFFF2ButtSmall" target="00FFFF2" local="true">00FFFF2ButtSmall.bsd</datafile>
+            <datafile name="00FFFFButtSmall" target="00FFFF" local="true">00FFFFButtSmall.bsd</datafile>
+            <datafile name="clButtSmall" target="cl" local="true">clButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitButtShape2" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtShape2.bsd</datafile>
+            <datafile name="00FFFF2ButtShape2" target="00FFFF2" local="true">00FFFF2ButtShape2.bsd</datafile>
+            <datafile name="00FFFFButtShape2" target="00FFFF" local="true">00FFFFButtShape2.bsd</datafile>
+            <datafile name="clButtShape2" target="cl" local="true">clButtShape2.bsd</datafile>
+            <datafile name="tatooButtShape2" target="tatoo" local="true">tatooButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigButt.bsd</datafile>
+            <datafile name="00FFFF2BigButt" target="00FFFF2" local="true">00FFFF2BigButt.bsd</datafile>
+            <datafile name="00FFFFBigButt" target="00FFFF" local="true">00FFFFBigButt.bsd</datafile>
+            <datafile name="clBigButt" target="cl" local="true">clBigButt.bsd</datafile>
+            <datafile name="tatooBigButt" target="tatoo" local="true">tatooBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyButt.bsd</datafile>
+            <datafile name="00FFFF2ChubbyButt" target="00FFFF2" local="true">00FFFF2ChubbyButt.bsd</datafile>
+            <datafile name="00FFFFChubbyButt" target="00FFFF" local="true">00FFFFChubbyButt.bsd</datafile>
+            <datafile name="clChubbyButt" target="cl" local="true">clChubbyButt.bsd</datafile>
+            <datafile name="tatooChubbyButt" target="tatoo" local="true">tatooChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitAppleCheeks" target="00FFFF4_outfit" local="true">00FFFF4_outfitAppleCheeks.bsd</datafile>
+            <datafile name="00FFFF2AppleCheeks" target="00FFFF2" local="true">00FFFF2AppleCheeks.bsd</datafile>
+            <datafile name="00FFFFAppleCheeks" target="00FFFF" local="true">00FFFFAppleCheeks.bsd</datafile>
+            <datafile name="clAppleCheeks" target="cl" local="true">clAppleCheeks.bsd</datafile>
+            <datafile name="tatooAppleCheeks" target="tatoo" local="true">tatooAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitRoundAss" target="00FFFF4_outfit" local="true">00FFFF4_outfitRoundAss.bsd</datafile>
+            <datafile name="00FFFF2RoundAss" target="00FFFF2" local="true">00FFFF2RoundAss.bsd</datafile>
+            <datafile name="00FFFFRoundAss" target="00FFFF" local="true">00FFFFRoundAss.bsd</datafile>
+            <datafile name="clRoundAss" target="cl" local="true">clRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitGroin" target="00FFFF4_outfit" local="true">00FFFF4_outfitGroin.bsd</datafile>
+            <datafile name="00FFFFGroin" target="00FFFF" local="true">00FFFFGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitSlimThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitSlimThighs.bsd</datafile>
+            <datafile name="00FFFF2SlimThighs" target="00FFFF2" local="true">00FFFF2SlimThighs.bsd</datafile>
+            <datafile name="00FFFFSlimThighs" target="00FFFF" local="true">00FFFFSlimThighs.bsd</datafile>
+            <datafile name="clSlimThighs" target="cl" local="true">clSlimThighs.bsd</datafile>
+            <datafile name="tatooSlimThighs" target="tatoo" local="true">tatooSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitThighs.bsd</datafile>
+            <datafile name="00FFFF2Thighs" target="00FFFF2" local="true">00FFFF2Thighs.bsd</datafile>
+            <datafile name="00FFFFThighs" target="00FFFF" local="true">00FFFFThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyLegs.bsd</datafile>
+            <datafile name="00FFFF2ChubbyLegs" target="00FFFF2" local="true">00FFFF2ChubbyLegs.bsd</datafile>
+            <datafile name="00FFFFChubbyLegs" target="00FFFF" local="true">00FFFFChubbyLegs.bsd</datafile>
+            <datafile name="clChubbyLegs" target="cl" local="true">clChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitLegs.bsd</datafile>
+            <datafile name="00FFFF2Legs" target="00FFFF2" local="true">00FFFF2Legs.bsd</datafile>
+            <datafile name="00FFFFLegs" target="00FFFF" local="true">00FFFFLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitKneeHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitKneeHeight.bsd</datafile>
+            <datafile name="00FFFFKneeHeight" target="00FFFF" local="true">00FFFFKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSize" target="00FFFF" local="true">00FFFFCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSmooth" target="00FFFF" local="true">00FFFFCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="00FFFFAnkles" target="00FFFF" local="true">00FFFFAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="00FFFF4_outfitSmallSeam" target="00FFFF4_outfit" local="true">00FFFF4_outfitSmallSeam.bsd</datafile>
+            <datafile name="00FFFF2SmallSeam" target="00FFFF2" local="true">00FFFF2SmallSeam.bsd</datafile>
+            <datafile name="00FFFFSmallSeam" target="00FFFF" local="true">00FFFFSmallSeam.bsd</datafile>
+            <datafile name="clSmallSeam" target="cl" local="true">clSmallSeam.bsd</datafile>
+            <datafile name="tatooSmallSeam" target="tatoo" local="true">tatooSmallSeam.bsd</datafile>
+            <datafile name="FFarmSmallSeam" target="FFarm" local="true">FFarmSmallSeam.bsd</datafile>
+            <datafile name="FFarm2SmallSeam" target="FFarm2" local="true">FFarm2SmallSeam.bsd</datafile>
+            <datafile name="FFarm1SmallSeam" target="FFarm1" local="true">FFarm1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="00FFFF4_outfitShoulderTweak" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderTweak.bsd</datafile>
+            <datafile name="00FFFF2ShoulderTweak" target="00FFFF2" local="true">00FFFF2ShoulderTweak.bsd</datafile>
+            <datafile name="00FFFFShoulderTweak" target="00FFFF" local="true">00FFFFShoulderTweak.bsd</datafile>
+            <datafile name="clShoulderTweak" target="cl" local="true">clShoulderTweak.bsd</datafile>
+            <datafile name="tatooShoulderTweak" target="tatoo" local="true">tatooShoulderTweak.bsd</datafile>
+        </Slider>
+	</SliderSet>
+	    <SliderSet name="op Widowmaker Purple">
+        <SetFolder>op Widowmaker Ice</SetFolder>
+        <SourceFile>op Widowmaker Purple.nif</SourceFile>
+        <OutputPath>meshes\op\ow\widowmaker</OutputPath>
+        <OutputFile>cuirassA</OutputFile>
+        <BaseShapeName target="00FFFF">00FFFF</BaseShapeName>
+        <BaseShapeName target="00FFFF2">00FFFF2</BaseShapeName>
+        <BaseShapeName target="00FFFF4_outfit">00FFFF4_outfit</BaseShapeName>
+        <BaseShapeName target="FFarm">FFarm</BaseShapeName>
+        <BaseShapeName target="FFarm1">FFarm1</BaseShapeName>
+        <BaseShapeName target="FFarm2">FFarm2</BaseShapeName>
+        <BaseShapeName target="cl">cl</BaseShapeName>
+        <BaseShapeName target="tatoo">tatoo</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="00FFFF4_outfitBreasts" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreasts.bsd</datafile>
+            <datafile name="00FFFFBreasts" target="00FFFF" local="true">00FFFFBreasts.bsd</datafile>
+            <datafile name="clBreasts" target="cl" local="true">clBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitBreastsSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSmall.bsd</datafile>
+            <datafile name="00FFFF2BreastsSmall" target="00FFFF2" local="true">00FFFF2BreastsSmall.bsd</datafile>
+            <datafile name="00FFFFBreastsSmall" target="00FFFF" local="true">00FFFFBreastsSmall.bsd</datafile>
+            <datafile name="clBreastsSmall" target="cl" local="true">clBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSH" target="00FFFF" local="true">00FFFFBreastsSH.bsd</datafile>
+            <datafile name="clBreastsSH" target="cl" local="true">clBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSSH" target="00FFFF" local="true">00FFFFBreastsSSH.bsd</datafile>
+            <datafile name="clBreastsSSH" target="cl" local="true">clBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsFantasy" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsFantasy.bsd</datafile>
+            <datafile name="00FFFFBreastsFantasy" target="00FFFF" local="true">00FFFFBreastsFantasy.bsd</datafile>
+            <datafile name="clBreastsFantasy" target="cl" local="true">clBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitDoubleMelon" target="00FFFF4_outfit" local="true">00FFFF4_outfitDoubleMelon.bsd</datafile>
+            <datafile name="00FFFFDoubleMelon" target="00FFFF" local="true">00FFFFDoubleMelon.bsd</datafile>
+            <datafile name="clDoubleMelon" target="cl" local="true">clDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastCleavage" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastCleavage.bsd</datafile>
+            <datafile name="00FFFFBreastCleavage" target="00FFFF" local="true">00FFFFBreastCleavage.bsd</datafile>
+            <datafile name="clBreastCleavage" target="cl" local="true">clBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastFlatness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastFlatness.bsd</datafile>
+            <datafile name="00FFFF2BreastFlatness" target="00FFFF2" local="true">00FFFF2BreastFlatness.bsd</datafile>
+            <datafile name="00FFFFBreastFlatness" target="00FFFF" local="true">00FFFFBreastFlatness.bsd</datafile>
+            <datafile name="clBreastFlatness" target="cl" local="true">clBreastFlatness.bsd</datafile>
+            <datafile name="tatooBreastFlatness" target="tatoo" local="true">tatooBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastGravity" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastGravity.bsd</datafile>
+            <datafile name="00FFFFBreastGravity" target="00FFFF" local="true">00FFFFBreastGravity.bsd</datafile>
+            <datafile name="clBreastGravity" target="cl" local="true">clBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitPushUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitPushUp.bsd</datafile>
+            <datafile name="00FFFFPushUp" target="00FFFF" local="true">00FFFFPushUp.bsd</datafile>
+            <datafile name="clPushUp" target="cl" local="true">clPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastHeight.bsd</datafile>
+            <datafile name="00FFFF2BreastHeight" target="00FFFF2" local="true">00FFFF2BreastHeight.bsd</datafile>
+            <datafile name="00FFFFBreastHeight" target="00FFFF" local="true">00FFFFBreastHeight.bsd</datafile>
+            <datafile name="clBreastHeight" target="cl" local="true">clBreastHeight.bsd</datafile>
+            <datafile name="tatooBreastHeight" target="tatoo" local="true">tatooBreastHeight.bsd</datafile>
+            <datafile name="FFarm2BreastHeight" target="FFarm2" local="true">FFarm2BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastPerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastPerkiness.bsd</datafile>
+            <datafile name="00FFFFBreastPerkiness" target="00FFFF" local="true">00FFFFBreastPerkiness.bsd</datafile>
+            <datafile name="clBreastPerkiness" target="cl" local="true">clBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastWidth.bsd</datafile>
+            <datafile name="00FFFF2BreastWidth" target="00FFFF2" local="true">00FFFF2BreastWidth.bsd</datafile>
+            <datafile name="00FFFFBreastWidth" target="00FFFF" local="true">00FFFFBreastWidth.bsd</datafile>
+            <datafile name="clBreastWidth" target="cl" local="true">clBreastWidth.bsd</datafile>
+            <datafile name="tatooBreastWidth" target="tatoo" local="true">tatooBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitNippleDistance" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDistance.bsd</datafile>
+            <datafile name="clNippleDistance" target="cl" local="true">clNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNipplePerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitNipplePerkiness.bsd</datafile>
+            <datafile name="clNipplePerkiness" target="cl" local="true">clNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleUp.bsd</datafile>
+            <datafile name="00FFFFNippleUp" target="00FFFF" local="true">00FFFFNippleUp.bsd</datafile>
+            <datafile name="clNippleUp" target="cl" local="true">clNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleDown" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDown.bsd</datafile>
+            <datafile name="00FFFFNippleDown" target="00FFFF" local="true">00FFFFNippleDown.bsd</datafile>
+            <datafile name="clNippleDown" target="cl" local="true">clNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitArms.bsd</datafile>
+            <datafile name="00FFFF2Arms" target="00FFFF2" local="true">00FFFF2Arms.bsd</datafile>
+            <datafile name="00FFFFArms" target="00FFFF" local="true">00FFFFArms.bsd</datafile>
+            <datafile name="clArms" target="cl" local="true">clArms.bsd</datafile>
+            <datafile name="tatooArms" target="tatoo" local="true">tatooArms.bsd</datafile>
+            <datafile name="FFarmArms" target="FFarm" local="true">FFarmArms.bsd</datafile>
+            <datafile name="FFarm2Arms" target="FFarm2" local="true">FFarm2Arms.bsd</datafile>
+            <datafile name="FFarm1Arms" target="FFarm1" local="true">FFarm1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyArms.bsd</datafile>
+            <datafile name="00FFFFChubbyArms" target="00FFFF" local="true">00FFFFChubbyArms.bsd</datafile>
+            <datafile name="clChubbyArms" target="cl" local="true">clChubbyArms.bsd</datafile>
+            <datafile name="tatooChubbyArms" target="tatoo" local="true">tatooChubbyArms.bsd</datafile>
+            <datafile name="FFarmChubbyArms" target="FFarm" local="true">FFarmChubbyArms.bsd</datafile>
+            <datafile name="FFarm2ChubbyArms" target="FFarm2" local="true">FFarm2ChubbyArms.bsd</datafile>
+            <datafile name="FFarm1ChubbyArms" target="FFarm1" local="true">FFarm1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitShoulderSmooth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderSmooth" target="00FFFF2" local="true">00FFFF2ShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFFShoulderSmooth" target="00FFFF" local="true">00FFFFShoulderSmooth.bsd</datafile>
+            <datafile name="clShoulderSmooth" target="cl" local="true">clShoulderSmooth.bsd</datafile>
+            <datafile name="tatooShoulderSmooth" target="tatoo" local="true">tatooShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitShoulderWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderWidth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderWidth" target="00FFFF2" local="true">00FFFF2ShoulderWidth.bsd</datafile>
+            <datafile name="00FFFFShoulderWidth" target="00FFFF" local="true">00FFFFShoulderWidth.bsd</datafile>
+            <datafile name="clShoulderWidth" target="cl" local="true">clShoulderWidth.bsd</datafile>
+            <datafile name="tatooShoulderWidth" target="tatoo" local="true">tatooShoulderWidth.bsd</datafile>
+            <datafile name="FFarmShoulderWidth" target="FFarm" local="true">FFarmShoulderWidth.bsd</datafile>
+            <datafile name="FFarm2ShoulderWidth" target="FFarm2" local="true">FFarm2ShoulderWidth.bsd</datafile>
+            <datafile name="FFarm1ShoulderWidth" target="FFarm1" local="true">FFarm1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigTorso" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigTorso.bsd</datafile>
+            <datafile name="00FFFF2BigTorso" target="00FFFF2" local="true">00FFFF2BigTorso.bsd</datafile>
+            <datafile name="00FFFFBigTorso" target="00FFFF" local="true">00FFFFBigTorso.bsd</datafile>
+            <datafile name="clBigTorso" target="cl" local="true">clBigTorso.bsd</datafile>
+            <datafile name="tatooBigTorso" target="tatoo" local="true">tatooBigTorso.bsd</datafile>
+            <datafile name="FFarmBigTorso" target="FFarm" local="true">FFarmBigTorso.bsd</datafile>
+            <datafile name="FFarm2BigTorso" target="FFarm2" local="true">FFarm2BigTorso.bsd</datafile>
+            <datafile name="FFarm1BigTorso" target="FFarm1" local="true">FFarm1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="00FFFF4_outfitWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitWaist.bsd</datafile>
+            <datafile name="00FFFF2Waist" target="00FFFF2" local="true">00FFFF2Waist.bsd</datafile>
+            <datafile name="00FFFFWaist" target="00FFFF" local="true">00FFFFWaist.bsd</datafile>
+            <datafile name="clWaist" target="cl" local="true">clWaist.bsd</datafile>
+            <datafile name="tatooWaist" target="tatoo" local="true">tatooWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitWideWaistLine" target="00FFFF4_outfit" local="true">00FFFF4_outfitWideWaistLine.bsd</datafile>
+            <datafile name="00FFFF2WideWaistLine" target="00FFFF2" local="true">00FFFF2WideWaistLine.bsd</datafile>
+            <datafile name="00FFFFWideWaistLine" target="00FFFF" local="true">00FFFFWideWaistLine.bsd</datafile>
+            <datafile name="clWideWaistLine" target="cl" local="true">clWideWaistLine.bsd</datafile>
+            <datafile name="tatooWideWaistLine" target="tatoo" local="true">tatooWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyWaist.bsd</datafile>
+            <datafile name="00FFFF2ChubbyWaist" target="00FFFF2" local="true">00FFFF2ChubbyWaist.bsd</datafile>
+            <datafile name="00FFFFChubbyWaist" target="00FFFF" local="true">00FFFFChubbyWaist.bsd</datafile>
+            <datafile name="clChubbyWaist" target="cl" local="true">clChubbyWaist.bsd</datafile>
+            <datafile name="tatooChubbyWaist" target="tatoo" local="true">tatooChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBelly.bsd</datafile>
+            <datafile name="00FFFF2Belly" target="00FFFF2" local="true">00FFFF2Belly.bsd</datafile>
+            <datafile name="00FFFFBelly" target="00FFFF" local="true">00FFFFBelly.bsd</datafile>
+            <datafile name="clBelly" target="cl" local="true">clBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigBelly.bsd</datafile>
+            <datafile name="00FFFF2BigBelly" target="00FFFF2" local="true">00FFFF2BigBelly.bsd</datafile>
+            <datafile name="00FFFFBigBelly" target="00FFFF" local="true">00FFFFBigBelly.bsd</datafile>
+            <datafile name="clBigBelly" target="cl" local="true">clBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitTummyTuck" target="00FFFF4_outfit" local="true">00FFFF4_outfitTummyTuck.bsd</datafile>
+            <datafile name="00FFFF2TummyTuck" target="00FFFF2" local="true">00FFFF2TummyTuck.bsd</datafile>
+            <datafile name="00FFFFTummyTuck" target="00FFFF" local="true">00FFFFTummyTuck.bsd</datafile>
+            <datafile name="clTummyTuck" target="cl" local="true">clTummyTuck.bsd</datafile>
+            <datafile name="FFarmTummyTuck" target="FFarm" local="true">FFarmTummyTuck.bsd</datafile>
+            <datafile name="FFarm2TummyTuck" target="FFarm2" local="true">FFarm2TummyTuck.bsd</datafile>
+            <datafile name="FFarm1TummyTuck" target="FFarm1" local="true">FFarm1TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBack" target="00FFFF4_outfit" local="true">00FFFF4_outfitBack.bsd</datafile>
+            <datafile name="00FFFF2Back" target="00FFFF2" local="true">00FFFF2Back.bsd</datafile>
+            <datafile name="00FFFFBack" target="00FFFF" local="true">00FFFFBack.bsd</datafile>
+            <datafile name="clBack" target="cl" local="true">clBack.bsd</datafile>
+            <datafile name="tatooBack" target="tatoo" local="true">tatooBack.bsd</datafile>
+            <datafile name="FFarm2Back" target="FFarm2" local="true">FFarm2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHipbone" target="00FFFF4_outfit" local="true">00FFFF4_outfitHipbone.bsd</datafile>
+            <datafile name="00FFFF2Hipbone" target="00FFFF2" local="true">00FFFF2Hipbone.bsd</datafile>
+            <datafile name="00FFFFHipbone" target="00FFFF" local="true">00FFFFHipbone.bsd</datafile>
+            <datafile name="clHipbone" target="cl" local="true">clHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHips" target="00FFFF4_outfit" local="true">00FFFF4_outfitHips.bsd</datafile>
+            <datafile name="00FFFF2Hips" target="00FFFF2" local="true">00FFFF2Hips.bsd</datafile>
+            <datafile name="00FFFFHips" target="00FFFF" local="true">00FFFFHips.bsd</datafile>
+            <datafile name="clHips" target="cl" local="true">clHips.bsd</datafile>
+            <datafile name="tatooHips" target="tatoo" local="true">tatooHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitButt.bsd</datafile>
+            <datafile name="00FFFF2Butt" target="00FFFF2" local="true">00FFFF2Butt.bsd</datafile>
+            <datafile name="00FFFFButt" target="00FFFF" local="true">00FFFFButt.bsd</datafile>
+            <datafile name="clButt" target="cl" local="true">clButt.bsd</datafile>
+            <datafile name="tatooButt" target="tatoo" local="true">tatooButt.bsd</datafile>
+            <datafile name="FFarmButt" target="FFarm" local="true">FFarmButt.bsd</datafile>
+            <datafile name="FFarm2Butt" target="FFarm2" local="true">FFarm2Butt.bsd</datafile>
+            <datafile name="FFarm1Butt" target="FFarm1" local="true">FFarm1Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitButtSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtSmall.bsd</datafile>
+            <datafile name="00FFFF2ButtSmall" target="00FFFF2" local="true">00FFFF2ButtSmall.bsd</datafile>
+            <datafile name="00FFFFButtSmall" target="00FFFF" local="true">00FFFFButtSmall.bsd</datafile>
+            <datafile name="clButtSmall" target="cl" local="true">clButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitButtShape2" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtShape2.bsd</datafile>
+            <datafile name="00FFFF2ButtShape2" target="00FFFF2" local="true">00FFFF2ButtShape2.bsd</datafile>
+            <datafile name="00FFFFButtShape2" target="00FFFF" local="true">00FFFFButtShape2.bsd</datafile>
+            <datafile name="clButtShape2" target="cl" local="true">clButtShape2.bsd</datafile>
+            <datafile name="tatooButtShape2" target="tatoo" local="true">tatooButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigButt.bsd</datafile>
+            <datafile name="00FFFF2BigButt" target="00FFFF2" local="true">00FFFF2BigButt.bsd</datafile>
+            <datafile name="00FFFFBigButt" target="00FFFF" local="true">00FFFFBigButt.bsd</datafile>
+            <datafile name="clBigButt" target="cl" local="true">clBigButt.bsd</datafile>
+            <datafile name="tatooBigButt" target="tatoo" local="true">tatooBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyButt.bsd</datafile>
+            <datafile name="00FFFF2ChubbyButt" target="00FFFF2" local="true">00FFFF2ChubbyButt.bsd</datafile>
+            <datafile name="00FFFFChubbyButt" target="00FFFF" local="true">00FFFFChubbyButt.bsd</datafile>
+            <datafile name="clChubbyButt" target="cl" local="true">clChubbyButt.bsd</datafile>
+            <datafile name="tatooChubbyButt" target="tatoo" local="true">tatooChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitAppleCheeks" target="00FFFF4_outfit" local="true">00FFFF4_outfitAppleCheeks.bsd</datafile>
+            <datafile name="00FFFF2AppleCheeks" target="00FFFF2" local="true">00FFFF2AppleCheeks.bsd</datafile>
+            <datafile name="00FFFFAppleCheeks" target="00FFFF" local="true">00FFFFAppleCheeks.bsd</datafile>
+            <datafile name="clAppleCheeks" target="cl" local="true">clAppleCheeks.bsd</datafile>
+            <datafile name="tatooAppleCheeks" target="tatoo" local="true">tatooAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitRoundAss" target="00FFFF4_outfit" local="true">00FFFF4_outfitRoundAss.bsd</datafile>
+            <datafile name="00FFFF2RoundAss" target="00FFFF2" local="true">00FFFF2RoundAss.bsd</datafile>
+            <datafile name="00FFFFRoundAss" target="00FFFF" local="true">00FFFFRoundAss.bsd</datafile>
+            <datafile name="clRoundAss" target="cl" local="true">clRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitGroin" target="00FFFF4_outfit" local="true">00FFFF4_outfitGroin.bsd</datafile>
+            <datafile name="00FFFFGroin" target="00FFFF" local="true">00FFFFGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitSlimThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitSlimThighs.bsd</datafile>
+            <datafile name="00FFFF2SlimThighs" target="00FFFF2" local="true">00FFFF2SlimThighs.bsd</datafile>
+            <datafile name="00FFFFSlimThighs" target="00FFFF" local="true">00FFFFSlimThighs.bsd</datafile>
+            <datafile name="clSlimThighs" target="cl" local="true">clSlimThighs.bsd</datafile>
+            <datafile name="tatooSlimThighs" target="tatoo" local="true">tatooSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitThighs.bsd</datafile>
+            <datafile name="00FFFF2Thighs" target="00FFFF2" local="true">00FFFF2Thighs.bsd</datafile>
+            <datafile name="00FFFFThighs" target="00FFFF" local="true">00FFFFThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyLegs.bsd</datafile>
+            <datafile name="00FFFF2ChubbyLegs" target="00FFFF2" local="true">00FFFF2ChubbyLegs.bsd</datafile>
+            <datafile name="00FFFFChubbyLegs" target="00FFFF" local="true">00FFFFChubbyLegs.bsd</datafile>
+            <datafile name="clChubbyLegs" target="cl" local="true">clChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitLegs.bsd</datafile>
+            <datafile name="00FFFF2Legs" target="00FFFF2" local="true">00FFFF2Legs.bsd</datafile>
+            <datafile name="00FFFFLegs" target="00FFFF" local="true">00FFFFLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitKneeHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitKneeHeight.bsd</datafile>
+            <datafile name="00FFFFKneeHeight" target="00FFFF" local="true">00FFFFKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSize" target="00FFFF" local="true">00FFFFCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSmooth" target="00FFFF" local="true">00FFFFCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="00FFFFAnkles" target="00FFFF" local="true">00FFFFAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="00FFFF4_outfitSmallSeam" target="00FFFF4_outfit" local="true">00FFFF4_outfitSmallSeam.bsd</datafile>
+            <datafile name="00FFFF2SmallSeam" target="00FFFF2" local="true">00FFFF2SmallSeam.bsd</datafile>
+            <datafile name="00FFFFSmallSeam" target="00FFFF" local="true">00FFFFSmallSeam.bsd</datafile>
+            <datafile name="clSmallSeam" target="cl" local="true">clSmallSeam.bsd</datafile>
+            <datafile name="tatooSmallSeam" target="tatoo" local="true">tatooSmallSeam.bsd</datafile>
+            <datafile name="FFarmSmallSeam" target="FFarm" local="true">FFarmSmallSeam.bsd</datafile>
+            <datafile name="FFarm2SmallSeam" target="FFarm2" local="true">FFarm2SmallSeam.bsd</datafile>
+            <datafile name="FFarm1SmallSeam" target="FFarm1" local="true">FFarm1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="00FFFF4_outfitShoulderTweak" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderTweak.bsd</datafile>
+            <datafile name="00FFFF2ShoulderTweak" target="00FFFF2" local="true">00FFFF2ShoulderTweak.bsd</datafile>
+            <datafile name="00FFFFShoulderTweak" target="00FFFF" local="true">00FFFFShoulderTweak.bsd</datafile>
+            <datafile name="clShoulderTweak" target="cl" local="true">clShoulderTweak.bsd</datafile>
+            <datafile name="tatooShoulderTweak" target="tatoo" local="true">tatooShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	    <SliderSet name="op Widowmaker Black">
+        <SetFolder>op Widowmaker Ice</SetFolder>
+        <SourceFile>op Widowmaker Black.nif</SourceFile>
+        <OutputPath>meshes\op\ow\widowmaker</OutputPath>
+        <OutputFile>cuirassB</OutputFile>
+        <BaseShapeName target="00FFFF">00FFFF</BaseShapeName>
+        <BaseShapeName target="00FFFF2">00FFFF2</BaseShapeName>
+        <BaseShapeName target="00FFFF4_outfit">00FFFF4_outfit</BaseShapeName>
+        <BaseShapeName target="FFarm">FFarm</BaseShapeName>
+        <BaseShapeName target="FFarm1">FFarm1</BaseShapeName>
+        <BaseShapeName target="FFarm2">FFarm2</BaseShapeName>
+        <BaseShapeName target="cl">cl</BaseShapeName>
+        <BaseShapeName target="tatoo">tatoo</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="00FFFF4_outfitBreasts" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreasts.bsd</datafile>
+            <datafile name="00FFFFBreasts" target="00FFFF" local="true">00FFFFBreasts.bsd</datafile>
+            <datafile name="clBreasts" target="cl" local="true">clBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitBreastsSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSmall.bsd</datafile>
+            <datafile name="00FFFF2BreastsSmall" target="00FFFF2" local="true">00FFFF2BreastsSmall.bsd</datafile>
+            <datafile name="00FFFFBreastsSmall" target="00FFFF" local="true">00FFFFBreastsSmall.bsd</datafile>
+            <datafile name="clBreastsSmall" target="cl" local="true">clBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSH" target="00FFFF" local="true">00FFFFBreastsSH.bsd</datafile>
+            <datafile name="clBreastsSH" target="cl" local="true">clBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSSH" target="00FFFF" local="true">00FFFFBreastsSSH.bsd</datafile>
+            <datafile name="clBreastsSSH" target="cl" local="true">clBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsFantasy" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsFantasy.bsd</datafile>
+            <datafile name="00FFFFBreastsFantasy" target="00FFFF" local="true">00FFFFBreastsFantasy.bsd</datafile>
+            <datafile name="clBreastsFantasy" target="cl" local="true">clBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitDoubleMelon" target="00FFFF4_outfit" local="true">00FFFF4_outfitDoubleMelon.bsd</datafile>
+            <datafile name="00FFFFDoubleMelon" target="00FFFF" local="true">00FFFFDoubleMelon.bsd</datafile>
+            <datafile name="clDoubleMelon" target="cl" local="true">clDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastCleavage" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastCleavage.bsd</datafile>
+            <datafile name="00FFFFBreastCleavage" target="00FFFF" local="true">00FFFFBreastCleavage.bsd</datafile>
+            <datafile name="clBreastCleavage" target="cl" local="true">clBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastFlatness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastFlatness.bsd</datafile>
+            <datafile name="00FFFF2BreastFlatness" target="00FFFF2" local="true">00FFFF2BreastFlatness.bsd</datafile>
+            <datafile name="00FFFFBreastFlatness" target="00FFFF" local="true">00FFFFBreastFlatness.bsd</datafile>
+            <datafile name="clBreastFlatness" target="cl" local="true">clBreastFlatness.bsd</datafile>
+            <datafile name="tatooBreastFlatness" target="tatoo" local="true">tatooBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastGravity" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastGravity.bsd</datafile>
+            <datafile name="00FFFFBreastGravity" target="00FFFF" local="true">00FFFFBreastGravity.bsd</datafile>
+            <datafile name="clBreastGravity" target="cl" local="true">clBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitPushUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitPushUp.bsd</datafile>
+            <datafile name="00FFFFPushUp" target="00FFFF" local="true">00FFFFPushUp.bsd</datafile>
+            <datafile name="clPushUp" target="cl" local="true">clPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastHeight.bsd</datafile>
+            <datafile name="00FFFF2BreastHeight" target="00FFFF2" local="true">00FFFF2BreastHeight.bsd</datafile>
+            <datafile name="00FFFFBreastHeight" target="00FFFF" local="true">00FFFFBreastHeight.bsd</datafile>
+            <datafile name="clBreastHeight" target="cl" local="true">clBreastHeight.bsd</datafile>
+            <datafile name="tatooBreastHeight" target="tatoo" local="true">tatooBreastHeight.bsd</datafile>
+            <datafile name="FFarm2BreastHeight" target="FFarm2" local="true">FFarm2BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastPerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastPerkiness.bsd</datafile>
+            <datafile name="00FFFFBreastPerkiness" target="00FFFF" local="true">00FFFFBreastPerkiness.bsd</datafile>
+            <datafile name="clBreastPerkiness" target="cl" local="true">clBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastWidth.bsd</datafile>
+            <datafile name="00FFFF2BreastWidth" target="00FFFF2" local="true">00FFFF2BreastWidth.bsd</datafile>
+            <datafile name="00FFFFBreastWidth" target="00FFFF" local="true">00FFFFBreastWidth.bsd</datafile>
+            <datafile name="clBreastWidth" target="cl" local="true">clBreastWidth.bsd</datafile>
+            <datafile name="tatooBreastWidth" target="tatoo" local="true">tatooBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitNippleDistance" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDistance.bsd</datafile>
+            <datafile name="clNippleDistance" target="cl" local="true">clNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNipplePerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitNipplePerkiness.bsd</datafile>
+            <datafile name="clNipplePerkiness" target="cl" local="true">clNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleUp.bsd</datafile>
+            <datafile name="00FFFFNippleUp" target="00FFFF" local="true">00FFFFNippleUp.bsd</datafile>
+            <datafile name="clNippleUp" target="cl" local="true">clNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleDown" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDown.bsd</datafile>
+            <datafile name="00FFFFNippleDown" target="00FFFF" local="true">00FFFFNippleDown.bsd</datafile>
+            <datafile name="clNippleDown" target="cl" local="true">clNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitArms.bsd</datafile>
+            <datafile name="00FFFF2Arms" target="00FFFF2" local="true">00FFFF2Arms.bsd</datafile>
+            <datafile name="00FFFFArms" target="00FFFF" local="true">00FFFFArms.bsd</datafile>
+            <datafile name="clArms" target="cl" local="true">clArms.bsd</datafile>
+            <datafile name="tatooArms" target="tatoo" local="true">tatooArms.bsd</datafile>
+            <datafile name="FFarmArms" target="FFarm" local="true">FFarmArms.bsd</datafile>
+            <datafile name="FFarm2Arms" target="FFarm2" local="true">FFarm2Arms.bsd</datafile>
+            <datafile name="FFarm1Arms" target="FFarm1" local="true">FFarm1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyArms.bsd</datafile>
+            <datafile name="00FFFFChubbyArms" target="00FFFF" local="true">00FFFFChubbyArms.bsd</datafile>
+            <datafile name="clChubbyArms" target="cl" local="true">clChubbyArms.bsd</datafile>
+            <datafile name="tatooChubbyArms" target="tatoo" local="true">tatooChubbyArms.bsd</datafile>
+            <datafile name="FFarmChubbyArms" target="FFarm" local="true">FFarmChubbyArms.bsd</datafile>
+            <datafile name="FFarm2ChubbyArms" target="FFarm2" local="true">FFarm2ChubbyArms.bsd</datafile>
+            <datafile name="FFarm1ChubbyArms" target="FFarm1" local="true">FFarm1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitShoulderSmooth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderSmooth" target="00FFFF2" local="true">00FFFF2ShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFFShoulderSmooth" target="00FFFF" local="true">00FFFFShoulderSmooth.bsd</datafile>
+            <datafile name="clShoulderSmooth" target="cl" local="true">clShoulderSmooth.bsd</datafile>
+            <datafile name="tatooShoulderSmooth" target="tatoo" local="true">tatooShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitShoulderWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderWidth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderWidth" target="00FFFF2" local="true">00FFFF2ShoulderWidth.bsd</datafile>
+            <datafile name="00FFFFShoulderWidth" target="00FFFF" local="true">00FFFFShoulderWidth.bsd</datafile>
+            <datafile name="clShoulderWidth" target="cl" local="true">clShoulderWidth.bsd</datafile>
+            <datafile name="tatooShoulderWidth" target="tatoo" local="true">tatooShoulderWidth.bsd</datafile>
+            <datafile name="FFarmShoulderWidth" target="FFarm" local="true">FFarmShoulderWidth.bsd</datafile>
+            <datafile name="FFarm2ShoulderWidth" target="FFarm2" local="true">FFarm2ShoulderWidth.bsd</datafile>
+            <datafile name="FFarm1ShoulderWidth" target="FFarm1" local="true">FFarm1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigTorso" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigTorso.bsd</datafile>
+            <datafile name="00FFFF2BigTorso" target="00FFFF2" local="true">00FFFF2BigTorso.bsd</datafile>
+            <datafile name="00FFFFBigTorso" target="00FFFF" local="true">00FFFFBigTorso.bsd</datafile>
+            <datafile name="clBigTorso" target="cl" local="true">clBigTorso.bsd</datafile>
+            <datafile name="tatooBigTorso" target="tatoo" local="true">tatooBigTorso.bsd</datafile>
+            <datafile name="FFarmBigTorso" target="FFarm" local="true">FFarmBigTorso.bsd</datafile>
+            <datafile name="FFarm2BigTorso" target="FFarm2" local="true">FFarm2BigTorso.bsd</datafile>
+            <datafile name="FFarm1BigTorso" target="FFarm1" local="true">FFarm1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="00FFFF4_outfitWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitWaist.bsd</datafile>
+            <datafile name="00FFFF2Waist" target="00FFFF2" local="true">00FFFF2Waist.bsd</datafile>
+            <datafile name="00FFFFWaist" target="00FFFF" local="true">00FFFFWaist.bsd</datafile>
+            <datafile name="clWaist" target="cl" local="true">clWaist.bsd</datafile>
+            <datafile name="tatooWaist" target="tatoo" local="true">tatooWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitWideWaistLine" target="00FFFF4_outfit" local="true">00FFFF4_outfitWideWaistLine.bsd</datafile>
+            <datafile name="00FFFF2WideWaistLine" target="00FFFF2" local="true">00FFFF2WideWaistLine.bsd</datafile>
+            <datafile name="00FFFFWideWaistLine" target="00FFFF" local="true">00FFFFWideWaistLine.bsd</datafile>
+            <datafile name="clWideWaistLine" target="cl" local="true">clWideWaistLine.bsd</datafile>
+            <datafile name="tatooWideWaistLine" target="tatoo" local="true">tatooWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyWaist.bsd</datafile>
+            <datafile name="00FFFF2ChubbyWaist" target="00FFFF2" local="true">00FFFF2ChubbyWaist.bsd</datafile>
+            <datafile name="00FFFFChubbyWaist" target="00FFFF" local="true">00FFFFChubbyWaist.bsd</datafile>
+            <datafile name="clChubbyWaist" target="cl" local="true">clChubbyWaist.bsd</datafile>
+            <datafile name="tatooChubbyWaist" target="tatoo" local="true">tatooChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBelly.bsd</datafile>
+            <datafile name="00FFFF2Belly" target="00FFFF2" local="true">00FFFF2Belly.bsd</datafile>
+            <datafile name="00FFFFBelly" target="00FFFF" local="true">00FFFFBelly.bsd</datafile>
+            <datafile name="clBelly" target="cl" local="true">clBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigBelly.bsd</datafile>
+            <datafile name="00FFFF2BigBelly" target="00FFFF2" local="true">00FFFF2BigBelly.bsd</datafile>
+            <datafile name="00FFFFBigBelly" target="00FFFF" local="true">00FFFFBigBelly.bsd</datafile>
+            <datafile name="clBigBelly" target="cl" local="true">clBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitTummyTuck" target="00FFFF4_outfit" local="true">00FFFF4_outfitTummyTuck.bsd</datafile>
+            <datafile name="00FFFF2TummyTuck" target="00FFFF2" local="true">00FFFF2TummyTuck.bsd</datafile>
+            <datafile name="00FFFFTummyTuck" target="00FFFF" local="true">00FFFFTummyTuck.bsd</datafile>
+            <datafile name="clTummyTuck" target="cl" local="true">clTummyTuck.bsd</datafile>
+            <datafile name="FFarmTummyTuck" target="FFarm" local="true">FFarmTummyTuck.bsd</datafile>
+            <datafile name="FFarm2TummyTuck" target="FFarm2" local="true">FFarm2TummyTuck.bsd</datafile>
+            <datafile name="FFarm1TummyTuck" target="FFarm1" local="true">FFarm1TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBack" target="00FFFF4_outfit" local="true">00FFFF4_outfitBack.bsd</datafile>
+            <datafile name="00FFFF2Back" target="00FFFF2" local="true">00FFFF2Back.bsd</datafile>
+            <datafile name="00FFFFBack" target="00FFFF" local="true">00FFFFBack.bsd</datafile>
+            <datafile name="clBack" target="cl" local="true">clBack.bsd</datafile>
+            <datafile name="tatooBack" target="tatoo" local="true">tatooBack.bsd</datafile>
+            <datafile name="FFarm2Back" target="FFarm2" local="true">FFarm2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHipbone" target="00FFFF4_outfit" local="true">00FFFF4_outfitHipbone.bsd</datafile>
+            <datafile name="00FFFF2Hipbone" target="00FFFF2" local="true">00FFFF2Hipbone.bsd</datafile>
+            <datafile name="00FFFFHipbone" target="00FFFF" local="true">00FFFFHipbone.bsd</datafile>
+            <datafile name="clHipbone" target="cl" local="true">clHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHips" target="00FFFF4_outfit" local="true">00FFFF4_outfitHips.bsd</datafile>
+            <datafile name="00FFFF2Hips" target="00FFFF2" local="true">00FFFF2Hips.bsd</datafile>
+            <datafile name="00FFFFHips" target="00FFFF" local="true">00FFFFHips.bsd</datafile>
+            <datafile name="clHips" target="cl" local="true">clHips.bsd</datafile>
+            <datafile name="tatooHips" target="tatoo" local="true">tatooHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitButt.bsd</datafile>
+            <datafile name="00FFFF2Butt" target="00FFFF2" local="true">00FFFF2Butt.bsd</datafile>
+            <datafile name="00FFFFButt" target="00FFFF" local="true">00FFFFButt.bsd</datafile>
+            <datafile name="clButt" target="cl" local="true">clButt.bsd</datafile>
+            <datafile name="tatooButt" target="tatoo" local="true">tatooButt.bsd</datafile>
+            <datafile name="FFarmButt" target="FFarm" local="true">FFarmButt.bsd</datafile>
+            <datafile name="FFarm2Butt" target="FFarm2" local="true">FFarm2Butt.bsd</datafile>
+            <datafile name="FFarm1Butt" target="FFarm1" local="true">FFarm1Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitButtSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtSmall.bsd</datafile>
+            <datafile name="00FFFF2ButtSmall" target="00FFFF2" local="true">00FFFF2ButtSmall.bsd</datafile>
+            <datafile name="00FFFFButtSmall" target="00FFFF" local="true">00FFFFButtSmall.bsd</datafile>
+            <datafile name="clButtSmall" target="cl" local="true">clButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitButtShape2" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtShape2.bsd</datafile>
+            <datafile name="00FFFF2ButtShape2" target="00FFFF2" local="true">00FFFF2ButtShape2.bsd</datafile>
+            <datafile name="00FFFFButtShape2" target="00FFFF" local="true">00FFFFButtShape2.bsd</datafile>
+            <datafile name="clButtShape2" target="cl" local="true">clButtShape2.bsd</datafile>
+            <datafile name="tatooButtShape2" target="tatoo" local="true">tatooButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigButt.bsd</datafile>
+            <datafile name="00FFFF2BigButt" target="00FFFF2" local="true">00FFFF2BigButt.bsd</datafile>
+            <datafile name="00FFFFBigButt" target="00FFFF" local="true">00FFFFBigButt.bsd</datafile>
+            <datafile name="clBigButt" target="cl" local="true">clBigButt.bsd</datafile>
+            <datafile name="tatooBigButt" target="tatoo" local="true">tatooBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyButt.bsd</datafile>
+            <datafile name="00FFFF2ChubbyButt" target="00FFFF2" local="true">00FFFF2ChubbyButt.bsd</datafile>
+            <datafile name="00FFFFChubbyButt" target="00FFFF" local="true">00FFFFChubbyButt.bsd</datafile>
+            <datafile name="clChubbyButt" target="cl" local="true">clChubbyButt.bsd</datafile>
+            <datafile name="tatooChubbyButt" target="tatoo" local="true">tatooChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitAppleCheeks" target="00FFFF4_outfit" local="true">00FFFF4_outfitAppleCheeks.bsd</datafile>
+            <datafile name="00FFFF2AppleCheeks" target="00FFFF2" local="true">00FFFF2AppleCheeks.bsd</datafile>
+            <datafile name="00FFFFAppleCheeks" target="00FFFF" local="true">00FFFFAppleCheeks.bsd</datafile>
+            <datafile name="clAppleCheeks" target="cl" local="true">clAppleCheeks.bsd</datafile>
+            <datafile name="tatooAppleCheeks" target="tatoo" local="true">tatooAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitRoundAss" target="00FFFF4_outfit" local="true">00FFFF4_outfitRoundAss.bsd</datafile>
+            <datafile name="00FFFF2RoundAss" target="00FFFF2" local="true">00FFFF2RoundAss.bsd</datafile>
+            <datafile name="00FFFFRoundAss" target="00FFFF" local="true">00FFFFRoundAss.bsd</datafile>
+            <datafile name="clRoundAss" target="cl" local="true">clRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitGroin" target="00FFFF4_outfit" local="true">00FFFF4_outfitGroin.bsd</datafile>
+            <datafile name="00FFFFGroin" target="00FFFF" local="true">00FFFFGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitSlimThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitSlimThighs.bsd</datafile>
+            <datafile name="00FFFF2SlimThighs" target="00FFFF2" local="true">00FFFF2SlimThighs.bsd</datafile>
+            <datafile name="00FFFFSlimThighs" target="00FFFF" local="true">00FFFFSlimThighs.bsd</datafile>
+            <datafile name="clSlimThighs" target="cl" local="true">clSlimThighs.bsd</datafile>
+            <datafile name="tatooSlimThighs" target="tatoo" local="true">tatooSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitThighs.bsd</datafile>
+            <datafile name="00FFFF2Thighs" target="00FFFF2" local="true">00FFFF2Thighs.bsd</datafile>
+            <datafile name="00FFFFThighs" target="00FFFF" local="true">00FFFFThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyLegs.bsd</datafile>
+            <datafile name="00FFFF2ChubbyLegs" target="00FFFF2" local="true">00FFFF2ChubbyLegs.bsd</datafile>
+            <datafile name="00FFFFChubbyLegs" target="00FFFF" local="true">00FFFFChubbyLegs.bsd</datafile>
+            <datafile name="clChubbyLegs" target="cl" local="true">clChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitLegs.bsd</datafile>
+            <datafile name="00FFFF2Legs" target="00FFFF2" local="true">00FFFF2Legs.bsd</datafile>
+            <datafile name="00FFFFLegs" target="00FFFF" local="true">00FFFFLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitKneeHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitKneeHeight.bsd</datafile>
+            <datafile name="00FFFFKneeHeight" target="00FFFF" local="true">00FFFFKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSize" target="00FFFF" local="true">00FFFFCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSmooth" target="00FFFF" local="true">00FFFFCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="00FFFFAnkles" target="00FFFF" local="true">00FFFFAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="00FFFF4_outfitSmallSeam" target="00FFFF4_outfit" local="true">00FFFF4_outfitSmallSeam.bsd</datafile>
+            <datafile name="00FFFF2SmallSeam" target="00FFFF2" local="true">00FFFF2SmallSeam.bsd</datafile>
+            <datafile name="00FFFFSmallSeam" target="00FFFF" local="true">00FFFFSmallSeam.bsd</datafile>
+            <datafile name="clSmallSeam" target="cl" local="true">clSmallSeam.bsd</datafile>
+            <datafile name="tatooSmallSeam" target="tatoo" local="true">tatooSmallSeam.bsd</datafile>
+            <datafile name="FFarmSmallSeam" target="FFarm" local="true">FFarmSmallSeam.bsd</datafile>
+            <datafile name="FFarm2SmallSeam" target="FFarm2" local="true">FFarm2SmallSeam.bsd</datafile>
+            <datafile name="FFarm1SmallSeam" target="FFarm1" local="true">FFarm1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="00FFFF4_outfitShoulderTweak" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderTweak.bsd</datafile>
+            <datafile name="00FFFF2ShoulderTweak" target="00FFFF2" local="true">00FFFF2ShoulderTweak.bsd</datafile>
+            <datafile name="00FFFFShoulderTweak" target="00FFFF" local="true">00FFFFShoulderTweak.bsd</datafile>
+            <datafile name="clShoulderTweak" target="cl" local="true">clShoulderTweak.bsd</datafile>
+            <datafile name="tatooShoulderTweak" target="tatoo" local="true">tatooShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	    <SliderSet name="op Widowmaker Poison">
+        <SetFolder>op Widowmaker Ice</SetFolder>
+        <SourceFile>op Widowmaker Poison.nif</SourceFile>
+        <OutputPath>meshes\op\ow\widowmaker</OutputPath>
+        <OutputFile>cuirassC</OutputFile>
+        <BaseShapeName target="00FFFF">00FFFF</BaseShapeName>
+        <BaseShapeName target="00FFFF2">00FFFF2</BaseShapeName>
+        <BaseShapeName target="00FFFF4_outfit">00FFFF4_outfit</BaseShapeName>
+        <BaseShapeName target="FFarm">FFarm</BaseShapeName>
+        <BaseShapeName target="FFarm1">FFarm1</BaseShapeName>
+        <BaseShapeName target="FFarm2">FFarm2</BaseShapeName>
+        <BaseShapeName target="cl">cl</BaseShapeName>
+        <BaseShapeName target="tatoo">tatoo</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="00FFFF4_outfitBreasts" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreasts.bsd</datafile>
+            <datafile name="00FFFFBreasts" target="00FFFF" local="true">00FFFFBreasts.bsd</datafile>
+            <datafile name="clBreasts" target="cl" local="true">clBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitBreastsSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSmall.bsd</datafile>
+            <datafile name="00FFFF2BreastsSmall" target="00FFFF2" local="true">00FFFF2BreastsSmall.bsd</datafile>
+            <datafile name="00FFFFBreastsSmall" target="00FFFF" local="true">00FFFFBreastsSmall.bsd</datafile>
+            <datafile name="clBreastsSmall" target="cl" local="true">clBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSH" target="00FFFF" local="true">00FFFFBreastsSH.bsd</datafile>
+            <datafile name="clBreastsSH" target="cl" local="true">clBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSSH" target="00FFFF" local="true">00FFFFBreastsSSH.bsd</datafile>
+            <datafile name="clBreastsSSH" target="cl" local="true">clBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsFantasy" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsFantasy.bsd</datafile>
+            <datafile name="00FFFFBreastsFantasy" target="00FFFF" local="true">00FFFFBreastsFantasy.bsd</datafile>
+            <datafile name="clBreastsFantasy" target="cl" local="true">clBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitDoubleMelon" target="00FFFF4_outfit" local="true">00FFFF4_outfitDoubleMelon.bsd</datafile>
+            <datafile name="00FFFFDoubleMelon" target="00FFFF" local="true">00FFFFDoubleMelon.bsd</datafile>
+            <datafile name="clDoubleMelon" target="cl" local="true">clDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastCleavage" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastCleavage.bsd</datafile>
+            <datafile name="00FFFFBreastCleavage" target="00FFFF" local="true">00FFFFBreastCleavage.bsd</datafile>
+            <datafile name="clBreastCleavage" target="cl" local="true">clBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastFlatness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastFlatness.bsd</datafile>
+            <datafile name="00FFFF2BreastFlatness" target="00FFFF2" local="true">00FFFF2BreastFlatness.bsd</datafile>
+            <datafile name="00FFFFBreastFlatness" target="00FFFF" local="true">00FFFFBreastFlatness.bsd</datafile>
+            <datafile name="clBreastFlatness" target="cl" local="true">clBreastFlatness.bsd</datafile>
+            <datafile name="tatooBreastFlatness" target="tatoo" local="true">tatooBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastGravity" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastGravity.bsd</datafile>
+            <datafile name="00FFFFBreastGravity" target="00FFFF" local="true">00FFFFBreastGravity.bsd</datafile>
+            <datafile name="clBreastGravity" target="cl" local="true">clBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitPushUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitPushUp.bsd</datafile>
+            <datafile name="00FFFFPushUp" target="00FFFF" local="true">00FFFFPushUp.bsd</datafile>
+            <datafile name="clPushUp" target="cl" local="true">clPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastHeight.bsd</datafile>
+            <datafile name="00FFFF2BreastHeight" target="00FFFF2" local="true">00FFFF2BreastHeight.bsd</datafile>
+            <datafile name="00FFFFBreastHeight" target="00FFFF" local="true">00FFFFBreastHeight.bsd</datafile>
+            <datafile name="clBreastHeight" target="cl" local="true">clBreastHeight.bsd</datafile>
+            <datafile name="tatooBreastHeight" target="tatoo" local="true">tatooBreastHeight.bsd</datafile>
+            <datafile name="FFarm2BreastHeight" target="FFarm2" local="true">FFarm2BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastPerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastPerkiness.bsd</datafile>
+            <datafile name="00FFFFBreastPerkiness" target="00FFFF" local="true">00FFFFBreastPerkiness.bsd</datafile>
+            <datafile name="clBreastPerkiness" target="cl" local="true">clBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastWidth.bsd</datafile>
+            <datafile name="00FFFF2BreastWidth" target="00FFFF2" local="true">00FFFF2BreastWidth.bsd</datafile>
+            <datafile name="00FFFFBreastWidth" target="00FFFF" local="true">00FFFFBreastWidth.bsd</datafile>
+            <datafile name="clBreastWidth" target="cl" local="true">clBreastWidth.bsd</datafile>
+            <datafile name="tatooBreastWidth" target="tatoo" local="true">tatooBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitNippleDistance" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDistance.bsd</datafile>
+            <datafile name="clNippleDistance" target="cl" local="true">clNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNipplePerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitNipplePerkiness.bsd</datafile>
+            <datafile name="clNipplePerkiness" target="cl" local="true">clNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleUp.bsd</datafile>
+            <datafile name="00FFFFNippleUp" target="00FFFF" local="true">00FFFFNippleUp.bsd</datafile>
+            <datafile name="clNippleUp" target="cl" local="true">clNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleDown" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDown.bsd</datafile>
+            <datafile name="00FFFFNippleDown" target="00FFFF" local="true">00FFFFNippleDown.bsd</datafile>
+            <datafile name="clNippleDown" target="cl" local="true">clNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitArms.bsd</datafile>
+            <datafile name="00FFFF2Arms" target="00FFFF2" local="true">00FFFF2Arms.bsd</datafile>
+            <datafile name="00FFFFArms" target="00FFFF" local="true">00FFFFArms.bsd</datafile>
+            <datafile name="clArms" target="cl" local="true">clArms.bsd</datafile>
+            <datafile name="tatooArms" target="tatoo" local="true">tatooArms.bsd</datafile>
+            <datafile name="FFarmArms" target="FFarm" local="true">FFarmArms.bsd</datafile>
+            <datafile name="FFarm2Arms" target="FFarm2" local="true">FFarm2Arms.bsd</datafile>
+            <datafile name="FFarm1Arms" target="FFarm1" local="true">FFarm1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyArms.bsd</datafile>
+            <datafile name="00FFFFChubbyArms" target="00FFFF" local="true">00FFFFChubbyArms.bsd</datafile>
+            <datafile name="clChubbyArms" target="cl" local="true">clChubbyArms.bsd</datafile>
+            <datafile name="tatooChubbyArms" target="tatoo" local="true">tatooChubbyArms.bsd</datafile>
+            <datafile name="FFarmChubbyArms" target="FFarm" local="true">FFarmChubbyArms.bsd</datafile>
+            <datafile name="FFarm2ChubbyArms" target="FFarm2" local="true">FFarm2ChubbyArms.bsd</datafile>
+            <datafile name="FFarm1ChubbyArms" target="FFarm1" local="true">FFarm1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitShoulderSmooth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderSmooth" target="00FFFF2" local="true">00FFFF2ShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFFShoulderSmooth" target="00FFFF" local="true">00FFFFShoulderSmooth.bsd</datafile>
+            <datafile name="clShoulderSmooth" target="cl" local="true">clShoulderSmooth.bsd</datafile>
+            <datafile name="tatooShoulderSmooth" target="tatoo" local="true">tatooShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitShoulderWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderWidth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderWidth" target="00FFFF2" local="true">00FFFF2ShoulderWidth.bsd</datafile>
+            <datafile name="00FFFFShoulderWidth" target="00FFFF" local="true">00FFFFShoulderWidth.bsd</datafile>
+            <datafile name="clShoulderWidth" target="cl" local="true">clShoulderWidth.bsd</datafile>
+            <datafile name="tatooShoulderWidth" target="tatoo" local="true">tatooShoulderWidth.bsd</datafile>
+            <datafile name="FFarmShoulderWidth" target="FFarm" local="true">FFarmShoulderWidth.bsd</datafile>
+            <datafile name="FFarm2ShoulderWidth" target="FFarm2" local="true">FFarm2ShoulderWidth.bsd</datafile>
+            <datafile name="FFarm1ShoulderWidth" target="FFarm1" local="true">FFarm1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigTorso" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigTorso.bsd</datafile>
+            <datafile name="00FFFF2BigTorso" target="00FFFF2" local="true">00FFFF2BigTorso.bsd</datafile>
+            <datafile name="00FFFFBigTorso" target="00FFFF" local="true">00FFFFBigTorso.bsd</datafile>
+            <datafile name="clBigTorso" target="cl" local="true">clBigTorso.bsd</datafile>
+            <datafile name="tatooBigTorso" target="tatoo" local="true">tatooBigTorso.bsd</datafile>
+            <datafile name="FFarmBigTorso" target="FFarm" local="true">FFarmBigTorso.bsd</datafile>
+            <datafile name="FFarm2BigTorso" target="FFarm2" local="true">FFarm2BigTorso.bsd</datafile>
+            <datafile name="FFarm1BigTorso" target="FFarm1" local="true">FFarm1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="00FFFF4_outfitWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitWaist.bsd</datafile>
+            <datafile name="00FFFF2Waist" target="00FFFF2" local="true">00FFFF2Waist.bsd</datafile>
+            <datafile name="00FFFFWaist" target="00FFFF" local="true">00FFFFWaist.bsd</datafile>
+            <datafile name="clWaist" target="cl" local="true">clWaist.bsd</datafile>
+            <datafile name="tatooWaist" target="tatoo" local="true">tatooWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitWideWaistLine" target="00FFFF4_outfit" local="true">00FFFF4_outfitWideWaistLine.bsd</datafile>
+            <datafile name="00FFFF2WideWaistLine" target="00FFFF2" local="true">00FFFF2WideWaistLine.bsd</datafile>
+            <datafile name="00FFFFWideWaistLine" target="00FFFF" local="true">00FFFFWideWaistLine.bsd</datafile>
+            <datafile name="clWideWaistLine" target="cl" local="true">clWideWaistLine.bsd</datafile>
+            <datafile name="tatooWideWaistLine" target="tatoo" local="true">tatooWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyWaist.bsd</datafile>
+            <datafile name="00FFFF2ChubbyWaist" target="00FFFF2" local="true">00FFFF2ChubbyWaist.bsd</datafile>
+            <datafile name="00FFFFChubbyWaist" target="00FFFF" local="true">00FFFFChubbyWaist.bsd</datafile>
+            <datafile name="clChubbyWaist" target="cl" local="true">clChubbyWaist.bsd</datafile>
+            <datafile name="tatooChubbyWaist" target="tatoo" local="true">tatooChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBelly.bsd</datafile>
+            <datafile name="00FFFF2Belly" target="00FFFF2" local="true">00FFFF2Belly.bsd</datafile>
+            <datafile name="00FFFFBelly" target="00FFFF" local="true">00FFFFBelly.bsd</datafile>
+            <datafile name="clBelly" target="cl" local="true">clBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigBelly.bsd</datafile>
+            <datafile name="00FFFF2BigBelly" target="00FFFF2" local="true">00FFFF2BigBelly.bsd</datafile>
+            <datafile name="00FFFFBigBelly" target="00FFFF" local="true">00FFFFBigBelly.bsd</datafile>
+            <datafile name="clBigBelly" target="cl" local="true">clBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitTummyTuck" target="00FFFF4_outfit" local="true">00FFFF4_outfitTummyTuck.bsd</datafile>
+            <datafile name="00FFFF2TummyTuck" target="00FFFF2" local="true">00FFFF2TummyTuck.bsd</datafile>
+            <datafile name="00FFFFTummyTuck" target="00FFFF" local="true">00FFFFTummyTuck.bsd</datafile>
+            <datafile name="clTummyTuck" target="cl" local="true">clTummyTuck.bsd</datafile>
+            <datafile name="FFarmTummyTuck" target="FFarm" local="true">FFarmTummyTuck.bsd</datafile>
+            <datafile name="FFarm2TummyTuck" target="FFarm2" local="true">FFarm2TummyTuck.bsd</datafile>
+            <datafile name="FFarm1TummyTuck" target="FFarm1" local="true">FFarm1TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBack" target="00FFFF4_outfit" local="true">00FFFF4_outfitBack.bsd</datafile>
+            <datafile name="00FFFF2Back" target="00FFFF2" local="true">00FFFF2Back.bsd</datafile>
+            <datafile name="00FFFFBack" target="00FFFF" local="true">00FFFFBack.bsd</datafile>
+            <datafile name="clBack" target="cl" local="true">clBack.bsd</datafile>
+            <datafile name="tatooBack" target="tatoo" local="true">tatooBack.bsd</datafile>
+            <datafile name="FFarm2Back" target="FFarm2" local="true">FFarm2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHipbone" target="00FFFF4_outfit" local="true">00FFFF4_outfitHipbone.bsd</datafile>
+            <datafile name="00FFFF2Hipbone" target="00FFFF2" local="true">00FFFF2Hipbone.bsd</datafile>
+            <datafile name="00FFFFHipbone" target="00FFFF" local="true">00FFFFHipbone.bsd</datafile>
+            <datafile name="clHipbone" target="cl" local="true">clHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHips" target="00FFFF4_outfit" local="true">00FFFF4_outfitHips.bsd</datafile>
+            <datafile name="00FFFF2Hips" target="00FFFF2" local="true">00FFFF2Hips.bsd</datafile>
+            <datafile name="00FFFFHips" target="00FFFF" local="true">00FFFFHips.bsd</datafile>
+            <datafile name="clHips" target="cl" local="true">clHips.bsd</datafile>
+            <datafile name="tatooHips" target="tatoo" local="true">tatooHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitButt.bsd</datafile>
+            <datafile name="00FFFF2Butt" target="00FFFF2" local="true">00FFFF2Butt.bsd</datafile>
+            <datafile name="00FFFFButt" target="00FFFF" local="true">00FFFFButt.bsd</datafile>
+            <datafile name="clButt" target="cl" local="true">clButt.bsd</datafile>
+            <datafile name="tatooButt" target="tatoo" local="true">tatooButt.bsd</datafile>
+            <datafile name="FFarmButt" target="FFarm" local="true">FFarmButt.bsd</datafile>
+            <datafile name="FFarm2Butt" target="FFarm2" local="true">FFarm2Butt.bsd</datafile>
+            <datafile name="FFarm1Butt" target="FFarm1" local="true">FFarm1Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitButtSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtSmall.bsd</datafile>
+            <datafile name="00FFFF2ButtSmall" target="00FFFF2" local="true">00FFFF2ButtSmall.bsd</datafile>
+            <datafile name="00FFFFButtSmall" target="00FFFF" local="true">00FFFFButtSmall.bsd</datafile>
+            <datafile name="clButtSmall" target="cl" local="true">clButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitButtShape2" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtShape2.bsd</datafile>
+            <datafile name="00FFFF2ButtShape2" target="00FFFF2" local="true">00FFFF2ButtShape2.bsd</datafile>
+            <datafile name="00FFFFButtShape2" target="00FFFF" local="true">00FFFFButtShape2.bsd</datafile>
+            <datafile name="clButtShape2" target="cl" local="true">clButtShape2.bsd</datafile>
+            <datafile name="tatooButtShape2" target="tatoo" local="true">tatooButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigButt.bsd</datafile>
+            <datafile name="00FFFF2BigButt" target="00FFFF2" local="true">00FFFF2BigButt.bsd</datafile>
+            <datafile name="00FFFFBigButt" target="00FFFF" local="true">00FFFFBigButt.bsd</datafile>
+            <datafile name="clBigButt" target="cl" local="true">clBigButt.bsd</datafile>
+            <datafile name="tatooBigButt" target="tatoo" local="true">tatooBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyButt.bsd</datafile>
+            <datafile name="00FFFF2ChubbyButt" target="00FFFF2" local="true">00FFFF2ChubbyButt.bsd</datafile>
+            <datafile name="00FFFFChubbyButt" target="00FFFF" local="true">00FFFFChubbyButt.bsd</datafile>
+            <datafile name="clChubbyButt" target="cl" local="true">clChubbyButt.bsd</datafile>
+            <datafile name="tatooChubbyButt" target="tatoo" local="true">tatooChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitAppleCheeks" target="00FFFF4_outfit" local="true">00FFFF4_outfitAppleCheeks.bsd</datafile>
+            <datafile name="00FFFF2AppleCheeks" target="00FFFF2" local="true">00FFFF2AppleCheeks.bsd</datafile>
+            <datafile name="00FFFFAppleCheeks" target="00FFFF" local="true">00FFFFAppleCheeks.bsd</datafile>
+            <datafile name="clAppleCheeks" target="cl" local="true">clAppleCheeks.bsd</datafile>
+            <datafile name="tatooAppleCheeks" target="tatoo" local="true">tatooAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitRoundAss" target="00FFFF4_outfit" local="true">00FFFF4_outfitRoundAss.bsd</datafile>
+            <datafile name="00FFFF2RoundAss" target="00FFFF2" local="true">00FFFF2RoundAss.bsd</datafile>
+            <datafile name="00FFFFRoundAss" target="00FFFF" local="true">00FFFFRoundAss.bsd</datafile>
+            <datafile name="clRoundAss" target="cl" local="true">clRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitGroin" target="00FFFF4_outfit" local="true">00FFFF4_outfitGroin.bsd</datafile>
+            <datafile name="00FFFFGroin" target="00FFFF" local="true">00FFFFGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitSlimThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitSlimThighs.bsd</datafile>
+            <datafile name="00FFFF2SlimThighs" target="00FFFF2" local="true">00FFFF2SlimThighs.bsd</datafile>
+            <datafile name="00FFFFSlimThighs" target="00FFFF" local="true">00FFFFSlimThighs.bsd</datafile>
+            <datafile name="clSlimThighs" target="cl" local="true">clSlimThighs.bsd</datafile>
+            <datafile name="tatooSlimThighs" target="tatoo" local="true">tatooSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitThighs.bsd</datafile>
+            <datafile name="00FFFF2Thighs" target="00FFFF2" local="true">00FFFF2Thighs.bsd</datafile>
+            <datafile name="00FFFFThighs" target="00FFFF" local="true">00FFFFThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyLegs.bsd</datafile>
+            <datafile name="00FFFF2ChubbyLegs" target="00FFFF2" local="true">00FFFF2ChubbyLegs.bsd</datafile>
+            <datafile name="00FFFFChubbyLegs" target="00FFFF" local="true">00FFFFChubbyLegs.bsd</datafile>
+            <datafile name="clChubbyLegs" target="cl" local="true">clChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitLegs.bsd</datafile>
+            <datafile name="00FFFF2Legs" target="00FFFF2" local="true">00FFFF2Legs.bsd</datafile>
+            <datafile name="00FFFFLegs" target="00FFFF" local="true">00FFFFLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitKneeHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitKneeHeight.bsd</datafile>
+            <datafile name="00FFFFKneeHeight" target="00FFFF" local="true">00FFFFKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSize" target="00FFFF" local="true">00FFFFCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSmooth" target="00FFFF" local="true">00FFFFCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="00FFFFAnkles" target="00FFFF" local="true">00FFFFAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="00FFFF4_outfitSmallSeam" target="00FFFF4_outfit" local="true">00FFFF4_outfitSmallSeam.bsd</datafile>
+            <datafile name="00FFFF2SmallSeam" target="00FFFF2" local="true">00FFFF2SmallSeam.bsd</datafile>
+            <datafile name="00FFFFSmallSeam" target="00FFFF" local="true">00FFFFSmallSeam.bsd</datafile>
+            <datafile name="clSmallSeam" target="cl" local="true">clSmallSeam.bsd</datafile>
+            <datafile name="tatooSmallSeam" target="tatoo" local="true">tatooSmallSeam.bsd</datafile>
+            <datafile name="FFarmSmallSeam" target="FFarm" local="true">FFarmSmallSeam.bsd</datafile>
+            <datafile name="FFarm2SmallSeam" target="FFarm2" local="true">FFarm2SmallSeam.bsd</datafile>
+            <datafile name="FFarm1SmallSeam" target="FFarm1" local="true">FFarm1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="00FFFF4_outfitShoulderTweak" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderTweak.bsd</datafile>
+            <datafile name="00FFFF2ShoulderTweak" target="00FFFF2" local="true">00FFFF2ShoulderTweak.bsd</datafile>
+            <datafile name="00FFFFShoulderTweak" target="00FFFF" local="true">00FFFFShoulderTweak.bsd</datafile>
+            <datafile name="clShoulderTweak" target="cl" local="true">clShoulderTweak.bsd</datafile>
+            <datafile name="tatooShoulderTweak" target="tatoo" local="true">tatooShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	    <SliderSet name="op Widowmaker Gold">
+        <SetFolder>op Widowmaker Ice</SetFolder>
+        <SourceFile>op Widowmaker Gold.nif</SourceFile>
+        <OutputPath>meshes\op\ow\widowmaker</OutputPath>
+        <OutputFile>cuirassD</OutputFile>
+        <BaseShapeName target="00FFFF">00FFFF</BaseShapeName>
+        <BaseShapeName target="00FFFF2">00FFFF2</BaseShapeName>
+        <BaseShapeName target="00FFFF4_outfit">00FFFF4_outfit</BaseShapeName>
+        <BaseShapeName target="FFarm">FFarm</BaseShapeName>
+        <BaseShapeName target="FFarm1">FFarm1</BaseShapeName>
+        <BaseShapeName target="FFarm2">FFarm2</BaseShapeName>
+        <BaseShapeName target="cl">cl</BaseShapeName>
+        <BaseShapeName target="tatoo">tatoo</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="00FFFF4_outfitBreasts" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreasts.bsd</datafile>
+            <datafile name="00FFFFBreasts" target="00FFFF" local="true">00FFFFBreasts.bsd</datafile>
+            <datafile name="clBreasts" target="cl" local="true">clBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitBreastsSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSmall.bsd</datafile>
+            <datafile name="00FFFF2BreastsSmall" target="00FFFF2" local="true">00FFFF2BreastsSmall.bsd</datafile>
+            <datafile name="00FFFFBreastsSmall" target="00FFFF" local="true">00FFFFBreastsSmall.bsd</datafile>
+            <datafile name="clBreastsSmall" target="cl" local="true">clBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSH" target="00FFFF" local="true">00FFFFBreastsSH.bsd</datafile>
+            <datafile name="clBreastsSH" target="cl" local="true">clBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSSH" target="00FFFF" local="true">00FFFFBreastsSSH.bsd</datafile>
+            <datafile name="clBreastsSSH" target="cl" local="true">clBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsFantasy" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsFantasy.bsd</datafile>
+            <datafile name="00FFFFBreastsFantasy" target="00FFFF" local="true">00FFFFBreastsFantasy.bsd</datafile>
+            <datafile name="clBreastsFantasy" target="cl" local="true">clBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitDoubleMelon" target="00FFFF4_outfit" local="true">00FFFF4_outfitDoubleMelon.bsd</datafile>
+            <datafile name="00FFFFDoubleMelon" target="00FFFF" local="true">00FFFFDoubleMelon.bsd</datafile>
+            <datafile name="clDoubleMelon" target="cl" local="true">clDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastCleavage" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastCleavage.bsd</datafile>
+            <datafile name="00FFFFBreastCleavage" target="00FFFF" local="true">00FFFFBreastCleavage.bsd</datafile>
+            <datafile name="clBreastCleavage" target="cl" local="true">clBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastFlatness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastFlatness.bsd</datafile>
+            <datafile name="00FFFF2BreastFlatness" target="00FFFF2" local="true">00FFFF2BreastFlatness.bsd</datafile>
+            <datafile name="00FFFFBreastFlatness" target="00FFFF" local="true">00FFFFBreastFlatness.bsd</datafile>
+            <datafile name="clBreastFlatness" target="cl" local="true">clBreastFlatness.bsd</datafile>
+            <datafile name="tatooBreastFlatness" target="tatoo" local="true">tatooBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastGravity" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastGravity.bsd</datafile>
+            <datafile name="00FFFFBreastGravity" target="00FFFF" local="true">00FFFFBreastGravity.bsd</datafile>
+            <datafile name="clBreastGravity" target="cl" local="true">clBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitPushUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitPushUp.bsd</datafile>
+            <datafile name="00FFFFPushUp" target="00FFFF" local="true">00FFFFPushUp.bsd</datafile>
+            <datafile name="clPushUp" target="cl" local="true">clPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastHeight.bsd</datafile>
+            <datafile name="00FFFF2BreastHeight" target="00FFFF2" local="true">00FFFF2BreastHeight.bsd</datafile>
+            <datafile name="00FFFFBreastHeight" target="00FFFF" local="true">00FFFFBreastHeight.bsd</datafile>
+            <datafile name="clBreastHeight" target="cl" local="true">clBreastHeight.bsd</datafile>
+            <datafile name="tatooBreastHeight" target="tatoo" local="true">tatooBreastHeight.bsd</datafile>
+            <datafile name="FFarm2BreastHeight" target="FFarm2" local="true">FFarm2BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastPerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastPerkiness.bsd</datafile>
+            <datafile name="00FFFFBreastPerkiness" target="00FFFF" local="true">00FFFFBreastPerkiness.bsd</datafile>
+            <datafile name="clBreastPerkiness" target="cl" local="true">clBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastWidth.bsd</datafile>
+            <datafile name="00FFFF2BreastWidth" target="00FFFF2" local="true">00FFFF2BreastWidth.bsd</datafile>
+            <datafile name="00FFFFBreastWidth" target="00FFFF" local="true">00FFFFBreastWidth.bsd</datafile>
+            <datafile name="clBreastWidth" target="cl" local="true">clBreastWidth.bsd</datafile>
+            <datafile name="tatooBreastWidth" target="tatoo" local="true">tatooBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitNippleDistance" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDistance.bsd</datafile>
+            <datafile name="clNippleDistance" target="cl" local="true">clNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNipplePerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitNipplePerkiness.bsd</datafile>
+            <datafile name="clNipplePerkiness" target="cl" local="true">clNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleUp.bsd</datafile>
+            <datafile name="00FFFFNippleUp" target="00FFFF" local="true">00FFFFNippleUp.bsd</datafile>
+            <datafile name="clNippleUp" target="cl" local="true">clNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleDown" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDown.bsd</datafile>
+            <datafile name="00FFFFNippleDown" target="00FFFF" local="true">00FFFFNippleDown.bsd</datafile>
+            <datafile name="clNippleDown" target="cl" local="true">clNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitArms.bsd</datafile>
+            <datafile name="00FFFF2Arms" target="00FFFF2" local="true">00FFFF2Arms.bsd</datafile>
+            <datafile name="00FFFFArms" target="00FFFF" local="true">00FFFFArms.bsd</datafile>
+            <datafile name="clArms" target="cl" local="true">clArms.bsd</datafile>
+            <datafile name="tatooArms" target="tatoo" local="true">tatooArms.bsd</datafile>
+            <datafile name="FFarmArms" target="FFarm" local="true">FFarmArms.bsd</datafile>
+            <datafile name="FFarm2Arms" target="FFarm2" local="true">FFarm2Arms.bsd</datafile>
+            <datafile name="FFarm1Arms" target="FFarm1" local="true">FFarm1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyArms.bsd</datafile>
+            <datafile name="00FFFFChubbyArms" target="00FFFF" local="true">00FFFFChubbyArms.bsd</datafile>
+            <datafile name="clChubbyArms" target="cl" local="true">clChubbyArms.bsd</datafile>
+            <datafile name="tatooChubbyArms" target="tatoo" local="true">tatooChubbyArms.bsd</datafile>
+            <datafile name="FFarmChubbyArms" target="FFarm" local="true">FFarmChubbyArms.bsd</datafile>
+            <datafile name="FFarm2ChubbyArms" target="FFarm2" local="true">FFarm2ChubbyArms.bsd</datafile>
+            <datafile name="FFarm1ChubbyArms" target="FFarm1" local="true">FFarm1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitShoulderSmooth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderSmooth" target="00FFFF2" local="true">00FFFF2ShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFFShoulderSmooth" target="00FFFF" local="true">00FFFFShoulderSmooth.bsd</datafile>
+            <datafile name="clShoulderSmooth" target="cl" local="true">clShoulderSmooth.bsd</datafile>
+            <datafile name="tatooShoulderSmooth" target="tatoo" local="true">tatooShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitShoulderWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderWidth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderWidth" target="00FFFF2" local="true">00FFFF2ShoulderWidth.bsd</datafile>
+            <datafile name="00FFFFShoulderWidth" target="00FFFF" local="true">00FFFFShoulderWidth.bsd</datafile>
+            <datafile name="clShoulderWidth" target="cl" local="true">clShoulderWidth.bsd</datafile>
+            <datafile name="tatooShoulderWidth" target="tatoo" local="true">tatooShoulderWidth.bsd</datafile>
+            <datafile name="FFarmShoulderWidth" target="FFarm" local="true">FFarmShoulderWidth.bsd</datafile>
+            <datafile name="FFarm2ShoulderWidth" target="FFarm2" local="true">FFarm2ShoulderWidth.bsd</datafile>
+            <datafile name="FFarm1ShoulderWidth" target="FFarm1" local="true">FFarm1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigTorso" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigTorso.bsd</datafile>
+            <datafile name="00FFFF2BigTorso" target="00FFFF2" local="true">00FFFF2BigTorso.bsd</datafile>
+            <datafile name="00FFFFBigTorso" target="00FFFF" local="true">00FFFFBigTorso.bsd</datafile>
+            <datafile name="clBigTorso" target="cl" local="true">clBigTorso.bsd</datafile>
+            <datafile name="tatooBigTorso" target="tatoo" local="true">tatooBigTorso.bsd</datafile>
+            <datafile name="FFarmBigTorso" target="FFarm" local="true">FFarmBigTorso.bsd</datafile>
+            <datafile name="FFarm2BigTorso" target="FFarm2" local="true">FFarm2BigTorso.bsd</datafile>
+            <datafile name="FFarm1BigTorso" target="FFarm1" local="true">FFarm1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="00FFFF4_outfitWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitWaist.bsd</datafile>
+            <datafile name="00FFFF2Waist" target="00FFFF2" local="true">00FFFF2Waist.bsd</datafile>
+            <datafile name="00FFFFWaist" target="00FFFF" local="true">00FFFFWaist.bsd</datafile>
+            <datafile name="clWaist" target="cl" local="true">clWaist.bsd</datafile>
+            <datafile name="tatooWaist" target="tatoo" local="true">tatooWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitWideWaistLine" target="00FFFF4_outfit" local="true">00FFFF4_outfitWideWaistLine.bsd</datafile>
+            <datafile name="00FFFF2WideWaistLine" target="00FFFF2" local="true">00FFFF2WideWaistLine.bsd</datafile>
+            <datafile name="00FFFFWideWaistLine" target="00FFFF" local="true">00FFFFWideWaistLine.bsd</datafile>
+            <datafile name="clWideWaistLine" target="cl" local="true">clWideWaistLine.bsd</datafile>
+            <datafile name="tatooWideWaistLine" target="tatoo" local="true">tatooWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyWaist.bsd</datafile>
+            <datafile name="00FFFF2ChubbyWaist" target="00FFFF2" local="true">00FFFF2ChubbyWaist.bsd</datafile>
+            <datafile name="00FFFFChubbyWaist" target="00FFFF" local="true">00FFFFChubbyWaist.bsd</datafile>
+            <datafile name="clChubbyWaist" target="cl" local="true">clChubbyWaist.bsd</datafile>
+            <datafile name="tatooChubbyWaist" target="tatoo" local="true">tatooChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBelly.bsd</datafile>
+            <datafile name="00FFFF2Belly" target="00FFFF2" local="true">00FFFF2Belly.bsd</datafile>
+            <datafile name="00FFFFBelly" target="00FFFF" local="true">00FFFFBelly.bsd</datafile>
+            <datafile name="clBelly" target="cl" local="true">clBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigBelly.bsd</datafile>
+            <datafile name="00FFFF2BigBelly" target="00FFFF2" local="true">00FFFF2BigBelly.bsd</datafile>
+            <datafile name="00FFFFBigBelly" target="00FFFF" local="true">00FFFFBigBelly.bsd</datafile>
+            <datafile name="clBigBelly" target="cl" local="true">clBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitTummyTuck" target="00FFFF4_outfit" local="true">00FFFF4_outfitTummyTuck.bsd</datafile>
+            <datafile name="00FFFF2TummyTuck" target="00FFFF2" local="true">00FFFF2TummyTuck.bsd</datafile>
+            <datafile name="00FFFFTummyTuck" target="00FFFF" local="true">00FFFFTummyTuck.bsd</datafile>
+            <datafile name="clTummyTuck" target="cl" local="true">clTummyTuck.bsd</datafile>
+            <datafile name="FFarmTummyTuck" target="FFarm" local="true">FFarmTummyTuck.bsd</datafile>
+            <datafile name="FFarm2TummyTuck" target="FFarm2" local="true">FFarm2TummyTuck.bsd</datafile>
+            <datafile name="FFarm1TummyTuck" target="FFarm1" local="true">FFarm1TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBack" target="00FFFF4_outfit" local="true">00FFFF4_outfitBack.bsd</datafile>
+            <datafile name="00FFFF2Back" target="00FFFF2" local="true">00FFFF2Back.bsd</datafile>
+            <datafile name="00FFFFBack" target="00FFFF" local="true">00FFFFBack.bsd</datafile>
+            <datafile name="clBack" target="cl" local="true">clBack.bsd</datafile>
+            <datafile name="tatooBack" target="tatoo" local="true">tatooBack.bsd</datafile>
+            <datafile name="FFarm2Back" target="FFarm2" local="true">FFarm2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHipbone" target="00FFFF4_outfit" local="true">00FFFF4_outfitHipbone.bsd</datafile>
+            <datafile name="00FFFF2Hipbone" target="00FFFF2" local="true">00FFFF2Hipbone.bsd</datafile>
+            <datafile name="00FFFFHipbone" target="00FFFF" local="true">00FFFFHipbone.bsd</datafile>
+            <datafile name="clHipbone" target="cl" local="true">clHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHips" target="00FFFF4_outfit" local="true">00FFFF4_outfitHips.bsd</datafile>
+            <datafile name="00FFFF2Hips" target="00FFFF2" local="true">00FFFF2Hips.bsd</datafile>
+            <datafile name="00FFFFHips" target="00FFFF" local="true">00FFFFHips.bsd</datafile>
+            <datafile name="clHips" target="cl" local="true">clHips.bsd</datafile>
+            <datafile name="tatooHips" target="tatoo" local="true">tatooHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitButt.bsd</datafile>
+            <datafile name="00FFFF2Butt" target="00FFFF2" local="true">00FFFF2Butt.bsd</datafile>
+            <datafile name="00FFFFButt" target="00FFFF" local="true">00FFFFButt.bsd</datafile>
+            <datafile name="clButt" target="cl" local="true">clButt.bsd</datafile>
+            <datafile name="tatooButt" target="tatoo" local="true">tatooButt.bsd</datafile>
+            <datafile name="FFarmButt" target="FFarm" local="true">FFarmButt.bsd</datafile>
+            <datafile name="FFarm2Butt" target="FFarm2" local="true">FFarm2Butt.bsd</datafile>
+            <datafile name="FFarm1Butt" target="FFarm1" local="true">FFarm1Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitButtSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtSmall.bsd</datafile>
+            <datafile name="00FFFF2ButtSmall" target="00FFFF2" local="true">00FFFF2ButtSmall.bsd</datafile>
+            <datafile name="00FFFFButtSmall" target="00FFFF" local="true">00FFFFButtSmall.bsd</datafile>
+            <datafile name="clButtSmall" target="cl" local="true">clButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitButtShape2" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtShape2.bsd</datafile>
+            <datafile name="00FFFF2ButtShape2" target="00FFFF2" local="true">00FFFF2ButtShape2.bsd</datafile>
+            <datafile name="00FFFFButtShape2" target="00FFFF" local="true">00FFFFButtShape2.bsd</datafile>
+            <datafile name="clButtShape2" target="cl" local="true">clButtShape2.bsd</datafile>
+            <datafile name="tatooButtShape2" target="tatoo" local="true">tatooButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigButt.bsd</datafile>
+            <datafile name="00FFFF2BigButt" target="00FFFF2" local="true">00FFFF2BigButt.bsd</datafile>
+            <datafile name="00FFFFBigButt" target="00FFFF" local="true">00FFFFBigButt.bsd</datafile>
+            <datafile name="clBigButt" target="cl" local="true">clBigButt.bsd</datafile>
+            <datafile name="tatooBigButt" target="tatoo" local="true">tatooBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyButt.bsd</datafile>
+            <datafile name="00FFFF2ChubbyButt" target="00FFFF2" local="true">00FFFF2ChubbyButt.bsd</datafile>
+            <datafile name="00FFFFChubbyButt" target="00FFFF" local="true">00FFFFChubbyButt.bsd</datafile>
+            <datafile name="clChubbyButt" target="cl" local="true">clChubbyButt.bsd</datafile>
+            <datafile name="tatooChubbyButt" target="tatoo" local="true">tatooChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitAppleCheeks" target="00FFFF4_outfit" local="true">00FFFF4_outfitAppleCheeks.bsd</datafile>
+            <datafile name="00FFFF2AppleCheeks" target="00FFFF2" local="true">00FFFF2AppleCheeks.bsd</datafile>
+            <datafile name="00FFFFAppleCheeks" target="00FFFF" local="true">00FFFFAppleCheeks.bsd</datafile>
+            <datafile name="clAppleCheeks" target="cl" local="true">clAppleCheeks.bsd</datafile>
+            <datafile name="tatooAppleCheeks" target="tatoo" local="true">tatooAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitRoundAss" target="00FFFF4_outfit" local="true">00FFFF4_outfitRoundAss.bsd</datafile>
+            <datafile name="00FFFF2RoundAss" target="00FFFF2" local="true">00FFFF2RoundAss.bsd</datafile>
+            <datafile name="00FFFFRoundAss" target="00FFFF" local="true">00FFFFRoundAss.bsd</datafile>
+            <datafile name="clRoundAss" target="cl" local="true">clRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitGroin" target="00FFFF4_outfit" local="true">00FFFF4_outfitGroin.bsd</datafile>
+            <datafile name="00FFFFGroin" target="00FFFF" local="true">00FFFFGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitSlimThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitSlimThighs.bsd</datafile>
+            <datafile name="00FFFF2SlimThighs" target="00FFFF2" local="true">00FFFF2SlimThighs.bsd</datafile>
+            <datafile name="00FFFFSlimThighs" target="00FFFF" local="true">00FFFFSlimThighs.bsd</datafile>
+            <datafile name="clSlimThighs" target="cl" local="true">clSlimThighs.bsd</datafile>
+            <datafile name="tatooSlimThighs" target="tatoo" local="true">tatooSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitThighs.bsd</datafile>
+            <datafile name="00FFFF2Thighs" target="00FFFF2" local="true">00FFFF2Thighs.bsd</datafile>
+            <datafile name="00FFFFThighs" target="00FFFF" local="true">00FFFFThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyLegs.bsd</datafile>
+            <datafile name="00FFFF2ChubbyLegs" target="00FFFF2" local="true">00FFFF2ChubbyLegs.bsd</datafile>
+            <datafile name="00FFFFChubbyLegs" target="00FFFF" local="true">00FFFFChubbyLegs.bsd</datafile>
+            <datafile name="clChubbyLegs" target="cl" local="true">clChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitLegs.bsd</datafile>
+            <datafile name="00FFFF2Legs" target="00FFFF2" local="true">00FFFF2Legs.bsd</datafile>
+            <datafile name="00FFFFLegs" target="00FFFF" local="true">00FFFFLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitKneeHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitKneeHeight.bsd</datafile>
+            <datafile name="00FFFFKneeHeight" target="00FFFF" local="true">00FFFFKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSize" target="00FFFF" local="true">00FFFFCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSmooth" target="00FFFF" local="true">00FFFFCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="00FFFFAnkles" target="00FFFF" local="true">00FFFFAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="00FFFF4_outfitSmallSeam" target="00FFFF4_outfit" local="true">00FFFF4_outfitSmallSeam.bsd</datafile>
+            <datafile name="00FFFF2SmallSeam" target="00FFFF2" local="true">00FFFF2SmallSeam.bsd</datafile>
+            <datafile name="00FFFFSmallSeam" target="00FFFF" local="true">00FFFFSmallSeam.bsd</datafile>
+            <datafile name="clSmallSeam" target="cl" local="true">clSmallSeam.bsd</datafile>
+            <datafile name="tatooSmallSeam" target="tatoo" local="true">tatooSmallSeam.bsd</datafile>
+            <datafile name="FFarmSmallSeam" target="FFarm" local="true">FFarmSmallSeam.bsd</datafile>
+            <datafile name="FFarm2SmallSeam" target="FFarm2" local="true">FFarm2SmallSeam.bsd</datafile>
+            <datafile name="FFarm1SmallSeam" target="FFarm1" local="true">FFarm1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="00FFFF4_outfitShoulderTweak" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderTweak.bsd</datafile>
+            <datafile name="00FFFF2ShoulderTweak" target="00FFFF2" local="true">00FFFF2ShoulderTweak.bsd</datafile>
+            <datafile name="00FFFFShoulderTweak" target="00FFFF" local="true">00FFFFShoulderTweak.bsd</datafile>
+            <datafile name="clShoulderTweak" target="cl" local="true">clShoulderTweak.bsd</datafile>
+            <datafile name="tatooShoulderTweak" target="tatoo" local="true">tatooShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+		    <SliderSet name="op Widowmaker Rose">
+        <SetFolder>op Widowmaker Ice</SetFolder>
+        <SourceFile>op Widowmaker Rose.nif</SourceFile>
+        <OutputPath>meshes\op\ow\widowmaker</OutputPath>
+        <OutputFile>cuirassG</OutputFile>
+        <BaseShapeName target="00FFFF">00FFFF</BaseShapeName>
+        <BaseShapeName target="00FFFF2">00FFFF2</BaseShapeName>
+        <BaseShapeName target="00FFFF4_outfit">00FFFF4_outfit</BaseShapeName>
+        <BaseShapeName target="FFarm">FFarm</BaseShapeName>
+        <BaseShapeName target="FFarm1">FFarm1</BaseShapeName>
+        <BaseShapeName target="FFarm2">FFarm2</BaseShapeName>
+        <BaseShapeName target="cl">cl</BaseShapeName>
+        <BaseShapeName target="tatoo">tatoo</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="00FFFF4_outfitBreasts" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreasts.bsd</datafile>
+            <datafile name="00FFFFBreasts" target="00FFFF" local="true">00FFFFBreasts.bsd</datafile>
+            <datafile name="clBreasts" target="cl" local="true">clBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitBreastsSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSmall.bsd</datafile>
+            <datafile name="00FFFF2BreastsSmall" target="00FFFF2" local="true">00FFFF2BreastsSmall.bsd</datafile>
+            <datafile name="00FFFFBreastsSmall" target="00FFFF" local="true">00FFFFBreastsSmall.bsd</datafile>
+            <datafile name="clBreastsSmall" target="cl" local="true">clBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSH" target="00FFFF" local="true">00FFFFBreastsSH.bsd</datafile>
+            <datafile name="clBreastsSH" target="cl" local="true">clBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsSSH" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsSSH.bsd</datafile>
+            <datafile name="00FFFFBreastsSSH" target="00FFFF" local="true">00FFFFBreastsSSH.bsd</datafile>
+            <datafile name="clBreastsSSH" target="cl" local="true">clBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastsFantasy" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastsFantasy.bsd</datafile>
+            <datafile name="00FFFFBreastsFantasy" target="00FFFF" local="true">00FFFFBreastsFantasy.bsd</datafile>
+            <datafile name="clBreastsFantasy" target="cl" local="true">clBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitDoubleMelon" target="00FFFF4_outfit" local="true">00FFFF4_outfitDoubleMelon.bsd</datafile>
+            <datafile name="00FFFFDoubleMelon" target="00FFFF" local="true">00FFFFDoubleMelon.bsd</datafile>
+            <datafile name="clDoubleMelon" target="cl" local="true">clDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastCleavage" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastCleavage.bsd</datafile>
+            <datafile name="00FFFFBreastCleavage" target="00FFFF" local="true">00FFFFBreastCleavage.bsd</datafile>
+            <datafile name="clBreastCleavage" target="cl" local="true">clBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastFlatness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastFlatness.bsd</datafile>
+            <datafile name="00FFFF2BreastFlatness" target="00FFFF2" local="true">00FFFF2BreastFlatness.bsd</datafile>
+            <datafile name="00FFFFBreastFlatness" target="00FFFF" local="true">00FFFFBreastFlatness.bsd</datafile>
+            <datafile name="clBreastFlatness" target="cl" local="true">clBreastFlatness.bsd</datafile>
+            <datafile name="tatooBreastFlatness" target="tatoo" local="true">tatooBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastGravity" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastGravity.bsd</datafile>
+            <datafile name="00FFFFBreastGravity" target="00FFFF" local="true">00FFFFBreastGravity.bsd</datafile>
+            <datafile name="clBreastGravity" target="cl" local="true">clBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitPushUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitPushUp.bsd</datafile>
+            <datafile name="00FFFFPushUp" target="00FFFF" local="true">00FFFFPushUp.bsd</datafile>
+            <datafile name="clPushUp" target="cl" local="true">clPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastHeight.bsd</datafile>
+            <datafile name="00FFFF2BreastHeight" target="00FFFF2" local="true">00FFFF2BreastHeight.bsd</datafile>
+            <datafile name="00FFFFBreastHeight" target="00FFFF" local="true">00FFFFBreastHeight.bsd</datafile>
+            <datafile name="clBreastHeight" target="cl" local="true">clBreastHeight.bsd</datafile>
+            <datafile name="tatooBreastHeight" target="tatoo" local="true">tatooBreastHeight.bsd</datafile>
+            <datafile name="FFarm2BreastHeight" target="FFarm2" local="true">FFarm2BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastPerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastPerkiness.bsd</datafile>
+            <datafile name="00FFFFBreastPerkiness" target="00FFFF" local="true">00FFFFBreastPerkiness.bsd</datafile>
+            <datafile name="clBreastPerkiness" target="cl" local="true">clBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBreastWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitBreastWidth.bsd</datafile>
+            <datafile name="00FFFF2BreastWidth" target="00FFFF2" local="true">00FFFF2BreastWidth.bsd</datafile>
+            <datafile name="00FFFFBreastWidth" target="00FFFF" local="true">00FFFFBreastWidth.bsd</datafile>
+            <datafile name="clBreastWidth" target="cl" local="true">clBreastWidth.bsd</datafile>
+            <datafile name="tatooBreastWidth" target="tatoo" local="true">tatooBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitNippleDistance" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDistance.bsd</datafile>
+            <datafile name="clNippleDistance" target="cl" local="true">clNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNipplePerkiness" target="00FFFF4_outfit" local="true">00FFFF4_outfitNipplePerkiness.bsd</datafile>
+            <datafile name="clNipplePerkiness" target="cl" local="true">clNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleUp" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleUp.bsd</datafile>
+            <datafile name="00FFFFNippleUp" target="00FFFF" local="true">00FFFFNippleUp.bsd</datafile>
+            <datafile name="clNippleUp" target="cl" local="true">clNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitNippleDown" target="00FFFF4_outfit" local="true">00FFFF4_outfitNippleDown.bsd</datafile>
+            <datafile name="00FFFFNippleDown" target="00FFFF" local="true">00FFFFNippleDown.bsd</datafile>
+            <datafile name="clNippleDown" target="cl" local="true">clNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitArms.bsd</datafile>
+            <datafile name="00FFFF2Arms" target="00FFFF2" local="true">00FFFF2Arms.bsd</datafile>
+            <datafile name="00FFFFArms" target="00FFFF" local="true">00FFFFArms.bsd</datafile>
+            <datafile name="clArms" target="cl" local="true">clArms.bsd</datafile>
+            <datafile name="tatooArms" target="tatoo" local="true">tatooArms.bsd</datafile>
+            <datafile name="FFarmArms" target="FFarm" local="true">FFarmArms.bsd</datafile>
+            <datafile name="FFarm2Arms" target="FFarm2" local="true">FFarm2Arms.bsd</datafile>
+            <datafile name="FFarm1Arms" target="FFarm1" local="true">FFarm1Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyArms" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyArms.bsd</datafile>
+            <datafile name="00FFFFChubbyArms" target="00FFFF" local="true">00FFFFChubbyArms.bsd</datafile>
+            <datafile name="clChubbyArms" target="cl" local="true">clChubbyArms.bsd</datafile>
+            <datafile name="tatooChubbyArms" target="tatoo" local="true">tatooChubbyArms.bsd</datafile>
+            <datafile name="FFarmChubbyArms" target="FFarm" local="true">FFarmChubbyArms.bsd</datafile>
+            <datafile name="FFarm2ChubbyArms" target="FFarm2" local="true">FFarm2ChubbyArms.bsd</datafile>
+            <datafile name="FFarm1ChubbyArms" target="FFarm1" local="true">FFarm1ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitShoulderSmooth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderSmooth" target="00FFFF2" local="true">00FFFF2ShoulderSmooth.bsd</datafile>
+            <datafile name="00FFFFShoulderSmooth" target="00FFFF" local="true">00FFFFShoulderSmooth.bsd</datafile>
+            <datafile name="clShoulderSmooth" target="cl" local="true">clShoulderSmooth.bsd</datafile>
+            <datafile name="tatooShoulderSmooth" target="tatoo" local="true">tatooShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitShoulderWidth" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderWidth.bsd</datafile>
+            <datafile name="00FFFF2ShoulderWidth" target="00FFFF2" local="true">00FFFF2ShoulderWidth.bsd</datafile>
+            <datafile name="00FFFFShoulderWidth" target="00FFFF" local="true">00FFFFShoulderWidth.bsd</datafile>
+            <datafile name="clShoulderWidth" target="cl" local="true">clShoulderWidth.bsd</datafile>
+            <datafile name="tatooShoulderWidth" target="tatoo" local="true">tatooShoulderWidth.bsd</datafile>
+            <datafile name="FFarmShoulderWidth" target="FFarm" local="true">FFarmShoulderWidth.bsd</datafile>
+            <datafile name="FFarm2ShoulderWidth" target="FFarm2" local="true">FFarm2ShoulderWidth.bsd</datafile>
+            <datafile name="FFarm1ShoulderWidth" target="FFarm1" local="true">FFarm1ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigTorso" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigTorso.bsd</datafile>
+            <datafile name="00FFFF2BigTorso" target="00FFFF2" local="true">00FFFF2BigTorso.bsd</datafile>
+            <datafile name="00FFFFBigTorso" target="00FFFF" local="true">00FFFFBigTorso.bsd</datafile>
+            <datafile name="clBigTorso" target="cl" local="true">clBigTorso.bsd</datafile>
+            <datafile name="tatooBigTorso" target="tatoo" local="true">tatooBigTorso.bsd</datafile>
+            <datafile name="FFarmBigTorso" target="FFarm" local="true">FFarmBigTorso.bsd</datafile>
+            <datafile name="FFarm2BigTorso" target="FFarm2" local="true">FFarm2BigTorso.bsd</datafile>
+            <datafile name="FFarm1BigTorso" target="FFarm1" local="true">FFarm1BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="00FFFF4_outfitWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitWaist.bsd</datafile>
+            <datafile name="00FFFF2Waist" target="00FFFF2" local="true">00FFFF2Waist.bsd</datafile>
+            <datafile name="00FFFFWaist" target="00FFFF" local="true">00FFFFWaist.bsd</datafile>
+            <datafile name="clWaist" target="cl" local="true">clWaist.bsd</datafile>
+            <datafile name="tatooWaist" target="tatoo" local="true">tatooWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitWideWaistLine" target="00FFFF4_outfit" local="true">00FFFF4_outfitWideWaistLine.bsd</datafile>
+            <datafile name="00FFFF2WideWaistLine" target="00FFFF2" local="true">00FFFF2WideWaistLine.bsd</datafile>
+            <datafile name="00FFFFWideWaistLine" target="00FFFF" local="true">00FFFFWideWaistLine.bsd</datafile>
+            <datafile name="clWideWaistLine" target="cl" local="true">clWideWaistLine.bsd</datafile>
+            <datafile name="tatooWideWaistLine" target="tatoo" local="true">tatooWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyWaist" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyWaist.bsd</datafile>
+            <datafile name="00FFFF2ChubbyWaist" target="00FFFF2" local="true">00FFFF2ChubbyWaist.bsd</datafile>
+            <datafile name="00FFFFChubbyWaist" target="00FFFF" local="true">00FFFFChubbyWaist.bsd</datafile>
+            <datafile name="clChubbyWaist" target="cl" local="true">clChubbyWaist.bsd</datafile>
+            <datafile name="tatooChubbyWaist" target="tatoo" local="true">tatooChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBelly.bsd</datafile>
+            <datafile name="00FFFF2Belly" target="00FFFF2" local="true">00FFFF2Belly.bsd</datafile>
+            <datafile name="00FFFFBelly" target="00FFFF" local="true">00FFFFBelly.bsd</datafile>
+            <datafile name="clBelly" target="cl" local="true">clBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigBelly" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigBelly.bsd</datafile>
+            <datafile name="00FFFF2BigBelly" target="00FFFF2" local="true">00FFFF2BigBelly.bsd</datafile>
+            <datafile name="00FFFFBigBelly" target="00FFFF" local="true">00FFFFBigBelly.bsd</datafile>
+            <datafile name="clBigBelly" target="cl" local="true">clBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitTummyTuck" target="00FFFF4_outfit" local="true">00FFFF4_outfitTummyTuck.bsd</datafile>
+            <datafile name="00FFFF2TummyTuck" target="00FFFF2" local="true">00FFFF2TummyTuck.bsd</datafile>
+            <datafile name="00FFFFTummyTuck" target="00FFFF" local="true">00FFFFTummyTuck.bsd</datafile>
+            <datafile name="clTummyTuck" target="cl" local="true">clTummyTuck.bsd</datafile>
+            <datafile name="FFarmTummyTuck" target="FFarm" local="true">FFarmTummyTuck.bsd</datafile>
+            <datafile name="FFarm2TummyTuck" target="FFarm2" local="true">FFarm2TummyTuck.bsd</datafile>
+            <datafile name="FFarm1TummyTuck" target="FFarm1" local="true">FFarm1TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBack" target="00FFFF4_outfit" local="true">00FFFF4_outfitBack.bsd</datafile>
+            <datafile name="00FFFF2Back" target="00FFFF2" local="true">00FFFF2Back.bsd</datafile>
+            <datafile name="00FFFFBack" target="00FFFF" local="true">00FFFFBack.bsd</datafile>
+            <datafile name="clBack" target="cl" local="true">clBack.bsd</datafile>
+            <datafile name="tatooBack" target="tatoo" local="true">tatooBack.bsd</datafile>
+            <datafile name="FFarm2Back" target="FFarm2" local="true">FFarm2Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHipbone" target="00FFFF4_outfit" local="true">00FFFF4_outfitHipbone.bsd</datafile>
+            <datafile name="00FFFF2Hipbone" target="00FFFF2" local="true">00FFFF2Hipbone.bsd</datafile>
+            <datafile name="00FFFFHipbone" target="00FFFF" local="true">00FFFFHipbone.bsd</datafile>
+            <datafile name="clHipbone" target="cl" local="true">clHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitHips" target="00FFFF4_outfit" local="true">00FFFF4_outfitHips.bsd</datafile>
+            <datafile name="00FFFF2Hips" target="00FFFF2" local="true">00FFFF2Hips.bsd</datafile>
+            <datafile name="00FFFFHips" target="00FFFF" local="true">00FFFFHips.bsd</datafile>
+            <datafile name="clHips" target="cl" local="true">clHips.bsd</datafile>
+            <datafile name="tatooHips" target="tatoo" local="true">tatooHips.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitButt.bsd</datafile>
+            <datafile name="00FFFF2Butt" target="00FFFF2" local="true">00FFFF2Butt.bsd</datafile>
+            <datafile name="00FFFFButt" target="00FFFF" local="true">00FFFFButt.bsd</datafile>
+            <datafile name="clButt" target="cl" local="true">clButt.bsd</datafile>
+            <datafile name="tatooButt" target="tatoo" local="true">tatooButt.bsd</datafile>
+            <datafile name="FFarmButt" target="FFarm" local="true">FFarmButt.bsd</datafile>
+            <datafile name="FFarm2Butt" target="FFarm2" local="true">FFarm2Butt.bsd</datafile>
+            <datafile name="FFarm1Butt" target="FFarm1" local="true">FFarm1Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="00FFFF4_outfitButtSmall" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtSmall.bsd</datafile>
+            <datafile name="00FFFF2ButtSmall" target="00FFFF2" local="true">00FFFF2ButtSmall.bsd</datafile>
+            <datafile name="00FFFFButtSmall" target="00FFFF" local="true">00FFFFButtSmall.bsd</datafile>
+            <datafile name="clButtSmall" target="cl" local="true">clButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitButtShape2" target="00FFFF4_outfit" local="true">00FFFF4_outfitButtShape2.bsd</datafile>
+            <datafile name="00FFFF2ButtShape2" target="00FFFF2" local="true">00FFFF2ButtShape2.bsd</datafile>
+            <datafile name="00FFFFButtShape2" target="00FFFF" local="true">00FFFFButtShape2.bsd</datafile>
+            <datafile name="clButtShape2" target="cl" local="true">clButtShape2.bsd</datafile>
+            <datafile name="tatooButtShape2" target="tatoo" local="true">tatooButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitBigButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitBigButt.bsd</datafile>
+            <datafile name="00FFFF2BigButt" target="00FFFF2" local="true">00FFFF2BigButt.bsd</datafile>
+            <datafile name="00FFFFBigButt" target="00FFFF" local="true">00FFFFBigButt.bsd</datafile>
+            <datafile name="clBigButt" target="cl" local="true">clBigButt.bsd</datafile>
+            <datafile name="tatooBigButt" target="tatoo" local="true">tatooBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyButt" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyButt.bsd</datafile>
+            <datafile name="00FFFF2ChubbyButt" target="00FFFF2" local="true">00FFFF2ChubbyButt.bsd</datafile>
+            <datafile name="00FFFFChubbyButt" target="00FFFF" local="true">00FFFFChubbyButt.bsd</datafile>
+            <datafile name="clChubbyButt" target="cl" local="true">clChubbyButt.bsd</datafile>
+            <datafile name="tatooChubbyButt" target="tatoo" local="true">tatooChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitAppleCheeks" target="00FFFF4_outfit" local="true">00FFFF4_outfitAppleCheeks.bsd</datafile>
+            <datafile name="00FFFF2AppleCheeks" target="00FFFF2" local="true">00FFFF2AppleCheeks.bsd</datafile>
+            <datafile name="00FFFFAppleCheeks" target="00FFFF" local="true">00FFFFAppleCheeks.bsd</datafile>
+            <datafile name="clAppleCheeks" target="cl" local="true">clAppleCheeks.bsd</datafile>
+            <datafile name="tatooAppleCheeks" target="tatoo" local="true">tatooAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitRoundAss" target="00FFFF4_outfit" local="true">00FFFF4_outfitRoundAss.bsd</datafile>
+            <datafile name="00FFFF2RoundAss" target="00FFFF2" local="true">00FFFF2RoundAss.bsd</datafile>
+            <datafile name="00FFFFRoundAss" target="00FFFF" local="true">00FFFFRoundAss.bsd</datafile>
+            <datafile name="clRoundAss" target="cl" local="true">clRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitGroin" target="00FFFF4_outfit" local="true">00FFFF4_outfitGroin.bsd</datafile>
+            <datafile name="00FFFFGroin" target="00FFFF" local="true">00FFFFGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitSlimThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitSlimThighs.bsd</datafile>
+            <datafile name="00FFFF2SlimThighs" target="00FFFF2" local="true">00FFFF2SlimThighs.bsd</datafile>
+            <datafile name="00FFFFSlimThighs" target="00FFFF" local="true">00FFFFSlimThighs.bsd</datafile>
+            <datafile name="clSlimThighs" target="cl" local="true">clSlimThighs.bsd</datafile>
+            <datafile name="tatooSlimThighs" target="tatoo" local="true">tatooSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitThighs" target="00FFFF4_outfit" local="true">00FFFF4_outfitThighs.bsd</datafile>
+            <datafile name="00FFFF2Thighs" target="00FFFF2" local="true">00FFFF2Thighs.bsd</datafile>
+            <datafile name="00FFFFThighs" target="00FFFF" local="true">00FFFFThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitChubbyLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitChubbyLegs.bsd</datafile>
+            <datafile name="00FFFF2ChubbyLegs" target="00FFFF2" local="true">00FFFF2ChubbyLegs.bsd</datafile>
+            <datafile name="00FFFFChubbyLegs" target="00FFFF" local="true">00FFFFChubbyLegs.bsd</datafile>
+            <datafile name="clChubbyLegs" target="cl" local="true">clChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="00FFFF4_outfitLegs" target="00FFFF4_outfit" local="true">00FFFF4_outfitLegs.bsd</datafile>
+            <datafile name="00FFFF2Legs" target="00FFFF2" local="true">00FFFF2Legs.bsd</datafile>
+            <datafile name="00FFFFLegs" target="00FFFF" local="true">00FFFFLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="00FFFF4_outfitKneeHeight" target="00FFFF4_outfit" local="true">00FFFF4_outfitKneeHeight.bsd</datafile>
+            <datafile name="00FFFFKneeHeight" target="00FFFF" local="true">00FFFFKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSize" target="00FFFF" local="true">00FFFFCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="00FFFFCalfSmooth" target="00FFFF" local="true">00FFFFCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="00FFFFAnkles" target="00FFFF" local="true">00FFFFAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="00FFFF4_outfitSmallSeam" target="00FFFF4_outfit" local="true">00FFFF4_outfitSmallSeam.bsd</datafile>
+            <datafile name="00FFFF2SmallSeam" target="00FFFF2" local="true">00FFFF2SmallSeam.bsd</datafile>
+            <datafile name="00FFFFSmallSeam" target="00FFFF" local="true">00FFFFSmallSeam.bsd</datafile>
+            <datafile name="clSmallSeam" target="cl" local="true">clSmallSeam.bsd</datafile>
+            <datafile name="tatooSmallSeam" target="tatoo" local="true">tatooSmallSeam.bsd</datafile>
+            <datafile name="FFarmSmallSeam" target="FFarm" local="true">FFarmSmallSeam.bsd</datafile>
+            <datafile name="FFarm2SmallSeam" target="FFarm2" local="true">FFarm2SmallSeam.bsd</datafile>
+            <datafile name="FFarm1SmallSeam" target="FFarm1" local="true">FFarm1SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="00FFFF4_outfitShoulderTweak" target="00FFFF4_outfit" local="true">00FFFF4_outfitShoulderTweak.bsd</datafile>
+            <datafile name="00FFFF2ShoulderTweak" target="00FFFF2" local="true">00FFFF2ShoulderTweak.bsd</datafile>
+            <datafile name="00FFFFShoulderTweak" target="00FFFF" local="true">00FFFFShoulderTweak.bsd</datafile>
+            <datafile name="clShoulderTweak" target="cl" local="true">clShoulderTweak.bsd</datafile>
+            <datafile name="tatooShoulderTweak" target="tatoo" local="true">tatooShoulderTweak.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

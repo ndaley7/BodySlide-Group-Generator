@@ -1,0 +1,568 @@
+<SliderSetInfo>
+    <SliderSet name="Minou Santa Robes Blue">
+        <SetFolder>Minou Santa Robes Blue</SetFolder>
+        <SourceFile>Minou Santa Robes Blue.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Santa</OutputPath>
+        <OutputFile>Minou Santa Robes Blue</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Cape_1">Cape_1</BaseShapeName>
+        <BaseShapeName target="Cape_2">Cape_2</BaseShapeName>
+        <BaseShapeName target="Cape_3">Cape_3</BaseShapeName>
+        <BaseShapeName target="Clothes_1">Clothes_1</BaseShapeName>
+        <BaseShapeName target="Clothes_2">Clothes_2</BaseShapeName>
+        <BaseShapeName target="Clothes_3">Clothes_3</BaseShapeName>
+        <BaseShapeName target="Glove_1">Glove_1</BaseShapeName>
+        <BaseShapeName target="Glove_2">Glove_2</BaseShapeName>
+        <BaseShapeName target="Glove_3">Glove_3</BaseShapeName>
+        <BaseShapeName target="Glove_4">Glove_4</BaseShapeName>
+        <BaseShapeName target="Glove_5">Glove_5</BaseShapeName>
+        <BaseShapeName target="Panty">Panty</BaseShapeName>
+        <BaseShapeName target="Skirt_1">Skirt_1</BaseShapeName>
+        <BaseShapeName target="Skirt_2">Skirt_2</BaseShapeName>
+        <BaseShapeName target="Skirt_3">Skirt_3</BaseShapeName>
+        <BaseShapeName target="boots_1">boots_1</BaseShapeName>
+        <BaseShapeName target="boots_2">boots_2</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="Cape_1Breasts" target="Cape_1" local="true">Cape_1Breasts.bsd</datafile>
+            <datafile name="Cape_2Breasts" target="Cape_2" local="true">Cape_2Breasts.bsd</datafile>
+            <datafile name="Cape_3Breasts" target="Cape_3" local="true">Cape_3Breasts.bsd</datafile>
+            <datafile name="Clothes_1Breasts" target="Clothes_1" local="true">Clothes_1Breasts.bsd</datafile>
+            <datafile name="Clothes_2Breasts" target="Clothes_2" local="true">Clothes_2Breasts.bsd</datafile>
+            <datafile name="Clothes_3Breasts" target="Clothes_3" local="true">Clothes_3Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="PantyBreastsSmall" target="Panty" local="true">PantyBreastsSmall.bsd</datafile>
+            <datafile name="Skirt_1BreastsSmall" target="Skirt_1" local="true">Skirt_1BreastsSmall.bsd</datafile>
+            <datafile name="Skirt_3BreastsSmall" target="Skirt_3" local="true">Skirt_3BreastsSmall.bsd</datafile>
+            <datafile name="Cape_1BreastsSmall" target="Cape_1" local="true">Cape_1BreastsSmall.bsd</datafile>
+            <datafile name="Cape_2BreastsSmall" target="Cape_2" local="true">Cape_2BreastsSmall.bsd</datafile>
+            <datafile name="Cape_3BreastsSmall" target="Cape_3" local="true">Cape_3BreastsSmall.bsd</datafile>
+            <datafile name="Clothes_1BreastsSmall" target="Clothes_1" local="true">Clothes_1BreastsSmall.bsd</datafile>
+            <datafile name="Clothes_2BreastsSmall" target="Clothes_2" local="true">Clothes_2BreastsSmall.bsd</datafile>
+            <datafile name="Clothes_3BreastsSmall" target="Clothes_3" local="true">Clothes_3BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="Cape_1BreastsSH" target="Cape_1" local="true">Cape_1BreastsSH.bsd</datafile>
+            <datafile name="Cape_2BreastsSH" target="Cape_2" local="true">Cape_2BreastsSH.bsd</datafile>
+            <datafile name="Cape_3BreastsSH" target="Cape_3" local="true">Cape_3BreastsSH.bsd</datafile>
+            <datafile name="Clothes_1BreastsSH" target="Clothes_1" local="true">Clothes_1BreastsSH.bsd</datafile>
+            <datafile name="Clothes_2BreastsSH" target="Clothes_2" local="true">Clothes_2BreastsSH.bsd</datafile>
+            <datafile name="Clothes_3BreastsSH" target="Clothes_3" local="true">Clothes_3BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="Skirt_1BreastsSSH" target="Skirt_1" local="true">Skirt_1BreastsSSH.bsd</datafile>
+            <datafile name="Cape_1BreastsSSH" target="Cape_1" local="true">Cape_1BreastsSSH.bsd</datafile>
+            <datafile name="Cape_2BreastsSSH" target="Cape_2" local="true">Cape_2BreastsSSH.bsd</datafile>
+            <datafile name="Cape_3BreastsSSH" target="Cape_3" local="true">Cape_3BreastsSSH.bsd</datafile>
+            <datafile name="Clothes_1BreastsSSH" target="Clothes_1" local="true">Clothes_1BreastsSSH.bsd</datafile>
+            <datafile name="Clothes_2BreastsSSH" target="Clothes_2" local="true">Clothes_2BreastsSSH.bsd</datafile>
+            <datafile name="Clothes_3BreastsSSH" target="Clothes_3" local="true">Clothes_3BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="Cape_1BreastsFantasy" target="Cape_1" local="true">Cape_1BreastsFantasy.bsd</datafile>
+            <datafile name="Cape_2BreastsFantasy" target="Cape_2" local="true">Cape_2BreastsFantasy.bsd</datafile>
+            <datafile name="Cape_3BreastsFantasy" target="Cape_3" local="true">Cape_3BreastsFantasy.bsd</datafile>
+            <datafile name="Clothes_1BreastsFantasy" target="Clothes_1" local="true">Clothes_1BreastsFantasy.bsd</datafile>
+            <datafile name="Clothes_2BreastsFantasy" target="Clothes_2" local="true">Clothes_2BreastsFantasy.bsd</datafile>
+            <datafile name="Clothes_3BreastsFantasy" target="Clothes_3" local="true">Clothes_3BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="Cape_1DoubleMelon" target="Cape_1" local="true">Cape_1DoubleMelon.bsd</datafile>
+            <datafile name="Cape_2DoubleMelon" target="Cape_2" local="true">Cape_2DoubleMelon.bsd</datafile>
+            <datafile name="Cape_3DoubleMelon" target="Cape_3" local="true">Cape_3DoubleMelon.bsd</datafile>
+            <datafile name="Clothes_1DoubleMelon" target="Clothes_1" local="true">Clothes_1DoubleMelon.bsd</datafile>
+            <datafile name="Clothes_2DoubleMelon" target="Clothes_2" local="true">Clothes_2DoubleMelon.bsd</datafile>
+            <datafile name="Clothes_3DoubleMelon" target="Clothes_3" local="true">Clothes_3DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="Cape_1BreastCleavage" target="Cape_1" local="true">Cape_1BreastCleavage.bsd</datafile>
+            <datafile name="Cape_2BreastCleavage" target="Cape_2" local="true">Cape_2BreastCleavage.bsd</datafile>
+            <datafile name="Cape_3BreastCleavage" target="Cape_3" local="true">Cape_3BreastCleavage.bsd</datafile>
+            <datafile name="Clothes_1BreastCleavage" target="Clothes_1" local="true">Clothes_1BreastCleavage.bsd</datafile>
+            <datafile name="Clothes_2BreastCleavage" target="Clothes_2" local="true">Clothes_2BreastCleavage.bsd</datafile>
+            <datafile name="Clothes_3BreastCleavage" target="Clothes_3" local="true">Clothes_3BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="Skirt_1BreastFlatness" target="Skirt_1" local="true">Skirt_1BreastFlatness.bsd</datafile>
+            <datafile name="Cape_1BreastFlatness" target="Cape_1" local="true">Cape_1BreastFlatness.bsd</datafile>
+            <datafile name="Cape_2BreastFlatness" target="Cape_2" local="true">Cape_2BreastFlatness.bsd</datafile>
+            <datafile name="Cape_3BreastFlatness" target="Cape_3" local="true">Cape_3BreastFlatness.bsd</datafile>
+            <datafile name="Clothes_1BreastFlatness" target="Clothes_1" local="true">Clothes_1BreastFlatness.bsd</datafile>
+            <datafile name="Clothes_2BreastFlatness" target="Clothes_2" local="true">Clothes_2BreastFlatness.bsd</datafile>
+            <datafile name="Clothes_3BreastFlatness" target="Clothes_3" local="true">Clothes_3BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="Cape_1BreastGravity" target="Cape_1" local="true">Cape_1BreastGravity.bsd</datafile>
+            <datafile name="Cape_2BreastGravity" target="Cape_2" local="true">Cape_2BreastGravity.bsd</datafile>
+            <datafile name="Cape_3BreastGravity" target="Cape_3" local="true">Cape_3BreastGravity.bsd</datafile>
+            <datafile name="Clothes_1BreastGravity" target="Clothes_1" local="true">Clothes_1BreastGravity.bsd</datafile>
+            <datafile name="Clothes_2BreastGravity" target="Clothes_2" local="true">Clothes_2BreastGravity.bsd</datafile>
+            <datafile name="Clothes_3BreastGravity" target="Clothes_3" local="true">Clothes_3BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="Cape_1PushUp" target="Cape_1" local="true">Cape_1PushUp.bsd</datafile>
+            <datafile name="Cape_2PushUp" target="Cape_2" local="true">Cape_2PushUp.bsd</datafile>
+            <datafile name="Cape_3PushUp" target="Cape_3" local="true">Cape_3PushUp.bsd</datafile>
+            <datafile name="Clothes_1PushUp" target="Clothes_1" local="true">Clothes_1PushUp.bsd</datafile>
+            <datafile name="Clothes_2PushUp" target="Clothes_2" local="true">Clothes_2PushUp.bsd</datafile>
+            <datafile name="Clothes_3PushUp" target="Clothes_3" local="true">Clothes_3PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="PantyBreastHeight" target="Panty" local="true">PantyBreastHeight.bsd</datafile>
+            <datafile name="Skirt_1BreastHeight" target="Skirt_1" local="true">Skirt_1BreastHeight.bsd</datafile>
+            <datafile name="Skirt_3BreastHeight" target="Skirt_3" local="true">Skirt_3BreastHeight.bsd</datafile>
+            <datafile name="Cape_1BreastHeight" target="Cape_1" local="true">Cape_1BreastHeight.bsd</datafile>
+            <datafile name="Cape_2BreastHeight" target="Cape_2" local="true">Cape_2BreastHeight.bsd</datafile>
+            <datafile name="Cape_3BreastHeight" target="Cape_3" local="true">Cape_3BreastHeight.bsd</datafile>
+            <datafile name="Clothes_1BreastHeight" target="Clothes_1" local="true">Clothes_1BreastHeight.bsd</datafile>
+            <datafile name="Clothes_2BreastHeight" target="Clothes_2" local="true">Clothes_2BreastHeight.bsd</datafile>
+            <datafile name="Clothes_3BreastHeight" target="Clothes_3" local="true">Clothes_3BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="Cape_1BreastPerkiness" target="Cape_1" local="true">Cape_1BreastPerkiness.bsd</datafile>
+            <datafile name="Cape_2BreastPerkiness" target="Cape_2" local="true">Cape_2BreastPerkiness.bsd</datafile>
+            <datafile name="Cape_3BreastPerkiness" target="Cape_3" local="true">Cape_3BreastPerkiness.bsd</datafile>
+            <datafile name="Clothes_1BreastPerkiness" target="Clothes_1" local="true">Clothes_1BreastPerkiness.bsd</datafile>
+            <datafile name="Clothes_2BreastPerkiness" target="Clothes_2" local="true">Clothes_2BreastPerkiness.bsd</datafile>
+            <datafile name="Clothes_3BreastPerkiness" target="Clothes_3" local="true">Clothes_3BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="Skirt_1BreastWidth" target="Skirt_1" local="true">Skirt_1BreastWidth.bsd</datafile>
+            <datafile name="Cape_1BreastWidth" target="Cape_1" local="true">Cape_1BreastWidth.bsd</datafile>
+            <datafile name="Cape_2BreastWidth" target="Cape_2" local="true">Cape_2BreastWidth.bsd</datafile>
+            <datafile name="Cape_3BreastWidth" target="Cape_3" local="true">Cape_3BreastWidth.bsd</datafile>
+            <datafile name="Clothes_1BreastWidth" target="Clothes_1" local="true">Clothes_1BreastWidth.bsd</datafile>
+            <datafile name="Clothes_2BreastWidth" target="Clothes_2" local="true">Clothes_2BreastWidth.bsd</datafile>
+            <datafile name="Clothes_3BreastWidth" target="Clothes_3" local="true">Clothes_3BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="Cape_2NippleDistance" target="Cape_2" local="true">Cape_2NippleDistance.bsd</datafile>
+            <datafile name="Cape_3NippleDistance" target="Cape_3" local="true">Cape_3NippleDistance.bsd</datafile>
+            <datafile name="Clothes_1NippleDistance" target="Clothes_1" local="true">Clothes_1NippleDistance.bsd</datafile>
+            <datafile name="Clothes_2NippleDistance" target="Clothes_2" local="true">Clothes_2NippleDistance.bsd</datafile>
+            <datafile name="Clothes_3NippleDistance" target="Clothes_3" local="true">Clothes_3NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="Clothes_1NipplePerkiness" target="Clothes_1" local="true">Clothes_1NipplePerkiness.bsd</datafile>
+            <datafile name="Clothes_2NipplePerkiness" target="Clothes_2" local="true">Clothes_2NipplePerkiness.bsd</datafile>
+            <datafile name="Clothes_3NipplePerkiness" target="Clothes_3" local="true">Clothes_3NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="Cape_1NippleLength" target="Cape_1" local="true">Cape_1NippleLength.bsd</datafile>
+            <datafile name="Cape_2NippleLength" target="Cape_2" local="true">Cape_2NippleLength.bsd</datafile>
+            <datafile name="Cape_3NippleLength" target="Cape_3" local="true">Cape_3NippleLength.bsd</datafile>
+            <datafile name="Clothes_1NippleLength" target="Clothes_1" local="true">Clothes_1NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="Clothes_1NippleSize" target="Clothes_1" local="true">Clothes_1NippleSize.bsd</datafile>
+            <datafile name="Clothes_2NippleSize" target="Clothes_2" local="true">Clothes_2NippleSize.bsd</datafile>
+            <datafile name="Clothes_3NippleSize" target="Clothes_3" local="true">Clothes_3NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="Cape_1NippleAreola" target="Cape_1" local="true">Cape_1NippleAreola.bsd</datafile>
+            <datafile name="Cape_2NippleAreola" target="Cape_2" local="true">Cape_2NippleAreola.bsd</datafile>
+            <datafile name="Cape_3NippleAreola" target="Cape_3" local="true">Cape_3NippleAreola.bsd</datafile>
+            <datafile name="Clothes_1NippleAreola" target="Clothes_1" local="true">Clothes_1NippleAreola.bsd</datafile>
+            <datafile name="Clothes_2NippleAreola" target="Clothes_2" local="true">Clothes_2NippleAreola.bsd</datafile>
+            <datafile name="Clothes_3NippleAreola" target="Clothes_3" local="true">Clothes_3NippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="Cape_1NippleUp" target="Cape_1" local="true">Cape_1NippleUp.bsd</datafile>
+            <datafile name="Cape_2NippleUp" target="Cape_2" local="true">Cape_2NippleUp.bsd</datafile>
+            <datafile name="Cape_3NippleUp" target="Cape_3" local="true">Cape_3NippleUp.bsd</datafile>
+            <datafile name="Clothes_1NippleUp" target="Clothes_1" local="true">Clothes_1NippleUp.bsd</datafile>
+            <datafile name="Clothes_2NippleUp" target="Clothes_2" local="true">Clothes_2NippleUp.bsd</datafile>
+            <datafile name="Clothes_3NippleUp" target="Clothes_3" local="true">Clothes_3NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="Cape_1NippleDown" target="Cape_1" local="true">Cape_1NippleDown.bsd</datafile>
+            <datafile name="Cape_2NippleDown" target="Cape_2" local="true">Cape_2NippleDown.bsd</datafile>
+            <datafile name="Cape_3NippleDown" target="Cape_3" local="true">Cape_3NippleDown.bsd</datafile>
+            <datafile name="Clothes_1NippleDown" target="Clothes_1" local="true">Clothes_1NippleDown.bsd</datafile>
+            <datafile name="Clothes_2NippleDown" target="Clothes_2" local="true">Clothes_2NippleDown.bsd</datafile>
+            <datafile name="Clothes_3NippleDown" target="Clothes_3" local="true">Clothes_3NippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="Clothes_1NippleTip" target="Clothes_1" local="true">Clothes_1NippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="Cape_1Arms" target="Cape_1" local="true">Cape_1Arms.bsd</datafile>
+            <datafile name="Cape_2Arms" target="Cape_2" local="true">Cape_2Arms.bsd</datafile>
+            <datafile name="Cape_3Arms" target="Cape_3" local="true">Cape_3Arms.bsd</datafile>
+            <datafile name="Clothes_1Arms" target="Clothes_1" local="true">Clothes_1Arms.bsd</datafile>
+            <datafile name="Clothes_2Arms" target="Clothes_2" local="true">Clothes_2Arms.bsd</datafile>
+            <datafile name="Clothes_3Arms" target="Clothes_3" local="true">Clothes_3Arms.bsd</datafile>
+            <datafile name="Glove_2Arms" target="Glove_2" local="true">Glove_2Arms.bsd</datafile>
+            <datafile name="Glove_3Arms" target="Glove_3" local="true">Glove_3Arms.bsd</datafile>
+            <datafile name="Glove_1Arms" target="Glove_1" local="true">Glove_1Arms.bsd</datafile>
+            <datafile name="Glove_4Arms" target="Glove_4" local="true">Glove_4Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="Cape_1ChubbyArms" target="Cape_1" local="true">Cape_1ChubbyArms.bsd</datafile>
+            <datafile name="Cape_2ChubbyArms" target="Cape_2" local="true">Cape_2ChubbyArms.bsd</datafile>
+            <datafile name="Cape_3ChubbyArms" target="Cape_3" local="true">Cape_3ChubbyArms.bsd</datafile>
+            <datafile name="Clothes_1ChubbyArms" target="Clothes_1" local="true">Clothes_1ChubbyArms.bsd</datafile>
+            <datafile name="Clothes_2ChubbyArms" target="Clothes_2" local="true">Clothes_2ChubbyArms.bsd</datafile>
+            <datafile name="Clothes_3ChubbyArms" target="Clothes_3" local="true">Clothes_3ChubbyArms.bsd</datafile>
+            <datafile name="Glove_2ChubbyArms" target="Glove_2" local="true">Glove_2ChubbyArms.bsd</datafile>
+            <datafile name="Glove_3ChubbyArms" target="Glove_3" local="true">Glove_3ChubbyArms.bsd</datafile>
+            <datafile name="Glove_1ChubbyArms" target="Glove_1" local="true">Glove_1ChubbyArms.bsd</datafile>
+            <datafile name="Glove_4ChubbyArms" target="Glove_4" local="true">Glove_4ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="Cape_1ShoulderSmooth" target="Cape_1" local="true">Cape_1ShoulderSmooth.bsd</datafile>
+            <datafile name="Cape_2ShoulderSmooth" target="Cape_2" local="true">Cape_2ShoulderSmooth.bsd</datafile>
+            <datafile name="Cape_3ShoulderSmooth" target="Cape_3" local="true">Cape_3ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="Cape_1ShoulderWidth" target="Cape_1" local="true">Cape_1ShoulderWidth.bsd</datafile>
+            <datafile name="Cape_2ShoulderWidth" target="Cape_2" local="true">Cape_2ShoulderWidth.bsd</datafile>
+            <datafile name="Cape_3ShoulderWidth" target="Cape_3" local="true">Cape_3ShoulderWidth.bsd</datafile>
+            <datafile name="Clothes_1ShoulderWidth" target="Clothes_1" local="true">Clothes_1ShoulderWidth.bsd</datafile>
+            <datafile name="Clothes_2ShoulderWidth" target="Clothes_2" local="true">Clothes_2ShoulderWidth.bsd</datafile>
+            <datafile name="Clothes_3ShoulderWidth" target="Clothes_3" local="true">Clothes_3ShoulderWidth.bsd</datafile>
+            <datafile name="Glove_2ShoulderWidth" target="Glove_2" local="true">Glove_2ShoulderWidth.bsd</datafile>
+            <datafile name="Glove_3ShoulderWidth" target="Glove_3" local="true">Glove_3ShoulderWidth.bsd</datafile>
+            <datafile name="Glove_1ShoulderWidth" target="Glove_1" local="true">Glove_1ShoulderWidth.bsd</datafile>
+            <datafile name="Glove_4ShoulderWidth" target="Glove_4" local="true">Glove_4ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="PantyBigTorso" target="Panty" local="true">PantyBigTorso.bsd</datafile>
+            <datafile name="Skirt_1BigTorso" target="Skirt_1" local="true">Skirt_1BigTorso.bsd</datafile>
+            <datafile name="Skirt_2BigTorso" target="Skirt_2" local="true">Skirt_2BigTorso.bsd</datafile>
+            <datafile name="Skirt_3BigTorso" target="Skirt_3" local="true">Skirt_3BigTorso.bsd</datafile>
+            <datafile name="Cape_1BigTorso" target="Cape_1" local="true">Cape_1BigTorso.bsd</datafile>
+            <datafile name="Cape_2BigTorso" target="Cape_2" local="true">Cape_2BigTorso.bsd</datafile>
+            <datafile name="Cape_3BigTorso" target="Cape_3" local="true">Cape_3BigTorso.bsd</datafile>
+            <datafile name="Clothes_1BigTorso" target="Clothes_1" local="true">Clothes_1BigTorso.bsd</datafile>
+            <datafile name="Clothes_2BigTorso" target="Clothes_2" local="true">Clothes_2BigTorso.bsd</datafile>
+            <datafile name="Clothes_3BigTorso" target="Clothes_3" local="true">Clothes_3BigTorso.bsd</datafile>
+            <datafile name="Glove_2BigTorso" target="Glove_2" local="true">Glove_2BigTorso.bsd</datafile>
+            <datafile name="Glove_3BigTorso" target="Glove_3" local="true">Glove_3BigTorso.bsd</datafile>
+            <datafile name="Glove_1BigTorso" target="Glove_1" local="true">Glove_1BigTorso.bsd</datafile>
+            <datafile name="Glove_4BigTorso" target="Glove_4" local="true">Glove_4BigTorso.bsd</datafile>
+            <datafile name="Glove_5BigTorso" target="Glove_5" local="true">Glove_5BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="PantyWaist" target="Panty" local="true">PantyWaist.bsd</datafile>
+            <datafile name="Skirt_1Waist" target="Skirt_1" local="true">Skirt_1Waist.bsd</datafile>
+            <datafile name="Skirt_2Waist" target="Skirt_2" local="true">Skirt_2Waist.bsd</datafile>
+            <datafile name="Skirt_3Waist" target="Skirt_3" local="true">Skirt_3Waist.bsd</datafile>
+            <datafile name="Cape_1Waist" target="Cape_1" local="true">Cape_1Waist.bsd</datafile>
+            <datafile name="Cape_2Waist" target="Cape_2" local="true">Cape_2Waist.bsd</datafile>
+            <datafile name="Cape_3Waist" target="Cape_3" local="true">Cape_3Waist.bsd</datafile>
+            <datafile name="Clothes_1Waist" target="Clothes_1" local="true">Clothes_1Waist.bsd</datafile>
+            <datafile name="Clothes_2Waist" target="Clothes_2" local="true">Clothes_2Waist.bsd</datafile>
+            <datafile name="Clothes_3Waist" target="Clothes_3" local="true">Clothes_3Waist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="PantyWideWaistLine" target="Panty" local="true">PantyWideWaistLine.bsd</datafile>
+            <datafile name="Skirt_1WideWaistLine" target="Skirt_1" local="true">Skirt_1WideWaistLine.bsd</datafile>
+            <datafile name="Skirt_2WideWaistLine" target="Skirt_2" local="true">Skirt_2WideWaistLine.bsd</datafile>
+            <datafile name="Skirt_3WideWaistLine" target="Skirt_3" local="true">Skirt_3WideWaistLine.bsd</datafile>
+            <datafile name="Cape_2WideWaistLine" target="Cape_2" local="true">Cape_2WideWaistLine.bsd</datafile>
+            <datafile name="Cape_3WideWaistLine" target="Cape_3" local="true">Cape_3WideWaistLine.bsd</datafile>
+            <datafile name="Clothes_1WideWaistLine" target="Clothes_1" local="true">Clothes_1WideWaistLine.bsd</datafile>
+            <datafile name="Clothes_2WideWaistLine" target="Clothes_2" local="true">Clothes_2WideWaistLine.bsd</datafile>
+            <datafile name="Clothes_3WideWaistLine" target="Clothes_3" local="true">Clothes_3WideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="PantyChubbyWaist" target="Panty" local="true">PantyChubbyWaist.bsd</datafile>
+            <datafile name="Skirt_1ChubbyWaist" target="Skirt_1" local="true">Skirt_1ChubbyWaist.bsd</datafile>
+            <datafile name="Skirt_2ChubbyWaist" target="Skirt_2" local="true">Skirt_2ChubbyWaist.bsd</datafile>
+            <datafile name="Skirt_3ChubbyWaist" target="Skirt_3" local="true">Skirt_3ChubbyWaist.bsd</datafile>
+            <datafile name="Cape_1ChubbyWaist" target="Cape_1" local="true">Cape_1ChubbyWaist.bsd</datafile>
+            <datafile name="Cape_2ChubbyWaist" target="Cape_2" local="true">Cape_2ChubbyWaist.bsd</datafile>
+            <datafile name="Cape_3ChubbyWaist" target="Cape_3" local="true">Cape_3ChubbyWaist.bsd</datafile>
+            <datafile name="Clothes_1ChubbyWaist" target="Clothes_1" local="true">Clothes_1ChubbyWaist.bsd</datafile>
+            <datafile name="Clothes_2ChubbyWaist" target="Clothes_2" local="true">Clothes_2ChubbyWaist.bsd</datafile>
+            <datafile name="Clothes_3ChubbyWaist" target="Clothes_3" local="true">Clothes_3ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="PantyBelly" target="Panty" local="true">PantyBelly.bsd</datafile>
+            <datafile name="Skirt_1Belly" target="Skirt_1" local="true">Skirt_1Belly.bsd</datafile>
+            <datafile name="Skirt_2Belly" target="Skirt_2" local="true">Skirt_2Belly.bsd</datafile>
+            <datafile name="Skirt_3Belly" target="Skirt_3" local="true">Skirt_3Belly.bsd</datafile>
+            <datafile name="Clothes_1Belly" target="Clothes_1" local="true">Clothes_1Belly.bsd</datafile>
+            <datafile name="Clothes_2Belly" target="Clothes_2" local="true">Clothes_2Belly.bsd</datafile>
+            <datafile name="Clothes_3Belly" target="Clothes_3" local="true">Clothes_3Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="PantyBigBelly" target="Panty" local="true">PantyBigBelly.bsd</datafile>
+            <datafile name="Skirt_1BigBelly" target="Skirt_1" local="true">Skirt_1BigBelly.bsd</datafile>
+            <datafile name="Skirt_2BigBelly" target="Skirt_2" local="true">Skirt_2BigBelly.bsd</datafile>
+            <datafile name="Skirt_3BigBelly" target="Skirt_3" local="true">Skirt_3BigBelly.bsd</datafile>
+            <datafile name="Clothes_1BigBelly" target="Clothes_1" local="true">Clothes_1BigBelly.bsd</datafile>
+            <datafile name="Clothes_2BigBelly" target="Clothes_2" local="true">Clothes_2BigBelly.bsd</datafile>
+            <datafile name="Clothes_3BigBelly" target="Clothes_3" local="true">Clothes_3BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="PantyPregnancyBelly" target="Panty" local="true">PantyPregnancyBelly.bsd</datafile>
+            <datafile name="Skirt_1PregnancyBelly" target="Skirt_1" local="true">Skirt_1PregnancyBelly.bsd</datafile>
+            <datafile name="Skirt_2PregnancyBelly" target="Skirt_2" local="true">Skirt_2PregnancyBelly.bsd</datafile>
+            <datafile name="Skirt_3PregnancyBelly" target="Skirt_3" local="true">Skirt_3PregnancyBelly.bsd</datafile>
+            <datafile name="Cape_1PregnancyBelly" target="Cape_1" local="true">Cape_1PregnancyBelly.bsd</datafile>
+            <datafile name="Cape_2PregnancyBelly" target="Cape_2" local="true">Cape_2PregnancyBelly.bsd</datafile>
+            <datafile name="Cape_3PregnancyBelly" target="Cape_3" local="true">Cape_3PregnancyBelly.bsd</datafile>
+            <datafile name="Clothes_1PregnancyBelly" target="Clothes_1" local="true">Clothes_1PregnancyBelly.bsd</datafile>
+            <datafile name="Clothes_2PregnancyBelly" target="Clothes_2" local="true">Clothes_2PregnancyBelly.bsd</datafile>
+            <datafile name="Clothes_3PregnancyBelly" target="Clothes_3" local="true">Clothes_3PregnancyBelly.bsd</datafile>
+            <datafile name="boots_1PregnancyBelly" target="boots_1" local="true">boots_1PregnancyBelly.bsd</datafile>
+            <datafile name="boots_2PregnancyBelly" target="boots_2" local="true">boots_2PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="PantyTummyTuck" target="Panty" local="true">PantyTummyTuck.bsd</datafile>
+            <datafile name="Skirt_1TummyTuck" target="Skirt_1" local="true">Skirt_1TummyTuck.bsd</datafile>
+            <datafile name="Skirt_2TummyTuck" target="Skirt_2" local="true">Skirt_2TummyTuck.bsd</datafile>
+            <datafile name="Skirt_3TummyTuck" target="Skirt_3" local="true">Skirt_3TummyTuck.bsd</datafile>
+            <datafile name="Clothes_1TummyTuck" target="Clothes_1" local="true">Clothes_1TummyTuck.bsd</datafile>
+            <datafile name="Glove_1TummyTuck" target="Glove_1" local="true">Glove_1TummyTuck.bsd</datafile>
+            <datafile name="Glove_4TummyTuck" target="Glove_4" local="true">Glove_4TummyTuck.bsd</datafile>
+            <datafile name="Glove_5TummyTuck" target="Glove_5" local="true">Glove_5TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="PantyBack" target="Panty" local="true">PantyBack.bsd</datafile>
+            <datafile name="Skirt_1Back" target="Skirt_1" local="true">Skirt_1Back.bsd</datafile>
+            <datafile name="Skirt_2Back" target="Skirt_2" local="true">Skirt_2Back.bsd</datafile>
+            <datafile name="Skirt_3Back" target="Skirt_3" local="true">Skirt_3Back.bsd</datafile>
+            <datafile name="Cape_1Back" target="Cape_1" local="true">Cape_1Back.bsd</datafile>
+            <datafile name="Cape_2Back" target="Cape_2" local="true">Cape_2Back.bsd</datafile>
+            <datafile name="Cape_3Back" target="Cape_3" local="true">Cape_3Back.bsd</datafile>
+            <datafile name="Clothes_1Back" target="Clothes_1" local="true">Clothes_1Back.bsd</datafile>
+            <datafile name="Clothes_2Back" target="Clothes_2" local="true">Clothes_2Back.bsd</datafile>
+            <datafile name="Clothes_3Back" target="Clothes_3" local="true">Clothes_3Back.bsd</datafile>
+            <datafile name="Glove_2Back" target="Glove_2" local="true">Glove_2Back.bsd</datafile>
+            <datafile name="Glove_3Back" target="Glove_3" local="true">Glove_3Back.bsd</datafile>
+            <datafile name="Glove_1Back" target="Glove_1" local="true">Glove_1Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="PantyHipbone" target="Panty" local="true">PantyHipbone.bsd</datafile>
+            <datafile name="Skirt_1Hipbone" target="Skirt_1" local="true">Skirt_1Hipbone.bsd</datafile>
+            <datafile name="Skirt_2Hipbone" target="Skirt_2" local="true">Skirt_2Hipbone.bsd</datafile>
+            <datafile name="Skirt_3Hipbone" target="Skirt_3" local="true">Skirt_3Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="PantyHips" target="Panty" local="true">PantyHips.bsd</datafile>
+            <datafile name="Skirt_1Hips" target="Skirt_1" local="true">Skirt_1Hips.bsd</datafile>
+            <datafile name="Skirt_2Hips" target="Skirt_2" local="true">Skirt_2Hips.bsd</datafile>
+            <datafile name="Skirt_3Hips" target="Skirt_3" local="true">Skirt_3Hips.bsd</datafile>
+            <datafile name="Cape_2Hips" target="Cape_2" local="true">Cape_2Hips.bsd</datafile>
+            <datafile name="Cape_3Hips" target="Cape_3" local="true">Cape_3Hips.bsd</datafile>
+            <datafile name="Clothes_1Hips" target="Clothes_1" local="true">Clothes_1Hips.bsd</datafile>
+            <datafile name="Clothes_2Hips" target="Clothes_2" local="true">Clothes_2Hips.bsd</datafile>
+            <datafile name="Clothes_3Hips" target="Clothes_3" local="true">Clothes_3Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="PantyButtCrack" target="Panty" local="true">PantyButtCrack.bsd</datafile>
+            <datafile name="Skirt_1ButtCrack" target="Skirt_1" local="true">Skirt_1ButtCrack.bsd</datafile>
+            <datafile name="Skirt_2ButtCrack" target="Skirt_2" local="true">Skirt_2ButtCrack.bsd</datafile>
+            <datafile name="Skirt_3ButtCrack" target="Skirt_3" local="true">Skirt_3ButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="PantyButt" target="Panty" local="true">PantyButt.bsd</datafile>
+            <datafile name="Skirt_1Butt" target="Skirt_1" local="true">Skirt_1Butt.bsd</datafile>
+            <datafile name="Skirt_2Butt" target="Skirt_2" local="true">Skirt_2Butt.bsd</datafile>
+            <datafile name="Skirt_3Butt" target="Skirt_3" local="true">Skirt_3Butt.bsd</datafile>
+            <datafile name="Cape_2Butt" target="Cape_2" local="true">Cape_2Butt.bsd</datafile>
+            <datafile name="Cape_3Butt" target="Cape_3" local="true">Cape_3Butt.bsd</datafile>
+            <datafile name="Clothes_1Butt" target="Clothes_1" local="true">Clothes_1Butt.bsd</datafile>
+            <datafile name="Glove_2Butt" target="Glove_2" local="true">Glove_2Butt.bsd</datafile>
+            <datafile name="Glove_3Butt" target="Glove_3" local="true">Glove_3Butt.bsd</datafile>
+            <datafile name="Glove_1Butt" target="Glove_1" local="true">Glove_1Butt.bsd</datafile>
+            <datafile name="Glove_4Butt" target="Glove_4" local="true">Glove_4Butt.bsd</datafile>
+            <datafile name="Glove_5Butt" target="Glove_5" local="true">Glove_5Butt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="PantyButtSmall" target="Panty" local="true">PantyButtSmall.bsd</datafile>
+            <datafile name="Skirt_1ButtSmall" target="Skirt_1" local="true">Skirt_1ButtSmall.bsd</datafile>
+            <datafile name="Skirt_2ButtSmall" target="Skirt_2" local="true">Skirt_2ButtSmall.bsd</datafile>
+            <datafile name="Skirt_3ButtSmall" target="Skirt_3" local="true">Skirt_3ButtSmall.bsd</datafile>
+            <datafile name="Cape_2ButtSmall" target="Cape_2" local="true">Cape_2ButtSmall.bsd</datafile>
+            <datafile name="Clothes_1ButtSmall" target="Clothes_1" local="true">Clothes_1ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="PantyButtShape2" target="Panty" local="true">PantyButtShape2.bsd</datafile>
+            <datafile name="Skirt_1ButtShape2" target="Skirt_1" local="true">Skirt_1ButtShape2.bsd</datafile>
+            <datafile name="Skirt_2ButtShape2" target="Skirt_2" local="true">Skirt_2ButtShape2.bsd</datafile>
+            <datafile name="Skirt_3ButtShape2" target="Skirt_3" local="true">Skirt_3ButtShape2.bsd</datafile>
+            <datafile name="Cape_1ButtShape2" target="Cape_1" local="true">Cape_1ButtShape2.bsd</datafile>
+            <datafile name="Cape_2ButtShape2" target="Cape_2" local="true">Cape_2ButtShape2.bsd</datafile>
+            <datafile name="Cape_3ButtShape2" target="Cape_3" local="true">Cape_3ButtShape2.bsd</datafile>
+            <datafile name="Clothes_1ButtShape2" target="Clothes_1" local="true">Clothes_1ButtShape2.bsd</datafile>
+            <datafile name="Clothes_2ButtShape2" target="Clothes_2" local="true">Clothes_2ButtShape2.bsd</datafile>
+            <datafile name="Clothes_3ButtShape2" target="Clothes_3" local="true">Clothes_3ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="PantyBigButt" target="Panty" local="true">PantyBigButt.bsd</datafile>
+            <datafile name="Skirt_1BigButt" target="Skirt_1" local="true">Skirt_1BigButt.bsd</datafile>
+            <datafile name="Skirt_2BigButt" target="Skirt_2" local="true">Skirt_2BigButt.bsd</datafile>
+            <datafile name="Skirt_3BigButt" target="Skirt_3" local="true">Skirt_3BigButt.bsd</datafile>
+            <datafile name="Cape_2BigButt" target="Cape_2" local="true">Cape_2BigButt.bsd</datafile>
+            <datafile name="Cape_3BigButt" target="Cape_3" local="true">Cape_3BigButt.bsd</datafile>
+            <datafile name="Clothes_1BigButt" target="Clothes_1" local="true">Clothes_1BigButt.bsd</datafile>
+            <datafile name="Clothes_2BigButt" target="Clothes_2" local="true">Clothes_2BigButt.bsd</datafile>
+            <datafile name="Clothes_3BigButt" target="Clothes_3" local="true">Clothes_3BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="PantyChubbyButt" target="Panty" local="true">PantyChubbyButt.bsd</datafile>
+            <datafile name="Skirt_1ChubbyButt" target="Skirt_1" local="true">Skirt_1ChubbyButt.bsd</datafile>
+            <datafile name="Skirt_2ChubbyButt" target="Skirt_2" local="true">Skirt_2ChubbyButt.bsd</datafile>
+            <datafile name="Skirt_3ChubbyButt" target="Skirt_3" local="true">Skirt_3ChubbyButt.bsd</datafile>
+            <datafile name="Cape_1ChubbyButt" target="Cape_1" local="true">Cape_1ChubbyButt.bsd</datafile>
+            <datafile name="Cape_2ChubbyButt" target="Cape_2" local="true">Cape_2ChubbyButt.bsd</datafile>
+            <datafile name="Cape_3ChubbyButt" target="Cape_3" local="true">Cape_3ChubbyButt.bsd</datafile>
+            <datafile name="Clothes_1ChubbyButt" target="Clothes_1" local="true">Clothes_1ChubbyButt.bsd</datafile>
+            <datafile name="Clothes_2ChubbyButt" target="Clothes_2" local="true">Clothes_2ChubbyButt.bsd</datafile>
+            <datafile name="Clothes_3ChubbyButt" target="Clothes_3" local="true">Clothes_3ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="PantyAppleCheeks" target="Panty" local="true">PantyAppleCheeks.bsd</datafile>
+            <datafile name="Skirt_1AppleCheeks" target="Skirt_1" local="true">Skirt_1AppleCheeks.bsd</datafile>
+            <datafile name="Skirt_2AppleCheeks" target="Skirt_2" local="true">Skirt_2AppleCheeks.bsd</datafile>
+            <datafile name="Skirt_3AppleCheeks" target="Skirt_3" local="true">Skirt_3AppleCheeks.bsd</datafile>
+            <datafile name="Cape_1AppleCheeks" target="Cape_1" local="true">Cape_1AppleCheeks.bsd</datafile>
+            <datafile name="Cape_2AppleCheeks" target="Cape_2" local="true">Cape_2AppleCheeks.bsd</datafile>
+            <datafile name="Cape_3AppleCheeks" target="Cape_3" local="true">Cape_3AppleCheeks.bsd</datafile>
+            <datafile name="Clothes_1AppleCheeks" target="Clothes_1" local="true">Clothes_1AppleCheeks.bsd</datafile>
+            <datafile name="Clothes_2AppleCheeks" target="Clothes_2" local="true">Clothes_2AppleCheeks.bsd</datafile>
+            <datafile name="Clothes_3AppleCheeks" target="Clothes_3" local="true">Clothes_3AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="PantyRoundAss" target="Panty" local="true">PantyRoundAss.bsd</datafile>
+            <datafile name="Skirt_1RoundAss" target="Skirt_1" local="true">Skirt_1RoundAss.bsd</datafile>
+            <datafile name="Skirt_2RoundAss" target="Skirt_2" local="true">Skirt_2RoundAss.bsd</datafile>
+            <datafile name="Skirt_3RoundAss" target="Skirt_3" local="true">Skirt_3RoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="PantyGroin" target="Panty" local="true">PantyGroin.bsd</datafile>
+            <datafile name="Skirt_1Groin" target="Skirt_1" local="true">Skirt_1Groin.bsd</datafile>
+            <datafile name="Skirt_2Groin" target="Skirt_2" local="true">Skirt_2Groin.bsd</datafile>
+            <datafile name="Skirt_3Groin" target="Skirt_3" local="true">Skirt_3Groin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="PantySlimThighs" target="Panty" local="true">PantySlimThighs.bsd</datafile>
+            <datafile name="Skirt_1SlimThighs" target="Skirt_1" local="true">Skirt_1SlimThighs.bsd</datafile>
+            <datafile name="Skirt_2SlimThighs" target="Skirt_2" local="true">Skirt_2SlimThighs.bsd</datafile>
+            <datafile name="Skirt_3SlimThighs" target="Skirt_3" local="true">Skirt_3SlimThighs.bsd</datafile>
+            <datafile name="Cape_2SlimThighs" target="Cape_2" local="true">Cape_2SlimThighs.bsd</datafile>
+            <datafile name="Cape_3SlimThighs" target="Cape_3" local="true">Cape_3SlimThighs.bsd</datafile>
+            <datafile name="Clothes_1SlimThighs" target="Clothes_1" local="true">Clothes_1SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="PantyThighs" target="Panty" local="true">PantyThighs.bsd</datafile>
+            <datafile name="Skirt_1Thighs" target="Skirt_1" local="true">Skirt_1Thighs.bsd</datafile>
+            <datafile name="Skirt_2Thighs" target="Skirt_2" local="true">Skirt_2Thighs.bsd</datafile>
+            <datafile name="Skirt_3Thighs" target="Skirt_3" local="true">Skirt_3Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="PantyChubbyLegs" target="Panty" local="true">PantyChubbyLegs.bsd</datafile>
+            <datafile name="Skirt_1ChubbyLegs" target="Skirt_1" local="true">Skirt_1ChubbyLegs.bsd</datafile>
+            <datafile name="Skirt_2ChubbyLegs" target="Skirt_2" local="true">Skirt_2ChubbyLegs.bsd</datafile>
+            <datafile name="Skirt_3ChubbyLegs" target="Skirt_3" local="true">Skirt_3ChubbyLegs.bsd</datafile>
+            <datafile name="boots_1ChubbyLegs" target="boots_1" local="true">boots_1ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="PantyLegs" target="Panty" local="true">PantyLegs.bsd</datafile>
+            <datafile name="Skirt_1Legs" target="Skirt_1" local="true">Skirt_1Legs.bsd</datafile>
+            <datafile name="Skirt_2Legs" target="Skirt_2" local="true">Skirt_2Legs.bsd</datafile>
+            <datafile name="Skirt_3Legs" target="Skirt_3" local="true">Skirt_3Legs.bsd</datafile>
+            <datafile name="boots_1Legs" target="boots_1" local="true">boots_1Legs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="PantyKneeHeight" target="Panty" local="true">PantyKneeHeight.bsd</datafile>
+            <datafile name="Skirt_1KneeHeight" target="Skirt_1" local="true">Skirt_1KneeHeight.bsd</datafile>
+            <datafile name="Skirt_2KneeHeight" target="Skirt_2" local="true">Skirt_2KneeHeight.bsd</datafile>
+            <datafile name="Skirt_3KneeHeight" target="Skirt_3" local="true">Skirt_3KneeHeight.bsd</datafile>
+            <datafile name="boots_1KneeHeight" target="boots_1" local="true">boots_1KneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="boots_1CalfSize" target="boots_1" local="true">boots_1CalfSize.bsd</datafile>
+            <datafile name="boots_2CalfSize" target="boots_2" local="true">boots_2CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="boots_1CalfSmooth" target="boots_1" local="true">boots_1CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="boots_1Ankles" target="boots_1" local="true">boots_1Ankles.bsd</datafile>
+            <datafile name="boots_2Ankles" target="boots_2" local="true">boots_2Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="Cape_1SmallSeam" target="Cape_1" local="true">Cape_1SmallSeam.bsd</datafile>
+            <datafile name="Cape_2SmallSeam" target="Cape_2" local="true">Cape_2SmallSeam.bsd</datafile>
+            <datafile name="Cape_3SmallSeam" target="Cape_3" local="true">Cape_3SmallSeam.bsd</datafile>
+            <datafile name="Glove_2SmallSeam" target="Glove_2" local="true">Glove_2SmallSeam.bsd</datafile>
+            <datafile name="Glove_3SmallSeam" target="Glove_3" local="true">Glove_3SmallSeam.bsd</datafile>
+            <datafile name="Glove_1SmallSeam" target="Glove_1" local="true">Glove_1SmallSeam.bsd</datafile>
+            <datafile name="Glove_4SmallSeam" target="Glove_4" local="true">Glove_4SmallSeam.bsd</datafile>
+            <datafile name="Glove_5SmallSeam" target="Glove_5" local="true">Glove_5SmallSeam.bsd</datafile>
+            <datafile name="boots_1SmallSeam" target="boots_1" local="true">boots_1SmallSeam.bsd</datafile>
+            <datafile name="boots_2SmallSeam" target="boots_2" local="true">boots_2SmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="Cape_1ShoulderTweak" target="Cape_1" local="true">Cape_1ShoulderTweak.bsd</datafile>
+            <datafile name="Cape_2ShoulderTweak" target="Cape_2" local="true">Cape_2ShoulderTweak.bsd</datafile>
+            <datafile name="Cape_3ShoulderTweak" target="Cape_3" local="true">Cape_3ShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

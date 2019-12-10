@@ -1,0 +1,295 @@
+<SliderSetInfo version="1">
+    <SliderSet name="DwarvenDD_body">
+        <DataFolder>DwarvenDevious</DataFolder>
+        <SourceFile>DwarvenDD_body.nif</SourceFile>
+        <OutputPath>meshes\devious\dwarven</OutputPath>
+        <OutputFile GenWeights="true">DwarvenDD_body</OutputFile>
+        <Shape target="HeartAnal">HeartAnal</Shape>
+        <Shape target="HeartBody">HeartBody</Shape>
+        <Shape target="HeartVaginal">HeartVaginal</Shape>
+        <Shape target="SC_Body">SC_Body</Shape>
+        <Shape target="SC_CalfA">SC_CalfA</Shape>
+        <Shape target="SteamAnal">SteamAnal</Shape>
+        <Shape target="SteamCalfA">SteamCalfA</Shape>
+        <Shape target="SteamCenturionBody">SteamCenturionBody</Shape>
+        <Shape target="SteamVaginal">SteamVaginal</Shape>
+        <Shape target="ZNobBody">ZNobBody</Shape>
+        <Shape target="body2" DataFolder="DwarvenDevious">BaseShape</Shape>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="body2ShoulderWidth" target="body2" local="true">DwarvenDD_body.osd\body2ShoulderWidth</Data>
+            <Data name="HeartBodyShoulderWidth" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyShoulderWidth</Data>
+            <Data name="ZNobBodyShoulderWidth" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyShoulderWidth</Data>
+            <Data name="SC_BodyShoulderWidth" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyShoulderWidth</Data>
+            <Data name="SteamCenturionBodyShoulderWidth" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyShoulderWidth</Data>
+            <Data name="SC_CalfAShoulderWidth" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfAShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="body2BigTorso" target="body2" local="true">DwarvenDD_body.osd\body2BigTorso</Data>
+            <Data name="HeartBodyBigTorso" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyBigTorso</Data>
+            <Data name="ZNobBodyBigTorso" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyBigTorso</Data>
+            <Data name="SC_BodyBigTorso" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyBigTorso</Data>
+            <Data name="SteamCenturionBodyBigTorso" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyBigTorso</Data>
+            <Data name="SC_CalfABigTorso" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfABigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="body2Waist" target="body2" local="true">DwarvenDD_body.osd\body2Waist</Data>
+            <Data name="HeartBodyWaist" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyWaist</Data>
+            <Data name="ZNobBodyWaist" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyWaist</Data>
+            <Data name="SC_BodyWaist" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyWaist</Data>
+            <Data name="SteamCenturionBodyWaist" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="body2WideWaistLine" target="body2" local="true">DwarvenDD_body.osd\body2WideWaistLine</Data>
+            <Data name="ZNobBodyWideWaistLine" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyWideWaistLine</Data>
+            <Data name="SC_BodyWideWaistLine" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyWideWaistLine</Data>
+            <Data name="SteamCenturionBodyWideWaistLine" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="body2ChubbyWaist" target="body2" local="true">DwarvenDD_body.osd\body2ChubbyWaist</Data>
+            <Data name="HeartBodyChubbyWaist" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyChubbyWaist</Data>
+            <Data name="ZNobBodyChubbyWaist" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyChubbyWaist</Data>
+            <Data name="SC_BodyChubbyWaist" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyChubbyWaist</Data>
+            <Data name="SteamCenturionBodyChubbyWaist" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="body2Belly" target="body2" local="true">DwarvenDD_body.osd\body2Belly</Data>
+            <Data name="HeartBodyBelly" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyBelly</Data>
+            <Data name="ZNobBodyBelly" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyBelly</Data>
+            <Data name="SC_BodyBelly" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyBelly</Data>
+            <Data name="SteamCenturionBodyBelly" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="body2BigBelly" target="body2" local="true">DwarvenDD_body.osd\body2BigBelly</Data>
+            <Data name="HeartBodyBigBelly" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyBigBelly</Data>
+            <Data name="ZNobBodyBigBelly" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyBigBelly</Data>
+            <Data name="SC_BodyBigBelly" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyBigBelly</Data>
+            <Data name="SteamCenturionBodyBigBelly" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="body2TummyTuck" target="body2" local="true">DwarvenDD_body.osd\body2TummyTuck</Data>
+            <Data name="SC_BodyTummyTuck" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyTummyTuck</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="body2Hipbone" target="body2" local="true">DwarvenDD_body.osd\body2Hipbone</Data>
+            <Data name="SC_BodyHipbone" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyHipbone</Data>
+            <Data name="SteamCenturionBodyHipbone" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="body2Hips" target="body2" local="true">DwarvenDD_body.osd\body2Hips</Data>
+            <Data name="HeartBodyHips" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyHips</Data>
+            <Data name="ZNobBodyHips" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyHips</Data>
+            <Data name="SC_BodyHips" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyHips</Data>
+            <Data name="SteamCenturionBodyHips" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="body2ButtCrack" target="body2" local="true">DwarvenDD_body.osd\body2ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="body2Butt" target="body2" local="true">DwarvenDD_body.osd\body2Butt</Data>
+            <Data name="HeartBodyButt" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyButt</Data>
+            <Data name="ZNobBodyButt" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyButt</Data>
+            <Data name="SC_BodyButt" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyButt</Data>
+            <Data name="SteamCenturionBodyButt" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="body2ButtSmall" target="body2" local="true">DwarvenDD_body.osd\body2ButtSmall</Data>
+            <Data name="HeartBodyButtSmall" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyButtSmall</Data>
+            <Data name="ZNobBodyButtSmall" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyButtSmall</Data>
+            <Data name="SC_BodyButtSmall" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyButtSmall</Data>
+            <Data name="SteamCenturionBodyButtSmall" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyButtSmall</Data>
+            <Data name="SC_CalfAButtSmall" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfAButtSmall</Data>
+            <Data name="SteamCalfAButtSmall" target="SteamCalfA" local="true">DwarvenDD_body.osd\SteamCalfAButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="body2ButtShape2" target="body2" local="true">DwarvenDD_body.osd\body2ButtShape2</Data>
+            <Data name="HeartBodyButtShape2" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyButtShape2</Data>
+            <Data name="ZNobBodyButtShape2" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyButtShape2</Data>
+            <Data name="SC_BodyButtShape2" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyButtShape2</Data>
+            <Data name="SteamCenturionBodyButtShape2" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="body2BigButt" target="body2" local="true">DwarvenDD_body.osd\body2BigButt</Data>
+            <Data name="HeartBodyBigButt" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyBigButt</Data>
+            <Data name="ZNobBodyBigButt" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyBigButt</Data>
+            <Data name="SC_BodyBigButt" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyBigButt</Data>
+            <Data name="SteamCenturionBodyBigButt" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="body2ChubbyButt" target="body2" local="true">DwarvenDD_body.osd\body2ChubbyButt</Data>
+            <Data name="HeartBodyChubbyButt" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyChubbyButt</Data>
+            <Data name="ZNobBodyChubbyButt" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyChubbyButt</Data>
+            <Data name="SC_BodyChubbyButt" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyChubbyButt</Data>
+            <Data name="SteamCenturionBodyChubbyButt" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="body2AppleCheeks" target="body2" local="true">DwarvenDD_body.osd\body2AppleCheeks</Data>
+            <Data name="HeartBodyAppleCheeks" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyAppleCheeks</Data>
+            <Data name="ZNobBodyAppleCheeks" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyAppleCheeks</Data>
+            <Data name="SC_BodyAppleCheeks" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyAppleCheeks</Data>
+            <Data name="SteamCenturionBodyAppleCheeks" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="body2RoundAss" target="body2" local="true">DwarvenDD_body.osd\body2RoundAss</Data>
+            <Data name="HeartBodyRoundAss" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyRoundAss</Data>
+            <Data name="ZNobBodyRoundAss" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyRoundAss</Data>
+            <Data name="SC_BodyRoundAss" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyRoundAss</Data>
+            <Data name="SteamCenturionBodyRoundAss" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyRoundAss</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="body2SlimThighs" target="body2" local="true">DwarvenDD_body.osd\body2SlimThighs</Data>
+            <Data name="HeartBodySlimThighs" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodySlimThighs</Data>
+            <Data name="ZNobBodySlimThighs" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodySlimThighs</Data>
+            <Data name="SC_BodySlimThighs" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodySlimThighs</Data>
+            <Data name="SteamCenturionBodySlimThighs" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodySlimThighs</Data>
+            <Data name="SC_CalfASlimThighs" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfASlimThighs</Data>
+            <Data name="SteamCalfASlimThighs" target="SteamCalfA" local="true">DwarvenDD_body.osd\SteamCalfASlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="body2Thighs" target="body2" local="true">DwarvenDD_body.osd\body2Thighs</Data>
+            <Data name="HeartBodyThighs" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyThighs</Data>
+            <Data name="ZNobBodyThighs" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyThighs</Data>
+            <Data name="SC_BodyThighs" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyThighs</Data>
+            <Data name="SteamCenturionBodyThighs" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyThighs</Data>
+            <Data name="SC_CalfAThighs" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfAThighs</Data>
+            <Data name="SteamCalfAThighs" target="SteamCalfA" local="true">DwarvenDD_body.osd\SteamCalfAThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="body2ChubbyLegs" target="body2" local="true">DwarvenDD_body.osd\body2ChubbyLegs</Data>
+            <Data name="HeartBodyChubbyLegs" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyChubbyLegs</Data>
+            <Data name="ZNobBodyChubbyLegs" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyChubbyLegs</Data>
+            <Data name="SC_BodyChubbyLegs" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyChubbyLegs</Data>
+            <Data name="SteamCenturionBodyChubbyLegs" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyChubbyLegs</Data>
+            <Data name="SC_CalfAChubbyLegs" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfAChubbyLegs</Data>
+            <Data name="SteamCalfAChubbyLegs" target="SteamCalfA" local="true">DwarvenDD_body.osd\SteamCalfAChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="body2Legs" target="body2" local="true">DwarvenDD_body.osd\body2Legs</Data>
+            <Data name="HeartBodyLegs" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyLegs</Data>
+            <Data name="ZNobBodyLegs" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyLegs</Data>
+            <Data name="SC_BodyLegs" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyLegs</Data>
+            <Data name="SteamCenturionBodyLegs" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyLegs</Data>
+            <Data name="SC_CalfALegs" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfALegs</Data>
+            <Data name="SteamCalfALegs" target="SteamCalfA" local="true">DwarvenDD_body.osd\SteamCalfALegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="body2KneeHeight" target="body2" local="true">DwarvenDD_body.osd\body2KneeHeight</Data>
+            <Data name="HeartBodyKneeHeight" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBodyKneeHeight</Data>
+            <Data name="ZNobBodyKneeHeight" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBodyKneeHeight</Data>
+            <Data name="SC_BodyKneeHeight" target="SC_Body" local="true">DwarvenDD_body.osd\SC_BodyKneeHeight</Data>
+            <Data name="SteamCenturionBodyKneeHeight" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBodyKneeHeight</Data>
+            <Data name="SC_CalfAKneeHeight" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfAKneeHeight</Data>
+            <Data name="SteamCalfAKneeHeight" target="SteamCalfA" local="true">DwarvenDD_body.osd\SteamCalfAKneeHeight</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="body2SmallSeam" target="body2" local="true">DwarvenDD_body.osd\body2SmallSeam</Data>
+        </Slider>
+        <Slider name="breast hide" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="body2breast hide" target="body2" local="true">DwarvenDD_body.osd\body2breast hide</Data>
+        </Slider>
+        <Slider name="01 heart body hide" invert="false" small="0" big="0" zap="true">
+            <Data name="HeartBody01 heart body hide" target="HeartBody" local="true">DwarvenDD_body.osd\HeartBody01 heart body hide</Data>
+        </Slider>
+        <Slider name="02 heart anal hide" invert="false" small="0" big="0" zap="true">
+            <Data name="HeartAnal02 heart anal hide" target="HeartAnal" local="true">DwarvenDD_body.osd\HeartAnal02 heart anal hide</Data>
+        </Slider>
+        <Slider name="03 heart vaginal hide" invert="false" small="0" big="0" zap="true">
+            <Data name="HeartVaginal03 heart vaginal hide" target="HeartVaginal" local="true">DwarvenDD_body.osd\HeartVaginal03 heart vaginal hide</Data>
+        </Slider>
+        <Slider name="04 znob body hide" invert="false" small="0" big="0" zap="true">
+            <Data name="ZNobBody04 znob body hide" target="ZNobBody" local="true">DwarvenDD_body.osd\ZNobBody04 znob body hide</Data>
+        </Slider>
+        <Slider name="05 sc body hide" invert="false" small="0" big="0" zap="true">
+            <Data name="SC_Body05 sc body hide" target="SC_Body" local="true">DwarvenDD_body.osd\SC_Body05 sc body hide</Data>
+        </Slider>
+        <Slider name="06 steam centurion hide" invert="false" small="0" big="0" zap="true">
+            <Data name="SteamCenturionBody06 steam centurion hide" target="SteamCenturionBody" local="true">DwarvenDD_body.osd\SteamCenturionBody06 steam centurion hide</Data>
+        </Slider>
+        <Slider name="07 steam anal hide" invert="false" small="0" big="0" zap="true">
+            <Data name="SteamAnal07 steam anal hide" target="SteamAnal" local="true">DwarvenDD_body.osd\SteamAnal07 steam anal hide</Data>
+        </Slider>
+        <Slider name="08 steam vaginal hide" invert="false" small="0" big="0" zap="true">
+            <Data name="SteamVaginal08 steam vaginal hide" target="SteamVaginal" local="true">DwarvenDD_body.osd\SteamVaginal08 steam vaginal hide</Data>
+        </Slider>
+        <Slider name="09 sc calf hide" invert="false" small="0" big="0" zap="true">
+            <Data name="SC_CalfA09 sc calf hide" target="SC_CalfA" local="true">DwarvenDD_body.osd\SC_CalfA09 sc calf hide</Data>
+        </Slider>
+        <Slider name="10 steam calf hide" invert="false" small="0" big="0" zap="true">
+            <Data name="SteamCalfA10 steam calf hide" target="SteamCalfA" local="true">DwarvenDD_body.osd\SteamCalfA10 steam calf hide</Data>
+        </Slider>
+        <Slider name="11 body hide" invert="false" small="0" big="0" zap="true">
+            <Data name="body212 body hide" target="body2" local="true">DwarvenDD_body.osd\body212 body hide</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="DwarvenDD_neck">
+        <DataFolder>DwarvenDevious</DataFolder>
+        <SourceFile>DwarvenDD_neck.nif</SourceFile>
+        <OutputPath>meshes\devious\dwarven</OutputPath>
+        <OutputFile GenWeights="true">DwarvenDD_neck</OutputFile>
+        <Shape target="HeartNeck">HeartNeck</Shape>
+        <Shape target="SC_Neck">SC_Neck</Shape>
+        <Shape target="ZNobNeck">ZNobNeck</Shape>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="HeartNeckShoulderWidth" target="HeartNeck" local="true">DwarvenDD_neck.osd\HeartNeckShoulderWidth</Data>
+            <Data name="ZNobNeckShoulderWidth" target="ZNobNeck" local="true">DwarvenDD_neck.osd\ZNobNeckShoulderWidth</Data>
+            <Data name="SC_NeckShoulderWidth" target="SC_Neck" local="true">DwarvenDD_neck.osd\SC_NeckShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="HeartNeckBigTorso" target="HeartNeck" local="true">DwarvenDD_neck.osd\HeartNeckBigTorso</Data>
+            <Data name="ZNobNeckBigTorso" target="ZNobNeck" local="true">DwarvenDD_neck.osd\ZNobNeckBigTorso</Data>
+            <Data name="SC_NeckBigTorso" target="SC_Neck" local="true">DwarvenDD_neck.osd\SC_NeckBigTorso</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="DwarvenDD_hands">
+        <DataFolder>DwarvenDevious</DataFolder>
+        <SourceFile>DwarvenDD_hands.nif</SourceFile>
+        <OutputPath>meshes\devious\dwarven</OutputPath>
+        <OutputFile GenWeights="true">DwarvenDD_hands</OutputFile>
+        <Shape target="HandsSpine" DataFolder="DwarvenDevious">HandsSpine</Shape>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="HandsSpineBigTorso" target="HandsSpine" local="true">DwarvenDD_hands.osd\HandsSpineBigTorso</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="DwarvenDD_feet">
+        <DataFolder>DwarvenDevious</DataFolder>
+        <SourceFile>DwarvenDD_feet.nif</SourceFile>
+        <OutputPath>meshes\devious\dwarven</OutputPath>
+        <OutputFile GenWeights="true">DwarvenDD_feet</OutputFile>
+        <Shape target="Feet001" DataFolder="DwarvenDevious">Feet001</Shape>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Feet001Butt" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="Feet001ButtSmall" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Feet001ButtShape2" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Feet001BigButt" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Feet001ChubbyButt" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Feet001AppleCheeks" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Feet001RoundAss" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001RoundAss</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Feet001SlimThighs" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Feet001Thighs" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Feet001ChubbyLegs" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Feet001Legs" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Feet001KneeHeight" target="Feet001" local="true">DwarvenDD_feet.osd\Feet001KneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

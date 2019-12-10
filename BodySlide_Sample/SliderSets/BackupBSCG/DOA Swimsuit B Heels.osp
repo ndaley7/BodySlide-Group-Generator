@@ -1,0 +1,18 @@
+<SliderSetInfo version="1">
+    <SliderSet name="DOA Swimsuit B Heels">
+        <DataFolder>DOA Swimsuit B Heels</DataFolder>
+        <SourceFile>DOA Swimsuit B Heels.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDOA</OutputPath>
+        <OutputFile GenWeights="true">AyaneHeels</OutputFile>
+        <Shape target="Feet" DataFolder="CalienteBody">Feet</Shape>
+        <Shape target="Object002_1">Object002_1</Shape>
+        <Slider name="Feet0" invert="false" small="100" big="0" hidden="true">
+            <Data name="Feet0" target="Feet">Feet0.bsd</Data>
+            <Data name="Object002_1Feet0" target="Object002_1" local="true">DOA Swimsuit B Heels.osd\Object002_1Feet0</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FeetAnkles" target="Feet">FeetAnkles.bsd</Data>
+            <Data name="Object002_1Ankles" target="Object002_1" local="true">DOA Swimsuit B Heels.osd\Object002_1Ankles</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,155 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Clover Gloves white">
+        <DataFolder>Clover Gloves white</DataFolder>
+        <SourceFile>Clover Gloves white.nif</SourceFile>
+        <OutputPath>meshes\rcnv\cloverw</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="Arm Armor L_3_1_2_4_1">Arm Armor L_3_1_2_4_1</Shape>
+        <Shape target="Arm Armor L_3_1_2_4_2">Arm Armor L_3_1_2_4_2</Shape>
+        <Shape target="Arm Armor L_3_1_2_4_3">Arm Armor L_3_1_2_4_3</Shape>
+        <Shape target="Arm Armor L_3_1_2_4_4">Arm Armor L_3_1_2_4_4</Shape>
+        <Shape target="shoutao">shoutao</Shape>
+        <Shape target="shoutao2">shoutao2</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Arm Armor L_3_1_2_4_4Breasts" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4Breasts</Data>
+            <Data name="Arm Armor L_3_1_2_4_3Breasts" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="Arm Armor L_3_1_2_4_4BreastsSmall" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastsSmall</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastsSmall" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastsSmall</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BreastsSmall" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastsSH" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastsSH</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastsSH" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastsSSH" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastsSSH</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastsSSH" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastsFantasy" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastsFantasy</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastsFantasy" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastsFantasy</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BreastsFantasy" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BreastsFantasy</Data>
+            <Data name="Arm Armor L_3_1_2_4_1BreastsFantasy" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4DoubleMelon" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4DoubleMelon</Data>
+            <Data name="Arm Armor L_3_1_2_4_3DoubleMelon" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastFlatness" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastFlatness</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastFlatness" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastFlatness</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BreastFlatness" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BreastFlatness</Data>
+            <Data name="Arm Armor L_3_1_2_4_1BreastFlatness" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastGravity" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastGravity</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastGravity" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastGravity</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BreastGravity" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BreastGravity</Data>
+            <Data name="Arm Armor L_3_1_2_4_1BreastGravity" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4PushUp" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4PushUp</Data>
+            <Data name="Arm Armor L_3_1_2_4_3PushUp" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3PushUp</Data>
+            <Data name="Arm Armor L_3_1_2_4_2PushUp" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2PushUp</Data>
+            <Data name="Arm Armor L_3_1_2_4_1PushUp" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastHeight" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastHeight</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastHeight" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastHeight</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BreastHeight" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BreastHeight</Data>
+            <Data name="Arm Armor L_3_1_2_4_1BreastHeight" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastPerkiness" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastPerkiness</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastPerkiness" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastPerkiness</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BreastPerkiness" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BreastPerkiness</Data>
+            <Data name="Arm Armor L_3_1_2_4_1BreastPerkiness" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4BreastWidth" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BreastWidth</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BreastWidth" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BreastWidth</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BreastWidth" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BreastWidth</Data>
+            <Data name="Arm Armor L_3_1_2_4_1BreastWidth" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4NippleLength" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4NippleLength</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4NippleUp" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4NippleUp</Data>
+            <Data name="Arm Armor L_3_1_2_4_3NippleUp" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3NippleUp</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="shoutaoArms" target="shoutao" local="true">Clover Gloves white.osd\shoutaoArms</Data>
+            <Data name="shoutao2Arms" target="shoutao2" local="true">Clover Gloves white.osd\shoutao2Arms</Data>
+            <Data name="Arm Armor L_3_1_2_4_4Arms" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4Arms</Data>
+            <Data name="Arm Armor L_3_1_2_4_3Arms" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3Arms</Data>
+            <Data name="Arm Armor L_3_1_2_4_2Arms" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2Arms</Data>
+            <Data name="Arm Armor L_3_1_2_4_1Arms" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="shoutaoChubbyArms" target="shoutao" local="true">Clover Gloves white.osd\shoutaoChubbyArms</Data>
+            <Data name="shoutao2ChubbyArms" target="shoutao2" local="true">Clover Gloves white.osd\shoutao2ChubbyArms</Data>
+            <Data name="Arm Armor L_3_1_2_4_4ChubbyArms" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4ChubbyArms</Data>
+            <Data name="Arm Armor L_3_1_2_4_3ChubbyArms" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3ChubbyArms</Data>
+            <Data name="Arm Armor L_3_1_2_4_2ChubbyArms" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2ChubbyArms</Data>
+            <Data name="Arm Armor L_3_1_2_4_1ChubbyArms" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4ShoulderSmooth" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4ShoulderSmooth</Data>
+            <Data name="Arm Armor L_3_1_2_4_3ShoulderSmooth" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="shoutaoShoulderWidth" target="shoutao" local="true">Clover Gloves white.osd\shoutaoShoulderWidth</Data>
+            <Data name="shoutao2ShoulderWidth" target="shoutao2" local="true">Clover Gloves white.osd\shoutao2ShoulderWidth</Data>
+            <Data name="Arm Armor L_3_1_2_4_4ShoulderWidth" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4ShoulderWidth</Data>
+            <Data name="Arm Armor L_3_1_2_4_3ShoulderWidth" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3ShoulderWidth</Data>
+            <Data name="Arm Armor L_3_1_2_4_2ShoulderWidth" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2ShoulderWidth</Data>
+            <Data name="Arm Armor L_3_1_2_4_1ShoulderWidth" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="shoutaoBigTorso" target="shoutao" local="true">Clover Gloves white.osd\shoutaoBigTorso</Data>
+            <Data name="shoutao2BigTorso" target="shoutao2" local="true">Clover Gloves white.osd\shoutao2BigTorso</Data>
+            <Data name="Arm Armor L_3_1_2_4_4BigTorso" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4BigTorso</Data>
+            <Data name="Arm Armor L_3_1_2_4_3BigTorso" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3BigTorso</Data>
+            <Data name="Arm Armor L_3_1_2_4_2BigTorso" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2BigTorso</Data>
+            <Data name="Arm Armor L_3_1_2_4_1BigTorso" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Arm Armor L_3_1_2_4_3Waist" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3Waist</Data>
+            <Data name="Arm Armor L_3_1_2_4_2Waist" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2Waist</Data>
+            <Data name="Arm Armor L_3_1_2_4_1Waist" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1Waist</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_3ChubbyWaist" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3ChubbyWaist</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="shoutaoTummyTuck" target="shoutao" local="true">Clover Gloves white.osd\shoutaoTummyTuck</Data>
+            <Data name="shoutao2TummyTuck" target="shoutao2" local="true">Clover Gloves white.osd\shoutao2TummyTuck</Data>
+            <Data name="Arm Armor L_3_1_2_4_2TummyTuck" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2TummyTuck</Data>
+            <Data name="Arm Armor L_3_1_2_4_1TummyTuck" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Arm Armor L_3_1_2_4_4Back" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4Back</Data>
+            <Data name="Arm Armor L_3_1_2_4_3Back" target="Arm Armor L_3_1_2_4_3" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_3Back</Data>
+            <Data name="Arm Armor L_3_1_2_4_2Back" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2Back</Data>
+            <Data name="Arm Armor L_3_1_2_4_1Back" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1Back</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="shoutaoButt" target="shoutao" local="true">Clover Gloves white.osd\shoutaoButt</Data>
+            <Data name="shoutao2Butt" target="shoutao2" local="true">Clover Gloves white.osd\shoutao2Butt</Data>
+            <Data name="Arm Armor L_3_1_2_4_2Butt" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2Butt</Data>
+            <Data name="Arm Armor L_3_1_2_4_1Butt" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1Butt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="shoutaoSmallSeam" target="shoutao" local="true">Clover Gloves white.osd\shoutaoSmallSeam</Data>
+            <Data name="shoutao2SmallSeam" target="shoutao2" local="true">Clover Gloves white.osd\shoutao2SmallSeam</Data>
+            <Data name="Arm Armor L_3_1_2_4_2SmallSeam" target="Arm Armor L_3_1_2_4_2" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_2SmallSeam</Data>
+            <Data name="Arm Armor L_3_1_2_4_1SmallSeam" target="Arm Armor L_3_1_2_4_1" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_1SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="Arm Armor L_3_1_2_4_4ShoulderTweak" target="Arm Armor L_3_1_2_4_4" local="true">Clover Gloves white.osd\Arm Armor L_3_1_2_4_4ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

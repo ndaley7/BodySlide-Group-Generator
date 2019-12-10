@@ -1,0 +1,307 @@
+<SliderSetInfo version="1">
+    <SliderSet name="SMDR EAndroid Outfit 2">
+        <DataFolder>SMDR EAndroid Outfit 2</DataFolder>
+        <SourceFile>SMDR EAndroid Outfit 2.nif</SourceFile>
+        <OutputPath>meshes\Armor\SpeedBuster\EAndroid</OutputPath>
+        <OutputFile GenWeights="true">outfit2</OutputFile>
+        <Shape target="ARMS">ARMS</Shape>
+        <Shape target="Hands">Hands</Shape>
+        <Shape target="Leg01_01">Leg01_01</Shape>
+        <Shape target="Nails">Nails</Shape>
+        <Shape target="Object002">Object002</Shape>
+        <Shape target="Tri Body 7">Tri Body 7</Shape>
+        <Shape target="Tri Body 9">Tri Body 9</Shape>
+        <Shape target="UUNP" DataFolder="CalienteBody">UUNP</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="UUNP">Breasts1.bsd</Data>
+            <Data name="Object002Breasts" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002Breasts</Data>
+            <Data name="Tri Body 9Breasts" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="UUNP">BreastsSm.bsd</Data>
+            <Data name="Object002BreastsSmall" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastsSmall</Data>
+            <Data name="Tri Body 9BreastsSmall" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastsSmall</Data>
+            <Data name="Tri Body 7BreastsSmall" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="UUNP">BreastsSH.bsd</Data>
+            <Data name="Object002BreastsSH" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastsSH</Data>
+            <Data name="Tri Body 9BreastsSH" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="UUNP">BreastsSSH.bsd</Data>
+            <Data name="Object002BreastsSSH" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastsSSH</Data>
+            <Data name="Tri Body 9BreastsSSH" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="UUNP">BreastsFantasy.bsd</Data>
+            <Data name="Object002BreastsFantasy" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastsFantasy</Data>
+            <Data name="Tri Body 9BreastsFantasy" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="UUNP">DoubleMelon.bsd</Data>
+            <Data name="Object002DoubleMelon" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002DoubleMelon</Data>
+            <Data name="Tri Body 9DoubleMelon" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="UUNP">BreastCleavage.bsd</Data>
+            <Data name="Tri Body 9BreastCleavage" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="UUNP">BreastFlatness.bsd</Data>
+            <Data name="Object002BreastFlatness" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastFlatness</Data>
+            <Data name="Tri Body 9BreastFlatness" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="UUNP">BreastGravity.bsd</Data>
+            <Data name="Object002BreastGravity" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastGravity</Data>
+            <Data name="Tri Body 9BreastGravity" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="UUNP">PushUp.bsd</Data>
+            <Data name="Object002PushUp" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002PushUp</Data>
+            <Data name="Tri Body 9PushUp" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="UUNP">BreastHt.bsd</Data>
+            <Data name="Object002BreastHeight" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastHeight</Data>
+            <Data name="Tri Body 9BreastHeight" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="UUNP">BreastPerkiness.bsd</Data>
+            <Data name="Object002BreastPerkiness" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastPerkiness</Data>
+            <Data name="Tri Body 9BreastPerkiness" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="UUNP">BreastWidth.bsd</Data>
+            <Data name="Object002BreastWidth" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BreastWidth</Data>
+            <Data name="Tri Body 9BreastWidth" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="UUNP">NippleDistance.bsd</Data>
+            <Data name="Tri Body 9NippleDistance" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="UUNP">NipplePerkiness.bsd</Data>
+            <Data name="Tri Body 9NipplePerkiness" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="UUNP">NippleLength.bsd</Data>
+            <Data name="Object002NippleLength" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002NippleLength</Data>
+            <Data name="Tri Body 9NippleLength" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="UUNP">NippleSize.bsd</Data>
+            <Data name="Tri Body 9NippleSize" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="UUNP">NippleAreola.bsd</Data>
+            <Data name="Object002NippleAreola" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002NippleAreola</Data>
+            <Data name="Tri Body 9NippleAreola" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="UUNP">NippleUp.bsd</Data>
+            <Data name="Object002NippleUp" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002NippleUp</Data>
+            <Data name="Tri Body 9NippleUp" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="UUNP">NippleDown.bsd</Data>
+            <Data name="Object002NippleDown" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002NippleDown</Data>
+            <Data name="Tri Body 9NippleDown" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="UUNP">NippleTip.bsd</Data>
+            <Data name="Tri Body 9NippleTip" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="UUNP">Arms.bsd</Data>
+            <Data name="Object002Arms" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002Arms</Data>
+            <Data name="HandsArms" target="Hands" local="true">SMDR EAndroid Outfit 2.osd\HandsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="UUNP">ChubbyArms.bsd</Data>
+            <Data name="Object002ChubbyArms" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002ChubbyArms</Data>
+            <Data name="HandsChubbyArms" target="Hands" local="true">SMDR EAndroid Outfit 2.osd\HandsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="UUNP">ShoulderSmooth.bsd</Data>
+            <Data name="Object002ShoulderSmooth" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="UUNP">ShoulderWidth.bsd</Data>
+            <Data name="Object002ShoulderWidth" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002ShoulderWidth</Data>
+            <Data name="HandsShoulderWidth" target="Hands" local="true">SMDR EAndroid Outfit 2.osd\HandsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="UUNP">BigTorso.bsd</Data>
+            <Data name="Object002BigTorso" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BigTorso</Data>
+            <Data name="HandsBigTorso" target="Hands" local="true">SMDR EAndroid Outfit 2.osd\HandsBigTorso</Data>
+            <Data name="Tri Body 9BigTorso" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="UUNP">Waist.bsd</Data>
+            <Data name="Object002Waist" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002Waist</Data>
+            <Data name="Tri Body 7Waist" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="UUNP">WideWaistLine.bsd</Data>
+            <Data name="Object002WideWaistLine" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002WideWaistLine</Data>
+            <Data name="Leg01_01WideWaistLine" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="UUNP">ChubbyWaist.bsd</Data>
+            <Data name="Object002ChubbyWaist" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002ChubbyWaist</Data>
+            <Data name="Leg01_01ChubbyWaist" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01ChubbyWaist</Data>
+            <Data name="Tri Body 9ChubbyWaist" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9ChubbyWaist</Data>
+            <Data name="Tri Body 7ChubbyWaist" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="UUNP">CalBelly.bsd</Data>
+            <Data name="Tri Body 7Belly" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="UUNP">BigBelly.bsd</Data>
+            <Data name="Tri Body 9BigBelly" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BigBelly</Data>
+            <Data name="Tri Body 7BigBelly" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="UUNP">PregnancyBelly.bsd</Data>
+            <Data name="Object002PregnancyBelly" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002PregnancyBelly</Data>
+            <Data name="Leg01_01PregnancyBelly" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01PregnancyBelly</Data>
+            <Data name="Tri Body 9PregnancyBelly" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9PregnancyBelly</Data>
+            <Data name="Tri Body 7PregnancyBelly" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="UUNP">TummyTuck.bsd</Data>
+            <Data name="Object002TummyTuck" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002TummyTuck</Data>
+            <Data name="HandsTummyTuck" target="Hands" local="true">SMDR EAndroid Outfit 2.osd\HandsTummyTuck</Data>
+            <Data name="Tri Body 7TummyTuck" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="UUNP">Back.bsd</Data>
+            <Data name="Object002Back" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002Back</Data>
+            <Data name="Tri Body 9Back" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="UUNP">Hipbone.bsd</Data>
+            <Data name="Leg01_01Hipbone" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01Hipbone</Data>
+            <Data name="Tri Body 7Hipbone" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="UUNP">Hips.bsd</Data>
+            <Data name="Object002Hips" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002Hips</Data>
+            <Data name="Leg01_01Hips" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01Hips</Data>
+            <Data name="Tri Body 9Hips" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9Hips</Data>
+            <Data name="Tri Body 7Hips" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="UUNP">ButtCrack.bsd</Data>
+            <Data name="Tri Body 9ButtCrack" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9ButtCrack</Data>
+            <Data name="Tri Body 7ButtCrack" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="UUNP">Butt1.bsd</Data>
+            <Data name="Object002Butt" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002Butt</Data>
+            <Data name="HandsButt" target="Hands" local="true">SMDR EAndroid Outfit 2.osd\HandsButt</Data>
+            <Data name="Leg01_01Butt" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01Butt</Data>
+            <Data name="Tri Body 9Butt" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9Butt</Data>
+            <Data name="Tri Body 7Butt" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="UUNP">ButtSm.bsd</Data>
+            <Data name="Leg01_01ButtSmall" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01ButtSmall</Data>
+            <Data name="Tri Body 9ButtSmall" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9ButtSmall</Data>
+            <Data name="Tri Body 7ButtSmall" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="UUNP">MakButt.bsd</Data>
+            <Data name="Object002ButtShape2" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002ButtShape2</Data>
+            <Data name="Leg01_01ButtShape2" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01ButtShape2</Data>
+            <Data name="Tri Body 9ButtShape2" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9ButtShape2</Data>
+            <Data name="Tri Body 7ButtShape2" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="UUNP">BigButt.bsd</Data>
+            <Data name="Object002BigButt" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002BigButt</Data>
+            <Data name="Leg01_01BigButt" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01BigButt</Data>
+            <Data name="Tri Body 9BigButt" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9BigButt</Data>
+            <Data name="Tri Body 7BigButt" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="UUNP">ChubbyButt.bsd</Data>
+            <Data name="Object002ChubbyButt" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002ChubbyButt</Data>
+            <Data name="Leg01_01ChubbyButt" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01ChubbyButt</Data>
+            <Data name="Tri Body 9ChubbyButt" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9ChubbyButt</Data>
+            <Data name="Tri Body 7ChubbyButt" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="UUNP">AppleCheeks.bsd</Data>
+            <Data name="Object002AppleCheeks" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002AppleCheeks</Data>
+            <Data name="Leg01_01AppleCheeks" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01AppleCheeks</Data>
+            <Data name="Tri Body 9AppleCheeks" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9AppleCheeks</Data>
+            <Data name="Tri Body 7AppleCheeks" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="UUNP">RoundAss.bsd</Data>
+            <Data name="Tri Body 9RoundAss" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9RoundAss</Data>
+            <Data name="Tri Body 7RoundAss" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="UUNP">Groin.bsd</Data>
+            <Data name="Tri Body 9Groin" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9Groin</Data>
+            <Data name="Tri Body 7Groin" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="UUNP">SlimThighs.bsd</Data>
+            <Data name="Leg01_01SlimThighs" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01SlimThighs</Data>
+            <Data name="Tri Body 9SlimThighs" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9SlimThighs</Data>
+            <Data name="Tri Body 7SlimThighs" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="UUNP">CalThighs.bsd</Data>
+            <Data name="Leg01_01Thighs" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01Thighs</Data>
+            <Data name="Tri Body 9Thighs" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9Thighs</Data>
+            <Data name="Tri Body 7Thighs" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="UUNP">ChubbyLegs.bsd</Data>
+            <Data name="Leg01_01ChubbyLegs" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01ChubbyLegs</Data>
+            <Data name="Tri Body 9ChubbyLegs" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9ChubbyLegs</Data>
+            <Data name="Tri Body 7ChubbyLegs" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="UUNP">Legs.bsd</Data>
+            <Data name="Leg01_01Legs" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01Legs</Data>
+            <Data name="Tri Body 9Legs" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9Legs</Data>
+            <Data name="Tri Body 7Legs" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="UUNP">KneeHeight.bsd</Data>
+            <Data name="Leg01_01KneeHeight" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01KneeHeight</Data>
+            <Data name="Tri Body 9KneeHeight" target="Tri Body 9" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 9KneeHeight</Data>
+            <Data name="Tri Body 7KneeHeight" target="Tri Body 7" local="true">SMDR EAndroid Outfit 2.osd\Tri Body 7KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="UUNP">CalfSize.bsd</Data>
+            <Data name="Leg01_01CalfSize" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="UUNP">CalfSmooth.bsd</Data>
+            <Data name="Leg01_01CalfSmooth" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="UUNP">Ankles.bsd</Data>
+            <Data name="Leg01_01Ankles" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="UUNP">SeamSm.bsd</Data>
+            <Data name="Object002SmallSeam" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002SmallSeam</Data>
+            <Data name="HandsSmallSeam" target="Hands" local="true">SMDR EAndroid Outfit 2.osd\HandsSmallSeam</Data>
+            <Data name="Leg01_01SmallSeam" target="Leg01_01" local="true">SMDR EAndroid Outfit 2.osd\Leg01_01SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="UUNP">ShoulderTweak.bsd</Data>
+            <Data name="Object002ShoulderTweak" target="Object002" local="true">SMDR EAndroid Outfit 2.osd\Object002ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

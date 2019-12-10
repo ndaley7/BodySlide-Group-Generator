@@ -49,6 +49,7 @@ from .ParsingBSGG.XMLIO import XMLEncodingConfirm
 from .UtilitiesBSGG.ConsoleSelection import ConsoleSelectHelper
 from .UtilitiesBSGG.UITkSelection import BodySlidePathSelect
 from .UtilitiesBSGG.UITkSelection import CustomYesNoTF
+from .UtilitiesBSGG.UITkSelection import CustomOK
 from .UtilitiesBSGG.FileIO import GetFileList
 from .UtilitiesBSGG.FileIO import SliderSetBackup
 from .UtilitiesBSGG.FileIO import MasterListCheck
@@ -435,7 +436,12 @@ def main():
     #Sort List
     g_bodyslideNewGroupedOutfitsWGroup.sort()
     LoggingInfoBSCG("BSCG CORE: Ungrouped Outfits Sorted")
-    #print(g_bodyslideNewGroupedOutfitsWGroup)
+    #Check if no new outfits were found
+
+    if (len(g_bodyslideNewGroupedOutfitsWGroup)==0):
+        CustomOK("BodySlide Custom Grouper","No Ungrouped outfits detected.")
+        #Exit the program
+        exit()
     #++Writeout Status to console (Orignial Group # Final Group # Full Group List)
 
     #See if User wants to modify Groupings
@@ -457,5 +463,7 @@ def main():
     #Writeout Masterlist (DEBUG X)
 
     TupleList2SliderGroupXML('MasterList'+ str(masterListNum) +'.xml',customBodyslideGroupedOutfits,sliderGroupPath)
+
+    
 
 

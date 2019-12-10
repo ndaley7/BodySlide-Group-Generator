@@ -1,0 +1,54 @@
+<SliderSetInfo version="1">
+    <SliderSet name="MSE Cowgirl Boots">
+        <DataFolder>MSE Cowgirl Boots</DataFolder>
+        <SourceFile>MSE Cowgirl Boots.nif</SourceFile>
+        <OutputPath>meshes\dcc-mse-cowgirl\boots</OutputPath>
+        <OutputFile GenWeights="true">hoof</OutputFile>
+        <Shape target="bootcover">bootcover</Shape>
+        <Shape target="hoof">hoof</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="bootcoverPregnancyBelly" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverPregnancyBelly</Data>
+            <Data name="hoofPregnancyBelly" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="bootcoverButt" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="bootcoverButtSmall" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="bootcoverSlimThighs" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="bootcoverThighs" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="bootcoverChubbyLegs" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverChubbyLegs</Data>
+            <Data name="hoofChubbyLegs" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="bootcoverLegs" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverLegs</Data>
+            <Data name="hoofLegs" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="bootcoverKneeHeight" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverKneeHeight</Data>
+            <Data name="hoofKneeHeight" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="bootcoverCalfSize" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverCalfSize</Data>
+            <Data name="hoofCalfSize" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="bootcoverCalfSmooth" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverCalfSmooth</Data>
+            <Data name="hoofCalfSmooth" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="bootcoverAnkles" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverAnkles</Data>
+            <Data name="hoofAnkles" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="bootcoverSmallSeam" target="bootcover" local="true">MSE Cowgirl Boots.osd\bootcoverSmallSeam</Data>
+            <Data name="hoofSmallSeam" target="hoof" local="true">MSE Cowgirl Boots.osd\hoofSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

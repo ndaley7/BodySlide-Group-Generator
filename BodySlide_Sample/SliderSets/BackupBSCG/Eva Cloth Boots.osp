@@ -1,0 +1,45 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Eva Cloth Boots">
+        <DataFolder>Eva Cloth Boots</DataFolder>
+        <SourceFile>Eva Cloth Boots.nif</SourceFile>
+        <OutputPath>meshes\Zquad1\Armor\EvaCloth</OutputPath>
+        <OutputFile GenWeights="true">Boots</OutputFile>
+        <Shape target="Boots">Boots</Shape>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BootsPregnancyBelly" target="Boots" local="true">Eva Cloth Boots.osd\BootsPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BootsButt" target="Boots" local="true">Eva Cloth Boots.osd\BootsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BootsButtSmall" target="Boots" local="true">Eva Cloth Boots.osd\BootsButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BootsSlimThighs" target="Boots" local="true">Eva Cloth Boots.osd\BootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BootsThighs" target="Boots" local="true">Eva Cloth Boots.osd\BootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BootsChubbyLegs" target="Boots" local="true">Eva Cloth Boots.osd\BootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BootsLegs" target="Boots" local="true">Eva Cloth Boots.osd\BootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BootsKneeHeight" target="Boots" local="true">Eva Cloth Boots.osd\BootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BootsCalfSize" target="Boots" local="true">Eva Cloth Boots.osd\BootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BootsCalfSmooth" target="Boots" local="true">Eva Cloth Boots.osd\BootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="BootsAnkles" target="Boots" local="true">Eva Cloth Boots.osd\BootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BootsSmallSeam" target="Boots" local="true">Eva Cloth Boots.osd\BootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,306 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Sweet Pea Coat">
+        <DataFolder>Sweet Pea Coat</DataFolder>
+        <SourceFile>Sweet Pea Coat.nif</SourceFile>
+        <OutputPath>meshes\Armor\SweetPea</OutputPath>
+        <OutputFile GenWeights="true">coat</OutputFile>
+        <Shape target="CoatBottom_2">CoatBottom_2</Shape>
+        <Shape target="CoatTop">CoatTop</Shape>
+        <Shape target="Gromets">Gromets</Shape>
+        <Shape target="Shoulder">Shoulder</Shape>
+        <Shape target="Sleeve">Sleeve</Shape>
+        <Shape target="String_003">String_003</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="ShoulderBreasts" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreasts</Data>
+            <Data name="CoatTopBreasts" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreasts</Data>
+            <Data name="SleeveBreasts" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="ShoulderBreastsSmall" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastsSmall</Data>
+            <Data name="CoatBottom_2BreastsSmall" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2BreastsSmall</Data>
+            <Data name="CoatTopBreastsSmall" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastsSmall</Data>
+            <Data name="SleeveBreastsSmall" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastsSH" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastsSH</Data>
+            <Data name="CoatTopBreastsSH" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastsSH</Data>
+            <Data name="SleeveBreastsSH" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastsSSH" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastsSSH</Data>
+            <Data name="CoatTopBreastsSSH" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastsSSH</Data>
+            <Data name="SleeveBreastsSSH" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastsFantasy" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastsFantasy</Data>
+            <Data name="CoatTopBreastsFantasy" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastsFantasy</Data>
+            <Data name="SleeveBreastsFantasy" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="ShoulderDoubleMelon" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderDoubleMelon</Data>
+            <Data name="CoatTopDoubleMelon" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopDoubleMelon</Data>
+            <Data name="SleeveDoubleMelon" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="CoatTopBreastCleavage" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastCleavage</Data>
+            <Data name="SleeveBreastCleavage" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastFlatness" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastFlatness</Data>
+            <Data name="CoatBottom_2BreastFlatness" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2BreastFlatness</Data>
+            <Data name="CoatTopBreastFlatness" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastFlatness</Data>
+            <Data name="SleeveBreastFlatness" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastFlatness</Data>
+            <Data name="String_003BreastFlatness" target="String_003" local="true">Sweet Pea Coat.osd\String_003BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastGravity" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastGravity</Data>
+            <Data name="CoatTopBreastGravity" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastGravity</Data>
+            <Data name="SleeveBreastGravity" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="ShoulderPushUp" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderPushUp</Data>
+            <Data name="CoatTopPushUp" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopPushUp</Data>
+            <Data name="SleevePushUp" target="Sleeve" local="true">Sweet Pea Coat.osd\SleevePushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastHeight" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastHeight</Data>
+            <Data name="GrometsBreastHeight" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsBreastHeight</Data>
+            <Data name="CoatBottom_2BreastHeight" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2BreastHeight</Data>
+            <Data name="CoatTopBreastHeight" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastHeight</Data>
+            <Data name="SleeveBreastHeight" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastHeight</Data>
+            <Data name="String_003BreastHeight" target="String_003" local="true">Sweet Pea Coat.osd\String_003BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastPerkiness" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastPerkiness</Data>
+            <Data name="CoatTopBreastPerkiness" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastPerkiness</Data>
+            <Data name="SleeveBreastPerkiness" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="ShoulderBreastWidth" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBreastWidth</Data>
+            <Data name="CoatBottom_2BreastWidth" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2BreastWidth</Data>
+            <Data name="CoatTopBreastWidth" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBreastWidth</Data>
+            <Data name="SleeveBreastWidth" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBreastWidth</Data>
+            <Data name="String_003BreastWidth" target="String_003" local="true">Sweet Pea Coat.osd\String_003BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="CoatTopNippleDistance" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNippleDistance</Data>
+            <Data name="SleeveNippleDistance" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="CoatTopNipplePerkiness" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNipplePerkiness</Data>
+            <Data name="SleeveNipplePerkiness" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="ShoulderNippleLength" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderNippleLength</Data>
+            <Data name="GrometsNippleLength" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsNippleLength</Data>
+            <Data name="CoatTopNippleLength" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNippleLength</Data>
+            <Data name="SleeveNippleLength" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="CoatTopNippleSize" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNippleSize</Data>
+            <Data name="SleeveNippleSize" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="CoatTopNippleAreola" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNippleAreola</Data>
+            <Data name="SleeveNippleAreola" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="ShoulderNippleUp" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderNippleUp</Data>
+            <Data name="CoatTopNippleUp" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNippleUp</Data>
+            <Data name="SleeveNippleUp" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="CoatTopNippleDown" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNippleDown</Data>
+            <Data name="SleeveNippleDown" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="CoatTopNippleTip" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="ShoulderArms" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderArms</Data>
+            <Data name="GrometsArms" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsArms</Data>
+            <Data name="CoatTopArms" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopArms</Data>
+            <Data name="SleeveArms" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveArms</Data>
+            <Data name="String_003Arms" target="String_003" local="true">Sweet Pea Coat.osd\String_003Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ShoulderChubbyArms" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderChubbyArms</Data>
+            <Data name="CoatTopChubbyArms" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopChubbyArms</Data>
+            <Data name="SleeveChubbyArms" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderShoulderSmooth" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderShoulderSmooth</Data>
+            <Data name="GrometsShoulderSmooth" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsShoulderSmooth</Data>
+            <Data name="CoatTopShoulderSmooth" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopShoulderSmooth</Data>
+            <Data name="SleeveShoulderSmooth" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderShoulderWidth" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderShoulderWidth</Data>
+            <Data name="GrometsShoulderWidth" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsShoulderWidth</Data>
+            <Data name="CoatTopShoulderWidth" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopShoulderWidth</Data>
+            <Data name="SleeveShoulderWidth" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveShoulderWidth</Data>
+            <Data name="String_003ShoulderWidth" target="String_003" local="true">Sweet Pea Coat.osd\String_003ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="ShoulderBigTorso" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBigTorso</Data>
+            <Data name="GrometsBigTorso" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsBigTorso</Data>
+            <Data name="CoatBottom_2BigTorso" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2BigTorso</Data>
+            <Data name="CoatTopBigTorso" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBigTorso</Data>
+            <Data name="SleeveBigTorso" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBigTorso</Data>
+            <Data name="String_003BigTorso" target="String_003" local="true">Sweet Pea Coat.osd\String_003BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="GrometsWaist" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsWaist</Data>
+            <Data name="CoatBottom_2Waist" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Waist</Data>
+            <Data name="CoatTopWaist" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopWaist</Data>
+            <Data name="SleeveWaist" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveWaist</Data>
+            <Data name="String_003Waist" target="String_003" local="true">Sweet Pea Coat.osd\String_003Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2WideWaistLine" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2WideWaistLine</Data>
+            <Data name="CoatTopWideWaistLine" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopWideWaistLine</Data>
+            <Data name="SleeveWideWaistLine" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveWideWaistLine</Data>
+            <Data name="String_003WideWaistLine" target="String_003" local="true">Sweet Pea Coat.osd\String_003WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="GrometsChubbyWaist" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsChubbyWaist</Data>
+            <Data name="CoatBottom_2ChubbyWaist" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2ChubbyWaist</Data>
+            <Data name="CoatTopChubbyWaist" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopChubbyWaist</Data>
+            <Data name="SleeveChubbyWaist" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveChubbyWaist</Data>
+            <Data name="String_003ChubbyWaist" target="String_003" local="true">Sweet Pea Coat.osd\String_003ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2Belly" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Belly</Data>
+            <Data name="CoatTopBelly" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBelly</Data>
+            <Data name="SleeveBelly" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2BigBelly" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2BigBelly</Data>
+            <Data name="CoatTopBigBelly" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBigBelly</Data>
+            <Data name="SleeveBigBelly" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2PregnancyBelly" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2PregnancyBelly</Data>
+            <Data name="CoatTopPregnancyBelly" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopPregnancyBelly</Data>
+            <Data name="SleevePregnancyBelly" target="Sleeve" local="true">Sweet Pea Coat.osd\SleevePregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2TummyTuck" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2TummyTuck</Data>
+            <Data name="CoatTopTummyTuck" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="ShoulderBack" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderBack</Data>
+            <Data name="GrometsBack" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsBack</Data>
+            <Data name="CoatBottom_2Back" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Back</Data>
+            <Data name="CoatTopBack" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBack</Data>
+            <Data name="SleeveBack" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBack</Data>
+            <Data name="String_003Back" target="String_003" local="true">Sweet Pea Coat.osd\String_003Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2Hipbone" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Hipbone</Data>
+            <Data name="CoatTopHipbone" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="GrometsHips" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsHips</Data>
+            <Data name="CoatBottom_2Hips" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Hips</Data>
+            <Data name="CoatTopHips" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopHips</Data>
+            <Data name="SleeveHips" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveHips</Data>
+            <Data name="String_003Hips" target="String_003" local="true">Sweet Pea Coat.osd\String_003Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="GrometsButtCrack" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsButtCrack</Data>
+            <Data name="CoatBottom_2ButtCrack" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2ButtCrack</Data>
+            <Data name="CoatTopButtCrack" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopButtCrack</Data>
+            <Data name="String_003ButtCrack" target="String_003" local="true">Sweet Pea Coat.osd\String_003ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="GrometsButt" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsButt</Data>
+            <Data name="CoatBottom_2Butt" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Butt</Data>
+            <Data name="CoatTopButt" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopButt</Data>
+            <Data name="SleeveButt" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveButt</Data>
+            <Data name="String_003Butt" target="String_003" local="true">Sweet Pea Coat.osd\String_003Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="GrometsButtSmall" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsButtSmall</Data>
+            <Data name="CoatBottom_2ButtSmall" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2ButtSmall</Data>
+            <Data name="CoatTopButtSmall" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopButtSmall</Data>
+            <Data name="String_003ButtSmall" target="String_003" local="true">Sweet Pea Coat.osd\String_003ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="GrometsButtShape2" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsButtShape2</Data>
+            <Data name="CoatBottom_2ButtShape2" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2ButtShape2</Data>
+            <Data name="CoatTopButtShape2" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopButtShape2</Data>
+            <Data name="SleeveButtShape2" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveButtShape2</Data>
+            <Data name="String_003ButtShape2" target="String_003" local="true">Sweet Pea Coat.osd\String_003ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="GrometsBigButt" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsBigButt</Data>
+            <Data name="CoatBottom_2BigButt" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2BigButt</Data>
+            <Data name="CoatTopBigButt" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopBigButt</Data>
+            <Data name="SleeveBigButt" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveBigButt</Data>
+            <Data name="String_003BigButt" target="String_003" local="true">Sweet Pea Coat.osd\String_003BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="GrometsChubbyButt" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsChubbyButt</Data>
+            <Data name="CoatBottom_2ChubbyButt" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2ChubbyButt</Data>
+            <Data name="CoatTopChubbyButt" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopChubbyButt</Data>
+            <Data name="SleeveChubbyButt" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveChubbyButt</Data>
+            <Data name="String_003ChubbyButt" target="String_003" local="true">Sweet Pea Coat.osd\String_003ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="GrometsAppleCheeks" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsAppleCheeks</Data>
+            <Data name="CoatBottom_2AppleCheeks" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2AppleCheeks</Data>
+            <Data name="CoatTopAppleCheeks" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopAppleCheeks</Data>
+            <Data name="SleeveAppleCheeks" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveAppleCheeks</Data>
+            <Data name="String_003AppleCheeks" target="String_003" local="true">Sweet Pea Coat.osd\String_003AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="GrometsRoundAss" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsRoundAss</Data>
+            <Data name="CoatBottom_2RoundAss" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2RoundAss</Data>
+            <Data name="CoatTopRoundAss" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopRoundAss</Data>
+            <Data name="String_003RoundAss" target="String_003" local="true">Sweet Pea Coat.osd\String_003RoundAss</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="GrometsSlimThighs" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsSlimThighs</Data>
+            <Data name="CoatBottom_2SlimThighs" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2SlimThighs</Data>
+            <Data name="CoatTopSlimThighs" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopSlimThighs</Data>
+            <Data name="String_003SlimThighs" target="String_003" local="true">Sweet Pea Coat.osd\String_003SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="GrometsThighs" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsThighs</Data>
+            <Data name="CoatBottom_2Thighs" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="GrometsChubbyLegs" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsChubbyLegs</Data>
+            <Data name="CoatBottom_2ChubbyLegs" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="GrometsLegs" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsLegs</Data>
+            <Data name="CoatBottom_2Legs" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="GrometsKneeHeight" target="Gromets" local="true">Sweet Pea Coat.osd\GrometsKneeHeight</Data>
+            <Data name="CoatBottom_2KneeHeight" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2CalfSize" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CoatBottom_2CalfSmooth" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="CoatBottom_2Ankles" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="ShoulderSmallSeam" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderSmallSeam</Data>
+            <Data name="CoatBottom_2SmallSeam" target="CoatBottom_2" local="true">Sweet Pea Coat.osd\CoatBottom_2SmallSeam</Data>
+            <Data name="CoatTopSmallSeam" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopSmallSeam</Data>
+            <Data name="SleeveSmallSeam" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderShoulderTweak" target="Shoulder" local="true">Sweet Pea Coat.osd\ShoulderShoulderTweak</Data>
+            <Data name="CoatTopShoulderTweak" target="CoatTop" local="true">Sweet Pea Coat.osd\CoatTopShoulderTweak</Data>
+            <Data name="SleeveShoulderTweak" target="Sleeve" local="true">Sweet Pea Coat.osd\SleeveShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

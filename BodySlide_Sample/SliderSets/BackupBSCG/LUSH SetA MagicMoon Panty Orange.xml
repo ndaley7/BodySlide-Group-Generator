@@ -1,0 +1,90 @@
+<SliderSetInfo>
+    <SliderSet name="LUSH SetA MagicMoon Panty Orange">
+        <SetFolder>LUSH\SetA\LUSH SetA MagicMoon Panty Orange</SetFolder>
+        <SourceFile>pantyOrange.nif</SourceFile>
+        <OutputPath>meshes\LUSH\MagicMoon</OutputPath>
+        <OutputFile>pantyOrange</OutputFile>
+        <BaseShapeName target="Panty">Panty</BaseShapeName>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="PantyBreastsSmall" target="Panty" local="true">PantyBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="PantyBreastHeight" target="Panty" local="true">PantyBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="PantyBigTorso" target="Panty" local="true">PantyBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="PantyWaist" target="Panty" local="true">PantyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="PantyWideWaistLine" target="Panty" local="true">PantyWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="PantyChubbyWaist" target="Panty" local="true">PantyChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="PantyBelly" target="Panty" local="true">PantyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="PantyBigBelly" target="Panty" local="true">PantyBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PantyPregnancyBelly" target="Panty" local="true">PantyPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="PantyTummyTuck" target="Panty" local="true">PantyTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="PantyBack" target="Panty" local="true">PantyBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="PantyHipbone" target="Panty" local="true">PantyHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="PantyHips" target="Panty" local="true">PantyHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="PantyButtCrack" target="Panty" local="true">PantyButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="PantyButt" target="Panty" local="true">PantyButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="PantyButtSmall" target="Panty" local="true">PantyButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="PantyButtShape2" target="Panty" local="true">PantyButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="PantyBigButt" target="Panty" local="true">PantyBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="PantyChubbyButt" target="Panty" local="true">PantyChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="PantyAppleCheeks" target="Panty" local="true">PantyAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="PantyRoundAss" target="Panty" local="true">PantyRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="PantyGroin" target="Panty" local="true">PantyGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="PantySlimThighs" target="Panty" local="true">PantySlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="PantyThighs" target="Panty" local="true">PantyThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="PantyChubbyLegs" target="Panty" local="true">PantyChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="PantyLegs" target="Panty" local="true">PantyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="PantyKneeHeight" target="Panty" local="true">PantyKneeHeight.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,277 @@
+<SliderSetInfo version="1">
+    <SliderSet name="HDT Lingerie D Brown 2.5">
+        <DataFolder>HDT Lingerie D Brown 2.5</DataFolder>
+        <SourceFile>HDT Lingerie D Brown 2.5.nif</SourceFile>
+        <OutputPath>meshes\R18pn\lingerie\D</OutputPath>
+        <OutputFile GenWeights="true">lsbb</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="inner">inner</Shape>
+        <Shape target="outer">outer</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="innerBreasts" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreasts</Data>
+            <Data name="outerBreasts" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="innerBreastsSmall" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastsSmall</Data>
+            <Data name="outerBreastsSmall" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="innerBreastsSH" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastsSH</Data>
+            <Data name="outerBreastsSH" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="innerBreastsSSH" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastsSSH</Data>
+            <Data name="outerBreastsSSH" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="innerBreastsFantasy" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastsFantasy</Data>
+            <Data name="outerBreastsFantasy" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="innerDoubleMelon" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerDoubleMelon</Data>
+            <Data name="outerDoubleMelon" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="innerBreastCleavage" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastCleavage</Data>
+            <Data name="outerBreastCleavage" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="innerBreastFlatness" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastFlatness</Data>
+            <Data name="outerBreastFlatness" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="innerBreastGravity" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastGravity</Data>
+            <Data name="outerBreastGravity" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="innerPushUp" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerPushUp</Data>
+            <Data name="outerPushUp" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="innerBreastHeight" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastHeight</Data>
+            <Data name="outerBreastHeight" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="innerBreastPerkiness" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastPerkiness</Data>
+            <Data name="outerBreastPerkiness" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="innerBreastWidth" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBreastWidth</Data>
+            <Data name="outerBreastWidth" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="innerNippleDistance" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNippleDistance</Data>
+            <Data name="outerNippleDistance" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="innerNipplePerkiness" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNipplePerkiness</Data>
+            <Data name="outerNipplePerkiness" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="innerNippleLength" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNippleLength</Data>
+            <Data name="outerNippleLength" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="innerNippleSize" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNippleSize</Data>
+            <Data name="outerNippleSize" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="innerNippleAreola" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNippleAreola</Data>
+            <Data name="outerNippleAreola" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="innerNippleUp" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNippleUp</Data>
+            <Data name="outerNippleUp" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="innerNippleDown" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNippleDown</Data>
+            <Data name="outerNippleDown" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="innerNippleTip" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerNippleTip</Data>
+            <Data name="outerNippleTip" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="innerArms" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerArms</Data>
+            <Data name="outerArms" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="innerChubbyArms" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerChubbyArms</Data>
+            <Data name="outerChubbyArms" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="outerShoulderSmooth" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="innerShoulderWidth" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerShoulderWidth</Data>
+            <Data name="outerShoulderWidth" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="innerBigTorso" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBigTorso</Data>
+            <Data name="outerBigTorso" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="innerWaist" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerWaist</Data>
+            <Data name="outerWaist" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="innerWideWaistLine" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerWideWaistLine</Data>
+            <Data name="outerWideWaistLine" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="innerChubbyWaist" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerChubbyWaist</Data>
+            <Data name="outerChubbyWaist" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="innerBelly" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBelly</Data>
+            <Data name="outerBelly" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="innerBigBelly" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBigBelly</Data>
+            <Data name="outerBigBelly" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="innerPregnancyBelly" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerPregnancyBelly</Data>
+            <Data name="outerPregnancyBelly" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="innerTummyTuck" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerTummyTuck</Data>
+            <Data name="outerTummyTuck" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="innerBack" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBack</Data>
+            <Data name="outerBack" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="innerHipbone" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerHipbone</Data>
+            <Data name="outerHipbone" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="innerHips" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerHips</Data>
+            <Data name="outerHips" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="innerButtCrack" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerButtCrack</Data>
+            <Data name="outerButtCrack" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="innerButt" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerButt</Data>
+            <Data name="outerButt" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="innerButtSmall" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerButtSmall</Data>
+            <Data name="outerButtSmall" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="innerButtShape2" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerButtShape2</Data>
+            <Data name="outerButtShape2" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="innerBigButt" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerBigButt</Data>
+            <Data name="outerBigButt" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="innerChubbyButt" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerChubbyButt</Data>
+            <Data name="outerChubbyButt" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="innerAppleCheeks" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerAppleCheeks</Data>
+            <Data name="outerAppleCheeks" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="innerRoundAss" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerRoundAss</Data>
+            <Data name="outerRoundAss" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="innerGroin" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerGroin</Data>
+            <Data name="outerGroin" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="innerSlimThighs" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerSlimThighs</Data>
+            <Data name="outerSlimThighs" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="innerThighs" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerThighs</Data>
+            <Data name="outerThighs" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="innerChubbyLegs" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerChubbyLegs</Data>
+            <Data name="outerChubbyLegs" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="innerLegs" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerLegs</Data>
+            <Data name="outerLegs" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="innerKneeHeight" target="inner" local="true">HDT Lingerie D Brown 2.5.osd\innerKneeHeight</Data>
+            <Data name="outerKneeHeight" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="outerSmallSeam" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="outerShoulderTweak" target="outer" local="true">HDT Lingerie D Brown 2.5.osd\outerShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

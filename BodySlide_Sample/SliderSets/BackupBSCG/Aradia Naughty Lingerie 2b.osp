@@ -1,0 +1,437 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Aradia Naughty Lingerie 2b">
+        <DataFolder>Aradia Naughty Lingerie 2b</DataFolder>
+        <SourceFile>Aradia Naughty Lingerie 2b.nif</SourceFile>
+        <OutputPath>meshes\Putra\Aradia Naughty Lingerie</OutputPath>
+        <OutputFile GenWeights="true">Body2</OutputFile>
+        <Shape target="AnimObjectA">AnimObjectA</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Bra">Bra</Shape>
+        <Shape target="Lace1">Lace1</Shape>
+        <Shape target="NPC COM [COM ]">NPC COM [COM ]</Shape>
+        <Shape target="NPC L Finger12 [LF12]">NPC L Finger12 [LF12]</Shape>
+        <Shape target="NPC L Finger22 [LF22]">NPC L Finger22 [LF22]</Shape>
+        <Shape target="NPC L Toe0 [LToe]">NPC L Toe0 [LToe]</Shape>
+        <Shape target="NPC R Finger41 [RF41]">NPC R Finger41 [RF41]</Shape>
+        <Shape target="NPC R Pauldron">NPC R Pauldron</Shape>
+        <Shape target="Neck">Neck</Shape>
+        <Shape target="Panty">Panty</Shape>
+        <Shape target="Upper">Upper</Shape>
+        <Shape target="WEAPON">WEAPON</Shape>
+        <Shape target="WeaponBack">WeaponBack</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="BraBreasts" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreasts</Data>
+            <Data name="Lace1Breasts" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1Breasts</Data>
+            <Data name="NeckBreasts" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="BraBreastsSmall" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastsSmall</Data>
+            <Data name="Lace1BreastsSmall" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastsSmall</Data>
+            <Data name="NeckBreastsSmall" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="BraBreastsSH" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastsSH</Data>
+            <Data name="Lace1BreastsSH" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastsSH</Data>
+            <Data name="NeckBreastsSH" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="BraBreastsSSH" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastsSSH</Data>
+            <Data name="Lace1BreastsSSH" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastsSSH</Data>
+            <Data name="NeckBreastsSSH" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastsSSH</Data>
+            <Data name="NPC R PauldronBreastsSSH" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronBreastsSSH</Data>
+            <Data name="WeaponBackBreastsSSH" target="WeaponBack" local="true">Aradia Naughty Lingerie 2b.osd\WeaponBackBreastsSSH</Data>
+            <Data name="NPC L Toe0 [LToe]BreastsSSH" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]BreastsSSH</Data>
+            <Data name="NPC COM [COM ]BreastsSSH" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="BraBreastsFantasy" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastsFantasy</Data>
+            <Data name="Lace1BreastsFantasy" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastsFantasy</Data>
+            <Data name="NeckBreastsFantasy" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="BraDoubleMelon" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraDoubleMelon</Data>
+            <Data name="Lace1DoubleMelon" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1DoubleMelon</Data>
+            <Data name="NeckDoubleMelon" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="BraBreastCleavage" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastCleavage</Data>
+            <Data name="Lace1BreastCleavage" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="BraBreastFlatness" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastFlatness</Data>
+            <Data name="Lace1BreastFlatness" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastFlatness</Data>
+            <Data name="NeckBreastFlatness" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastFlatness</Data>
+            <Data name="NPC R PauldronBreastFlatness" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronBreastFlatness</Data>
+            <Data name="WeaponBackBreastFlatness" target="WeaponBack" local="true">Aradia Naughty Lingerie 2b.osd\WeaponBackBreastFlatness</Data>
+            <Data name="NPC L Toe0 [LToe]BreastFlatness" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]BreastFlatness</Data>
+            <Data name="NPC COM [COM ]BreastFlatness" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="BraBreastGravity" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastGravity</Data>
+            <Data name="Lace1BreastGravity" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastGravity</Data>
+            <Data name="NeckBreastGravity" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="BraPushUp" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraPushUp</Data>
+            <Data name="Lace1PushUp" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1PushUp</Data>
+            <Data name="NeckPushUp" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="BraBreastHeight" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastHeight</Data>
+            <Data name="Lace1BreastHeight" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastHeight</Data>
+            <Data name="NeckBreastHeight" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastHeight</Data>
+            <Data name="NPC R PauldronBreastHeight" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronBreastHeight</Data>
+            <Data name="NPC L Toe0 [LToe]BreastHeight" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]BreastHeight</Data>
+            <Data name="NPC COM [COM ]BreastHeight" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="BraBreastPerkiness" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastPerkiness</Data>
+            <Data name="Lace1BreastPerkiness" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="BraBreastWidth" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBreastWidth</Data>
+            <Data name="Lace1BreastWidth" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BreastWidth</Data>
+            <Data name="NeckBreastWidth" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBreastWidth</Data>
+            <Data name="NPC R PauldronBreastWidth" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronBreastWidth</Data>
+            <Data name="WeaponBackBreastWidth" target="WeaponBack" local="true">Aradia Naughty Lingerie 2b.osd\WeaponBackBreastWidth</Data>
+            <Data name="NPC L Toe0 [LToe]BreastWidth" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]BreastWidth</Data>
+            <Data name="NPC COM [COM ]BreastWidth" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="BraNippleDistance" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="BraNipplePerkiness" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="BraNippleLength" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNippleLength</Data>
+            <Data name="Lace1NippleLength" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1NippleLength</Data>
+            <Data name="NeckNippleLength" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckNippleLength</Data>
+            <Data name="NPC R PauldronNippleLength" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronNippleLength</Data>
+            <Data name="WeaponBackNippleLength" target="WeaponBack" local="true">Aradia Naughty Lingerie 2b.osd\WeaponBackNippleLength</Data>
+            <Data name="NPC L Toe0 [LToe]NippleLength" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]NippleLength</Data>
+            <Data name="NPC COM [COM ]NippleLength" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="BraNippleSize" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="BraNippleAreola" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNippleAreola</Data>
+            <Data name="Lace1NippleAreola" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="BraNippleUp" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNippleUp</Data>
+            <Data name="Lace1NippleUp" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="BraNippleDown" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="BraNippleTip" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="BraArms" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraArms</Data>
+            <Data name="Lace1Arms" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1Arms</Data>
+            <Data name="NeckArms" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckArms</Data>
+            <Data name="NPC R PauldronArms" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronArms</Data>
+            <Data name="NPC L Toe0 [LToe]Arms" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]Arms</Data>
+            <Data name="NPC COM [COM ]Arms" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="BraChubbyArms" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraChubbyArms</Data>
+            <Data name="Lace1ChubbyArms" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="BraShoulderSmooth" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraShoulderSmooth</Data>
+            <Data name="Lace1ShoulderSmooth" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1ShoulderSmooth</Data>
+            <Data name="NeckShoulderSmooth" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckShoulderSmooth</Data>
+            <Data name="NPC R PauldronShoulderSmooth" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronShoulderSmooth</Data>
+            <Data name="WeaponBackShoulderSmooth" target="WeaponBack" local="true">Aradia Naughty Lingerie 2b.osd\WeaponBackShoulderSmooth</Data>
+            <Data name="NPC L Toe0 [LToe]ShoulderSmooth" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]ShoulderSmooth</Data>
+            <Data name="NPC COM [COM ]ShoulderSmooth" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="BraShoulderWidth" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraShoulderWidth</Data>
+            <Data name="Lace1ShoulderWidth" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1ShoulderWidth</Data>
+            <Data name="NeckShoulderWidth" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckShoulderWidth</Data>
+            <Data name="NPC R PauldronShoulderWidth" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronShoulderWidth</Data>
+            <Data name="NPC L Toe0 [LToe]ShoulderWidth" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]ShoulderWidth</Data>
+            <Data name="NPC COM [COM ]ShoulderWidth" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="BraBigTorso" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBigTorso</Data>
+            <Data name="Lace1BigTorso" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1BigTorso</Data>
+            <Data name="NeckBigTorso" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyBigTorso</Data>
+            <Data name="NPC R PauldronBigTorso" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronBigTorso</Data>
+            <Data name="WeaponBackBigTorso" target="WeaponBack" local="true">Aradia Naughty Lingerie 2b.osd\WeaponBackBigTorso</Data>
+            <Data name="NPC L Toe0 [LToe]BigTorso" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]BigTorso</Data>
+            <Data name="NPC COM [COM ]BigTorso" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="BraWaist" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraWaist</Data>
+            <Data name="Lace1Waist" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1Waist</Data>
+            <Data name="PantyWaist" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="BraWideWaistLine" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="BraChubbyWaist" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraChubbyWaist</Data>
+            <Data name="Lace1ChubbyWaist" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1ChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="BraBelly" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBelly</Data>
+            <Data name="PantyBelly" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="BraBigBelly" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="BraPregnancyBelly" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraPregnancyBelly</Data>
+            <Data name="Lace1PregnancyBelly" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1PregnancyBelly</Data>
+            <Data name="NeckPregnancyBelly" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckPregnancyBelly</Data>
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyPregnancyBelly</Data>
+            <Data name="NPC L Toe0 [LToe]PregnancyBelly" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]PregnancyBelly</Data>
+            <Data name="NPC L Finger12 [LF12]PregnancyBelly" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]PregnancyBelly</Data>
+            <Data name="WEAPONPregnancyBelly" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONPregnancyBelly</Data>
+            <Data name="NPC L Finger22 [LF22]PregnancyBelly" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]PregnancyBelly</Data>
+            <Data name="AnimObjectAPregnancyBelly" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="BraTummyTuck" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyTummyTuck</Data>
+            <Data name="NPC L Finger12 [LF12]TummyTuck" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]TummyTuck</Data>
+            <Data name="NPC L Finger22 [LF22]TummyTuck" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="BraBack" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBack</Data>
+            <Data name="Lace1Back" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1Back</Data>
+            <Data name="NeckBack" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckBack</Data>
+            <Data name="PantyBack" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyBack</Data>
+            <Data name="NPC R PauldronBack" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronBack</Data>
+            <Data name="NPC L Toe0 [LToe]Back" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]Back</Data>
+            <Data name="NPC COM [COM ]Back" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyHipbone</Data>
+            <Data name="NPC L Finger12 [LF12]Hipbone" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]Hipbone</Data>
+            <Data name="WEAPONHipbone" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONHipbone</Data>
+            <Data name="NPC R Finger41 [RF41]Hipbone" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]Hipbone</Data>
+            <Data name="UpperHipbone" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperHipbone</Data>
+            <Data name="NPC L Finger22 [LF22]Hipbone" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]Hipbone</Data>
+            <Data name="AnimObjectAHipbone" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="BraHips" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraHips</Data>
+            <Data name="PantyHips" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyHips</Data>
+            <Data name="NPC L Finger12 [LF12]Hips" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]Hips</Data>
+            <Data name="WEAPONHips" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONHips</Data>
+            <Data name="NPC R Finger41 [RF41]Hips" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]Hips</Data>
+            <Data name="UpperHips" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperHips</Data>
+            <Data name="NPC L Finger22 [LF22]Hips" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]Hips</Data>
+            <Data name="AnimObjectAHips" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="BraButt" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraButt</Data>
+            <Data name="PantyButt" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyButt</Data>
+            <Data name="NPC L Finger12 [LF12]Butt" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]Butt</Data>
+            <Data name="WEAPONButt" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONButt</Data>
+            <Data name="NPC R Finger41 [RF41]Butt" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]Butt</Data>
+            <Data name="UpperButt" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperButt</Data>
+            <Data name="NPC L Finger22 [LF22]Butt" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]Butt</Data>
+            <Data name="AnimObjectAButt" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="BraButtSmall" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyButtSmall</Data>
+            <Data name="NPC L Finger12 [LF12]ButtSmall" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]ButtSmall</Data>
+            <Data name="WEAPONButtSmall" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONButtSmall</Data>
+            <Data name="NPC R Finger41 [RF41]ButtSmall" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]ButtSmall</Data>
+            <Data name="UpperButtSmall" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperButtSmall</Data>
+            <Data name="NPC L Finger22 [LF22]ButtSmall" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]ButtSmall</Data>
+            <Data name="AnimObjectAButtSmall" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="BraButtShape2" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyButtShape2</Data>
+            <Data name="NPC L Finger12 [LF12]ButtShape2" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]ButtShape2</Data>
+            <Data name="WEAPONButtShape2" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONButtShape2</Data>
+            <Data name="NPC R Finger41 [RF41]ButtShape2" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]ButtShape2</Data>
+            <Data name="UpperButtShape2" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperButtShape2</Data>
+            <Data name="NPC L Finger22 [LF22]ButtShape2" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]ButtShape2</Data>
+            <Data name="AnimObjectAButtShape2" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="BraBigButt" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraBigButt</Data>
+            <Data name="PantyBigButt" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyBigButt</Data>
+            <Data name="NPC L Finger12 [LF12]BigButt" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]BigButt</Data>
+            <Data name="WEAPONBigButt" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONBigButt</Data>
+            <Data name="NPC R Finger41 [RF41]BigButt" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]BigButt</Data>
+            <Data name="UpperBigButt" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperBigButt</Data>
+            <Data name="NPC L Finger22 [LF22]BigButt" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]BigButt</Data>
+            <Data name="AnimObjectABigButt" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectABigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="BraChubbyButt" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyChubbyButt</Data>
+            <Data name="NPC L Finger12 [LF12]ChubbyButt" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]ChubbyButt</Data>
+            <Data name="WEAPONChubbyButt" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONChubbyButt</Data>
+            <Data name="NPC R Finger41 [RF41]ChubbyButt" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]ChubbyButt</Data>
+            <Data name="UpperChubbyButt" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperChubbyButt</Data>
+            <Data name="NPC L Finger22 [LF22]ChubbyButt" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]ChubbyButt</Data>
+            <Data name="AnimObjectAChubbyButt" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="BraAppleCheeks" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyAppleCheeks</Data>
+            <Data name="WEAPONAppleCheeks" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONAppleCheeks</Data>
+            <Data name="NPC R Finger41 [RF41]AppleCheeks" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]AppleCheeks</Data>
+            <Data name="UpperAppleCheeks" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperAppleCheeks</Data>
+            <Data name="AnimObjectAAppleCheeks" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyRoundAss</Data>
+            <Data name="WEAPONRoundAss" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONRoundAss</Data>
+            <Data name="AnimObjectARoundAss" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectARoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyGroin</Data>
+            <Data name="WEAPONGroin" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONGroin</Data>
+            <Data name="NPC R Finger41 [RF41]Groin" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]Groin</Data>
+            <Data name="UpperGroin" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperGroin</Data>
+            <Data name="AnimObjectAGroin" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="BraSlimThighs" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantySlimThighs</Data>
+            <Data name="NPC L Finger12 [LF12]SlimThighs" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]SlimThighs</Data>
+            <Data name="WEAPONSlimThighs" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONSlimThighs</Data>
+            <Data name="NPC R Finger41 [RF41]SlimThighs" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]SlimThighs</Data>
+            <Data name="UpperSlimThighs" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperSlimThighs</Data>
+            <Data name="NPC L Finger22 [LF22]SlimThighs" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]SlimThighs</Data>
+            <Data name="AnimObjectASlimThighs" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectASlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyThighs</Data>
+            <Data name="NPC L Finger12 [LF12]Thighs" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]Thighs</Data>
+            <Data name="WEAPONThighs" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONThighs</Data>
+            <Data name="NPC R Finger41 [RF41]Thighs" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]Thighs</Data>
+            <Data name="UpperThighs" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperThighs</Data>
+            <Data name="NPC L Finger22 [LF22]Thighs" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]Thighs</Data>
+            <Data name="AnimObjectAThighs" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyChubbyLegs</Data>
+            <Data name="NPC L Finger12 [LF12]ChubbyLegs" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]ChubbyLegs</Data>
+            <Data name="WEAPONChubbyLegs" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONChubbyLegs</Data>
+            <Data name="NPC R Finger41 [RF41]ChubbyLegs" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]ChubbyLegs</Data>
+            <Data name="UpperChubbyLegs" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperChubbyLegs</Data>
+            <Data name="NPC L Finger22 [LF22]ChubbyLegs" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]ChubbyLegs</Data>
+            <Data name="AnimObjectAChubbyLegs" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyLegs</Data>
+            <Data name="NPC L Finger12 [LF12]Legs" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]Legs</Data>
+            <Data name="WEAPONLegs" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONLegs</Data>
+            <Data name="NPC R Finger41 [RF41]Legs" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]Legs</Data>
+            <Data name="UpperLegs" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperLegs</Data>
+            <Data name="NPC L Finger22 [LF22]Legs" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]Legs</Data>
+            <Data name="AnimObjectALegs" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectALegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="PantyKneeHeight" target="Panty" local="true">Aradia Naughty Lingerie 2b.osd\PantyKneeHeight</Data>
+            <Data name="NPC L Finger12 [LF12]KneeHeight" target="NPC L Finger12 [LF12]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger12 [LF12]KneeHeight</Data>
+            <Data name="WEAPONKneeHeight" target="WEAPON" local="true">Aradia Naughty Lingerie 2b.osd\WEAPONKneeHeight</Data>
+            <Data name="NPC R Finger41 [RF41]KneeHeight" target="NPC R Finger41 [RF41]" local="true">Aradia Naughty Lingerie 2b.osd\NPC R Finger41 [RF41]KneeHeight</Data>
+            <Data name="UpperKneeHeight" target="Upper" local="true">Aradia Naughty Lingerie 2b.osd\UpperKneeHeight</Data>
+            <Data name="NPC L Finger22 [LF22]KneeHeight" target="NPC L Finger22 [LF22]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Finger22 [LF22]KneeHeight</Data>
+            <Data name="AnimObjectAKneeHeight" target="AnimObjectA" local="true">Aradia Naughty Lingerie 2b.osd\AnimObjectAKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="BraSmallSeam" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraSmallSeam</Data>
+            <Data name="Lace1SmallSeam" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1SmallSeam</Data>
+            <Data name="NeckSmallSeam" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckSmallSeam</Data>
+            <Data name="NPC R PauldronSmallSeam" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronSmallSeam</Data>
+            <Data name="WeaponBackSmallSeam" target="WeaponBack" local="true">Aradia Naughty Lingerie 2b.osd\WeaponBackSmallSeam</Data>
+            <Data name="NPC L Toe0 [LToe]SmallSeam" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]SmallSeam</Data>
+            <Data name="NPC COM [COM ]SmallSeam" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="BraShoulderTweak" target="Bra" local="true">Aradia Naughty Lingerie 2b.osd\BraShoulderTweak</Data>
+            <Data name="Lace1ShoulderTweak" target="Lace1" local="true">Aradia Naughty Lingerie 2b.osd\Lace1ShoulderTweak</Data>
+            <Data name="NeckShoulderTweak" target="Neck" local="true">Aradia Naughty Lingerie 2b.osd\NeckShoulderTweak</Data>
+            <Data name="NPC R PauldronShoulderTweak" target="NPC R Pauldron" local="true">Aradia Naughty Lingerie 2b.osd\NPC R PauldronShoulderTweak</Data>
+            <Data name="NPC L Toe0 [LToe]ShoulderTweak" target="NPC L Toe0 [LToe]" local="true">Aradia Naughty Lingerie 2b.osd\NPC L Toe0 [LToe]ShoulderTweak</Data>
+            <Data name="NPC COM [COM ]ShoulderTweak" target="NPC COM [COM ]" local="true">Aradia Naughty Lingerie 2b.osd\NPC COM [COM ]ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,422 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Warhammer Sorceress Robe">
+        <DataFolder>Warhammer Sorceress Robe</DataFolder>
+        <SourceFile>Warhammer Sorceress Robe.nif</SourceFile>
+        <OutputPath>meshes\Armor\Warhammer</OutputPath>
+        <OutputFile GenWeights="true">warhammer</OutputFile>
+        <Shape target="ArmProtect">ArmProtect</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Belt">Belt</Shape>
+        <Shape target="ChestProtect01">ChestProtect01</Shape>
+        <Shape target="ChestProtect02">ChestProtect02</Shape>
+        <Shape target="ChestProtect03">ChestProtect03</Shape>
+        <Shape target="Skirt01">Skirt01</Shape>
+        <Shape target="Skirt02">Skirt02</Shape>
+        <Shape target="Straps">Straps</Shape>
+        <Shape target="Trinkets">Trinkets</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="StrapsBreasts" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreasts</Data>
+            <Data name="ChestProtect03Breasts" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03Breasts</Data>
+            <Data name="ChestProtect02Breasts" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02Breasts</Data>
+            <Data name="ChestProtect01Breasts" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="TrinketsBreastsSmall" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsBreastsSmall</Data>
+            <Data name="StrapsBreastsSmall" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastsSmall</Data>
+            <Data name="ChestProtect03BreastsSmall" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastsSmall</Data>
+            <Data name="ChestProtect02BreastsSmall" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastsSmall</Data>
+            <Data name="ChestProtect01BreastsSmall" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastsSmall</Data>
+            <Data name="BeltBreastsSmall" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBreastsSmall</Data>
+            <Data name="ArmProtectBreastsSmall" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="StrapsBreastsSH" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastsSH</Data>
+            <Data name="ChestProtect03BreastsSH" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastsSH</Data>
+            <Data name="ChestProtect02BreastsSH" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastsSH</Data>
+            <Data name="ChestProtect01BreastsSH" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastsSH</Data>
+            <Data name="ArmProtectBreastsSH" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="StrapsBreastsSSH" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastsSSH</Data>
+            <Data name="ChestProtect03BreastsSSH" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastsSSH</Data>
+            <Data name="ChestProtect02BreastsSSH" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastsSSH</Data>
+            <Data name="ChestProtect01BreastsSSH" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastsSSH</Data>
+            <Data name="ArmProtectBreastsSSH" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="StrapsBreastsFantasy" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastsFantasy</Data>
+            <Data name="ChestProtect03BreastsFantasy" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastsFantasy</Data>
+            <Data name="ChestProtect02BreastsFantasy" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastsFantasy</Data>
+            <Data name="ChestProtect01BreastsFantasy" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastsFantasy</Data>
+            <Data name="ArmProtectBreastsFantasy" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="StrapsDoubleMelon" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsDoubleMelon</Data>
+            <Data name="ChestProtect03DoubleMelon" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03DoubleMelon</Data>
+            <Data name="ChestProtect02DoubleMelon" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02DoubleMelon</Data>
+            <Data name="ChestProtect01DoubleMelon" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01DoubleMelon</Data>
+            <Data name="ArmProtectDoubleMelon" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="StrapsBreastCleavage" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastCleavage</Data>
+            <Data name="ChestProtect03BreastCleavage" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastCleavage</Data>
+            <Data name="ChestProtect02BreastCleavage" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastCleavage</Data>
+            <Data name="ChestProtect01BreastCleavage" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="StrapsBreastFlatness" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastFlatness</Data>
+            <Data name="ChestProtect03BreastFlatness" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastFlatness</Data>
+            <Data name="ChestProtect02BreastFlatness" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastFlatness</Data>
+            <Data name="ChestProtect01BreastFlatness" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastFlatness</Data>
+            <Data name="BeltBreastFlatness" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBreastFlatness</Data>
+            <Data name="ArmProtectBreastFlatness" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="StrapsBreastGravity" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastGravity</Data>
+            <Data name="ChestProtect03BreastGravity" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastGravity</Data>
+            <Data name="ChestProtect02BreastGravity" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastGravity</Data>
+            <Data name="ChestProtect01BreastGravity" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="StrapsPushUp" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsPushUp</Data>
+            <Data name="ChestProtect03PushUp" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03PushUp</Data>
+            <Data name="ChestProtect02PushUp" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02PushUp</Data>
+            <Data name="ChestProtect01PushUp" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="TrinketsBreastHeight" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsBreastHeight</Data>
+            <Data name="StrapsBreastHeight" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastHeight</Data>
+            <Data name="ChestProtect03BreastHeight" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastHeight</Data>
+            <Data name="ChestProtect02BreastHeight" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastHeight</Data>
+            <Data name="ChestProtect01BreastHeight" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastHeight</Data>
+            <Data name="BeltBreastHeight" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBreastHeight</Data>
+            <Data name="ArmProtectBreastHeight" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="StrapsBreastPerkiness" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastPerkiness</Data>
+            <Data name="ChestProtect03BreastPerkiness" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastPerkiness</Data>
+            <Data name="ChestProtect02BreastPerkiness" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastPerkiness</Data>
+            <Data name="ChestProtect01BreastPerkiness" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastPerkiness</Data>
+            <Data name="ArmProtectBreastPerkiness" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="StrapsBreastWidth" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBreastWidth</Data>
+            <Data name="ChestProtect03BreastWidth" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BreastWidth</Data>
+            <Data name="ChestProtect02BreastWidth" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BreastWidth</Data>
+            <Data name="ChestProtect01BreastWidth" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BreastWidth</Data>
+            <Data name="BeltBreastWidth" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBreastWidth</Data>
+            <Data name="ArmProtectBreastWidth" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="ChestProtect03NippleDistance" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NippleDistance</Data>
+            <Data name="ChestProtect02NippleDistance" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NippleDistance</Data>
+            <Data name="ChestProtect01NippleDistance" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="ChestProtect03NipplePerkiness" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NipplePerkiness</Data>
+            <Data name="ChestProtect02NipplePerkiness" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NipplePerkiness</Data>
+            <Data name="ChestProtect01NipplePerkiness" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="StrapsNippleLength" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsNippleLength</Data>
+            <Data name="ChestProtect03NippleLength" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NippleLength</Data>
+            <Data name="ChestProtect02NippleLength" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NippleLength</Data>
+            <Data name="ChestProtect01NippleLength" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NippleLength</Data>
+            <Data name="ArmProtectNippleLength" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="ChestProtect03NippleSize" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NippleSize</Data>
+            <Data name="ChestProtect02NippleSize" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NippleSize</Data>
+            <Data name="ChestProtect01NippleSize" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="StrapsNippleAreola" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsNippleAreola</Data>
+            <Data name="ChestProtect03NippleAreola" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NippleAreola</Data>
+            <Data name="ChestProtect02NippleAreola" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NippleAreola</Data>
+            <Data name="ChestProtect01NippleAreola" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="StrapsNippleUp" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsNippleUp</Data>
+            <Data name="ChestProtect03NippleUp" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NippleUp</Data>
+            <Data name="ChestProtect02NippleUp" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NippleUp</Data>
+            <Data name="ChestProtect01NippleUp" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NippleUp</Data>
+            <Data name="ArmProtectNippleUp" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="StrapsNippleDown" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsNippleDown</Data>
+            <Data name="ChestProtect03NippleDown" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NippleDown</Data>
+            <Data name="ChestProtect02NippleDown" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NippleDown</Data>
+            <Data name="ChestProtect01NippleDown" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="ChestProtect03NippleTip" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03NippleTip</Data>
+            <Data name="ChestProtect02NippleTip" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02NippleTip</Data>
+            <Data name="ChestProtect01NippleTip" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="StrapsArms" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsArms</Data>
+            <Data name="ChestProtect03Arms" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03Arms</Data>
+            <Data name="ChestProtect02Arms" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02Arms</Data>
+            <Data name="ChestProtect01Arms" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01Arms</Data>
+            <Data name="ArmProtectArms" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="StrapsChubbyArms" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsChubbyArms</Data>
+            <Data name="ChestProtect03ChubbyArms" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03ChubbyArms</Data>
+            <Data name="ChestProtect02ChubbyArms" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02ChubbyArms</Data>
+            <Data name="ChestProtect01ChubbyArms" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01ChubbyArms</Data>
+            <Data name="ArmProtectChubbyArms" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="StrapsShoulderSmooth" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsShoulderSmooth</Data>
+            <Data name="ChestProtect03ShoulderSmooth" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03ShoulderSmooth</Data>
+            <Data name="ChestProtect02ShoulderSmooth" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02ShoulderSmooth</Data>
+            <Data name="ChestProtect01ShoulderSmooth" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="StrapsShoulderWidth" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsShoulderWidth</Data>
+            <Data name="ChestProtect03ShoulderWidth" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03ShoulderWidth</Data>
+            <Data name="ChestProtect02ShoulderWidth" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02ShoulderWidth</Data>
+            <Data name="ChestProtect01ShoulderWidth" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01ShoulderWidth</Data>
+            <Data name="ArmProtectShoulderWidth" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="TrinketsBigTorso" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsBigTorso</Data>
+            <Data name="StrapsBigTorso" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBigTorso</Data>
+            <Data name="Skirt01BigTorso" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01BigTorso</Data>
+            <Data name="ChestProtect03BigTorso" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BigTorso</Data>
+            <Data name="ChestProtect02BigTorso" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BigTorso</Data>
+            <Data name="ChestProtect01BigTorso" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BigTorso</Data>
+            <Data name="BeltBigTorso" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBigTorso</Data>
+            <Data name="ArmProtectBigTorso" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="TrinketsWaist" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsWaist</Data>
+            <Data name="StrapsWaist" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsWaist</Data>
+            <Data name="Skirt01Waist" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Waist</Data>
+            <Data name="ChestProtect03Waist" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03Waist</Data>
+            <Data name="ChestProtect02Waist" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02Waist</Data>
+            <Data name="ChestProtect01Waist" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01Waist</Data>
+            <Data name="BeltWaist" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltWaist</Data>
+            <Data name="ArmProtectWaist" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="TrinketsWideWaistLine" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsWideWaistLine</Data>
+            <Data name="Skirt01WideWaistLine" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01WideWaistLine</Data>
+            <Data name="ChestProtect03WideWaistLine" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03WideWaistLine</Data>
+            <Data name="ChestProtect02WideWaistLine" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02WideWaistLine</Data>
+            <Data name="ChestProtect01WideWaistLine" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01WideWaistLine</Data>
+            <Data name="BeltWideWaistLine" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="TrinketsChubbyWaist" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsChubbyWaist</Data>
+            <Data name="StrapsChubbyWaist" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsChubbyWaist</Data>
+            <Data name="Skirt01ChubbyWaist" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01ChubbyWaist</Data>
+            <Data name="ChestProtect03ChubbyWaist" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03ChubbyWaist</Data>
+            <Data name="ChestProtect02ChubbyWaist" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02ChubbyWaist</Data>
+            <Data name="ChestProtect01ChubbyWaist" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01ChubbyWaist</Data>
+            <Data name="BeltChubbyWaist" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="TrinketsBelly" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsBelly</Data>
+            <Data name="ChestProtect03Belly" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03Belly</Data>
+            <Data name="ChestProtect02Belly" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02Belly</Data>
+            <Data name="ChestProtect01Belly" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01Belly</Data>
+            <Data name="BeltBelly" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="TrinketsBigBelly" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsBigBelly</Data>
+            <Data name="Skirt01BigBelly" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01BigBelly</Data>
+            <Data name="ChestProtect03BigBelly" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03BigBelly</Data>
+            <Data name="ChestProtect02BigBelly" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02BigBelly</Data>
+            <Data name="ChestProtect01BigBelly" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01BigBelly</Data>
+            <Data name="BeltBigBelly" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="TrinketsPregnancyBelly" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsPregnancyBelly</Data>
+            <Data name="StrapsPregnancyBelly" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsPregnancyBelly</Data>
+            <Data name="Skirt01PregnancyBelly" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01PregnancyBelly</Data>
+            <Data name="ChestProtect03PregnancyBelly" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03PregnancyBelly</Data>
+            <Data name="ChestProtect02PregnancyBelly" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02PregnancyBelly</Data>
+            <Data name="ChestProtect01PregnancyBelly" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01PregnancyBelly</Data>
+            <Data name="BeltPregnancyBelly" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="TrinketsTummyTuck" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsTummyTuck</Data>
+            <Data name="Skirt01TummyTuck" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01TummyTuck</Data>
+            <Data name="BeltTummyTuck" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="TrinketsBack" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsBack</Data>
+            <Data name="StrapsBack" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsBack</Data>
+            <Data name="Skirt01Back" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Back</Data>
+            <Data name="ChestProtect03Back" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03Back</Data>
+            <Data name="ChestProtect02Back" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02Back</Data>
+            <Data name="ChestProtect01Back" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01Back</Data>
+            <Data name="BeltBack" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBack</Data>
+            <Data name="ArmProtectBack" target="ArmProtect" local="true">Warhammer Sorceress Robe.osd\ArmProtectBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="TrinketsHipbone" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsHipbone</Data>
+            <Data name="Skirt01Hipbone" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Hipbone</Data>
+            <Data name="BeltHipbone" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="TrinketsHips" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsHips</Data>
+            <Data name="Skirt01Hips" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Hips</Data>
+            <Data name="ChestProtect03Hips" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03Hips</Data>
+            <Data name="ChestProtect02Hips" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02Hips</Data>
+            <Data name="ChestProtect01Hips" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01Hips</Data>
+            <Data name="BeltHips" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="TrinketsButtCrack" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsButtCrack</Data>
+            <Data name="Skirt01ButtCrack" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01ButtCrack</Data>
+            <Data name="BeltButtCrack" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="TrinketsButt" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsButt</Data>
+            <Data name="Skirt01Butt" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Butt</Data>
+            <Data name="BeltButt" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="TrinketsButtSmall" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsButtSmall</Data>
+            <Data name="Skirt01ButtSmall" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01ButtSmall</Data>
+            <Data name="BeltButtSmall" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="TrinketsButtShape2" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsButtShape2</Data>
+            <Data name="Skirt01ButtShape2" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01ButtShape2</Data>
+            <Data name="BeltButtShape2" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="TrinketsBigButt" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsBigButt</Data>
+            <Data name="Skirt01BigButt" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01BigButt</Data>
+            <Data name="BeltBigButt" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="TrinketsChubbyButt" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsChubbyButt</Data>
+            <Data name="StrapsChubbyButt" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsChubbyButt</Data>
+            <Data name="Skirt01ChubbyButt" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01ChubbyButt</Data>
+            <Data name="ChestProtect03ChubbyButt" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03ChubbyButt</Data>
+            <Data name="ChestProtect02ChubbyButt" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02ChubbyButt</Data>
+            <Data name="ChestProtect01ChubbyButt" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01ChubbyButt</Data>
+            <Data name="BeltChubbyButt" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="TrinketsAppleCheeks" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsAppleCheeks</Data>
+            <Data name="Skirt01AppleCheeks" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01AppleCheeks</Data>
+            <Data name="BeltAppleCheeks" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="TrinketsRoundAss" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsRoundAss</Data>
+            <Data name="Skirt01RoundAss" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01RoundAss</Data>
+            <Data name="BeltRoundAss" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="TrinketsGroin" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsGroin</Data>
+            <Data name="BeltGroin" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="TrinketsSlimThighs" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsSlimThighs</Data>
+            <Data name="Skirt01SlimThighs" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01SlimThighs</Data>
+            <Data name="BeltSlimThighs" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="TrinketsThighs" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsThighs</Data>
+            <Data name="Skirt01Thighs" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Thighs</Data>
+            <Data name="BeltThighs" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="TrinketsChubbyLegs" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsChubbyLegs</Data>
+            <Data name="Skirt01ChubbyLegs" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01ChubbyLegs</Data>
+            <Data name="BeltChubbyLegs" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="TrinketsLegs" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsLegs</Data>
+            <Data name="Skirt01Legs" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Legs</Data>
+            <Data name="BeltLegs" target="Belt" local="true">Warhammer Sorceress Robe.osd\BeltLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="TrinketsKneeHeight" target="Trinkets" local="true">Warhammer Sorceress Robe.osd\TrinketsKneeHeight</Data>
+            <Data name="Skirt01KneeHeight" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01KneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="Skirt01CalfSize" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="Skirt01CalfSmooth" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01CalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="Skirt01Ankles" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01Ankles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="StrapsSmallSeam" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsSmallSeam</Data>
+            <Data name="Skirt01SmallSeam" target="Skirt01" local="true">Warhammer Sorceress Robe.osd\Skirt01SmallSeam</Data>
+            <Data name="ChestProtect03SmallSeam" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03SmallSeam</Data>
+            <Data name="ChestProtect02SmallSeam" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02SmallSeam</Data>
+            <Data name="ChestProtect01SmallSeam" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="StrapsShoulderTweak" target="Straps" local="true">Warhammer Sorceress Robe.osd\StrapsShoulderTweak</Data>
+            <Data name="ChestProtect03ShoulderTweak" target="ChestProtect03" local="true">Warhammer Sorceress Robe.osd\ChestProtect03ShoulderTweak</Data>
+            <Data name="ChestProtect02ShoulderTweak" target="ChestProtect02" local="true">Warhammer Sorceress Robe.osd\ChestProtect02ShoulderTweak</Data>
+            <Data name="ChestProtect01ShoulderTweak" target="ChestProtect01" local="true">Warhammer Sorceress Robe.osd\ChestProtect01ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Stalhrim Heavy">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimHeavy.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimheavy\f</OutputPath>
+        <OutputFile GenWeights="true">cuirass</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="SHArmbands">SHArmbands</Shape>
+        <Shape target="SHChest">SHChest</Shape>
+        <Shape target="SHLegArmor">SHLegArmor</Shape>
+        <Shape target="SHLeggings">SHLeggings</Shape>
+        <Shape target="SHPauldrons">SHPauldrons</Shape>
+        <Shape target="SHSkirt">SHSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="SHChestBreasts" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreasts</Data>
+            <Data name="SHPauldronsBreasts" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="SHChestBreastsSmall" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastsSmall</Data>
+            <Data name="SHPauldronsBreastsSmall" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastsSmall</Data>
+            <Data name="SHSkirtBreastsSmall" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="SHChestBreastsSH" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastsSH</Data>
+            <Data name="SHPauldronsBreastsSH" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="SHChestBreastsSSH" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastsSSH</Data>
+            <Data name="SHPauldronsBreastsSSH" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="SHArmbandsBreastsFantasy" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBreastsFantasy</Data>
+            <Data name="SHChestBreastsFantasy" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastsFantasy</Data>
+            <Data name="SHPauldronsBreastsFantasy" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="SHChestDoubleMelon" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestDoubleMelon</Data>
+            <Data name="SHPauldronsDoubleMelon" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="SHChestBreastCleavage" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastCleavage</Data>
+            <Data name="SHPauldronsBreastCleavage" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="SHArmbandsBreastFlatness" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBreastFlatness</Data>
+            <Data name="SHChestBreastFlatness" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastFlatness</Data>
+            <Data name="SHPauldronsBreastFlatness" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="SHArmbandsBreastGravity" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBreastGravity</Data>
+            <Data name="SHChestBreastGravity" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastGravity</Data>
+            <Data name="SHPauldronsBreastGravity" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="SHArmbandsPushUp" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsPushUp</Data>
+            <Data name="SHChestPushUp" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestPushUp</Data>
+            <Data name="SHPauldronsPushUp" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="SHArmbandsBreastHeight" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBreastHeight</Data>
+            <Data name="SHChestBreastHeight" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastHeight</Data>
+            <Data name="SHPauldronsBreastHeight" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastHeight</Data>
+            <Data name="SHSkirtBreastHeight" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="SHArmbandsBreastPerkiness" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBreastPerkiness</Data>
+            <Data name="SHChestBreastPerkiness" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastPerkiness</Data>
+            <Data name="SHPauldronsBreastPerkiness" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="SHArmbandsBreastWidth" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBreastWidth</Data>
+            <Data name="SHChestBreastWidth" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBreastWidth</Data>
+            <Data name="SHPauldronsBreastWidth" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="SHChestNippleDistance" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNippleDistance</Data>
+            <Data name="SHPauldronsNippleDistance" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="SHChestNipplePerkiness" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="SHArmbandsNippleLength" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsNippleLength</Data>
+            <Data name="SHChestNippleLength" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNippleLength</Data>
+            <Data name="SHPauldronsNippleLength" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="SHChestNippleSize" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="SHChestNippleAreola" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNippleAreola</Data>
+            <Data name="SHPauldronsNippleAreola" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="SHChestNippleUp" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNippleUp</Data>
+            <Data name="SHPauldronsNippleUp" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="SHChestNippleDown" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNippleDown</Data>
+            <Data name="SHPauldronsNippleDown" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="SHChestNippleTip" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="SHArmbandsArms" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsArms</Data>
+            <Data name="SHChestArms" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestArms</Data>
+            <Data name="SHPauldronsArms" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="SHArmbandsChubbyArms" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsChubbyArms</Data>
+            <Data name="SHChestChubbyArms" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestChubbyArms</Data>
+            <Data name="SHPauldronsChubbyArms" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="SHArmbandsShoulderSmooth" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsShoulderSmooth</Data>
+            <Data name="SHChestShoulderSmooth" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestShoulderSmooth</Data>
+            <Data name="SHPauldronsShoulderSmooth" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="SHArmbandsShoulderWidth" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsShoulderWidth</Data>
+            <Data name="SHChestShoulderWidth" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestShoulderWidth</Data>
+            <Data name="SHPauldronsShoulderWidth" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="SHArmbandsBigTorso" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBigTorso</Data>
+            <Data name="SHChestBigTorso" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBigTorso</Data>
+            <Data name="SHPauldronsBigTorso" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBigTorso</Data>
+            <Data name="SHSkirtBigTorso" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="SHArmbandsWaist" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsWaist</Data>
+            <Data name="SHChestWaist" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestWaist</Data>
+            <Data name="SHSkirtWaist" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="SHChestWideWaistLine" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestWideWaistLine</Data>
+            <Data name="SHSkirtWideWaistLine" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="SHChestChubbyWaist" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestChubbyWaist</Data>
+            <Data name="SHSkirtChubbyWaist" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="SHChestBelly" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBelly</Data>
+            <Data name="SHSkirtBelly" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="SHChestBigBelly" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBigBelly</Data>
+            <Data name="SHSkirtBigBelly" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="SHChestTummyTuck" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestTummyTuck</Data>
+            <Data name="SHSkirtTummyTuck" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="SHArmbandsBack" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsBack</Data>
+            <Data name="SHChestBack" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBack</Data>
+            <Data name="SHPauldronsBack" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsBack</Data>
+            <Data name="SHSkirtBack" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="SHChestHipbone" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestHipbone</Data>
+            <Data name="SHSkirtHipbone" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="SHChestHips" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestHips</Data>
+            <Data name="SHLegArmorHips" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorHips</Data>
+            <Data name="SHLeggingsHips" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsHips</Data>
+            <Data name="SHSkirtHips" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+            <Data name="SHSkirtButtCrack" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="SHChestButt" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestButt</Data>
+            <Data name="SHLegArmorButt" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorButt</Data>
+            <Data name="SHLeggingsButt" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsButt</Data>
+            <Data name="SHSkirtButt" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="SHChestButtSmall" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestButtSmall</Data>
+            <Data name="SHLegArmorButtSmall" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorButtSmall</Data>
+            <Data name="SHLeggingsButtSmall" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsButtSmall</Data>
+            <Data name="SHSkirtButtSmall" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="SHChestButtShape2" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestButtShape2</Data>
+            <Data name="SHLeggingsButtShape2" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsButtShape2</Data>
+            <Data name="SHSkirtButtShape2" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="SHChestBigButt" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestBigButt</Data>
+            <Data name="SHLegArmorBigButt" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorBigButt</Data>
+            <Data name="SHLeggingsBigButt" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsBigButt</Data>
+            <Data name="SHSkirtBigButt" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="SHChestChubbyButt" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestChubbyButt</Data>
+            <Data name="SHLegArmorChubbyButt" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorChubbyButt</Data>
+            <Data name="SHLeggingsChubbyButt" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsChubbyButt</Data>
+            <Data name="SHSkirtChubbyButt" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="SHChestAppleCheeks" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestAppleCheeks</Data>
+            <Data name="SHLeggingsAppleCheeks" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsAppleCheeks</Data>
+            <Data name="SHSkirtAppleCheeks" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="SHChestRoundAss" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestRoundAss</Data>
+            <Data name="SHSkirtRoundAss" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+            <Data name="SHSkirtGroin" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="SHChestSlimThighs" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestSlimThighs</Data>
+            <Data name="SHLegArmorSlimThighs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorSlimThighs</Data>
+            <Data name="SHLeggingsSlimThighs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsSlimThighs</Data>
+            <Data name="SHSkirtSlimThighs" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="SHLegArmorThighs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorThighs</Data>
+            <Data name="SHLeggingsThighs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsThighs</Data>
+            <Data name="SHSkirtThighs" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="SHLegArmorChubbyLegs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorChubbyLegs</Data>
+            <Data name="SHLeggingsChubbyLegs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsChubbyLegs</Data>
+            <Data name="SHSkirtChubbyLegs" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="SHLegArmorLegs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorLegs</Data>
+            <Data name="SHLeggingsLegs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsLegs</Data>
+            <Data name="SHSkirtLegs" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="SHLegArmorKneeHeight" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorKneeHeight</Data>
+            <Data name="SHLeggingsKneeHeight" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsKneeHeight</Data>
+            <Data name="SHSkirtKneeHeight" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="SHLeggingsCalfSize" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="SHLeggingsCalfSmooth" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="SHLegArmorAnkles" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorAnkles</Data>
+            <Data name="SHLeggingsAnkles" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="SHChestSmallSeam" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestSmallSeam</Data>
+            <Data name="SHLeggingsSmallSeam" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="SHChestShoulderTweak" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestShoulderTweak</Data>
+            <Data name="SHPauldronsShoulderTweak" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="SHPauldronsZapPauldrons" target="SHPauldrons" local="true">CT77StalhrimHeavy.osd\SHPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="SHChestZapChest" target="SHChest" local="true">CT77StalhrimHeavy.osd\SHChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapArmbands" invert="false" small="0" big="0" zap="true">
+            <Data name="SHArmbandsZapArmbands" target="SHArmbands" local="true">CT77StalhrimHeavy.osd\SHArmbandsZapArmbands</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="SHSkirtZapSkirt" target="SHSkirt" local="true">CT77StalhrimHeavy.osd\SHSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLegArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="SHLegArmorZapLegArmor" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="SHLegArmorZapLeggings" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorZapLeggings</Data>
+            <Data name="SHLeggingsZapLeggings" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Stalhrim Heavy Boots">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimHeavyBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimheavy\f</OutputPath>
+        <OutputFile GenWeights="true">boots</OutputFile>
+        <Shape target="SHBoots">SHBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SHBootsChubbyLegs" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SHBootsLegs" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SHBootsKneeHeight" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="SHBootsCalfSize" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="SHBootsCalfSmooth" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="SHBootsAnkles" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SHBootsSmallSeam" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Stalhrim Heavy Gauntlets">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimHeavyGauntlets.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimheavy\f</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="Hands" DataFolder="CT77Shared">Hands</Shape>
+        <Shape target="SHGauntlets">SHGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="SHGauntletsArms" target="SHGauntlets" local="true">CT77StalhrimHeavyGauntlets.osd\SHGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="SHGauntletsChubbyArms" target="SHGauntlets" local="true">CT77StalhrimHeavyGauntlets.osd\SHGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="SHGauntletsShoulderWidth" target="SHGauntlets" local="true">CT77StalhrimHeavyGauntlets.osd\SHGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SHGauntletsBigTorso" target="SHGauntlets" local="true">CT77StalhrimHeavyGauntlets.osd\SHGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="HandsSmallSeam" target="Hands">CT77Shared.osd\HandsSmallSeam</Data>
+            <Data name="SHGauntletsSmallSeam" target="SHGauntlets" local="true">CT77StalhrimHeavyGauntlets.osd\SHGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Stalhrim Heavy Thigh Boots">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimHeavyThighBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimheavy\f</OutputPath>
+        <OutputFile GenWeights="true">CT77thighboots</OutputFile>
+        <Shape target="SHBoots">SHBoots</Shape>
+        <Shape target="SHLegArmor">SHLegArmor</Shape>
+        <Shape target="SHLeggings">SHLeggings</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="SHLegArmorHips" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorHips</Data>
+            <Data name="SHLeggingsHips" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="SHLegArmorButt" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorButt</Data>
+            <Data name="SHLeggingsButt" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="SHLegArmorButtSmall" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorButtSmall</Data>
+            <Data name="SHLeggingsButtSmall" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="SHLeggingsButtShape2" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="SHLegArmorBigButt" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorBigButt</Data>
+            <Data name="SHLeggingsBigButt" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="SHLegArmorChubbyButt" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorChubbyButt</Data>
+            <Data name="SHLeggingsChubbyButt" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="SHLeggingsAppleCheeks" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsAppleCheeks</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SHLegArmorSlimThighs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorSlimThighs</Data>
+            <Data name="SHLeggingsSlimThighs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="SHLegArmorThighs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorThighs</Data>
+            <Data name="SHLeggingsThighs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SHBootsChubbyLegs" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsChubbyLegs</Data>
+            <Data name="SHLegArmorChubbyLegs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorChubbyLegs</Data>
+            <Data name="SHLeggingsChubbyLegs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SHBootsLegs" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsLegs</Data>
+            <Data name="SHLegArmorLegs" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorLegs</Data>
+            <Data name="SHLeggingsLegs" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SHBootsKneeHeight" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsKneeHeight</Data>
+            <Data name="SHLegArmorKneeHeight" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorKneeHeight</Data>
+            <Data name="SHLeggingsKneeHeight" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="SHBootsCalfSize" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsCalfSize</Data>
+            <Data name="SHLeggingsCalfSize" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="SHBootsCalfSmooth" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsCalfSmooth</Data>
+            <Data name="SHLeggingsCalfSmooth" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="SHBootsAnkles" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsAnkles</Data>
+            <Data name="SHLegArmorAnkles" target="SHLegArmor" local="true">CT77StalhrimHeavy.osd\SHLegArmorAnkles</Data>
+            <Data name="SHLeggingsAnkles" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SHBootsSmallSeam" target="SHBoots" local="true">CT77StalhrimHeavyBoots.osd\SHBootsSmallSeam</Data>
+            <Data name="SHLeggingsSmallSeam" target="SHLeggings" local="true">CT77StalhrimHeavy.osd\SHLeggingsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Stalhrim Light">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimLight.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimlight\f</OutputPath>
+        <OutputFile GenWeights="true">cuirass</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="SLBelt">SLBelt</Shape>
+        <Shape target="SLChest">SLChest</Shape>
+        <Shape target="SLHipArmor">SLHipArmor</Shape>
+        <Shape target="SLLeggings">SLLeggings</Shape>
+        <Shape target="SLPauldrons">SLPauldrons</Shape>
+        <Shape target="SLSkirt">SLSkirt</Shape>
+        <Shape target="SLSleeves">SLSleeves</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="SLChestBreasts" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="SLBeltBreastsSmall" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltBreastsSmall</Data>
+            <Data name="SLChestBreastsSmall" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastsSmall</Data>
+            <Data name="SLHipArmorBreastsSmall" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorBreastsSmall</Data>
+            <Data name="SLPauldronsBreastsSmall" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsBreastsSmall</Data>
+            <Data name="SLSkirtBreastsSmall" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="SLChestBreastsSH" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="SLChestBreastsSSH" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="SLChestBreastsFantasy" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastsFantasy</Data>
+            <Data name="SLPauldronsBreastsFantasy" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="SLChestDoubleMelon" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="SLChestBreastCleavage" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="SLChestBreastFlatness" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastFlatness</Data>
+            <Data name="SLPauldronsBreastFlatness" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsBreastFlatness</Data>
+            <Data name="SLSleevesBreastFlatness" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="SLChestBreastGravity" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastGravity</Data>
+            <Data name="SLSleevesBreastGravity" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="SLChestPushUp" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestPushUp</Data>
+            <Data name="SLSleevesPushUp" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="SLBeltBreastHeight" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltBreastHeight</Data>
+            <Data name="SLChestBreastHeight" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastHeight</Data>
+            <Data name="SLHipArmorBreastHeight" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorBreastHeight</Data>
+            <Data name="SLPauldronsBreastHeight" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsBreastHeight</Data>
+            <Data name="SLSkirtBreastHeight" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtBreastHeight</Data>
+            <Data name="SLSleevesBreastHeight" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="SLChestBreastPerkiness" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="SLChestBreastWidth" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBreastWidth</Data>
+            <Data name="SLPauldronsBreastWidth" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsBreastWidth</Data>
+            <Data name="SLSleevesBreastWidth" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="SLChestNippleDistance" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="SLChestNipplePerkiness" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="SLChestNippleLength" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNippleLength</Data>
+            <Data name="SLPauldronsNippleLength" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="SLChestNippleSize" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="SLChestNippleAreola" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="SLChestNippleUp" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="SLChestNippleDown" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="SLChestNippleTip" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="SLChestArms" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestArms</Data>
+            <Data name="SLPauldronsArms" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsArms</Data>
+            <Data name="SLSleevesArms" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="SLChestChubbyArms" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestChubbyArms</Data>
+            <Data name="SLPauldronsChubbyArms" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsChubbyArms</Data>
+            <Data name="SLSleevesChubbyArms" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="SLChestShoulderSmooth" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestShoulderSmooth</Data>
+            <Data name="SLPauldronsShoulderSmooth" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="SLChestShoulderWidth" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestShoulderWidth</Data>
+            <Data name="SLPauldronsShoulderWidth" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsShoulderWidth</Data>
+            <Data name="SLSleevesShoulderWidth" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="SLBeltBigTorso" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltBigTorso</Data>
+            <Data name="SLChestBigTorso" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBigTorso</Data>
+            <Data name="SLHipArmorBigTorso" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorBigTorso</Data>
+            <Data name="SLPauldronsBigTorso" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsBigTorso</Data>
+            <Data name="SLSkirtBigTorso" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtBigTorso</Data>
+            <Data name="SLSleevesBigTorso" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="SLBeltWaist" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltWaist</Data>
+            <Data name="SLChestWaist" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestWaist</Data>
+            <Data name="SLHipArmorWaist" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorWaist</Data>
+            <Data name="SLSkirtWaist" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtWaist</Data>
+            <Data name="SLSleevesWaist" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="SLBeltWideWaistLine" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltWideWaistLine</Data>
+            <Data name="SLChestWideWaistLine" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestWideWaistLine</Data>
+            <Data name="SLHipArmorWideWaistLine" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="SLBeltChubbyWaist" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltChubbyWaist</Data>
+            <Data name="SLChestChubbyWaist" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestChubbyWaist</Data>
+            <Data name="SLHipArmorChubbyWaist" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorChubbyWaist</Data>
+            <Data name="SLSkirtChubbyWaist" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="SLBeltBelly" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltBelly</Data>
+            <Data name="SLChestBelly" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBelly</Data>
+            <Data name="SLHipArmorBelly" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorBelly</Data>
+            <Data name="SLSkirtBelly" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="SLBeltBigBelly" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltBigBelly</Data>
+            <Data name="SLChestBigBelly" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBigBelly</Data>
+            <Data name="SLHipArmorBigBelly" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorBigBelly</Data>
+            <Data name="SLSkirtBigBelly" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="SLBeltTummyTuck" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltTummyTuck</Data>
+            <Data name="SLChestTummyTuck" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestTummyTuck</Data>
+            <Data name="SLHipArmorTummyTuck" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorTummyTuck</Data>
+            <Data name="SLSkirtTummyTuck" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtTummyTuck</Data>
+            <Data name="SLSleevesTummyTuck" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="SLBeltBack" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltBack</Data>
+            <Data name="SLChestBack" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBack</Data>
+            <Data name="SLHipArmorBack" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorBack</Data>
+            <Data name="SLPauldronsBack" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsBack</Data>
+            <Data name="SLSkirtBack" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtBack</Data>
+            <Data name="SLSleevesBack" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="SLBeltHipbone" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltHipbone</Data>
+            <Data name="SLHipArmorHipbone" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorHipbone</Data>
+            <Data name="SLSkirtHipbone" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="SLBeltHips" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltHips</Data>
+            <Data name="SLChestHips" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestHips</Data>
+            <Data name="SLHipArmorHips" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorHips</Data>
+            <Data name="SLLeggingsHips" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsHips</Data>
+            <Data name="SLSkirtHips" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="SLBeltButt" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltButt</Data>
+            <Data name="SLChestButt" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestButt</Data>
+            <Data name="SLHipArmorButt" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorButt</Data>
+            <Data name="SLLeggingsButt" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsButt</Data>
+            <Data name="SLSkirtButt" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtButt</Data>
+            <Data name="SLSleevesButt" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="SLBeltButtSmall" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltButtSmall</Data>
+            <Data name="SLChestButtSmall" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestButtSmall</Data>
+            <Data name="SLHipArmorButtSmall" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorButtSmall</Data>
+            <Data name="SLLeggingsButtSmall" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsButtSmall</Data>
+            <Data name="SLSkirtButtSmall" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="SLBeltButtShape2" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltButtShape2</Data>
+            <Data name="SLChestButtShape2" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestButtShape2</Data>
+            <Data name="SLHipArmorButtShape2" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorButtShape2</Data>
+            <Data name="SLLeggingsButtShape2" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsButtShape2</Data>
+            <Data name="SLSkirtButtShape2" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="SLBeltBigButt" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltBigButt</Data>
+            <Data name="SLChestBigButt" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestBigButt</Data>
+            <Data name="SLHipArmorBigButt" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorBigButt</Data>
+            <Data name="SLLeggingsBigButt" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsBigButt</Data>
+            <Data name="SLSkirtBigButt" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="SLBeltChubbyButt" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltChubbyButt</Data>
+            <Data name="SLChestChubbyButt" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestChubbyButt</Data>
+            <Data name="SLHipArmorChubbyButt" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorChubbyButt</Data>
+            <Data name="SLLeggingsChubbyButt" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsChubbyButt</Data>
+            <Data name="SLSkirtChubbyButt" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="SLBeltAppleCheeks" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltAppleCheeks</Data>
+            <Data name="SLChestAppleCheeks" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestAppleCheeks</Data>
+            <Data name="SLHipArmorAppleCheeks" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorAppleCheeks</Data>
+            <Data name="SLSkirtAppleCheeks" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="SLBeltRoundAss" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltRoundAss</Data>
+            <Data name="SLHipArmorRoundAss" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorRoundAss</Data>
+            <Data name="SLSkirtRoundAss" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="SLBeltSlimThighs" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltSlimThighs</Data>
+            <Data name="SLChestSlimThighs" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestSlimThighs</Data>
+            <Data name="SLHipArmorSlimThighs" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorSlimThighs</Data>
+            <Data name="SLLeggingsSlimThighs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsSlimThighs</Data>
+            <Data name="SLSkirtSlimThighs" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="SLBeltThighs" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltThighs</Data>
+            <Data name="SLHipArmorThighs" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorThighs</Data>
+            <Data name="SLLeggingsThighs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="SLBeltChubbyLegs" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltChubbyLegs</Data>
+            <Data name="SLHipArmorChubbyLegs" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorChubbyLegs</Data>
+            <Data name="SLLeggingsChubbyLegs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="SLBeltLegs" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltLegs</Data>
+            <Data name="SLHipArmorLegs" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorLegs</Data>
+            <Data name="SLLeggingsLegs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsLegs</Data>
+            <Data name="SLSkirtLegs" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="SLHipArmorKneeHeight" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorKneeHeight</Data>
+            <Data name="SLLeggingsKneeHeight" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="SLLeggingsCalfSize" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="SLLeggingsCalfSmooth" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="SLLeggingsAnkles" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="SLChestSmallSeam" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestSmallSeam</Data>
+            <Data name="SLLeggingsSmallSeam" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsSmallSeam</Data>
+            <Data name="SLSleevesSmallSeam" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="SLChestShoulderTweak" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestShoulderTweak</Data>
+            <Data name="SLPauldronsShoulderTweak" target="SLPauldrons" local="true">CT77StalhrimLight.osd\SLPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="SLChestZapChest" target="SLChest" local="true">CT77StalhrimLight.osd\SLChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapSleeves" invert="false" small="0" big="0" zap="true">
+            <Data name="SLSleevesZapSleeves" target="SLSleeves" local="true">CT77StalhrimLight.osd\SLSleevesZapSleeves</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="SLBeltZapBelt" target="SLBelt" local="true">CT77StalhrimLight.osd\SLBeltZapBelt</Data>
+            <Data name="SLHipArmorZapHipArmor" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorZapHipArmor</Data>
+            <Data name="SLSkirtZapBelt" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapHipArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="SLHipArmorZapHipArmor" target="SLHipArmor" local="true">CT77StalhrimLight.osd\SLHipArmorZapHipArmor</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="SLSkirtZapSkirt" target="SLSkirt" local="true">CT77StalhrimLight.osd\SLSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="SLLeggingsZapLeggings" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Stalhrim Light Boots">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimLightBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimlight\f</OutputPath>
+        <OutputFile GenWeights="true">boots</OutputFile>
+        <Shape target="SLBoots">SLBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SLBootsChubbyLegs" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SLBootsLegs" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SLBootsKneeHeight" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="SLBootsCalfSize" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="SLBootsCalfSmooth" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="SLBootsAnkles" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SLBootsSmallSeam" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Stalhrim Light Bracers">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimLightBracers.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimlight\f</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="SHLightHands">SHLightHands</Shape>
+        <Shape target="SLGauntlets">SLGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="SLGauntletsArms" target="SLGauntlets" local="true">CT77StalhrimLightBracers.osd\SLGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="SLGauntletsChubbyArms" target="SLGauntlets" local="true">CT77StalhrimLightBracers.osd\SLGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="SLGauntletsShoulderWidth" target="SLGauntlets" local="true">CT77StalhrimLightBracers.osd\SLGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SLGauntletsBigTorso" target="SLGauntlets" local="true">CT77StalhrimLightBracers.osd\SLGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SLGauntletsSmallSeam" target="SLGauntlets" local="true">CT77StalhrimLightBracers.osd\SLGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Stalhrim Light Thigh Boots">
+        <DataFolder>CT77Stalhrim</DataFolder>
+        <SourceFile>CT77StalhrimLightThighBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc02\armor\stahlrimlight\f</OutputPath>
+        <OutputFile GenWeights="true">CT77thighboots</OutputFile>
+        <Shape target="SLBoots">SLBoots</Shape>
+        <Shape target="SLLeggings">SLLeggings</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="SLLeggingsHips" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="SLLeggingsButt" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="SLLeggingsButtSmall" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="SLLeggingsButtShape2" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="SLLeggingsBigButt" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="SLLeggingsChubbyButt" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SLBootsSlimThighs" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsSlimThighs</Data>
+            <Data name="SLLeggingsSlimThighs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="SLLeggingsThighs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SLBootsChubbyLegs" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsChubbyLegs</Data>
+            <Data name="SLLeggingsChubbyLegs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SLBootsLegs" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsLegs</Data>
+            <Data name="SLLeggingsLegs" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SLBootsKneeHeight" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsKneeHeight</Data>
+            <Data name="SLLeggingsKneeHeight" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="SLBootsCalfSize" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsCalfSize</Data>
+            <Data name="SLLeggingsCalfSize" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="SLBootsCalfSmooth" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsCalfSmooth</Data>
+            <Data name="SLLeggingsCalfSmooth" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="SLBootsAnkles" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsAnkles</Data>
+            <Data name="SLLeggingsAnkles" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SLBootsSmallSeam" target="SLBoots" local="true">CT77StalhrimLightBoots.osd\SLBootsSmallSeam</Data>
+            <Data name="SLLeggingsSmallSeam" target="SLLeggings" local="true">CT77StalhrimLight.osd\SLLeggingsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

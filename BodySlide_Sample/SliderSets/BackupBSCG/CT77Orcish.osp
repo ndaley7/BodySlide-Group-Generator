@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Orcish">
+        <DataFolder>CT77Orcish</DataFolder>
+        <SourceFile>CT77Orcish.nif</SourceFile>
+        <OutputPath>meshes\armor\orcish</OutputPath>
+        <OutputFile GenWeights="true">cuirassf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="OrcishChest">OrcishChest</Shape>
+        <Shape target="OrcishLegArmor">OrcishLegArmor</Shape>
+        <Shape target="OrcishLeggings">OrcishLeggings</Shape>
+        <Shape target="OrcishSkirt">OrcishSkirt</Shape>
+        <Shape target="OrcishSleeves">OrcishSleeves</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="OrcishChestBreasts" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="OrcishSkirtBreastsSmall" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtBreastsSmall</Data>
+            <Data name="OrcishChestBreastsSmall" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="OrcishChestBreastsSH" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="OrcishChestBreastsSSH" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="OrcishSleevesBreastsFantasy" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBreastsFantasy</Data>
+            <Data name="OrcishChestBreastsFantasy" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="OrcishChestDoubleMelon" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="OrcishChestBreastCleavage" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="OrcishSleevesBreastFlatness" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBreastFlatness</Data>
+            <Data name="OrcishChestBreastFlatness" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="OrcishSleevesBreastGravity" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBreastGravity</Data>
+            <Data name="OrcishChestBreastGravity" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="OrcishSleevesPushUp" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesPushUp</Data>
+            <Data name="OrcishChestPushUp" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="OrcishSleevesBreastHeight" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBreastHeight</Data>
+            <Data name="OrcishSkirtBreastHeight" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtBreastHeight</Data>
+            <Data name="OrcishChestBreastHeight" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="OrcishSleevesBreastPerkiness" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBreastPerkiness</Data>
+            <Data name="OrcishChestBreastPerkiness" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="OrcishSleevesBreastWidth" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBreastWidth</Data>
+            <Data name="OrcishChestBreastWidth" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="OrcishChestNippleDistance" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="OrcishChestNipplePerkiness" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="OrcishChestNippleLength" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="OrcishChestNippleSize" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="OrcishChestNippleAreola" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="OrcishChestNippleUp" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="OrcishChestNippleDown" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="OrcishChestNippleTip" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="OrcishSleevesArms" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesArms</Data>
+            <Data name="OrcishChestArms" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="OrcishSleevesChubbyArms" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesChubbyArms</Data>
+            <Data name="OrcishChestChubbyArms" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="OrcishChestShoulderSmooth" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="OrcishSleevesShoulderWidth" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesShoulderWidth</Data>
+            <Data name="OrcishChestShoulderWidth" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="OrcishSleevesBigTorso" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBigTorso</Data>
+            <Data name="OrcishSkirtBigTorso" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtBigTorso</Data>
+            <Data name="OrcishChestBigTorso" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="OrcishSleevesWaist" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesWaist</Data>
+            <Data name="OrcishSkirtWaist" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtWaist</Data>
+            <Data name="OrcishChestWaist" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="OrcishSkirtWideWaistLine" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtWideWaistLine</Data>
+            <Data name="OrcishChestWideWaistLine" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="OrcishSkirtChubbyWaist" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtChubbyWaist</Data>
+            <Data name="OrcishChestChubbyWaist" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="OrcishSkirtBelly" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtBelly</Data>
+            <Data name="OrcishChestBelly" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="OrcishSkirtBigBelly" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtBigBelly</Data>
+            <Data name="OrcishChestBigBelly" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="OrcishSkirtTummyTuck" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtTummyTuck</Data>
+            <Data name="OrcishChestTummyTuck" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="OrcishSleevesBack" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesBack</Data>
+            <Data name="OrcishSkirtBack" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtBack</Data>
+            <Data name="OrcishChestBack" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="OrcishSkirtHipbone" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtHipbone</Data>
+            <Data name="OrcishLeggingsHipbone" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsHipbone</Data>
+            <Data name="OrcishLegArmorHipbone" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="OrcishSkirtHips" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtHips</Data>
+            <Data name="OrcishChestHips" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestHips</Data>
+            <Data name="OrcishLeggingsHips" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsHips</Data>
+            <Data name="OrcishLegArmorHips" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="OrcishSleevesButt" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesButt</Data>
+            <Data name="OrcishSkirtButt" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtButt</Data>
+            <Data name="OrcishChestButt" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestButt</Data>
+            <Data name="OrcishLeggingsButt" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsButt</Data>
+            <Data name="OrcishLegArmorButt" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="OrcishSkirtButtSmall" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtButtSmall</Data>
+            <Data name="OrcishChestButtSmall" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestButtSmall</Data>
+            <Data name="OrcishLeggingsButtSmall" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsButtSmall</Data>
+            <Data name="OrcishLegArmorButtSmall" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="OrcishSkirtButtShape2" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtButtShape2</Data>
+            <Data name="OrcishChestButtShape2" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestButtShape2</Data>
+            <Data name="OrcishLeggingsButtShape2" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsButtShape2</Data>
+            <Data name="OrcishLegArmorButtShape2" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="OrcishSkirtBigButt" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtBigButt</Data>
+            <Data name="OrcishChestBigButt" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestBigButt</Data>
+            <Data name="OrcishLeggingsBigButt" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsBigButt</Data>
+            <Data name="OrcishLegArmorBigButt" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="OrcishSkirtChubbyButt" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtChubbyButt</Data>
+            <Data name="OrcishChestChubbyButt" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestChubbyButt</Data>
+            <Data name="OrcishLeggingsChubbyButt" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsChubbyButt</Data>
+            <Data name="OrcishLegArmorChubbyButt" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="OrcishSkirtAppleCheeks" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtAppleCheeks</Data>
+            <Data name="OrcishChestAppleCheeks" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestAppleCheeks</Data>
+            <Data name="OrcishLeggingsAppleCheeks" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsAppleCheeks</Data>
+            <Data name="OrcishLegArmorAppleCheeks" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="OrcishSkirtRoundAss" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="OrcishSkirtSlimThighs" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtSlimThighs</Data>
+            <Data name="OrcishChestSlimThighs" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestSlimThighs</Data>
+            <Data name="OrcishLeggingsSlimThighs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsSlimThighs</Data>
+            <Data name="OrcishLegArmorSlimThighs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="OrcishSkirtThighs" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtThighs</Data>
+            <Data name="OrcishLeggingsThighs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsThighs</Data>
+            <Data name="OrcishLegArmorThighs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="OrcishSkirtChubbyLegs" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtChubbyLegs</Data>
+            <Data name="OrcishLeggingsChubbyLegs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsChubbyLegs</Data>
+            <Data name="OrcishLegArmorChubbyLegs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="OrcishSkirtLegs" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtLegs</Data>
+            <Data name="OrcishLeggingsLegs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsLegs</Data>
+            <Data name="OrcishLegArmorLegs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="OrcishLeggingsKneeHeight" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsKneeHeight</Data>
+            <Data name="OrcishLegArmorKneeHeight" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="OrcishLeggingsCalfSize" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="OrcishLeggingsCalfSmooth" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="OrcishLeggingsAnkles" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="OrcishSleevesSmallSeam" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesSmallSeam</Data>
+            <Data name="OrcishChestSmallSeam" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="OrcishChestShoulderTweak" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="OrcishChestZapChest" target="OrcishChest" local="true">CT77Orcish.osd\OrcishChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapSleeves" invert="false" small="0" big="0" zap="true">
+            <Data name="OrcishSleevesZapSleeves" target="OrcishSleeves" local="true">CT77Orcish.osd\OrcishSleevesZapSleeves</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="OrcishSkirtZapSkirt" target="OrcishSkirt" local="true">CT77Orcish.osd\OrcishSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLegArmor" invert="false" small="0" big="0" zap="true">
+            <Data name="OrcishLegArmorZapLegArmor" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="OrcishLeggingsZapLeggings" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsZapLeggings</Data>
+            <Data name="OrcishLegArmorZapLegArmor" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorZapLegArmor</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Orcish Gauntlets">
+        <DataFolder>CT77Orcish</DataFolder>
+        <SourceFile>CT77OrcishGauntlets.nif</SourceFile>
+        <OutputPath>meshes\armor\orcish</OutputPath>
+        <OutputFile GenWeights="true">gauntletsf</OutputFile>
+        <Shape target="OrcishGauntlets">OrcishGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="OrcishGauntletsArms" target="OrcishGauntlets" local="true">CT77OrcishGauntlets.osd\OrcishGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="OrcishGauntletsChubbyArms" target="OrcishGauntlets" local="true">CT77OrcishGauntlets.osd\OrcishGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="OrcishGauntletsShoulderWidth" target="OrcishGauntlets" local="true">CT77OrcishGauntlets.osd\OrcishGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="OrcishGauntletsBigTorso" target="OrcishGauntlets" local="true">CT77OrcishGauntlets.osd\OrcishGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="OrcishGauntletsSmallSeam" target="OrcishGauntlets" local="true">CT77OrcishGauntlets.osd\OrcishGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Orcish Boots">
+        <DataFolder>CT77Orcish</DataFolder>
+        <SourceFile>CT77OrcishBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\orcish</OutputPath>
+        <OutputFile GenWeights="true">bootsf</OutputFile>
+        <Shape target="OrcishBoots">OrcishBoots</Shape>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="OrcishBootsButtSmall" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="OrcishBootsSlimThighs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="OrcishBootsThighs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="OrcishBootsChubbyLegs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="OrcishBootsLegs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="OrcishBootsKneeHeight" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="OrcishBootsCalfSize" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="OrcishBootsCalfSmooth" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="OrcishBootsAnkles" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="OrcishBootsSmallSeam" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Orcish Thigh Boots">
+        <DataFolder>CT77Orcish</DataFolder>
+        <SourceFile>CT77OrcishThighBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\orcish</OutputPath>
+        <OutputFile GenWeights="true">CT77thighbootsf</OutputFile>
+        <Shape target="OrcishBoots">OrcishBoots</Shape>
+        <Shape target="OrcishLegArmor">OrcishLegArmor</Shape>
+        <Shape target="OrcishLeggings">OrcishLeggings</Shape>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsHipbone" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsHipbone</Data>
+            <Data name="OrcishLegArmorHipbone" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsHips" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsHips</Data>
+            <Data name="OrcishLegArmorHips" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="OrcishLeggingsButt" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsButt</Data>
+            <Data name="OrcishLegArmorButt" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="OrcishLeggingsButtSmall" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsButtSmall</Data>
+            <Data name="OrcishLegArmorButtSmall" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorButtSmall</Data>
+            <Data name="OrcishBootsButtSmall" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsButtShape2" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsButtShape2</Data>
+            <Data name="OrcishLegArmorButtShape2" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsBigButt" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsBigButt</Data>
+            <Data name="OrcishLegArmorBigButt" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsChubbyButt" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsChubbyButt</Data>
+            <Data name="OrcishLegArmorChubbyButt" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsAppleCheeks" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsAppleCheeks</Data>
+            <Data name="OrcishLegArmorAppleCheeks" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorAppleCheeks</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsSlimThighs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsSlimThighs</Data>
+            <Data name="OrcishLegArmorSlimThighs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorSlimThighs</Data>
+            <Data name="OrcishBootsSlimThighs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsThighs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsThighs</Data>
+            <Data name="OrcishLegArmorThighs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorThighs</Data>
+            <Data name="OrcishBootsThighs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsChubbyLegs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsChubbyLegs</Data>
+            <Data name="OrcishLegArmorChubbyLegs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorChubbyLegs</Data>
+            <Data name="OrcishBootsChubbyLegs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="OrcishLeggingsLegs" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsLegs</Data>
+            <Data name="OrcishLegArmorLegs" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorLegs</Data>
+            <Data name="OrcishBootsLegs" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsKneeHeight" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsKneeHeight</Data>
+            <Data name="OrcishLegArmorKneeHeight" target="OrcishLegArmor" local="true">CT77Orcish.osd\OrcishLegArmorKneeHeight</Data>
+            <Data name="OrcishBootsKneeHeight" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsCalfSize" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsCalfSize</Data>
+            <Data name="OrcishBootsCalfSize" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="OrcishLeggingsCalfSmooth" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsCalfSmooth</Data>
+            <Data name="OrcishBootsCalfSmooth" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="OrcishLeggingsAnkles" target="OrcishLeggings" local="true">CT77Orcish.osd\OrcishLeggingsAnkles</Data>
+            <Data name="OrcishBootsAnkles" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="OrcishBootsSmallSeam" target="OrcishBoots" local="true">CT77OrcishBoots.osd\OrcishBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

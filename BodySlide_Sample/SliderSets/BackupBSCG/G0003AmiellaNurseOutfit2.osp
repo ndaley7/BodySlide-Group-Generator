@@ -1,0 +1,375 @@
+<SliderSetInfo version="1">
+    <SliderSet name="G0003 Amiella Nurse Outfit 2">
+        <DataFolder>G0003AmiellaNurseOutfit2</DataFolder>
+        <SourceFile>Minou GangMenHS BodySuit 2.nif</SourceFile>
+        <OutputPath>meshes\Minoumimi\Minou Armors\Minou GangMenHS</OutputPath>
+        <OutputFile GenWeights="true">Minou GangMenHS BodySuit 2</OutputFile>
+        <Shape target="01">01</Shape>
+        <Shape target="02">02</Shape>
+        <Shape target="03">03</Shape>
+        <Shape target="04">04</Shape>
+        <Shape target="05">05</Shape>
+        <Shape target="06">06</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="XQ">XQ</Shape>
+        <Shape target="sy">sy</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="XQBreasts" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreasts</Data>
+            <Data name="06Breasts" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06Breasts</Data>
+            <Data name="05Breasts" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05Breasts</Data>
+            <Data name="04Breasts" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04Breasts</Data>
+            <Data name="03Breasts" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="XQBreastsSmall" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastsSmall</Data>
+            <Data name="06BreastsSmall" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastsSmall</Data>
+            <Data name="05BreastsSmall" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastsSmall</Data>
+            <Data name="04BreastsSmall" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastsSmall</Data>
+            <Data name="03BreastsSmall" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastsSmall</Data>
+            <Data name="02BreastsSmall" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="XQBreastsSH" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastsSH</Data>
+            <Data name="06BreastsSH" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastsSH</Data>
+            <Data name="05BreastsSH" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastsSH</Data>
+            <Data name="04BreastsSH" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastsSH</Data>
+            <Data name="03BreastsSH" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="XQBreastsSSH" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastsSSH</Data>
+            <Data name="06BreastsSSH" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastsSSH</Data>
+            <Data name="05BreastsSSH" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastsSSH</Data>
+            <Data name="04BreastsSSH" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastsSSH</Data>
+            <Data name="03BreastsSSH" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="XQBreastsFantasy" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastsFantasy</Data>
+            <Data name="06BreastsFantasy" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastsFantasy</Data>
+            <Data name="05BreastsFantasy" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastsFantasy</Data>
+            <Data name="04BreastsFantasy" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastsFantasy</Data>
+            <Data name="03BreastsFantasy" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="XQDoubleMelon" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQDoubleMelon</Data>
+            <Data name="06DoubleMelon" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06DoubleMelon</Data>
+            <Data name="05DoubleMelon" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05DoubleMelon</Data>
+            <Data name="04DoubleMelon" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04DoubleMelon</Data>
+            <Data name="03DoubleMelon" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="XQBreastCleavage" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastCleavage</Data>
+            <Data name="06BreastCleavage" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastCleavage</Data>
+            <Data name="05BreastCleavage" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastCleavage</Data>
+            <Data name="04BreastCleavage" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastCleavage</Data>
+            <Data name="03BreastCleavage" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="XQBreastFlatness" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastFlatness</Data>
+            <Data name="06BreastFlatness" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastFlatness</Data>
+            <Data name="05BreastFlatness" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastFlatness</Data>
+            <Data name="04BreastFlatness" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastFlatness</Data>
+            <Data name="03BreastFlatness" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="XQBreastGravity" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastGravity</Data>
+            <Data name="06BreastGravity" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastGravity</Data>
+            <Data name="05BreastGravity" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastGravity</Data>
+            <Data name="04BreastGravity" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastGravity</Data>
+            <Data name="03BreastGravity" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="XQPushUp" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQPushUp</Data>
+            <Data name="06PushUp" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06PushUp</Data>
+            <Data name="05PushUp" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05PushUp</Data>
+            <Data name="04PushUp" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04PushUp</Data>
+            <Data name="03PushUp" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="XQBreastHeight" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastHeight</Data>
+            <Data name="06BreastHeight" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastHeight</Data>
+            <Data name="05BreastHeight" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastHeight</Data>
+            <Data name="04BreastHeight" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastHeight</Data>
+            <Data name="03BreastHeight" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="XQBreastPerkiness" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastPerkiness</Data>
+            <Data name="06BreastPerkiness" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastPerkiness</Data>
+            <Data name="05BreastPerkiness" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastPerkiness</Data>
+            <Data name="04BreastPerkiness" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastPerkiness</Data>
+            <Data name="03BreastPerkiness" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="XQBreastWidth" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBreastWidth</Data>
+            <Data name="06BreastWidth" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BreastWidth</Data>
+            <Data name="05BreastWidth" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BreastWidth</Data>
+            <Data name="04BreastWidth" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BreastWidth</Data>
+            <Data name="03BreastWidth" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="06NippleDistance" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NippleDistance</Data>
+            <Data name="05NippleDistance" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NippleDistance</Data>
+            <Data name="04NippleDistance" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NippleDistance</Data>
+            <Data name="03NippleDistance" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="06NipplePerkiness" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NipplePerkiness</Data>
+            <Data name="05NipplePerkiness" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NipplePerkiness</Data>
+            <Data name="04NipplePerkiness" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NipplePerkiness</Data>
+            <Data name="03NipplePerkiness" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="XQNippleLength" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQNippleLength</Data>
+            <Data name="06NippleLength" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NippleLength</Data>
+            <Data name="05NippleLength" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NippleLength</Data>
+            <Data name="04NippleLength" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NippleLength</Data>
+            <Data name="03NippleLength" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="06NippleSize" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NippleSize</Data>
+            <Data name="05NippleSize" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NippleSize</Data>
+            <Data name="04NippleSize" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NippleSize</Data>
+            <Data name="03NippleSize" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="XQNippleAreola" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQNippleAreola</Data>
+            <Data name="06NippleAreola" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NippleAreola</Data>
+            <Data name="05NippleAreola" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NippleAreola</Data>
+            <Data name="04NippleAreola" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NippleAreola</Data>
+            <Data name="03NippleAreola" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="XQNippleUp" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQNippleUp</Data>
+            <Data name="06NippleUp" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NippleUp</Data>
+            <Data name="05NippleUp" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NippleUp</Data>
+            <Data name="04NippleUp" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NippleUp</Data>
+            <Data name="03NippleUp" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="06NippleDown" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NippleDown</Data>
+            <Data name="05NippleDown" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NippleDown</Data>
+            <Data name="04NippleDown" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NippleDown</Data>
+            <Data name="03NippleDown" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="06NippleTip" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06NippleTip</Data>
+            <Data name="05NippleTip" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05NippleTip</Data>
+            <Data name="04NippleTip" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04NippleTip</Data>
+            <Data name="03NippleTip" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="XQArms" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="XQShoulderSmooth" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="XQShoulderWidth" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="XQBigTorso" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBigTorso</Data>
+            <Data name="06BigTorso" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06BigTorso</Data>
+            <Data name="05BigTorso" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05BigTorso</Data>
+            <Data name="04BigTorso" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04BigTorso</Data>
+            <Data name="03BigTorso" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="02Waist" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Waist</Data>
+            <Data name="01Waist" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="02ChubbyWaist" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02ChubbyWaist</Data>
+            <Data name="01ChubbyWaist" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="02Belly" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Belly</Data>
+            <Data name="01Belly" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="02BigBelly" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02BigBelly</Data>
+            <Data name="01BigBelly" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="XQPregnancyBelly" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQPregnancyBelly</Data>
+            <Data name="syPregnancyBelly" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syPregnancyBelly</Data>
+            <Data name="06PregnancyBelly" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06PregnancyBelly</Data>
+            <Data name="05PregnancyBelly" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05PregnancyBelly</Data>
+            <Data name="04PregnancyBelly" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04PregnancyBelly</Data>
+            <Data name="03PregnancyBelly" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03PregnancyBelly</Data>
+            <Data name="02PregnancyBelly" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02PregnancyBelly</Data>
+            <Data name="01PregnancyBelly" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="02TummyTuck" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02TummyTuck</Data>
+            <Data name="01TummyTuck" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="XQBack" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="02Hipbone" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Hipbone</Data>
+            <Data name="01Hipbone" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="syHips" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syHips</Data>
+            <Data name="02Hips" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Hips</Data>
+            <Data name="01Hips" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="syButt" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syButt</Data>
+            <Data name="02Butt" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Butt</Data>
+            <Data name="01Butt" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="syButtSmall" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syButtSmall</Data>
+            <Data name="02ButtSmall" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02ButtSmall</Data>
+            <Data name="01ButtSmall" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="syButtShape2" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syButtShape2</Data>
+            <Data name="02ButtShape2" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02ButtShape2</Data>
+            <Data name="01ButtShape2" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="syBigButt" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syBigButt</Data>
+            <Data name="02BigButt" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02BigButt</Data>
+            <Data name="01BigButt" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="syChubbyButt" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syChubbyButt</Data>
+            <Data name="02ChubbyButt" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02ChubbyButt</Data>
+            <Data name="01ChubbyButt" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="syAppleCheeks" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="02Groin" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Groin</Data>
+            <Data name="01Groin" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="sySlimThighs" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\sySlimThighs</Data>
+            <Data name="02SlimThighs" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02SlimThighs</Data>
+            <Data name="01SlimThighs" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="syThighs" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syThighs</Data>
+            <Data name="02Thighs" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Thighs</Data>
+            <Data name="01Thighs" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="syChubbyLegs" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syChubbyLegs</Data>
+            <Data name="02ChubbyLegs" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02ChubbyLegs</Data>
+            <Data name="01ChubbyLegs" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="syLegs" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syLegs</Data>
+            <Data name="01Legs" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="syKneeHeight" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="syCalfSize" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="syCalfSmooth" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="syAnkles" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="XQSmallSeam" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQSmallSeam</Data>
+            <Data name="sySmallSeam" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\sySmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="XQShoulderTweak" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQShoulderTweak</Data>
+        </Slider>
+        <Slider name="Zap Neck" invert="false" small="0" big="0" zap="true">
+            <Data name="XQZap Neck" target="XQ" local="true">Minou GangMenHS BodySuit 2.osd\XQZap Neck</Data>
+        </Slider>
+        <Slider name="Zap Bra 01" invert="false" small="0" big="0" zap="true">
+            <Data name="05Zap Bra 01" target="05" local="true">Minou GangMenHS BodySuit 2.osd\05Zap Bra 01</Data>
+        </Slider>
+        <Slider name="Zap Bra 02" invert="false" small="0" big="0" zap="true">
+            <Data name="03Zap Bra 02" target="03" local="true">Minou GangMenHS BodySuit 2.osd\03Zap Bra 02</Data>
+        </Slider>
+        <Slider name="Zap Bra 03" invert="false" small="0" big="0" zap="true">
+            <Data name="06Zap Bra 03" target="06" local="true">Minou GangMenHS BodySuit 2.osd\06Zap Bra 03</Data>
+        </Slider>
+        <Slider name="Zap Bra 04" invert="false" small="0" big="0" zap="true">
+            <Data name="04Zap Bra 04" target="04" local="true">Minou GangMenHS BodySuit 2.osd\04Zap Bra 04</Data>
+        </Slider>
+        <Slider name="Zap Panty 01" invert="false" small="0" big="0" zap="true">
+            <Data name="02Zap Panty 01" target="02" local="true">Minou GangMenHS BodySuit 2.osd\02Zap Panty 01</Data>
+        </Slider>
+        <Slider name="Zap Panty 02" invert="false" small="0" big="0" zap="true">
+            <Data name="01Zap Panty 02" target="01" local="true">Minou GangMenHS BodySuit 2.osd\01Zap Panty 02</Data>
+        </Slider>
+        <Slider name="Zap Stockings" invert="false" small="0" big="0" zap="true">
+            <Data name="syZap Stockings" target="sy" local="true">Minou GangMenHS BodySuit 2.osd\syZap Stockings</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

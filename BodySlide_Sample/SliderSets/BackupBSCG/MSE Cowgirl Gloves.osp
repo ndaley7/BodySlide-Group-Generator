@@ -1,0 +1,65 @@
+<SliderSetInfo version="1">
+    <SliderSet name="MSE Cowgirl Gloves">
+        <DataFolder>MSE Cowgirl Gloves</DataFolder>
+        <SourceFile>MSE Cowgirl Gloves.nif</SourceFile>
+        <OutputPath>meshes\dcc-mse-cowgirl\gloves</OutputPath>
+        <OutputFile GenWeights="true">hands</OutputFile>
+        <Shape target="Handy">Handy</Shape>
+        <Shape target="gloves">gloves</Shape>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="glovesBreastsFantasy" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="glovesBreastFlatness" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="glovesBreastGravity" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="glovesPushUp" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="glovesBreastHeight" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="glovesBreastPerkiness" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="glovesBreastWidth" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBreastWidth</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="glovesArms" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesArms</Data>
+            <Data name="HandyArms" target="Handy" local="true">MSE Cowgirl Gloves.osd\HandyArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="glovesChubbyArms" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesChubbyArms</Data>
+            <Data name="HandyChubbyArms" target="Handy" local="true">MSE Cowgirl Gloves.osd\HandyChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="glovesShoulderWidth" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesShoulderWidth</Data>
+            <Data name="HandyShoulderWidth" target="Handy" local="true">MSE Cowgirl Gloves.osd\HandyShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="glovesBigTorso" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBigTorso</Data>
+            <Data name="HandyBigTorso" target="Handy" local="true">MSE Cowgirl Gloves.osd\HandyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="glovesWaist" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesWaist</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="glovesTummyTuck" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesTummyTuck</Data>
+            <Data name="HandyTummyTuck" target="Handy" local="true">MSE Cowgirl Gloves.osd\HandyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="glovesBack" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesBack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="glovesButt" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesButt</Data>
+            <Data name="HandyButt" target="Handy" local="true">MSE Cowgirl Gloves.osd\HandyButt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="glovesSmallSeam" target="gloves" local="true">MSE Cowgirl Gloves.osd\glovesSmallSeam</Data>
+            <Data name="HandySmallSeam" target="Handy" local="true">MSE Cowgirl Gloves.osd\HandySmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

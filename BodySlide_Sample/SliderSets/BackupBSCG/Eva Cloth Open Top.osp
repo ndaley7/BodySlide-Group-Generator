@@ -1,0 +1,141 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Eva Cloth Open Top">
+        <DataFolder>Eva Cloth Open Top</DataFolder>
+        <SourceFile>Eva Cloth Open Top.nif</SourceFile>
+        <OutputPath>meshes\Zquad1\Armor\EvaCloth</OutputPath>
+        <OutputFile GenWeights="true">OpenTop</OutputFile>
+        <Shape target="OpenTop">OpenTop</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="OpenTopBreasts" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="OpenTopBreastsSmall" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastsSH" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastsSSH" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastsFantasy" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="OpenTopDoubleMelon" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastCleavage" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastFlatness" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastGravity" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="OpenTopPushUp" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastHeight" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastPerkiness" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="OpenTopBreastWidth" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="OpenTopNippleDistance" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="OpenTopNipplePerkiness" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="OpenTopNippleLength" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="OpenTopNippleSize" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="OpenTopNippleAreola" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="OpenTopNippleUp" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="OpenTopNippleDown" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="OpenTopNippleTip" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="OpenTopArms" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="OpenTopChubbyArms" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="OpenTopShoulderSmooth" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="OpenTopShoulderWidth" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="OpenTopBigTorso" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="OpenTopWaist" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="OpenTopWideWaistLine" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="OpenTopChubbyWaist" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="OpenTopBelly" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="OpenTopBigBelly" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="OpenTopPregnancyBelly" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="OpenTopTummyTuck" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="OpenTopBack" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBack</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="OpenTopHips" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="OpenTopButt" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="OpenTopButtSmall" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="OpenTopButtShape2" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="OpenTopBigButt" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="OpenTopChubbyButt" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="OpenTopAppleCheeks" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopAppleCheeks</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="OpenTopSlimThighs" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopSlimThighs</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="OpenTopSmallSeam" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="OpenTopShoulderTweak" target="OpenTop" local="true">Eva Cloth Open Top.osd\OpenTopShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

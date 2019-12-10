@@ -1,0 +1,489 @@
+<SliderSetInfo>
+    <SliderSet name="Dianne - Enio Vampire Hunter Pant UUNP">
+        <SetFolder>Dianne - Enio Vampire Hunter Pant UUNP</SetFolder>
+        <SourceFile>Dianne - Enio Vampire Hunter Pant UUNP.nif</SourceFile>
+        <OutputPath>Meshes\Zquad1\Armor\Enio Vampire Hunter</OutputPath>
+        <OutputFile>VampHuntPants</OutputFile>
+        <BaseShapeName target="UUNP" DataFolder="Unified UNP">UUNP</BaseShapeName>
+        <BaseShapeName target="pants">pants</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="100" big="100">
+            <datafile name="Breasts" target="UUNP">Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSmall" target="UUNP">BreastsSmall.bsd</datafile>
+            <datafile name="pantsBreastsSmall" target="pants" local="true">pantsBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="UUNP" local="true">BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="UUNP" local="true">BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="UUNP">BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="UUNP">DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="UUNP">BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="UUNP">BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="UUNP">BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="UUNP">PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHeight" target="UUNP">BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="UUNP">BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="UUNP">BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="UUNP">NippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="UUNP">NipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="UUNP">NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="UUNP">NippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="UUNP">NippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="UUNP">NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="UUNP">NippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="UUNP">NippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="100" big="100">
+            <datafile name="Arms" target="UUNP">Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="UUNP">ChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="UUNP">ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="UUNP">ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="UUNP">BigTorso.bsd</datafile>
+            <datafile name="pantsBigTorso" target="pants" local="true">pantsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <datafile name="Waist" target="UUNP">Waist.bsd</datafile>
+            <datafile name="pantsWaist" target="pants" local="true">pantsWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="UUNP">WideWaistLine.bsd</datafile>
+            <datafile name="pantsWideWaistLine" target="pants" local="true">pantsWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="UUNP">ChubbyWaist.bsd</datafile>
+            <datafile name="pantsChubbyWaist" target="pants" local="true">pantsChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="UUNP">Belly.bsd</datafile>
+            <datafile name="pantsBelly" target="pants" local="true">pantsBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="UUNP">BigBelly.bsd</datafile>
+            <datafile name="pantsBigBelly" target="pants" local="true">pantsBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="UUNP">PregnancyBelly.bsd</datafile>
+            <datafile name="pantsPregnancyBelly" target="pants" local="true">pantsPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="UUNP">TummyTuck.bsd</datafile>
+            <datafile name="pantsTummyTuck" target="pants" local="true">pantsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="UUNP">Back.bsd</datafile>
+            <datafile name="pantsBack" target="pants" local="true">pantsBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="UUNP">Hipbone.bsd</datafile>
+            <datafile name="pantsHipbone" target="pants" local="true">pantsHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="UUNP">Hips.bsd</datafile>
+            <datafile name="pantsHips" target="pants" local="true">pantsHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="UUNP">ButtCrack.bsd</datafile>
+            <datafile name="pantsButtCrack" target="pants" local="true">pantsButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="100" big="100">
+            <datafile name="Butt" target="UUNP">Butt.bsd</datafile>
+            <datafile name="pantsButt" target="pants" local="true">pantsButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSmall" target="UUNP">ButtSmall.bsd</datafile>
+            <datafile name="pantsButtSmall" target="pants" local="true">pantsButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="ButtShape2" target="UUNP">ButtShape2.bsd</datafile>
+            <datafile name="pantsButtShape2" target="pants" local="true">pantsButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="UUNP">BigButt.bsd</datafile>
+            <datafile name="pantsBigButt" target="pants" local="true">pantsBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="UUNP">ChubbyButt.bsd</datafile>
+            <datafile name="pantsChubbyButt" target="pants" local="true">pantsChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheeks" target="UUNP">AppleCheeks.bsd</datafile>
+            <datafile name="pantsAppleCheeks" target="pants" local="true">pantsAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="UUNP">RoundAss.bsd</datafile>
+            <datafile name="pantsRoundAss" target="pants" local="true">pantsRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="UUNP">SlimThighs.bsd</datafile>
+            <datafile name="pantsSlimThighs" target="pants" local="true">pantsSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="UUNP">Thighs.bsd</datafile>
+            <datafile name="pantsThighs" target="pants" local="true">pantsThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="UUNP">ChubbyLegs.bsd</datafile>
+            <datafile name="pantsChubbyLegs" target="pants" local="true">pantsChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="100" big="100">
+            <datafile name="Legs" target="UUNP">Legs.bsd</datafile>
+            <datafile name="pantsLegs" target="pants" local="true">pantsLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="UUNP">KneeHeight.bsd</datafile>
+            <datafile name="pantsKneeHeight" target="pants" local="true">pantsKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="UUNP">CalfSize.bsd</datafile>
+            <datafile name="pantsCalfSize" target="pants" local="true">pantsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="UUNP">CalfSmooth.bsd</datafile>
+            <datafile name="pantsCalfSmooth" target="pants" local="true">pantsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Neck" invert="false" small="100" big="0" hidden="true">
+            <datafile name="Neck" target="UUNP">Neck.bsd</datafile>
+        </Slider>
+        <Slider name="7B Low" invert="false" small="0" big="0">
+            <datafile name="7B Low" target="UUNP">7B Low.bsd</datafile>
+            <datafile name="pants7B Low" target="pants" local="true">pants7B Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B High" invert="false" small="0" big="0">
+            <datafile name="7B High" target="UUNP">7B High.bsd</datafile>
+            <datafile name="pants7B High" target="pants" local="true">pants7B High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Bombshell Low" invert="false" small="0" big="0">
+            <datafile name="7B Bombshell Low" target="UUNP">7B Bombshell Low.bsd</datafile>
+            <datafile name="pants7B Bombshell Low" target="pants" local="true">pants7B Bombshell Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Bombshell High" invert="false" small="0" big="0">
+            <datafile name="7B Bombshell High" target="UUNP">7B Bombshell High.bsd</datafile>
+            <datafile name="pants7B Bombshell High" target="pants" local="true">pants7B Bombshell High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Natural Low" invert="false" small="0" big="0">
+            <datafile name="7B Natural Low" target="UUNP">7B Natural Low.bsd</datafile>
+            <datafile name="pants7B Natural Low" target="pants" local="true">pants7B Natural Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Natural High" invert="false" small="0" big="0">
+            <datafile name="7B Natural High" target="UUNP">7B Natural High.bsd</datafile>
+            <datafile name="pants7B Natural High" target="pants" local="true">pants7B Natural High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Cleavage Low" invert="false" small="0" big="0">
+            <datafile name="7B Cleavage Low" target="UUNP">7B Cleavage Low.bsd</datafile>
+            <datafile name="pants7B Cleavage Low" target="pants" local="true">pants7B Cleavage Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Cleavage High" invert="false" small="0" big="0">
+            <datafile name="7B Cleavage High" target="UUNP">7B Cleavage High.bsd</datafile>
+            <datafile name="pants7B Cleavage High" target="pants" local="true">pants7B Cleavage High.bsd</datafile>
+        </Slider>
+        <Slider name="7B BCup Low" invert="false" small="0" big="0">
+            <datafile name="7B BCup Low" target="UUNP">7B BCup Low.bsd</datafile>
+            <datafile name="pants7B BCup Low" target="pants" local="true">pants7B BCup Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B BCup High" invert="false" small="0" big="0">
+            <datafile name="7B BCup High" target="UUNP">7B BCup High.bsd</datafile>
+            <datafile name="pants7B BCup High" target="pants" local="true">pants7B BCup High.bsd</datafile>
+        </Slider>
+        <Slider name="7BUNP Low" invert="false" small="0" big="0">
+            <datafile name="7BUNP Low" target="UUNP">7BUNP Low.bsd</datafile>
+            <datafile name="pants7BUNP Low" target="pants" local="true">pants7BUNP Low.bsd</datafile>
+        </Slider>
+        <Slider name="7BUNP High" invert="false" small="0" big="0">
+            <datafile name="7BUNP High" target="UUNP">7BUNP High.bsd</datafile>
+            <datafile name="pants7BUNP High" target="pants" local="true">pants7BUNP High.bsd</datafile>
+        </Slider>
+        <Slider name="7B Oppai Low" invert="false" small="0" big="0">
+            <datafile name="7B Oppai Low" target="UUNP">7B Oppai Low.bsd</datafile>
+            <datafile name="pants7B Oppai Low" target="pants" local="true">pants7B Oppai Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B Oppai High" invert="false" small="0" big="0">
+            <datafile name="7B Oppai High" target="UUNP">7B Oppai High.bsd</datafile>
+            <datafile name="pants7B Oppai High" target="pants" local="true">pants7B Oppai High.bsd</datafile>
+        </Slider>
+        <Slider name="7B CH Low" invert="false" small="0" big="0">
+            <datafile name="7B CH Low" target="UUNP">7B CH Low.bsd</datafile>
+            <datafile name="pants7B CH Low" target="pants" local="true">pants7B CH Low.bsd</datafile>
+        </Slider>
+        <Slider name="7B CH High" invert="false" small="0" big="0">
+            <datafile name="7B CH High" target="UUNP">7B CH High.bsd</datafile>
+            <datafile name="pants7B CH High" target="pants" local="true">pants7B CH High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Low" invert="false" small="0" big="0">
+            <datafile name="UNP Low" target="UUNP">UNP Low.bsd</datafile>
+            <datafile name="pantsUNP Low" target="pants" local="true">pantsUNP Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP High" invert="false" small="0" big="0">
+            <datafile name="UNP High" target="UUNP">UNP High.bsd</datafile>
+            <datafile name="pantsUNP High" target="pants" local="true">pantsUNP High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Pushup Low" invert="false" small="0" big="0">
+            <datafile name="UNP Pushup Low" target="UUNP">UNP Pushup Low.bsd</datafile>
+            <datafile name="pantsUNP Pushup Low" target="pants" local="true">pantsUNP Pushup Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Pushup High" invert="false" small="0" big="0">
+            <datafile name="UNP Pushup High" target="UUNP">UNP Pushup High.bsd</datafile>
+            <datafile name="pantsUNP Pushup High" target="pants" local="true">pantsUNP Pushup High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Skinny Low" invert="false" small="0" big="0">
+            <datafile name="UNP Skinny Low" target="UUNP">UNP Skinny Low.bsd</datafile>
+            <datafile name="pantsUNP Skinny Low" target="pants" local="true">pantsUNP Skinny Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Skinny High" invert="false" small="0" big="0">
+            <datafile name="UNP Skinny High" target="UUNP">UNP Skinny High.bsd</datafile>
+            <datafile name="pantsUNP Skinny High" target="pants" local="true">pantsUNP Skinny High.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Perky Low" invert="false" small="0" big="0">
+            <datafile name="UNP Perky Low" target="UUNP">UNP Perky Low.bsd</datafile>
+            <datafile name="pantsUNP Perky Low" target="pants" local="true">pantsUNP Perky Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNP Perky High" invert="false" small="0" big="0">
+            <datafile name="UNP Perky High" target="UUNP">UNP Perky High.bsd</datafile>
+            <datafile name="pantsUNP Perky High" target="pants" local="true">pantsUNP Perky High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Low" invert="false" small="0" big="0">
+            <datafile name="UNPB Low" target="UUNP">UNPB Low.bsd</datafile>
+            <datafile name="pantsUNPB Low" target="pants" local="true">pantsUNPB Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB High" invert="false" small="0" big="0">
+            <datafile name="UNPB High" target="UUNP">UNPB High.bsd</datafile>
+            <datafile name="pantsUNPB High" target="pants" local="true">pantsUNPB High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Chapi" invert="false" small="0" big="0">
+            <datafile name="UNPB Chapi" target="UUNP">UNPB Chapi.bsd</datafile>
+            <datafile name="pantsUNPB Chapi" target="pants" local="true">pantsUNPB Chapi.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Oppai v1" invert="false" small="0" big="0">
+            <datafile name="UNPB Oppai v1" target="UUNP">UNPB Oppai v1.bsd</datafile>
+            <datafile name="pantsUNPB Oppai v1" target="pants" local="true">pantsUNPB Oppai v1.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Oppai v3.2 Low" invert="false" small="0" big="0">
+            <datafile name="UNPB Oppai v3.2 Low" target="UUNP">UNPB Oppai v3.2 Low.bsd</datafile>
+            <datafile name="pantsUNPB Oppai v3.2 Low" target="pants" local="true">pantsUNPB Oppai v3.2 Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPB Oppai v3.2 High" invert="false" small="0" big="0">
+            <datafile name="UNPB Oppai v3.2 High" target="UUNP">UNPB Oppai v3.2 High.bsd</datafile>
+            <datafile name="pantsUNPB Oppai v3.2 High" target="pants" local="true">pantsUNPB Oppai v3.2 High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPetite Low" invert="false" small="0" big="0">
+            <datafile name="UNPetite Low" target="UUNP">UNPetite Low.bsd</datafile>
+            <datafile name="pantsUNPetite Low" target="pants" local="true">pantsUNPetite Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPetite High" invert="false" small="0" big="0">
+            <datafile name="UNPetite High" target="UUNP">UNPetite High.bsd</datafile>
+            <datafile name="pantsUNPetite High" target="pants" local="true">pantsUNPetite High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPC Low" invert="false" small="0" big="0">
+            <datafile name="UNPC Low" target="UUNP">UNPC Low.bsd</datafile>
+            <datafile name="pantsUNPC Low" target="pants" local="true">pantsUNPC Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPC High" invert="false" small="0" big="0">
+            <datafile name="UNPC High" target="UUNP">UNPC High.bsd</datafile>
+            <datafile name="pantsUNPC High" target="pants" local="true">pantsUNPC High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPCM Low" invert="false" small="0" big="0">
+            <datafile name="UNPCM Low" target="UUNP">UNPCM Low.bsd</datafile>
+            <datafile name="pantsUNPCM Low" target="pants" local="true">pantsUNPCM Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPCM High" invert="false" small="0" big="0">
+            <datafile name="UNPCM High" target="UUNP">UNPCM High.bsd</datafile>
+            <datafile name="pantsUNPCM High" target="pants" local="true">pantsUNPCM High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPSH Low" invert="false" small="0" big="0">
+            <datafile name="UNPSH Low" target="UUNP">UNPSH Low.bsd</datafile>
+            <datafile name="pantsUNPSH Low" target="pants" local="true">pantsUNPSH Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPSH High" invert="false" small="0" big="0">
+            <datafile name="UNPSH High" target="UUNP">UNPSH High.bsd</datafile>
+            <datafile name="pantsUNPSH High" target="pants" local="true">pantsUNPSH High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK Low" invert="false" small="0" big="0">
+            <datafile name="UNPK Low" target="UUNP">UNPK Low.bsd</datafile>
+            <datafile name="pantsUNPK Low" target="pants" local="true">pantsUNPK Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK High" invert="false" small="0" big="0">
+            <datafile name="UNPK High" target="UUNP">UNPK High.bsd</datafile>
+            <datafile name="pantsUNPK High" target="pants" local="true">pantsUNPK High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK Bonus Low" invert="false" small="0" big="0">
+            <datafile name="UNPK Bonus Low" target="UUNP">UNPK Bonus Low.bsd</datafile>
+            <datafile name="pantsUNPK Bonus Low" target="pants" local="true">pantsUNPK Bonus Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPK Bonus High" invert="false" small="0" big="0">
+            <datafile name="UNPK Bonus High" target="UUNP">UNPK Bonus High.bsd</datafile>
+            <datafile name="pantsUNPK Bonus High" target="pants" local="true">pantsUNPK Bonus High.bsd</datafile>
+        </Slider>
+        <Slider name="UN7B Low" invert="false" small="0" big="0">
+            <datafile name="UN7B Low" target="UUNP">UN7B Low.bsd</datafile>
+            <datafile name="pantsUN7B Low" target="pants" local="true">pantsUN7B Low.bsd</datafile>
+        </Slider>
+        <Slider name="UN7B High" invert="false" small="0" big="0">
+            <datafile name="UN7B High" target="UUNP">UN7B High.bsd</datafile>
+            <datafile name="pantsUN7B High" target="pants" local="true">pantsUN7B High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPBB Low" invert="false" small="0" big="0">
+            <datafile name="UNPBB Low" target="UUNP">UNPBB Low.bsd</datafile>
+            <datafile name="pantsUNPBB Low" target="pants" local="true">pantsUNPBB Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPBB High" invert="false" small="0" big="0">
+            <datafile name="UNPBB High" target="UUNP">UNPBB High.bsd</datafile>
+            <datafile name="pantsUNPBB High" target="pants" local="true">pantsUNPBB High.bsd</datafile>
+        </Slider>
+        <Slider name="Seraphim Low" invert="false" small="0" big="0">
+            <datafile name="Seraphim Low" target="UUNP">Seraphim Low.bsd</datafile>
+            <datafile name="pantsSeraphim Low" target="pants" local="true">pantsSeraphim Low.bsd</datafile>
+        </Slider>
+        <Slider name="Seraphim High" invert="false" small="0" big="0">
+            <datafile name="Seraphim High" target="UUNP">Seraphim High.bsd</datafile>
+            <datafile name="pantsSeraphim High" target="pants" local="true">pantsSeraphim High.bsd</datafile>
+        </Slider>
+        <Slider name="Demonfet Low" invert="false" small="0" big="0">
+            <datafile name="Demonfet Low" target="UUNP">Demonfet Low.bsd</datafile>
+            <datafile name="pantsDemonfet Low" target="pants" local="true">pantsDemonfet Low.bsd</datafile>
+        </Slider>
+        <Slider name="Demonfet High" invert="false" small="0" big="0">
+            <datafile name="Demonfet High" target="UUNP">Demonfet High.bsd</datafile>
+            <datafile name="pantsDemonfet High" target="pants" local="true">pantsDemonfet High.bsd</datafile>
+        </Slider>
+        <Slider name="Dream Girl Low" invert="false" small="0" big="0">
+            <datafile name="Dream Girl Low" target="UUNP">Dream Girl Low.bsd</datafile>
+            <datafile name="pantsDream Girl Low" target="pants" local="true">pantsDream Girl Low.bsd</datafile>
+        </Slider>
+        <Slider name="Dream Girl High" invert="false" small="0" big="0">
+            <datafile name="Dream Girl High" target="UUNP">Dream Girl High.bsd</datafile>
+            <datafile name="pantsDream Girl High" target="pants" local="true">pantsDream Girl High.bsd</datafile>
+        </Slider>
+        <Slider name="Top Model Low" invert="false" small="0" big="0">
+            <datafile name="Top Model Low" target="UUNP">Top Model Low.bsd</datafile>
+            <datafile name="pantsTop Model Low" target="pants" local="true">pantsTop Model Low.bsd</datafile>
+        </Slider>
+        <Slider name="Top Model High" invert="false" small="0" big="0">
+            <datafile name="Top Model High" target="UUNP">Top Model High.bsd</datafile>
+            <datafile name="pantsTop Model High" target="pants" local="true">pantsTop Model High.bsd</datafile>
+        </Slider>
+        <Slider name="Leito Low" invert="false" small="0" big="0">
+            <datafile name="Leito Low" target="UUNP">Leito Low.bsd</datafile>
+            <datafile name="pantsLeito Low" target="pants" local="true">pantsLeito Low.bsd</datafile>
+        </Slider>
+        <Slider name="Leito High" invert="false" small="0" big="0">
+            <datafile name="Leito High" target="UUNP">Leito High.bsd</datafile>
+            <datafile name="pantsLeito High" target="pants" local="true">pantsLeito High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPF Low" invert="false" small="0" big="0">
+            <datafile name="UNPF Low" target="UUNP">UNPF Low.bsd</datafile>
+            <datafile name="pantsUNPF Low" target="pants" local="true">pantsUNPF Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPF High" invert="false" small="0" big="0">
+            <datafile name="UNPF High" target="UUNP">UNPF High.bsd</datafile>
+            <datafile name="pantsUNPF High" target="pants" local="true">pantsUNPF High.bsd</datafile>
+        </Slider>
+        <Slider name="UNPFx Low" invert="false" small="0" big="0">
+            <datafile name="UNPFx Low" target="UUNP">UNPFx Low.bsd</datafile>
+            <datafile name="pantsUNPFx Low" target="pants" local="true">pantsUNPFx Low.bsd</datafile>
+        </Slider>
+        <Slider name="UNPFx High" invert="false" small="0" big="0">
+            <datafile name="UNPFx High" target="UUNP">UNPFx High.bsd</datafile>
+            <datafile name="pantsUNPFx High" target="pants" local="true">pantsUNPFx High.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF Low" invert="false" small="0" big="0">
+            <datafile name="CNHF Low" target="UUNP">CNHF Low.bsd</datafile>
+            <datafile name="pantsCNHF Low" target="pants" local="true">pantsCNHF Low.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF High" invert="false" small="0" big="0">
+            <datafile name="CNHF High" target="UUNP">CNHF High.bsd</datafile>
+            <datafile name="pantsCNHF High" target="pants" local="true">pantsCNHF High.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF Bonus Low" invert="false" small="0" big="0">
+            <datafile name="CNHF Bonus Low" target="UUNP">CNHF Bonus Low.bsd</datafile>
+            <datafile name="pantsCNHF Bonus Low" target="pants" local="true">pantsCNHF Bonus Low.bsd</datafile>
+        </Slider>
+        <Slider name="CNHF Bonus High" invert="false" small="0" big="0">
+            <datafile name="CNHF Bonus High" target="UUNP">CNHF Bonus High.bsd</datafile>
+            <datafile name="pantsCNHF Bonus High" target="pants" local="true">pantsCNHF Bonus High.bsd</datafile>
+        </Slider>
+        <Slider name="MCBM Low" invert="false" small="0" big="0">
+            <datafile name="MCBM Low" target="UUNP">MCBM Low.bsd</datafile>
+            <datafile name="pantsMCBM Low" target="pants" local="true">pantsMCBM Low.bsd</datafile>
+        </Slider>
+        <Slider name="MCBM High" invert="false" small="0" big="0">
+            <datafile name="MCBM High" target="UUNP" local="true">MCBM High.bsd</datafile>
+            <datafile name="pantsMCBM High" target="pants" local="true">pantsMCBM High.bsd</datafile>
+        </Slider>
+        <Slider name="Venus Low" invert="false" small="0" big="0">
+            <datafile name="Venus Low" target="UUNP">Venus Low.bsd</datafile>
+            <datafile name="pantsVenus Low" target="pants" local="true">pantsVenus Low.bsd</datafile>
+        </Slider>
+        <Slider name="Venus High" invert="false" small="0" big="0">
+            <datafile name="Venus High" target="UUNP">Venus High.bsd</datafile>
+            <datafile name="pantsVenus High" target="pants" local="true">pantsVenus High.bsd</datafile>
+        </Slider>
+        <Slider name="ZGGB-R2 Low" invert="false" small="0" big="0">
+            <datafile name="ZGGB-R2 Low" target="UUNP">ZGGB-R2 Low.bsd</datafile>
+            <datafile name="pantsZGGB-R2 Low" target="pants" local="true">pantsZGGB-R2 Low.bsd</datafile>
+        </Slider>
+        <Slider name="ZGGB-R2 High" invert="false" small="0" big="0">
+            <datafile name="ZGGB-R2 High" target="UUNP">ZGGB-R2 High.bsd</datafile>
+            <datafile name="pantsZGGB-R2 High" target="pants" local="true">pantsZGGB-R2 High.bsd</datafile>
+        </Slider>
+        <Slider name="Manga Low" invert="false" small="0" big="0">
+            <datafile name="Manga Low" target="UUNP">Manga Low.bsd</datafile>
+            <datafile name="pantsManga Low" target="pants" local="true">pantsManga Low.bsd</datafile>
+        </Slider>
+        <Slider name="Manga High" invert="false" small="0" big="0">
+            <datafile name="Manga High" target="UUNP" local="true">Manga High.bsd</datafile>
+            <datafile name="pantsManga High" target="pants" local="true">pantsManga High.bsd</datafile>
+        </Slider>
+        <Slider name="CHSBHC Low" invert="false" small="0" big="0">
+            <datafile name="CHSBHC Low" target="UUNP">CHSBHC Low.bsd</datafile>
+            <datafile name="pantsCHSBHC Low" target="pants" local="true">pantsCHSBHC Low.bsd</datafile>
+        </Slider>
+        <Slider name="CHSBHC High" invert="false" small="0" big="0">
+            <datafile name="CHSBHC High" target="UUNP">CHSBHC High.bsd</datafile>
+            <datafile name="pantsCHSBHC High" target="pants" local="true">pantsCHSBHC High.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
