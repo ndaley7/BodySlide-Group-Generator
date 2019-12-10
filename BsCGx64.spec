@@ -26,7 +26,7 @@ exe = EXE(pyz,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          console=True )
+          console=True , icon='C:\\Users\\ndaley\\Documents\\GitHub\\BodySlide-Group-Generator\\BSGG\\bscg1_3_2.ico')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
