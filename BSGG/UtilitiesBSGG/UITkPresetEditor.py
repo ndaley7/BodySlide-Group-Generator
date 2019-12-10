@@ -34,23 +34,28 @@ def select():
     tk.Label(root, text="\n".join([str(tree.item(i)['values']) for i in curItems])).pack()
 
 root = tk.Tk()
-tree = tkinter.ttk.Treeview(root, height=4)
+tree = tkinter.ttk.Treeview(root, height=10)
 
-tree['show'] = 'headings'
-tree['columns'] = ('Badge Name', 'Requirement', 'Cost', 'Difficulty')
-tree.heading("#1", text='Badge Name', anchor='w')
-tree.column("#1", stretch="no")
-tree.heading("#2", text='Requirement', anchor='w')
-tree.column("#2", stretch="no")
-tree.heading("#3", text='Cost', anchor='w')
-tree.column("#3", stretch="no")
-tree.heading("#4", text='Difficulty', anchor='w')
-tree.column("#4", stretch="no")
-tree.pack()
+tree["columns"]=("one","two","three")
+tree.column("#0", width=270, minwidth=270, stretch=tk.YES)
+tree.column("one", width=150, minwidth=150, stretch=tk.YES)
+tree.column("two", width=400, minwidth=200)
+tree.column("three", width=80, minwidth=50, stretch=tk.YES)
 
-tree.insert("", "end", values=["IT Badge", "Track Computer", "$1.50", "2"])
-tree.insert("", "end", values=["Selfless Badge", "Track Yourself", "$100.50", "10"])
-tree.insert("", "end", values=["Tracking Badge", "Track Animal", "$4.50", "7"])
+tree.heading("#0",text="Name",anchor=tk.W)
+tree.heading("one", text="Date modified",anchor=tk.W)
+tree.heading("two", text="Type",anchor=tk.W)
+tree.heading("three", text="Size",anchor=tk.W)
+
+#Level 1
+folder1=tree.insert("", 1, "", text="Folder 1", values=("23-Jun-17 11:05","File folder",""))
+tree.insert("", 2, "", text="text_file.txt", values=("23-Jun-17 11:25","TXT file","1 KB"))
+# Level 2
+tree.insert(folder1, "end", "", text="photo1.png", values=("23-Jun-17 11:28","PNG file","2.6 KB"))
+tree.insert(folder1, "end", "", text="photo2.png", values=("23-Jun-17 11:29","PNG file","3.2 KB"))
+tree.insert(folder1, "end", "", text="photo3.png", values=("23-Jun-17 11:30","PNG file","3.1 KB"))
+
+tree.pack(side=tk.TOP,fill=tk.X)
 
 tree.bind("<Return>", lambda e: select())
 
