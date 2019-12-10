@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 DB Robes">
+        <DataFolder>CT77DBRobes</DataFolder>
+        <SourceFile>CT77DBRobes.nif</SourceFile>
+        <OutputPath>meshes\clothes\robedarkbrotherhood\female</OutputPath>
+        <OutputFile GenWeights="true">dbtorso</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="DBRobes">DBRobes</Shape>
+        <Shape target="DBRobesLeggings">DBRobesLeggings</Shape>
+        <Shape target="DBRobesSkirt">DBRobesSkirt</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="DBRobesBreasts" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="DBRobesBreastsSmall" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastsSmall</Data>
+            <Data name="DBRobesSkirtBreastsSmall" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="DBRobesBreastsSH" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="DBRobesBreastsSSH" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="DBRobesBreastsFantasy" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="DBRobesDoubleMelon" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="DBRobesBreastCleavage" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="DBRobesBreastFlatness" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastFlatness</Data>
+            <Data name="DBRobesSkirtBreastFlatness" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="DBRobesBreastGravity" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="DBRobesPushUp" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="DBRobesBreastHeight" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastHeight</Data>
+            <Data name="DBRobesSkirtBreastHeight" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBreastHeight</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="DBRobesBreastPerkiness" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="DBRobesBreastWidth" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBreastWidth</Data>
+            <Data name="DBRobesSkirtBreastWidth" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="DBRobesNippleDistance" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="DBRobesNipplePerkiness" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="DBRobesNippleLength" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="DBRobesNippleSize" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="DBRobesNippleAreola" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="DBRobesNippleUp" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="DBRobesNippleDown" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="DBRobesNippleTip" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="DBRobesArms" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="DBRobesChubbyArms" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="DBRobesShoulderWidth" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="DBRobesBigTorso" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBigTorso</Data>
+            <Data name="DBRobesSkirtBigTorso" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="DBRobesWaist" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesWaist</Data>
+            <Data name="DBRobesSkirtWaist" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtWaist</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="DBRobesWideWaistLine" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesWideWaistLine</Data>
+            <Data name="DBRobesSkirtWideWaistLine" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="DBRobesChubbyWaist" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesChubbyWaist</Data>
+            <Data name="DBRobesSkirtChubbyWaist" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="DBRobesBelly" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBelly</Data>
+            <Data name="DBRobesSkirtBelly" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBelly</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="DBRobesBigBelly" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBigBelly</Data>
+            <Data name="DBRobesSkirtBigBelly" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="DBRobesTummyTuck" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesTummyTuck</Data>
+            <Data name="DBRobesSkirtTummyTuck" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="DBRobesBack" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBack</Data>
+            <Data name="DBRobesSkirtBack" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBack</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="DBRobesHipbone" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesHipbone</Data>
+            <Data name="DBRobesSkirtHipbone" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtHipbone</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="DBRobesHips" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesHips</Data>
+            <Data name="DBRobesLeggingsHips" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsHips</Data>
+            <Data name="DBRobesSkirtHips" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtHips</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="DBRobesButt" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesButt</Data>
+            <Data name="DBRobesLeggingsButt" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsButt</Data>
+            <Data name="DBRobesSkirtButt" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtButt</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="DBRobesButtSmall" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesButtSmall</Data>
+            <Data name="DBRobesLeggingsButtSmall" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsButtSmall</Data>
+            <Data name="DBRobesSkirtButtSmall" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="DBRobesButtShape2" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesButtShape2</Data>
+            <Data name="DBRobesLeggingsButtShape2" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsButtShape2</Data>
+            <Data name="DBRobesSkirtButtShape2" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="DBRobesBigButt" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesBigButt</Data>
+            <Data name="DBRobesLeggingsBigButt" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsBigButt</Data>
+            <Data name="DBRobesSkirtBigButt" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtBigButt</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="DBRobesChubbyButt" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesChubbyButt</Data>
+            <Data name="DBRobesLeggingsChubbyButt" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsChubbyButt</Data>
+            <Data name="DBRobesSkirtChubbyButt" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="DBRobesAppleCheeks" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesAppleCheeks</Data>
+            <Data name="DBRobesSkirtAppleCheeks" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="DBRobesRoundAss" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesRoundAss</Data>
+            <Data name="DBRobesSkirtRoundAss" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="DBRobesSlimThighs" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesSlimThighs</Data>
+            <Data name="DBRobesLeggingsSlimThighs" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsSlimThighs</Data>
+            <Data name="DBRobesSkirtSlimThighs" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="DBRobesLeggingsThighs" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsThighs</Data>
+            <Data name="DBRobesSkirtThighs" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="DBRobesLeggingsChubbyLegs" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsChubbyLegs</Data>
+            <Data name="DBRobesSkirtChubbyLegs" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="DBRobesLeggingsLegs" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsLegs</Data>
+            <Data name="DBRobesSkirtLegs" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="DBRobesLeggingsKneeHeight" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsKneeHeight</Data>
+            <Data name="DBRobesSkirtKneeHeight" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="DBRobesLeggingsCalfSize" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="DBRobesLeggingsCalfSmooth" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="DBRobesLeggingsAnkles" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="DBRobesSmallSeam" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesSmallSeam</Data>
+            <Data name="DBRobesLeggingsSmallSeam" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+        </Slider>
+        <Slider name="ZapTop" invert="false" small="0" big="0" zap="true">
+            <Data name="DBRobesZapTop" target="DBRobes" local="true">CT77DBRobes.osd\DBRobesZapTop</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="DBRobesSkirtZapSkirt" target="DBRobesSkirt" local="true">CT77DBRobes.osd\DBRobesSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="DBRobesLeggingsZapLeggings" target="DBRobesLeggings" local="true">CT77DBRobes.osd\DBRobesLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 DB Robes Shoes">
+        <DataFolder>CT77DBRobes</DataFolder>
+        <SourceFile>CT77DBRobesShoes.nif</SourceFile>
+        <OutputPath>meshes\clothes\robedarkbrotherhood\female</OutputPath>
+        <OutputFile GenWeights="true">dbboots</OutputFile>
+        <Shape target="DBRobesShoes">DBRobesShoes</Shape>
+        <Shape target="Feet" DataFolder="CT77DBRobes">Feet</Shape>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="FeetAnkles" target="Feet" local="true">CT77DBRobesShoes.osd\FeetAnkles</Data>
+            <Data name="DBRobesShoesAnkles" target="DBRobesShoes" local="true">CT77DBRobesShoes.osd\DBRobesShoesAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="FeetSmallSeam" target="Feet" local="true">CT77DBRobesShoes.osd\FeetSmallSeam</Data>
+            <Data name="DBRobesShoesSmallSeam" target="DBRobesShoes" local="true">CT77DBRobesShoes.osd\DBRobesShoesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 DB Robes Hood">
+        <DataFolder>CT77DBRobes</DataFolder>
+        <SourceFile>CT77DBRobesHood.nif</SourceFile>
+        <OutputPath>meshes\clothes\robedarkbrotherhood\female</OutputPath>
+        <OutputFile GenWeights="true">dbhood</OutputFile>
+        <Shape target="DBHoodArg">DBHoodArg</Shape>
+        <Shape target="DBHoodKha">DBHoodKha</Shape>
+        <Shape target="DBRobesHood">DBRobesHood</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="DBHoodArgBreasts" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreasts</Data>
+            <Data name="DBHoodKhaBreasts" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreasts</Data>
+            <Data name="DBRobesHoodBreasts" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="DBHoodArgBreastsSmall" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSmall</Data>
+            <Data name="DBHoodKhaBreastsSmall" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSmall</Data>
+            <Data name="DBRobesHoodBreastsSmall" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsSH" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSH</Data>
+            <Data name="DBHoodKhaBreastsSH" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSH</Data>
+            <Data name="DBRobesHoodBreastsSH" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsSSH" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSSH</Data>
+            <Data name="DBHoodKhaBreastsSSH" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSSH</Data>
+            <Data name="DBRobesHoodBreastsSSH" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsFantasy" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsFantasy</Data>
+            <Data name="DBHoodKhaBreastsFantasy" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsFantasy</Data>
+            <Data name="DBRobesHoodBreastsFantasy" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DBHoodArgDoubleMelon" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgDoubleMelon</Data>
+            <Data name="DBHoodKhaDoubleMelon" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaDoubleMelon</Data>
+            <Data name="DBRobesHoodDoubleMelon" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastCleavage" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastCleavage</Data>
+            <Data name="DBHoodKhaBreastCleavage" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastCleavage</Data>
+            <Data name="DBRobesHoodBreastCleavage" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastFlatness" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastFlatness</Data>
+            <Data name="DBHoodKhaBreastFlatness" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastFlatness</Data>
+            <Data name="DBRobesHoodBreastFlatness" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastGravity" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastGravity</Data>
+            <Data name="DBHoodKhaBreastGravity" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastGravity</Data>
+            <Data name="DBRobesHoodBreastGravity" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="DBHoodArgPushUp" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgPushUp</Data>
+            <Data name="DBHoodKhaPushUp" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaPushUp</Data>
+            <Data name="DBRobesHoodPushUp" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastHeight" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastHeight</Data>
+            <Data name="DBHoodKhaBreastHeight" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastHeight</Data>
+            <Data name="DBRobesHoodBreastHeight" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastPerkiness" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastPerkiness</Data>
+            <Data name="DBHoodKhaBreastPerkiness" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastPerkiness</Data>
+            <Data name="DBRobesHoodBreastPerkiness" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastWidth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastWidth</Data>
+            <Data name="DBHoodKhaBreastWidth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastWidth</Data>
+            <Data name="DBRobesHoodBreastWidth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="DBHoodArgNippleDistance" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleDistance</Data>
+            <Data name="DBHoodKhaNippleDistance" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleDistance</Data>
+            <Data name="DBRobesHoodNippleDistance" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleLength" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleLength</Data>
+            <Data name="DBHoodKhaNippleLength" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleLength</Data>
+            <Data name="DBRobesHoodNippleLength" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleLength</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleAreola" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleAreola</Data>
+            <Data name="DBHoodKhaNippleAreola" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleAreola</Data>
+            <Data name="DBRobesHoodNippleAreola" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleUp" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleUp</Data>
+            <Data name="DBHoodKhaNippleUp" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleUp</Data>
+            <Data name="DBRobesHoodNippleUp" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleDown" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleDown</Data>
+            <Data name="DBHoodKhaNippleDown" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleDown</Data>
+            <Data name="DBRobesHoodNippleDown" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="DBHoodArgArms" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgArms</Data>
+            <Data name="DBHoodKhaArms" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaArms</Data>
+            <Data name="DBRobesHoodArms" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="DBHoodArgChubbyArms" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgChubbyArms</Data>
+            <Data name="DBHoodKhaChubbyArms" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaChubbyArms</Data>
+            <Data name="DBRobesHoodChubbyArms" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="DBHoodArgShoulderSmooth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderSmooth</Data>
+            <Data name="DBHoodKhaShoulderSmooth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderSmooth</Data>
+            <Data name="DBRobesHoodShoulderSmooth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="DBHoodArgShoulderWidth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderWidth</Data>
+            <Data name="DBHoodKhaShoulderWidth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderWidth</Data>
+            <Data name="DBRobesHoodShoulderWidth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBigTorso" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBigTorso</Data>
+            <Data name="DBHoodKhaBigTorso" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBigTorso</Data>
+            <Data name="DBRobesHoodBigTorso" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBigTorso</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBack" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBack</Data>
+            <Data name="DBHoodKhaBack" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBack</Data>
+            <Data name="DBRobesHoodBack" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBack</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DBHoodArgSmallSeam" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgSmallSeam</Data>
+            <Data name="DBHoodKhaSmallSeam" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaSmallSeam</Data>
+            <Data name="DBRobesHoodSmallSeam" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="DBHoodArgShoulderTweak" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderTweak</Data>
+            <Data name="DBHoodKhaShoulderTweak" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderTweak</Data>
+            <Data name="DBRobesHoodShoulderTweak" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapDBRobesHood" invert="false" small="0" big="0" hidden="true" zap="true">
+            <Data name="DBRobesHoodZapDBRobesHood" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodZapDBRobesHood</Data>
+        </Slider>
+        <Slider name="ZapDBHoodArg" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="DBHoodArgZapDBHoodArg" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgZapDBHoodArg</Data>
+        </Slider>
+        <Slider name="ZapDBHoodKha" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="DBHoodKhaZapDBHoodKha" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaZapDBHoodKha</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 DB Robes Hood Arg">
+        <DataFolder>CT77DBRobes</DataFolder>
+        <SourceFile>CT77DBRobesHood.nif</SourceFile>
+        <OutputPath>meshes\clothes\robedarkbrotherhood\female</OutputPath>
+        <OutputFile GenWeights="true">dbhoodarg</OutputFile>
+        <Shape target="DBHoodArg">DBHoodArg</Shape>
+        <Shape target="DBHoodKha">DBHoodKha</Shape>
+        <Shape target="DBRobesHood">DBRobesHood</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="DBHoodArgBreasts" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreasts</Data>
+            <Data name="DBHoodKhaBreasts" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreasts</Data>
+            <Data name="DBRobesHoodBreasts" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="DBHoodArgBreastsSmall" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSmall</Data>
+            <Data name="DBHoodKhaBreastsSmall" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSmall</Data>
+            <Data name="DBRobesHoodBreastsSmall" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsSH" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSH</Data>
+            <Data name="DBHoodKhaBreastsSH" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSH</Data>
+            <Data name="DBRobesHoodBreastsSH" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsSSH" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSSH</Data>
+            <Data name="DBHoodKhaBreastsSSH" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSSH</Data>
+            <Data name="DBRobesHoodBreastsSSH" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsFantasy" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsFantasy</Data>
+            <Data name="DBHoodKhaBreastsFantasy" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsFantasy</Data>
+            <Data name="DBRobesHoodBreastsFantasy" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DBHoodArgDoubleMelon" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgDoubleMelon</Data>
+            <Data name="DBHoodKhaDoubleMelon" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaDoubleMelon</Data>
+            <Data name="DBRobesHoodDoubleMelon" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastCleavage" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastCleavage</Data>
+            <Data name="DBHoodKhaBreastCleavage" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastCleavage</Data>
+            <Data name="DBRobesHoodBreastCleavage" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastFlatness" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastFlatness</Data>
+            <Data name="DBHoodKhaBreastFlatness" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastFlatness</Data>
+            <Data name="DBRobesHoodBreastFlatness" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastGravity" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastGravity</Data>
+            <Data name="DBHoodKhaBreastGravity" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastGravity</Data>
+            <Data name="DBRobesHoodBreastGravity" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="DBHoodArgPushUp" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgPushUp</Data>
+            <Data name="DBHoodKhaPushUp" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaPushUp</Data>
+            <Data name="DBRobesHoodPushUp" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastHeight" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastHeight</Data>
+            <Data name="DBHoodKhaBreastHeight" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastHeight</Data>
+            <Data name="DBRobesHoodBreastHeight" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastPerkiness" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastPerkiness</Data>
+            <Data name="DBHoodKhaBreastPerkiness" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastPerkiness</Data>
+            <Data name="DBRobesHoodBreastPerkiness" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastWidth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastWidth</Data>
+            <Data name="DBHoodKhaBreastWidth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastWidth</Data>
+            <Data name="DBRobesHoodBreastWidth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="DBHoodArgNippleDistance" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleDistance</Data>
+            <Data name="DBHoodKhaNippleDistance" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleDistance</Data>
+            <Data name="DBRobesHoodNippleDistance" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleLength" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleLength</Data>
+            <Data name="DBHoodKhaNippleLength" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleLength</Data>
+            <Data name="DBRobesHoodNippleLength" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleLength</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleAreola" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleAreola</Data>
+            <Data name="DBHoodKhaNippleAreola" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleAreola</Data>
+            <Data name="DBRobesHoodNippleAreola" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleUp" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleUp</Data>
+            <Data name="DBHoodKhaNippleUp" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleUp</Data>
+            <Data name="DBRobesHoodNippleUp" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleDown" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleDown</Data>
+            <Data name="DBHoodKhaNippleDown" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleDown</Data>
+            <Data name="DBRobesHoodNippleDown" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="DBHoodArgArms" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgArms</Data>
+            <Data name="DBHoodKhaArms" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaArms</Data>
+            <Data name="DBRobesHoodArms" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="DBHoodArgChubbyArms" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgChubbyArms</Data>
+            <Data name="DBHoodKhaChubbyArms" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaChubbyArms</Data>
+            <Data name="DBRobesHoodChubbyArms" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="DBHoodArgShoulderSmooth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderSmooth</Data>
+            <Data name="DBHoodKhaShoulderSmooth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderSmooth</Data>
+            <Data name="DBRobesHoodShoulderSmooth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="DBHoodArgShoulderWidth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderWidth</Data>
+            <Data name="DBHoodKhaShoulderWidth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderWidth</Data>
+            <Data name="DBRobesHoodShoulderWidth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBigTorso" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBigTorso</Data>
+            <Data name="DBHoodKhaBigTorso" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBigTorso</Data>
+            <Data name="DBRobesHoodBigTorso" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBigTorso</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBack" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBack</Data>
+            <Data name="DBHoodKhaBack" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBack</Data>
+            <Data name="DBRobesHoodBack" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBack</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DBHoodArgSmallSeam" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgSmallSeam</Data>
+            <Data name="DBHoodKhaSmallSeam" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaSmallSeam</Data>
+            <Data name="DBRobesHoodSmallSeam" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="DBHoodArgShoulderTweak" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderTweak</Data>
+            <Data name="DBHoodKhaShoulderTweak" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderTweak</Data>
+            <Data name="DBRobesHoodShoulderTweak" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapDBRobesHood" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="DBRobesHoodZapDBRobesHood" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodZapDBRobesHood</Data>
+        </Slider>
+        <Slider name="ZapDBHoodArg" invert="false" small="0" big="0" zap="true" hidden="true">
+            <Data name="DBHoodArgZapDBHoodArg" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgZapDBHoodArg</Data>
+        </Slider>
+        <Slider name="ZapDBHoodKha" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="DBHoodKhaZapDBHoodKha" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaZapDBHoodKha</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 DB Robes Hood Kha">
+        <DataFolder>CT77DBRobes</DataFolder>
+        <SourceFile>CT77DBRobesHood.nif</SourceFile>
+        <OutputPath>meshes\clothes\robedarkbrotherhood\female</OutputPath>
+        <OutputFile GenWeights="true">dbhoodkha</OutputFile>
+        <Shape target="DBHoodArg">DBHoodArg</Shape>
+        <Shape target="DBHoodKha">DBHoodKha</Shape>
+        <Shape target="DBRobesHood">DBRobesHood</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="DBHoodArgBreasts" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreasts</Data>
+            <Data name="DBHoodKhaBreasts" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreasts</Data>
+            <Data name="DBRobesHoodBreasts" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="DBHoodArgBreastsSmall" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSmall</Data>
+            <Data name="DBHoodKhaBreastsSmall" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSmall</Data>
+            <Data name="DBRobesHoodBreastsSmall" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsSH" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSH</Data>
+            <Data name="DBHoodKhaBreastsSH" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSH</Data>
+            <Data name="DBRobesHoodBreastsSH" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsSSH" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsSSH</Data>
+            <Data name="DBHoodKhaBreastsSSH" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsSSH</Data>
+            <Data name="DBRobesHoodBreastsSSH" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastsFantasy" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastsFantasy</Data>
+            <Data name="DBHoodKhaBreastsFantasy" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastsFantasy</Data>
+            <Data name="DBRobesHoodBreastsFantasy" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DBHoodArgDoubleMelon" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgDoubleMelon</Data>
+            <Data name="DBHoodKhaDoubleMelon" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaDoubleMelon</Data>
+            <Data name="DBRobesHoodDoubleMelon" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastCleavage" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastCleavage</Data>
+            <Data name="DBHoodKhaBreastCleavage" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastCleavage</Data>
+            <Data name="DBRobesHoodBreastCleavage" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastFlatness" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastFlatness</Data>
+            <Data name="DBHoodKhaBreastFlatness" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastFlatness</Data>
+            <Data name="DBRobesHoodBreastFlatness" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastGravity" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastGravity</Data>
+            <Data name="DBHoodKhaBreastGravity" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastGravity</Data>
+            <Data name="DBRobesHoodBreastGravity" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="DBHoodArgPushUp" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgPushUp</Data>
+            <Data name="DBHoodKhaPushUp" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaPushUp</Data>
+            <Data name="DBRobesHoodPushUp" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastHeight" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastHeight</Data>
+            <Data name="DBHoodKhaBreastHeight" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastHeight</Data>
+            <Data name="DBRobesHoodBreastHeight" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastPerkiness" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastPerkiness</Data>
+            <Data name="DBHoodKhaBreastPerkiness" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastPerkiness</Data>
+            <Data name="DBRobesHoodBreastPerkiness" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBreastWidth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBreastWidth</Data>
+            <Data name="DBHoodKhaBreastWidth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBreastWidth</Data>
+            <Data name="DBRobesHoodBreastWidth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="DBHoodArgNippleDistance" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleDistance</Data>
+            <Data name="DBHoodKhaNippleDistance" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleDistance</Data>
+            <Data name="DBRobesHoodNippleDistance" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleLength" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleLength</Data>
+            <Data name="DBHoodKhaNippleLength" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleLength</Data>
+            <Data name="DBRobesHoodNippleLength" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleLength</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleAreola" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleAreola</Data>
+            <Data name="DBHoodKhaNippleAreola" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleAreola</Data>
+            <Data name="DBRobesHoodNippleAreola" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleUp" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleUp</Data>
+            <Data name="DBHoodKhaNippleUp" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleUp</Data>
+            <Data name="DBRobesHoodNippleUp" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="DBHoodArgNippleDown" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgNippleDown</Data>
+            <Data name="DBHoodKhaNippleDown" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaNippleDown</Data>
+            <Data name="DBRobesHoodNippleDown" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodNippleDown</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="DBHoodArgArms" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgArms</Data>
+            <Data name="DBHoodKhaArms" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaArms</Data>
+            <Data name="DBRobesHoodArms" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="DBHoodArgChubbyArms" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgChubbyArms</Data>
+            <Data name="DBHoodKhaChubbyArms" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaChubbyArms</Data>
+            <Data name="DBRobesHoodChubbyArms" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="DBHoodArgShoulderSmooth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderSmooth</Data>
+            <Data name="DBHoodKhaShoulderSmooth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderSmooth</Data>
+            <Data name="DBRobesHoodShoulderSmooth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="DBHoodArgShoulderWidth" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderWidth</Data>
+            <Data name="DBHoodKhaShoulderWidth" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderWidth</Data>
+            <Data name="DBRobesHoodShoulderWidth" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBigTorso" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBigTorso</Data>
+            <Data name="DBHoodKhaBigTorso" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBigTorso</Data>
+            <Data name="DBRobesHoodBigTorso" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBigTorso</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="DBHoodArgBack" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgBack</Data>
+            <Data name="DBHoodKhaBack" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaBack</Data>
+            <Data name="DBRobesHoodBack" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodBack</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DBHoodArgSmallSeam" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgSmallSeam</Data>
+            <Data name="DBHoodKhaSmallSeam" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaSmallSeam</Data>
+            <Data name="DBRobesHoodSmallSeam" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="DBHoodArgShoulderTweak" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgShoulderTweak</Data>
+            <Data name="DBHoodKhaShoulderTweak" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaShoulderTweak</Data>
+            <Data name="DBRobesHoodShoulderTweak" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapDBRobesHood" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="DBRobesHoodZapDBRobesHood" target="DBRobesHood" local="true">CT77DBRobesHood.osd\DBRobesHoodZapDBRobesHood</Data>
+        </Slider>
+        <Slider name="ZapDBHoodArg" invert="false" small="100" big="100" zap="true" hidden="true">
+            <Data name="DBHoodArgZapDBHoodArg" target="DBHoodArg" local="true">CT77DBRobesHood.osd\DBHoodArgZapDBHoodArg</Data>
+        </Slider>
+        <Slider name="ZapDBHoodKha" invert="false" small="0" big="0" zap="true" hidden="true">
+            <Data name="DBHoodKhaZapDBHoodKha" target="DBHoodKha" local="true">CT77DBRobesHood.osd\DBHoodKhaZapDBHoodKha</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

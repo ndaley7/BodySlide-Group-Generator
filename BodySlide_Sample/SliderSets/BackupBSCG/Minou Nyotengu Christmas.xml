@@ -1,0 +1,1637 @@
+<SliderSetInfo>
+    <SliderSet name="Minou Nyotengu Christmas">
+        <SetFolder>Minou Nyotengu Christmas</SetFolder>
+        <SourceFile>Minou Nyotengu Christmas.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Nyotengu Christmas</OutputPath>
+        <OutputFile>Minou Nyotengu Christmas</OutputFile>
+        <BaseShapeName target="1 0">1 0</BaseShapeName>
+        <BaseShapeName target="1.001 1">1.001 1</BaseShapeName>
+        <BaseShapeName target="1.002 2">1.002 2</BaseShapeName>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Model001_24_+topknot.t&#x03;">Model001_24_+topknot.t&#x03;</BaseShapeName>
+        <BaseShapeName target="Model001_24_ribbonA1(">Model001_24_ribbonA1(</BaseShapeName>
+        <BaseShapeName target="bottoms">bottoms</BaseShapeName>
+        <BaseShapeName target="max">max</BaseShapeName>
+        <BaseShapeName target="phygitfeet_1.002">phygitfeet_1.002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="maxBreasts" target="max" local="true">maxBreasts.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Breasts" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="maxBreastsSmall" target="max" local="true">maxBreastsSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSmall.bsd</datafile>
+            <datafile name="bottomsBreastsSmall" target="bottoms" local="true">bottomsBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="maxBreastsSH" target="max" local="true">maxBreastsSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="maxBreastsSSH" target="max" local="true">maxBreastsSSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="maxBreastsFantasy" target="max" local="true">maxBreastsFantasy.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsFantasy" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="maxDoubleMelon" target="max" local="true">maxDoubleMelon.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(DoubleMelon" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="maxBreastCleavage" target="max" local="true">maxBreastCleavage.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastCleavage" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="maxBreastFlatness" target="max" local="true">maxBreastFlatness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastFlatness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="maxBreastGravity" target="max" local="true">maxBreastGravity.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastGravity" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="maxPushUp" target="max" local="true">maxPushUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PushUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="maxBreastHeight" target="max" local="true">maxBreastHeight.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastHeight" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastHeight.bsd</datafile>
+            <datafile name="bottomsBreastHeight" target="bottoms" local="true">bottomsBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="maxBreastPerkiness" target="max" local="true">maxBreastPerkiness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastPerkiness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="maxBreastWidth" target="max" local="true">maxBreastWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="maxNippleDistance" target="max" local="true">maxNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="maxNipplePerkiness" target="max" local="true">maxNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="maxNippleLength" target="max" local="true">maxNippleLength.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleLength" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="maxNippleSize" target="max" local="true">maxNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="maxNippleAreola" target="max" local="true">maxNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="maxNippleUp" target="max" local="true">maxNippleUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="maxNippleDown" target="max" local="true">maxNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="maxNippleTip" target="max" local="true">maxNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="maxArms" target="max" local="true">maxArms.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Arms" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="maxChubbyArms" target="max" local="true">maxChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="maxShoulderSmooth" target="max" local="true">maxShoulderSmooth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderSmooth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="maxShoulderWidth" target="max" local="true">maxShoulderWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="maxBigTorso" target="max" local="true">maxBigTorso.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigTorso" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigTorso.bsd</datafile>
+            <datafile name="bottomsBigTorso" target="bottoms" local="true">bottomsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="maxWaist" target="max" local="true">maxWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Waist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Waist.bsd</datafile>
+            <datafile name="bottomsWaist" target="bottoms" local="true">bottomsWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="maxWideWaistLine" target="max" local="true">maxWideWaistLine.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(WideWaistLine" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(WideWaistLine.bsd</datafile>
+            <datafile name="bottomsWideWaistLine" target="bottoms" local="true">bottomsWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="maxChubbyWaist" target="max" local="true">maxChubbyWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyWaist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyWaist.bsd</datafile>
+            <datafile name="bottomsChubbyWaist" target="bottoms" local="true">bottomsChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="maxBelly" target="max" local="true">maxBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Belly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Belly.bsd</datafile>
+            <datafile name="bottomsBelly" target="bottoms" local="true">bottomsBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="maxBigBelly" target="max" local="true">maxBigBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigBelly.bsd</datafile>
+            <datafile name="bottomsBigBelly" target="bottoms" local="true">bottomsBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="1 0PregnancyBelly" target="1 0" local="true">1 0PregnancyBelly.bsd</datafile>
+            <datafile name="1.001 1PregnancyBelly" target="1.001 1" local="true">1.001 1PregnancyBelly.bsd</datafile>
+            <datafile name="phygitfeet_1.002PregnancyBelly" target="phygitfeet_1.002" local="true">phygitfeet_1.002PregnancyBelly.bsd</datafile>
+            <datafile name="maxPregnancyBelly" target="max" local="true">maxPregnancyBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PregnancyBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PregnancyBelly.bsd</datafile>
+            <datafile name="bottomsPregnancyBelly" target="bottoms" local="true">bottomsPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="maxTummyTuck" target="max" local="true">maxTummyTuck.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(TummyTuck" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(TummyTuck.bsd</datafile>
+            <datafile name="bottomsTummyTuck" target="bottoms" local="true">bottomsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="maxBack" target="max" local="true">maxBack.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Back" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Back.bsd</datafile>
+            <datafile name="bottomsBack" target="bottoms" local="true">bottomsBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="maxHipbone" target="max" local="true">maxHipbone.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hipbone" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hipbone.bsd</datafile>
+            <datafile name="bottomsHipbone" target="bottoms" local="true">bottomsHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="maxHips" target="max" local="true">maxHips.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hips" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hips.bsd</datafile>
+            <datafile name="bottomsHips" target="bottoms" local="true">bottomsHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="maxButtCrack" target="max" local="true">maxButtCrack.bsd</datafile>
+            <datafile name="bottomsButtCrack" target="bottoms" local="true">bottomsButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="maxButt" target="max" local="true">maxButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Butt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Butt.bsd</datafile>
+            <datafile name="bottomsButt" target="bottoms" local="true">bottomsButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="maxButtSmall" target="max" local="true">maxButtSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtSmall.bsd</datafile>
+            <datafile name="bottomsButtSmall" target="bottoms" local="true">bottomsButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="maxButtShape2" target="max" local="true">maxButtShape2.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtShape2" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtShape2.bsd</datafile>
+            <datafile name="bottomsButtShape2" target="bottoms" local="true">bottomsButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="maxBigButt" target="max" local="true">maxBigButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigButt.bsd</datafile>
+            <datafile name="bottomsBigButt" target="bottoms" local="true">bottomsBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="maxChubbyButt" target="max" local="true">maxChubbyButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyButt.bsd</datafile>
+            <datafile name="bottomsChubbyButt" target="bottoms" local="true">bottomsChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="maxAppleCheeks" target="max" local="true">maxAppleCheeks.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(AppleCheeks" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(AppleCheeks.bsd</datafile>
+            <datafile name="bottomsAppleCheeks" target="bottoms" local="true">bottomsAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="maxRoundAss" target="max" local="true">maxRoundAss.bsd</datafile>
+            <datafile name="bottomsRoundAss" target="bottoms" local="true">bottomsRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="bottomsGroin" target="bottoms" local="true">bottomsGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="maxSlimThighs" target="max" local="true">maxSlimThighs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SlimThighs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SlimThighs.bsd</datafile>
+            <datafile name="bottomsSlimThighs" target="bottoms" local="true">bottomsSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="bottomsThighs" target="bottoms" local="true">bottomsThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="1 0ChubbyLegs" target="1 0" local="true">1 0ChubbyLegs.bsd</datafile>
+            <datafile name="1.001 1ChubbyLegs" target="1.001 1" local="true">1.001 1ChubbyLegs.bsd</datafile>
+            <datafile name="phygitfeet_1.002ChubbyLegs" target="phygitfeet_1.002" local="true">phygitfeet_1.002ChubbyLegs.bsd</datafile>
+            <datafile name="maxChubbyLegs" target="max" local="true">maxChubbyLegs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyLegs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyLegs.bsd</datafile>
+            <datafile name="bottomsChubbyLegs" target="bottoms" local="true">bottomsChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="1 0Legs" target="1 0" local="true">1 0Legs.bsd</datafile>
+            <datafile name="1.001 1Legs" target="1.001 1" local="true">1.001 1Legs.bsd</datafile>
+            <datafile name="phygitfeet_1.002Legs" target="phygitfeet_1.002" local="true">phygitfeet_1.002Legs.bsd</datafile>
+            <datafile name="bottomsLegs" target="bottoms" local="true">bottomsLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="1 0KneeHeight" target="1 0" local="true">1 0KneeHeight.bsd</datafile>
+            <datafile name="1.001 1KneeHeight" target="1.001 1" local="true">1.001 1KneeHeight.bsd</datafile>
+            <datafile name="phygitfeet_1.002KneeHeight" target="phygitfeet_1.002" local="true">phygitfeet_1.002KneeHeight.bsd</datafile>
+            <datafile name="bottomsKneeHeight" target="bottoms" local="true">bottomsKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="1 0CalfSize" target="1 0" local="true">1 0CalfSize.bsd</datafile>
+            <datafile name="1.001 1CalfSize" target="1.001 1" local="true">1.001 1CalfSize.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSize" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSize.bsd</datafile>
+            <datafile name="bottomsCalfSize" target="bottoms" local="true">bottomsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="1 0CalfSmooth" target="1 0" local="true">1 0CalfSmooth.bsd</datafile>
+            <datafile name="1.001 1CalfSmooth" target="1.001 1" local="true">1.001 1CalfSmooth.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSmooth" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSmooth.bsd</datafile>
+            <datafile name="bottomsCalfSmooth" target="bottoms" local="true">bottomsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="1 0Ankles" target="1 0" local="true">1 0Ankles.bsd</datafile>
+            <datafile name="1.001 1Ankles" target="1.001 1" local="true">1.001 1Ankles.bsd</datafile>
+            <datafile name="phygitfeet_1.002Ankles" target="phygitfeet_1.002" local="true">phygitfeet_1.002Ankles.bsd</datafile>
+            <datafile name="bottomsAnkles" target="bottoms" local="true">bottomsAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="1 0SmallSeam" target="1 0" local="true">1 0SmallSeam.bsd</datafile>
+            <datafile name="1.001 1SmallSeam" target="1.001 1" local="true">1.001 1SmallSeam.bsd</datafile>
+            <datafile name="phygitfeet_1.002SmallSeam" target="phygitfeet_1.002" local="true">phygitfeet_1.002SmallSeam.bsd</datafile>
+            <datafile name="maxSmallSeam" target="max" local="true">maxSmallSeam.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SmallSeam" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SmallSeam.bsd</datafile>
+            <datafile name="bottomsSmallSeam" target="bottoms" local="true">bottomsSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="maxShoulderTweak" target="max" local="true">maxShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou Nyotengu Christmas Blue">
+        <SetFolder>Minou Nyotengu Christmas</SetFolder>
+        <SourceFile>Minou Nyotengu Christmas Blue.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Nyotengu Christmas</OutputPath>
+        <OutputFile>Minou Nyotengu Christmas Blue</OutputFile>
+        <BaseShapeName target="1 0">1 0</BaseShapeName>
+        <BaseShapeName target="1.001 1">1.001 1</BaseShapeName>
+        <BaseShapeName target="1.002 2">1.002 2</BaseShapeName>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Model001_24_+topknot.t&#x03;">Model001_24_+topknot.t&#x03;</BaseShapeName>
+        <BaseShapeName target="Model001_24_ribbonA1(">Model001_24_ribbonA1(</BaseShapeName>
+        <BaseShapeName target="bottoms">bottoms</BaseShapeName>
+        <BaseShapeName target="max">max</BaseShapeName>
+        <BaseShapeName target="phygitfeet_1.002">phygitfeet_1.002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="maxBreasts" target="max" local="true">maxBreasts.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Breasts" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="maxBreastsSmall" target="max" local="true">maxBreastsSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSmall.bsd</datafile>
+            <datafile name="bottomsBreastsSmall" target="bottoms" local="true">bottomsBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="maxBreastsSH" target="max" local="true">maxBreastsSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="maxBreastsSSH" target="max" local="true">maxBreastsSSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="maxBreastsFantasy" target="max" local="true">maxBreastsFantasy.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsFantasy" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="maxDoubleMelon" target="max" local="true">maxDoubleMelon.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(DoubleMelon" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="maxBreastCleavage" target="max" local="true">maxBreastCleavage.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastCleavage" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="maxBreastFlatness" target="max" local="true">maxBreastFlatness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastFlatness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="maxBreastGravity" target="max" local="true">maxBreastGravity.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastGravity" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="maxPushUp" target="max" local="true">maxPushUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PushUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="maxBreastHeight" target="max" local="true">maxBreastHeight.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastHeight" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastHeight.bsd</datafile>
+            <datafile name="bottomsBreastHeight" target="bottoms" local="true">bottomsBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="maxBreastPerkiness" target="max" local="true">maxBreastPerkiness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastPerkiness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="maxBreastWidth" target="max" local="true">maxBreastWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="maxNippleDistance" target="max" local="true">maxNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="maxNipplePerkiness" target="max" local="true">maxNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="maxNippleLength" target="max" local="true">maxNippleLength.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleLength" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="maxNippleSize" target="max" local="true">maxNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="maxNippleAreola" target="max" local="true">maxNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="maxNippleUp" target="max" local="true">maxNippleUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="maxNippleDown" target="max" local="true">maxNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="maxNippleTip" target="max" local="true">maxNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="maxArms" target="max" local="true">maxArms.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Arms" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="maxChubbyArms" target="max" local="true">maxChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="maxShoulderSmooth" target="max" local="true">maxShoulderSmooth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderSmooth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="maxShoulderWidth" target="max" local="true">maxShoulderWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="maxBigTorso" target="max" local="true">maxBigTorso.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigTorso" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigTorso.bsd</datafile>
+            <datafile name="bottomsBigTorso" target="bottoms" local="true">bottomsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="maxWaist" target="max" local="true">maxWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Waist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Waist.bsd</datafile>
+            <datafile name="bottomsWaist" target="bottoms" local="true">bottomsWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="maxWideWaistLine" target="max" local="true">maxWideWaistLine.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(WideWaistLine" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(WideWaistLine.bsd</datafile>
+            <datafile name="bottomsWideWaistLine" target="bottoms" local="true">bottomsWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="maxChubbyWaist" target="max" local="true">maxChubbyWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyWaist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyWaist.bsd</datafile>
+            <datafile name="bottomsChubbyWaist" target="bottoms" local="true">bottomsChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="maxBelly" target="max" local="true">maxBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Belly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Belly.bsd</datafile>
+            <datafile name="bottomsBelly" target="bottoms" local="true">bottomsBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="maxBigBelly" target="max" local="true">maxBigBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigBelly.bsd</datafile>
+            <datafile name="bottomsBigBelly" target="bottoms" local="true">bottomsBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="1 0PregnancyBelly" target="1 0" local="true">1 0PregnancyBelly.bsd</datafile>
+            <datafile name="1.001 1PregnancyBelly" target="1.001 1" local="true">1.001 1PregnancyBelly.bsd</datafile>
+            <datafile name="phygitfeet_1.002PregnancyBelly" target="phygitfeet_1.002" local="true">phygitfeet_1.002PregnancyBelly.bsd</datafile>
+            <datafile name="maxPregnancyBelly" target="max" local="true">maxPregnancyBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PregnancyBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PregnancyBelly.bsd</datafile>
+            <datafile name="bottomsPregnancyBelly" target="bottoms" local="true">bottomsPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="maxTummyTuck" target="max" local="true">maxTummyTuck.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(TummyTuck" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(TummyTuck.bsd</datafile>
+            <datafile name="bottomsTummyTuck" target="bottoms" local="true">bottomsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="maxBack" target="max" local="true">maxBack.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Back" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Back.bsd</datafile>
+            <datafile name="bottomsBack" target="bottoms" local="true">bottomsBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="maxHipbone" target="max" local="true">maxHipbone.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hipbone" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hipbone.bsd</datafile>
+            <datafile name="bottomsHipbone" target="bottoms" local="true">bottomsHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="maxHips" target="max" local="true">maxHips.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hips" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hips.bsd</datafile>
+            <datafile name="bottomsHips" target="bottoms" local="true">bottomsHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="maxButtCrack" target="max" local="true">maxButtCrack.bsd</datafile>
+            <datafile name="bottomsButtCrack" target="bottoms" local="true">bottomsButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="maxButt" target="max" local="true">maxButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Butt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Butt.bsd</datafile>
+            <datafile name="bottomsButt" target="bottoms" local="true">bottomsButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="maxButtSmall" target="max" local="true">maxButtSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtSmall.bsd</datafile>
+            <datafile name="bottomsButtSmall" target="bottoms" local="true">bottomsButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="maxButtShape2" target="max" local="true">maxButtShape2.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtShape2" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtShape2.bsd</datafile>
+            <datafile name="bottomsButtShape2" target="bottoms" local="true">bottomsButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="maxBigButt" target="max" local="true">maxBigButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigButt.bsd</datafile>
+            <datafile name="bottomsBigButt" target="bottoms" local="true">bottomsBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="maxChubbyButt" target="max" local="true">maxChubbyButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyButt.bsd</datafile>
+            <datafile name="bottomsChubbyButt" target="bottoms" local="true">bottomsChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="maxAppleCheeks" target="max" local="true">maxAppleCheeks.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(AppleCheeks" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(AppleCheeks.bsd</datafile>
+            <datafile name="bottomsAppleCheeks" target="bottoms" local="true">bottomsAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="maxRoundAss" target="max" local="true">maxRoundAss.bsd</datafile>
+            <datafile name="bottomsRoundAss" target="bottoms" local="true">bottomsRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="bottomsGroin" target="bottoms" local="true">bottomsGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="maxSlimThighs" target="max" local="true">maxSlimThighs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SlimThighs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SlimThighs.bsd</datafile>
+            <datafile name="bottomsSlimThighs" target="bottoms" local="true">bottomsSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="bottomsThighs" target="bottoms" local="true">bottomsThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="1 0ChubbyLegs" target="1 0" local="true">1 0ChubbyLegs.bsd</datafile>
+            <datafile name="1.001 1ChubbyLegs" target="1.001 1" local="true">1.001 1ChubbyLegs.bsd</datafile>
+            <datafile name="phygitfeet_1.002ChubbyLegs" target="phygitfeet_1.002" local="true">phygitfeet_1.002ChubbyLegs.bsd</datafile>
+            <datafile name="maxChubbyLegs" target="max" local="true">maxChubbyLegs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyLegs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyLegs.bsd</datafile>
+            <datafile name="bottomsChubbyLegs" target="bottoms" local="true">bottomsChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="1 0Legs" target="1 0" local="true">1 0Legs.bsd</datafile>
+            <datafile name="1.001 1Legs" target="1.001 1" local="true">1.001 1Legs.bsd</datafile>
+            <datafile name="phygitfeet_1.002Legs" target="phygitfeet_1.002" local="true">phygitfeet_1.002Legs.bsd</datafile>
+            <datafile name="bottomsLegs" target="bottoms" local="true">bottomsLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="1 0KneeHeight" target="1 0" local="true">1 0KneeHeight.bsd</datafile>
+            <datafile name="1.001 1KneeHeight" target="1.001 1" local="true">1.001 1KneeHeight.bsd</datafile>
+            <datafile name="phygitfeet_1.002KneeHeight" target="phygitfeet_1.002" local="true">phygitfeet_1.002KneeHeight.bsd</datafile>
+            <datafile name="bottomsKneeHeight" target="bottoms" local="true">bottomsKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="1 0CalfSize" target="1 0" local="true">1 0CalfSize.bsd</datafile>
+            <datafile name="1.001 1CalfSize" target="1.001 1" local="true">1.001 1CalfSize.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSize" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSize.bsd</datafile>
+            <datafile name="bottomsCalfSize" target="bottoms" local="true">bottomsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="1 0CalfSmooth" target="1 0" local="true">1 0CalfSmooth.bsd</datafile>
+            <datafile name="1.001 1CalfSmooth" target="1.001 1" local="true">1.001 1CalfSmooth.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSmooth" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSmooth.bsd</datafile>
+            <datafile name="bottomsCalfSmooth" target="bottoms" local="true">bottomsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="1 0Ankles" target="1 0" local="true">1 0Ankles.bsd</datafile>
+            <datafile name="1.001 1Ankles" target="1.001 1" local="true">1.001 1Ankles.bsd</datafile>
+            <datafile name="phygitfeet_1.002Ankles" target="phygitfeet_1.002" local="true">phygitfeet_1.002Ankles.bsd</datafile>
+            <datafile name="bottomsAnkles" target="bottoms" local="true">bottomsAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="1 0SmallSeam" target="1 0" local="true">1 0SmallSeam.bsd</datafile>
+            <datafile name="1.001 1SmallSeam" target="1.001 1" local="true">1.001 1SmallSeam.bsd</datafile>
+            <datafile name="phygitfeet_1.002SmallSeam" target="phygitfeet_1.002" local="true">phygitfeet_1.002SmallSeam.bsd</datafile>
+            <datafile name="maxSmallSeam" target="max" local="true">maxSmallSeam.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SmallSeam" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SmallSeam.bsd</datafile>
+            <datafile name="bottomsSmallSeam" target="bottoms" local="true">bottomsSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="maxShoulderTweak" target="max" local="true">maxShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou Nyotengu Christmas Purple">
+        <SetFolder>Minou Nyotengu Christmas</SetFolder>
+        <SourceFile>Minou Nyotengu Christmas Purple.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Nyotengu Christmas</OutputPath>
+        <OutputFile>Minou Nyotengu Christmas Purple</OutputFile>
+        <BaseShapeName target="1 0">1 0</BaseShapeName>
+        <BaseShapeName target="1.001 1">1.001 1</BaseShapeName>
+        <BaseShapeName target="1.002 2">1.002 2</BaseShapeName>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Model001_24_+topknot.t&#x03;">Model001_24_+topknot.t&#x03;</BaseShapeName>
+        <BaseShapeName target="Model001_24_ribbonA1(">Model001_24_ribbonA1(</BaseShapeName>
+        <BaseShapeName target="bottoms">bottoms</BaseShapeName>
+        <BaseShapeName target="max">max</BaseShapeName>
+        <BaseShapeName target="phygitfeet_1.002">phygitfeet_1.002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="maxBreasts" target="max" local="true">maxBreasts.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Breasts" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="maxBreastsSmall" target="max" local="true">maxBreastsSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSmall.bsd</datafile>
+            <datafile name="bottomsBreastsSmall" target="bottoms" local="true">bottomsBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="maxBreastsSH" target="max" local="true">maxBreastsSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="maxBreastsSSH" target="max" local="true">maxBreastsSSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="maxBreastsFantasy" target="max" local="true">maxBreastsFantasy.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsFantasy" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="maxDoubleMelon" target="max" local="true">maxDoubleMelon.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(DoubleMelon" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="maxBreastCleavage" target="max" local="true">maxBreastCleavage.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastCleavage" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="maxBreastFlatness" target="max" local="true">maxBreastFlatness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastFlatness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="maxBreastGravity" target="max" local="true">maxBreastGravity.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastGravity" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="maxPushUp" target="max" local="true">maxPushUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PushUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="maxBreastHeight" target="max" local="true">maxBreastHeight.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastHeight" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastHeight.bsd</datafile>
+            <datafile name="bottomsBreastHeight" target="bottoms" local="true">bottomsBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="maxBreastPerkiness" target="max" local="true">maxBreastPerkiness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastPerkiness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="maxBreastWidth" target="max" local="true">maxBreastWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="maxNippleDistance" target="max" local="true">maxNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="maxNipplePerkiness" target="max" local="true">maxNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="maxNippleLength" target="max" local="true">maxNippleLength.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleLength" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="maxNippleSize" target="max" local="true">maxNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="maxNippleAreola" target="max" local="true">maxNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="maxNippleUp" target="max" local="true">maxNippleUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="maxNippleDown" target="max" local="true">maxNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="maxNippleTip" target="max" local="true">maxNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="maxArms" target="max" local="true">maxArms.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Arms" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="maxChubbyArms" target="max" local="true">maxChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="maxShoulderSmooth" target="max" local="true">maxShoulderSmooth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderSmooth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="maxShoulderWidth" target="max" local="true">maxShoulderWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="maxBigTorso" target="max" local="true">maxBigTorso.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigTorso" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigTorso.bsd</datafile>
+            <datafile name="bottomsBigTorso" target="bottoms" local="true">bottomsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="maxWaist" target="max" local="true">maxWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Waist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Waist.bsd</datafile>
+            <datafile name="bottomsWaist" target="bottoms" local="true">bottomsWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="maxWideWaistLine" target="max" local="true">maxWideWaistLine.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(WideWaistLine" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(WideWaistLine.bsd</datafile>
+            <datafile name="bottomsWideWaistLine" target="bottoms" local="true">bottomsWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="maxChubbyWaist" target="max" local="true">maxChubbyWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyWaist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyWaist.bsd</datafile>
+            <datafile name="bottomsChubbyWaist" target="bottoms" local="true">bottomsChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="maxBelly" target="max" local="true">maxBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Belly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Belly.bsd</datafile>
+            <datafile name="bottomsBelly" target="bottoms" local="true">bottomsBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="maxBigBelly" target="max" local="true">maxBigBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigBelly.bsd</datafile>
+            <datafile name="bottomsBigBelly" target="bottoms" local="true">bottomsBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="1 0PregnancyBelly" target="1 0" local="true">1 0PregnancyBelly.bsd</datafile>
+            <datafile name="1.001 1PregnancyBelly" target="1.001 1" local="true">1.001 1PregnancyBelly.bsd</datafile>
+            <datafile name="phygitfeet_1.002PregnancyBelly" target="phygitfeet_1.002" local="true">phygitfeet_1.002PregnancyBelly.bsd</datafile>
+            <datafile name="maxPregnancyBelly" target="max" local="true">maxPregnancyBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PregnancyBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PregnancyBelly.bsd</datafile>
+            <datafile name="bottomsPregnancyBelly" target="bottoms" local="true">bottomsPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="maxTummyTuck" target="max" local="true">maxTummyTuck.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(TummyTuck" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(TummyTuck.bsd</datafile>
+            <datafile name="bottomsTummyTuck" target="bottoms" local="true">bottomsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="maxBack" target="max" local="true">maxBack.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Back" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Back.bsd</datafile>
+            <datafile name="bottomsBack" target="bottoms" local="true">bottomsBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="maxHipbone" target="max" local="true">maxHipbone.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hipbone" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hipbone.bsd</datafile>
+            <datafile name="bottomsHipbone" target="bottoms" local="true">bottomsHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="maxHips" target="max" local="true">maxHips.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hips" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hips.bsd</datafile>
+            <datafile name="bottomsHips" target="bottoms" local="true">bottomsHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="maxButtCrack" target="max" local="true">maxButtCrack.bsd</datafile>
+            <datafile name="bottomsButtCrack" target="bottoms" local="true">bottomsButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="maxButt" target="max" local="true">maxButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Butt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Butt.bsd</datafile>
+            <datafile name="bottomsButt" target="bottoms" local="true">bottomsButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="maxButtSmall" target="max" local="true">maxButtSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtSmall.bsd</datafile>
+            <datafile name="bottomsButtSmall" target="bottoms" local="true">bottomsButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="maxButtShape2" target="max" local="true">maxButtShape2.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtShape2" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtShape2.bsd</datafile>
+            <datafile name="bottomsButtShape2" target="bottoms" local="true">bottomsButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="maxBigButt" target="max" local="true">maxBigButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigButt.bsd</datafile>
+            <datafile name="bottomsBigButt" target="bottoms" local="true">bottomsBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="maxChubbyButt" target="max" local="true">maxChubbyButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyButt.bsd</datafile>
+            <datafile name="bottomsChubbyButt" target="bottoms" local="true">bottomsChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="maxAppleCheeks" target="max" local="true">maxAppleCheeks.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(AppleCheeks" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(AppleCheeks.bsd</datafile>
+            <datafile name="bottomsAppleCheeks" target="bottoms" local="true">bottomsAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="maxRoundAss" target="max" local="true">maxRoundAss.bsd</datafile>
+            <datafile name="bottomsRoundAss" target="bottoms" local="true">bottomsRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="bottomsGroin" target="bottoms" local="true">bottomsGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="maxSlimThighs" target="max" local="true">maxSlimThighs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SlimThighs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SlimThighs.bsd</datafile>
+            <datafile name="bottomsSlimThighs" target="bottoms" local="true">bottomsSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="bottomsThighs" target="bottoms" local="true">bottomsThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="1 0ChubbyLegs" target="1 0" local="true">1 0ChubbyLegs.bsd</datafile>
+            <datafile name="1.001 1ChubbyLegs" target="1.001 1" local="true">1.001 1ChubbyLegs.bsd</datafile>
+            <datafile name="phygitfeet_1.002ChubbyLegs" target="phygitfeet_1.002" local="true">phygitfeet_1.002ChubbyLegs.bsd</datafile>
+            <datafile name="maxChubbyLegs" target="max" local="true">maxChubbyLegs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyLegs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyLegs.bsd</datafile>
+            <datafile name="bottomsChubbyLegs" target="bottoms" local="true">bottomsChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="1 0Legs" target="1 0" local="true">1 0Legs.bsd</datafile>
+            <datafile name="1.001 1Legs" target="1.001 1" local="true">1.001 1Legs.bsd</datafile>
+            <datafile name="phygitfeet_1.002Legs" target="phygitfeet_1.002" local="true">phygitfeet_1.002Legs.bsd</datafile>
+            <datafile name="bottomsLegs" target="bottoms" local="true">bottomsLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="1 0KneeHeight" target="1 0" local="true">1 0KneeHeight.bsd</datafile>
+            <datafile name="1.001 1KneeHeight" target="1.001 1" local="true">1.001 1KneeHeight.bsd</datafile>
+            <datafile name="phygitfeet_1.002KneeHeight" target="phygitfeet_1.002" local="true">phygitfeet_1.002KneeHeight.bsd</datafile>
+            <datafile name="bottomsKneeHeight" target="bottoms" local="true">bottomsKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="1 0CalfSize" target="1 0" local="true">1 0CalfSize.bsd</datafile>
+            <datafile name="1.001 1CalfSize" target="1.001 1" local="true">1.001 1CalfSize.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSize" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSize.bsd</datafile>
+            <datafile name="bottomsCalfSize" target="bottoms" local="true">bottomsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="1 0CalfSmooth" target="1 0" local="true">1 0CalfSmooth.bsd</datafile>
+            <datafile name="1.001 1CalfSmooth" target="1.001 1" local="true">1.001 1CalfSmooth.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSmooth" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSmooth.bsd</datafile>
+            <datafile name="bottomsCalfSmooth" target="bottoms" local="true">bottomsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="1 0Ankles" target="1 0" local="true">1 0Ankles.bsd</datafile>
+            <datafile name="1.001 1Ankles" target="1.001 1" local="true">1.001 1Ankles.bsd</datafile>
+            <datafile name="phygitfeet_1.002Ankles" target="phygitfeet_1.002" local="true">phygitfeet_1.002Ankles.bsd</datafile>
+            <datafile name="bottomsAnkles" target="bottoms" local="true">bottomsAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="1 0SmallSeam" target="1 0" local="true">1 0SmallSeam.bsd</datafile>
+            <datafile name="1.001 1SmallSeam" target="1.001 1" local="true">1.001 1SmallSeam.bsd</datafile>
+            <datafile name="phygitfeet_1.002SmallSeam" target="phygitfeet_1.002" local="true">phygitfeet_1.002SmallSeam.bsd</datafile>
+            <datafile name="maxSmallSeam" target="max" local="true">maxSmallSeam.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SmallSeam" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SmallSeam.bsd</datafile>
+            <datafile name="bottomsSmallSeam" target="bottoms" local="true">bottomsSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="maxShoulderTweak" target="max" local="true">maxShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou Nyotengu Christmas Pink">
+        <SetFolder>Minou Nyotengu Christmas</SetFolder>
+        <SourceFile>Minou Nyotengu Christmas Pink.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Nyotengu Christmas</OutputPath>
+        <OutputFile>Minou Nyotengu Christmas Pink</OutputFile>
+        <BaseShapeName target="1 0">1 0</BaseShapeName>
+        <BaseShapeName target="1.001 1">1.001 1</BaseShapeName>
+        <BaseShapeName target="1.002 2">1.002 2</BaseShapeName>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Model001_24_+topknot.t&#x03;">Model001_24_+topknot.t&#x03;</BaseShapeName>
+        <BaseShapeName target="Model001_24_ribbonA1(">Model001_24_ribbonA1(</BaseShapeName>
+        <BaseShapeName target="bottoms">bottoms</BaseShapeName>
+        <BaseShapeName target="max">max</BaseShapeName>
+        <BaseShapeName target="phygitfeet_1.002">phygitfeet_1.002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="maxBreasts" target="max" local="true">maxBreasts.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Breasts" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="maxBreastsSmall" target="max" local="true">maxBreastsSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSmall.bsd</datafile>
+            <datafile name="bottomsBreastsSmall" target="bottoms" local="true">bottomsBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="maxBreastsSH" target="max" local="true">maxBreastsSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="maxBreastsSSH" target="max" local="true">maxBreastsSSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="maxBreastsFantasy" target="max" local="true">maxBreastsFantasy.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsFantasy" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="maxDoubleMelon" target="max" local="true">maxDoubleMelon.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(DoubleMelon" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="maxBreastCleavage" target="max" local="true">maxBreastCleavage.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastCleavage" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="maxBreastFlatness" target="max" local="true">maxBreastFlatness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastFlatness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="maxBreastGravity" target="max" local="true">maxBreastGravity.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastGravity" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="maxPushUp" target="max" local="true">maxPushUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PushUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="maxBreastHeight" target="max" local="true">maxBreastHeight.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastHeight" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastHeight.bsd</datafile>
+            <datafile name="bottomsBreastHeight" target="bottoms" local="true">bottomsBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="maxBreastPerkiness" target="max" local="true">maxBreastPerkiness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastPerkiness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="maxBreastWidth" target="max" local="true">maxBreastWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="maxNippleDistance" target="max" local="true">maxNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="maxNipplePerkiness" target="max" local="true">maxNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="maxNippleLength" target="max" local="true">maxNippleLength.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleLength" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="maxNippleSize" target="max" local="true">maxNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="maxNippleAreola" target="max" local="true">maxNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="maxNippleUp" target="max" local="true">maxNippleUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="maxNippleDown" target="max" local="true">maxNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="maxNippleTip" target="max" local="true">maxNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="maxArms" target="max" local="true">maxArms.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Arms" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="maxChubbyArms" target="max" local="true">maxChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="maxShoulderSmooth" target="max" local="true">maxShoulderSmooth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderSmooth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="maxShoulderWidth" target="max" local="true">maxShoulderWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="maxBigTorso" target="max" local="true">maxBigTorso.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigTorso" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigTorso.bsd</datafile>
+            <datafile name="bottomsBigTorso" target="bottoms" local="true">bottomsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="maxWaist" target="max" local="true">maxWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Waist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Waist.bsd</datafile>
+            <datafile name="bottomsWaist" target="bottoms" local="true">bottomsWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="maxWideWaistLine" target="max" local="true">maxWideWaistLine.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(WideWaistLine" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(WideWaistLine.bsd</datafile>
+            <datafile name="bottomsWideWaistLine" target="bottoms" local="true">bottomsWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="maxChubbyWaist" target="max" local="true">maxChubbyWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyWaist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyWaist.bsd</datafile>
+            <datafile name="bottomsChubbyWaist" target="bottoms" local="true">bottomsChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="maxBelly" target="max" local="true">maxBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Belly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Belly.bsd</datafile>
+            <datafile name="bottomsBelly" target="bottoms" local="true">bottomsBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="maxBigBelly" target="max" local="true">maxBigBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigBelly.bsd</datafile>
+            <datafile name="bottomsBigBelly" target="bottoms" local="true">bottomsBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="1 0PregnancyBelly" target="1 0" local="true">1 0PregnancyBelly.bsd</datafile>
+            <datafile name="1.001 1PregnancyBelly" target="1.001 1" local="true">1.001 1PregnancyBelly.bsd</datafile>
+            <datafile name="phygitfeet_1.002PregnancyBelly" target="phygitfeet_1.002" local="true">phygitfeet_1.002PregnancyBelly.bsd</datafile>
+            <datafile name="maxPregnancyBelly" target="max" local="true">maxPregnancyBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PregnancyBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PregnancyBelly.bsd</datafile>
+            <datafile name="bottomsPregnancyBelly" target="bottoms" local="true">bottomsPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="maxTummyTuck" target="max" local="true">maxTummyTuck.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(TummyTuck" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(TummyTuck.bsd</datafile>
+            <datafile name="bottomsTummyTuck" target="bottoms" local="true">bottomsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="maxBack" target="max" local="true">maxBack.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Back" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Back.bsd</datafile>
+            <datafile name="bottomsBack" target="bottoms" local="true">bottomsBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="maxHipbone" target="max" local="true">maxHipbone.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hipbone" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hipbone.bsd</datafile>
+            <datafile name="bottomsHipbone" target="bottoms" local="true">bottomsHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="maxHips" target="max" local="true">maxHips.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hips" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hips.bsd</datafile>
+            <datafile name="bottomsHips" target="bottoms" local="true">bottomsHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="maxButtCrack" target="max" local="true">maxButtCrack.bsd</datafile>
+            <datafile name="bottomsButtCrack" target="bottoms" local="true">bottomsButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="maxButt" target="max" local="true">maxButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Butt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Butt.bsd</datafile>
+            <datafile name="bottomsButt" target="bottoms" local="true">bottomsButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="maxButtSmall" target="max" local="true">maxButtSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtSmall.bsd</datafile>
+            <datafile name="bottomsButtSmall" target="bottoms" local="true">bottomsButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="maxButtShape2" target="max" local="true">maxButtShape2.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtShape2" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtShape2.bsd</datafile>
+            <datafile name="bottomsButtShape2" target="bottoms" local="true">bottomsButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="maxBigButt" target="max" local="true">maxBigButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigButt.bsd</datafile>
+            <datafile name="bottomsBigButt" target="bottoms" local="true">bottomsBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="maxChubbyButt" target="max" local="true">maxChubbyButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyButt.bsd</datafile>
+            <datafile name="bottomsChubbyButt" target="bottoms" local="true">bottomsChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="maxAppleCheeks" target="max" local="true">maxAppleCheeks.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(AppleCheeks" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(AppleCheeks.bsd</datafile>
+            <datafile name="bottomsAppleCheeks" target="bottoms" local="true">bottomsAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="maxRoundAss" target="max" local="true">maxRoundAss.bsd</datafile>
+            <datafile name="bottomsRoundAss" target="bottoms" local="true">bottomsRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="bottomsGroin" target="bottoms" local="true">bottomsGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="maxSlimThighs" target="max" local="true">maxSlimThighs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SlimThighs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SlimThighs.bsd</datafile>
+            <datafile name="bottomsSlimThighs" target="bottoms" local="true">bottomsSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="bottomsThighs" target="bottoms" local="true">bottomsThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="1 0ChubbyLegs" target="1 0" local="true">1 0ChubbyLegs.bsd</datafile>
+            <datafile name="1.001 1ChubbyLegs" target="1.001 1" local="true">1.001 1ChubbyLegs.bsd</datafile>
+            <datafile name="phygitfeet_1.002ChubbyLegs" target="phygitfeet_1.002" local="true">phygitfeet_1.002ChubbyLegs.bsd</datafile>
+            <datafile name="maxChubbyLegs" target="max" local="true">maxChubbyLegs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyLegs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyLegs.bsd</datafile>
+            <datafile name="bottomsChubbyLegs" target="bottoms" local="true">bottomsChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="1 0Legs" target="1 0" local="true">1 0Legs.bsd</datafile>
+            <datafile name="1.001 1Legs" target="1.001 1" local="true">1.001 1Legs.bsd</datafile>
+            <datafile name="phygitfeet_1.002Legs" target="phygitfeet_1.002" local="true">phygitfeet_1.002Legs.bsd</datafile>
+            <datafile name="bottomsLegs" target="bottoms" local="true">bottomsLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="1 0KneeHeight" target="1 0" local="true">1 0KneeHeight.bsd</datafile>
+            <datafile name="1.001 1KneeHeight" target="1.001 1" local="true">1.001 1KneeHeight.bsd</datafile>
+            <datafile name="phygitfeet_1.002KneeHeight" target="phygitfeet_1.002" local="true">phygitfeet_1.002KneeHeight.bsd</datafile>
+            <datafile name="bottomsKneeHeight" target="bottoms" local="true">bottomsKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="1 0CalfSize" target="1 0" local="true">1 0CalfSize.bsd</datafile>
+            <datafile name="1.001 1CalfSize" target="1.001 1" local="true">1.001 1CalfSize.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSize" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSize.bsd</datafile>
+            <datafile name="bottomsCalfSize" target="bottoms" local="true">bottomsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="1 0CalfSmooth" target="1 0" local="true">1 0CalfSmooth.bsd</datafile>
+            <datafile name="1.001 1CalfSmooth" target="1.001 1" local="true">1.001 1CalfSmooth.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSmooth" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSmooth.bsd</datafile>
+            <datafile name="bottomsCalfSmooth" target="bottoms" local="true">bottomsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="1 0Ankles" target="1 0" local="true">1 0Ankles.bsd</datafile>
+            <datafile name="1.001 1Ankles" target="1.001 1" local="true">1.001 1Ankles.bsd</datafile>
+            <datafile name="phygitfeet_1.002Ankles" target="phygitfeet_1.002" local="true">phygitfeet_1.002Ankles.bsd</datafile>
+            <datafile name="bottomsAnkles" target="bottoms" local="true">bottomsAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="1 0SmallSeam" target="1 0" local="true">1 0SmallSeam.bsd</datafile>
+            <datafile name="1.001 1SmallSeam" target="1.001 1" local="true">1.001 1SmallSeam.bsd</datafile>
+            <datafile name="phygitfeet_1.002SmallSeam" target="phygitfeet_1.002" local="true">phygitfeet_1.002SmallSeam.bsd</datafile>
+            <datafile name="maxSmallSeam" target="max" local="true">maxSmallSeam.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SmallSeam" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SmallSeam.bsd</datafile>
+            <datafile name="bottomsSmallSeam" target="bottoms" local="true">bottomsSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="maxShoulderTweak" target="max" local="true">maxShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Minou Nyotengu Christmas Teal">
+        <SetFolder>Minou Nyotengu Christmas</SetFolder>
+        <SourceFile>Minou Nyotengu Christmas Teal.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Nyotengu Christmas</OutputPath>
+        <OutputFile>Minou Nyotengu Christmas Teal</OutputFile>
+        <BaseShapeName target="1 0">1 0</BaseShapeName>
+        <BaseShapeName target="1.001 1">1.001 1</BaseShapeName>
+        <BaseShapeName target="1.002 2">1.002 2</BaseShapeName>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="Model001_24_+topknot.t&#x03;">Model001_24_+topknot.t&#x03;</BaseShapeName>
+        <BaseShapeName target="Model001_24_ribbonA1(">Model001_24_ribbonA1(</BaseShapeName>
+        <BaseShapeName target="bottoms">bottoms</BaseShapeName>
+        <BaseShapeName target="max">max</BaseShapeName>
+        <BaseShapeName target="phygitfeet_1.002">phygitfeet_1.002</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="maxBreasts" target="max" local="true">maxBreasts.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Breasts" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Breasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="maxBreastsSmall" target="max" local="true">maxBreastsSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSmall.bsd</datafile>
+            <datafile name="bottomsBreastsSmall" target="bottoms" local="true">bottomsBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="maxBreastsSH" target="max" local="true">maxBreastsSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="maxBreastsSSH" target="max" local="true">maxBreastsSSH.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsSSH" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="maxBreastsFantasy" target="max" local="true">maxBreastsFantasy.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastsFantasy" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="maxDoubleMelon" target="max" local="true">maxDoubleMelon.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(DoubleMelon" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(DoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="maxBreastCleavage" target="max" local="true">maxBreastCleavage.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastCleavage" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="maxBreastFlatness" target="max" local="true">maxBreastFlatness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastFlatness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="maxBreastGravity" target="max" local="true">maxBreastGravity.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastGravity" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="maxPushUp" target="max" local="true">maxPushUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PushUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="maxBreastHeight" target="max" local="true">maxBreastHeight.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastHeight" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastHeight.bsd</datafile>
+            <datafile name="bottomsBreastHeight" target="bottoms" local="true">bottomsBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="maxBreastPerkiness" target="max" local="true">maxBreastPerkiness.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastPerkiness" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="maxBreastWidth" target="max" local="true">maxBreastWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BreastWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="maxNippleDistance" target="max" local="true">maxNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="maxNipplePerkiness" target="max" local="true">maxNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="maxNippleLength" target="max" local="true">maxNippleLength.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleLength" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="maxNippleSize" target="max" local="true">maxNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="maxNippleAreola" target="max" local="true">maxNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="maxNippleUp" target="max" local="true">maxNippleUp.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(NippleUp" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(NippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="maxNippleDown" target="max" local="true">maxNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="maxNippleTip" target="max" local="true">maxNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="maxArms" target="max" local="true">maxArms.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Arms" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Arms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="maxChubbyArms" target="max" local="true">maxChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="maxShoulderSmooth" target="max" local="true">maxShoulderSmooth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderSmooth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="maxShoulderWidth" target="max" local="true">maxShoulderWidth.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ShoulderWidth" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="maxBigTorso" target="max" local="true">maxBigTorso.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigTorso" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigTorso.bsd</datafile>
+            <datafile name="bottomsBigTorso" target="bottoms" local="true">bottomsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="maxWaist" target="max" local="true">maxWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Waist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Waist.bsd</datafile>
+            <datafile name="bottomsWaist" target="bottoms" local="true">bottomsWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="maxWideWaistLine" target="max" local="true">maxWideWaistLine.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(WideWaistLine" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(WideWaistLine.bsd</datafile>
+            <datafile name="bottomsWideWaistLine" target="bottoms" local="true">bottomsWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="maxChubbyWaist" target="max" local="true">maxChubbyWaist.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyWaist" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyWaist.bsd</datafile>
+            <datafile name="bottomsChubbyWaist" target="bottoms" local="true">bottomsChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="maxBelly" target="max" local="true">maxBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Belly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Belly.bsd</datafile>
+            <datafile name="bottomsBelly" target="bottoms" local="true">bottomsBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="maxBigBelly" target="max" local="true">maxBigBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigBelly.bsd</datafile>
+            <datafile name="bottomsBigBelly" target="bottoms" local="true">bottomsBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="1 0PregnancyBelly" target="1 0" local="true">1 0PregnancyBelly.bsd</datafile>
+            <datafile name="1.001 1PregnancyBelly" target="1.001 1" local="true">1.001 1PregnancyBelly.bsd</datafile>
+            <datafile name="phygitfeet_1.002PregnancyBelly" target="phygitfeet_1.002" local="true">phygitfeet_1.002PregnancyBelly.bsd</datafile>
+            <datafile name="maxPregnancyBelly" target="max" local="true">maxPregnancyBelly.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(PregnancyBelly" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(PregnancyBelly.bsd</datafile>
+            <datafile name="bottomsPregnancyBelly" target="bottoms" local="true">bottomsPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="maxTummyTuck" target="max" local="true">maxTummyTuck.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(TummyTuck" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(TummyTuck.bsd</datafile>
+            <datafile name="bottomsTummyTuck" target="bottoms" local="true">bottomsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="maxBack" target="max" local="true">maxBack.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Back" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Back.bsd</datafile>
+            <datafile name="bottomsBack" target="bottoms" local="true">bottomsBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="maxHipbone" target="max" local="true">maxHipbone.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hipbone" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hipbone.bsd</datafile>
+            <datafile name="bottomsHipbone" target="bottoms" local="true">bottomsHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="maxHips" target="max" local="true">maxHips.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Hips" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Hips.bsd</datafile>
+            <datafile name="bottomsHips" target="bottoms" local="true">bottomsHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="maxButtCrack" target="max" local="true">maxButtCrack.bsd</datafile>
+            <datafile name="bottomsButtCrack" target="bottoms" local="true">bottomsButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="maxButt" target="max" local="true">maxButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(Butt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(Butt.bsd</datafile>
+            <datafile name="bottomsButt" target="bottoms" local="true">bottomsButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="maxButtSmall" target="max" local="true">maxButtSmall.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtSmall" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtSmall.bsd</datafile>
+            <datafile name="bottomsButtSmall" target="bottoms" local="true">bottomsButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="maxButtShape2" target="max" local="true">maxButtShape2.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ButtShape2" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ButtShape2.bsd</datafile>
+            <datafile name="bottomsButtShape2" target="bottoms" local="true">bottomsButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="maxBigButt" target="max" local="true">maxBigButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(BigButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(BigButt.bsd</datafile>
+            <datafile name="bottomsBigButt" target="bottoms" local="true">bottomsBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="maxChubbyButt" target="max" local="true">maxChubbyButt.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyButt" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyButt.bsd</datafile>
+            <datafile name="bottomsChubbyButt" target="bottoms" local="true">bottomsChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="maxAppleCheeks" target="max" local="true">maxAppleCheeks.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(AppleCheeks" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(AppleCheeks.bsd</datafile>
+            <datafile name="bottomsAppleCheeks" target="bottoms" local="true">bottomsAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="maxRoundAss" target="max" local="true">maxRoundAss.bsd</datafile>
+            <datafile name="bottomsRoundAss" target="bottoms" local="true">bottomsRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="bottomsGroin" target="bottoms" local="true">bottomsGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="maxSlimThighs" target="max" local="true">maxSlimThighs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SlimThighs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SlimThighs.bsd</datafile>
+            <datafile name="bottomsSlimThighs" target="bottoms" local="true">bottomsSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="bottomsThighs" target="bottoms" local="true">bottomsThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="1 0ChubbyLegs" target="1 0" local="true">1 0ChubbyLegs.bsd</datafile>
+            <datafile name="1.001 1ChubbyLegs" target="1.001 1" local="true">1.001 1ChubbyLegs.bsd</datafile>
+            <datafile name="phygitfeet_1.002ChubbyLegs" target="phygitfeet_1.002" local="true">phygitfeet_1.002ChubbyLegs.bsd</datafile>
+            <datafile name="maxChubbyLegs" target="max" local="true">maxChubbyLegs.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(ChubbyLegs" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(ChubbyLegs.bsd</datafile>
+            <datafile name="bottomsChubbyLegs" target="bottoms" local="true">bottomsChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="1 0Legs" target="1 0" local="true">1 0Legs.bsd</datafile>
+            <datafile name="1.001 1Legs" target="1.001 1" local="true">1.001 1Legs.bsd</datafile>
+            <datafile name="phygitfeet_1.002Legs" target="phygitfeet_1.002" local="true">phygitfeet_1.002Legs.bsd</datafile>
+            <datafile name="bottomsLegs" target="bottoms" local="true">bottomsLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="1 0KneeHeight" target="1 0" local="true">1 0KneeHeight.bsd</datafile>
+            <datafile name="1.001 1KneeHeight" target="1.001 1" local="true">1.001 1KneeHeight.bsd</datafile>
+            <datafile name="phygitfeet_1.002KneeHeight" target="phygitfeet_1.002" local="true">phygitfeet_1.002KneeHeight.bsd</datafile>
+            <datafile name="bottomsKneeHeight" target="bottoms" local="true">bottomsKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="1 0CalfSize" target="1 0" local="true">1 0CalfSize.bsd</datafile>
+            <datafile name="1.001 1CalfSize" target="1.001 1" local="true">1.001 1CalfSize.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSize" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSize.bsd</datafile>
+            <datafile name="bottomsCalfSize" target="bottoms" local="true">bottomsCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="1 0CalfSmooth" target="1 0" local="true">1 0CalfSmooth.bsd</datafile>
+            <datafile name="1.001 1CalfSmooth" target="1.001 1" local="true">1.001 1CalfSmooth.bsd</datafile>
+            <datafile name="phygitfeet_1.002CalfSmooth" target="phygitfeet_1.002" local="true">phygitfeet_1.002CalfSmooth.bsd</datafile>
+            <datafile name="bottomsCalfSmooth" target="bottoms" local="true">bottomsCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="1 0Ankles" target="1 0" local="true">1 0Ankles.bsd</datafile>
+            <datafile name="1.001 1Ankles" target="1.001 1" local="true">1.001 1Ankles.bsd</datafile>
+            <datafile name="phygitfeet_1.002Ankles" target="phygitfeet_1.002" local="true">phygitfeet_1.002Ankles.bsd</datafile>
+            <datafile name="bottomsAnkles" target="bottoms" local="true">bottomsAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="1 0SmallSeam" target="1 0" local="true">1 0SmallSeam.bsd</datafile>
+            <datafile name="1.001 1SmallSeam" target="1.001 1" local="true">1.001 1SmallSeam.bsd</datafile>
+            <datafile name="phygitfeet_1.002SmallSeam" target="phygitfeet_1.002" local="true">phygitfeet_1.002SmallSeam.bsd</datafile>
+            <datafile name="maxSmallSeam" target="max" local="true">maxSmallSeam.bsd</datafile>
+            <datafile name="Model001_24_ribbonA1(SmallSeam" target="Model001_24_ribbonA1(" local="true">Model001_24_ribbonA1(SmallSeam.bsd</datafile>
+            <datafile name="bottomsSmallSeam" target="bottoms" local="true">bottomsSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="maxShoulderTweak" target="max" local="true">maxShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,435 @@
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE Les Sucettes Shirt">
+        <DataFolder>CBBE Les Sucettes</DataFolder>
+        <SourceFile>CBBE Les Sucettes Shirt.nif</SourceFile>
+        <OutputPath>meshes\armor\VGS\Sucettes</OutputPath>
+        <OutputFile GenWeights="true">shirt1</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="shirt">shirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="shirtBreasts" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="shirtBreastsSmall" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="shirtBreastsSH" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="shirtBreastsSSH" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="shirtBreastsFantasy" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="shirtDoubleMelon" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="shirtBreastCleavage" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="shirtBreastFlatness" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="shirtBreastGravity" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="shirtPushUp" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="shirtBreastHeight" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="shirtBreastPerkiness" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="shirtBreastWidth" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="shirtNippleDistance" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="shirtNipplePerkiness" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="shirtNippleLength" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="shirtNippleSize" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="shirtNippleAreola" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="shirtNippleUp" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="shirtNippleDown" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="shirtNippleTip" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="shirtArms" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="shirtChubbyArms" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="shirtShoulderSmooth" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="shirtShoulderWidth" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="shirtBigTorso" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="shirtWaist" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="shirtWideWaistLine" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="shirtChubbyWaist" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="shirtBelly" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="shirtBigBelly" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="shirtPregnancyBelly" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="shirtTummyTuck" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="shirtBack" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="shirtHips" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="shirtButtShape2" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="shirtBigButt" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="shirtChubbyButt" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="shirtAppleCheeks" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="shirtSmallSeam" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="shirtShoulderTweak" target="shirt" local="true">CBBE Les Sucettes Shirt.osd\shirtShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Les Sucettes Panty">
+        <DataFolder>CBBE Les Sucettes</DataFolder>
+        <SourceFile>Les Sucettes Panty.nif</SourceFile>
+        <OutputPath>meshes\armor\VGS\Sucettes</OutputPath>
+        <OutputFile GenWeights="true">pan1</OutputFile>
+        <Shape target="panzu">panzu</Shape>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="panzuBigTorso" target="panzu" local="true">Les Sucettes Panty.osd\panzuBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="panzuWaist" target="panzu" local="true">Les Sucettes Panty.osd\panzuWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="panzuWideWaistLine" target="panzu" local="true">Les Sucettes Panty.osd\panzuWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="panzuChubbyWaist" target="panzu" local="true">Les Sucettes Panty.osd\panzuChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="panzuBelly" target="panzu" local="true">Les Sucettes Panty.osd\panzuBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="panzuBigBelly" target="panzu" local="true">Les Sucettes Panty.osd\panzuBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="panzuPregnancyBelly" target="panzu" local="true">Les Sucettes Panty.osd\panzuPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="panzuTummyTuck" target="panzu" local="true">Les Sucettes Panty.osd\panzuTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="panzuBack" target="panzu" local="true">Les Sucettes Panty.osd\panzuBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="panzuHipbone" target="panzu" local="true">Les Sucettes Panty.osd\panzuHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="panzuHips" target="panzu" local="true">Les Sucettes Panty.osd\panzuHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="panzuButtCrack" target="panzu" local="true">Les Sucettes Panty.osd\panzuButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="panzuButt" target="panzu" local="true">Les Sucettes Panty.osd\panzuButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="panzuButtSmall" target="panzu" local="true">Les Sucettes Panty.osd\panzuButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="panzuButtShape2" target="panzu" local="true">Les Sucettes Panty.osd\panzuButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="panzuBigButt" target="panzu" local="true">Les Sucettes Panty.osd\panzuBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="panzuChubbyButt" target="panzu" local="true">Les Sucettes Panty.osd\panzuChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="panzuAppleCheeks" target="panzu" local="true">Les Sucettes Panty.osd\panzuAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="panzuRoundAss" target="panzu" local="true">Les Sucettes Panty.osd\panzuRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="panzuGroin" target="panzu" local="true">Les Sucettes Panty.osd\panzuGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="panzuSlimThighs" target="panzu" local="true">Les Sucettes Panty.osd\panzuSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="panzuThighs" target="panzu" local="true">Les Sucettes Panty.osd\panzuThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="panzuChubbyLegs" target="panzu" local="true">Les Sucettes Panty.osd\panzuChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="panzuLegs" target="panzu" local="true">Les Sucettes Panty.osd\panzuLegs</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Les Sucettes Shoes">
+        <DataFolder>CBBE Les Sucettes</DataFolder>
+        <SourceFile>CBBE Les Sucettes Shoes.nif</SourceFile>
+        <OutputPath>meshes\armor\VGS\Sucettes</OutputPath>
+        <OutputFile GenWeights="true">shoes1</OutputFile>
+        <Shape target="shoes">shoes</Shape>
+        <Shape target="socks">socks</Shape>
+        <Slider name="Feet0" invert="false" small="100" big="0" hidden="true">
+            <Data name="shoesFeet0" target="shoes" local="true">CBBE Les Sucettes Shoes.osd\shoesFeet0</Data>
+            <Data name="socksFeet0" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksFeet0</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="shoesAnkles" target="shoes" local="true">CBBE Les Sucettes Shoes.osd\shoesAnkles</Data>
+            <Data name="socksAnkles" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksAnkles</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="shoesPregnancyBelly" target="shoes" local="true">CBBE Les Sucettes Shoes.osd\shoesPregnancyBelly</Data>
+            <Data name="socksPregnancyBelly" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksPregnancyBelly</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="socksHips" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksHips</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="socksButtSmall" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksButtSmall</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="socksSlimThighs" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="socksThighs" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="socksChubbyLegs" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="shoesLegs" target="shoes" local="true">CBBE Les Sucettes Shoes.osd\shoesLegs</Data>
+            <Data name="socksLegs" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="socksKneeHeight" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="socksCalfSize" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="socksCalfSmooth" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksCalfSmooth</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="shoesSmallSeam" target="shoes" local="true">CBBE Les Sucettes Shoes.osd\shoesSmallSeam</Data>
+            <Data name="socksSmallSeam" target="socks" local="true">CBBE Les Sucettes Shoes.osd\socksSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Les Sucettes Skirt">
+        <DataFolder>CBBE Les Sucettes</DataFolder>
+        <SourceFile>CBBE Les Sucettes Skirt.nif</SourceFile>
+        <OutputPath>meshes\armor\VGS\Sucettes</OutputPath>
+        <OutputFile GenWeights="true">skirt1</OutputFile>
+        <Shape target="Skirt">Skirt</Shape>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="SkirtBreastsSmall" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="SkirtBreastHeight" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="SkirtBigTorso" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="SkirtWaist" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="SkirtWideWaistLine" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="SkirtChubbyWaist" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="SkirtBelly" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="SkirtBigBelly" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="SkirtPregnancyBelly" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="SkirtTummyTuck" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="SkirtBack" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="SkirtHipbone" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="SkirtHips" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="SkirtButtCrack" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="SkirtButt" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="SkirtButtSmall" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="SkirtButtShape2" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="SkirtBigButt" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="SkirtChubbyButt" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="SkirtAppleCheeks" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="SkirtRoundAss" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="SkirtGroin" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SkirtSlimThighs" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="SkirtThighs" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="SkirtChubbyLegs" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="SkirtLegs" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="SkirtKneeHeight" target="Skirt" local="true">CBBE Les Sucettes Skirt.osd\SkirtKneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

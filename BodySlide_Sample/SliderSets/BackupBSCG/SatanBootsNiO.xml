@@ -1,0 +1,59 @@
+<SliderSetInfo>
+    <SliderSet name="Satan Boots (NiOverride)">
+        <SetFolder>SatanBootsNiO</SetFolder>
+        <SourceFile>SatanBootsNiO.nif</SourceFile>
+        <OutputPath>meshes\armor\satan</OutputPath>
+        <OutputFile>Satan_boots</OutputFile>
+        <BaseShapeName target="Emitters">Emitters</BaseShapeName>
+        <BaseShapeName target="Left Boot">Left Boot</BaseShapeName>
+        <BaseShapeName target="Right Boot">Right Boot</BaseShapeName>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="Right BootPregnancyBelly" target="Right Boot" local="true">Right BootPregnancyBelly.bsd</datafile>
+            <datafile name="Left BootPregnancyBelly" target="Left Boot" local="true">Left BootPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="Right BootButtSmall" target="Right Boot" local="true">Right BootButtSmall.bsd</datafile>
+            <datafile name="Left BootButtSmall" target="Left Boot" local="true">Left BootButtSmall.bsd</datafile>
+            <datafile name="EmittersButtSmall" target="Emitters" local="true">EmittersButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="Right BootSlimThighs" target="Right Boot" local="true">Right BootSlimThighs.bsd</datafile>
+            <datafile name="Left BootSlimThighs" target="Left Boot" local="true">Left BootSlimThighs.bsd</datafile>
+            <datafile name="EmittersSlimThighs" target="Emitters" local="true">EmittersSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Right BootThighs" target="Right Boot" local="true">Right BootThighs.bsd</datafile>
+            <datafile name="Left BootThighs" target="Left Boot" local="true">Left BootThighs.bsd</datafile>
+            <datafile name="EmittersThighs" target="Emitters" local="true">EmittersThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="Right BootChubbyLegs" target="Right Boot" local="true">Right BootChubbyLegs.bsd</datafile>
+            <datafile name="Left BootChubbyLegs" target="Left Boot" local="true">Left BootChubbyLegs.bsd</datafile>
+            <datafile name="EmittersChubbyLegs" target="Emitters" local="true">EmittersChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Right BootLegs" target="Right Boot" local="true">Right BootLegs.bsd</datafile>
+            <datafile name="Left BootLegs" target="Left Boot" local="true">Left BootLegs.bsd</datafile>
+            <datafile name="EmittersLegs" target="Emitters" local="true">EmittersLegs.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="Right BootCalfSize" target="Right Boot" local="true">Right BootCalfSize.bsd</datafile>
+            <datafile name="Left BootCalfSize" target="Left Boot" local="true">Left BootCalfSize.bsd</datafile>
+            <datafile name="EmittersCalfSize" target="Emitters" local="true">EmittersCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="Right BootCalfSmooth" target="Right Boot" local="true">Right BootCalfSmooth.bsd</datafile>
+            <datafile name="Left BootCalfSmooth" target="Left Boot" local="true">Left BootCalfSmooth.bsd</datafile>
+            <datafile name="EmittersCalfSmooth" target="Emitters" local="true">EmittersCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Right BootAnkles" target="Right Boot" local="true">Right BootAnkles.bsd</datafile>
+            <datafile name="Left BootAnkles" target="Left Boot" local="true">Left BootAnkles.bsd</datafile>
+            <datafile name="EmittersAnkles" target="Emitters" local="true">EmittersAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="Right BootSmallSeam" target="Right Boot" local="true">Right BootSmallSeam.bsd</datafile>
+            <datafile name="Left BootSmallSeam" target="Left Boot" local="true">Left BootSmallSeam.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

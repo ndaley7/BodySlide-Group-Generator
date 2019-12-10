@@ -1,0 +1,246 @@
+<SliderSetInfo version="1">
+    <SliderSet name="StraightJacket">
+        <DataFolder>StraightJacket</DataFolder>
+        <SourceFile>StraightJacket.nif</SourceFile>
+        <OutputPath>meshes\ZaZ-UltimateDataPack\ZaZ - Accessories\Restraints\019ZaZ - StraightJacket</OutputPath>
+        <OutputFile GenWeights="true">StraightJacket</OutputFile>
+        <Shape target="BaseShape_outfit" DataFolder="StraightJacket">BaseShape_outfit</Shape>
+        <Shape target="Belt">Belt</Shape>
+        <Shape target="Object_1.005_ref:2">Object_1.005_ref:2</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="BaseShape_outfitBreasts" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBreasts</Data>
+            <Data name="Object_1.005_ref:2Breasts" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BaseShape_outfitBreastsSmall" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBreastsSmall</Data>
+            <Data name="Object_1.005_ref:2BreastsSmall" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastsSmall</Data>
+            <Data name="BeltBreastsSmall" target="Belt" local="true">StraightJacket.osd\BeltBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBreastsSH" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBreastsSH</Data>
+            <Data name="Object_1.005_ref:2BreastsSH" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBreastsSSH" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBreastsSSH</Data>
+            <Data name="Object_1.005_ref:2BreastsSSH" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastsSSH</Data>
+            <Data name="BeltBreastsSSH" target="Belt" local="true">StraightJacket.osd\BeltBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2BreastsFantasy" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastsFantasy</Data>
+            <Data name="BeltBreastsFantasy" target="Belt" local="true">StraightJacket.osd\BeltBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2DoubleMelon" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2BreastCleavage" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastCleavage</Data>
+            <Data name="BeltBreastCleavage" target="Belt" local="true">StraightJacket.osd\BeltBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBreastFlatness" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBreastFlatness</Data>
+            <Data name="Object_1.005_ref:2BreastFlatness" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastFlatness</Data>
+            <Data name="BeltBreastFlatness" target="Belt" local="true">StraightJacket.osd\BeltBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2BreastGravity" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastGravity</Data>
+            <Data name="BeltBreastGravity" target="Belt" local="true">StraightJacket.osd\BeltBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2PushUp" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2PushUp</Data>
+            <Data name="BeltPushUp" target="Belt" local="true">StraightJacket.osd\BeltPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBreastHeight" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBreastHeight</Data>
+            <Data name="Object_1.005_ref:2BreastHeight" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastHeight</Data>
+            <Data name="BeltBreastHeight" target="Belt" local="true">StraightJacket.osd\BeltBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2BreastPerkiness" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastPerkiness</Data>
+            <Data name="BeltBreastPerkiness" target="Belt" local="true">StraightJacket.osd\BeltBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBreastWidth" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBreastWidth</Data>
+            <Data name="Object_1.005_ref:2BreastWidth" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BreastWidth</Data>
+            <Data name="BeltBreastWidth" target="Belt" local="true">StraightJacket.osd\BeltBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="Object_1.005_ref:2NippleDistance" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2NipplePerkiness" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitNippleLength" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitNippleLength</Data>
+            <Data name="Object_1.005_ref:2NippleLength" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="Object_1.005_ref:2NippleSize" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2NippleAreola" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2NippleUp" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2NippleDown" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="Object_1.005_ref:2NippleTip" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BaseShape_outfitArms" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitArms</Data>
+            <Data name="Object_1.005_ref:2Arms" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitChubbyArms" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitChubbyArms</Data>
+            <Data name="Object_1.005_ref:2ChubbyArms" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitShoulderSmooth" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitShoulderSmooth</Data>
+            <Data name="Object_1.005_ref:2ShoulderSmooth" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BaseShape_outfitShoulderWidth" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitShoulderWidth</Data>
+            <Data name="Object_1.005_ref:2ShoulderWidth" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBigTorso" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBigTorso</Data>
+            <Data name="Object_1.005_ref:2BigTorso" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BigTorso</Data>
+            <Data name="BeltBigTorso" target="Belt" local="true">StraightJacket.osd\BeltBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="BaseShape_outfitWaist" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitWaist</Data>
+            <Data name="Object_1.005_ref:2Waist" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Waist</Data>
+            <Data name="BeltWaist" target="Belt" local="true">StraightJacket.osd\BeltWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitWideWaistLine" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitWideWaistLine</Data>
+            <Data name="Object_1.005_ref:2WideWaistLine" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2WideWaistLine</Data>
+            <Data name="BeltWideWaistLine" target="Belt" local="true">StraightJacket.osd\BeltWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitChubbyWaist" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitChubbyWaist</Data>
+            <Data name="Object_1.005_ref:2ChubbyWaist" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ChubbyWaist</Data>
+            <Data name="BeltChubbyWaist" target="Belt" local="true">StraightJacket.osd\BeltChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBelly" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBelly</Data>
+            <Data name="Object_1.005_ref:2Belly" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Belly</Data>
+            <Data name="BeltBelly" target="Belt" local="true">StraightJacket.osd\BeltBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBigBelly" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBigBelly</Data>
+            <Data name="Object_1.005_ref:2BigBelly" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BigBelly</Data>
+            <Data name="BeltBigBelly" target="Belt" local="true">StraightJacket.osd\BeltBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitPregnancyBelly" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitPregnancyBelly</Data>
+            <Data name="Object_1.005_ref:2PregnancyBelly" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2PregnancyBelly</Data>
+            <Data name="BeltPregnancyBelly" target="Belt" local="true">StraightJacket.osd\BeltPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitTummyTuck" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitTummyTuck</Data>
+            <Data name="Object_1.005_ref:2TummyTuck" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2TummyTuck</Data>
+            <Data name="BeltTummyTuck" target="Belt" local="true">StraightJacket.osd\BeltTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBack" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBack</Data>
+            <Data name="Object_1.005_ref:2Back" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Back</Data>
+            <Data name="BeltBack" target="Belt" local="true">StraightJacket.osd\BeltBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitHipbone" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitHipbone</Data>
+            <Data name="Object_1.005_ref:2Hipbone" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Hipbone</Data>
+            <Data name="BeltHipbone" target="Belt" local="true">StraightJacket.osd\BeltHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitHips" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitHips</Data>
+            <Data name="Object_1.005_ref:2Hips" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Hips</Data>
+            <Data name="BeltHips" target="Belt" local="true">StraightJacket.osd\BeltHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="BaseShape_outfitButtCrack" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitButtCrack</Data>
+            <Data name="Object_1.005_ref:2ButtCrack" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ButtCrack</Data>
+            <Data name="BeltButtCrack" target="Belt" local="true">StraightJacket.osd\BeltButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BaseShape_outfitButt" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitButt</Data>
+            <Data name="Object_1.005_ref:2Butt" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2Butt</Data>
+            <Data name="BeltButt" target="Belt" local="true">StraightJacket.osd\BeltButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BaseShape_outfitButtSmall" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitButtSmall</Data>
+            <Data name="Object_1.005_ref:2ButtSmall" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ButtSmall</Data>
+            <Data name="BeltButtSmall" target="Belt" local="true">StraightJacket.osd\BeltButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitButtShape2" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitButtShape2</Data>
+            <Data name="Object_1.005_ref:2ButtShape2" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ButtShape2</Data>
+            <Data name="BeltButtShape2" target="Belt" local="true">StraightJacket.osd\BeltButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitBigButt" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitBigButt</Data>
+            <Data name="Object_1.005_ref:2BigButt" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2BigButt</Data>
+            <Data name="BeltBigButt" target="Belt" local="true">StraightJacket.osd\BeltBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitChubbyButt" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitChubbyButt</Data>
+            <Data name="Object_1.005_ref:2ChubbyButt" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ChubbyButt</Data>
+            <Data name="BeltChubbyButt" target="Belt" local="true">StraightJacket.osd\BeltChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitAppleCheeks" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitAppleCheeks</Data>
+            <Data name="Object_1.005_ref:2AppleCheeks" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2AppleCheeks</Data>
+            <Data name="BeltAppleCheeks" target="Belt" local="true">StraightJacket.osd\BeltAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitRoundAss" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitRoundAss</Data>
+            <Data name="Object_1.005_ref:2RoundAss" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2RoundAss</Data>
+            <Data name="BeltRoundAss" target="Belt" local="true">StraightJacket.osd\BeltRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitGroin" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitGroin</Data>
+            <Data name="BeltGroin" target="Belt" local="true">StraightJacket.osd\BeltGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitSlimThighs" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitSlimThighs</Data>
+            <Data name="Object_1.005_ref:2SlimThighs" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2SlimThighs</Data>
+            <Data name="BeltSlimThighs" target="Belt" local="true">StraightJacket.osd\BeltSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitThighs" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitThighs</Data>
+            <Data name="BeltThighs" target="Belt" local="true">StraightJacket.osd\BeltThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitChubbyLegs" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitChubbyLegs</Data>
+            <Data name="Object_1.005_ref:2ChubbyLegs" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ChubbyLegs</Data>
+            <Data name="BeltChubbyLegs" target="Belt" local="true">StraightJacket.osd\BeltChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BaseShape_outfitLegs" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitLegs</Data>
+            <Data name="BeltLegs" target="Belt" local="true">StraightJacket.osd\BeltLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitKneeHeight" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitKneeHeight</Data>
+            <Data name="BeltKneeHeight" target="Belt" local="true">StraightJacket.osd\BeltKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitCalfSize" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShape_outfitCalfSmooth" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="BaseShape_outfitAnkles" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShape_outfitSmallSeam" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitSmallSeam</Data>
+            <Data name="Object_1.005_ref:2SmallSeam" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="BaseShape_outfitShoulderTweak" target="BaseShape_outfit" local="true">StraightJacket.osd\BaseShape_outfitShoulderTweak</Data>
+            <Data name="Object_1.005_ref:2ShoulderTweak" target="Object_1.005_ref:2" local="true">StraightJacket.osd\Object_1.005_ref:2ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

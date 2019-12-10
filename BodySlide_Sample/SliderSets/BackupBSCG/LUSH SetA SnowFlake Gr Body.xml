@@ -1,0 +1,264 @@
+<SliderSetInfo>
+    <SliderSet name="LUSH SnowFlake Gr Body">
+        <SetFolder>\LUSH\SetA\LUSH SetA SnowFlake Gr</SetFolder>
+        <SourceFile>cuirassGr.nif</SourceFile>
+        <OutputPath>meshes\LUSH\SnowFlake</OutputPath>
+        <OutputFile>cuirassGr</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="dress">dress</BaseShapeName>
+        <BaseShapeName target="jewelry">jewelry</BaseShapeName>
+        <Slider name="Jewelry" invert="false" small="0" big="0" zap="true">
+            <datafile name="jewelryJewelry" target="jewelry" local="true">jewelryJewelry.bsd</datafile>
+        </Slider>
+        <Slider name="Dress" invert="false" small="0" big="0" zap="true">
+            <datafile name="dressDress" target="dress" local="true">dressDress.bsd</datafile>
+        </Slider>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="jewelryBreasts" target="jewelry" local="true">jewelryBreasts.bsd</datafile>
+            <datafile name="dressBreasts" target="dress" local="true">dressBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="jewelryBreastsSmall" target="jewelry" local="true">jewelryBreastsSmall.bsd</datafile>
+            <datafile name="dressBreastsSmall" target="dress" local="true">dressBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="jewelryBreastsSH" target="jewelry" local="true">jewelryBreastsSH.bsd</datafile>
+            <datafile name="dressBreastsSH" target="dress" local="true">dressBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="jewelryBreastsSSH" target="jewelry" local="true">jewelryBreastsSSH.bsd</datafile>
+            <datafile name="dressBreastsSSH" target="dress" local="true">dressBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="jewelryBreastsFantasy" target="jewelry" local="true">jewelryBreastsFantasy.bsd</datafile>
+            <datafile name="dressBreastsFantasy" target="dress" local="true">dressBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="jewelryDoubleMelon" target="jewelry" local="true">jewelryDoubleMelon.bsd</datafile>
+            <datafile name="dressDoubleMelon" target="dress" local="true">dressDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="jewelryBreastCleavage" target="jewelry" local="true">jewelryBreastCleavage.bsd</datafile>
+            <datafile name="dressBreastCleavage" target="dress" local="true">dressBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="jewelryBreastFlatness" target="jewelry" local="true">jewelryBreastFlatness.bsd</datafile>
+            <datafile name="dressBreastFlatness" target="dress" local="true">dressBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="jewelryBreastGravity" target="jewelry" local="true">jewelryBreastGravity.bsd</datafile>
+            <datafile name="dressBreastGravity" target="dress" local="true">dressBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="jewelryPushUp" target="jewelry" local="true">jewelryPushUp.bsd</datafile>
+            <datafile name="dressPushUp" target="dress" local="true">dressPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="jewelryBreastHeight" target="jewelry" local="true">jewelryBreastHeight.bsd</datafile>
+            <datafile name="dressBreastHeight" target="dress" local="true">dressBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="jewelryBreastPerkiness" target="jewelry" local="true">jewelryBreastPerkiness.bsd</datafile>
+            <datafile name="dressBreastPerkiness" target="dress" local="true">dressBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="jewelryBreastWidth" target="jewelry" local="true">jewelryBreastWidth.bsd</datafile>
+            <datafile name="dressBreastWidth" target="dress" local="true">dressBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="jewelryNippleDistance" target="jewelry" local="true">jewelryNippleDistance.bsd</datafile>
+            <datafile name="dressNippleDistance" target="dress" local="true">dressNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="jewelryNipplePerkiness" target="jewelry" local="true">jewelryNipplePerkiness.bsd</datafile>
+            <datafile name="dressNipplePerkiness" target="dress" local="true">dressNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="jewelryNippleLength" target="jewelry" local="true">jewelryNippleLength.bsd</datafile>
+            <datafile name="dressNippleLength" target="dress" local="true">dressNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="jewelryNippleSize" target="jewelry" local="true">jewelryNippleSize.bsd</datafile>
+            <datafile name="dressNippleSize" target="dress" local="true">dressNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="jewelryNippleAreola" target="jewelry" local="true">jewelryNippleAreola.bsd</datafile>
+            <datafile name="dressNippleAreola" target="dress" local="true">dressNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="jewelryNippleUp" target="jewelry" local="true">jewelryNippleUp.bsd</datafile>
+            <datafile name="dressNippleUp" target="dress" local="true">dressNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="jewelryNippleDown" target="jewelry" local="true">jewelryNippleDown.bsd</datafile>
+            <datafile name="dressNippleDown" target="dress" local="true">dressNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="dressNippleTip" target="dress" local="true">dressNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="dressArms" target="dress" local="true">dressArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="dressChubbyArms" target="dress" local="true">dressChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="jewelryShoulderSmooth" target="jewelry" local="true">jewelryShoulderSmooth.bsd</datafile>
+            <datafile name="dressShoulderSmooth" target="dress" local="true">dressShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="dressShoulderWidth" target="dress" local="true">dressShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="jewelryBigTorso" target="jewelry" local="true">jewelryBigTorso.bsd</datafile>
+            <datafile name="dressBigTorso" target="dress" local="true">dressBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="dressWaist" target="dress" local="true">dressWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="dressWideWaistLine" target="dress" local="true">dressWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="dressChubbyWaist" target="dress" local="true">dressChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="dressBelly" target="dress" local="true">dressBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="dressBigBelly" target="dress" local="true">dressBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="jewelryPregnancyBelly" target="jewelry" local="true">jewelryPregnancyBelly.bsd</datafile>
+            <datafile name="dressPregnancyBelly" target="dress" local="true">dressPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="dressTummyTuck" target="dress" local="true">dressTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="dressBack" target="dress" local="true">dressBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="dressHipbone" target="dress" local="true">dressHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="dressHips" target="dress" local="true">dressHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="dressButtCrack" target="dress" local="true">dressButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="dressButt" target="dress" local="true">dressButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="dressButtSmall" target="dress" local="true">dressButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="dressButtShape2" target="dress" local="true">dressButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="dressBigButt" target="dress" local="true">dressBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="dressChubbyButt" target="dress" local="true">dressChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="dressAppleCheeks" target="dress" local="true">dressAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="dressRoundAss" target="dress" local="true">dressRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="dressGroin" target="dress" local="true">dressGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="dressSlimThighs" target="dress" local="true">dressSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="dressThighs" target="dress" local="true">dressThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="dressChubbyLegs" target="dress" local="true">dressChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="dressLegs" target="dress" local="true">dressLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="dressKneeHeight" target="dress" local="true">dressKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="jewelrySmallSeam" target="jewelry" local="true">jewelrySmallSeam.bsd</datafile>
+            <datafile name="dressSmallSeam" target="dress" local="true">dressSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="dressShoulderTweak" target="dress" local="true">dressShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

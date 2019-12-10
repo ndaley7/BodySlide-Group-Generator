@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="WidowMaker">
+        <Member name="op Widowmaker Black"/>
+        <Member name="op Widowmaker Black Boots"/>
+        <Member name="op Widowmaker Black Pauldron"/>
+        <Member name="op Widowmaker Gold"/>
+        <Member name="op Widowmaker Gold Boots"/>
+        <Member name="op Widowmaker Gold Pauldron"/>
+        <Member name="op Widowmaker Ice"/>
+        <Member name="op Widowmaker Ice Boots"/>
+        <Member name="op Widowmaker Ice Pauldron"/>
+        <Member name="op Widowmaker Ice-2"/>
+        <Member name="op Widowmaker Ice-2 Boots"/>
+        <Member name="op Widowmaker Ice-2 Pauldron"/>
+        <Member name="op Widowmaker Poison"/>
+        <Member name="op Widowmaker Poison Boots"/>
+        <Member name="op Widowmaker Poison Pauldron"/>
+        <Member name="op Widowmaker Purple"/>
+        <Member name="op Widowmaker Purple Boots"/>
+        <Member name="op Widowmaker Purple Pauldron"/>
+        <Member name="op Widowmaker Rose"/>
+        <Member name="op Widowmaker Rose Boots"/>
+        <Member name="op Widowmaker Rose Pauldron"/>
+    </Group>
+</SliderGroups>

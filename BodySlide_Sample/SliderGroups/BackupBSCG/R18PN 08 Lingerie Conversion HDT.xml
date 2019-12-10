@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+
+    <Group name="R18PN 08 BodySlide Conversion HDT 2.5">
+        <Member name="HDT Lingerie A Red 2.5" />
+        <Member name="HDT Lingerie A Black 2.5" />
+        <Member name="HDT Lingerie A White 2.5" />
+        <Member name="HDT Lingerie B Black 2.5" />
+        <Member name="HDT Lingerie B White 2.5" />
+        <Member name="HDT Lingerie C Black 2.5" />
+        <Member name="HDT Lingerie C White 2.5" />
+        <Member name="HDT Lingerie D Black 2.5" />
+        <Member name="HDT Lingerie D Brown 2.5" />
+    </Group>
+
+    <!--                   CB++ supergroup (for Presets)                     -->
+    <Group name="CB++">
+        <Member name="HDT Lingerie A Red 2.5" />
+        <Member name="HDT Lingerie A Black 2.5" />
+        <Member name="HDT Lingerie A White 2.5" />
+        <Member name="HDT Lingerie B Black 2.5" />
+        <Member name="HDT Lingerie B White 2.5" />
+        <Member name="HDT Lingerie C Black 2.5" />
+        <Member name="HDT Lingerie C White 2.5" />
+        <Member name="HDT Lingerie D Black 2.5" />
+        <Member name="HDT Lingerie D Brown 2.5" />
+    </Group>
+
+</SliderGroups>

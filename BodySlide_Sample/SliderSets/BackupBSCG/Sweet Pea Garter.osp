@@ -1,0 +1,113 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Sweet Pea Garter">
+        <DataFolder>Sweet Pea Garter</DataFolder>
+        <SourceFile>Sweet Pea Garter.nif</SourceFile>
+        <OutputPath>meshes\Armor\SweetPea</OutputPath>
+        <OutputFile GenWeights="true">garterstraps</OutputFile>
+        <Shape target="gata001">gata001</Shape>
+        <Shape target="kanagu001">kanagu001</Shape>
+        <Shape target="kanagu002">kanagu002</Shape>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="gata001BreastHeight" target="gata001" local="true">Sweet Pea Garter.osd\gata001BreastHeight</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="gata001BigTorso" target="gata001" local="true">Sweet Pea Garter.osd\gata001BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="gata001Waist" target="gata001" local="true">Sweet Pea Garter.osd\gata001Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="gata001WideWaistLine" target="gata001" local="true">Sweet Pea Garter.osd\gata001WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="gata001ChubbyWaist" target="gata001" local="true">Sweet Pea Garter.osd\gata001ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="gata001Belly" target="gata001" local="true">Sweet Pea Garter.osd\gata001Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="gata001BigBelly" target="gata001" local="true">Sweet Pea Garter.osd\gata001BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="kanagu002PregnancyBelly" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002PregnancyBelly</Data>
+            <Data name="kanagu001PregnancyBelly" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001PregnancyBelly</Data>
+            <Data name="gata001PregnancyBelly" target="gata001" local="true">Sweet Pea Garter.osd\gata001PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="gata001TummyTuck" target="gata001" local="true">Sweet Pea Garter.osd\gata001TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="gata001Back" target="gata001" local="true">Sweet Pea Garter.osd\gata001Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="kanagu002Hipbone" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002Hipbone</Data>
+            <Data name="kanagu001Hipbone" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001Hipbone</Data>
+            <Data name="gata001Hipbone" target="gata001" local="true">Sweet Pea Garter.osd\gata001Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="kanagu002Hips" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002Hips</Data>
+            <Data name="kanagu001Hips" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001Hips</Data>
+            <Data name="gata001Hips" target="gata001" local="true">Sweet Pea Garter.osd\gata001Hips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="kanagu002Butt" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002Butt</Data>
+            <Data name="kanagu001Butt" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001Butt</Data>
+            <Data name="gata001Butt" target="gata001" local="true">Sweet Pea Garter.osd\gata001Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="kanagu002ButtSmall" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002ButtSmall</Data>
+            <Data name="kanagu001ButtSmall" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001ButtSmall</Data>
+            <Data name="gata001ButtSmall" target="gata001" local="true">Sweet Pea Garter.osd\gata001ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="kanagu002ButtShape2" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002ButtShape2</Data>
+            <Data name="kanagu001ButtShape2" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001ButtShape2</Data>
+            <Data name="gata001ButtShape2" target="gata001" local="true">Sweet Pea Garter.osd\gata001ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="kanagu002BigButt" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002BigButt</Data>
+            <Data name="kanagu001BigButt" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001BigButt</Data>
+            <Data name="gata001BigButt" target="gata001" local="true">Sweet Pea Garter.osd\gata001BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="kanagu002ChubbyButt" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002ChubbyButt</Data>
+            <Data name="kanagu001ChubbyButt" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001ChubbyButt</Data>
+            <Data name="gata001ChubbyButt" target="gata001" local="true">Sweet Pea Garter.osd\gata001ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="kanagu002AppleCheeks" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002AppleCheeks</Data>
+            <Data name="kanagu001AppleCheeks" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001AppleCheeks</Data>
+            <Data name="gata001AppleCheeks" target="gata001" local="true">Sweet Pea Garter.osd\gata001AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="kanagu002RoundAss" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002RoundAss</Data>
+            <Data name="kanagu001RoundAss" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001RoundAss</Data>
+            <Data name="gata001RoundAss" target="gata001" local="true">Sweet Pea Garter.osd\gata001RoundAss</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="kanagu002SlimThighs" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002SlimThighs</Data>
+            <Data name="kanagu001SlimThighs" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001SlimThighs</Data>
+            <Data name="gata001SlimThighs" target="gata001" local="true">Sweet Pea Garter.osd\gata001SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="kanagu002Thighs" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002Thighs</Data>
+            <Data name="kanagu001Thighs" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001Thighs</Data>
+            <Data name="gata001Thighs" target="gata001" local="true">Sweet Pea Garter.osd\gata001Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="kanagu002ChubbyLegs" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002ChubbyLegs</Data>
+            <Data name="kanagu001ChubbyLegs" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001ChubbyLegs</Data>
+            <Data name="gata001ChubbyLegs" target="gata001" local="true">Sweet Pea Garter.osd\gata001ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="kanagu002Legs" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002Legs</Data>
+            <Data name="kanagu001Legs" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001Legs</Data>
+            <Data name="gata001Legs" target="gata001" local="true">Sweet Pea Garter.osd\gata001Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="kanagu002KneeHeight" target="kanagu002" local="true">Sweet Pea Garter.osd\kanagu002KneeHeight</Data>
+            <Data name="kanagu001KneeHeight" target="kanagu001" local="true">Sweet Pea Garter.osd\kanagu001KneeHeight</Data>
+            <Data name="gata001KneeHeight" target="gata001" local="true">Sweet Pea Garter.osd\gata001KneeHeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

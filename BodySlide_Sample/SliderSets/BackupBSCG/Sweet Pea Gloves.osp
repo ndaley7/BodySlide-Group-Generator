@@ -1,0 +1,34 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Sweet Pea Gloves">
+        <DataFolder>Sweet Pea Gloves</DataFolder>
+        <SourceFile>Sweet Pea Gloves.nif</SourceFile>
+        <OutputPath>meshes\Armor\SweetPea</OutputPath>
+        <OutputFile GenWeights="true">gloves</OutputFile>
+        <Shape target="CalienteHandFemale1st">CalienteHandFemale1st</Shape>
+        <Shape target="CalienteHandFemale1st_1">CalienteHandFemale1st_1</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="CalienteHandFemale1st_1Arms" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1st_1ChubbyArms" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="CalienteHandFemale1st_1ShoulderWidth" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1st_1BigTorso" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1BigTorso</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1st_1TummyTuck" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="CalienteHandFemale1st_1Back" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1Back</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="CalienteHandFemale1st_1Butt" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1Butt</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="CalienteHandFemale1st_1SmallSeam" target="CalienteHandFemale1st_1" local="true">Sweet Pea Gloves.osd\CalienteHandFemale1st_1SmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

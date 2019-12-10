@@ -1,0 +1,119 @@
+<SliderSetInfo>
+    <SliderSet name="LUSH MilkSlave Brown Arms">
+        <SetFolder>\LUSH\SetA\LUSH SetA MilkSlave Arms</SetFolder>
+        <SourceFile>Arms.nif</SourceFile>
+        <OutputPath>meshes\LUSH\MilkSlave</OutputPath>
+        <OutputFile>Arms</OutputFile>
+        <BaseShapeName target="arm buckle">arm buckle</BaseShapeName>
+        <BaseShapeName target="arm strap">arm strap</BaseShapeName>
+        <BaseShapeName target="hands">hands</BaseShapeName>
+        <BaseShapeName target="sleeve">sleeve</BaseShapeName>
+        <BaseShapeName target="sleeve top">sleeve top</BaseShapeName>
+        <BaseShapeName target="wrist buckle">wrist buckle</BaseShapeName>
+        <BaseShapeName target="wrist strap">wrist strap</BaseShapeName>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="sleeve topBreastsSmall" target="sleeve top" local="true">sleeve topBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="sleeveBreastsFantasy" target="sleeve" local="true">sleeveBreastsFantasy.bsd</datafile>
+            <datafile name="sleeve topBreastsFantasy" target="sleeve top" local="true">sleeve topBreastsFantasy.bsd</datafile>
+            <datafile name="arm strapBreastsFantasy" target="arm strap" local="true">arm strapBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="sleeveBreastFlatness" target="sleeve" local="true">sleeveBreastFlatness.bsd</datafile>
+            <datafile name="sleeve topBreastFlatness" target="sleeve top" local="true">sleeve topBreastFlatness.bsd</datafile>
+            <datafile name="arm strapBreastFlatness" target="arm strap" local="true">arm strapBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="sleeveBreastGravity" target="sleeve" local="true">sleeveBreastGravity.bsd</datafile>
+            <datafile name="sleeve topBreastGravity" target="sleeve top" local="true">sleeve topBreastGravity.bsd</datafile>
+            <datafile name="arm strapBreastGravity" target="arm strap" local="true">arm strapBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="sleevePushUp" target="sleeve" local="true">sleevePushUp.bsd</datafile>
+            <datafile name="sleeve topPushUp" target="sleeve top" local="true">sleeve topPushUp.bsd</datafile>
+            <datafile name="arm strapPushUp" target="arm strap" local="true">arm strapPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="sleeveBreastHeight" target="sleeve" local="true">sleeveBreastHeight.bsd</datafile>
+            <datafile name="sleeve topBreastHeight" target="sleeve top" local="true">sleeve topBreastHeight.bsd</datafile>
+            <datafile name="arm strapBreastHeight" target="arm strap" local="true">arm strapBreastHeight.bsd</datafile>
+            <datafile name="arm buckleBreastHeight" target="arm buckle" local="true">arm buckleBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="sleeveBreastPerkiness" target="sleeve" local="true">sleeveBreastPerkiness.bsd</datafile>
+            <datafile name="sleeve topBreastPerkiness" target="sleeve top" local="true">sleeve topBreastPerkiness.bsd</datafile>
+            <datafile name="arm strapBreastPerkiness" target="arm strap" local="true">arm strapBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="sleeveBreastWidth" target="sleeve" local="true">sleeveBreastWidth.bsd</datafile>
+            <datafile name="sleeve topBreastWidth" target="sleeve top" local="true">sleeve topBreastWidth.bsd</datafile>
+            <datafile name="arm strapBreastWidth" target="arm strap" local="true">arm strapBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="sleeveArms" target="sleeve" local="true">sleeveArms.bsd</datafile>
+            <datafile name="sleeve topArms" target="sleeve top" local="true">sleeve topArms.bsd</datafile>
+            <datafile name="wrist strapArms" target="wrist strap" local="true">wrist strapArms.bsd</datafile>
+            <datafile name="wrist buckleArms" target="wrist buckle" local="true">wrist buckleArms.bsd</datafile>
+            <datafile name="arm strapArms" target="arm strap" local="true">arm strapArms.bsd</datafile>
+            <datafile name="arm buckleArms" target="arm buckle" local="true">arm buckleArms.bsd</datafile>
+            <datafile name="handsArms" target="hands" local="true">handsArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="sleeveChubbyArms" target="sleeve" local="true">sleeveChubbyArms.bsd</datafile>
+            <datafile name="sleeve topChubbyArms" target="sleeve top" local="true">sleeve topChubbyArms.bsd</datafile>
+            <datafile name="wrist strapChubbyArms" target="wrist strap" local="true">wrist strapChubbyArms.bsd</datafile>
+            <datafile name="wrist buckleChubbyArms" target="wrist buckle" local="true">wrist buckleChubbyArms.bsd</datafile>
+            <datafile name="arm strapChubbyArms" target="arm strap" local="true">arm strapChubbyArms.bsd</datafile>
+            <datafile name="arm buckleChubbyArms" target="arm buckle" local="true">arm buckleChubbyArms.bsd</datafile>
+            <datafile name="handsChubbyArms" target="hands" local="true">handsChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="sleeveShoulderWidth" target="sleeve" local="true">sleeveShoulderWidth.bsd</datafile>
+            <datafile name="sleeve topShoulderWidth" target="sleeve top" local="true">sleeve topShoulderWidth.bsd</datafile>
+            <datafile name="wrist strapShoulderWidth" target="wrist strap" local="true">wrist strapShoulderWidth.bsd</datafile>
+            <datafile name="wrist buckleShoulderWidth" target="wrist buckle" local="true">wrist buckleShoulderWidth.bsd</datafile>
+            <datafile name="arm strapShoulderWidth" target="arm strap" local="true">arm strapShoulderWidth.bsd</datafile>
+            <datafile name="arm buckleShoulderWidth" target="arm buckle" local="true">arm buckleShoulderWidth.bsd</datafile>
+            <datafile name="handsShoulderWidth" target="hands" local="true">handsShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="sleeveBigTorso" target="sleeve" local="true">sleeveBigTorso.bsd</datafile>
+            <datafile name="sleeve topBigTorso" target="sleeve top" local="true">sleeve topBigTorso.bsd</datafile>
+            <datafile name="wrist strapBigTorso" target="wrist strap" local="true">wrist strapBigTorso.bsd</datafile>
+            <datafile name="wrist buckleBigTorso" target="wrist buckle" local="true">wrist buckleBigTorso.bsd</datafile>
+            <datafile name="arm strapBigTorso" target="arm strap" local="true">arm strapBigTorso.bsd</datafile>
+            <datafile name="arm buckleBigTorso" target="arm buckle" local="true">arm buckleBigTorso.bsd</datafile>
+            <datafile name="handsBigTorso" target="hands" local="true">handsBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="sleeveWaist" target="sleeve" local="true">sleeveWaist.bsd</datafile>
+            <datafile name="sleeve topWaist" target="sleeve top" local="true">sleeve topWaist.bsd</datafile>
+            <datafile name="arm strapWaist" target="arm strap" local="true">arm strapWaist.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="sleeveTummyTuck" target="sleeve" local="true">sleeveTummyTuck.bsd</datafile>
+            <datafile name="wrist strapTummyTuck" target="wrist strap" local="true">wrist strapTummyTuck.bsd</datafile>
+            <datafile name="wrist buckleTummyTuck" target="wrist buckle" local="true">wrist buckleTummyTuck.bsd</datafile>
+            <datafile name="handsTummyTuck" target="hands" local="true">handsTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="sleeveBack" target="sleeve" local="true">sleeveBack.bsd</datafile>
+            <datafile name="sleeve topBack" target="sleeve top" local="true">sleeve topBack.bsd</datafile>
+            <datafile name="arm strapBack" target="arm strap" local="true">arm strapBack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="sleeveButt" target="sleeve" local="true">sleeveButt.bsd</datafile>
+            <datafile name="wrist strapButt" target="wrist strap" local="true">wrist strapButt.bsd</datafile>
+            <datafile name="wrist buckleButt" target="wrist buckle" local="true">wrist buckleButt.bsd</datafile>
+            <datafile name="handsButt" target="hands" local="true">handsButt.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="sleeveSmallSeam" target="sleeve" local="true">sleeveSmallSeam.bsd</datafile>
+            <datafile name="wrist strapSmallSeam" target="wrist strap" local="true">wrist strapSmallSeam.bsd</datafile>
+            <datafile name="wrist buckleSmallSeam" target="wrist buckle" local="true">wrist buckleSmallSeam.bsd</datafile>
+            <datafile name="arm strapSmallSeam" target="arm strap" local="true">arm strapSmallSeam.bsd</datafile>
+            <datafile name="handsSmallSeam" target="hands" local="true">handsSmallSeam.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

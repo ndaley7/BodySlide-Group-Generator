@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Telvanni">
+        <DataFolder>CT77Telvanni</DataFolder>
+        <SourceFile>CT77Telvanni.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\telvanni</OutputPath>
+        <OutputFile GenWeights="true">telvannibodyf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="TelvanniChest">TelvanniChest</Shape>
+        <Shape target="TelvanniHarness">TelvanniHarness</Shape>
+        <Shape target="TelvanniLeggings">TelvanniLeggings</Shape>
+        <Shape target="TelvanniSkirt">TelvanniSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="TelvanniChestBreasts" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreasts</Data>
+            <Data name="TelvanniHarnessBreasts" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="TelvanniChestBreastsSmall" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsSmall</Data>
+            <Data name="TelvanniHarnessBreastsSmall" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="TelvanniChestBreastsSH" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsSH</Data>
+            <Data name="TelvanniHarnessBreastsSH" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="TelvanniChestBreastsSSH" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsSSH</Data>
+            <Data name="TelvanniHarnessBreastsSSH" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="TelvanniChestBreastsFantasy" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsFantasy</Data>
+            <Data name="TelvanniHarnessBreastsFantasy" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="TelvanniChestDoubleMelon" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestDoubleMelon</Data>
+            <Data name="TelvanniHarnessDoubleMelon" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="TelvanniChestBreastCleavage" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="TelvanniChestBreastFlatness" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastFlatness</Data>
+            <Data name="TelvanniHarnessBreastFlatness" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="TelvanniChestBreastGravity" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastGravity</Data>
+            <Data name="TelvanniHarnessBreastGravity" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="TelvanniChestPushUp" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestPushUp</Data>
+            <Data name="TelvanniHarnessPushUp" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="TelvanniChestBreastHeight" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastHeight</Data>
+            <Data name="TelvanniHarnessBreastHeight" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="TelvanniChestBreastPerkiness" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastPerkiness</Data>
+            <Data name="TelvanniHarnessBreastPerkiness" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="TelvanniChestBreastWidth" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastWidth</Data>
+            <Data name="TelvanniHarnessBreastWidth" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="TelvanniChestNippleDistance" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleDistance</Data>
+            <Data name="TelvanniHarnessNippleDistance" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="TelvanniChestNipplePerkiness" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNipplePerkiness</Data>
+            <Data name="TelvanniHarnessNipplePerkiness" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="TelvanniChestNippleLength" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleLength</Data>
+            <Data name="TelvanniHarnessNippleLength" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="TelvanniChestNippleSize" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleSize</Data>
+            <Data name="TelvanniHarnessNippleSize" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="TelvanniChestNippleAreola" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleAreola</Data>
+            <Data name="TelvanniHarnessNippleAreola" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="TelvanniChestNippleUp" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleUp</Data>
+            <Data name="TelvanniHarnessNippleUp" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="TelvanniChestNippleDown" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleDown</Data>
+            <Data name="TelvanniHarnessNippleDown" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="TelvanniChestNippleTip" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="TelvanniChestArms" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestArms</Data>
+            <Data name="TelvanniHarnessArms" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="TelvanniChestChubbyArms" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyArms</Data>
+            <Data name="TelvanniHarnessChubbyArms" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="TelvanniChestShoulderSmooth" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestShoulderSmooth</Data>
+            <Data name="TelvanniHarnessShoulderSmooth" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="TelvanniChestShoulderWidth" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestShoulderWidth</Data>
+            <Data name="TelvanniHarnessShoulderWidth" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="TelvanniChestBigTorso" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBigTorso</Data>
+            <Data name="TelvanniHarnessBigTorso" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBigTorso</Data>
+            <Data name="TelvanniSkirtBigTorso" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="TelvanniChestWaist" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestWaist</Data>
+            <Data name="TelvanniHarnessWaist" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="TelvanniChestWideWaistLine" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestWideWaistLine</Data>
+            <Data name="TelvanniHarnessWideWaistLine" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="TelvanniChestChubbyWaist" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyWaist</Data>
+            <Data name="TelvanniHarnessChubbyWaist" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessChubbyWaist</Data>
+            <Data name="TelvanniSkirtChubbyWaist" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="TelvanniChestBelly" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBelly</Data>
+            <Data name="TelvanniHarnessBelly" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBelly</Data>
+            <Data name="TelvanniSkirtBelly" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="TelvanniChestBigBelly" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBigBelly</Data>
+            <Data name="TelvanniHarnessBigBelly" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBigBelly</Data>
+            <Data name="TelvanniSkirtBigBelly" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="TelvanniChestTummyTuck" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestTummyTuck</Data>
+            <Data name="TelvanniSkirtTummyTuck" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="TelvanniChestBack" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBack</Data>
+            <Data name="TelvanniHarnessBack" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBack</Data>
+            <Data name="TelvanniSkirtBack" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="TelvanniChestHipbone" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestHipbone</Data>
+            <Data name="TelvanniSkirtHipbone" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="TelvanniChestHips" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestHips</Data>
+            <Data name="TelvanniHarnessHips" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessHips</Data>
+            <Data name="TelvanniSkirtHips" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="TelvanniChestButt" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestButt</Data>
+            <Data name="TelvanniLeggingsButt" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsButt</Data>
+            <Data name="TelvanniSkirtButt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="TelvanniChestButtSmall" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestButtSmall</Data>
+            <Data name="TelvanniLeggingsButtSmall" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsButtSmall</Data>
+            <Data name="TelvanniSkirtButtSmall" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="TelvanniChestButtShape2" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestButtShape2</Data>
+            <Data name="TelvanniHarnessButtShape2" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessButtShape2</Data>
+            <Data name="TelvanniSkirtButtShape2" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="TelvanniChestBigButt" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBigButt</Data>
+            <Data name="TelvanniHarnessBigButt" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBigButt</Data>
+            <Data name="TelvanniLeggingsBigButt" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsBigButt</Data>
+            <Data name="TelvanniSkirtBigButt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="TelvanniChestChubbyButt" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyButt</Data>
+            <Data name="TelvanniHarnessChubbyButt" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessChubbyButt</Data>
+            <Data name="TelvanniLeggingsChubbyButt" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsChubbyButt</Data>
+            <Data name="TelvanniSkirtChubbyButt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="TelvanniChestAppleCheeks" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestAppleCheeks</Data>
+            <Data name="TelvanniHarnessAppleCheeks" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessAppleCheeks</Data>
+            <Data name="TelvanniSkirtAppleCheeks" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="TelvanniChestRoundAss" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestRoundAss</Data>
+            <Data name="TelvanniSkirtRoundAss" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="TelvanniChestSlimThighs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestSlimThighs</Data>
+            <Data name="TelvanniLeggingsSlimThighs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsSlimThighs</Data>
+            <Data name="TelvanniSkirtSlimThighs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="TelvanniChestThighs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestThighs</Data>
+            <Data name="TelvanniLeggingsThighs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsThighs</Data>
+            <Data name="TelvanniSkirtThighs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="TelvanniChestChubbyLegs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyLegs</Data>
+            <Data name="TelvanniLeggingsChubbyLegs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsChubbyLegs</Data>
+            <Data name="TelvanniSkirtChubbyLegs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="TelvanniChestLegs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestLegs</Data>
+            <Data name="TelvanniLeggingsLegs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsLegs</Data>
+            <Data name="TelvanniSkirtLegs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="TelvanniLeggingsKneeHeight" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsKneeHeight</Data>
+            <Data name="TelvanniSkirtKneeHeight" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="TelvanniLeggingsCalfSize" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="TelvanniLeggingsCalfSmooth" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="TelvanniLeggingsAnkles" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="TelvanniChestSmallSeam" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestSmallSeam</Data>
+            <Data name="TelvanniHarnessSmallSeam" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessSmallSeam</Data>
+            <Data name="TelvanniLeggingsSmallSeam" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="TelvanniChestShoulderTweak" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestShoulderTweak</Data>
+            <Data name="TelvanniHarnessShoulderTweak" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapHarness" invert="false" small="100" big="100" zap="true">
+            <Data name="TelvanniHarnessZapChest" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessZapChest</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="TelvanniChestZapChest" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestZapChest</Data>
+            <Data name="TelvanniHarnessZapChest" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessZapChest</Data>
+            <Data name="TelvanniSkirtZapChest" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtZapChest</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="TelvanniSkirtZapSkirt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="TelvanniLeggingsZapLeggings" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Telvanni Ildari">
+        <DataFolder>CT77Telvanni</DataFolder>
+        <SourceFile>CT77TelvanniIldari.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\telvanni</OutputPath>
+        <OutputFile GenWeights="true">telvannibodyf_ildari</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="TelvanniChest">TelvanniChest</Shape>
+        <Shape target="TelvanniHarness">TelvanniHarness</Shape>
+        <Shape target="TelvanniLeggings">TelvanniLeggings</Shape>
+        <Shape target="TelvanniSkirt">TelvanniSkirt</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="TelvanniChestBreasts" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreasts</Data>
+            <Data name="TelvanniHarnessBreasts" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="TelvanniChestBreastsSmall" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsSmall</Data>
+            <Data name="TelvanniHarnessBreastsSmall" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="TelvanniChestBreastsSH" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsSH</Data>
+            <Data name="TelvanniHarnessBreastsSH" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="TelvanniChestBreastsSSH" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsSSH</Data>
+            <Data name="TelvanniHarnessBreastsSSH" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="TelvanniChestBreastsFantasy" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastsFantasy</Data>
+            <Data name="TelvanniHarnessBreastsFantasy" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="TelvanniChestDoubleMelon" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestDoubleMelon</Data>
+            <Data name="TelvanniHarnessDoubleMelon" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="TelvanniChestBreastCleavage" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="TelvanniChestBreastFlatness" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastFlatness</Data>
+            <Data name="TelvanniHarnessBreastFlatness" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="TelvanniChestBreastGravity" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastGravity</Data>
+            <Data name="TelvanniHarnessBreastGravity" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="TelvanniChestPushUp" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestPushUp</Data>
+            <Data name="TelvanniHarnessPushUp" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="TelvanniChestBreastHeight" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastHeight</Data>
+            <Data name="TelvanniHarnessBreastHeight" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="TelvanniChestBreastPerkiness" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastPerkiness</Data>
+            <Data name="TelvanniHarnessBreastPerkiness" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="TelvanniChestBreastWidth" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBreastWidth</Data>
+            <Data name="TelvanniHarnessBreastWidth" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="TelvanniChestNippleDistance" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleDistance</Data>
+            <Data name="TelvanniHarnessNippleDistance" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="TelvanniChestNipplePerkiness" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNipplePerkiness</Data>
+            <Data name="TelvanniHarnessNipplePerkiness" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="TelvanniChestNippleLength" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleLength</Data>
+            <Data name="TelvanniHarnessNippleLength" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="TelvanniChestNippleSize" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleSize</Data>
+            <Data name="TelvanniHarnessNippleSize" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="TelvanniChestNippleAreola" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleAreola</Data>
+            <Data name="TelvanniHarnessNippleAreola" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="TelvanniChestNippleUp" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleUp</Data>
+            <Data name="TelvanniHarnessNippleUp" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="TelvanniChestNippleDown" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleDown</Data>
+            <Data name="TelvanniHarnessNippleDown" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="TelvanniChestNippleTip" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="TelvanniChestArms" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestArms</Data>
+            <Data name="TelvanniHarnessArms" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="TelvanniChestChubbyArms" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyArms</Data>
+            <Data name="TelvanniHarnessChubbyArms" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="TelvanniChestShoulderSmooth" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestShoulderSmooth</Data>
+            <Data name="TelvanniHarnessShoulderSmooth" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="TelvanniChestShoulderWidth" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestShoulderWidth</Data>
+            <Data name="TelvanniHarnessShoulderWidth" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="TelvanniChestBigTorso" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBigTorso</Data>
+            <Data name="TelvanniHarnessBigTorso" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBigTorso</Data>
+            <Data name="TelvanniSkirtBigTorso" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="TelvanniChestWaist" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestWaist</Data>
+            <Data name="TelvanniHarnessWaist" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="TelvanniChestWideWaistLine" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestWideWaistLine</Data>
+            <Data name="TelvanniHarnessWideWaistLine" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="TelvanniChestChubbyWaist" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyWaist</Data>
+            <Data name="TelvanniHarnessChubbyWaist" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessChubbyWaist</Data>
+            <Data name="TelvanniSkirtChubbyWaist" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="TelvanniChestBelly" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBelly</Data>
+            <Data name="TelvanniHarnessBelly" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBelly</Data>
+            <Data name="TelvanniSkirtBelly" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="TelvanniChestBigBelly" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBigBelly</Data>
+            <Data name="TelvanniHarnessBigBelly" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBigBelly</Data>
+            <Data name="TelvanniSkirtBigBelly" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="TelvanniChestTummyTuck" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestTummyTuck</Data>
+            <Data name="TelvanniSkirtTummyTuck" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="TelvanniChestBack" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBack</Data>
+            <Data name="TelvanniHarnessBack" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBack</Data>
+            <Data name="TelvanniSkirtBack" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="TelvanniChestHipbone" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestHipbone</Data>
+            <Data name="TelvanniSkirtHipbone" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="TelvanniChestHips" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestHips</Data>
+            <Data name="TelvanniHarnessHips" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessHips</Data>
+            <Data name="TelvanniSkirtHips" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="TelvanniChestButt" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestButt</Data>
+            <Data name="TelvanniLeggingsButt" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsButt</Data>
+            <Data name="TelvanniSkirtButt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="TelvanniChestButtSmall" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestButtSmall</Data>
+            <Data name="TelvanniLeggingsButtSmall" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsButtSmall</Data>
+            <Data name="TelvanniSkirtButtSmall" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="TelvanniChestButtShape2" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestButtShape2</Data>
+            <Data name="TelvanniHarnessButtShape2" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessButtShape2</Data>
+            <Data name="TelvanniSkirtButtShape2" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="TelvanniChestBigButt" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestBigButt</Data>
+            <Data name="TelvanniHarnessBigButt" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessBigButt</Data>
+            <Data name="TelvanniLeggingsBigButt" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsBigButt</Data>
+            <Data name="TelvanniSkirtBigButt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="TelvanniChestChubbyButt" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyButt</Data>
+            <Data name="TelvanniHarnessChubbyButt" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessChubbyButt</Data>
+            <Data name="TelvanniLeggingsChubbyButt" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsChubbyButt</Data>
+            <Data name="TelvanniSkirtChubbyButt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="TelvanniChestAppleCheeks" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestAppleCheeks</Data>
+            <Data name="TelvanniHarnessAppleCheeks" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessAppleCheeks</Data>
+            <Data name="TelvanniSkirtAppleCheeks" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="TelvanniChestRoundAss" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestRoundAss</Data>
+            <Data name="TelvanniSkirtRoundAss" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="TelvanniChestSlimThighs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestSlimThighs</Data>
+            <Data name="TelvanniLeggingsSlimThighs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsSlimThighs</Data>
+            <Data name="TelvanniSkirtSlimThighs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+            <Data name="TelvanniChestThighs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestThighs</Data>
+            <Data name="TelvanniLeggingsThighs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsThighs</Data>
+            <Data name="TelvanniSkirtThighs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+            <Data name="TelvanniChestChubbyLegs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestChubbyLegs</Data>
+            <Data name="TelvanniLeggingsChubbyLegs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsChubbyLegs</Data>
+            <Data name="TelvanniSkirtChubbyLegs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+            <Data name="TelvanniChestLegs" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestLegs</Data>
+            <Data name="TelvanniLeggingsLegs" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsLegs</Data>
+            <Data name="TelvanniSkirtLegs" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="TelvanniLeggingsKneeHeight" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsKneeHeight</Data>
+            <Data name="TelvanniSkirtKneeHeight" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="TelvanniLeggingsCalfSize" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="TelvanniLeggingsCalfSmooth" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="TelvanniLeggingsAnkles" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="TelvanniChestSmallSeam" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestSmallSeam</Data>
+            <Data name="TelvanniHarnessSmallSeam" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessSmallSeam</Data>
+            <Data name="TelvanniLeggingsSmallSeam" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="TelvanniChestShoulderTweak" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestShoulderTweak</Data>
+            <Data name="TelvanniHarnessShoulderTweak" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="TelvanniChestZapChest" target="TelvanniChest" local="true">CT77Telvanni.osd\TelvanniChestZapChest</Data>
+            <Data name="TelvanniHarnessZapChest" target="TelvanniHarness" local="true">CT77Telvanni.osd\TelvanniHarnessZapChest</Data>
+            <Data name="TelvanniSkirtZapChest" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtZapChest</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="TelvanniSkirtZapSkirt" target="TelvanniSkirt" local="true">CT77Telvanni.osd\TelvanniSkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="TelvanniLeggingsZapLeggings" target="TelvanniLeggings" local="true">CT77Telvanni.osd\TelvanniLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Telvanni Shoes">
+        <DataFolder>CT77Telvanni</DataFolder>
+        <SourceFile>CT77TelvanniShoes.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\telvanni</OutputPath>
+        <OutputFile GenWeights="true">telvannibootsf</OutputFile>
+        <Shape target="TelvanniBoots">TelvanniBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="TelvanniBootsChubbyLegs" target="TelvanniBoots" local="true">CT77TelvanniShoes.osd\TelvanniBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="TelvanniBootsLegs" target="TelvanniBoots" local="true">CT77TelvanniShoes.osd\TelvanniBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="TelvanniBootsKneeHeight" target="TelvanniBoots" local="true">CT77TelvanniShoes.osd\TelvanniBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="TelvanniBootsCalfSize" target="TelvanniBoots" local="true">CT77TelvanniShoes.osd\TelvanniBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="TelvanniBootsCalfSmooth" target="TelvanniBoots" local="true">CT77TelvanniShoes.osd\TelvanniBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="TelvanniBootsAnkles" target="TelvanniBoots" local="true">CT77TelvanniShoes.osd\TelvanniBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="TelvanniBootsSmallSeam" target="TelvanniBoots" local="true">CT77TelvanniShoes.osd\TelvanniBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

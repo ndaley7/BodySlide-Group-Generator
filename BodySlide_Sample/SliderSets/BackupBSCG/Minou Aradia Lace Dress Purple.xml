@@ -1,0 +1,347 @@
+<SliderSetInfo>
+    <SliderSet name="Minou Aradia Lace Dress Purple">
+        <SetFolder>Minou Aradia Lace Dress Purple</SetFolder>
+        <SourceFile>Minou Aradia Lace Dress Purple.nif</SourceFile>
+        <OutputPath>Meshes\Minoumimi\Minou Armors\Minou Aradia Lace Dress</OutputPath>
+        <OutputFile>Minou Aradia Lace Dress Purple</OutputFile>
+        <BaseShapeName target="BaseShape" DataFolder="CalienteBody">BaseShape</BaseShapeName>
+        <BaseShapeName target="aradiabra">aradiabra</BaseShapeName>
+        <BaseShapeName target="aradiagloves">aradiagloves</BaseShapeName>
+        <BaseShapeName target="aradiapantie">aradiapantie</BaseShapeName>
+        <BaseShapeName target="aradiaskirt">aradiaskirt</BaseShapeName>
+        <BaseShapeName target="aradiastocking">aradiastocking</BaseShapeName>
+        <BaseShapeName target="aradiatop">aradiatop</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="Breasts1" target="BaseShape">Breasts1.bsd</datafile>
+            <datafile name="aradiabraBreasts" target="aradiabra" local="true">aradiabraBreasts.bsd</datafile>
+            <datafile name="aradiatopBreasts" target="aradiatop" local="true">aradiatopBreasts.bsd</datafile>
+            <datafile name="aradiaglovesBreasts" target="aradiagloves" local="true">aradiaglovesBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="BreastsSm" target="BaseShape">BreastsSm.bsd</datafile>
+            <datafile name="aradiabraBreastsSmall" target="aradiabra" local="true">aradiabraBreastsSmall.bsd</datafile>
+            <datafile name="aradiaskirtBreastsSmall" target="aradiaskirt" local="true">aradiaskirtBreastsSmall.bsd</datafile>
+            <datafile name="aradiatopBreastsSmall" target="aradiatop" local="true">aradiatopBreastsSmall.bsd</datafile>
+            <datafile name="aradiapantieBreastsSmall" target="aradiapantie" local="true">aradiapantieBreastsSmall.bsd</datafile>
+            <datafile name="aradiaglovesBreastsSmall" target="aradiagloves" local="true">aradiaglovesBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSH" target="BaseShape">BreastsSH.bsd</datafile>
+            <datafile name="aradiabraBreastsSH" target="aradiabra" local="true">aradiabraBreastsSH.bsd</datafile>
+            <datafile name="aradiatopBreastsSH" target="aradiatop" local="true">aradiatopBreastsSH.bsd</datafile>
+            <datafile name="aradiaglovesBreastsSH" target="aradiagloves" local="true">aradiaglovesBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</datafile>
+            <datafile name="aradiabraBreastsSSH" target="aradiabra" local="true">aradiabraBreastsSSH.bsd</datafile>
+            <datafile name="aradiatopBreastsSSH" target="aradiatop" local="true">aradiatopBreastsSSH.bsd</datafile>
+            <datafile name="aradiaglovesBreastsSSH" target="aradiagloves" local="true">aradiaglovesBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</datafile>
+            <datafile name="aradiabraBreastsFantasy" target="aradiabra" local="true">aradiabraBreastsFantasy.bsd</datafile>
+            <datafile name="aradiatopBreastsFantasy" target="aradiatop" local="true">aradiatopBreastsFantasy.bsd</datafile>
+            <datafile name="aradiaglovesBreastsFantasy" target="aradiagloves" local="true">aradiaglovesBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</datafile>
+            <datafile name="aradiabraDoubleMelon" target="aradiabra" local="true">aradiabraDoubleMelon.bsd</datafile>
+            <datafile name="aradiatopDoubleMelon" target="aradiatop" local="true">aradiatopDoubleMelon.bsd</datafile>
+            <datafile name="aradiaglovesDoubleMelon" target="aradiagloves" local="true">aradiaglovesDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</datafile>
+            <datafile name="aradiabraBreastCleavage" target="aradiabra" local="true">aradiabraBreastCleavage.bsd</datafile>
+            <datafile name="aradiatopBreastCleavage" target="aradiatop" local="true">aradiatopBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</datafile>
+            <datafile name="aradiabraBreastFlatness" target="aradiabra" local="true">aradiabraBreastFlatness.bsd</datafile>
+            <datafile name="aradiatopBreastFlatness" target="aradiatop" local="true">aradiatopBreastFlatness.bsd</datafile>
+            <datafile name="aradiaglovesBreastFlatness" target="aradiagloves" local="true">aradiaglovesBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="BreastGravity" target="BaseShape">BreastGravity.bsd</datafile>
+            <datafile name="aradiabraBreastGravity" target="aradiabra" local="true">aradiabraBreastGravity.bsd</datafile>
+            <datafile name="aradiatopBreastGravity" target="aradiatop" local="true">aradiatopBreastGravity.bsd</datafile>
+            <datafile name="aradiaglovesBreastGravity" target="aradiagloves" local="true">aradiaglovesBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="PushUp" target="BaseShape">PushUp.bsd</datafile>
+            <datafile name="aradiabraPushUp" target="aradiabra" local="true">aradiabraPushUp.bsd</datafile>
+            <datafile name="aradiatopPushUp" target="aradiatop" local="true">aradiatopPushUp.bsd</datafile>
+            <datafile name="aradiaglovesPushUp" target="aradiagloves" local="true">aradiaglovesPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="BreastHt" target="BaseShape">BreastHt.bsd</datafile>
+            <datafile name="aradiabraBreastHeight" target="aradiabra" local="true">aradiabraBreastHeight.bsd</datafile>
+            <datafile name="aradiaskirtBreastHeight" target="aradiaskirt" local="true">aradiaskirtBreastHeight.bsd</datafile>
+            <datafile name="aradiatopBreastHeight" target="aradiatop" local="true">aradiatopBreastHeight.bsd</datafile>
+            <datafile name="aradiapantieBreastHeight" target="aradiapantie" local="true">aradiapantieBreastHeight.bsd</datafile>
+            <datafile name="aradiaglovesBreastHeight" target="aradiagloves" local="true">aradiaglovesBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</datafile>
+            <datafile name="aradiabraBreastPerkiness" target="aradiabra" local="true">aradiabraBreastPerkiness.bsd</datafile>
+            <datafile name="aradiatopBreastPerkiness" target="aradiatop" local="true">aradiatopBreastPerkiness.bsd</datafile>
+            <datafile name="aradiaglovesBreastPerkiness" target="aradiagloves" local="true">aradiaglovesBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="BreastWidth" target="BaseShape">BreastWidth.bsd</datafile>
+            <datafile name="aradiabraBreastWidth" target="aradiabra" local="true">aradiabraBreastWidth.bsd</datafile>
+            <datafile name="aradiatopBreastWidth" target="aradiatop" local="true">aradiatopBreastWidth.bsd</datafile>
+            <datafile name="aradiaglovesBreastWidth" target="aradiagloves" local="true">aradiaglovesBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="NippleDistance" target="BaseShape">NippleDistance.bsd</datafile>
+            <datafile name="aradiabraNippleDistance" target="aradiabra" local="true">aradiabraNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</datafile>
+            <datafile name="aradiabraNipplePerkiness" target="aradiabra" local="true">aradiabraNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="NippleLength" target="BaseShape">NippleLength.bsd</datafile>
+            <datafile name="aradiabraNippleLength" target="aradiabra" local="true">aradiabraNippleLength.bsd</datafile>
+            <datafile name="aradiatopNippleLength" target="aradiatop" local="true">aradiatopNippleLength.bsd</datafile>
+            <datafile name="aradiaglovesNippleLength" target="aradiagloves" local="true">aradiaglovesNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="NippleSize" target="BaseShape">NippleSize.bsd</datafile>
+            <datafile name="aradiabraNippleSize" target="aradiabra" local="true">aradiabraNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <datafile name="NippleAreola" target="BaseShape">NippleAreola.bsd</datafile>
+            <datafile name="aradiabraNippleAreola" target="aradiabra" local="true">aradiabraNippleAreola.bsd</datafile>
+            <datafile name="aradiaglovesNippleAreola" target="aradiagloves" local="true">aradiaglovesNippleAreola.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="NippleUp" target="BaseShape">NippleUp.bsd</datafile>
+            <datafile name="aradiabraNippleUp" target="aradiabra" local="true">aradiabraNippleUp.bsd</datafile>
+            <datafile name="aradiatopNippleUp" target="aradiatop" local="true">aradiatopNippleUp.bsd</datafile>
+            <datafile name="aradiaglovesNippleUp" target="aradiagloves" local="true">aradiaglovesNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="NippleDown" target="BaseShape">NippleDown.bsd</datafile>
+            <datafile name="aradiabraNippleDown" target="aradiabra" local="true">aradiabraNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="NippleTip" target="BaseShape">NippleTip.bsd</datafile>
+            <datafile name="aradiabraNippleTip" target="aradiabra" local="true">aradiabraNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <datafile name="Arms" target="BaseShape">Arms.bsd</datafile>
+            <datafile name="aradiabraArms" target="aradiabra" local="true">aradiabraArms.bsd</datafile>
+            <datafile name="aradiatopArms" target="aradiatop" local="true">aradiatopArms.bsd</datafile>
+            <datafile name="aradiaglovesArms" target="aradiagloves" local="true">aradiaglovesArms.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <datafile name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</datafile>
+            <datafile name="aradiabraChubbyArms" target="aradiabra" local="true">aradiabraChubbyArms.bsd</datafile>
+            <datafile name="aradiatopChubbyArms" target="aradiatop" local="true">aradiatopChubbyArms.bsd</datafile>
+            <datafile name="aradiaglovesChubbyArms" target="aradiagloves" local="true">aradiaglovesChubbyArms.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <datafile name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</datafile>
+            <datafile name="aradiatopShoulderSmooth" target="aradiatop" local="true">aradiatopShoulderSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <datafile name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</datafile>
+            <datafile name="aradiabraShoulderWidth" target="aradiabra" local="true">aradiabraShoulderWidth.bsd</datafile>
+            <datafile name="aradiatopShoulderWidth" target="aradiatop" local="true">aradiatopShoulderWidth.bsd</datafile>
+            <datafile name="aradiaglovesShoulderWidth" target="aradiagloves" local="true">aradiaglovesShoulderWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="BigTorso" target="BaseShape">BigTorso.bsd</datafile>
+            <datafile name="aradiabraBigTorso" target="aradiabra" local="true">aradiabraBigTorso.bsd</datafile>
+            <datafile name="aradiaskirtBigTorso" target="aradiaskirt" local="true">aradiaskirtBigTorso.bsd</datafile>
+            <datafile name="aradiatopBigTorso" target="aradiatop" local="true">aradiatopBigTorso.bsd</datafile>
+            <datafile name="aradiapantieBigTorso" target="aradiapantie" local="true">aradiapantieBigTorso.bsd</datafile>
+            <datafile name="aradiaglovesBigTorso" target="aradiagloves" local="true">aradiaglovesBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Waist" target="BaseShape">Waist.bsd</datafile>
+            <datafile name="aradiabraWaist" target="aradiabra" local="true">aradiabraWaist.bsd</datafile>
+            <datafile name="aradiaskirtWaist" target="aradiaskirt" local="true">aradiaskirtWaist.bsd</datafile>
+            <datafile name="aradiapantieWaist" target="aradiapantie" local="true">aradiapantieWaist.bsd</datafile>
+            <datafile name="aradiaglovesWaist" target="aradiagloves" local="true">aradiaglovesWaist.bsd</datafile>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <datafile name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</datafile>
+            <datafile name="aradiabraWideWaistLine" target="aradiabra" local="true">aradiabraWideWaistLine.bsd</datafile>
+            <datafile name="aradiaskirtWideWaistLine" target="aradiaskirt" local="true">aradiaskirtWideWaistLine.bsd</datafile>
+            <datafile name="aradiapantieWideWaistLine" target="aradiapantie" local="true">aradiapantieWideWaistLine.bsd</datafile>
+            <datafile name="aradiaglovesWideWaistLine" target="aradiagloves" local="true">aradiaglovesWideWaistLine.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</datafile>
+            <datafile name="aradiabraChubbyWaist" target="aradiabra" local="true">aradiabraChubbyWaist.bsd</datafile>
+            <datafile name="aradiaskirtChubbyWaist" target="aradiaskirt" local="true">aradiaskirtChubbyWaist.bsd</datafile>
+            <datafile name="aradiapantieChubbyWaist" target="aradiapantie" local="true">aradiapantieChubbyWaist.bsd</datafile>
+            <datafile name="aradiaglovesChubbyWaist" target="aradiagloves" local="true">aradiaglovesChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Belly" target="BaseShape">CalBelly.bsd</datafile>
+            <datafile name="aradiabraBelly" target="aradiabra" local="true">aradiabraBelly.bsd</datafile>
+            <datafile name="aradiaskirtBelly" target="aradiaskirt" local="true">aradiaskirtBelly.bsd</datafile>
+            <datafile name="aradiapantieBelly" target="aradiapantie" local="true">aradiapantieBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="BigBelly" target="BaseShape">BigBelly.bsd</datafile>
+            <datafile name="aradiabraBigBelly" target="aradiabra" local="true">aradiabraBigBelly.bsd</datafile>
+            <datafile name="aradiaskirtBigBelly" target="aradiaskirt" local="true">aradiaskirtBigBelly.bsd</datafile>
+            <datafile name="aradiapantieBigBelly" target="aradiapantie" local="true">aradiapantieBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</datafile>
+            <datafile name="aradiabraPregnancyBelly" target="aradiabra" local="true">aradiabraPregnancyBelly.bsd</datafile>
+            <datafile name="aradiastockingPregnancyBelly" target="aradiastocking" local="true">aradiastockingPregnancyBelly.bsd</datafile>
+            <datafile name="aradiaskirtPregnancyBelly" target="aradiaskirt" local="true">aradiaskirtPregnancyBelly.bsd</datafile>
+            <datafile name="aradiatopPregnancyBelly" target="aradiatop" local="true">aradiatopPregnancyBelly.bsd</datafile>
+            <datafile name="aradiapantiePregnancyBelly" target="aradiapantie" local="true">aradiapantiePregnancyBelly.bsd</datafile>
+            <datafile name="aradiaglovesPregnancyBelly" target="aradiagloves" local="true">aradiaglovesPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="TummyTuck" target="BaseShape">TummyTuck.bsd</datafile>
+            <datafile name="aradiaskirtTummyTuck" target="aradiaskirt" local="true">aradiaskirtTummyTuck.bsd</datafile>
+            <datafile name="aradiapantieTummyTuck" target="aradiapantie" local="true">aradiapantieTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Back" target="BaseShape">Back.bsd</datafile>
+            <datafile name="aradiabraBack" target="aradiabra" local="true">aradiabraBack.bsd</datafile>
+            <datafile name="aradiaskirtBack" target="aradiaskirt" local="true">aradiaskirtBack.bsd</datafile>
+            <datafile name="aradiatopBack" target="aradiatop" local="true">aradiatopBack.bsd</datafile>
+            <datafile name="aradiapantieBack" target="aradiapantie" local="true">aradiapantieBack.bsd</datafile>
+            <datafile name="aradiaglovesBack" target="aradiagloves" local="true">aradiaglovesBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Hipbone" target="BaseShape">Hipbone.bsd</datafile>
+            <datafile name="aradiaskirtHipbone" target="aradiaskirt" local="true">aradiaskirtHipbone.bsd</datafile>
+            <datafile name="aradiapantieHipbone" target="aradiapantie" local="true">aradiapantieHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Hips" target="BaseShape">Hips.bsd</datafile>
+            <datafile name="aradiabraHips" target="aradiabra" local="true">aradiabraHips.bsd</datafile>
+            <datafile name="aradiastockingHips" target="aradiastocking" local="true">aradiastockingHips.bsd</datafile>
+            <datafile name="aradiaskirtHips" target="aradiaskirt" local="true">aradiaskirtHips.bsd</datafile>
+            <datafile name="aradiapantieHips" target="aradiapantie" local="true">aradiapantieHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <datafile name="ButtCrack" target="BaseShape">ButtCrack.bsd</datafile>
+            <datafile name="aradiaskirtButtCrack" target="aradiaskirt" local="true">aradiaskirtButtCrack.bsd</datafile>
+            <datafile name="aradiapantieButtCrack" target="aradiapantie" local="true">aradiapantieButtCrack.bsd</datafile>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <datafile name="Butt1" target="BaseShape">Butt1.bsd</datafile>
+            <datafile name="aradiabraButt" target="aradiabra" local="true">aradiabraButt.bsd</datafile>
+            <datafile name="aradiastockingButt" target="aradiastocking" local="true">aradiastockingButt.bsd</datafile>
+            <datafile name="aradiaskirtButt" target="aradiaskirt" local="true">aradiaskirtButt.bsd</datafile>
+            <datafile name="aradiapantieButt" target="aradiapantie" local="true">aradiapantieButt.bsd</datafile>
+            <datafile name="aradiaglovesButt" target="aradiagloves" local="true">aradiaglovesButt.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="ButtSm" target="BaseShape">ButtSm.bsd</datafile>
+            <datafile name="aradiabraButtSmall" target="aradiabra" local="true">aradiabraButtSmall.bsd</datafile>
+            <datafile name="aradiastockingButtSmall" target="aradiastocking" local="true">aradiastockingButtSmall.bsd</datafile>
+            <datafile name="aradiaskirtButtSmall" target="aradiaskirt" local="true">aradiaskirtButtSmall.bsd</datafile>
+            <datafile name="aradiapantieButtSmall" target="aradiapantie" local="true">aradiapantieButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="MakButt" target="BaseShape">MakButt.bsd</datafile>
+            <datafile name="aradiabraButtShape2" target="aradiabra" local="true">aradiabraButtShape2.bsd</datafile>
+            <datafile name="aradiastockingButtShape2" target="aradiastocking" local="true">aradiastockingButtShape2.bsd</datafile>
+            <datafile name="aradiaskirtButtShape2" target="aradiaskirt" local="true">aradiaskirtButtShape2.bsd</datafile>
+            <datafile name="aradiapantieButtShape2" target="aradiapantie" local="true">aradiapantieButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="BigButt" target="BaseShape">BigButt.bsd</datafile>
+            <datafile name="aradiabraBigButt" target="aradiabra" local="true">aradiabraBigButt.bsd</datafile>
+            <datafile name="aradiastockingBigButt" target="aradiastocking" local="true">aradiastockingBigButt.bsd</datafile>
+            <datafile name="aradiaskirtBigButt" target="aradiaskirt" local="true">aradiaskirtBigButt.bsd</datafile>
+            <datafile name="aradiapantieBigButt" target="aradiapantie" local="true">aradiapantieBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</datafile>
+            <datafile name="aradiabraChubbyButt" target="aradiabra" local="true">aradiabraChubbyButt.bsd</datafile>
+            <datafile name="aradiastockingChubbyButt" target="aradiastocking" local="true">aradiastockingChubbyButt.bsd</datafile>
+            <datafile name="aradiaskirtChubbyButt" target="aradiaskirt" local="true">aradiaskirtChubbyButt.bsd</datafile>
+            <datafile name="aradiapantieChubbyButt" target="aradiapantie" local="true">aradiapantieChubbyButt.bsd</datafile>
+            <datafile name="aradiaglovesChubbyButt" target="aradiagloves" local="true">aradiaglovesChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</datafile>
+            <datafile name="aradiabraAppleCheeks" target="aradiabra" local="true">aradiabraAppleCheeks.bsd</datafile>
+            <datafile name="aradiaskirtAppleCheeks" target="aradiaskirt" local="true">aradiaskirtAppleCheeks.bsd</datafile>
+            <datafile name="aradiapantieAppleCheeks" target="aradiapantie" local="true">aradiapantieAppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <datafile name="RoundAss" target="BaseShape">RoundAss.bsd</datafile>
+            <datafile name="aradiaskirtRoundAss" target="aradiaskirt" local="true">aradiaskirtRoundAss.bsd</datafile>
+            <datafile name="aradiapantieRoundAss" target="aradiapantie" local="true">aradiapantieRoundAss.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Groin" target="BaseShape">Groin.bsd</datafile>
+            <datafile name="aradiaskirtGroin" target="aradiaskirt" local="true">aradiaskirtGroin.bsd</datafile>
+            <datafile name="aradiapantieGroin" target="aradiapantie" local="true">aradiapantieGroin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="SlimThighs" target="BaseShape">SlimThighs.bsd</datafile>
+            <datafile name="aradiabraSlimThighs" target="aradiabra" local="true">aradiabraSlimThighs.bsd</datafile>
+            <datafile name="aradiastockingSlimThighs" target="aradiastocking" local="true">aradiastockingSlimThighs.bsd</datafile>
+            <datafile name="aradiaskirtSlimThighs" target="aradiaskirt" local="true">aradiaskirtSlimThighs.bsd</datafile>
+            <datafile name="aradiapantieSlimThighs" target="aradiapantie" local="true">aradiapantieSlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Thighs" target="BaseShape">CalThighs.bsd</datafile>
+            <datafile name="aradiastockingThighs" target="aradiastocking" local="true">aradiastockingThighs.bsd</datafile>
+            <datafile name="aradiaskirtThighs" target="aradiaskirt" local="true">aradiaskirtThighs.bsd</datafile>
+            <datafile name="aradiapantieThighs" target="aradiapantie" local="true">aradiapantieThighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</datafile>
+            <datafile name="aradiastockingChubbyLegs" target="aradiastocking" local="true">aradiastockingChubbyLegs.bsd</datafile>
+            <datafile name="aradiaskirtChubbyLegs" target="aradiaskirt" local="true">aradiaskirtChubbyLegs.bsd</datafile>
+            <datafile name="aradiapantieChubbyLegs" target="aradiapantie" local="true">aradiapantieChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Legs" target="BaseShape">Legs.bsd</datafile>
+            <datafile name="aradiastockingLegs" target="aradiastocking" local="true">aradiastockingLegs.bsd</datafile>
+            <datafile name="aradiaskirtLegs" target="aradiaskirt" local="true">aradiaskirtLegs.bsd</datafile>
+            <datafile name="aradiapantieLegs" target="aradiapantie" local="true">aradiapantieLegs.bsd</datafile>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <datafile name="KneeHeight" target="BaseShape">KneeHeight.bsd</datafile>
+            <datafile name="aradiastockingKneeHeight" target="aradiastocking" local="true">aradiastockingKneeHeight.bsd</datafile>
+            <datafile name="aradiaskirtKneeHeight" target="aradiaskirt" local="true">aradiaskirtKneeHeight.bsd</datafile>
+            <datafile name="aradiapantieKneeHeight" target="aradiapantie" local="true">aradiapantieKneeHeight.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <datafile name="CalfSize" target="BaseShape">CalfSize.bsd</datafile>
+            <datafile name="aradiastockingCalfSize" target="aradiastocking" local="true">aradiastockingCalfSize.bsd</datafile>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <datafile name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</datafile>
+            <datafile name="aradiastockingCalfSmooth" target="aradiastocking" local="true">aradiastockingCalfSmooth.bsd</datafile>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <datafile name="Ankles" target="BaseShape">Ankles.bsd</datafile>
+            <datafile name="aradiastockingAnkles" target="aradiastocking" local="true">aradiastockingAnkles.bsd</datafile>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <datafile name="SeamSm" target="BaseShape">SeamSm.bsd</datafile>
+            <datafile name="aradiastockingSmallSeam" target="aradiastocking" local="true">aradiastockingSmallSeam.bsd</datafile>
+            <datafile name="aradiatopSmallSeam" target="aradiatop" local="true">aradiatopSmallSeam.bsd</datafile>
+            <datafile name="aradiaglovesSmallSeam" target="aradiagloves" local="true">aradiaglovesSmallSeam.bsd</datafile>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <datafile name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</datafile>
+            <datafile name="aradiatopShoulderTweak" target="aradiatop" local="true">aradiatopShoulderTweak.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamHi" invert="false" small="0" big="100" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamHi" target="BaseShape">NH_LockSeamHi2.bsd</datafile>
+        </Slider>
+        <Slider name="NH_LockSeamLo" invert="false" small="100" big="0" hidden="true" clamp="true">
+            <datafile name="NH_LockSeamLo" target="BaseShape">NH_LockSeamLo2.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

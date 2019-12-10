@@ -117,7 +117,7 @@ def CustomOK(stringTitle,stringContent):
     root.destroy()  
 
     
- #Renders a TKinter dialog with a custom message and Title Returns True/False or None
+#Renders a TKinter dialog with a custom message and Title Returns True/False or None
 def CustomYesNoCancel(stringTitle,stringContent):
     #Create and Hide Root window
     root = tk.Tk()

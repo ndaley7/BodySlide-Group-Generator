@@ -1,0 +1,315 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Angel Vixen Armor Lite [HDT]">
+        <DataFolder>Angel Vixen Armor Lite [HDT]</DataFolder>
+        <SourceFile>angvixarmth.nif</SourceFile>
+        <OutputPath>meshes\bbdrac</OutputPath>
+        <OutputFile GenWeights="true">angvixarmth</OutputFile>
+        <Shape target="ArmorMed">ArmorMed</Shape>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Leathers">Leathers</Shape>
+        <Shape target="Metals">Metals</Shape>
+        <Shape target="Stockings">Stockings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="MetalsBreasts" target="Metals" local="true">angvixarmth.osd\MetalsBreasts</Data>
+            <Data name="ArmorMedBreasts" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="LeathersBreastsSmall" target="Leathers" local="true">angvixarmth.osd\LeathersBreastsSmall</Data>
+            <Data name="MetalsBreastsSmall" target="Metals" local="true">angvixarmth.osd\MetalsBreastsSmall</Data>
+            <Data name="ArmorMedBreastsSmall" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="MetalsBreastsSH" target="Metals" local="true">angvixarmth.osd\MetalsBreastsSH</Data>
+            <Data name="ArmorMedBreastsSH" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="LeathersBreastsSSH" target="Leathers" local="true">angvixarmth.osd\LeathersBreastsSSH</Data>
+            <Data name="MetalsBreastsSSH" target="Metals" local="true">angvixarmth.osd\MetalsBreastsSSH</Data>
+            <Data name="ArmorMedBreastsSSH" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="MetalsBreastsFantasy" target="Metals" local="true">angvixarmth.osd\MetalsBreastsFantasy</Data>
+            <Data name="ArmorMedBreastsFantasy" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="MetalsDoubleMelon" target="Metals" local="true">angvixarmth.osd\MetalsDoubleMelon</Data>
+            <Data name="ArmorMedDoubleMelon" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="MetalsBreastCleavage" target="Metals" local="true">angvixarmth.osd\MetalsBreastCleavage</Data>
+            <Data name="ArmorMedBreastCleavage" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="LeathersBreastFlatness" target="Leathers" local="true">angvixarmth.osd\LeathersBreastFlatness</Data>
+            <Data name="MetalsBreastFlatness" target="Metals" local="true">angvixarmth.osd\MetalsBreastFlatness</Data>
+            <Data name="ArmorMedBreastFlatness" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="MetalsBreastGravity" target="Metals" local="true">angvixarmth.osd\MetalsBreastGravity</Data>
+            <Data name="ArmorMedBreastGravity" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="MetalsPushUp" target="Metals" local="true">angvixarmth.osd\MetalsPushUp</Data>
+            <Data name="ArmorMedPushUp" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="LeathersBreastHeight" target="Leathers" local="true">angvixarmth.osd\LeathersBreastHeight</Data>
+            <Data name="MetalsBreastHeight" target="Metals" local="true">angvixarmth.osd\MetalsBreastHeight</Data>
+            <Data name="ArmorMedBreastHeight" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="MetalsBreastPerkiness" target="Metals" local="true">angvixarmth.osd\MetalsBreastPerkiness</Data>
+            <Data name="ArmorMedBreastPerkiness" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="LeathersBreastWidth" target="Leathers" local="true">angvixarmth.osd\LeathersBreastWidth</Data>
+            <Data name="MetalsBreastWidth" target="Metals" local="true">angvixarmth.osd\MetalsBreastWidth</Data>
+            <Data name="ArmorMedBreastWidth" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="MetalsNippleDistance" target="Metals" local="true">angvixarmth.osd\MetalsNippleDistance</Data>
+            <Data name="ArmorMedNippleDistance" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="ArmorMedNipplePerkiness" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="LeathersNippleLength" target="Leathers" local="true">angvixarmth.osd\LeathersNippleLength</Data>
+            <Data name="MetalsNippleLength" target="Metals" local="true">angvixarmth.osd\MetalsNippleLength</Data>
+            <Data name="ArmorMedNippleLength" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="MetalsNippleSize" target="Metals" local="true">angvixarmth.osd\MetalsNippleSize</Data>
+            <Data name="ArmorMedNippleSize" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="MetalsNippleAreola" target="Metals" local="true">angvixarmth.osd\MetalsNippleAreola</Data>
+            <Data name="ArmorMedNippleAreola" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="MetalsNippleUp" target="Metals" local="true">angvixarmth.osd\MetalsNippleUp</Data>
+            <Data name="ArmorMedNippleUp" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="MetalsNippleDown" target="Metals" local="true">angvixarmth.osd\MetalsNippleDown</Data>
+            <Data name="ArmorMedNippleDown" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="ArmorMedNippleTip" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="MetalsArms" target="Metals" local="true">angvixarmth.osd\MetalsArms</Data>
+            <Data name="ArmorMedArms" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="ArmorMedChubbyArms" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="LeathersShoulderSmooth" target="Leathers" local="true">angvixarmth.osd\LeathersShoulderSmooth</Data>
+            <Data name="ArmorMedShoulderSmooth" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="MetalsShoulderWidth" target="Metals" local="true">angvixarmth.osd\MetalsShoulderWidth</Data>
+            <Data name="ArmorMedShoulderWidth" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="LeathersBigTorso" target="Leathers" local="true">angvixarmth.osd\LeathersBigTorso</Data>
+            <Data name="MetalsBigTorso" target="Metals" local="true">angvixarmth.osd\MetalsBigTorso</Data>
+            <Data name="ArmorMedBigTorso" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="LeathersWaist" target="Leathers" local="true">angvixarmth.osd\LeathersWaist</Data>
+            <Data name="MetalsWaist" target="Metals" local="true">angvixarmth.osd\MetalsWaist</Data>
+            <Data name="ArmorMedWaist" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="LeathersWideWaistLine" target="Leathers" local="true">angvixarmth.osd\LeathersWideWaistLine</Data>
+            <Data name="ArmorMedWideWaistLine" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="LeathersChubbyWaist" target="Leathers" local="true">angvixarmth.osd\LeathersChubbyWaist</Data>
+            <Data name="MetalsChubbyWaist" target="Metals" local="true">angvixarmth.osd\MetalsChubbyWaist</Data>
+            <Data name="ArmorMedChubbyWaist" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="LeathersBelly" target="Leathers" local="true">angvixarmth.osd\LeathersBelly</Data>
+            <Data name="MetalsBelly" target="Metals" local="true">angvixarmth.osd\MetalsBelly</Data>
+            <Data name="ArmorMedBelly" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="LeathersBigBelly" target="Leathers" local="true">angvixarmth.osd\LeathersBigBelly</Data>
+            <Data name="MetalsBigBelly" target="Metals" local="true">angvixarmth.osd\MetalsBigBelly</Data>
+            <Data name="ArmorMedBigBelly" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="StockingsPregnancyBelly" target="Stockings" local="true">angvixarmth.osd\StockingsPregnancyBelly</Data>
+            <Data name="LeathersPregnancyBelly" target="Leathers" local="true">angvixarmth.osd\LeathersPregnancyBelly</Data>
+            <Data name="MetalsPregnancyBelly" target="Metals" local="true">angvixarmth.osd\MetalsPregnancyBelly</Data>
+            <Data name="ArmorMedPregnancyBelly" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="LeathersTummyTuck" target="Leathers" local="true">angvixarmth.osd\LeathersTummyTuck</Data>
+            <Data name="MetalsTummyTuck" target="Metals" local="true">angvixarmth.osd\MetalsTummyTuck</Data>
+            <Data name="ArmorMedTummyTuck" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="LeathersBack" target="Leathers" local="true">angvixarmth.osd\LeathersBack</Data>
+            <Data name="MetalsBack" target="Metals" local="true">angvixarmth.osd\MetalsBack</Data>
+            <Data name="ArmorMedBack" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="StockingsHipbone" target="Stockings" local="true">angvixarmth.osd\StockingsHipbone</Data>
+            <Data name="LeathersHipbone" target="Leathers" local="true">angvixarmth.osd\LeathersHipbone</Data>
+            <Data name="MetalsHipbone" target="Metals" local="true">angvixarmth.osd\MetalsHipbone</Data>
+            <Data name="ArmorMedHipbone" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="StockingsHips" target="Stockings" local="true">angvixarmth.osd\StockingsHips</Data>
+            <Data name="LeathersHips" target="Leathers" local="true">angvixarmth.osd\LeathersHips</Data>
+            <Data name="MetalsHips" target="Metals" local="true">angvixarmth.osd\MetalsHips</Data>
+            <Data name="ArmorMedHips" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="LeathersButtCrack" target="Leathers" local="true">angvixarmth.osd\LeathersButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="StockingsButt" target="Stockings" local="true">angvixarmth.osd\StockingsButt</Data>
+            <Data name="LeathersButt" target="Leathers" local="true">angvixarmth.osd\LeathersButt</Data>
+            <Data name="ArmorMedButt" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="StockingsButtSmall" target="Stockings" local="true">angvixarmth.osd\StockingsButtSmall</Data>
+            <Data name="LeathersButtSmall" target="Leathers" local="true">angvixarmth.osd\LeathersButtSmall</Data>
+            <Data name="MetalsButtSmall" target="Metals" local="true">angvixarmth.osd\MetalsButtSmall</Data>
+            <Data name="ArmorMedButtSmall" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="StockingsButtShape2" target="Stockings" local="true">angvixarmth.osd\StockingsButtShape2</Data>
+            <Data name="LeathersButtShape2" target="Leathers" local="true">angvixarmth.osd\LeathersButtShape2</Data>
+            <Data name="MetalsButtShape2" target="Metals" local="true">angvixarmth.osd\MetalsButtShape2</Data>
+            <Data name="ArmorMedButtShape2" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="StockingsBigButt" target="Stockings" local="true">angvixarmth.osd\StockingsBigButt</Data>
+            <Data name="LeathersBigButt" target="Leathers" local="true">angvixarmth.osd\LeathersBigButt</Data>
+            <Data name="MetalsBigButt" target="Metals" local="true">angvixarmth.osd\MetalsBigButt</Data>
+            <Data name="ArmorMedBigButt" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="StockingsChubbyButt" target="Stockings" local="true">angvixarmth.osd\StockingsChubbyButt</Data>
+            <Data name="LeathersChubbyButt" target="Leathers" local="true">angvixarmth.osd\LeathersChubbyButt</Data>
+            <Data name="MetalsChubbyButt" target="Metals" local="true">angvixarmth.osd\MetalsChubbyButt</Data>
+            <Data name="ArmorMedChubbyButt" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="StockingsAppleCheeks" target="Stockings" local="true">angvixarmth.osd\StockingsAppleCheeks</Data>
+            <Data name="LeathersAppleCheeks" target="Leathers" local="true">angvixarmth.osd\LeathersAppleCheeks</Data>
+            <Data name="ArmorMedAppleCheeks" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="LeathersRoundAss" target="Leathers" local="true">angvixarmth.osd\LeathersRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="LeathersGroin" target="Leathers" local="true">angvixarmth.osd\LeathersGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="StockingsSlimThighs" target="Stockings" local="true">angvixarmth.osd\StockingsSlimThighs</Data>
+            <Data name="LeathersSlimThighs" target="Leathers" local="true">angvixarmth.osd\LeathersSlimThighs</Data>
+            <Data name="MetalsSlimThighs" target="Metals" local="true">angvixarmth.osd\MetalsSlimThighs</Data>
+            <Data name="ArmorMedSlimThighs" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="StockingsThighs" target="Stockings" local="true">angvixarmth.osd\StockingsThighs</Data>
+            <Data name="LeathersThighs" target="Leathers" local="true">angvixarmth.osd\LeathersThighs</Data>
+            <Data name="ArmorMedThighs" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="StockingsChubbyLegs" target="Stockings" local="true">angvixarmth.osd\StockingsChubbyLegs</Data>
+            <Data name="LeathersChubbyLegs" target="Leathers" local="true">angvixarmth.osd\LeathersChubbyLegs</Data>
+            <Data name="ArmorMedChubbyLegs" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="StockingsLegs" target="Stockings" local="true">angvixarmth.osd\StockingsLegs</Data>
+            <Data name="LeathersLegs" target="Leathers" local="true">angvixarmth.osd\LeathersLegs</Data>
+            <Data name="ArmorMedLegs" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="StockingsKneeHeight" target="Stockings" local="true">angvixarmth.osd\StockingsKneeHeight</Data>
+            <Data name="ArmorMedKneeHeight" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="StockingsCalfSize" target="Stockings" local="true">angvixarmth.osd\StockingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="StockingsCalfSmooth" target="Stockings" local="true">angvixarmth.osd\StockingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="StockingsAnkles" target="Stockings" local="true">angvixarmth.osd\StockingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="StockingsSmallSeam" target="Stockings" local="true">angvixarmth.osd\StockingsSmallSeam</Data>
+            <Data name="LeathersSmallSeam" target="Leathers" local="true">angvixarmth.osd\LeathersSmallSeam</Data>
+            <Data name="MetalsSmallSeam" target="Metals" local="true">angvixarmth.osd\MetalsSmallSeam</Data>
+            <Data name="ArmorMedSmallSeam" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="LeathersShoulderTweak" target="Leathers" local="true">angvixarmth.osd\LeathersShoulderTweak</Data>
+            <Data name="ArmorMedShoulderTweak" target="ArmorMed" local="true">angvixarmth.osd\ArmorMedShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

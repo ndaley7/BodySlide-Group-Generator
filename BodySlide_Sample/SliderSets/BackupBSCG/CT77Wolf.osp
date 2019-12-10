@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Wolf">
+        <DataFolder>CT77Wolf</DataFolder>
+        <SourceFile>CT77Wolf.nif</SourceFile>
+        <OutputPath>meshes\armor\wolf</OutputPath>
+        <OutputFile GenWeights="true">bodyf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="Skirt" DataFolder="CT77Shared">Skirt</Shape>
+        <Shape target="WolfBelt">WolfBelt</Shape>
+        <Shape target="WolfChest">WolfChest</Shape>
+        <Shape target="WolfLeggings">WolfLeggings</Shape>
+        <Shape target="WolfPauldrons">WolfPauldrons</Shape>
+        <Shape target="WolfSleeves">WolfSleeves</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="WolfChestBreasts" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreasts</Data>
+            <Data name="WolfPauldronsBreasts" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="SkirtBreastsSmall" target="Skirt">CT77Shared.osd\SkirtBreastsSmall</Data>
+            <Data name="WolfBeltBreastsSmall" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltBreastsSmall</Data>
+            <Data name="WolfChestBreastsSmall" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastsSmall</Data>
+            <Data name="WolfPauldronsBreastsSmall" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastsSmall</Data>
+            <Data name="WolfSleevesBreastsSmall" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="WolfChestBreastsSH" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastsSH</Data>
+            <Data name="WolfPauldronsBreastsSH" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="WolfChestBreastsSSH" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="WolfChestBreastsFantasy" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastsFantasy</Data>
+            <Data name="WolfPauldronsBreastsFantasy" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastsFantasy</Data>
+            <Data name="WolfSleevesBreastsFantasy" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="WolfChestDoubleMelon" target="WolfChest" local="true">CT77Wolf.osd\WolfChestDoubleMelon</Data>
+            <Data name="WolfPauldronsDoubleMelon" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="WolfChestBreastCleavage" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="WolfChestBreastFlatness" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastFlatness</Data>
+            <Data name="WolfPauldronsBreastFlatness" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastFlatness</Data>
+            <Data name="WolfSleevesBreastFlatness" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="WolfChestBreastGravity" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastGravity</Data>
+            <Data name="WolfPauldronsBreastGravity" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastGravity</Data>
+            <Data name="WolfSleevesBreastGravity" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="WolfChestPushUp" target="WolfChest" local="true">CT77Wolf.osd\WolfChestPushUp</Data>
+            <Data name="WolfPauldronsPushUp" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsPushUp</Data>
+            <Data name="WolfSleevesPushUp" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="SkirtBreastHeight" target="Skirt">CT77Shared.osd\SkirtBreastHeight</Data>
+            <Data name="WolfBeltBreastHeight" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltBreastHeight</Data>
+            <Data name="WolfChestBreastHeight" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastHeight</Data>
+            <Data name="WolfPauldronsBreastHeight" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastHeight</Data>
+            <Data name="WolfSleevesBreastHeight" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="WolfChestBreastPerkiness" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastPerkiness</Data>
+            <Data name="WolfPauldronsBreastPerkiness" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastPerkiness</Data>
+            <Data name="WolfSleevesBreastPerkiness" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="WolfChestBreastWidth" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBreastWidth</Data>
+            <Data name="WolfPauldronsBreastWidth" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBreastWidth</Data>
+            <Data name="WolfSleevesBreastWidth" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="WolfChestNippleDistance" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="WolfChestNipplePerkiness" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="WolfChestNippleLength" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNippleLength</Data>
+            <Data name="WolfPauldronsNippleLength" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="WolfChestNippleSize" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="WolfChestNippleAreola" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="WolfChestNippleUp" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNippleUp</Data>
+            <Data name="WolfPauldronsNippleUp" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="WolfChestNippleDown" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="WolfChestNippleTip" target="WolfChest" local="true">CT77Wolf.osd\WolfChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="WolfChestArms" target="WolfChest" local="true">CT77Wolf.osd\WolfChestArms</Data>
+            <Data name="WolfPauldronsArms" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsArms</Data>
+            <Data name="WolfSleevesArms" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="WolfChestChubbyArms" target="WolfChest" local="true">CT77Wolf.osd\WolfChestChubbyArms</Data>
+            <Data name="WolfPauldronsChubbyArms" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsChubbyArms</Data>
+            <Data name="WolfSleevesChubbyArms" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="WolfChestShoulderSmooth" target="WolfChest" local="true">CT77Wolf.osd\WolfChestShoulderSmooth</Data>
+            <Data name="WolfPauldronsShoulderSmooth" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="WolfChestShoulderWidth" target="WolfChest" local="true">CT77Wolf.osd\WolfChestShoulderWidth</Data>
+            <Data name="WolfPauldronsShoulderWidth" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsShoulderWidth</Data>
+            <Data name="WolfSleevesShoulderWidth" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="SkirtBigTorso" target="Skirt">CT77Shared.osd\SkirtBigTorso</Data>
+            <Data name="WolfBeltBigTorso" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltBigTorso</Data>
+            <Data name="WolfChestBigTorso" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBigTorso</Data>
+            <Data name="WolfPauldronsBigTorso" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBigTorso</Data>
+            <Data name="WolfSleevesBigTorso" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="SkirtWaist" target="Skirt">CT77Shared.osd\SkirtWaist</Data>
+            <Data name="WolfBeltWaist" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltWaist</Data>
+            <Data name="WolfChestWaist" target="WolfChest" local="true">CT77Wolf.osd\WolfChestWaist</Data>
+            <Data name="WolfSleevesWaist" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="SkirtWideWaistLine" target="Skirt">CT77Shared.osd\SkirtWideWaistLine</Data>
+            <Data name="WolfBeltWideWaistLine" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltWideWaistLine</Data>
+            <Data name="WolfChestWideWaistLine" target="WolfChest" local="true">CT77Wolf.osd\WolfChestWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="SkirtChubbyWaist" target="Skirt">CT77Shared.osd\SkirtChubbyWaist</Data>
+            <Data name="WolfBeltChubbyWaist" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltChubbyWaist</Data>
+            <Data name="WolfChestChubbyWaist" target="WolfChest" local="true">CT77Wolf.osd\WolfChestChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="SkirtBelly" target="Skirt">CT77Shared.osd\SkirtBelly</Data>
+            <Data name="WolfBeltBelly" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltBelly</Data>
+            <Data name="WolfChestBelly" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="SkirtBigBelly" target="Skirt">CT77Shared.osd\SkirtBigBelly</Data>
+            <Data name="WolfBeltBigBelly" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltBigBelly</Data>
+            <Data name="WolfChestBigBelly" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="SkirtTummyTuck" target="Skirt">CT77Shared.osd\SkirtTummyTuck</Data>
+            <Data name="WolfBeltTummyTuck" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltTummyTuck</Data>
+            <Data name="WolfSleevesTummyTuck" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="SkirtBack" target="Skirt">CT77Shared.osd\SkirtBack</Data>
+            <Data name="WolfBeltBack" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltBack</Data>
+            <Data name="WolfChestBack" target="WolfChest" local="true">CT77Wolf.osd\WolfChestBack</Data>
+            <Data name="WolfPauldronsBack" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsBack</Data>
+            <Data name="WolfSleevesBack" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="SkirtHipbone" target="Skirt">CT77Shared.osd\SkirtHipbone</Data>
+            <Data name="WolfBeltHipbone" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="SkirtHips" target="Skirt">CT77Shared.osd\SkirtHips</Data>
+            <Data name="WolfBeltHips" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltHips</Data>
+            <Data name="WolfLeggingsHips" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="SkirtButt" target="Skirt">CT77Shared.osd\SkirtButt</Data>
+            <Data name="WolfBeltButt" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltButt</Data>
+            <Data name="WolfLeggingsButt" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsButt</Data>
+            <Data name="WolfSleevesButt" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="SkirtButtSmall" target="Skirt">CT77Shared.osd\SkirtButtSmall</Data>
+            <Data name="WolfBeltButtSmall" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltButtSmall</Data>
+            <Data name="WolfLeggingsButtSmall" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="SkirtButtShape2" target="Skirt">CT77Shared.osd\SkirtButtShape2</Data>
+            <Data name="WolfBeltButtShape2" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltButtShape2</Data>
+            <Data name="WolfLeggingsButtShape2" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="SkirtBigButt" target="Skirt">CT77Shared.osd\SkirtBigButt</Data>
+            <Data name="WolfBeltBigButt" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltBigButt</Data>
+            <Data name="WolfLeggingsBigButt" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="SkirtChubbyButt" target="Skirt">CT77Shared.osd\SkirtChubbyButt</Data>
+            <Data name="WolfBeltChubbyButt" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltChubbyButt</Data>
+            <Data name="WolfChestChubbyButt" target="WolfChest" local="true">CT77Wolf.osd\WolfChestChubbyButt</Data>
+            <Data name="WolfLeggingsChubbyButt" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="SkirtAppleCheeks" target="Skirt">CT77Shared.osd\SkirtAppleCheeks</Data>
+            <Data name="WolfBeltAppleCheeks" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="SkirtRoundAss" target="Skirt">CT77Shared.osd\SkirtRoundAss</Data>
+            <Data name="WolfBeltRoundAss" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="SkirtSlimThighs" target="Skirt">CT77Shared.osd\SkirtSlimThighs</Data>
+            <Data name="WolfBeltSlimThighs" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltSlimThighs</Data>
+            <Data name="WolfLeggingsSlimThighs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="SkirtThighs" target="Skirt">CT77Shared.osd\SkirtThighs</Data>
+            <Data name="WolfBeltThighs" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltThighs</Data>
+            <Data name="WolfLeggingsThighs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="SkirtChubbyLegs" target="Skirt">CT77Shared.osd\SkirtChubbyLegs</Data>
+            <Data name="WolfBeltChubbyLegs" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltChubbyLegs</Data>
+            <Data name="WolfLeggingsChubbyLegs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="SkirtLegs" target="Skirt">CT77Shared.osd\SkirtLegs</Data>
+            <Data name="WolfBeltLegs" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltLegs</Data>
+            <Data name="WolfLeggingsLegs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="SkirtKneeHeight" target="Skirt">CT77Shared.osd\SkirtKneeHeight</Data>
+            <Data name="WolfLeggingsKneeHeight" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="WolfLeggingsCalfSize" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="WolfLeggingsCalfSmooth" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="WolfLeggingsAnkles" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="WolfChestSmallSeam" target="WolfChest" local="true">CT77Wolf.osd\WolfChestSmallSeam</Data>
+            <Data name="WolfLeggingsSmallSeam" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsSmallSeam</Data>
+            <Data name="WolfPauldronsSmallSeam" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsSmallSeam</Data>
+            <Data name="WolfSleevesSmallSeam" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="WolfChestShoulderTweak" target="WolfChest" local="true">CT77Wolf.osd\WolfChestShoulderTweak</Data>
+            <Data name="WolfPauldronsShoulderTweak" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapPauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="WolfPauldronsZapPauldrons" target="WolfPauldrons" local="true">CT77Wolf.osd\WolfPauldronsZapPauldrons</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="WolfChestZapChest" target="WolfChest" local="true">CT77Wolf.osd\WolfChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapSleeves" invert="false" small="0" big="0" zap="true">
+            <Data name="WolfSleevesZapSleeves" target="WolfSleeves" local="true">CT77Wolf.osd\WolfSleevesZapSleeves</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="WolfBeltZapBelt" target="WolfBelt" local="true">CT77Wolf.osd\WolfBeltZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="SkirtZapSkirt" target="Skirt">CT77Shared.osd\SkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="WolfLeggingsZapLeggings" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Wolf Gauntlets">
+        <DataFolder>CT77Wolf</DataFolder>
+        <SourceFile>CT77WolfGauntlets.nif</SourceFile>
+        <OutputPath>meshes\armor\wolf</OutputPath>
+        <OutputFile GenWeights="true">glovesf</OutputFile>
+        <Shape target="WolfGauntlets">WolfGauntlets</Shape>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="WolfGauntletsArms" target="WolfGauntlets" local="true">CT77WolfGauntlets.osd\WolfGauntletsArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="WolfGauntletsChubbyArms" target="WolfGauntlets" local="true">CT77WolfGauntlets.osd\WolfGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="WolfGauntletsShoulderWidth" target="WolfGauntlets" local="true">CT77WolfGauntlets.osd\WolfGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="WolfGauntletsBigTorso" target="WolfGauntlets" local="true">CT77WolfGauntlets.osd\WolfGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="WolfGauntletsSmallSeam" target="WolfGauntlets" local="true">CT77WolfGauntlets.osd\WolfGauntletsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Wolf Boots">
+        <DataFolder>CT77Wolf</DataFolder>
+        <SourceFile>CT77WolfBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\wolf</OutputPath>
+        <OutputFile GenWeights="true">bootsf</OutputFile>
+        <Shape target="WolfBoots">WolfBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="WolfBootsChubbyLegs" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="WolfBootsLegs" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="WolfBootsKneeHeight" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="WolfBootsCalfSize" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="WolfBootsCalfSmooth" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="WolfBootsAnkles" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="WolfBootsSmallSeam" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Wolf Thigh Boots">
+        <DataFolder>CT77Wolf</DataFolder>
+        <SourceFile>CT77WolfThighBoots.nif</SourceFile>
+        <OutputPath>meshes\armor\wolf</OutputPath>
+        <OutputFile GenWeights="true">CT77thighbootsf</OutputFile>
+        <Shape target="WolfBoots">WolfBoots</Shape>
+        <Shape target="WolfLeggings">WolfLeggings</Shape>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="WolfLeggingsHips" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsHips</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="WolfLeggingsButt" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="WolfBootsButtSmall" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsButtSmall</Data>
+            <Data name="WolfLeggingsButtSmall" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="WolfLeggingsButtShape2" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="WolfLeggingsBigButt" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="WolfLeggingsChubbyButt" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="WolfBootsSlimThighs" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsSlimThighs</Data>
+            <Data name="WolfLeggingsSlimThighs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="WolfBootsThighs" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsThighs</Data>
+            <Data name="WolfLeggingsThighs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="WolfBootsChubbyLegs" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsChubbyLegs</Data>
+            <Data name="WolfLeggingsChubbyLegs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="WolfBootsLegs" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsLegs</Data>
+            <Data name="WolfLeggingsLegs" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="WolfBootsKneeHeight" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsKneeHeight</Data>
+            <Data name="WolfLeggingsKneeHeight" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="WolfBootsCalfSize" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsCalfSize</Data>
+            <Data name="WolfLeggingsCalfSize" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="WolfBootsCalfSmooth" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsCalfSmooth</Data>
+            <Data name="WolfLeggingsCalfSmooth" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="WolfBootsAnkles" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsAnkles</Data>
+            <Data name="WolfLeggingsAnkles" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="WolfBootsSmallSeam" target="WolfBoots" local="true">CT77WolfBoots.osd\WolfBootsSmallSeam</Data>
+            <Data name="WolfLeggingsSmallSeam" target="WolfLeggings" local="true">CT77Wolf.osd\WolfLeggingsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

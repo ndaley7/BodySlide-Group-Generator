@@ -1,0 +1,393 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Daz Swimsuit Pack F">
+        <DataFolder>Daz Swimsuit Pack F</DataFolder>
+        <SourceFile>Daz Swimsuit Pack F.nif</SourceFile>
+        <OutputPath>meshes\00_ArsDazConv\Daz Swimsuit Pack\SP3</OutputPath>
+        <OutputFile GenWeights="true">Outrageous! Monokini V4 Mk 2</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="chest_1">chest_1</Shape>
+        <Shape target="chest_2">chest_2</Shape>
+        <Shape target="chest_3">chest_3</Shape>
+        <Shape target="chest_4">chest_4</Shape>
+        <Shape target="chest_5">chest_5</Shape>
+        <Shape target="chest_6">chest_6</Shape>
+        <Shape target="chest_7">chest_7</Shape>
+        <Shape target="chest_8">chest_8</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="chest_3Breasts" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Breasts</Data>
+            <Data name="chest_2Breasts" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2Breasts</Data>
+            <Data name="chest_1Breasts" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="chest_5BreastsSmall" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastsSmall</Data>
+            <Data name="chest_4BreastsSmall" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastsSmall</Data>
+            <Data name="chest_3BreastsSmall" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastsSmall</Data>
+            <Data name="chest_2BreastsSmall" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastsSmall</Data>
+            <Data name="chest_1BreastsSmall" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="chest_5BreastsSH" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastsSH</Data>
+            <Data name="chest_4BreastsSH" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastsSH</Data>
+            <Data name="chest_3BreastsSH" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastsSH</Data>
+            <Data name="chest_2BreastsSH" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastsSH</Data>
+            <Data name="chest_1BreastsSH" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="chest_5BreastsSSH" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastsSSH</Data>
+            <Data name="chest_4BreastsSSH" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastsSSH</Data>
+            <Data name="chest_3BreastsSSH" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastsSSH</Data>
+            <Data name="chest_2BreastsSSH" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastsSSH</Data>
+            <Data name="chest_1BreastsSSH" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="chest_5BreastsFantasy" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastsFantasy</Data>
+            <Data name="chest_4BreastsFantasy" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastsFantasy</Data>
+            <Data name="chest_3BreastsFantasy" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastsFantasy</Data>
+            <Data name="chest_2BreastsFantasy" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastsFantasy</Data>
+            <Data name="chest_1BreastsFantasy" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="chest_2DoubleMelon" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2DoubleMelon</Data>
+            <Data name="chest_1DoubleMelon" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="chest_5BreastCleavage" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastCleavage</Data>
+            <Data name="chest_4BreastCleavage" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastCleavage</Data>
+            <Data name="chest_2BreastCleavage" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastCleavage</Data>
+            <Data name="chest_1BreastCleavage" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="chest_5BreastFlatness" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastFlatness</Data>
+            <Data name="chest_4BreastFlatness" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastFlatness</Data>
+            <Data name="chest_3BreastFlatness" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastFlatness</Data>
+            <Data name="chest_2BreastFlatness" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastFlatness</Data>
+            <Data name="chest_1BreastFlatness" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="chest_5BreastGravity" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastGravity</Data>
+            <Data name="chest_4BreastGravity" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastGravity</Data>
+            <Data name="chest_3BreastGravity" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastGravity</Data>
+            <Data name="chest_2BreastGravity" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastGravity</Data>
+            <Data name="chest_1BreastGravity" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="chest_5PushUp" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5PushUp</Data>
+            <Data name="chest_4PushUp" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4PushUp</Data>
+            <Data name="chest_3PushUp" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3PushUp</Data>
+            <Data name="chest_2PushUp" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2PushUp</Data>
+            <Data name="chest_1PushUp" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="chest_5BreastHeight" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastHeight</Data>
+            <Data name="chest_4BreastHeight" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastHeight</Data>
+            <Data name="chest_3BreastHeight" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastHeight</Data>
+            <Data name="chest_2BreastHeight" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastHeight</Data>
+            <Data name="chest_1BreastHeight" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="chest_5BreastPerkiness" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastPerkiness</Data>
+            <Data name="chest_4BreastPerkiness" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastPerkiness</Data>
+            <Data name="chest_3BreastPerkiness" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastPerkiness</Data>
+            <Data name="chest_2BreastPerkiness" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastPerkiness</Data>
+            <Data name="chest_1BreastPerkiness" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="chest_5BreastWidth" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BreastWidth</Data>
+            <Data name="chest_4BreastWidth" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BreastWidth</Data>
+            <Data name="chest_3BreastWidth" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BreastWidth</Data>
+            <Data name="chest_2BreastWidth" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BreastWidth</Data>
+            <Data name="chest_1BreastWidth" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="chest_2NippleDistance" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NippleDistance</Data>
+            <Data name="chest_1NippleDistance" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="chest_2NipplePerkiness" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NipplePerkiness</Data>
+            <Data name="chest_1NipplePerkiness" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="chest_2NippleLength" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NippleLength</Data>
+            <Data name="chest_1NippleLength" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="chest_2NippleSize" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NippleSize</Data>
+            <Data name="chest_1NippleSize" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="chest_5NippleAreola" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5NippleAreola</Data>
+            <Data name="chest_3NippleAreola" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3NippleAreola</Data>
+            <Data name="chest_2NippleAreola" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NippleAreola</Data>
+            <Data name="chest_1NippleAreola" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="chest_5NippleUp" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5NippleUp</Data>
+            <Data name="chest_3NippleUp" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3NippleUp</Data>
+            <Data name="chest_2NippleUp" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NippleUp</Data>
+            <Data name="chest_1NippleUp" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="chest_3NippleDown" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3NippleDown</Data>
+            <Data name="chest_2NippleDown" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NippleDown</Data>
+            <Data name="chest_1NippleDown" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="chest_2NippleTip" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2NippleTip</Data>
+            <Data name="chest_1NippleTip" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="chest_1Arms" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="chest_1ChubbyArms" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="chest_1ShoulderSmooth" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="chest_1ShoulderWidth" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="chest_8BigTorso" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8BigTorso</Data>
+            <Data name="chest_7BigTorso" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7BigTorso</Data>
+            <Data name="chest_5BigTorso" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BigTorso</Data>
+            <Data name="chest_4BigTorso" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BigTorso</Data>
+            <Data name="chest_3BigTorso" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BigTorso</Data>
+            <Data name="chest_2BigTorso" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2BigTorso</Data>
+            <Data name="chest_1BigTorso" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="chest_6Waist" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Waist</Data>
+            <Data name="chest_5Waist" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5Waist</Data>
+            <Data name="chest_4Waist" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4Waist</Data>
+            <Data name="chest_3Waist" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Waist</Data>
+            <Data name="chest_1Waist" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="chest_5WideWaistLine" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5WideWaistLine</Data>
+            <Data name="chest_3WideWaistLine" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3WideWaistLine</Data>
+            <Data name="chest_1WideWaistLine" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="chest_8ChubbyWaist" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8ChubbyWaist</Data>
+            <Data name="chest_7ChubbyWaist" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7ChubbyWaist</Data>
+            <Data name="chest_6ChubbyWaist" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6ChubbyWaist</Data>
+            <Data name="chest_5ChubbyWaist" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5ChubbyWaist</Data>
+            <Data name="chest_4ChubbyWaist" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4ChubbyWaist</Data>
+            <Data name="chest_3ChubbyWaist" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3ChubbyWaist</Data>
+            <Data name="chest_1ChubbyWaist" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="chest_6Belly" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Belly</Data>
+            <Data name="chest_5Belly" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5Belly</Data>
+            <Data name="chest_4Belly" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4Belly</Data>
+            <Data name="chest_3Belly" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Belly</Data>
+            <Data name="chest_1Belly" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="chest_6BigBelly" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6BigBelly</Data>
+            <Data name="chest_5BigBelly" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BigBelly</Data>
+            <Data name="chest_4BigBelly" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4BigBelly</Data>
+            <Data name="chest_3BigBelly" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BigBelly</Data>
+            <Data name="chest_1BigBelly" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="chest_7PregnancyBelly" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7PregnancyBelly</Data>
+            <Data name="chest_6PregnancyBelly" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6PregnancyBelly</Data>
+            <Data name="chest_5PregnancyBelly" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5PregnancyBelly</Data>
+            <Data name="chest_4PregnancyBelly" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4PregnancyBelly</Data>
+            <Data name="chest_3PregnancyBelly" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3PregnancyBelly</Data>
+            <Data name="chest_2PregnancyBelly" target="chest_2" local="true">Daz Swimsuit Pack F.osd\chest_2PregnancyBelly</Data>
+            <Data name="chest_1PregnancyBelly" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="chest_7TummyTuck" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7TummyTuck</Data>
+            <Data name="chest_6TummyTuck" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6TummyTuck</Data>
+            <Data name="chest_5TummyTuck" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5TummyTuck</Data>
+            <Data name="chest_4TummyTuck" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4TummyTuck</Data>
+            <Data name="chest_3TummyTuck" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3TummyTuck</Data>
+            <Data name="chest_1TummyTuck" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="chest_8Back" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8Back</Data>
+            <Data name="chest_7Back" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7Back</Data>
+            <Data name="chest_5Back" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5Back</Data>
+            <Data name="chest_4Back" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4Back</Data>
+            <Data name="chest_3Back" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Back</Data>
+            <Data name="chest_1Back" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="chest_6Hipbone" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Hipbone</Data>
+            <Data name="chest_5Hipbone" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5Hipbone</Data>
+            <Data name="chest_3Hipbone" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Hipbone</Data>
+            <Data name="chest_1Hipbone" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="chest_8Hips" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8Hips</Data>
+            <Data name="chest_7Hips" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7Hips</Data>
+            <Data name="chest_6Hips" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Hips</Data>
+            <Data name="chest_5Hips" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5Hips</Data>
+            <Data name="chest_4Hips" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4Hips</Data>
+            <Data name="chest_3Hips" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Hips</Data>
+            <Data name="chest_1Hips" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="chest_8ButtCrack" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8ButtCrack</Data>
+            <Data name="chest_7ButtCrack" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7ButtCrack</Data>
+            <Data name="chest_1ButtCrack" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="chest_8Butt" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8Butt</Data>
+            <Data name="chest_7Butt" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7Butt</Data>
+            <Data name="chest_6Butt" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Butt</Data>
+            <Data name="chest_5Butt" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5Butt</Data>
+            <Data name="chest_3Butt" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Butt</Data>
+            <Data name="chest_1Butt" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="chest_8ButtSmall" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8ButtSmall</Data>
+            <Data name="chest_7ButtSmall" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7ButtSmall</Data>
+            <Data name="chest_6ButtSmall" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6ButtSmall</Data>
+            <Data name="chest_5ButtSmall" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5ButtSmall</Data>
+            <Data name="chest_3ButtSmall" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3ButtSmall</Data>
+            <Data name="chest_1ButtSmall" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="chest_8ButtShape2" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8ButtShape2</Data>
+            <Data name="chest_7ButtShape2" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7ButtShape2</Data>
+            <Data name="chest_6ButtShape2" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6ButtShape2</Data>
+            <Data name="chest_5ButtShape2" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5ButtShape2</Data>
+            <Data name="chest_3ButtShape2" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3ButtShape2</Data>
+            <Data name="chest_1ButtShape2" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="chest_8BigButt" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8BigButt</Data>
+            <Data name="chest_7BigButt" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7BigButt</Data>
+            <Data name="chest_6BigButt" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6BigButt</Data>
+            <Data name="chest_5BigButt" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5BigButt</Data>
+            <Data name="chest_3BigButt" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3BigButt</Data>
+            <Data name="chest_1BigButt" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="chest_8ChubbyButt" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8ChubbyButt</Data>
+            <Data name="chest_7ChubbyButt" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7ChubbyButt</Data>
+            <Data name="chest_6ChubbyButt" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6ChubbyButt</Data>
+            <Data name="chest_5ChubbyButt" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5ChubbyButt</Data>
+            <Data name="chest_4ChubbyButt" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4ChubbyButt</Data>
+            <Data name="chest_3ChubbyButt" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3ChubbyButt</Data>
+            <Data name="chest_1ChubbyButt" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="chest_8AppleCheeks" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8AppleCheeks</Data>
+            <Data name="chest_7AppleCheeks" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7AppleCheeks</Data>
+            <Data name="chest_5AppleCheeks" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5AppleCheeks</Data>
+            <Data name="chest_3AppleCheeks" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3AppleCheeks</Data>
+            <Data name="chest_1AppleCheeks" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="chest_8RoundAss" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8RoundAss</Data>
+            <Data name="chest_7RoundAss" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7RoundAss</Data>
+            <Data name="chest_1RoundAss" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1RoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="chest_7Groin" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7Groin</Data>
+            <Data name="chest_6Groin" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Groin</Data>
+            <Data name="chest_3Groin" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Groin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="chest_8SlimThighs" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8SlimThighs</Data>
+            <Data name="chest_7SlimThighs" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7SlimThighs</Data>
+            <Data name="chest_6SlimThighs" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6SlimThighs</Data>
+            <Data name="chest_5SlimThighs" target="chest_5" local="true">Daz Swimsuit Pack F.osd\chest_5SlimThighs</Data>
+            <Data name="chest_4SlimThighs" target="chest_4" local="true">Daz Swimsuit Pack F.osd\chest_4SlimThighs</Data>
+            <Data name="chest_3SlimThighs" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3SlimThighs</Data>
+            <Data name="chest_1SlimThighs" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="chest_7Thighs" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7Thighs</Data>
+            <Data name="chest_6Thighs" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Thighs</Data>
+            <Data name="chest_3Thighs" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Thighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="chest_8ChubbyLegs" target="chest_8" local="true">Daz Swimsuit Pack F.osd\chest_8ChubbyLegs</Data>
+            <Data name="chest_7ChubbyLegs" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7ChubbyLegs</Data>
+            <Data name="chest_6ChubbyLegs" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6ChubbyLegs</Data>
+            <Data name="chest_3ChubbyLegs" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3ChubbyLegs</Data>
+            <Data name="chest_1ChubbyLegs" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="chest_7Legs" target="chest_7" local="true">Daz Swimsuit Pack F.osd\chest_7Legs</Data>
+            <Data name="chest_6Legs" target="chest_6" local="true">Daz Swimsuit Pack F.osd\chest_6Legs</Data>
+            <Data name="chest_3Legs" target="chest_3" local="true">Daz Swimsuit Pack F.osd\chest_3Legs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="chest_1SmallSeam" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="chest_1ShoulderTweak" target="chest_1" local="true">Daz Swimsuit Pack F.osd\chest_1ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,296 @@
+<SliderSetInfo version="1">
+    <SliderSet name="BBIron01 cbbe+">
+        <DataFolder>Heretical Resources\BBIron01 cbbe+</DataFolder>
+        <SourceFile>BBIron01.nif</SourceFile>
+        <OutputPath>Meshes\HereticalResources\HR Armor\BreastBondage</OutputPath>
+        <OutputFile GenWeights="true">BBIron01</OutputFile>
+        <Shape target="BaseShape A" DataFolder="Heretical Resources\BBIron01 cbbe Adjust A BBv2">BaseShape A</Shape>
+        <Shape target="Chain">Chain</Shape>
+        <Shape target="Collar">Collar</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="BaseShape ABreasts" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreasts</Data>
+            <Data name="ChainBreasts" target="Chain" local="true">BBIron01.osd\ChainBreasts</Data>
+            <Data name="CollarBreasts" target="Collar" local="true">BBIron01.osd\CollarBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BaseShape ABreastsSmall" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastsSmall</Data>
+            <Data name="ChainBreastsSmall" target="Chain" local="true">BBIron01.osd\ChainBreastsSmall</Data>
+            <Data name="CollarBreastsSmall" target="Collar" local="true">BBIron01.osd\CollarBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastsSH" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastsSH</Data>
+            <Data name="ChainBreastsSH" target="Chain" local="true">BBIron01.osd\ChainBreastsSH</Data>
+            <Data name="CollarBreastsSH" target="Collar" local="true">BBIron01.osd\CollarBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastsSSH" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastsSSH</Data>
+            <Data name="ChainBreastsSSH" target="Chain" local="true">BBIron01.osd\ChainBreastsSSH</Data>
+            <Data name="CollarBreastsSSH" target="Collar" local="true">BBIron01.osd\CollarBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastsFantasy" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastsFantasy</Data>
+            <Data name="ChainBreastsFantasy" target="Chain" local="true">BBIron01.osd\ChainBreastsFantasy</Data>
+            <Data name="CollarBreastsFantasy" target="Collar" local="true">BBIron01.osd\CollarBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShape ADoubleMelon" target="BaseShape A" local="true">BBIron01.osd\BaseShape ADoubleMelon</Data>
+            <Data name="ChainDoubleMelon" target="Chain" local="true">BBIron01.osd\ChainDoubleMelon</Data>
+            <Data name="CollarDoubleMelon" target="Collar" local="true">BBIron01.osd\CollarDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastCleavage" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastCleavage</Data>
+            <Data name="ChainBreastCleavage" target="Chain" local="true">BBIron01.osd\ChainBreastCleavage</Data>
+            <Data name="CollarBreastCleavage" target="Collar" local="true">BBIron01.osd\CollarBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastFlatness" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastFlatness</Data>
+            <Data name="ChainBreastFlatness" target="Chain" local="true">BBIron01.osd\ChainBreastFlatness</Data>
+            <Data name="CollarBreastFlatness" target="Collar" local="true">BBIron01.osd\CollarBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastGravity" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastGravity</Data>
+            <Data name="ChainBreastGravity" target="Chain" local="true">BBIron01.osd\ChainBreastGravity</Data>
+            <Data name="CollarBreastGravity" target="Collar" local="true">BBIron01.osd\CollarBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShape APushUp" target="BaseShape A" local="true">BBIron01.osd\BaseShape APushUp</Data>
+            <Data name="ChainPushUp" target="Chain" local="true">BBIron01.osd\ChainPushUp</Data>
+            <Data name="CollarPushUp" target="Collar" local="true">BBIron01.osd\CollarPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastHeight" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastHeight</Data>
+            <Data name="ChainBreastHeight" target="Chain" local="true">BBIron01.osd\ChainBreastHeight</Data>
+            <Data name="CollarBreastHeight" target="Collar" local="true">BBIron01.osd\CollarBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastPerkiness" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastPerkiness</Data>
+            <Data name="ChainBreastPerkiness" target="Chain" local="true">BBIron01.osd\ChainBreastPerkiness</Data>
+            <Data name="CollarBreastPerkiness" target="Collar" local="true">BBIron01.osd\CollarBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShape ABreastWidth" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABreastWidth</Data>
+            <Data name="ChainBreastWidth" target="Chain" local="true">BBIron01.osd\ChainBreastWidth</Data>
+            <Data name="CollarBreastWidth" target="Collar" local="true">BBIron01.osd\CollarBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="BaseShape ANippleDistance" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleDistance</Data>
+            <Data name="ChainNippleDistance" target="Chain" local="true">BBIron01.osd\ChainNippleDistance</Data>
+            <Data name="CollarNippleDistance" target="Collar" local="true">BBIron01.osd\CollarNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShape ANipplePerkiness" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANipplePerkiness</Data>
+            <Data name="ChainNipplePerkiness" target="Chain" local="true">BBIron01.osd\ChainNipplePerkiness</Data>
+            <Data name="CollarNipplePerkiness" target="Collar" local="true">BBIron01.osd\CollarNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleLength" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleLength</Data>
+            <Data name="ChainNippleLength" target="Chain" local="true">BBIron01.osd\ChainNippleLength</Data>
+            <Data name="CollarNippleLength" target="Collar" local="true">BBIron01.osd\CollarNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="BaseShape ANippleSize" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleSize</Data>
+            <Data name="ChainNippleSize" target="Chain" local="true">BBIron01.osd\ChainNippleSize</Data>
+            <Data name="CollarNippleSize" target="Collar" local="true">BBIron01.osd\CollarNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleAreola" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleAreola</Data>
+            <Data name="ChainNippleAreola" target="Chain" local="true">BBIron01.osd\ChainNippleAreola</Data>
+            <Data name="CollarNippleAreola" target="Collar" local="true">BBIron01.osd\CollarNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleUp" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleUp</Data>
+            <Data name="ChainNippleUp" target="Chain" local="true">BBIron01.osd\ChainNippleUp</Data>
+            <Data name="CollarNippleUp" target="Collar" local="true">BBIron01.osd\CollarNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleDown" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleDown</Data>
+            <Data name="ChainNippleDown" target="Chain" local="true">BBIron01.osd\ChainNippleDown</Data>
+            <Data name="CollarNippleDown" target="Collar" local="true">BBIron01.osd\CollarNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleTip" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleTip</Data>
+            <Data name="ChainNippleTip" target="Chain" local="true">BBIron01.osd\ChainNippleTip</Data>
+            <Data name="CollarNippleTip" target="Collar" local="true">BBIron01.osd\CollarNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="BaseShape AArms" target="BaseShape A" local="true">BBIron01.osd\BaseShape AArms</Data>
+            <Data name="ChainArms" target="Chain" local="true">BBIron01.osd\ChainArms</Data>
+            <Data name="CollarArms" target="Collar" local="true">BBIron01.osd\CollarArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyArms" target="BaseShape A" local="true">BBIron01.osd\BaseShape AChubbyArms</Data>
+            <Data name="ChainChubbyArms" target="Chain" local="true">BBIron01.osd\ChainChubbyArms</Data>
+            <Data name="CollarChubbyArms" target="Collar" local="true">BBIron01.osd\CollarChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShape AShoulderSmooth" target="BaseShape A" local="true">BBIron01.osd\BaseShape AShoulderSmooth</Data>
+            <Data name="ChainShoulderSmooth" target="Chain" local="true">BBIron01.osd\ChainShoulderSmooth</Data>
+            <Data name="CollarShoulderSmooth" target="Collar" local="true">BBIron01.osd\CollarShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="BaseShape AShoulderWidth" target="BaseShape A" local="true">BBIron01.osd\BaseShape AShoulderWidth</Data>
+            <Data name="ChainShoulderWidth" target="Chain" local="true">BBIron01.osd\ChainShoulderWidth</Data>
+            <Data name="CollarShoulderWidth" target="Collar" local="true">BBIron01.osd\CollarShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShape ABigTorso" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABigTorso</Data>
+            <Data name="ChainBigTorso" target="Chain" local="true">BBIron01.osd\ChainBigTorso</Data>
+            <Data name="CollarBigTorso" target="Collar" local="true">BBIron01.osd\CollarBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="BaseShape AWaist" target="BaseShape A" local="true">BBIron01.osd\BaseShape AWaist</Data>
+            <Data name="ChainWaist" target="Chain" local="true">BBIron01.osd\ChainWaist</Data>
+            <Data name="CollarWaist" target="Collar" local="true">BBIron01.osd\CollarWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShape AWideWaistLine" target="BaseShape A" local="true">BBIron01.osd\BaseShape AWideWaistLine</Data>
+            <Data name="ChainWideWaistLine" target="Chain" local="true">BBIron01.osd\ChainWideWaistLine</Data>
+            <Data name="CollarWideWaistLine" target="Collar" local="true">BBIron01.osd\CollarWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyWaist" target="BaseShape A" local="true">BBIron01.osd\BaseShape AChubbyWaist</Data>
+            <Data name="ChainChubbyWaist" target="Chain" local="true">BBIron01.osd\ChainChubbyWaist</Data>
+            <Data name="CollarChubbyWaist" target="Collar" local="true">BBIron01.osd\CollarChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShape ABelly" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABelly</Data>
+            <Data name="ChainBelly" target="Chain" local="true">BBIron01.osd\ChainBelly</Data>
+            <Data name="CollarBelly" target="Collar" local="true">BBIron01.osd\CollarBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShape ABigBelly" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABigBelly</Data>
+            <Data name="ChainBigBelly" target="Chain" local="true">BBIron01.osd\ChainBigBelly</Data>
+            <Data name="CollarBigBelly" target="Collar" local="true">BBIron01.osd\CollarBigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShape APregnancyBelly" target="BaseShape A" local="true">BBIron01.osd\BaseShape APregnancyBelly</Data>
+            <Data name="ChainPregnancyBelly" target="Chain" local="true">BBIron01.osd\ChainPregnancyBelly</Data>
+            <Data name="CollarPregnancyBelly" target="Collar" local="true">BBIron01.osd\CollarPregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShape ATummyTuck" target="BaseShape A" local="true">BBIron01.osd\BaseShape ATummyTuck</Data>
+            <Data name="ChainTummyTuck" target="Chain" local="true">BBIron01.osd\ChainTummyTuck</Data>
+            <Data name="CollarTummyTuck" target="Collar" local="true">BBIron01.osd\CollarTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShape ABack" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABack</Data>
+            <Data name="ChainBack" target="Chain" local="true">BBIron01.osd\ChainBack</Data>
+            <Data name="CollarBack" target="Collar" local="true">BBIron01.osd\CollarBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="BaseShape AHipbone" target="BaseShape A" local="true">BBIron01.osd\BaseShape AHipbone</Data>
+            <Data name="ChainHipbone" target="Chain" local="true">BBIron01.osd\ChainHipbone</Data>
+            <Data name="CollarHipbone" target="Collar" local="true">BBIron01.osd\CollarHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShape AHips" target="BaseShape A" local="true">BBIron01.osd\BaseShape AHips</Data>
+            <Data name="ChainHips" target="Chain" local="true">BBIron01.osd\ChainHips</Data>
+            <Data name="CollarHips" target="Collar" local="true">BBIron01.osd\CollarHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="BaseShape AButtCrack" target="BaseShape A" local="true">BBIron01.osd\BaseShape AButtCrack</Data>
+            <Data name="ChainButtCrack" target="Chain" local="true">BBIron01.osd\ChainButtCrack</Data>
+            <Data name="CollarButtCrack" target="Collar" local="true">BBIron01.osd\CollarButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="BaseShape AButt" target="BaseShape A" local="true">BBIron01.osd\BaseShape AButt</Data>
+            <Data name="ChainButt" target="Chain" local="true">BBIron01.osd\ChainButt</Data>
+            <Data name="CollarButt" target="Collar" local="true">BBIron01.osd\CollarButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="BaseShape AButtSmall" target="BaseShape A" local="true">BBIron01.osd\BaseShape AButtSmall</Data>
+            <Data name="ChainButtSmall" target="Chain" local="true">BBIron01.osd\ChainButtSmall</Data>
+            <Data name="CollarButtSmall" target="Collar" local="true">BBIron01.osd\CollarButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShape AButtShape2" target="BaseShape A" local="true">BBIron01.osd\BaseShape AButtShape2</Data>
+            <Data name="ChainButtShape2" target="Chain" local="true">BBIron01.osd\ChainButtShape2</Data>
+            <Data name="CollarButtShape2" target="Collar" local="true">BBIron01.osd\CollarButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShape ABigButt" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABigButt</Data>
+            <Data name="ChainBigButt" target="Chain" local="true">BBIron01.osd\ChainBigButt</Data>
+            <Data name="CollarBigButt" target="Collar" local="true">BBIron01.osd\CollarBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyButt" target="BaseShape A" local="true">BBIron01.osd\BaseShape AChubbyButt</Data>
+            <Data name="ChainChubbyButt" target="Chain" local="true">BBIron01.osd\ChainChubbyButt</Data>
+            <Data name="CollarChubbyButt" target="Collar" local="true">BBIron01.osd\CollarChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShape AAppleCheeks" target="BaseShape A" local="true">BBIron01.osd\BaseShape AAppleCheeks</Data>
+            <Data name="ChainAppleCheeks" target="Chain" local="true">BBIron01.osd\ChainAppleCheeks</Data>
+            <Data name="CollarAppleCheeks" target="Collar" local="true">BBIron01.osd\CollarAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShape ARoundAss" target="BaseShape A" local="true">BBIron01.osd\BaseShape ARoundAss</Data>
+            <Data name="ChainRoundAss" target="Chain" local="true">BBIron01.osd\ChainRoundAss</Data>
+            <Data name="CollarRoundAss" target="Collar" local="true">BBIron01.osd\CollarRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShape AGroin" target="BaseShape A" local="true">BBIron01.osd\BaseShape AGroin</Data>
+            <Data name="ChainGroin" target="Chain" local="true">BBIron01.osd\ChainGroin</Data>
+            <Data name="CollarGroin" target="Collar" local="true">BBIron01.osd\CollarGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShape ASlimThighs" target="BaseShape A" local="true">BBIron01.osd\BaseShape ASlimThighs</Data>
+            <Data name="ChainSlimThighs" target="Chain" local="true">BBIron01.osd\ChainSlimThighs</Data>
+            <Data name="CollarSlimThighs" target="Collar" local="true">BBIron01.osd\CollarSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShape AThighs" target="BaseShape A" local="true">BBIron01.osd\BaseShape AThighs</Data>
+            <Data name="ChainThighs" target="Chain" local="true">BBIron01.osd\ChainThighs</Data>
+            <Data name="CollarThighs" target="Collar" local="true">BBIron01.osd\CollarThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShape AChubbyLegs" target="BaseShape A" local="true">BBIron01.osd\BaseShape AChubbyLegs</Data>
+            <Data name="ChainChubbyLegs" target="Chain" local="true">BBIron01.osd\ChainChubbyLegs</Data>
+            <Data name="CollarChubbyLegs" target="Collar" local="true">BBIron01.osd\CollarChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="BaseShape ALegs" target="BaseShape A" local="true">BBIron01.osd\BaseShape ALegs</Data>
+            <Data name="ChainLegs" target="Chain" local="true">BBIron01.osd\ChainLegs</Data>
+            <Data name="CollarLegs" target="Collar" local="true">BBIron01.osd\CollarLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShape AKneeHeight" target="BaseShape A" local="true">BBIron01.osd\BaseShape AKneeHeight</Data>
+            <Data name="ChainKneeHeight" target="Chain" local="true">BBIron01.osd\ChainKneeHeight</Data>
+            <Data name="CollarKneeHeight" target="Collar" local="true">BBIron01.osd\CollarKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShape ACalfSize" target="BaseShape A" local="true">BBIron01.osd\BaseShape ACalfSize</Data>
+            <Data name="ChainCalfSize" target="Chain" local="true">BBIron01.osd\ChainCalfSize</Data>
+            <Data name="CollarCalfSize" target="Collar" local="true">BBIron01.osd\CollarCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShape ACalfSmooth" target="BaseShape A" local="true">BBIron01.osd\BaseShape ACalfSmooth</Data>
+            <Data name="ChainCalfSmooth" target="Chain" local="true">BBIron01.osd\ChainCalfSmooth</Data>
+            <Data name="CollarCalfSmooth" target="Collar" local="true">BBIron01.osd\CollarCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="BaseShape AAnkles" target="BaseShape A" local="true">BBIron01.osd\BaseShape AAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShape ASmallSeam" target="BaseShape A" local="true">BBIron01.osd\BaseShape ASmallSeam</Data>
+            <Data name="ChainSmallSeam" target="Chain" local="true">BBIron01.osd\ChainSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="BaseShape AShoulderTweak" target="BaseShape A" local="true">BBIron01.osd\BaseShape AShoulderTweak</Data>
+            <Data name="ChainShoulderTweak" target="Chain" local="true">BBIron01.osd\ChainShoulderTweak</Data>
+            <Data name="CollarShoulderTweak" target="Collar" local="true">BBIron01.osd\CollarShoulderTweak</Data>
+        </Slider>
+        <Slider name="BB Breasts" invert="false" small="100" big="100" hidden="true">
+            <Data name="BaseShape ABB Breasts" target="BaseShape A" local="true">BBIron01.osd\BaseShape ABB Breasts</Data>
+        </Slider>
+        <Slider name="NippleDefinition" invert="false" small="0" big="0">
+            <Data name="BaseShape ANippleDefinition" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANippleDefinition</Data>
+            <Data name="ChainNippleDefinition" target="Chain" local="true">BBIron01.osd\ChainNippleDefinition</Data>
+            <Data name="CollarNippleDefinition" target="Collar" local="true">BBIron01.osd\CollarNippleDefinition</Data>
+        </Slider>
+        <Slider name="NipplePuffiness" invert="false" small="0" big="0">
+            <Data name="BaseShape ANipplePuffiness" target="BaseShape A" local="true">BBIron01.osd\BaseShape ANipplePuffiness</Data>
+            <Data name="ChainNipplePuffiness" target="Chain" local="true">BBIron01.osd\ChainNipplePuffiness</Data>
+            <Data name="CollarNipplePuffiness" target="Collar" local="true">BBIron01.osd\CollarNipplePuffiness</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

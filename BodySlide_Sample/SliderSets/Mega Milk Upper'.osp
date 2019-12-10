@@ -1,0 +1,220 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Mega Milk Upper&apos;">
+        <DataFolder>Mega Milk Upper'</DataFolder>
+        <SourceFile>Mega Milk Upper'.nif</SourceFile>
+        <OutputPath>meshes\GrimSovereign\megamilk</OutputPath>
+        <OutputFile GenWeights="true">Upper</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="CBBEFALLOUT44.002">CBBEFALLOUT44.002</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Breasts" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Breasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastsSmall" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastsSH" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastsSSH" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastsFantasy" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="CBBEFALLOUT44.002DoubleMelon" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002DoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastCleavage" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastFlatness" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastGravity" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="CBBEFALLOUT44.002PushUp" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002PushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastHeight" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastPerkiness" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BreastWidth" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NippleDistance" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NipplePerkiness" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NippleLength" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NippleSize" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NippleAreola" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NippleUp" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NippleDown" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="CBBEFALLOUT44.002NippleTip" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002NippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Arms" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Arms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ChubbyArms" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ShoulderSmooth" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ShoulderWidth" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BigTorso" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Waist" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Waist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="CBBEFALLOUT44.002WideWaistLine" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002WideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ChubbyWaist" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Belly" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BigBelly" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BigBelly</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PregnancyBelly" target="BaseShape">PregnancyBelly.bsd</Data>
+            <Data name="CBBEFALLOUT44.002PregnancyBelly" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002PregnancyBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="CBBEFALLOUT44.002TummyTuck" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002TummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Back" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Back</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Hipbone" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Hipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Hips" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Hips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="CBBEFALLOUT44.002Butt" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002Butt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ButtSmall" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ButtShape2" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="CBBEFALLOUT44.002BigButt" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002BigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ChubbyButt" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="CBBEFALLOUT44.002AppleCheeks" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002AppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="CBBEFALLOUT44.002SlimThighs" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="CBBEFALLOUT44.002SmallSeam" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002SmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="CBBEFALLOUT44.002ShoulderTweak" target="CBBEFALLOUT44.002" local="true">Mega Milk Upper'.osd\CBBEFALLOUT44.002ShoulderTweak</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

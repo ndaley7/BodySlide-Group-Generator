@@ -1,0 +1,1741 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CT77 Vampire">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77Vampire.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirerobesf_alt</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="Vampire2Belt">Vampire2Belt</Shape>
+        <Shape target="Vampire2Chest">Vampire2Chest</Shape>
+        <Shape target="Vampire2Skirt">Vampire2Skirt</Shape>
+        <Shape target="VampireBracers">VampireBracers</Shape>
+        <Shape target="VampireLeggings">VampireLeggings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Vampire2ChestBreasts" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="Vampire2BeltBreastsSmall" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBreastsSmall</Data>
+            <Data name="Vampire2ChestBreastsSmall" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSmall</Data>
+            <Data name="Vampire2SkirtBreastsSmall" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Vampire2ChestBreastsSH" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Vampire2ChestBreastsSSH" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Vampire2ChestBreastsFantasy" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Vampire2ChestDoubleMelon" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Vampire2ChestBreastCleavage" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Vampire2ChestBreastFlatness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Vampire2ChestBreastGravity" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Vampire2ChestPushUp" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="Vampire2BeltBreastHeight" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBreastHeight</Data>
+            <Data name="Vampire2ChestBreastHeight" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastHeight</Data>
+            <Data name="Vampire2SkirtBreastHeight" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Vampire2ChestBreastPerkiness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Vampire2ChestBreastWidth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Vampire2ChestNippleDistance" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Vampire2ChestNipplePerkiness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Vampire2ChestNippleLength" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Vampire2ChestNippleSize" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Vampire2ChestNippleAreola" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Vampire2ChestNippleUp" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Vampire2ChestNippleDown" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Vampire2ChestNippleTip" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Vampire2ChestArms" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestArms</Data>
+            <Data name="VampireBracersArms" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Vampire2ChestChubbyArms" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyArms</Data>
+            <Data name="VampireBracersChubbyArms" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Vampire2ChestShoulderSmooth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Vampire2ChestShoulderWidth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderWidth</Data>
+            <Data name="VampireBracersShoulderWidth" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="Vampire2BeltBigTorso" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigTorso</Data>
+            <Data name="Vampire2ChestBigTorso" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigTorso</Data>
+            <Data name="VampireBracersBigTorso" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersBigTorso</Data>
+            <Data name="Vampire2SkirtBigTorso" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="Vampire2BeltWaist" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltWaist</Data>
+            <Data name="Vampire2ChestWaist" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestWaist</Data>
+            <Data name="Vampire2SkirtWaist" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="Vampire2BeltWideWaistLine" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltWideWaistLine</Data>
+            <Data name="Vampire2ChestWideWaistLine" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestWideWaistLine</Data>
+            <Data name="Vampire2SkirtWideWaistLine" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="Vampire2BeltChubbyWaist" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyWaist</Data>
+            <Data name="Vampire2ChestChubbyWaist" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyWaist</Data>
+            <Data name="Vampire2SkirtChubbyWaist" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="Vampire2BeltBelly" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBelly</Data>
+            <Data name="Vampire2ChestBelly" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBelly</Data>
+            <Data name="Vampire2SkirtBelly" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="Vampire2BeltBigBelly" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigBelly</Data>
+            <Data name="Vampire2ChestBigBelly" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigBelly</Data>
+            <Data name="Vampire2SkirtBigBelly" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="Vampire2BeltTummyTuck" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltTummyTuck</Data>
+            <Data name="Vampire2ChestTummyTuck" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestTummyTuck</Data>
+            <Data name="VampireBracersTummyTuck" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersTummyTuck</Data>
+            <Data name="Vampire2SkirtTummyTuck" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="Vampire2BeltBack" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBack</Data>
+            <Data name="Vampire2ChestBack" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBack</Data>
+            <Data name="VampireBracersBack" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersBack</Data>
+            <Data name="Vampire2SkirtBack" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="Vampire2BeltHipbone" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltHipbone</Data>
+            <Data name="Vampire2SkirtHipbone" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="Vampire2BeltHips" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltHips</Data>
+            <Data name="Vampire2ChestHips" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestHips</Data>
+            <Data name="Vampire2SkirtHips" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="Vampire2BeltButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButt</Data>
+            <Data name="Vampire2ChestButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestButt</Data>
+            <Data name="VampireBracersButt" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersButt</Data>
+            <Data name="VampireLeggingsButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButt</Data>
+            <Data name="Vampire2SkirtButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="Vampire2BeltButtSmall" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButtSmall</Data>
+            <Data name="VampireLeggingsButtSmall" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButtSmall</Data>
+            <Data name="Vampire2SkirtButtSmall" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="Vampire2BeltButtShape2" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButtShape2</Data>
+            <Data name="Vampire2ChestButtShape2" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestButtShape2</Data>
+            <Data name="Vampire2SkirtButtShape2" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="Vampire2BeltBigButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigButt</Data>
+            <Data name="Vampire2ChestBigButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigButt</Data>
+            <Data name="VampireLeggingsBigButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsBigButt</Data>
+            <Data name="Vampire2SkirtBigButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="Vampire2BeltChubbyButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyButt</Data>
+            <Data name="Vampire2ChestChubbyButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyButt</Data>
+            <Data name="VampireLeggingsChubbyButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyButt</Data>
+            <Data name="Vampire2SkirtChubbyButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="Vampire2BeltAppleCheeks" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltAppleCheeks</Data>
+            <Data name="Vampire2ChestAppleCheeks" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestAppleCheeks</Data>
+            <Data name="Vampire2SkirtAppleCheeks" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="Vampire2BeltRoundAss" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltRoundAss</Data>
+            <Data name="Vampire2SkirtRoundAss" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="Vampire2BeltSlimThighs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltSlimThighs</Data>
+            <Data name="Vampire2ChestSlimThighs" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestSlimThighs</Data>
+            <Data name="VampireLeggingsSlimThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSlimThighs</Data>
+            <Data name="Vampire2SkirtSlimThighs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Vampire2BeltThighs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltThighs</Data>
+            <Data name="VampireLeggingsThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsThighs</Data>
+            <Data name="Vampire2SkirtThighs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Vampire2BeltChubbyLegs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyLegs</Data>
+            <Data name="VampireLeggingsChubbyLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyLegs</Data>
+            <Data name="Vampire2SkirtChubbyLegs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Vampire2BeltLegs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltLegs</Data>
+            <Data name="VampireLeggingsLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsLegs</Data>
+            <Data name="Vampire2SkirtLegs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="VampireLeggingsKneeHeight" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsKneeHeight</Data>
+            <Data name="Vampire2SkirtKneeHeight" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="VampireLeggingsCalfSize" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="VampireLeggingsCalfSmooth" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="VampireLeggingsAnkles" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Vampire2ChestSmallSeam" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestSmallSeam</Data>
+            <Data name="VampireBracersSmallSeam" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersSmallSeam</Data>
+            <Data name="VampireLeggingsSmallSeam" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Vampire2ChestShoulderTweak" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2ChestZapChest" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBracers" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireBracersZapBracers" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersZapBracers</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2BeltZapBelt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltZapBelt</Data>
+            <Data name="Vampire2SkirtZapBelt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2SkirtZapSkirt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireLeggingsZapLeggings" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Vampire Gray">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77VampireGray.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirerobesgrayf_alt</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="Vampire2Belt">Vampire2Belt</Shape>
+        <Shape target="Vampire2Chest">Vampire2Chest</Shape>
+        <Shape target="Vampire2Skirt">Vampire2Skirt</Shape>
+        <Shape target="VampireBracers">VampireBracers</Shape>
+        <Shape target="VampireLeggings">VampireLeggings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Vampire2ChestBreasts" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="Vampire2BeltBreastsSmall" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBreastsSmall</Data>
+            <Data name="Vampire2ChestBreastsSmall" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSmall</Data>
+            <Data name="Vampire2SkirtBreastsSmall" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Vampire2ChestBreastsSH" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Vampire2ChestBreastsSSH" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Vampire2ChestBreastsFantasy" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Vampire2ChestDoubleMelon" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Vampire2ChestBreastCleavage" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Vampire2ChestBreastFlatness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Vampire2ChestBreastGravity" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Vampire2ChestPushUp" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="Vampire2BeltBreastHeight" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBreastHeight</Data>
+            <Data name="Vampire2ChestBreastHeight" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastHeight</Data>
+            <Data name="Vampire2SkirtBreastHeight" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Vampire2ChestBreastPerkiness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Vampire2ChestBreastWidth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Vampire2ChestNippleDistance" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Vampire2ChestNipplePerkiness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Vampire2ChestNippleLength" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Vampire2ChestNippleSize" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Vampire2ChestNippleAreola" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Vampire2ChestNippleUp" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Vampire2ChestNippleDown" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Vampire2ChestNippleTip" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Vampire2ChestArms" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestArms</Data>
+            <Data name="VampireBracersArms" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Vampire2ChestChubbyArms" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyArms</Data>
+            <Data name="VampireBracersChubbyArms" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Vampire2ChestShoulderSmooth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Vampire2ChestShoulderWidth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderWidth</Data>
+            <Data name="VampireBracersShoulderWidth" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="Vampire2BeltBigTorso" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigTorso</Data>
+            <Data name="Vampire2ChestBigTorso" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigTorso</Data>
+            <Data name="VampireBracersBigTorso" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersBigTorso</Data>
+            <Data name="Vampire2SkirtBigTorso" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="Vampire2BeltWaist" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltWaist</Data>
+            <Data name="Vampire2ChestWaist" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestWaist</Data>
+            <Data name="Vampire2SkirtWaist" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="Vampire2BeltWideWaistLine" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltWideWaistLine</Data>
+            <Data name="Vampire2ChestWideWaistLine" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestWideWaistLine</Data>
+            <Data name="Vampire2SkirtWideWaistLine" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="Vampire2BeltChubbyWaist" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyWaist</Data>
+            <Data name="Vampire2ChestChubbyWaist" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyWaist</Data>
+            <Data name="Vampire2SkirtChubbyWaist" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="Vampire2BeltBelly" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBelly</Data>
+            <Data name="Vampire2ChestBelly" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBelly</Data>
+            <Data name="Vampire2SkirtBelly" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="Vampire2BeltBigBelly" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigBelly</Data>
+            <Data name="Vampire2ChestBigBelly" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigBelly</Data>
+            <Data name="Vampire2SkirtBigBelly" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="Vampire2BeltTummyTuck" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltTummyTuck</Data>
+            <Data name="Vampire2ChestTummyTuck" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestTummyTuck</Data>
+            <Data name="VampireBracersTummyTuck" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersTummyTuck</Data>
+            <Data name="Vampire2SkirtTummyTuck" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="Vampire2BeltBack" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBack</Data>
+            <Data name="Vampire2ChestBack" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBack</Data>
+            <Data name="VampireBracersBack" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersBack</Data>
+            <Data name="Vampire2SkirtBack" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="Vampire2BeltHipbone" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltHipbone</Data>
+            <Data name="Vampire2SkirtHipbone" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="Vampire2BeltHips" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltHips</Data>
+            <Data name="Vampire2ChestHips" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestHips</Data>
+            <Data name="Vampire2SkirtHips" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="Vampire2BeltButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButt</Data>
+            <Data name="Vampire2ChestButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestButt</Data>
+            <Data name="VampireBracersButt" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersButt</Data>
+            <Data name="VampireLeggingsButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButt</Data>
+            <Data name="Vampire2SkirtButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="Vampire2BeltButtSmall" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButtSmall</Data>
+            <Data name="VampireLeggingsButtSmall" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButtSmall</Data>
+            <Data name="Vampire2SkirtButtSmall" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="Vampire2BeltButtShape2" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButtShape2</Data>
+            <Data name="Vampire2ChestButtShape2" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestButtShape2</Data>
+            <Data name="Vampire2SkirtButtShape2" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="Vampire2BeltBigButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigButt</Data>
+            <Data name="Vampire2ChestBigButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigButt</Data>
+            <Data name="VampireLeggingsBigButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsBigButt</Data>
+            <Data name="Vampire2SkirtBigButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="Vampire2BeltChubbyButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyButt</Data>
+            <Data name="Vampire2ChestChubbyButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyButt</Data>
+            <Data name="VampireLeggingsChubbyButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyButt</Data>
+            <Data name="Vampire2SkirtChubbyButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="Vampire2BeltAppleCheeks" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltAppleCheeks</Data>
+            <Data name="Vampire2ChestAppleCheeks" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestAppleCheeks</Data>
+            <Data name="Vampire2SkirtAppleCheeks" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="Vampire2BeltRoundAss" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltRoundAss</Data>
+            <Data name="Vampire2SkirtRoundAss" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="Vampire2BeltSlimThighs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltSlimThighs</Data>
+            <Data name="Vampire2ChestSlimThighs" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestSlimThighs</Data>
+            <Data name="VampireLeggingsSlimThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSlimThighs</Data>
+            <Data name="Vampire2SkirtSlimThighs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+            <Data name="Vampire2BeltThighs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltThighs</Data>
+            <Data name="VampireLeggingsThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsThighs</Data>
+            <Data name="Vampire2SkirtThighs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+            <Data name="Vampire2BeltChubbyLegs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyLegs</Data>
+            <Data name="VampireLeggingsChubbyLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyLegs</Data>
+            <Data name="Vampire2SkirtChubbyLegs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+            <Data name="Vampire2BeltLegs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltLegs</Data>
+            <Data name="VampireLeggingsLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsLegs</Data>
+            <Data name="Vampire2SkirtLegs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="VampireLeggingsKneeHeight" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsKneeHeight</Data>
+            <Data name="Vampire2SkirtKneeHeight" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="VampireLeggingsCalfSize" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="VampireLeggingsCalfSmooth" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="VampireLeggingsAnkles" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Vampire2ChestSmallSeam" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestSmallSeam</Data>
+            <Data name="VampireBracersSmallSeam" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersSmallSeam</Data>
+            <Data name="VampireLeggingsSmallSeam" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Vampire2ChestShoulderTweak" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2ChestZapChest" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBracers" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireBracersZapBracers" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersZapBracers</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2BeltZapBelt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltZapBelt</Data>
+            <Data name="Vampire2SkirtZapBelt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2SkirtZapSkirt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireLeggingsZapLeggings" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Vampire Red">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77VampireRed.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirerobesredf_alt</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="Vampire2Belt">Vampire2Belt</Shape>
+        <Shape target="Vampire2Chest">Vampire2Chest</Shape>
+        <Shape target="Vampire2Skirt">Vampire2Skirt</Shape>
+        <Shape target="VampireBracers">VampireBracers</Shape>
+        <Shape target="VampireLeggings">VampireLeggings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Vampire2ChestBreasts" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="Vampire2BeltBreastsSmall" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBreastsSmall</Data>
+            <Data name="Vampire2ChestBreastsSmall" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSmall</Data>
+            <Data name="Vampire2SkirtBreastsSmall" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Vampire2ChestBreastsSH" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Vampire2ChestBreastsSSH" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Vampire2ChestBreastsFantasy" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Vampire2ChestDoubleMelon" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Vampire2ChestBreastCleavage" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Vampire2ChestBreastFlatness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Vampire2ChestBreastGravity" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Vampire2ChestPushUp" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="Vampire2BeltBreastHeight" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBreastHeight</Data>
+            <Data name="Vampire2ChestBreastHeight" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastHeight</Data>
+            <Data name="Vampire2SkirtBreastHeight" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Vampire2ChestBreastPerkiness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Vampire2ChestBreastWidth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Vampire2ChestNippleDistance" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Vampire2ChestNipplePerkiness" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Vampire2ChestNippleLength" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Vampire2ChestNippleSize" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Vampire2ChestNippleAreola" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Vampire2ChestNippleUp" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Vampire2ChestNippleDown" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Vampire2ChestNippleTip" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Vampire2ChestArms" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestArms</Data>
+            <Data name="VampireBracersArms" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Vampire2ChestChubbyArms" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyArms</Data>
+            <Data name="VampireBracersChubbyArms" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Vampire2ChestShoulderSmooth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Vampire2ChestShoulderWidth" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderWidth</Data>
+            <Data name="VampireBracersShoulderWidth" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="Vampire2BeltBigTorso" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigTorso</Data>
+            <Data name="Vampire2ChestBigTorso" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigTorso</Data>
+            <Data name="VampireBracersBigTorso" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersBigTorso</Data>
+            <Data name="Vampire2SkirtBigTorso" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="Vampire2BeltWaist" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltWaist</Data>
+            <Data name="Vampire2ChestWaist" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestWaist</Data>
+            <Data name="Vampire2SkirtWaist" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="Vampire2BeltWideWaistLine" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltWideWaistLine</Data>
+            <Data name="Vampire2ChestWideWaistLine" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestWideWaistLine</Data>
+            <Data name="Vampire2SkirtWideWaistLine" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="Vampire2BeltChubbyWaist" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyWaist</Data>
+            <Data name="Vampire2ChestChubbyWaist" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyWaist</Data>
+            <Data name="Vampire2SkirtChubbyWaist" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="Vampire2BeltBelly" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBelly</Data>
+            <Data name="Vampire2ChestBelly" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBelly</Data>
+            <Data name="Vampire2SkirtBelly" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="Vampire2BeltBigBelly" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigBelly</Data>
+            <Data name="Vampire2ChestBigBelly" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigBelly</Data>
+            <Data name="Vampire2SkirtBigBelly" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="Vampire2BeltTummyTuck" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltTummyTuck</Data>
+            <Data name="Vampire2ChestTummyTuck" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestTummyTuck</Data>
+            <Data name="VampireBracersTummyTuck" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersTummyTuck</Data>
+            <Data name="Vampire2SkirtTummyTuck" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="Vampire2BeltBack" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBack</Data>
+            <Data name="Vampire2ChestBack" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBack</Data>
+            <Data name="VampireBracersBack" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersBack</Data>
+            <Data name="Vampire2SkirtBack" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="Vampire2BeltHipbone" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltHipbone</Data>
+            <Data name="Vampire2SkirtHipbone" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="Vampire2BeltHips" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltHips</Data>
+            <Data name="Vampire2ChestHips" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestHips</Data>
+            <Data name="Vampire2SkirtHips" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="Vampire2BeltButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButt</Data>
+            <Data name="Vampire2ChestButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestButt</Data>
+            <Data name="VampireBracersButt" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersButt</Data>
+            <Data name="VampireLeggingsButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButt</Data>
+            <Data name="Vampire2SkirtButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="Vampire2BeltButtSmall" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButtSmall</Data>
+            <Data name="VampireLeggingsButtSmall" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButtSmall</Data>
+            <Data name="Vampire2SkirtButtSmall" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="Vampire2BeltButtShape2" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltButtShape2</Data>
+            <Data name="Vampire2ChestButtShape2" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestButtShape2</Data>
+            <Data name="Vampire2SkirtButtShape2" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="Vampire2BeltBigButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltBigButt</Data>
+            <Data name="Vampire2ChestBigButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestBigButt</Data>
+            <Data name="VampireLeggingsBigButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsBigButt</Data>
+            <Data name="Vampire2SkirtBigButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="Vampire2BeltChubbyButt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyButt</Data>
+            <Data name="Vampire2ChestChubbyButt" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestChubbyButt</Data>
+            <Data name="VampireLeggingsChubbyButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyButt</Data>
+            <Data name="Vampire2SkirtChubbyButt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="Vampire2BeltAppleCheeks" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltAppleCheeks</Data>
+            <Data name="Vampire2ChestAppleCheeks" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestAppleCheeks</Data>
+            <Data name="Vampire2SkirtAppleCheeks" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="Vampire2BeltRoundAss" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltRoundAss</Data>
+            <Data name="Vampire2SkirtRoundAss" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="Vampire2BeltSlimThighs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltSlimThighs</Data>
+            <Data name="Vampire2ChestSlimThighs" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestSlimThighs</Data>
+            <Data name="VampireLeggingsSlimThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSlimThighs</Data>
+            <Data name="Vampire2SkirtSlimThighs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+            <Data name="Vampire2BeltThighs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltThighs</Data>
+            <Data name="VampireLeggingsThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsThighs</Data>
+            <Data name="Vampire2SkirtThighs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+            <Data name="Vampire2BeltChubbyLegs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltChubbyLegs</Data>
+            <Data name="VampireLeggingsChubbyLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyLegs</Data>
+            <Data name="Vampire2SkirtChubbyLegs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+            <Data name="Vampire2BeltLegs" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltLegs</Data>
+            <Data name="VampireLeggingsLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsLegs</Data>
+            <Data name="Vampire2SkirtLegs" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="VampireLeggingsKneeHeight" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsKneeHeight</Data>
+            <Data name="Vampire2SkirtKneeHeight" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="VampireLeggingsCalfSize" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="VampireLeggingsCalfSmooth" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="VampireLeggingsAnkles" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Vampire2ChestSmallSeam" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestSmallSeam</Data>
+            <Data name="VampireBracersSmallSeam" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersSmallSeam</Data>
+            <Data name="VampireLeggingsSmallSeam" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Vampire2ChestShoulderTweak" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2ChestZapChest" target="Vampire2Chest" local="true">CT77Vampire.osd\Vampire2ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBracers" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireBracersZapBracers" target="VampireBracers" local="true">CT77Vampire.osd\VampireBracersZapBracers</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2BeltZapBelt" target="Vampire2Belt" local="true">CT77Vampire.osd\Vampire2BeltZapBelt</Data>
+            <Data name="Vampire2SkirtZapBelt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire2SkirtZapSkirt" target="Vampire2Skirt" local="true">CT77Vampire.osd\Vampire2SkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireLeggingsZapLeggings" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Vampire Royal">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77VampireRoyal.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirerobesf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="Vampire1Belt">Vampire1Belt</Shape>
+        <Shape target="Vampire1Chest">Vampire1Chest</Shape>
+        <Shape target="Vampire1Skirt">Vampire1Skirt</Shape>
+        <Shape target="VampireBracers">VampireBracers</Shape>
+        <Shape target="VampireLeggings">VampireLeggings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Vampire1ChestBreasts" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="Vampire1BeltBreastsSmall" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBreastsSmall</Data>
+            <Data name="Vampire1ChestBreastsSmall" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsSmall</Data>
+            <Data name="Vampire1SkirtBreastsSmall" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Vampire1ChestBreastsSH" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Vampire1ChestBreastsSSH" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Vampire1ChestBreastsFantasy" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Vampire1ChestDoubleMelon" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Vampire1ChestBreastCleavage" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Vampire1ChestBreastFlatness" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Vampire1ChestBreastGravity" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Vampire1ChestPushUp" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="Vampire1BeltBreastHeight" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBreastHeight</Data>
+            <Data name="Vampire1ChestBreastHeight" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastHeight</Data>
+            <Data name="Vampire1SkirtBreastHeight" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Vampire1ChestBreastPerkiness" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Vampire1ChestBreastWidth" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Vampire1ChestNippleDistance" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Vampire1ChestNipplePerkiness" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Vampire1ChestNippleLength" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Vampire1ChestNippleSize" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Vampire1ChestNippleAreola" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Vampire1ChestNippleUp" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Vampire1ChestNippleDown" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Vampire1ChestNippleTip" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Vampire1ChestArms" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestArms</Data>
+            <Data name="VampireBracersArms" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Vampire1ChestChubbyArms" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestChubbyArms</Data>
+            <Data name="VampireBracersChubbyArms" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Vampire1ChestShoulderSmooth" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Vampire1ChestShoulderWidth" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestShoulderWidth</Data>
+            <Data name="VampireBracersShoulderWidth" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="Vampire1BeltBigTorso" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBigTorso</Data>
+            <Data name="Vampire1ChestBigTorso" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBigTorso</Data>
+            <Data name="Vampire1SkirtBigTorso" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBigTorso</Data>
+            <Data name="VampireBracersBigTorso" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="Vampire1BeltWaist" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltWaist</Data>
+            <Data name="Vampire1ChestWaist" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestWaist</Data>
+            <Data name="Vampire1SkirtWaist" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="Vampire1BeltWideWaistLine" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltWideWaistLine</Data>
+            <Data name="Vampire1ChestWideWaistLine" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestWideWaistLine</Data>
+            <Data name="Vampire1SkirtWideWaistLine" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="Vampire1BeltChubbyWaist" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltChubbyWaist</Data>
+            <Data name="Vampire1ChestChubbyWaist" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestChubbyWaist</Data>
+            <Data name="Vampire1SkirtChubbyWaist" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="Vampire1BeltBelly" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBelly</Data>
+            <Data name="Vampire1ChestBelly" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBelly</Data>
+            <Data name="Vampire1SkirtBelly" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="Vampire1BeltBigBelly" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBigBelly</Data>
+            <Data name="Vampire1ChestBigBelly" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBigBelly</Data>
+            <Data name="Vampire1SkirtBigBelly" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="Vampire1BeltTummyTuck" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltTummyTuck</Data>
+            <Data name="Vampire1ChestTummyTuck" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestTummyTuck</Data>
+            <Data name="Vampire1SkirtTummyTuck" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtTummyTuck</Data>
+            <Data name="VampireBracersTummyTuck" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="Vampire1BeltBack" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBack</Data>
+            <Data name="Vampire1ChestBack" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBack</Data>
+            <Data name="Vampire1SkirtBack" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBack</Data>
+            <Data name="VampireBracersBack" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="Vampire1BeltHipbone" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltHipbone</Data>
+            <Data name="Vampire1ChestHipbone" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestHipbone</Data>
+            <Data name="Vampire1SkirtHipbone" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="Vampire1BeltHips" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltHips</Data>
+            <Data name="Vampire1ChestHips" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestHips</Data>
+            <Data name="Vampire1SkirtHips" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+            <Data name="Vampire1ChestButtCrack" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="Vampire1BeltButt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltButt</Data>
+            <Data name="Vampire1ChestButt" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButt</Data>
+            <Data name="Vampire1SkirtButt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtButt</Data>
+            <Data name="VampireBracersButt" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersButt</Data>
+            <Data name="VampireLeggingsButt" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="Vampire1BeltButtSmall" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltButtSmall</Data>
+            <Data name="Vampire1ChestButtSmall" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButtSmall</Data>
+            <Data name="Vampire1SkirtButtSmall" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtButtSmall</Data>
+            <Data name="VampireLeggingsButtSmall" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="Vampire1BeltButtShape2" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltButtShape2</Data>
+            <Data name="Vampire1ChestButtShape2" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButtShape2</Data>
+            <Data name="Vampire1SkirtButtShape2" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="Vampire1BeltBigButt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBigButt</Data>
+            <Data name="Vampire1ChestBigButt" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBigButt</Data>
+            <Data name="Vampire1SkirtBigButt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBigButt</Data>
+            <Data name="VampireLeggingsBigButt" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="Vampire1BeltChubbyButt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltChubbyButt</Data>
+            <Data name="Vampire1ChestChubbyButt" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestChubbyButt</Data>
+            <Data name="Vampire1SkirtChubbyButt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtChubbyButt</Data>
+            <Data name="VampireLeggingsChubbyButt" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="Vampire1BeltAppleCheeks" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltAppleCheeks</Data>
+            <Data name="Vampire1SkirtAppleCheeks" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="Vampire1BeltRoundAss" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltRoundAss</Data>
+            <Data name="Vampire1SkirtRoundAss" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="Vampire1BeltSlimThighs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltSlimThighs</Data>
+            <Data name="Vampire1SkirtSlimThighs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtSlimThighs</Data>
+            <Data name="VampireLeggingsSlimThighs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="Vampire1BeltThighs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltThighs</Data>
+            <Data name="Vampire1SkirtThighs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtThighs</Data>
+            <Data name="VampireLeggingsThighs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="Vampire1BeltChubbyLegs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltChubbyLegs</Data>
+            <Data name="Vampire1SkirtChubbyLegs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtChubbyLegs</Data>
+            <Data name="VampireLeggingsChubbyLegs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="Vampire1BeltLegs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltLegs</Data>
+            <Data name="Vampire1ChestLegs" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestLegs</Data>
+            <Data name="Vampire1SkirtLegs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtLegs</Data>
+            <Data name="VampireLeggingsLegs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="VampireLeggingsKneeHeight" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="VampireLeggingsCalfSize" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="VampireLeggingsCalfSmooth" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="VampireLeggingsAnkles" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Vampire1ChestSmallSeam" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestSmallSeam</Data>
+            <Data name="VampireBracersSmallSeam" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersSmallSeam</Data>
+            <Data name="VampireLeggingsSmallSeam" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Vampire1ChestShoulderTweak" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire1ChestZapChest" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBracers" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireBracersZapBracers" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersZapBracers</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire1BeltZapBelt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltZapBelt</Data>
+            <Data name="Vampire1SkirtZapBelt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire1SkirtZapSkirt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireLeggingsZapLeggings" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Vampire Valerica">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77VampireValerica.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirerobesvalericaf</OutputFile>
+        <Shape target="BaseShape" DataFolder="CalienteBody">BaseShape</Shape>
+        <Shape target="Panty" DataFolder="CT77Shared">Panty</Shape>
+        <Shape target="Vampire1Belt">Vampire1Belt</Shape>
+        <Shape target="Vampire1Chest">Vampire1Chest</Shape>
+        <Shape target="Vampire1Skirt">Vampire1Skirt</Shape>
+        <Shape target="VampireBracers">VampireBracers</Shape>
+        <Shape target="VampireLeggings">VampireLeggings</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="Breasts1" target="BaseShape">Breasts1.bsd</Data>
+            <Data name="Vampire1ChestBreasts" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="BreastsSm" target="BaseShape">BreastsSm.bsd</Data>
+            <Data name="PantyBreastsSmall" target="Panty">CT77Shared.osd\PantyBreastsSmall</Data>
+            <Data name="Vampire1BeltBreastsSmall" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBreastsSmall</Data>
+            <Data name="Vampire1ChestBreastsSmall" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsSmall</Data>
+            <Data name="Vampire1SkirtBreastsSmall" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="BreastsSH" target="BaseShape">BreastsSH.bsd</Data>
+            <Data name="Vampire1ChestBreastsSH" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="BreastsSSH" target="BaseShape">BreastsSSH.bsd</Data>
+            <Data name="Vampire1ChestBreastsSSH" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BreastsFantasy" target="BaseShape">BreastsFantasy.bsd</Data>
+            <Data name="Vampire1ChestBreastsFantasy" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DoubleMelon" target="BaseShape">DoubleMelon.bsd</Data>
+            <Data name="Vampire1ChestDoubleMelon" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BreastCleavage" target="BaseShape">BreastCleavage.bsd</Data>
+            <Data name="Vampire1ChestBreastCleavage" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BreastFlatness" target="BaseShape">BreastFlatness.bsd</Data>
+            <Data name="Vampire1ChestBreastFlatness" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="BreastGravity" target="BaseShape">BreastGravity.bsd</Data>
+            <Data name="Vampire1ChestBreastGravity" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="PushUp" target="BaseShape">PushUp.bsd</Data>
+            <Data name="Vampire1ChestPushUp" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BreastHt" target="BaseShape">BreastHt.bsd</Data>
+            <Data name="PantyBreastHeight" target="Panty">CT77Shared.osd\PantyBreastHeight</Data>
+            <Data name="Vampire1BeltBreastHeight" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBreastHeight</Data>
+            <Data name="Vampire1ChestBreastHeight" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastHeight</Data>
+            <Data name="Vampire1SkirtBreastHeight" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BreastPerkiness" target="BaseShape">BreastPerkiness.bsd</Data>
+            <Data name="Vampire1ChestBreastPerkiness" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BreastWidth" target="BaseShape">BreastWidth.bsd</Data>
+            <Data name="Vampire1ChestBreastWidth" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleDistance" target="BaseShape">NippleDistance.bsd</Data>
+            <Data name="Vampire1ChestNippleDistance" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NipplePerkiness" target="BaseShape">NipplePerkiness.bsd</Data>
+            <Data name="Vampire1ChestNipplePerkiness" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleLength" target="BaseShape">NippleLength.bsd</Data>
+            <Data name="Vampire1ChestNippleLength" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleSize" target="BaseShape">NippleSize.bsd</Data>
+            <Data name="Vampire1ChestNippleSize" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleAreola" target="BaseShape">NippleAreola.bsd</Data>
+            <Data name="Vampire1ChestNippleAreola" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleUp" target="BaseShape">NippleUp.bsd</Data>
+            <Data name="Vampire1ChestNippleUp" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleDown" target="BaseShape">NippleDown.bsd</Data>
+            <Data name="Vampire1ChestNippleDown" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleTip" target="BaseShape">NippleTip.bsd</Data>
+            <Data name="Vampire1ChestNippleTip" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestNippleTip</Data>
+        </Slider>
+        <Slider name="Arms" invert="true" small="0" big="100">
+            <Data name="Arms" target="BaseShape">Arms.bsd</Data>
+            <Data name="Vampire1ChestArms" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestArms</Data>
+            <Data name="VampireBracersArms" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersArms</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="ChubbyArms" target="BaseShape">ChubbyArms.bsd</Data>
+            <Data name="Vampire1ChestChubbyArms" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestChubbyArms</Data>
+            <Data name="VampireBracersChubbyArms" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersChubbyArms</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="ShoulderSmooth" target="BaseShape">ShoulderSmooth.bsd</Data>
+            <Data name="Vampire1ChestShoulderSmooth" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="true" small="100" big="100">
+            <Data name="ShoulderWidth" target="BaseShape">ShoulderWidth.bsd</Data>
+            <Data name="Vampire1ChestShoulderWidth" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestShoulderWidth</Data>
+            <Data name="VampireBracersShoulderWidth" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersShoulderWidth</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BigTorso" target="BaseShape">BigTorso.bsd</Data>
+            <Data name="PantyBigTorso" target="Panty">CT77Shared.osd\PantyBigTorso</Data>
+            <Data name="Vampire1BeltBigTorso" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBigTorso</Data>
+            <Data name="Vampire1ChestBigTorso" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBigTorso</Data>
+            <Data name="Vampire1SkirtBigTorso" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBigTorso</Data>
+            <Data name="VampireBracersBigTorso" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersBigTorso</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <Data name="Waist" target="BaseShape">Waist.bsd</Data>
+            <Data name="PantyWaist" target="Panty">CT77Shared.osd\PantyWaist</Data>
+            <Data name="Vampire1BeltWaist" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltWaist</Data>
+            <Data name="Vampire1ChestWaist" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestWaist</Data>
+            <Data name="Vampire1SkirtWaist" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtWaist</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="WideWaistLine" target="BaseShape">WideWaistLine.bsd</Data>
+            <Data name="PantyWideWaistLine" target="Panty">CT77Shared.osd\PantyWideWaistLine</Data>
+            <Data name="Vampire1BeltWideWaistLine" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltWideWaistLine</Data>
+            <Data name="Vampire1ChestWideWaistLine" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestWideWaistLine</Data>
+            <Data name="Vampire1SkirtWideWaistLine" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="ChubbyWaist" target="BaseShape">ChubbyWaist.bsd</Data>
+            <Data name="PantyChubbyWaist" target="Panty">CT77Shared.osd\PantyChubbyWaist</Data>
+            <Data name="Vampire1BeltChubbyWaist" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltChubbyWaist</Data>
+            <Data name="Vampire1ChestChubbyWaist" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestChubbyWaist</Data>
+            <Data name="Vampire1SkirtChubbyWaist" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Belly" target="BaseShape">CalBelly.bsd</Data>
+            <Data name="PantyBelly" target="Panty">CT77Shared.osd\PantyBelly</Data>
+            <Data name="Vampire1BeltBelly" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBelly</Data>
+            <Data name="Vampire1ChestBelly" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBelly</Data>
+            <Data name="Vampire1SkirtBelly" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BigBelly" target="BaseShape">BigBelly.bsd</Data>
+            <Data name="PantyBigBelly" target="Panty">CT77Shared.osd\PantyBigBelly</Data>
+            <Data name="Vampire1BeltBigBelly" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBigBelly</Data>
+            <Data name="Vampire1ChestBigBelly" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBigBelly</Data>
+            <Data name="Vampire1SkirtBigBelly" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBigBelly</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TummyTuck" target="BaseShape">TummyTuck.bsd</Data>
+            <Data name="PantyTummyTuck" target="Panty">CT77Shared.osd\PantyTummyTuck</Data>
+            <Data name="Vampire1BeltTummyTuck" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltTummyTuck</Data>
+            <Data name="Vampire1ChestTummyTuck" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestTummyTuck</Data>
+            <Data name="Vampire1SkirtTummyTuck" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtTummyTuck</Data>
+            <Data name="VampireBracersTummyTuck" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersTummyTuck</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Back" target="BaseShape">Back.bsd</Data>
+            <Data name="PantyBack" target="Panty">CT77Shared.osd\PantyBack</Data>
+            <Data name="Vampire1BeltBack" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBack</Data>
+            <Data name="Vampire1ChestBack" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBack</Data>
+            <Data name="Vampire1SkirtBack" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBack</Data>
+            <Data name="VampireBracersBack" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersBack</Data>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <Data name="Hipbone" target="BaseShape">Hipbone.bsd</Data>
+            <Data name="PantyHipbone" target="Panty">CT77Shared.osd\PantyHipbone</Data>
+            <Data name="Vampire1BeltHipbone" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltHipbone</Data>
+            <Data name="Vampire1ChestHipbone" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestHipbone</Data>
+            <Data name="Vampire1SkirtHipbone" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtHipbone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Hips" target="BaseShape">Hips.bsd</Data>
+            <Data name="PantyHips" target="Panty">CT77Shared.osd\PantyHips</Data>
+            <Data name="Vampire1BeltHips" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltHips</Data>
+            <Data name="Vampire1ChestHips" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestHips</Data>
+            <Data name="Vampire1SkirtHips" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtHips</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="true" small="100" big="100">
+            <Data name="ButtCrack" target="BaseShape">ButtCrack.bsd</Data>
+            <Data name="PantyButtCrack" target="Panty">CT77Shared.osd\PantyButtCrack</Data>
+            <Data name="Vampire1ChestButtCrack" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButtCrack</Data>
+        </Slider>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="Butt1" target="BaseShape">Butt1.bsd</Data>
+            <Data name="PantyButt" target="Panty">CT77Shared.osd\PantyButt</Data>
+            <Data name="Vampire1BeltButt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltButt</Data>
+            <Data name="Vampire1ChestButt" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButt</Data>
+            <Data name="Vampire1SkirtButt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtButt</Data>
+            <Data name="VampireBracersButt" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersButt</Data>
+            <Data name="VampireLeggingsButt" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="ButtSm" target="BaseShape">ButtSm.bsd</Data>
+            <Data name="PantyButtSmall" target="Panty">CT77Shared.osd\PantyButtSmall</Data>
+            <Data name="Vampire1BeltButtSmall" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltButtSmall</Data>
+            <Data name="Vampire1ChestButtSmall" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButtSmall</Data>
+            <Data name="Vampire1SkirtButtSmall" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtButtSmall</Data>
+            <Data name="VampireLeggingsButtSmall" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="MakButt" target="BaseShape">MakButt.bsd</Data>
+            <Data name="PantyButtShape2" target="Panty">CT77Shared.osd\PantyButtShape2</Data>
+            <Data name="Vampire1BeltButtShape2" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltButtShape2</Data>
+            <Data name="Vampire1ChestButtShape2" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestButtShape2</Data>
+            <Data name="Vampire1SkirtButtShape2" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtButtShape2</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BigButt" target="BaseShape">BigButt.bsd</Data>
+            <Data name="PantyBigButt" target="Panty">CT77Shared.osd\PantyBigButt</Data>
+            <Data name="Vampire1BeltBigButt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltBigButt</Data>
+            <Data name="Vampire1ChestBigButt" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestBigButt</Data>
+            <Data name="Vampire1SkirtBigButt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtBigButt</Data>
+            <Data name="VampireLeggingsBigButt" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="ChubbyButt" target="BaseShape">ChubbyButt.bsd</Data>
+            <Data name="PantyChubbyButt" target="Panty">CT77Shared.osd\PantyChubbyButt</Data>
+            <Data name="Vampire1BeltChubbyButt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltChubbyButt</Data>
+            <Data name="Vampire1ChestChubbyButt" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestChubbyButt</Data>
+            <Data name="Vampire1SkirtChubbyButt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtChubbyButt</Data>
+            <Data name="VampireLeggingsChubbyButt" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="AppleCheecks" target="BaseShape">AppleCheeks.bsd</Data>
+            <Data name="PantyAppleCheeks" target="Panty">CT77Shared.osd\PantyAppleCheeks</Data>
+            <Data name="Vampire1BeltAppleCheeks" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltAppleCheeks</Data>
+            <Data name="Vampire1SkirtAppleCheeks" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="RoundAss" target="BaseShape">RoundAss.bsd</Data>
+            <Data name="PantyRoundAss" target="Panty">CT77Shared.osd\PantyRoundAss</Data>
+            <Data name="Vampire1BeltRoundAss" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltRoundAss</Data>
+            <Data name="Vampire1SkirtRoundAss" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtRoundAss</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Groin" target="BaseShape">Groin.bsd</Data>
+            <Data name="PantyGroin" target="Panty">CT77Shared.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="SlimThighs" target="BaseShape">SlimThighs.bsd</Data>
+            <Data name="PantySlimThighs" target="Panty">CT77Shared.osd\PantySlimThighs</Data>
+            <Data name="Vampire1BeltSlimThighs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltSlimThighs</Data>
+            <Data name="Vampire1SkirtSlimThighs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtSlimThighs</Data>
+            <Data name="VampireLeggingsSlimThighs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Thighs" target="BaseShape">CalThighs.bsd</Data>
+            <Data name="PantyThighs" target="Panty">CT77Shared.osd\PantyThighs</Data>
+            <Data name="Vampire1BeltThighs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltThighs</Data>
+            <Data name="Vampire1SkirtThighs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtThighs</Data>
+            <Data name="VampireLeggingsThighs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="ChubbyLegs" target="BaseShape">ChubbyLegs.bsd</Data>
+            <Data name="PantyChubbyLegs" target="Panty">CT77Shared.osd\PantyChubbyLegs</Data>
+            <Data name="Vampire1BeltChubbyLegs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltChubbyLegs</Data>
+            <Data name="Vampire1SkirtChubbyLegs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtChubbyLegs</Data>
+            <Data name="VampireLeggingsChubbyLegs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="Legs" target="BaseShape">Legs.bsd</Data>
+            <Data name="PantyLegs" target="Panty">CT77Shared.osd\PantyLegs</Data>
+            <Data name="Vampire1BeltLegs" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltLegs</Data>
+            <Data name="Vampire1ChestLegs" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestLegs</Data>
+            <Data name="Vampire1SkirtLegs" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtLegs</Data>
+            <Data name="VampireLeggingsLegs" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="KneeHeight" target="BaseShape">KneeHeight.bsd</Data>
+            <Data name="VampireLeggingsKneeHeight" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CalfSize" target="BaseShape">CalfSize.bsd</Data>
+            <Data name="VampireLeggingsCalfSize" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CalfSmooth" target="BaseShape">CalfSmooth.bsd</Data>
+            <Data name="VampireLeggingsCalfSmooth" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="Ankles" target="BaseShape">Ankles.bsd</Data>
+            <Data name="VampireLeggingsAnkles" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="SeamSm" target="BaseShape">SeamSm.bsd</Data>
+            <Data name="Vampire1ChestSmallSeam" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestSmallSeam</Data>
+            <Data name="VampireBracersSmallSeam" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersSmallSeam</Data>
+            <Data name="VampireLeggingsSmallSeam" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsSmallSeam</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="100" big="100" hidden="true">
+            <Data name="ShoulderTweak" target="BaseShape">ShoulderTweak.bsd</Data>
+            <Data name="Vampire1ChestShoulderTweak" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestShoulderTweak</Data>
+        </Slider>
+        <Slider name="ZapChest" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire1ChestZapChest" target="Vampire1Chest" local="true">CT77VampireRoyal.osd\Vampire1ChestZapChest</Data>
+        </Slider>
+        <Slider name="ZapBracers" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireBracersZapBracers" target="VampireBracers" local="true">CT77VampireRoyal.osd\VampireBracersZapBracers</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire1BeltZapBelt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltZapBelt</Data>
+            <Data name="Vampire1SkirtZapBelt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapBelt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire1BeltZapBelt" target="Vampire1Belt" local="true">CT77VampireRoyal.osd\Vampire1BeltZapBelt</Data>
+            <Data name="Vampire1SkirtZapBelt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtZapBelt</Data>
+        </Slider>
+        <Slider name="ZapSkirt" invert="false" small="0" big="0" zap="true">
+            <Data name="Vampire1SkirtZapSkirt" target="Vampire1Skirt" local="true">CT77VampireRoyal.osd\Vampire1SkirtZapSkirt</Data>
+        </Slider>
+        <Slider name="ZapLeggings" invert="false" small="0" big="0" zap="true">
+            <Data name="VampireLeggingsZapLeggings" target="VampireLeggings" local="true">CT77VampireRoyal.osd\VampireLeggingsZapLeggings</Data>
+        </Slider>
+        <Slider name="ZapPanty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyZapPanty" target="Panty">CT77Shared.osd\PantyZapPanty</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Vampire Boots">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77VampireBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirebootsf</OutputFile>
+        <Shape target="VampireBoots">VampireBoots</Shape>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="VampireBootsChubbyLegs" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="VampireBootsLegs" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="VampireBootsKneeHeight" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="VampireBootsCalfSize" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="VampireBootsCalfSmooth" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="VampireBootsAnkles" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="VampireBootsSmallSeam" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Vampire Gloves">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77VampireGloves.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampireglovesf</OutputFile>
+        <Shape target="VampireGloves">VampireGloves</Shape>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="VampireGlovesSmallSeam" target="VampireGloves" local="true">CT77VampireGloves.osd\VampireGlovesSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CT77 Vampire Thigh Boots">
+        <DataFolder>CT77Vampire</DataFolder>
+        <SourceFile>CT77VampireThighBoots.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">CT77vampirethighbootsf</OutputFile>
+        <Shape target="VampireBoots">VampireBoots</Shape>
+        <Shape target="VampireLeggings">VampireLeggings</Shape>
+        <Slider name="Butt" invert="true" small="0" big="100">
+            <Data name="VampireLeggingsButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButt</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <Data name="VampireLeggingsButtSmall" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsButtSmall</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="VampireLeggingsBigButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsBigButt</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="VampireLeggingsChubbyButt" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyButt</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="VampireBootsSlimThighs" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsSlimThighs</Data>
+            <Data name="VampireLeggingsSlimThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="VampireLeggingsThighs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsThighs</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="VampireBootsChubbyLegs" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsChubbyLegs</Data>
+            <Data name="VampireLeggingsChubbyLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsChubbyLegs</Data>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <Data name="VampireBootsLegs" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsLegs</Data>
+            <Data name="VampireLeggingsLegs" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="VampireBootsKneeHeight" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsKneeHeight</Data>
+            <Data name="VampireLeggingsKneeHeight" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsKneeHeight</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="VampireBootsCalfSize" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsCalfSize</Data>
+            <Data name="VampireLeggingsCalfSize" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="VampireBootsCalfSmooth" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsCalfSmooth</Data>
+            <Data name="VampireLeggingsCalfSmooth" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsCalfSmooth</Data>
+        </Slider>
+        <Slider name="Ankles" invert="true" small="100" big="100">
+            <Data name="VampireBootsAnkles" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsAnkles</Data>
+            <Data name="VampireLeggingsAnkles" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsAnkles</Data>
+        </Slider>
+        <Slider name="SmallSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="VampireBootsSmallSeam" target="VampireBoots" local="true">CT77VampireBoots.osd\VampireBootsSmallSeam</Data>
+            <Data name="VampireLeggingsSmallSeam" target="VampireLeggings" local="true">CT77Vampire.osd\VampireLeggingsSmallSeam</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

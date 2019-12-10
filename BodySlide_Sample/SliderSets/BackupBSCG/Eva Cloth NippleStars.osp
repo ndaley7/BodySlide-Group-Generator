@@ -1,0 +1,78 @@
+<SliderSetInfo version="1">
+    <SliderSet name="Eva Cloth NippleStars">
+        <DataFolder>Eva Cloth NippleStars</DataFolder>
+        <SourceFile>Eva Cloth NippleStars.nif</SourceFile>
+        <OutputPath>meshes\Zquad1\Armor\EvaCloth</OutputPath>
+        <OutputFile GenWeights="true">NippleStars</OutputFile>
+        <Shape target="NippleStars">NippleStars</Shape>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <Data name="NippleStarsBreasts" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <Data name="NippleStarsBreastsSmall" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastsSH" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastsSH</Data>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastsSSH" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastsSSH</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastsFantasy" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="NippleStarsDoubleMelon" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsDoubleMelon</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastCleavage" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastFlatness" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastGravity" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastGravity</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="NippleStarsPushUp" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsPushUp</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastHeight" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastPerkiness" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastPerkiness</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="NippleStarsBreastWidth" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBreastWidth</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <Data name="NippleStarsNippleDistance" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNippleDistance</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="NippleStarsNipplePerkiness" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NippleStarsNippleLength" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNippleLength</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <Data name="NippleStarsNippleSize" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNippleSize</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" small="0" big="0">
+            <Data name="NippleStarsNippleAreola" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="NippleStarsNippleUp" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="NippleStarsNippleDown" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNippleDown</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="NippleStarsNippleTip" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsNippleTip</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="NippleStarsBigTorso" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsBigTorso</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="NippleStarsPregnancyBelly" target="NippleStars" local="true">Eva Cloth NippleStars.osd\NippleStarsPregnancyBelly</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
