@@ -39,6 +39,7 @@ from .UITkSelection import CustomWarning
 from .UITkSelection import CustomError
 from .BSCGLogging import LoggingInfoBSCG
 
+masterListString="MasterList"
 #Returns a List of files within the specified filePath with specified fileExtension
 def GetFileList(filePath,fileExtension):
     #Variables
@@ -120,10 +121,12 @@ def SliderSetBackup(sliderPath):
 
             #Compare Backup and Original Sizes
 
-            if(originalSize!=backupSize):
+            if(originalSize!=backupSize and "MasterList" not in os.path.basename(file)):
                 #Copy File and overwrite if difference in size is detected.
                 copy2(sliderPath+"/BackupBSCG/"+os.path.basename(file),file)
-                LoggingInfoBSCG("BACKUP: Size Difference Detected, Reverting "+os.path.basename(file))
+                LoggingInfoBSCG("BACKUP: Size Diff, Reverting "+os.path.basename(file))
+            else:
+                LoggingInfoBSCG("BACKUP: Kept "+os.path.basename(file))
 
 
     
@@ -155,10 +158,12 @@ def SliderRevertCheck(sliderPath):
 
             #Compare Backup and Original Sizes
 
-            if(originalSize!=backupSize):
+            if(originalSize!=backupSize and "MasterList" not in os.path.basename(file)):
                 #Copy File and overwrite if difference in size is detected.
                 copy2(sliderPath+"/BackupBSCG/"+os.path.basename(file),file)
-                LoggingInfoBSCG("REVERT: Size Difference Detected, Reverting "+os.path.basename(file))
+                LoggingInfoBSCG("REVERT: Size Diff, Reverting "+os.path.basename(file))
+            else:
+                LoggingInfoBSCG("REVERT: Kept "+os.path.basename(file))
 
 
 

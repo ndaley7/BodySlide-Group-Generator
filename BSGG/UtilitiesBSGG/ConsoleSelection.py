@@ -77,7 +77,7 @@ def ConsoleSelectHelper(inputGroup,manualSelectBool):
             print(" ")
             print("( 1 ): Keep SuperGroup As Is")
             print("( 2 ): Rename This SuperGroup")
-            print("( 3 ): Split SuperGroup (Coming in Version 1.3)")
+            print("( 3 ): Split SuperGroup")
 
             choices = input('-->: ')
             selected = [x for x in choices.split()]

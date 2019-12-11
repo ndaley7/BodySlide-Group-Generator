@@ -1,8 +1,15 @@
 <SliderGroups>
-  <Group name="SexyElfOutfit">
-    <Member name="Sexy Elf Outfit HDT"/>
-  </Group>
-  <Group name="SexyElfOutfitNoCloth">
-    <Member name="Sexy Elf Outfit (No Cloth) HDT"/>
+  <Group name="Bondage a black &amp; pink">
+    <Member name="bondage A black &amp; Pink"/>
+    <Member name="bondage A black &amp; Silver"/>
+    <Member name="bondage A black &amp; gold"/>
+    <Member name="bondage C black &amp; pink"/>
+    <Member name="bondage C black &amp; silver"/>
+    <Member name="bondage C pink &amp; black"/>
+    <Member name="bondage C red"/>
+    <Member name="bondage b black &amp; Gold"/>
+    <Member name="bondage b black &amp; Pink"/>
+    <Member name="bondage b black &amp; Silver"/>
+    <Member name="bondage b white &amp; gold"/>
   </Group>
 </SliderGroups>

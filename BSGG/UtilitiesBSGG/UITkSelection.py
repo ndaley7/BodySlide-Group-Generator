@@ -45,6 +45,9 @@ from ..ParsingBSGG.XMLIO import CreateConfigBSCGXML
 
 
 
+#root.mainloop()
+def rcpath(rel_path):
+    return os.path.join(os.path.dirname(__file__), rel_path)
 
  
 
@@ -54,6 +57,7 @@ def BodySlidePathSelect():
     #Init
     #Create and Hide Root window
     root = tk.Tk()
+    root.iconbitmap(rcpath(r'bscg.ico'))
     root.withdraw()
 
     #Boolean
@@ -96,6 +100,7 @@ def BodySlidePathSelect():
 def CustomYesNoTF(stringTitle,stringContent):
    #Create and Hide Root window
     root = tk.Tk()
+    root.iconbitmap(rcpath(r'bscg.ico'))
     root.withdraw()
     #Display Yes/No Dialog
     result=messagebox.askyesno(stringTitle,stringContent)
@@ -109,6 +114,7 @@ def CustomYesNoTF(stringTitle,stringContent):
 def CustomOK(stringTitle,stringContent):
     #Create and Hide Root window
     root = tk.Tk()
+    root.iconbitmap(rcpath(r'bscg.ico'))
     root.withdraw()
     #Display Okay Dialog
     messagebox.showinfo(stringTitle,stringContent)
@@ -121,6 +127,8 @@ def CustomOK(stringTitle,stringContent):
 def CustomYesNoCancel(stringTitle,stringContent):
     #Create and Hide Root window
     root = tk.Tk()
+    
+    root.iconbitmap(rcpath(r'bscg.ico'))
     root.withdraw()
     #Display Okay Dialog
     result=messagebox.askyesnocancel(stringTitle,stringContent)
@@ -135,6 +143,7 @@ def CustomYesNoCancel(stringTitle,stringContent):
 def CustomWarning(stringTitle,stringContent):
    #Create and Hide Root window
     root = tk.Tk()
+    root.iconbitmap(rcpath(r'bscg.ico'))
     root.withdraw()
     #Display Okay Dialog
     messagebox.showwarning(stringTitle,stringContent)
@@ -145,6 +154,7 @@ def CustomWarning(stringTitle,stringContent):
 def CustomError(stringTitle,stringContent):
    #Create and Hide Root window
     root = tk.Tk()
+    root.iconbitmap(rcpath(r'bscg.ico'))
     root.withdraw()
     #Display Okay Dialog
     messagebox.showerror(stringTitle,stringContent)
