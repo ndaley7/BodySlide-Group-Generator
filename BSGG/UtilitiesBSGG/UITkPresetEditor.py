@@ -25,13 +25,21 @@
     3. This notice may not be removed or altered from any source
     distribution.
 """
-
+#The hotkey in VScode for tabbing a whole selection is ctrl+]
 import tkinter as tk
 import tkinter.ttk
+
+
 
 def select():
     curItems = tree.selection()
     tk.Label(root, text="\n".join([str(tree.item(i)['values']) for i in curItems])).pack()
+
+#This function will access the SliderPreset Folder and bring up a UI to first select the preset
+#and then the SliderGroups desired for inclusion.
+def PresetSelector():
+    presetCount=0
+
 
 root = tk.Tk()
 tree = tkinter.ttk.Treeview(root, height=10)
