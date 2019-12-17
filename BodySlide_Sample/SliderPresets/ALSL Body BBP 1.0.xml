@@ -1,0 +1,73 @@
+<SliderPresets>
+    <Preset name="ALSL Body BBP 1.0" set="CB++ Body BBP">
+        <Group name="Mak Armor - Vanilla Replacer" />
+        <Group name="CBBE Amulets" />
+        <Group name="CB++ Ported - Killer Keo" />
+        <Group name="CB++ Outfits" />
+        <Group name="CB++ Outfits - Other" />
+        <Group name="CB++ Outfits - NobleClothes" />
+        <Group name="CB++ Outfits - Mak Dawnguard Replacer" />
+        <Group name="CB++ Outfits - Mak Dawnguard" />
+        <Group name="CB++ Outfits - Mak Vanilla Replacer" />
+        <Group name="CB++ Outfits - Mak" />
+        <Group name="CB++ Outfits - Caliente Vanilla Pack" />
+        <Group name="CB++ Amulets" />
+        <Group name="CB++ Ported" />
+        <Group name="CB++ Ported - Other" />
+        <Group name="CB++ Bodies" />
+        <Group name="CalienteVanillaClothing" />
+        <Group name="CalienteClothing" />
+        <Group name="CalienteVanillaSoldier" />
+        <Group name="CalienteSoldier" />
+        <Group name="CalienteVanillaArmor" />
+        <Group name="CalienteArmor" />
+		<Group name="CB++"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Half HDT"/>
+        <Group name="DDX Rubber Suits CBBE"/>
+        <Group name="DDX Transparent Rubber CBBE"/>
+        <Group name="DDX_Heretical"/>
+        <Group name="DDa"/>
+        <Group name="DDx"/>
+        <Group name="Heretical Resources"/>
+        <Group name="Heretical Resources BB cbbe+"/>
+        <SetSlider name="ChubbyArms" size="big" value="25" />
+        <SetSlider name="ShoulderSmooth" size="big" value="100" />
+        <SetSlider name="ShoulderWidth" size="big" value="80" />
+        <SetSlider name="ShoulderWidth" size="small" value="80" />
+        <SetSlider name="BigTorso" size="big" value="40" />
+        <SetSlider name="BigTorso" size="small" value="10" />
+        <SetSlider name="Breasts" size="small" value="-50" />
+        <SetSlider name="BreastsSmall" size="small" value="0" />
+        <SetSlider name="BreastsSSH" size="big" value="50" />
+        <SetSlider name="DoubleMelon" size="big" value="50" />
+        <SetSlider name="BreastFlatness" size="big" value="120" />
+        <SetSlider name="BreastPerkiness" size="small" value="-50" />
+        <SetSlider name="BreastWidth" size="big" value="-25" />
+        <SetSlider name="NippleDistance" size="big" value="75" />
+        <SetSlider name="NipplePerkiness" size="big" value="25" />
+        <SetSlider name="NipplePerkiness" size="small" value="35" />
+        <SetSlider name="NippleSize" size="big" value="150" />
+        <SetSlider name="Waist" size="small" value="100" />
+        <SetSlider name="ChubbyWaist" size="big" value="10" />
+        <SetSlider name="Belly" size="big" value="50" />
+        <SetSlider name="Back" size="big" value="10" />
+        <SetSlider name="Hipbone" size="small" value="25" />
+        <SetSlider name="Hips" size="big" value="10" />
+        <SetSlider name="ButtCrack" size="big" value="50" />
+        <SetSlider name="ButtSmall" size="small" value="50" />
+        <SetSlider name="AppleCheeks" size="big" value="20" />
+        <SetSlider name="AppleCheeks" size="small" value="-20" />
+        <SetSlider name="RoundAss" size="small" value="-50" />
+        <SetSlider name="Thighs" size="big" value="30" />
+        <SetSlider name="ChubbyLegs" size="big" value="25" />
+        <SetSlider name="CalfSize" size="big" value="25" />
+        <SetSlider name="CalfSmooth" size="big" value="100" />
+    </Preset>
+</SliderPresets>

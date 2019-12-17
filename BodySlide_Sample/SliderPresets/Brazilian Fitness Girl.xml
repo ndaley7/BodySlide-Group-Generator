@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderPresets>
+    <Preset name="3" set="Maximum CBBE">
+        <Group name="Angel Vixen Armor [HDT]"/>
+        <Group name="Arshes Nei Bikini [HDT or NO HDT]"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CBBE Undies"/>
+        <Group name="CBBE Vanilla"/>
+        <Group name="DCP"/>
+        <Group name="DCP_heels"/>
+        <Group name="Ebony Valkyrie Armor [HDT or NO HDT]"/>
+        <Group name="Gwelda Dawnguard Armor CBBE"/>
+        <Group name="Gwelda Dawnguard Armor CBBE HDT"/>
+        <Group name="HDT"/>
+        <Group name="Immersive Armors"/>
+        <Group name="Immersive Armors HDT"/>
+        <Group name="Lady Jasmine"/>
+        <Group name="Lind&apos;s Armor Compilation HDT"/>
+        <Group name="Lind&apos;s Armor Compilation Regular"/>
+        <Group name="Lind&apos;s Marksmage Garb [HDT or NO HDT]"/>
+        <Group name="Non-HDT"/>
+        <Group name="Tembtra Thief CBBE"/>
+        <Group name="Tembtra Thief CBBE TBBP"/>
+        <Group name="Vanilla Outfits BodySlided"/>
+        <Group name="Vanilla Outfits BodySlided (no BBP)"/>
+        <Group name="WTF Nereid Pirate CBBE"/>
+        <Group name="Weird Skirt Bodyslide"/>
+        <Group name="WildHuntress CBBE BBP"/>
+        <Group name="WildHuntress CBBE Basic"/>
+        <Group name="WildHuntress CBBE TBBP"/>
+        <SetSlider name="Ankles" size="big" value="120"/>
+        <SetSlider name="Ankles" size="small" value="0"/>
+        <SetSlider name="AppleCheeks" size="big" value="25"/>
+        <SetSlider name="Arms" size="big" value="50"/>
+        <SetSlider name="Back" size="big" value="-20"/>
+        <SetSlider name="Belly" size="big" value="-20"/>
+        <SetSlider name="BigButt" size="big" value="30"/>
+        <SetSlider name="BigTorso" size="big" value="-10"/>
+        <SetSlider name="BreastCleavage" size="big" value="50"/>
+        <SetSlider name="BreastHeight" size="big" value="100"/>
+        <SetSlider name="Breasts" size="small" value="0"/>
+        <SetSlider name="BreastsSmall" size="small" value="0"/>
+        <SetSlider name="Butt" size="big" value="200"/>
+        <SetSlider name="ButtCrack" size="small" value="0"/>
+        <SetSlider name="ButtShape2" size="big" value="45"/>
+        <SetSlider name="ButtSmall" size="small" value="0"/>
+        <SetSlider name="CalfSize" size="big" value="120"/>
+        <SetSlider name="ChubbyArms" size="big" value="-10"/>
+        <SetSlider name="ChubbyButt" size="big" value="30"/>
+        <SetSlider name="DoubleMelon" size="big" value="50"/>
+        <SetSlider name="Groin" size="big" value="10"/>
+        <SetSlider name="Hipbone" size="big" value="100"/>
+        <SetSlider name="Hips" size="big" value="25"/>
+        <SetSlider name="KneeHeight" size="big" value="75"/>
+        <SetSlider name="Legs" size="big" value="120"/>
+        <SetSlider name="NippleDistance" size="big" value="50"/>
+        <SetSlider name="NippleDistance" size="small" value="0"/>
+        <SetSlider name="NippleLength" size="big" value="25"/>
+        <SetSlider name="NipplePerkiness" size="big" value="50"/>
+        <SetSlider name="NippleSize" size="big" value="50"/>
+        <SetSlider name="NippleSize" size="small" value="0"/>
+        <SetSlider name="RoundAss" size="big" value="100"/>
+        <SetSlider name="ShoulderSmooth" size="big" value="35"/>
+        <SetSlider name="ShoulderWidth" size="big" value="65"/>
+        <SetSlider name="ShoulderWidth" size="small" value="0"/>
+        <SetSlider name="SlimThighs" size="big" value="-25"/>
+        <SetSlider name="Thighs" size="big" value="125"/>
+        <SetSlider name="Waist" size="big" value="0"/>
+        <SetSlider name="WideWaistLine" size="big" value="-25"/>
+    </Preset>
+</SliderPresets>

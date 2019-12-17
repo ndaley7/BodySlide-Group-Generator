@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderPresets>
+    <Preset name="ZeroGravity" set="Unified UNP Special">
+        <Group name="Unified UNP"/>
+        <SetSlider name="7B Bombshell High" size="big" value="100"/>
+        <SetSlider name="7B Bombshell Low" size="small" value="100"/>
+        <SetSlider name="BreastGravity" size="big" value="60"/>
+        <SetSlider name="BreastGravity" size="small" value="30"/>
+        <SetSlider name="BreastHeight" size="small" value="10"/>
+        <SetSlider name="Breasts" size="big" value="60"/>
+        <SetSlider name="BreastsSmall" size="big" value="60"/>
+        <SetSlider name="DoubleMelon" size="big" value="100"/>
+        <SetSlider name="DoubleMelon" size="small" value="100"/>
+        <SetSlider name="NippleDistance" size="big" value="80"/>
+        <SetSlider name="NippleDistance" size="small" value="80"/>
+    </Preset>
+</SliderPresets>

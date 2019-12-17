@@ -26,14 +26,15 @@
     distribution.
 """
 #The hotkey in VScode for tabbing a whole selection is ctrl+]
+from tkinter import *
 import tkinter as tk
 import tkinter.ttk
 
 
 
 def select():
-    curItems = tree.selection()
-    tk.Label(root, text="\n".join([str(tree.item(i)['values']) for i in curItems])).pack()
+    curItems = left_tree.selection()
+    tk.Label(root, text="\n".join([str(left_tree.item(i)['values']) for i in curItems])).pack()
 
 #This function will access the SliderPreset Folder and bring up a UI to first select the preset
 #and then the SliderGroups desired for inclusion.
@@ -41,30 +42,43 @@ def PresetSelector():
     presetCount=0
 
 
-root = tk.Tk()
-tree = tkinter.ttk.Treeview(root, height=10)
+#Test of a Multi Tree UI
 
-tree["columns"]=("one","two","three")
-tree.column("#0", width=270, minwidth=270, stretch=tk.YES)
-tree.column("one", width=150, minwidth=150, stretch=tk.YES)
-tree.column("two", width=400, minwidth=200)
-tree.column("three", width=80, minwidth=50, stretch=tk.YES)
+root = Tk()
 
-tree.heading("#0",text="Name",anchor=tk.W)
-tree.heading("one", text="Date modified",anchor=tk.W)
-tree.heading("two", text="Type",anchor=tk.W)
-tree.heading("three", text="Size",anchor=tk.W)
+
+upper_container = Frame(root)
+upper_container.pack()
+
+left_tree = tkinter.ttk.Treeview(upper_container)
+left_tree.pack(side=LEFT)
+right_tree = tkinter.ttk.Treeview(upper_container)
+right_tree.pack(side=LEFT)
+
+#lower_tree = ttk.Treeview(root)
+#lower_tree.pack()
+
+left_tree["columns"]=("one","two","three")
+left_tree.column("#0", width=270, minwidth=270, stretch=tk.YES)
+left_tree.column("one", width=150, minwidth=150, stretch=tk.YES)
+left_tree.column("two", width=400, minwidth=200)
+left_tree.column("three", width=80, minwidth=50, stretch=tk.YES)
+
+left_tree.heading("#0",text="Name",anchor=tk.W)
+left_tree.heading("one", text="Date modified",anchor=tk.W)
+left_tree.heading("two", text="Type",anchor=tk.W)
+left_tree.heading("three", text="Size",anchor=tk.W)
 
 #Level 1
-folder1=tree.insert("", 1, "", text="Folder 1", values=("23-Jun-17 11:05","File folder",""))
-tree.insert("", 2, "", text="text_file.txt", values=("23-Jun-17 11:25","TXT file","1 KB"))
+folder1=left_tree.insert("", 1, "", text="Folder 1", values=("23-Jun-17 11:05","File folder",""))
+left_tree.insert("", 2, "", text="text_file.txt", values=("23-Jun-17 11:25","TXT file","1 KB"))
 # Level 2
-tree.insert(folder1, "end", "", text="photo1.png", values=("23-Jun-17 11:28","PNG file","2.6 KB"))
-tree.insert(folder1, "end", "", text="photo2.png", values=("23-Jun-17 11:29","PNG file","3.2 KB"))
-tree.insert(folder1, "end", "", text="photo3.png", values=("23-Jun-17 11:30","PNG file","3.1 KB"))
+left_tree.insert(folder1, "end", "", text="photo1.png", values=("23-Jun-17 11:28","PNG file","2.6 KB"))
+left_tree.insert(folder1, "end", "", text="photo2.png", values=("23-Jun-17 11:29","PNG file","3.2 KB"))
+left_tree.insert(folder1, "end", "", text="photo3.png", values=("23-Jun-17 11:30","PNG file","3.1 KB"))
 
-tree.pack(side=tk.TOP,fill=tk.X)
+#tree.pack(side=tk.TOP,fill=tk.X)
 
-tree.bind("<Return>", lambda e: select())
+left_tree.bind("<Return>", lambda e: select())
 
 root.mainloop()

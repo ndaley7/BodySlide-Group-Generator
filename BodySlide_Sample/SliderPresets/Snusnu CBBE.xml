@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderPresets>
+    <Preset name="Snusnu CBBE" set="CT77 Steel">
+        <Group name="Ancient Draugr BBP"/>
+        <Group name="Ancient Draugr CBBE Basic"/>
+        <Group name="Ancient Draugr TBBP"/>
+        <Group name="BD Leather Robes"/>
+        <Group name="Bijin Family"/>
+        <Group name="Bijin Family - HDT"/>
+        <Group name="Bikini Guard Set CBBE"/>
+        <Group name="BkAc - Elven CBBE"/>
+        <Group name="BkAc - Orc CBBE"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CBBE Undies"/>
+        <Group name="CBBE Vanilla"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Body"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Throwback"/>
+        <Group name="DB Barbarian HDT ALT"/>
+        <Group name="DB Marauder"/>
+        <Group name="DB Marauder Alt"/>
+        <Group name="DragonPlate Brazen Ver2"/>
+        <Group name="DragonPlate Brazen Ver2 HDT"/>
+        <Group name="Dragonbone Barbarian"/>
+        <Group name="Dragonbone Barbarian HDT"/>
+        <Group name="Fancy Dress"/>
+        <Group name="Goma Robes -Replacer-"/>
+        <Group name="Goma Robes -Standalone-"/>
+        <Group name="Healer Clothes"/>
+        <Group name="Hentai Pantsu"/>
+        <Group name="Hot Pants Bikini Set"/>
+        <Group name="HuntingGroundsOutfit HDT"/>
+        <Group name="Lady of Death"/>
+        <Group name="Naturalistic Bodybuilding"/>
+        <Group name="Nordic Carved Bikini CBBE"/>
+        <Group name="Sexy Demon Hunter"/>
+        <Group name="Sexy Elf Set"/>
+        <Group name="Sexy Robes"/>
+        <Group name="Skimpy Nova"/>
+        <Group name="Sotteta Necro CBBE"/>
+        <Group name="Sotteta Necro CBBE BBP"/>
+        <Group name="Sotteta Necro CBBE TBBP"/>
+        <Group name="Thieves Guild Duelist Armor"/>
+        <Group name="Tsuntsun Armor"/>
+        <Group name="Unified UNP"/>
+        <Group name="WWB - Blades CBBE"/>
+        <Group name="WWB - Dragonbone CBBE"/>
+        <Group name="WWB - Dwemer CBBE"/>
+        <Group name="WWB - Ebony CBBE"/>
+        <Group name="WWB - Falmer CBBE"/>
+        <Group name="WWB - Hide CBBE"/>
+        <Group name="WWB - Iron CBBE"/>
+        <Group name="WWB - Leather CBBE"/>
+        <Group name="WWB - Nord Plate CBBE"/>
+        <Group name="WWB - Steel Plate CBBE"/>
+        <Group name="WWB - Wolf CBBE"/>
+        <SetSlider name="AppleCheeks" size="big" value="100"/>
+        <SetSlider name="AppleCheeks" size="small" value="50"/>
+        <SetSlider name="Arms" size="big" value="250"/>
+        <SetSlider name="Arms" size="small" value="25"/>
+        <SetSlider name="Back" size="big" value="-30"/>
+        <SetSlider name="Belly" size="small" value="40"/>
+        <SetSlider name="BigButt" size="big" value="55"/>
+        <SetSlider name="BigTorso" size="big" value="87"/>
+        <SetSlider name="BigTorso" size="small" value="30"/>
+        <SetSlider name="BreastCleavage" size="big" value="130"/>
+        <SetSlider name="BreastCleavage" size="small" value="70"/>
+        <SetSlider name="BreastFlatness" size="small" value="15"/>
+        <SetSlider name="BreastGravity" size="small" value="20"/>
+        <SetSlider name="BreastHeight" size="big" value="-30"/>
+        <SetSlider name="BreastsSH" size="big" value="33"/>
+        <SetSlider name="BreastsSH" size="small" value="79"/>
+        <SetSlider name="BreastsSSH" size="big" value="80"/>
+        <SetSlider name="BreastsSSH" size="small" value="31"/>
+        <SetSlider name="BreastsSmall" size="big" value="55"/>
+        <SetSlider name="BreastsSmall" size="small" value="10"/>
+        <SetSlider name="ButtCrack" size="big" value="80"/>
+        <SetSlider name="ButtSmall" size="big" value="69"/>
+        <SetSlider name="CalfSize" size="big" value="100"/>
+        <SetSlider name="CalfSize" size="small" value="100"/>
+        <SetSlider name="CalfSmooth" size="big" value="100"/>
+        <SetSlider name="ChubbyArms" size="big" value="100"/>
+        <SetSlider name="ChubbyButt" size="big" value="100"/>
+        <SetSlider name="ChubbyLegs" size="big" value="60"/>
+        <SetSlider name="ChubbyWaist" size="big" value="-20"/>
+        <SetSlider name="ChubbyWaist" size="small" value="35"/>
+        <SetSlider name="DoubleMelon" size="big" value="19"/>
+        <SetSlider name="Hips" size="big" value="-80"/>
+        <SetSlider name="Hips" size="small" value="30"/>
+        <SetSlider name="Legs" size="big" value="200"/>
+        <SetSlider name="Legs" size="small" value="25"/>
+        <SetSlider name="NippleAreola" size="big" value="66"/>
+        <SetSlider name="NippleLength" size="big" value="37"/>
+        <SetSlider name="NippleLength" size="small" value="15"/>
+        <SetSlider name="NipplePerkiness" size="small" value="50"/>
+        <SetSlider name="NippleSize" size="big" value="97"/>
+        <SetSlider name="NippleSize" size="small" value="200"/>
+        <SetSlider name="NippleTip" size="big" value="100"/>
+        <SetSlider name="PushUp" size="big" value="100"/>
+        <SetSlider name="ShoulderWidth" size="small" value="50"/>
+        <SetSlider name="SlimThighs" size="big" value="-100"/>
+        <SetSlider name="Thighs" size="big" value="29"/>
+        <SetSlider name="Thighs" size="small" value="100"/>
+        <SetSlider name="Waist" size="big" value="150"/>
+        <SetSlider name="WideWaistLine" size="big" value="29"/>
+        <SetSlider name="WideWaistLine" size="small" value="-30"/>
+        <SetSlider name="ZapPanty" size="big" value="100"/>
+        <SetSlider name="ZapPanty" size="small" value="100"/>
+        <SetSlider name="ZapSkirt" size="big" value="100"/>
+        <SetSlider name="ZapSkirt" size="small" value="100"/>
+    </Preset>
+</SliderPresets>

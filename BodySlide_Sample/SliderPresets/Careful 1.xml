@@ -1,0 +1,44 @@
+<SliderPresets>
+    <Preset name="Careful 1" set="Unified UNP HDT">
+        <Group name="CBAdvanced"/>
+        <Group name="Converse Shoes"/>
+        <Group name="Luxury Collection HDT"/>
+        <Group name="Unified UNP"/>
+        <Group name="WTF DAZ3D Pumps &amp; Stocking"/>
+        <Group name="WTF Elvenia Bikini Armor"/>
+        <Group name="WTF Flawless Radiant Princess Set"/>
+        <Group name="WTF PeroPero Vanilla Outfit Standalone"/>
+        <Group name="WTF The Amazing World of Bikini Armors"/>
+        <SetSlider name="AppleCheeks" size="big" value="30"/>
+        <SetSlider name="BigBelly" size="big" value="0"/>
+        <SetSlider name="BigTorso" size="big" value="-50"/>
+        <SetSlider name="BreastCleavage" size="big" value="0"/>
+        <SetSlider name="BreastFlatness" size="big" value="0"/>
+        <SetSlider name="BreastGravity" size="big" value="100"/>
+        <SetSlider name="BreastHeight" size="big" value="-75"/>
+        <SetSlider name="BreastPerkiness" size="big" value="0"/>
+        <SetSlider name="BreastWidth" size="big" value="-50"/>
+        <SetSlider name="Breasts" size="big" value="125"/>
+        <SetSlider name="BreastsSmall" size="big" value="64"/>
+        <SetSlider name="ButtCrack" size="big" value="0"/>
+        <SetSlider name="ButtShape2" size="big" value="100"/>
+        <SetSlider name="CalfSize" size="big" value="100"/>
+        <SetSlider name="CalfSmooth" size="big" value="100"/>
+        <SetSlider name="ChubbyArms" size="big" value="60"/>
+        <SetSlider name="ChubbyLegs" size="big" value="44"/>
+        <SetSlider name="DoubleMelon" size="big" value="200"/>
+        <SetSlider name="Hipbone" size="big" value="-50"/>
+        <SetSlider name="Hips" size="big" value="0"/>
+        <SetSlider name="KneeHeight" size="big" value="100"/>
+        <SetSlider name="NippleAreola" size="big" value="-50"/>
+        <SetSlider name="NippleDown" size="big" value="-100"/>
+        <SetSlider name="NippleSize" size="big" value="100"/>
+        <SetSlider name="NippleTip" size="big" value="-50"/>
+        <SetSlider name="NippleUp" size="big" value="100"/>
+        <SetSlider name="RoundAss" size="big" value="100"/>
+        <SetSlider name="ShoulderSmooth" size="big" value="-50"/>
+        <SetSlider name="Thighs" size="big" value="63"/>
+        <SetSlider name="TummyTuck" size="big" value="100"/>
+        <SetSlider name="WideWaistLine" size="big" value="-80"/>
+    </Preset>
+</SliderPresets>

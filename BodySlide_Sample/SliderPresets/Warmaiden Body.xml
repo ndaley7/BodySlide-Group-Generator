@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderPresets>
+    <Preset name="Warmaiden Body" set="SoS - Schlong for Females HD">
+        <Group name="Ancient Draugr BBP"/>
+        <Group name="Ancient Draugr CBBE Basic"/>
+        <Group name="Ancient Draugr TBBP"/>
+        <Group name="BD Leather Robes"/>
+        <Group name="Bijin Family"/>
+        <Group name="Bijin Family - HDT"/>
+        <Group name="Bikini Guard Set CBBE"/>
+        <Group name="BkAc - Elven CBBE"/>
+        <Group name="BkAc - Orc CBBE"/>
+        <Group name="CB++"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CBBE Undies"/>
+        <Group name="CBBE Vanilla"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Half HDT"/>
+        <Group name="CT77 Triss"/>
+        <Group name="Charming High Heels (BBP Stockings)"/>
+        <Group name="Charming High Heels (CT77 Stockings)"/>
+        <Group name="Charming High Heels (HDT Stockings)"/>
+        <Group name="Charming High Heels (Normal Stockings)"/>
+        <Group name="Charming High Heels (TBBP Stockings)"/>
+        <Group name="DB Barbarian HDT ALT"/>
+        <Group name="DB Marauder"/>
+        <Group name="DB Marauder Alt"/>
+        <Group name="DragonPlate Brazen Ver2"/>
+        <Group name="DragonPlate Brazen Ver2 HDT"/>
+        <Group name="Dragonbone Barbarian"/>
+        <Group name="Dragonbone Barbarian HDT"/>
+        <Group name="Fancy Dress"/>
+        <Group name="Goma Robes -Replacer-"/>
+        <Group name="Goma Robes -Standalone-"/>
+        <Group name="Hot Pants Bikini Set"/>
+        <Group name="HuntingGroundsOutfit HDT"/>
+        <Group name="Lady of Death"/>
+        <Group name="Nordic Carved Bikini CBBE"/>
+        <Group name="Sexy Demon Hunter"/>
+        <Group name="Sexy Elf Set"/>
+        <Group name="Sexy Robes"/>
+        <Group name="Snow White Armor"/>
+        <Group name="Sotteta Necro CBBE"/>
+        <Group name="Sotteta Necro CBBE BBP"/>
+        <Group name="Sotteta Necro CBBE TBBP"/>
+        <Group name="Thieves Guild Duelist Armor"/>
+        <Group name="Tsuntsun Armor"/>
+        <Group name="Unified UNP"/>
+        <Group name="WWB - Blades CBBE"/>
+        <Group name="WWB - Dragonbone CBBE"/>
+        <Group name="WWB - Dwemer CBBE"/>
+        <Group name="WWB - Ebony CBBE"/>
+        <Group name="WWB - Falmer CBBE"/>
+        <Group name="WWB - Hide CBBE"/>
+        <Group name="WWB - Iron CBBE"/>
+        <Group name="WWB - Leather CBBE"/>
+        <Group name="WWB - Nord Plate CBBE"/>
+        <Group name="WWB - Steel Plate CBBE"/>
+        <Group name="WWB - Wolf CBBE"/>
+        <SetSlider name="Ankles" size="small" value="50"/>
+        <SetSlider name="AppleCheeks" size="big" value="30"/>
+        <SetSlider name="AppleCheeks" size="small" value="15"/>
+        <SetSlider name="Arms" size="small" value="50"/>
+        <SetSlider name="Belly" size="big" value="100"/>
+        <SetSlider name="BreastFlatness" size="big" value="30"/>
+        <SetSlider name="BreastPerkiness" size="big" value="-20"/>
+        <SetSlider name="BreastPerkiness" size="small" value="-10"/>
+        <SetSlider name="BreastWidth" size="big" value="-70"/>
+        <SetSlider name="BreastWidth" size="small" value="-35"/>
+        <SetSlider name="Breasts" size="small" value="50"/>
+        <SetSlider name="BreastsSSH" size="big" value="20"/>
+        <SetSlider name="BreastsSSH" size="small" value="10"/>
+        <SetSlider name="BreastsSmall" size="small" value="50"/>
+        <SetSlider name="Butt" size="big" value="0"/>
+        <SetSlider name="ButtCrack" size="big" value="0"/>
+        <SetSlider name="ButtCrack" size="small" value="0"/>
+        <SetSlider name="ButtShape2" size="big" value="30"/>
+        <SetSlider name="ButtShape2" size="small" value="15"/>
+        <SetSlider name="ButtSmall" size="small" value="50"/>
+        <SetSlider name="CalfSize" size="big" value="40"/>
+        <SetSlider name="CalfSize" size="small" value="20"/>
+        <SetSlider name="CalfSmooth" size="big" value="100"/>
+        <SetSlider name="CalfSmooth" size="small" value="50"/>
+        <SetSlider name="ChubbyArms" size="big" value="50"/>
+        <SetSlider name="ChubbyArms" size="small" value="25"/>
+        <SetSlider name="DoubleMelon" size="big" value="70"/>
+        <SetSlider name="DoubleMelon" size="small" value="35"/>
+        <SetSlider name="ERF Glans Big" size="big" value="0"/>
+        <SetSlider name="ERF Glans Big" size="small" value="100"/>
+        <SetSlider name="ERF Glans Shape 1" size="big" value="200"/>
+        <SetSlider name="ERF Glans Shape 1" size="small" value="100"/>
+        <SetSlider name="ERF Glans Shape 2" size="big" value="-100"/>
+        <SetSlider name="ERF Glans Shape 2" size="small" value="100"/>
+        <SetSlider name="ERF Glans Small" size="big" value="100"/>
+        <SetSlider name="ERF Glans Small" size="small" value="0"/>
+        <SetSlider name="ERF Penis Girth" size="big" value="300"/>
+        <SetSlider name="ERF Penis Girth" size="small" value="200"/>
+        <SetSlider name="ERF Penis Length" size="big" value="300"/>
+        <SetSlider name="ERF Penis Length" size="small" value="200"/>
+        <SetSlider name="ERF Testicle Gravity" size="big" value="50"/>
+        <SetSlider name="ERF Testicle Gravity" size="small" value="50"/>
+        <SetSlider name="ERF Testicle Shape 1" size="big" value="100"/>
+        <SetSlider name="ERF Testicle Shape 1" size="small" value="100"/>
+        <SetSlider name="ERF Testicle Shape 2" size="big" value="-190"/>
+        <SetSlider name="ERF Testicle Shape 2" size="small" value="-190"/>
+        <SetSlider name="ERF Testicle Size" size="big" value="80"/>
+        <SetSlider name="ERF Testicle Size" size="small" value="20"/>
+        <SetSlider name="Groin" size="big" value="100"/>
+        <SetSlider name="Groin" size="small" value="50"/>
+        <SetSlider name="Groin size" size="big" value="200"/>
+        <SetSlider name="Groin size" size="small" value="200"/>
+        <SetSlider name="Hipbone" size="big" value="30"/>
+        <SetSlider name="Hipbone" size="small" value="15"/>
+        <SetSlider name="Hips" size="big" value="20"/>
+        <SetSlider name="Hips" size="small" value="10"/>
+        <SetSlider name="Innie outie" size="big" value="0"/>
+        <SetSlider name="Labia Puffyness" size="big" value="0"/>
+        <SetSlider name="Labia pretrude" size="big" value="0"/>
+        <SetSlider name="Labia shape bottom" size="big" value="0"/>
+        <SetSlider name="Labia shape top" size="small" value="100"/>
+        <SetSlider name="Legs" size="small" value="50"/>
+        <SetSlider name="Nipple Puffyness" size="big" value="0"/>
+        <SetSlider name="NippleDown" size="big" value="15"/>
+        <SetSlider name="NippleDown" size="small" value="8"/>
+        <SetSlider name="NippleSize" size="big" value="150"/>
+        <SetSlider name="NippleSize" size="small" value="75"/>
+        <SetSlider name="RoundAss" size="big" value="30"/>
+        <SetSlider name="RoundAss" size="small" value="15"/>
+        <SetSlider name="SOS - Az - Balls Big" size="big" value="100"/>
+        <SetSlider name="SOS - Az - Balls Big" size="small" value="100"/>
+        <SetSlider name="SOS - Az - Balls Flat" size="big" value="-100"/>
+        <SetSlider name="SOS - Az - Balls Flat" size="small" value="-100"/>
+        <SetSlider name="SOS - Az - Balls Symmetry" size="big" value="200"/>
+        <SetSlider name="SOS - Az - Balls Symmetry" size="small" value="200"/>
+        <SetSlider name="SOS - Az - Fat" size="big" value="30"/>
+        <SetSlider name="SOS - Az - Fat" size="small" value="30"/>
+        <SetSlider name="SOS - Az - Girth" size="big" value="70"/>
+        <SetSlider name="SOS - Az - Girth" size="small" value="70"/>
+        <SetSlider name="SOS - Az - Glans Long" size="big" value="100"/>
+        <SetSlider name="SOS - Az - Glans Long" size="small" value="100"/>
+        <SetSlider name="SOS - Az - Glans Wide" size="big" value="30"/>
+        <SetSlider name="SOS - Az - Glans Wide" size="small" value="30"/>
+        <SetSlider name="SOS - Az - Lenght" size="big" value="100"/>
+        <SetSlider name="SOS - Az - Lenght" size="small" value="100"/>
+        <SetSlider name="SOS - Az - Urethra Bulge" size="big" value="100"/>
+        <SetSlider name="SOS - Az - Urethra Bulge" size="small" value="100"/>
+        <SetSlider name="SOS - ERF - Balls 3" size="big" value="-100"/>
+        <SetSlider name="SOS - ERF - Balls 3" size="small" value="-100"/>
+        <SetSlider name="SOS - ERF - Balls 5" size="big" value="-50"/>
+        <SetSlider name="SOS - ERF - Balls 5" size="small" value="-50"/>
+        <SetSlider name="SOS - ERF - Glans 2" size="big" value="100"/>
+        <SetSlider name="SOS - ERF - Glans 2" size="small" value="100"/>
+        <SetSlider name="SOS - ERF - Shape 2" size="big" value="100"/>
+        <SetSlider name="SOS - ERF - Shape 2" size="small" value="100"/>
+        <SetSlider name="Scrotum Tautness" size="big" value="-150"/>
+        <SetSlider name="Scrotum Tautness" size="small" value="-150"/>
+        <SetSlider name="ShoulderSmooth" size="big" value="60"/>
+        <SetSlider name="ShoulderSmooth" size="small" value="60"/>
+        <SetSlider name="SlimThighs" size="big" value="-50"/>
+        <SetSlider name="SlimThighs" size="small" value="-25"/>
+        <SetSlider name="SoS - Girth" size="small" value="200"/>
+        <SetSlider name="SoS - Glans 1" size="small" value="100"/>
+        <SetSlider name="SoS - Glans 2" size="small" value="50"/>
+        <SetSlider name="SoS - Glans 3" size="small" value="100"/>
+        <SetSlider name="SoS - Glans 4" size="big" value="50"/>
+        <SetSlider name="SoS - Length" size="big" value="100"/>
+        <SetSlider name="SoS - Length" size="small" value="50"/>
+        <SetSlider name="SoS - Scrotum 1" size="big" value="100"/>
+        <SetSlider name="SoS - Scrotum 1" size="small" value="100"/>
+        <SetSlider name="SoS - Scrotum 2" size="big" value="100"/>
+        <SetSlider name="SoS - Scrotum 2" size="small" value="100"/>
+        <SetSlider name="SoS - Shape 1" size="small" value="100"/>
+        <SetSlider name="SoS - Shape 2" size="big" value="50"/>
+        <SetSlider name="Testicle Depth" size="big" value="100"/>
+        <SetSlider name="Testicle Depth" size="small" value="100"/>
+        <SetSlider name="Testicle Gravity" size="big" value="60"/>
+        <SetSlider name="Testicle Gravity" size="small" value="60"/>
+        <SetSlider name="Testicle Scale" size="big" value="100"/>
+        <SetSlider name="Testicle Scale" size="small" value="100"/>
+        <SetSlider name="Thighs" size="big" value="50"/>
+        <SetSlider name="Thighs" size="small" value="25"/>
+        <SetSlider name="Waist" size="small" value="50"/>
+        <SetSlider name="clit" size="small" value="100"/>
+    </Preset>
+</SliderPresets>

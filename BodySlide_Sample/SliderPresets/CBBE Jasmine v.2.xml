@@ -1,0 +1,33 @@
+<SliderPresets>
+    <Preset name="CBBE Jasmine v.2" set="CB+">
+        <Group name="CalienteVanillaClothing" />
+        <Group name="CalienteClothing" />
+        <Group name="CalienteVanillaArmor" />
+        <Group name="CalienteArmor" />
+        <SetSlider name="Breasts" size="small" value="100" />
+        <SetSlider name="BreastsSH" size="big" value="100" />
+        <SetSlider name="BreastsSH" size="small" value="100" />
+        <SetSlider name="BreastsSSH" size="big" value="100" />
+        <SetSlider name="BreastsSSH" size="small" value="100" />
+        <SetSlider name="BreastPerkiness" size="big" value="60" />
+        <SetSlider name="BreastPerkiness" size="small" value="40" />
+        <SetSlider name="BreastSag" size="big" value="60" />
+        <SetSlider name="BreastSag" size="small" value="60" />
+        <SetSlider name="BreastCleavage" size="big" value="40" />
+        <SetSlider name="BreastCleavage" size="small" value="40" />
+        <SetSlider name="NippleLength" size="big" value="40" />
+        <SetSlider name="NippleLength" size="small" value="60" />
+        <SetSlider name="Butt" size="small" value="100" />
+        <SetSlider name="BigButt" size="big" value="100" />
+        <SetSlider name="BigButt" size="small" value="100" />
+        <SetSlider name="Waist" size="small" value="100" />
+        <SetSlider name="Back" size="big" value="100" />
+        <SetSlider name="Back" size="small" value="100" />
+        <SetSlider name="Thighs" size="big" value="100" />
+        <SetSlider name="Thighs" size="small" value="100" />
+        <SetSlider name="Legs" size="small" value="100" />
+        <SetSlider name="CalfSize" size="big" value="100" />
+        <SetSlider name="CalfSize" size="small" value="100" />
+        <SetSlider name="Arms" size="small" value="100" />
+    </Preset>
+</SliderPresets>

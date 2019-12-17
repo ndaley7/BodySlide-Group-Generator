@@ -1,0 +1,112 @@
+<SliderPresets>
+    <Preset name="CustomPreset" set="POP CB++ Gatti - BodyJewel">
+        <Group name="NeoOrientalDress" />
+        <Group name="Mak Vanilla - Dawnguard" />
+        <Group name="Mak Standalone - Dawnguard" />
+        <Group name="Mak Armor - Vanilla Replacer" />
+        <Group name="Mak Standalone - Main" />
+        <Group name="Gatti" />
+        <Group name="CBBE Amulets" />
+        <Group name="CB++ Nalim" />
+        <Group name="CB++ MakBoots Replacer" />
+        <Group name="CB++ MakBoots Standalone" />
+        <Group name="CB++ Mak Replacer - Dragonborn" />
+        <Group name="CB++ Mak Standalone - Dragonborn" />
+        <Group name="CB++ Mak Replacer - Dawnguard" />
+        <Group name="CB++ Mak Standalone - Dawnguard" />
+        <Group name="CB++ Mak Replacer - Main" />
+        <Group name="CB++ Mak Standalone - Main" />
+        <Group name="CB++ CVO Retextures" />
+        <Group name="CB++ Caliente&apos;s Tera Armors" />
+        <Group name="CB++ Caliente&apos;s Vanilla Clothes" />
+        <Group name="CB++ Caliente&apos;s Vanilla Armor" />
+        <Group name="CB++ Bikinis" />
+        <Group name="CB++ Bodies" />
+        <Group name="CB++" />
+        <Group name="CalienteVanillaClothing" />
+        <Group name="CalienteClothing" />
+        <Group name="CalienteVanillaSoldier" />
+        <Group name="CalienteSoldier" />
+        <Group name="CalienteVanillaArmor" />
+        <Group name="CalienteArmor" />
+		<Group name="CB++"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Half HDT"/>
+        <Group name="DDX Rubber Suits CBBE"/>
+        <Group name="DDX Transparent Rubber CBBE"/>
+        <Group name="DDX_Heretical"/>
+        <Group name="DDa"/>
+        <Group name="DDx"/>
+        <Group name="Heretical Resources"/>
+        <Group name="Heretical Resources BB cbbe+"/>
+        <SetSlider name="Arms" size="big" value="40" />
+        <SetSlider name="ShoulderSmooth" size="big" value="100" />
+        <SetSlider name="ShoulderSmooth" size="small" value="100" />
+        <SetSlider name="ShoulderWidth" size="big" value="40" />
+        <SetSlider name="ShoulderWidth" size="small" value="0" />
+        <SetSlider name="Breasts" size="big" value="80" />
+        <SetSlider name="BreastsSmall" size="big" value="80" />
+        <SetSlider name="BreastsSmall" size="small" value="40" />
+        <SetSlider name="BreastGravity" size="big" value="20" />
+        <SetSlider name="ButtSmall" size="small" value="40" />
+        <SetSlider name="SlimThighs" size="small" value="20" />
+        <SetSlider name="Legs" size="small" value="40" />
+        <SetSlider name="KneeHeight" size="big" value="20" />
+        <SetSlider name="KneeHeight" size="small" value="20" />
+        <SetSlider name="CalfSmooth" size="big" value="100" />
+        <SetSlider name="CalfSmooth" size="small" value="100" />
+    </Preset>
+    <Preset name="better" set="POP CB++ Gatti - BodyJewel">
+        <Group name="NeoOrientalDress" />
+        <Group name="Mak Vanilla - Dawnguard" />
+        <Group name="Mak Standalone - Dawnguard" />
+        <Group name="Mak Armor - Vanilla Replacer" />
+        <Group name="Mak Standalone - Main" />
+        <Group name="Gatti" />
+        <Group name="CBBE Amulets" />
+        <Group name="CB++ Nalim" />
+        <Group name="CB++ MakBoots Replacer" />
+        <Group name="CB++ MakBoots Standalone" />
+        <Group name="CB++ Mak Replacer - Dragonborn" />
+        <Group name="CB++ Mak Standalone - Dragonborn" />
+        <Group name="CB++ Mak Replacer - Dawnguard" />
+        <Group name="CB++ Mak Standalone - Dawnguard" />
+        <Group name="CB++ Mak Replacer - Main" />
+        <Group name="CB++ Mak Standalone - Main" />
+        <Group name="CB++ CVO Retextures" />
+        <Group name="CB++ Caliente&apos;s Tera Armors" />
+        <Group name="CB++ Caliente&apos;s Vanilla Clothes" />
+        <Group name="CB++ Caliente&apos;s Vanilla Armor" />
+        <Group name="CB++ Bikinis" />
+        <Group name="CB++ Bodies" />
+        <Group name="CB++" />
+        <Group name="CalienteVanillaClothing" />
+        <Group name="CalienteClothing" />
+        <Group name="CalienteVanillaSoldier" />
+        <Group name="CalienteSoldier" />
+        <Group name="CalienteVanillaArmor" />
+        <Group name="CalienteArmor" />
+        <SetSlider name="Arms" size="big" value="40" />
+        <SetSlider name="ShoulderSmooth" size="big" value="100" />
+        <SetSlider name="ShoulderSmooth" size="small" value="100" />
+        <SetSlider name="ShoulderWidth" size="big" value="40" />
+        <SetSlider name="ShoulderWidth" size="small" value="0" />
+        <SetSlider name="Breasts" size="big" value="80" />
+        <SetSlider name="BreastsSmall" size="big" value="80" />
+        <SetSlider name="BreastsSmall" size="small" value="40" />
+        <SetSlider name="BreastGravity" size="big" value="20" />
+        <SetSlider name="ButtSmall" size="small" value="40" />
+        <SetSlider name="SlimThighs" size="small" value="20" />
+        <SetSlider name="Legs" size="small" value="40" />
+        <SetSlider name="KneeHeight" size="big" value="20" />
+        <SetSlider name="KneeHeight" size="small" value="20" />
+        <SetSlider name="CalfSmooth" size="big" value="100" />
+        <SetSlider name="CalfSmooth" size="small" value="100" />
+    </Preset>
+</SliderPresets>
