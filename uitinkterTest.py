@@ -1,19 +1,43 @@
 import tkinter as tk
 import tkinter.ttk as ttk
 
-#Paths listed here for seperate troubleshooting of the module
+#Local Imports
+from BSGG.UtilitiesBSGG.BSCGLogging import BSCGDebugInit
+from BSGG.UtilitiesBSGG.BSCGLogging import LoggingInfoBSCG
+from BSGG.UtilitiesBSGG.FileIO import GetFileList
 
-SliderPresetPath="c:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderPresets"
-SliderGroupPath="c:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderGroups"
 
 class PresetApp:
+    #Init Class Variables
+
+
+    #Debug Init
+    BSCGDebugInit()
+    #Paths listed here for seperate troubleshooting of the module
+
+    sliderPresetPath="c:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderPresets"
+    sliderGroupPath="c:/Users/ndaley/Documents/GitHub/BodySlide-Group-Generator/BodySlide_Sample/SliderGroups"
+
+    #Generate lists of paths to .xml and .osp files in the SliderSet Folder(DEBUG done)
+    LoggingInfoBSCG("PRESET CORE: Reading SliderSet and SliderGroup files")
+    
+    sliderPresetXMLPaths=GetFileList(sliderPresetPath,'*.xml')
+    sliderGroupPaths=GetFileList(sliderGroupPath,'*.xml')
+
     def __init__(self):
-        #Initialize Root
-        self.root = tk.Tk()
+        #Initialize Variables
+        
+
+        #Setup Operations
 
         #Initialize left (Preset) Tree , and right (Group) Tree
 
         #Read in Preset Files and poplulate Left Tree with Preset->List of Groups in Preset
+
+        #Initialize Root And TK Application
+        self.root = tk.Tk()
+
+        
         self.tree = ttk.Treeview()
         self.tree.pack()
         for i in range(10):
