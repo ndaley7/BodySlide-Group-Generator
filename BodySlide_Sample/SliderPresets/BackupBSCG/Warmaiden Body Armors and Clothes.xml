@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderPresets>
+    <Preset name="Warmaiden Body Armors and Clothes" set="CBBE Body HDT">
+        <Group name="Ancient Draugr BBP"/>
+        <Group name="Ancient Draugr CBBE Basic"/>
+        <Group name="Ancient Draugr TBBP"/>
+        <Group name="BD Leather Robes"/>
+        <Group name="Bijin Family"/>
+        <Group name="Bijin Family - HDT"/>
+        <Group name="Bikini Guard Set CBBE"/>
+        <Group name="BkAc - Elven CBBE"/>
+        <Group name="BkAc - Orc CBBE"/>
+        <Group name="CB++"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CBBE Undies"/>
+        <Group name="CBBE Vanilla"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Half HDT"/>
+        <Group name="CT77 Triss"/>
+        <Group name="Charming High Heels (BBP Stockings)"/>
+        <Group name="Charming High Heels (CT77 Stockings)"/>
+        <Group name="Charming High Heels (HDT Stockings)"/>
+        <Group name="Charming High Heels (Normal Stockings)"/>
+        <Group name="Charming High Heels (TBBP Stockings)"/>
+        <Group name="DB Barbarian HDT ALT"/>
+        <Group name="DB Marauder"/>
+        <Group name="DB Marauder Alt"/>
+        <Group name="DragonPlate Brazen Ver2"/>
+        <Group name="DragonPlate Brazen Ver2 HDT"/>
+        <Group name="Dragonbone Barbarian"/>
+        <Group name="Dragonbone Barbarian HDT"/>
+        <Group name="Fancy Dress"/>
+        <Group name="Goma Robes -Replacer-"/>
+        <Group name="Goma Robes -Standalone-"/>
+        <Group name="Hot Pants Bikini Set"/>
+        <Group name="HuntingGroundsOutfit HDT"/>
+        <Group name="Lady of Death"/>
+        <Group name="Nordic Carved Bikini CBBE"/>
+        <Group name="Sexy Demon Hunter"/>
+        <Group name="Sexy Elf Set"/>
+        <Group name="Sexy Robes"/>
+        <Group name="Snow White Armor"/>
+        <Group name="Sotteta Necro CBBE"/>
+        <Group name="Sotteta Necro CBBE BBP"/>
+        <Group name="Sotteta Necro CBBE TBBP"/>
+        <Group name="Thieves Guild Duelist Armor"/>
+        <Group name="Tsuntsun Armor"/>
+        <Group name="Unified UNP"/>
+        <Group name="WWB - Blades CBBE"/>
+        <Group name="WWB - Dragonbone CBBE"/>
+        <Group name="WWB - Dwemer CBBE"/>
+        <Group name="WWB - Ebony CBBE"/>
+        <Group name="WWB - Falmer CBBE"/>
+        <Group name="WWB - Hide CBBE"/>
+        <Group name="WWB - Iron CBBE"/>
+        <Group name="WWB - Leather CBBE"/>
+        <Group name="WWB - Nord Plate CBBE"/>
+        <Group name="WWB - Steel Plate CBBE"/>
+        <Group name="WWB - Wolf CBBE"/>
+        <SetSlider name="Ankles" size="small" value="50"/>
+        <SetSlider name="AppleCheeks" size="big" value="30"/>
+        <SetSlider name="AppleCheeks" size="small" value="15"/>
+        <SetSlider name="Arms" size="small" value="50"/>
+        <SetSlider name="Belly" size="big" value="100"/>
+        <SetSlider name="BreastCleavage" size="big" value="65"/>
+        <SetSlider name="BreastCleavage" size="small" value="33"/>
+        <SetSlider name="BreastFlatness" size="big" value="60"/>
+        <SetSlider name="BreastFlatness" size="small" value="30"/>
+        <SetSlider name="BreastPerkiness" size="big" value="-20"/>
+        <SetSlider name="BreastPerkiness" size="small" value="-10"/>
+        <SetSlider name="BreastWidth" size="big" value="-80"/>
+        <SetSlider name="BreastWidth" size="small" value="-35"/>
+        <SetSlider name="Breasts" size="small" value="50"/>
+        <SetSlider name="BreastsSSH" size="big" value="20"/>
+        <SetSlider name="BreastsSSH" size="small" value="10"/>
+        <SetSlider name="BreastsSmall" size="small" value="50"/>
+        <SetSlider name="Butt" size="big" value="0"/>
+        <SetSlider name="ButtCrack" size="big" value="0"/>
+        <SetSlider name="ButtCrack" size="small" value="0"/>
+        <SetSlider name="ButtShape2" size="big" value="30"/>
+        <SetSlider name="ButtShape2" size="small" value="15"/>
+        <SetSlider name="ButtSmall" size="small" value="50"/>
+        <SetSlider name="CalfSize" size="big" value="40"/>
+        <SetSlider name="CalfSize" size="small" value="20"/>
+        <SetSlider name="CalfSmooth" size="big" value="100"/>
+        <SetSlider name="CalfSmooth" size="small" value="50"/>
+        <SetSlider name="ChubbyArms" size="big" value="50"/>
+        <SetSlider name="ChubbyArms" size="small" value="25"/>
+        <SetSlider name="DoubleMelon" size="big" value="70"/>
+        <SetSlider name="DoubleMelon" size="small" value="35"/>
+        <SetSlider name="Groin" size="big" value="100"/>
+        <SetSlider name="Groin" size="small" value="50"/>
+        <SetSlider name="Hipbone" size="big" value="30"/>
+        <SetSlider name="Hipbone" size="small" value="15"/>
+        <SetSlider name="Hips" size="big" value="20"/>
+        <SetSlider name="Hips" size="small" value="10"/>
+        <SetSlider name="Legs" size="small" value="50"/>
+        <SetSlider name="NippleDown" size="big" value="70"/>
+        <SetSlider name="NippleDown" size="small" value="35"/>
+        <SetSlider name="NippleSize" size="big" value="150"/>
+        <SetSlider name="NippleSize" size="small" value="75"/>
+        <SetSlider name="PushUp" size="big" value="50"/>
+        <SetSlider name="PushUp" size="small" value="25"/>
+        <SetSlider name="RoundAss" size="big" value="30"/>
+        <SetSlider name="RoundAss" size="small" value="15"/>
+        <SetSlider name="ShoulderSmooth" size="big" value="60"/>
+        <SetSlider name="ShoulderSmooth" size="small" value="60"/>
+        <SetSlider name="SlimThighs" size="big" value="-50"/>
+        <SetSlider name="SlimThighs" size="small" value="-25"/>
+        <SetSlider name="Thighs" size="big" value="50"/>
+        <SetSlider name="Thighs" size="small" value="25"/>
+        <SetSlider name="Waist" size="small" value="50"/>
+    </Preset>
+</SliderPresets>

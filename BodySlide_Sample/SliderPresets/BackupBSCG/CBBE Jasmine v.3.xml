@@ -1,0 +1,17 @@
+<SliderPresets>
+    <Preset name="CBBE Jasmine v.3" set="CalienteBody">
+        <Group name="CalienteVanillaClothing" />
+        <Group name="CalienteClothing" />
+        <Group name="CalienteVanillaArmor" />
+        <Group name="CalienteArmor" />
+        <SetSlider name="Breasts" size="small" value="100" />
+        <SetSlider name="BreastsSH" size="big" value="100" />
+        <SetSlider name="BreastsSH" size="small" value="100" />
+        <SetSlider name="BreastsSSH" size="big" value="100" />
+        <SetSlider name="BreastsSSH" size="small" value="100" />
+        <SetSlider name="Butt" size="small" value="100" />
+        <SetSlider name="Waist" size="small" value="100" />
+        <SetSlider name="Legs" size="small" value="100" />
+        <SetSlider name="Arms" size="small" value="100" />
+    </Preset>
+</SliderPresets>

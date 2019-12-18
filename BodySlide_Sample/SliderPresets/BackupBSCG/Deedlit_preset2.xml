@@ -1,0 +1,63 @@
+<SliderPresets>
+    <Preset name="Deedlit_preset" set="CB++ Body TBBP Belly">
+	<Group name="CB++"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Half HDT"/>
+        <Group name="DDX Rubber Suits CBBE"/>
+        <Group name="DDX Transparent Rubber CBBE"/>
+        <Group name="DDX_Heretical"/>
+        <Group name="DDa"/>
+        <Group name="DDx"/>
+        <Group name="Heretical Resources"/>
+        <Group name="Heretical Resources BB cbbe+"/>
+		<Group name="CB++"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Half HDT"/>
+        <Group name="DDX Rubber Suits CBBE"/>
+        <Group name="DDX Transparent Rubber CBBE"/>
+        <Group name="DDX_Heretical"/>
+        <Group name="DDa"/>
+        <Group name="DDx"/>
+        <Group name="Heretical Resources"/>
+        <Group name="Heretical Resources BB cbbe+"/>
+        <SetSlider name="Arms" size="big" value="20" />
+        <SetSlider name="Arms" size="small" value="20" />
+        <SetSlider name="ShoulderWidth" size="big" value="65" />
+        <SetSlider name="ShoulderWidth" size="small" value="65" />
+        <SetSlider name="BreastsSH" size="big" value="25" />
+        <SetSlider name="BreastsSSH" size="big" value="25" />
+        <SetSlider name="BreastsFantasy" size="big" value="40" />
+        <SetSlider name="BreastsFantasy" size="small" value="10" />
+        <SetSlider name="BreastCleavage" size="big" value="69" />
+        <SetSlider name="BreastCleavage" size="small" value="45" />
+        <SetSlider name="BreastFlatness" size="big" value="40" />
+        <SetSlider name="BreastGravity" size="big" value="49" />
+        <SetSlider name="BreastGravity" size="small" value="40" />
+        <SetSlider name="BreastPerkiness" size="big" value="100" />
+        <SetSlider name="BreastPerkiness" size="small" value="80" />
+        <SetSlider name="NipplePerkiness" size="big" value="100" />
+        <SetSlider name="NipplePerkiness" size="small" value="80" />
+        <SetSlider name="NippleSize" size="big" value="60" />
+        <SetSlider name="NippleSize" size="small" value="60" />
+        <SetSlider name="Waist" size="big" value="15" />
+        <SetSlider name="Waist" size="small" value="15" />
+        <SetSlider name="Belly" size="big" value="25" />
+        <SetSlider name="Belly" size="small" value="25" />
+        <SetSlider name="Butt" size="big" value="0" />
+        <SetSlider name="AppleCheeks" size="big" value="30" />
+        <SetSlider name="AppleCheeks" size="small" value="30" />
+        <SetSlider name="Legs" size="big" value="0" />
+    </Preset>
+</SliderPresets>

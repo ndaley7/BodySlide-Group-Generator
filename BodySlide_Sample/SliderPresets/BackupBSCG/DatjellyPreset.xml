@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderPresets>
+    <Preset name="DatjellyPreset" set="CBBE Body">
+        <Group name="Angel Vixen Armor [HDT]"/>
+        <Group name="CB++"/>
+        <Group name="CBAdvanced"/>
+        <Group name="CBBE Bodies"/>
+        <Group name="CBBE Undies"/>
+        <Group name="CBBE Vanilla"/>
+        <Group name="CT77 Armor"/>
+        <Group name="CT77 Bonus"/>
+        <Group name="CT77 Clothes"/>
+        <Group name="CT77 Dawnguard"/>
+        <Group name="CT77 Dragonborn"/>
+        <Group name="CT77 Half HDT"/>
+        <Group name="DDX Rubber Suits CBBE"/>
+        <Group name="DDX Transparent Rubber CBBE"/>
+        <Group name="DDX_Heretical"/>
+        <Group name="DDa"/>
+        <Group name="DDx"/>
+        <Group name="Heretical Resources BB cbbe+"/>
+        <Group name="Lingerie Set [HDT]"/>
+        <Group name="Nova CatSuit [HDT or NO HDT]"/>
+        <Group name="Piercings AH1"/>
+        <Group name="Piercings Newmiller"/>
+        <Group name="Piercings SED7"/>
+        <Group name="R18PN 08 BodySlide Conversion HDT 2.5"/>
+        <Group name="See-through Dress"/>
+        <Group name="SweetPea"/>
+        <Group name="SweetPeaHDT"/>
+        <Group name="Unified UNP"/>
+        <Group name="Unified UNP HDT"/>
+        <SetSlider name="AppleCheeks" size="big" value="30"/>
+        <SetSlider name="Arms" size="big" value="135"/>
+        <SetSlider name="Back" size="big" value="15"/>
+        <SetSlider name="Belly" size="big" value="15"/>
+        <SetSlider name="Belly" size="small" value="-15"/>
+        <SetSlider name="BigButt" size="big" value="60"/>
+        <SetSlider name="Breasts" size="small" value="100"/>
+        <SetSlider name="CalfSize" size="big" value="120"/>
+        <SetSlider name="CalfSize" size="small" value="-15"/>
+        <SetSlider name="NippleAreola" size="big" value="-35"/>
+        <SetSlider name="NippleDown" size="big" value="15"/>
+        <SetSlider name="NippleSize" size="big" value="50"/>
+        <SetSlider name="RoundAss" size="big" value="20"/>
+        <SetSlider name="ShoulderWidth" size="big" value="70"/>
+        <SetSlider name="ShoulderWidth" size="small" value="30"/>
+        <SetSlider name="SlimThighs" size="small" value="35"/>
+        <SetSlider name="Thighs" size="big" value="65"/>
+        <SetSlider name="TummyTuck" size="small" value="35"/>
+        <SetSlider name="Waist" size="big" value="-5"/>
+        <SetSlider name="Waist" size="small" value="-15"/>
+        <SetSlider name="WideWaistLine" size="small" value="-15"/>
+    </Preset>
+</SliderPresets>

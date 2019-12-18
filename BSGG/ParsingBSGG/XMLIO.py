@@ -49,7 +49,40 @@ def str_to_bool(s):
          return True
     elif s == 'False':
          return False
+#This function accepts a full Path .xml SliderGroup File.  Used to assemble (GroupFile,Group,Outfit)Tuple List
+#For use in the PresetApp TreeView (RIGHT)
+def ParseSliderGroupXML(fileWithPath):
+    
+    #Variables
+    fileListing=[]
+    presetTreeGroupTuple=[]
+    outfitCount=0
+    fileoutfitCount=0
+    #Load in XML Tree 
+    LoggingInfoBSCG("PRESET PARSE FILE: XML File: "+ os.path.basename(fileWithPath)) 
+    parser = ET.XMLParser(remove_comments=True)
+    tree = ET.parse(fileWithPath,parser=parser) 
+    root = tree.getroot()
 
+    #Parse through every <Group> tag
+    for group in root.findall('Group'):
+        #g_bodyslideGroupedOutfitsOnly.add(group.name)
+        #Parse every <Member> tag
+        groupName=group.get('name')
+        fileoutfitCount=0
+
+        for member in group.findall('Member'):
+            #Add Group and Member to a Tuple (Python) containing both values
+            memberName=member.get('name')
+            outfitGroupMember=(os.path.basename(fileWithPath),groupName,memberName)
+            presetTreeGroupTuple.append(outfitGroupMember)
+
+            
+        #Summarized Readout of file contents 
+        print(groupName+" contains "+str(fileoutfitCount)+" Grouped Outfits")
+    LoggingInfoBSCG("PRESET PARSE FILE: "+ str(outfitCount)+ " Outfits added to Pre-Grouped List")
+
+    return presetTreeGroupTuple
 
 #Accepts an XML format file with full path and checks for the presence of the XML encoding at the beginning of the document.
 #Assuming encoding: for windows 10
