@@ -72,7 +72,10 @@ class PresetApp:
    
 
     def CreateGroupTreeview(self,PresetGroupTuple):
+        #init
+        GroupTreeiviewStatus=False
 
+        
         return GroupTreeiviewStatus
     
     #Original __init__ for reference
